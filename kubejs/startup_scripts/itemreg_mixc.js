@@ -5,5 +5,6 @@ StartupEvents.registry("item",event=>{
     event.create("gas_hydrate","basic")
     event.create("graphene","basic")
     event.create("dusts_titanium","basic")
+    event.create("tungsten_ingot","basic")
 
 })

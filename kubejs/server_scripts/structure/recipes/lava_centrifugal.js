@@ -311,7 +311,7 @@ MMEvents.createProcesses(event => {
             type: "mm:output/simple",
             ingredient: {
                 type: "mm:item",
-                item: 'etshtinker:tungsten_ingot',
+                item: 'kubejs:tungsten_ingot',
                 count: 2
             }
         })

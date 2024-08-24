@@ -180,7 +180,7 @@ MMEvents.createProcesses(event => {
             chance:0.75,
             ingredient: {
                 type: "mm:item",
-                item: "etshtinker:tungsten_ingot",
+                item: "kubejs:tungsten_ingot",
                 count: 1
             }
         })

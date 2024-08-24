@@ -40,7 +40,7 @@ ServerEvents.tags('item', event => {
     //添加钛粉标签
     event.add('forge:dusts/titanium', 'kubejs:titanium_dust')
     //添加钨的标签
-    event.add('forge:ingots/tungsten', 'etshtinker:tungsten_ingot')
+    event.add('forge:ingots/tungsten', 'kubejs:tungsten_ingot')
 
 })
 //添加方块标签

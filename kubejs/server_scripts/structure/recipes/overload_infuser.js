@@ -733,7 +733,7 @@ MMEvents.createProcesses(event => {
             type: "mm:input/consume",
             ingredient: {
                 type: "mm:item",
-                item: "etshtinker:tungsten_ingot",
+                item: "kubejs:tungsten_ingot",
                 count: 1
             }
         }).input({
