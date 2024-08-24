@@ -44,7 +44,7 @@ config/inventoryprofilesnext
 /Xaero*
 ct.*
 enigmatic_persistence.*
-patchouli*
+patchouli_data.json
 rhino.local.properties
 user*
 tic4.jar
