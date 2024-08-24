@@ -49,3 +49,9 @@ rhino.local.properties
 user*
 tic4.jar
 tic4.json
+
+
+config/oculus.properties
+config/patchouli-client.toml
+config/xaerominimap_entities.json
+options.txt
