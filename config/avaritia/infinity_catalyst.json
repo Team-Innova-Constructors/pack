@@ -1,0 +1,65 @@
+{
+    "type": "avaritia:infinity_catalyst_craft",
+    "category": "misc",
+    "ingredients": [
+      {
+        "item": " thermal:lumium_block "
+      },
+      {
+        "item": " thermal:signalum_block "
+      },
+      {
+        "item": " thermal:enderium_block "
+      },
+      {
+        "item": " avaritia:cosmic_meatballs "
+      },
+      {
+        "item": " avaritia:ultimate_stew "
+      },
+      {
+        "item": " biomancy:nutrient_bar "
+      },
+      {
+        "item": " botania:terrasteel_block "
+      },
+      {
+        "item": " botania:elementium_block "
+      },
+      {
+        "item": " mythicbotany:alfsteel_block "
+      },
+      {
+        "item": " tinkerscalibration:mangobberslime_ingot "
+      },
+      {
+        "item": " tinkers_ingenuity:sea_dream_ingot "
+      },
+      {
+        "item": " etshtinker:exo_alloy "
+      },
+      {
+        "item": " etshtinker:protonium "
+      },
+      {
+        "item": " avaritia:neutron_ingot "
+      },
+      {
+        "item": " projecte:dark_matter "
+      },
+      {
+        "item": "avaritia:neutron_ingot"
+      }
+    ]
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

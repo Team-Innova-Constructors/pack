@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 90,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "output": "tinkers_reforged:titanium",
+  "temperature": 1300
+}

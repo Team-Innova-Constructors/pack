@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 250,
+      "fluid": "tconstruct:molten_ender"
+    },
+    {
+      "amount": 90,
+      "fluid": "kubejs:zirconium_fluid"
+    },
+    {
+      "amount": 90,
+      "fluid": "tinkers_reforged:kepu"
+    }
+  ],
+  "result": {
+    "amount": 90,
+    "fluid": "tinkers_reforged:tiberium"
+  },
+  "temperature": 2000
+}

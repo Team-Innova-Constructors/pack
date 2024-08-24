@@ -1,0 +1,31 @@
+{
+    "type": "mythicbotany:infuser",
+    "fromColor": 5592447,
+    "group": "infuser",
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "tinkerscalibration:witherium_ingot"
+      },
+      {
+        "item": "tinkerscalibration:witherium_ingot"
+      },
+      {
+        "item": "tinkers_ingenuity:orichalcum_ingot"
+      },
+      {
+        "item": "iceandfire:dread_shard"
+      },
+      {
+        "item": "iceandfire:dread_shard"
+      }
+    ],
+    "mana": 1000000,
+    "output": {
+      "count": 1,
+      "item": "dreadsteel:dreadsteel_ingot"
+    },
+    "toColor": 14561819
+  }

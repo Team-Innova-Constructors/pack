@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/protonium_infuse_port_output"
+    }
+  }
+}

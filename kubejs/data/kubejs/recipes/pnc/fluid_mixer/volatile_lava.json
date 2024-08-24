@@ -1,0 +1,22 @@
+{
+  "type": "pneumaticcraft:fluid_mixer",
+  "fluid_output": {
+    "amount": 4000,
+    "fluid": "kubejs:volatile_lava"
+  },
+  "input1": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 16000,
+    "fluid": "minecraft:lava"
+  },
+  "input2": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 4000,
+    "fluid": "tconstruct:molten_glass"
+  },
+  "item_output": {
+    "item": "thermal:rich_slag_block"
+  },
+  "pressure": 2.0,
+  "time": 80
+}

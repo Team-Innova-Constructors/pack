@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:ore_melting",
+  "conditions": [
+    {
+      "type": "tconstruct:tag_intersection_present",
+      "registry": "minecraft:item",
+      "tags": [
+        "forge:ores/zirconium",
+        "forge:ore_rates/sparse"
+      ]
+    }
+  ],
+  "ingredient": {
+    "type": "forge:intersection",
+    "children": [
+      {
+        "tag": "forge:ores/zirconium"
+      },
+      {
+        "tag": "forge:ore_rates/sparse"
+      }
+    ]
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 90,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "temperature": 1300,
+  "time": 112
+}

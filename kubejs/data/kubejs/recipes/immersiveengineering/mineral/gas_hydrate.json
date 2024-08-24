@@ -1,0 +1,36 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "dimensions": [
+      "ad_astra:glacio"
+    ],
+    "fail_chance": 0.0,
+    "ores": [
+      {
+        "chance": 0.75,
+        "output": {
+          "item": "kubejs:gas_hydrate"
+        }
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "ad_astra:glacio_ice_shard_ore"
+        }
+      }
+    ],
+    "spoils": [
+      {
+        "chance": 0.4,
+        "output": {
+          "item": "ad_astra:permafrost"
+        }
+      },
+      {
+        "chance": 0.6,
+        "output": {
+          "item": "ad_astra:glacio_stone"
+        }
+      }
+    ],
+    "weight": 15
+  }

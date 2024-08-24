@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/protonium_item_port_output"
+    }
+  }
+}

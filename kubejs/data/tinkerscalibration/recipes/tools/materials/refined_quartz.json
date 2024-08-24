@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_quartz",
+      "amount": 300
+    },
+    {
+      "name": "tconstruct:molten_diamond",
+      "amount": 100
+    }
+  ],
+  "result": {
+    "fluid": "tinkerscalibration:moltenrefinedquartz",
+    "amount": 300
+  },
+  "temperature": 1200
+}

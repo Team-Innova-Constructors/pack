@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/neutronium_charger_medium",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/neutronium_charger_medium",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/neutronium_charger_medium"
+    },
+    "facing=west": {
+      "model": "mm:block/neutronium_charger_medium",
+      "y": 90
+    }
+  }
+}

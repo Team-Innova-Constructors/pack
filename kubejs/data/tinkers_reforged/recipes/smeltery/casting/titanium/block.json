@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cooling_time": 225,
+  "fluid": {
+    "amount": 810,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "result": "tinkers_reforged:titanium_block"
+}

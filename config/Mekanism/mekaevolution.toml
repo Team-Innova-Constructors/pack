@@ -1,0 +1,50 @@
+
+#Universal Cables
+[mekaevolution]
+	#Internal buffer in Joules of each 'TIER' universal cable
+	absoluteUniversalCable = "65536000"
+	#Internal buffer in Joules of each 'TIER' universal cable
+	supremeUniversalCable = "524288000"
+	#Internal buffer in Joules of each 'TIER' universal cable
+	cosmicUniversalCable = "4194304000"
+	#Internal buffer in Joules of each 'TIER' universal cable
+	infiniteUniversalCable = "33554432000"
+
+	#Mechanical Pipes
+	[mekaevolution.mekaevolution]
+		#Capacity of 'TIER' mechanical pipes in mB.
+		absoluteMechanicalPipesCapacity = "512000"
+		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		absoluteMechanicalPipesPullAmount = "128000"
+		#Capacity of 'TIER' mechanical pipes in mB.
+		supremeMechanicalPipesCapacity = "2048000"
+		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		supremeMechanicalPipesPullAmount = "512000"
+		#Capacity of 'TIER' mechanical pipes in mB.
+		cosmicMechanicalPipesCapacity = "8192000"
+		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		cosmicMechanicalPipesPullAmount = "2048000"
+		#Capacity of 'TIER' mechanical pipes in mB.
+		infiniteMechanicalPipesCapacity = "32768000"
+		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		infiniteMechanicalPipesPullAmount = "8192000"
+
+		#Logistical Transporters
+		[mekaevolution.mekaevolution.mekaevolution]
+			#Five times the travel speed in m/s of 'TIER' logistical transporter.
+			absoluteLogisticalTransporterSpeed = "100"
+			#Item throughput rate of 'TIER' logistical transporters in items/half second.
+			absoluteLogisticalTransporterPullAmount = "128"
+			#Five times the travel speed in m/s of 'TIER' logistical transporter.
+			supremeLogisticalTransporterSpeed = "200"
+			#Item throughput rate of 'TIER' logistical transporters in items/half second.
+			supremeLogisticalTransporterPullAmount = "256"
+			#Five times the travel speed in m/s of 'TIER' logistical transporter.
+			cosmicLogisticalTransporterSpeed = "400"
+			#Item throughput rate of 'TIER' logistical transporters in items/half second.
+			cosmicLogisticalTransporterPullAmount = "512"
+			#Five times the travel speed in m/s of 'TIER' logistical transporter.
+			infiniteLogisticalTransporterSpeed = "800"
+			#Item throughput rate of 'TIER' logistical transporters in items/half second.
+			infiniteLogisticalTransporterPullAmount = "1024"
+

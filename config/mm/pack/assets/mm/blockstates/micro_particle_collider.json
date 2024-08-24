@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/micro_particle_collider",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/micro_particle_collider",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/micro_particle_collider"
+    },
+    "facing=west": {
+      "model": "mm:block/micro_particle_collider",
+      "y": 90
+    }
+  }
+}

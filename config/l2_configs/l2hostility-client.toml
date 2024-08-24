@@ -1,0 +1,26 @@
+#Render Traits in name plate form
+showTraitOverHead = true
+#Render mob level in name plate form
+showLevelOverHead = true
+#Name plate render distance
+#Range: 0 ~ 128
+overHeadRenderDistance = 32
+#Name plate render offset in lines, upward is positive
+#Range: -100.0 ~ 100.0
+overHeadRenderOffset = 0.0
+#Overhead render text becomes full bright
+overHeadRenderFullBright = true
+#Overhead level color in decimal form, converted from hex form
+#Range: > -2147483648
+overHeadLevelColor = 11184810
+#Show nameplate style trait and name only when hovered
+showOnlyWhenHovered = false
+#Detector Glasses glowing range for hidden mobs
+#Range: 1 ~ 256
+glowingRangeHidden = 32
+#Detector Glasses glowing range for nearby mobs
+#Range: 1 ~ 256
+glowingRangeNear = 16
+#Render undying particles
+showUndyingParticles = true
+

@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:sheetmetals/titanium"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:sheetmetals/titanium"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "temperature": 1300,
+  "time": 75
+}

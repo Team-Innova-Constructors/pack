@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:ore_melting",
+  "conditions": [
+    {
+      "type": "tconstruct:tag_difference_present",
+      "base": "forge:ores/zirconium",
+      "registry": "minecraft:item",
+      "subtracted": [
+        "forge:ore_rates/sparse",
+        "forge:ore_rates/dense"
+      ]
+    }
+  ],
+  "ingredient": {
+    "type": "forge:difference",
+    "base": {
+      "tag": "forge:ores/zirconium"
+    },
+    "subtracted": [
+      {
+        "tag": "forge:ore_rates/sparse"
+      },
+      {
+        "tag": "forge:ore_rates/dense"
+      }
+    ]
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 180,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "temperature": 1300,
+  "time": 187
+}

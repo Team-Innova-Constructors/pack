@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_zirconium"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 810,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "temperature": 1300,
+  "time": 449
+}

@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/rod"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/titanium"
+      }
+    }
+  ],
+  "cooling_time": 53,
+  "fluid": {
+    "amount": 45,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "result": {
+    "tag": "forge:rods/titanium"
+  }
+}

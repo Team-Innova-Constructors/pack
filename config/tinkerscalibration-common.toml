@@ -1,0 +1,320 @@
+
+#Titanium Ore Worldgen
+[titanium_ore]
+	#Enable/Disable Titanium ore
+	titaniumOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 20
+	maxY = -10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Altairium Ore Worldgen
+[altairium_ore]
+	#Enable/Disable Altairium ore
+	altairiumOreEnabled = true
+	#Min Y level
+	#Range: -10 ~ 50
+	minY = 10
+	#Max Y Level
+	#Range: 20 ~ 60
+	maxY = 30
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Halleium Ore Worldgen
+[halleium_ore]
+	#Enable/Disable Halleium ore
+	halleiumOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 20
+	maxY = -10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Hothium Ore Worldgen
+[hothium_ore]
+	#Enable/Disable Hothium ore
+	hothiumOreEnabled = true
+	#Min Y level
+	#Range: -10 ~ 50
+	minY = 10
+	#Max Y Level
+	#Range: 40 ~ 90
+	maxY = 60
+	#Ore vein count
+	#Range: 10 ~ 50
+	veinCount = 30
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 5
+
+#Immersed Silver Ore Worldgen
+[immersedsilver_ore]
+	#Enable/Disable ImmersedSilver ore
+	immersedSilverOreEnabled = true
+	#Min Y level
+	#Range: 10 ~ 50
+	minY = 30
+	#Max Y Level
+	#Range: 20 ~ 70
+	maxY = 40
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Inert Witherium Ore Worldgen
+[inertwitherium_ore]
+	#Enable/Disable Inertwitherium ore
+	inertwitheriumOreEnabled = true
+	#Min Y level
+	#Range: 0 ~ 60
+	minY = 5
+	#Max Y Level
+	#Range: 2 ~ 85
+	maxY = 10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 8
+	#Ore vein size
+	#Range: 1 ~ 7
+	veinSize = 3
+
+#Steamium Ore Worldgen
+[steamium_ore]
+	#Enable/Disable Steamium ore
+	steamiumOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 20
+	maxY = -10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Stellarium Ore Worldgen
+[stellarium_ore]
+	#Enable/Disable Stellarium ore
+	stellariumOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 20
+	maxY = -10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Magiga Ore Worldgen
+[magiga_ore]
+	#Enable/Disable Magiga ore
+	magigaOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 20
+	maxY = -10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Tonium Ore Worldgen
+[tonium_ore]
+	#Enable/Disable Tonium ore
+	toniumOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 20
+	maxY = -10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Corundum Ore Worldgen
+[corundum_ore]
+	#Enable/Disable Corundum ore
+	corundumOreEnabled = true
+	#Min Y level
+	#Range: -30 ~ 0
+	minY = -10
+	#Max Y Level
+	#Range: 0 ~ 30
+	maxY = 10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Aventurine Ore Worldgen
+[aventurine_ore]
+	#Enable/Disable Aventurine ore
+	aventurineOreEnabled = true
+	#Min Y level
+	#Range: 10 ~ 40
+	minY = 30
+	#Max Y Level
+	#Range: 50 ~ 90
+	maxY = 70
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 10
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 8
+
+#Vibrating Crystal Ore Worldgen
+[vibrating_crystal_ore]
+	#Enable/Disable Vibrating Crystal ore
+	vibratingcrystalOreEnabled = true
+	#Min Y level
+	#Range: -50 ~ -10
+	minY = -30
+	#Max Y Level
+	#Range: -10 ~ 10
+	maxY = 0
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Talcum Ore Worldgen
+[talcum_ore]
+	#Enable/Disable Talcum ore
+	talcumOreEnabled = true
+	#Min Y level
+	#Range: 20 ~ 50
+	minY = 40
+	#Max Y Level
+	#Range: 60 ~ 120
+	maxY = 90
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 8
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 5
+
+#Spinel Ore Worldgen
+[spinel_ore]
+	#Enable/Disable Spinel ore
+	spinelOreEnabled = true
+	#Min Y level
+	#Range: -30 ~ 0
+	minY = -10
+	#Max Y Level
+	#Range: 0 ~ 30
+	maxY = 10
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Nitre Ore Worldgen
+[nitre_ore]
+	#Enable/Disable Nitre ore
+	nitreOreEnabled = true
+	#Min Y level
+	#Range: 10 ~ 50
+	minY = 30
+	#Max Y Level
+	#Range: 60 ~ 90
+	maxY = 70
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 15
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Tourmaline Ore Worldgen
+[tourmaline_ore]
+	#Enable/Disable Tourmaline ore
+	tourmalineOreEnabled = true
+	#Min Y level
+	#Range: -40 ~ 0
+	minY = -20
+	#Max Y Level
+	#Range: 0 ~ 30
+	maxY = 20
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#World generation, mainly geodes
+[worldgen]
+	#If true, iceland spar geodes generate in icy biomes.
+	iceland_spar = true
+	#If true, topaz geodes generate at the bottom of the sea.
+	topaz = true
+	#If true, lizanite geodes generate in the overworld.
+	lizanite = true
+	#If true, cordierite geodes generate in the overworld.
+	cordierite = true
+	#If true, prehnite geodes generate in the overworld.
+	prehnite = true
+
+#Opal Ore Worldgen
+[opal_ore]
+	#Enable/Disable Opal ore
+	opalOreEnabled = true
+	#Min Y level
+	#Range: 10 ~ 50
+	minY = 30
+	#Max Y Level
+	#Range: 60 ~ 90
+	maxY = 70
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 15
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+

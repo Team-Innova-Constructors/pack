@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.zirconium",
+  "colors": [
+    "f5f18e",
+    "9e8d3e"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "tinkers_reforged:titanium_ingot"
+  }
+}

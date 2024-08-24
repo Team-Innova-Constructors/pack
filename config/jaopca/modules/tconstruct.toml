@@ -1,0 +1,9 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["red_beryl", "regalium", "hureaulite", "epidote", "ostrum", "kepu", "utherium", "calorite", "froststeel", "ironwood", "desh", "cloggrum"]
+
+[recipes]
+	#Should the module only add recipes for materials with JAOPCA molten fluids.
+	jaopcaOnly = false
+

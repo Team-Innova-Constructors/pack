@@ -1,0 +1,20 @@
+{
+    "name": "singularity.avaritia.zinc",
+    "colors": [
+      "c0c1bb",
+      "a1a29d"
+    ],
+    "timeRequired": 240,
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "tag": "forge:ingots/zinc",
+          "type": "forge:tag_empty"
+        }
+      }
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/zinc"
+    }
+  }

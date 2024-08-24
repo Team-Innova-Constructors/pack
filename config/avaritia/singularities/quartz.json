@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.quartz",
+  "colors": [
+    "cdd1c0",
+    "abafa1"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "minecraft:quartz"
+  }
+}

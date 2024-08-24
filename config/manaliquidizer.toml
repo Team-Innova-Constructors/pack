@@ -1,0 +1,22 @@
+
+["Mana to Fluid ratio (Mana -> First Number, Fluid -> Second Number)"]
+	#Keep both of these values 1 if you want the trasnformation to be lossless, change if you want otherwise.
+	#The first number of the mana to fluid ratio, indicates the mana
+	#Range: 1.0 ~ 1.7976931348623157E308
+	ratio_antecedent = 1.0
+	#The second number of the mana to fluid ratio, indicates the fluid
+	#Range: 1.0 ~ 1.7976931348623157E308
+	ratio_consequent = 1.0
+
+["Misc configs"]
+	#Basically stuff that will mostly never get used but nice to have!
+	#(DOESN'T WORK YET) Please, do NOT be a dummy while changing this, use a site to convert an 8 digit hexcode to an int, for example this (Take the decimal number) : https://www.rapidtables.com/convert/number/hex-to-decimal.html
+	#Range: > -2147483648
+	manaFluidHexCode = -15695617
+	#Change this to change the fluid outputted from the mana liquidizer and/or needed to be inputted to make the mana
+	manaFluidReplacement = "manaliquidizer:mana_fluid"
+	#Set this to true if you want a one way route of the mana liquidizer, i.e converting mana to fluid, but not back. Please change oneWayMode to make the route work the way you want
+	isOneWayOnly = false
+	#(Requires isOneWayOnly to be true), Change this to fluidToManaOnly to allow conversion from fluid to mana ONLY, or keep it manaToFluidOnly for the opposite
+	oneWayMode = "manaToFluidOnly"
+

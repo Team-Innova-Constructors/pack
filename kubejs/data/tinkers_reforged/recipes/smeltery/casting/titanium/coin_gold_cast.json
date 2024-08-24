@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/coin"
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:coins/titanium"
+      }
+    }
+  ],
+  "cooling_time": 43,
+  "fluid": {
+    "amount": 30,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "result": {
+    "tag": "forge:coins/titanium"
+  }
+}

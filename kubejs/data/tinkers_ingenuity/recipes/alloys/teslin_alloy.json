@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_cobalt",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_nickel",
+      "amount": 360
+    },
+    {
+      "name": "tconstruct:molten_ender",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_teslin_alloy",
+    "amount": 90
+  },
+  "temperature": 1500
+}

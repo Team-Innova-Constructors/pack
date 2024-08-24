@@ -1,0 +1,49 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+config/blockswap
+config/inventoryprofilesnext
+/resourcepacks
+/logs
+/PCL
+/saves
+/shaderpacks
+/screenshots
+/ct-natives
+/crash-reports
+.vscode
+/defaultconfigs
+/lightspeed-cache
+/local
+/localconfigs
+/pachouli_books
+/thingpacks
+/Xaero*
+ct.*
+enigmatic_persistence.*
+patchouli*
+rhino.local.properties
+user*

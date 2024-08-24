@@ -1,0 +1,95 @@
+MMEvents.createProcesses(event => {
+    //钚和钋
+    event.create("mm:plutonium_from_neut")
+        .structureId("mm:micro_particle_collider")
+        .ticks(10)
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                tag: "forge:storage_blocks/uranium",
+                count: 1
+            }
+        }).input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "avaritia:neutron_nugget",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:mekanism/gas",
+                gas:"mekanism:hydrofluoric_acid",
+                amount: 1000
+            }
+        }).input({
+            type: "mm:input/consume",
+            per_tick:true,
+            ingredient: {
+                type: "mm:energy",
+                amount: 96000000
+            }
+        })
+        .output({
+            type: "mm:output/simple",
+            ingredient: {
+                type: "mm:mekanism/gas",
+                gas:"mekanism:plutonium",
+                amount: 1000
+            }
+        })
+
+    event.create("mm:polonium_from_neut")
+        .structureId("mm:micro_particle_collider")
+        .ticks(10)
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                tag: "forge:storage_blocks/uranium",
+                count: 1
+            }
+        }).input({
+            type: "mm:input/consume",
+            chance:0.01,
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:protonium",
+                count: 1
+            }
+        }).input({
+            type: "mm:input/consume",
+            chance:0.001,
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:electronium",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:mekanism/gas",
+                gas:"mekanism:hydrofluoric_acid",
+                amount: 1000
+            }
+        }).input({
+            type: "mm:input/consume",
+            per_tick:true,
+            ingredient: {
+                type: "mm:energy",
+                amount: 96000000
+            }
+        })
+        .output({
+            type: "mm:output/simple",
+            ingredient: {
+                type: "mm:mekanism/gas",
+                gas:"mekanism:polonium",
+                amount: 1000
+            }
+        })
+})

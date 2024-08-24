@@ -1,0 +1,282 @@
+{  
+  "replace": false,
+  "parts": [
+    {
+      "path": "tinkers_ingenuity:item/tool/tinker_ring/curio_extra",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/tinker_ring/ring_circle",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/lograzor/small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/lograzor/broken_small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/lograzor/tough_handle",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/lograzor/tool_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/blowpipe/tube",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/blowpipe/broken_tube",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/blowpipe/extra",
+      "stat_type": "tconstruct:bowstring"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/blowpipe/mouthpiece",
+      "stat_type": "tconstruct:limb"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/halberd/small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/halberd/broken_small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/halberd/tough_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/halberd/tool_binding",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/halberd/large_plate",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bigsickle/broad_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bigsickle/broken_broad_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bigsickle/tough_handle_2",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bigsickle/large_plate",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bigsickle/tough_handle_1",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battleaxe/broad_axe_head_1",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battleaxe/broad_axe_head_2",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battleaxe/broken_broad_axe_head_2",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battleaxe/tough_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battleaxe/tool_binding",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/hammer/hammer_head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/hammer/small_blade",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/hammer/broken_small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/hammer/large_plate",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/hammer/tough_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/mouthpiece/mouthpiece",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bowieknife/small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bowieknife/broken_small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bowieknife/tool_binding",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/bowieknife/tool_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battlesign/sign_plate",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battlesign/broken_sign_plate",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battlesign/tool_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/shuriken/blade_1",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/shuriken/blade_2",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/shuriken/blade_3",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/shuriken/blade_4",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/gscore/gscore",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/laser_medium/laser_medium",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/battery/battery",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/barrel/barrel",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/laser_gun/barrel",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/laser_gun/broken_barrel",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/laser_gun/laser_medium",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/laser_gun/battery",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/laser_gun/tough_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/greatsword/broad_blade_1",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/greatsword/broad_blade_2",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/greatsword/broken_broad_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/greatsword/gscore",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/greatsword/large_plate",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/greatsword/tough_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/rapier/small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/rapier/broken_small_blade",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/rapier/large_plate",
+      "stat_type": "tconstruct:binding"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/rapier/tool_handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/limb",
+      "stat_type": "tconstruct:limb"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/extra_limb",
+      "stat_type": "tconstruct:limb"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/grip",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/broken_bowstring",
+      "stat_type": "tconstruct:bowstring"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/bowstring",
+      "stat_type": "tconstruct:bowstring"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/bowstring_1",
+      "stat_type": "tconstruct:bowstring"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/bowstring_2",
+      "stat_type": "tconstruct:bowstring"
+    },
+    {
+      "path": "tinkers_ingenuity:item/tool/heavy_crossbow/bowstring_3",
+      "stat_type": "tconstruct:bowstring"
+    }
+  ]
+
+}

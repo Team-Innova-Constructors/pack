@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/plate"
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/zirconium"
+      }
+    }
+  ],
+  "cooling_time": 75,
+  "fluid": {
+    "amount": 90,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "result": {
+    "tag": "forge:plates/zirconium"
+  }
+}

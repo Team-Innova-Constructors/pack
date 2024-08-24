@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/fisson_neutron_activator",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/fisson_neutron_activator",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/fisson_neutron_activator"
+    },
+    "facing=west": {
+      "model": "mm:block/fisson_neutron_activator",
+      "y": 90
+    }
+  }
+}

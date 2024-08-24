@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+      "item": "avaritia:neutron_nugget"
+    },
+    "result": {
+      "amount": 10,
+      "fluid": "tinkers_ingenuity:molten_neutronium"
+    },
+    "temperature": 4750,
+    "time": 60
+}

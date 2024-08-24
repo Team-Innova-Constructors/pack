@@ -1,0 +1,6 @@
+{
+  "itemGroup.manaliquidizer" : "魔力液化器",
+  "block.manaliquidizer.mana_liquidizer" : "魔力液化器",
+  "fluid_type.manaliquidizer.mana_fluid" : "液体魔力",
+  "item.manaliquidizer.mana_fluid_bucket" : "液体魔力桶"
+}

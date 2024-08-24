@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.bismuth",
+  "colors": [
+    "a4c5c5",
+    "b6c3c5"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "etshtinker:bismuth_ingot"
+  }
+}

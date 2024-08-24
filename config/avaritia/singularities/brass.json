@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.brass",
+  "colors": [
+    "f0c687",
+    "ceaa73"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "create:brass_ingot"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "pneumaticcraft:heat_frame_cooling",
+    "input": [
+    {
+    "type": "pneumaticcraft:stacked_item",
+    "count": 1,
+    "item": "kubejs:overchargedultradense"
+    }],
+    "bonus_output": 
+    {
+        "limit": 4,
+        "multiplier": 0.075
+    },
+    "max_temp": 173,
+    "result": {
+      "item": "avaritia:neutron_nugget"
+    }
+  }

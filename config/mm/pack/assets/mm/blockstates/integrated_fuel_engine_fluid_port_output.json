@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/integrated_fuel_engine_fluid_port_output"
+    }
+  }
+}

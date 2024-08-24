@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/ultra_dense_item_port_output"
+    }
+  }
+}

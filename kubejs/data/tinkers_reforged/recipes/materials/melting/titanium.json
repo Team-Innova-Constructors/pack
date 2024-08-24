@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_reforged:titanium",
+  "result": {
+    "amount": 90,
+    "fluid": "kubejs:zirconium_fluid"
+  },
+  "temperature": 1300
+}

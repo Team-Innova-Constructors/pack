@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/integrated_fuel_engine_gas_port_output"
+    }
+  }
+}

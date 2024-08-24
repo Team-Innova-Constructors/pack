@@ -1,0 +1,5 @@
+#Enables the Debug Tool Item's functionality (Disable when on server)
+debugTool = true
+#Splits JEI recipe viewer categroies by the structure they belong to.
+splitRecipesJei = true
+
