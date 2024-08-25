@@ -726,7 +726,7 @@ MMEvents.createProcesses(event => {
             }
         })
     //奇迹物质
-    event.create("mm:charge_certus")
+    event.create("mm:exo_alloy")
         .structureId("mm:overload_infuser")
         .ticks(1)
         .input({
@@ -754,14 +754,14 @@ MMEvents.createProcesses(event => {
             type: "mm:input/consume",
             ingredient: {
                 type: "mm:item",
-                item: 'kubejs:overchargedultradense',
+                item: 'etshtinker:manalyn_queen',
                 count: 1
             }
         }).input({
             type: "mm:input/consume",
             ingredient: {
                 type: "mm:item",
-                item: "etshtinker:electronium",
+                item: "etshtinker:trinity_intereactive_alloy",
                 count: 1
             }
         }).input({
@@ -801,4 +801,5 @@ MMEvents.createProcesses(event => {
                 count: 1
             }
         })
+        
 })

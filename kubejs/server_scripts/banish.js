@@ -83,5 +83,7 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
 	//悚怖钢
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
+	//三一默认配方
+	event.remove([{mod: 'etshtinker', output: 'etshtinker:trinity_intereactive_alloy' }])
 }
 )

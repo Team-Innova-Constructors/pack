@@ -92,4 +92,47 @@ MMEvents.createProcesses(event => {
                 amount: 1000
             }
         })
+            //三位一体
+    event.create("mm:trinity_from_collider")
+        .structureId("mm:micro_particle_collider")
+        .ticks(20)
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "kubejs:overchargedultradense",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:electronium",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:protonium",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:energy",
+                amount: 333333333
+            }
+        })
+        .output({
+            type: "mm:output/simple",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:trinity_intereactive_alloy",
+                count: 1
+            }
+        })
 })
