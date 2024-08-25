@@ -54,6 +54,15 @@ tic4.json
 config/oculus.properties
 config/patchouli-client.toml
 config/xaerominimap_entities.json
+<<<<<<< HEAD
 options.txt
 CTI.jar
 CTI.json
+=======
+config/oculus.properties
+config/powah.json5
+config/xaerominimap.txt
+config/xaerominimap_entities.json
+config/xaeroworldmap.txt
+options.txt
+>>>>>>> c1f338d (0)
