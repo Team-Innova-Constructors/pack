@@ -49,8 +49,6 @@ rhino.local.properties
 user*
 tic4.jar
 tic4.json
-
-
 config/oculus.properties
 config/patchouli-client.toml
 config/xaerominimap_entities.json
@@ -65,4 +63,10 @@ config/xaerominimap.txt
 config/xaerominimap_entities.json
 config/xaeroworldmap.txt
 options.txt
+<<<<<<< HEAD
 >>>>>>> c1f338d (0)
+=======
+config/jei
+config/oculus.properties
+config/xaerominimap_entities.json
+>>>>>>> 9ecf30f (基岩合金)

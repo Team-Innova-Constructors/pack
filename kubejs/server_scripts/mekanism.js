@@ -19,6 +19,8 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismCrushing('immersiveengineering:slag_gravel', '#forge:slag')
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
   event.recipes.mekanismSmelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
+  event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock","mekanism:osmium")
+
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
     ' L ',
