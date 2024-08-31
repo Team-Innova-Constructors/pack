@@ -69,4 +69,8 @@ options.txt
 config/jei
 config/oculus.properties
 config/xaerominimap_entities.json
+<<<<<<< HEAD
 >>>>>>> 9ecf30f (基岩合金)
+=======
+config/jei
+>>>>>>> 421d9a9 (test)
