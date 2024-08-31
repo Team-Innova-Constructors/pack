@@ -27,6 +27,7 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
+	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
 	//meka套
 	let meka =[
 		'mekanism:mekasuit_helmet',

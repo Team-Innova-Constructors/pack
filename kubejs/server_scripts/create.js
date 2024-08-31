@@ -41,4 +41,16 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'mekaevolution:cosmic_control_circuit']),
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'mekanism:basic_induction_cell']),
 ]).transitionalItem('kubejs:incomplete_mekasuit').loops(4)
+    event.shaped(Item.of('createoreexcavation:vein_finder',1), [
+        'DC ',
+        'BA ',
+        '  A'
+    ],
+    {
+        A: 'minecraft:stick',
+        B: 'minecraft:amethyst_shard',
+        C: 'minecraft:emerald',
+        D: 'minecraft:ender_eye',
+    })
+
 })
