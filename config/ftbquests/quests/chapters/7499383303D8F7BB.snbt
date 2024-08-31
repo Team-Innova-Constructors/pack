@@ -7,7 +7,15 @@
 	id: "7499383303D8F7BB"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "051EEE4D91451A1D"
+		tasks: [{
+			id: "1C16FBFBB8283001"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["我™吃吃吃"]
 	title: "豆腐工艺 —— 吃货的世界？"
 }

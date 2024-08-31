@@ -7,7 +7,15 @@
 	id: "3F5A35C65E2ED185"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "52CA70580DE83302"
+		tasks: [{
+			id: "06AB7EE73616890A"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["注：本章与塑料椅子无关"]
 	title: "Powah! —— 闭眼都能做的发电设备？"
 }

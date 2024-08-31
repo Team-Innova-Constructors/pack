@@ -7,7 +7,15 @@
 	id: "13AD052321363D21"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "172623EEEC5AF7B8"
+		tasks: [{
+			id: "0DB1C2817CFFAB38"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["还有\"高\"手？"]
 	title: "Ad Astra! —— 宇宙中的维度"
 }

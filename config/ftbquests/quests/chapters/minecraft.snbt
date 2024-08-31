@@ -7,7 +7,15 @@
 	id: "34D9BF6455FF1399"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2DF3B6CB4C59B7DF"
+		tasks: [{
+			id: "48998F1B9EBAEC85"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["别把我也给忘了！"]
 	title: "Minecraft原版流程"
 }

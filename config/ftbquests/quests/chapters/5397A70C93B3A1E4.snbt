@@ -7,6 +7,14 @@
 	id: "5397A70C93B3A1E4"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "54C5180475273171"
+		tasks: [{
+			id: "2E0B3C613B27F980"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "饰品全收集"
 }

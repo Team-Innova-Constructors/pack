@@ -7,6 +7,14 @@
 	id: "484AEF2D1D4D577C"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "49322651DD5EB5E9"
+		tasks: [{
+			id: "5866298176D371D4"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "材料全收集"
 }

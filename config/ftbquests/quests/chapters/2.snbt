@@ -7,7 +7,15 @@
 	id: "76FBF7EC03C25EB9"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "312A48DBACD88CE0"
+		tasks: [{
+			id: "391D0155A629B4EA"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["这下\"天堂传送门\"成真的了"]
 	title: "天镜2 —— 天空之上的维度"
 }

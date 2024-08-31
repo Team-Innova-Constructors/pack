@@ -8,6 +8,14 @@
 	id: "5FE604D91FA0E3EC"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4995275076684E8E"
+		tasks: [{
+			id: "091C23D503A18699"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "第三章 —— 原子能与量子科技"
 }

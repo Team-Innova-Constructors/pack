@@ -7,7 +7,14 @@
 	id: "511944A4E6298591"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	subtitle: [""]
+	quests: [{
+		id: "6B5AE157E562DB3E"
+		tasks: [{
+			id: "221F0F3939CA916A"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Boss全收集"
 }

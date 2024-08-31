@@ -7,6 +7,14 @@
 	id: "0B9221D9E4CE1EFA"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0ED937A115776F3E"
+		tasks: [{
+			id: "7B48968872AFD1A0"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "第一章 —— 工匠、动力与更多"
 }

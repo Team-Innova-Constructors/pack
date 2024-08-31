@@ -7,7 +7,15 @@
 	id: "35CEF8CA6F211FCA"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4AD608A1A7B651AA"
+		tasks: [{
+			id: "2EA41ECE92ABBDD2"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["非欧立方怎么合成.jpg"]
 	title: "神秘遗物 —— 强力饰品在哪里"
 }

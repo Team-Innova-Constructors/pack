@@ -7,7 +7,15 @@
 	id: "2860B21F067AD1CF"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2858B239AAFC570E"
+		tasks: [{
+			id: "11EA1A99A6A3FD96"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["战斗，爽！"]
 	title: "莱特兰恶意 —— 还觉得太简单？"
 }

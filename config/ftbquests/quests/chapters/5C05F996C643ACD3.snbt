@@ -51,6 +51,14 @@
 	id: "5C05F996C643ACD3"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "7744D0232BE85695"
+		tasks: [{
+			id: "0515170A85A5EDDE"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "工具大全"
 }

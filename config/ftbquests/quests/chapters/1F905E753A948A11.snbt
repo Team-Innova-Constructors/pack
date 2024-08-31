@@ -7,6 +7,14 @@
 	id: "1F905E753A948A11"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "7E6F27BBF949A8FB"
+		tasks: [{
+			id: "34A0CF77074E5A5B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "最终章 —— 无尽之旅"
 }

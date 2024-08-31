@@ -7,7 +7,15 @@
 	id: "0D31D2C4CEC75F52"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "28B43FED5EE1CB55"
+		tasks: [{
+			id: "391DA79CEF0AAC1B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["大佬，我的拆解台怎么用不了.png"]
 	title: "暮色森林 —— 经典，永不过时"
 }

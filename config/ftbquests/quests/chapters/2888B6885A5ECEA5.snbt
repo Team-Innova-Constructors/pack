@@ -7,7 +7,15 @@
 	id: "2888B6885A5ECEA5"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "7FBDC95659E04466"
+		tasks: [{
+			id: "23FA86C9E1246677"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	subtitle: ["！！重要！！一定要看！！"]
 	title: "游玩前须知"
 }
