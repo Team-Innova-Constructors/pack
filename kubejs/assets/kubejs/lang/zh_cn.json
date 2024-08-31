@@ -1,6 +1,9 @@
 {
     "fluid.kubejs.zirconium_fluid": "熔融锆",
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
+    "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
+    "item.kubejs.dense_lava_bucket":"高密度熔岩桶",
+    "item.kubejs.used_lava_bucket":"用尽的熔岩桶",
 
     "singularity.avaritia.bismush": "铋",
     "singularity.avaritia.brass": "黄铜",
