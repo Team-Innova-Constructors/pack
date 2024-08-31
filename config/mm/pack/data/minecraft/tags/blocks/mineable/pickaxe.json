@@ -10,6 +10,7 @@
     "mm:integrated_fuel_engine",
     "mm:mana_restructer_appliance",
     "mm:micro_particle_collider",
+    "mm:isotrope_thermoelectric_generator",
     "mm:steel_fluid_port_input",
     "mm:steel_fluid_port_output",
     "mm:steel_item_port_input",

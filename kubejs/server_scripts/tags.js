@@ -225,5 +225,13 @@ ServerEvents.tags('block', event => {
     event.add('mm:is_manarestructerer', '#mm:ports/tier1')
     event.add('mm:is_manarestructerer', 'botania:mana_glass')
 
+    event.add('mm:block_breaker', 'mekanismgenerators:fission_reactor_casing')
+    event.add('mm:block_breaker', 'industrialforegoing:block_breaker')
+    event.add('mm:block_breaker', 'cyclic:miner')
+    event.add('mm:block_breaker', 'cyclic:breaker')
 
+    event.add('mm:block_placer', 'industrialforegoing:block_placer')
+    event.add('mm:block_placer', 'cyclic:user')
+    event.add('mm:block_placer', 'cyclic:placer')
+    event.add('mm:block_placer', 'mekanismgenerators:fission_reactor_casing')
 })

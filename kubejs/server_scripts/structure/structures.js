@@ -589,5 +589,40 @@ MMEvents.createStructures(event => {
                 tag: "mm:ports/tier5"
             })
         })
+    //同位素温差发电机
+    event.create("mm:isotrope_thermoelectric_generator")
+        .controllerId("mm:isotrope_thermoelectric_generator")
+        .name("同位素温差发电机")
+        .layout(a => {
+            a.layer([
+                "A A A",
+                "I I I",
+                "A A A",
+            ]).layer([
+                "AGAGA",
+                "JEBFJ",
+                "ADCDA",
+            ]).layer([
+                "AAAAA",
+                "AAAAA",
+                "AAAAA",
+            ]).key("A", {
+                block: "mekanismgenerators:fission_reactor_casing"
+            }).key("B", {
+                block: "pneumaticcraft:compressed_iron_block"
+            }).key("D", {
+                tag: "mm:block_breaker"
+            }).key("E", {
+                block: "minecraft:blue_ice"
+            }).key("F", {
+                block: "minecraft:magma_block"
+            }).key("G", {
+                block: "mm:hardlead_item_port_input"
+            }).key("I", {
+                tag: "mm:energy_ports/tier3"
+            }).key("J", {
+                tag: "mm:block_placer"
+            })
+        })
 
 })

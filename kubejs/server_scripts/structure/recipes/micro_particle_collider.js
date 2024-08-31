@@ -2,7 +2,7 @@ MMEvents.createProcesses(event => {
     //钚和钋
     event.create("mm:plutonium_from_neut")
         .structureId("mm:micro_particle_collider")
-        .ticks(10)
+        .ticks(50)
         .input({
             type: "mm:input/consume",
             ingredient: {
@@ -44,7 +44,7 @@ MMEvents.createProcesses(event => {
 
     event.create("mm:polonium_from_neut")
         .structureId("mm:micro_particle_collider")
-        .ticks(10)
+        .ticks(100)
         .input({
             type: "mm:input/consume",
             ingredient: {

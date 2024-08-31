@@ -93,6 +93,17 @@ ServerEvents.recipes(event => {
       D: 'powah:dry_ice',
       E: 'kubejs:zirconium_alloy'
     })
+    //同位素温差发电机
+    event.shaped(Item.of('mm:isotrope_thermoelectric_generator',1), [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'etshtinker:activated_chroma_plate',
+      B: 'thermal:energy_cell',
+      C: 'thermal:dynamo_magmatic',
+    })
 
   //钢接口
   event.shaped(Item.of('mm:steel_item_port_output',1), [

@@ -23,6 +23,7 @@
   "block.mm.integrated_fuel_engine_item_port_output": "Integrated Fuel Engine Item Output",
   "block.mm.integrated_fuel_engine_kinetic_port_input": "Integrated Fuel Engine Kinetic Input",
   "block.mm.integrated_fuel_engine_kinetic_port_output": "Integrated Fuel Engine Kinetic Output",
+  "block.mm.isotrope_thermoelectric_generator": "同位素温差发电机",
   "block.mm.lava_centrifugal_controller": "熔岩分离工厂",
   "block.mm.mana_restructer_appliance": "魔力核子重组仪",
   "block.mm.micro_particle_collider": "微型粒子对撞机",

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mm:isotrope_thermoelectric_generator"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

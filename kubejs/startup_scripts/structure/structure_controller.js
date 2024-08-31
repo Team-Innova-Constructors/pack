@@ -34,4 +34,8 @@ MMEvents.registerControllers(event => {
     event.create("micro_particle_collider")
         .name("微型粒子对撞机")
         .type( "mm:machine")
+
+    event.create("isotrope_thermoelectric_generator")
+        .name("同位素温差发电机")
+        .type( "mm:machine")
 });
