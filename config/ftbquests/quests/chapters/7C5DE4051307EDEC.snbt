@@ -9,11 +9,11 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 5.0d
+		height: 3.0d
 		hover: [ ]
 		image: "ftbquests:tasks/input_only"
 		rotation: 0.0d
-		width: 5.0d
+		width: 3.0d
 		x: -11.0d
 		y: -6.0d
 	}]
