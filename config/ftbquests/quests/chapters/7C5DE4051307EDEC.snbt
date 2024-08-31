@@ -5,6 +5,18 @@
 	group: "7741820127317059"
 	icon: "etshtinker:activated_chroma_plate"
 	id: "7C5DE4051307EDEC"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "ftbquests:tasks/input_only"
+		rotation: 0.0d
+		width: 5.0d
+		x: -11.0d
+		y: -6.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -48,6 +60,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["      如果想流畅地游玩本章，这两个材料是必不可少的。"]
 			id: "762B937EFF8ECC88"
 			tasks: [
 				{
@@ -68,11 +81,11 @@
 			y: -6.0d
 		}
 		{
+			description: ["      气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！"]
 			icon: "pneumaticcraft:pressure_gauge"
 			id: "4A1A52ED171F3456"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！"
 			tasks: [{
 				id: "3DD56B25ACFD5346"
 				type: "checkmark"
@@ -84,9 +97,17 @@
 		{
 			description: [
 				"      PnC的大部分机器在压力超过一定值时会发生剧烈爆炸（不破坏方块，但是会损失机器）。"
-				"      加装安全升级可以让机器在压力到达最大值时排出过量压缩空气防治机器爆炸（这里我送你一个）。"
-				""
-				"{image:ftbteams:textures/add.png width:100 height:100 align:1}"
+				"{image:kubejs:textures/ftbq_images/i3.png width:100 height:100 align:1}"
+				"      &7图：PnC机器的耐压值"
+				"{@pagebreak}"
+				"     加装安全升级可以让机器在压力到达最大值时排出过量压缩空气防止机器爆炸（这里我送你一个）。"
+				"{image:kubejs:textures/ftbq_images/i1.png width:130 height:70 align:1}"
+				"&7图：系统的压力大于左侧机器的安全压力，左侧的机器正在泄压（冒出白色粒子）"
+				"{@pagebreak}"
+				"     注意：由于过量的空气直接被排出了，整个管道系统的气压会被拉低，所以合理的产线设计依然是必要的。"
+				"{image:kubejs:textures/ftbq_images/i2.png width:100 height:81 align:1}"
+				"{image:kubejs:textures/ftbq_images/i5.png width:100 height:74 align:1}"
+				"      &7图：上一页系统的两个机器，可以看到由于整体管道系统的气压被拉低了，右侧机器的压强被限制在了8bar左右"
 			]
 			icon: "pneumaticcraft:security_upgrade"
 			id: "6E48801C65AFF1D6"
@@ -104,6 +125,48 @@
 			title: "安全第一！"
 			x: -11.0d
 			y: -0.5d
+		}
+		{
+			description: [
+				"      经典科技mod，玩过的人都知道它有多强力：各种高效的机器、强大的倍矿产线、发电量高到离谱的多方快发电机等等等等......"
+				"      但是由于它太强力了，超出了你所能掌握的范畴（大嘘），所以在本包中Mek的大部分内容需要在这一章的其它支线模组中达成一定进度后才能解锁。"
+				"      至于是一次性把整个Mek都解锁了再开始游玩，还是边解锁边游玩，一切取决于你！"
+			]
+			icon: "mekanism:alloy_infused"
+			id: "25FE4D8080589D7A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5874C24F61F70EA1"
+				type: "checkmark"
+			}]
+			title: "通用机械 [Mek]"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "thermal:energy_cell"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 1000000
+						EnergyRecv: 1000
+						EnergySend: 1000
+					}
+				}
+			}
+			id: "00A6DEB8A3AEA4C7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "01898E9DF6E35825"
+				type: "checkmark"
+			}]
+			title: "热力系列"
+			x: -14.0d
+			y: -8.0d
 		}
 	]
 	title: "第二章 —— 进阶科技！"
