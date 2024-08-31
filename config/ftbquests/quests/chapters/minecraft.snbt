@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecraft"
+	group: "4CD374CEABFCA3D3"
+	icon: "minecraft:grass_block"
+	id: "34D9BF6455FF1399"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["别把我也给忘了！"]
+	title: "Minecraft原版流程"
+}

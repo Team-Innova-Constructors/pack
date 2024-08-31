@@ -1,4 +1,4 @@
-// 1.19.2	2024-08-15T14:11:11.8944453	Item Models: mm
+// 1.19.2	2024-08-31T17:38:49.3530028	Item Models: mm
 195e4ae5d6aa301b32a8764c9726124af3345a8a assets/mm/models/item/fisson_neutron_activator.json
 8db750eecc0409ef8cd6d3f5cd802999846627a1 assets/mm/models/item/hardlead_air_port_input.json
 ef552d1694c675fd8d163e3a9fff44cd4e8fcef6 assets/mm/models/item/hardlead_air_port_output.json
@@ -23,6 +23,7 @@ f95593604c8da1c1cfea3236436cb7abf61e1c46 assets/mm/models/item/integrated_fuel_e
 23801d192bba4009a60c8fec790e284e5702363e assets/mm/models/item/integrated_fuel_engine_item_port_output.json
 722c9ff07fd5fd2b0f3783484c000dbb8321a105 assets/mm/models/item/integrated_fuel_engine_kinetic_port_input.json
 47d8b5fcdea673a49ffdc42e027efb736621ac45 assets/mm/models/item/integrated_fuel_engine_kinetic_port_output.json
+7be5daaa2df58a7d9f637542ef0a5ca3d1ae079d assets/mm/models/item/isotrope_thermoelectric_generator.json
 5ed1a629d686bc5d609ae1de6b398b95ee67ad40 assets/mm/models/item/lava_centrifugal_controller.json
 1293247923b1829bf2d900c321452bf0cb79a108 assets/mm/models/item/mana_restructer_appliance.json
 5d2446a19d1454443eda3aae040e9a928b42dfd4 assets/mm/models/item/micro_particle_collider.json

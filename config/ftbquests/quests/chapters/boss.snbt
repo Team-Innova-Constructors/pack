@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss"
+	group: "273277F565C25044"
+	icon: "minecraft:nether_star"
+	id: "511944A4E6298591"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: [""]
+	title: "Boss全收集"
+}

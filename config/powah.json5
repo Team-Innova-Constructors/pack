@@ -26,9 +26,15 @@
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
+<<<<<<< HEAD
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000
+=======
+			"minecraft:lava": 1000,
+			"minecraft:magma_block": 800,
+			"powah:blazing_crystal_block": 2800
+>>>>>>> 5cbf0f8 (ftb任务分节)
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 30,

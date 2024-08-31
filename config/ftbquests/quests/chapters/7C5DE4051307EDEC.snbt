@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C5DE4051307EDEC"
+	group: "7741820127317059"
+	icon: "etshtinker:activated_chroma_plate"
+	id: "7C5DE4051307EDEC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A1A52ED171F3456"]
+			description: ["      可以通过用TNT炸掉落物状态的铁锭/块来获取你的第一块压缩铁。此方法存在损耗，所以建议做出压力室后再大批量生产压缩铁。"]
+			id: "1AD31A50C77AA192"
+			tasks: [{
+				id: "57B8F761D31E0E4F"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A1A52ED171F3456"]
+			description: ["      强化石是气动工艺中大部分机器的原材料，包括接下来要做的压力室。"]
+			id: "477FAD6258F9D37F"
+			tasks: [{
+				consume_items: false
+				id: "2FCC186A1959E51A"
+				item: "pneumaticcraft:reinforced_stone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"57B8F761D31E0E4F"
+				"1AD31A50C77AA192"
+			]
+			id: "30FD231040565F28"
+			tasks: [{
+				id: "7701E1195E4B76AF"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "762B937EFF8ECC88"
+			tasks: [
+				{
+					consume_items: false
+					id: "64AF55284A683989"
+					item: "etshtinker:hardlead_plate"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4C43CC5CE5710A02"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+			]
+			title: "开启第二章会需要的材料"
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			icon: "pneumaticcraft:pressure_gauge"
+			id: "4A1A52ED171F3456"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！"
+			tasks: [{
+				id: "3DD56B25ACFD5346"
+				type: "checkmark"
+			}]
+			title: "气动工艺 [PnC]"
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"      PnC的大部分机器在压力超过一定值时会发生剧烈爆炸（不破坏方块，但是会损失机器）。"
+				"      加装安全升级可以让机器在压力到达最大值时排出过量压缩空气防治机器爆炸（这里我送你一个）。"
+				""
+				"{image:ftbteams:textures/add.png width:100 height:100 align:1}"
+			]
+			icon: "pneumaticcraft:security_upgrade"
+			id: "6E48801C65AFF1D6"
+			rewards: [{
+				id: "0A9D7C2943BFCC76"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "咦，我的机器怎么炸了？？？"
+			tasks: [{
+				id: "470202DF2717133F"
+				type: "checkmark"
+			}]
+			title: "安全第一！"
+			x: -11.0d
+			y: -0.5d
+		}
+	]
+	title: "第二章 —— 进阶科技！"
+}

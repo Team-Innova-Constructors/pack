@@ -1,4 +1,4 @@
-// 1.19.2	2024-08-15T14:11:11.8907081	Block States: mm
+// 1.19.2	2024-08-31T17:38:49.3554948	Block States: mm
 b39dd1483cf68f72344a62e6ef341d1d8a7293ab assets/mm/blockstates/fisson_neutron_activator.json
 d04dc6d0c147bb85a2262ac86765c3345d1e76f0 assets/mm/blockstates/hardlead_air_port_input.json
 90d046cb39ee7f2e1c8646279bb3b0b99798f226 assets/mm/blockstates/hardlead_air_port_output.json
@@ -23,6 +23,7 @@ f4838afebd0c7d47f054cd3c30811204a605a3b9 assets/mm/blockstates/integrated_fuel_e
 107319fa4002544deec20bf5738aff19a4ee05fb assets/mm/blockstates/integrated_fuel_engine_item_port_output.json
 93a0f5f99bad7770969ccc55a44850e143be1622 assets/mm/blockstates/integrated_fuel_engine_kinetic_port_input.json
 80f4c1c745ef36ae3cfadcdd761d0c338f694de3 assets/mm/blockstates/integrated_fuel_engine_kinetic_port_output.json
+3053679201fcb5252a5a76fac29a4e5b30a08eb1 assets/mm/blockstates/isotrope_thermoelectric_generator.json
 2d2169f8a5daec0af1edca7abac54a2ec5022616 assets/mm/blockstates/lava_centrifugal_controller.json
 719278b0379d1840a645e63378dfb4e9caa18d05 assets/mm/blockstates/mana_restructer_appliance.json
 573c72032a88cce40e1c65ce504e51bb969e489c assets/mm/blockstates/micro_particle_collider.json
@@ -111,6 +112,7 @@ ee6057491eab1e184be3e9d993bff3fae82e7b70 assets/mm/models/block/integrated_fuel_
 5bcfb70c6d835b447250129c92277937f2182c69 assets/mm/models/block/integrated_fuel_engine_item_port_output.json
 e46aef16282499ef5b47c121d2b50920f7365d3d assets/mm/models/block/integrated_fuel_engine_kinetic_port_input.json
 05f0b8c6c1b893174a23253d362d6d530080ada1 assets/mm/models/block/integrated_fuel_engine_kinetic_port_output.json
+5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/isotrope_thermoelectric_generator.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/lava_centrifugal_controller.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/mana_restructer_appliance.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/micro_particle_collider.json

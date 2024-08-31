@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "35CEF8CA6F211FCA"
+	group: "4CD374CEABFCA3D3"
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "35CEF8CA6F211FCA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["非欧立方怎么合成.jpg"]
+	title: "神秘遗物 —— 强力饰品在哪里"
+}

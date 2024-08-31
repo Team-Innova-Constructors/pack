@@ -1,3 +1,13 @@
 {
+<<<<<<< HEAD
 	chapter_groups: [{ id: "5B9406893C138689", title: "www" }]
+=======
+	chapter_groups: [
+		{ id: "5B9406893C138689", title: "前言和开始" }
+		{ id: "7741820127317059", title: "主线（科技）" }
+		{ id: "7E3173C55DD03B0A", title: "额外章节（科技）" }
+		{ id: "4CD374CEABFCA3D3", title: "永恒的旅途（冒险与战斗）" }
+		{ id: "273277F565C25044", title: "挑战" }
+	]
+>>>>>>> 5cbf0f8 (ftb任务分节)
 }

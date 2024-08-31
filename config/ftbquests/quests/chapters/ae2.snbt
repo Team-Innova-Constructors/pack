@@ -1,0 +1,17 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "7E3173C55DD03B0A"
+	icon: {
+		Count: 1b
+		id: "megacells:item_storage_cell_256m"
+		tag: { }
+	}
+	id: "47BF4850E8561E94"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["科技的尽头...是量子！"]
+	title: "AE2 —— 万物皆可自动化"
+}

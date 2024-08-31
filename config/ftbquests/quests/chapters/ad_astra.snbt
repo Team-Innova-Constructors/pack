@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "4CD374CEABFCA3D3"
+	icon: "etshtinker:stellaralloy"
+	id: "13AD052321363D21"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["还有\"高\"手？"]
+	title: "Ad Astra! —— 宇宙中的维度"
+}

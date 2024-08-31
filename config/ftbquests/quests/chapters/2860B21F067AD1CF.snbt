@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2860B21F067AD1CF"
+	group: "4CD374CEABFCA3D3"
+	icon: "l2complements:resonant_feather"
+	id: "2860B21F067AD1CF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["战斗，爽！"]
+	title: "莱特兰恶意 —— 还觉得太简单？"
+}

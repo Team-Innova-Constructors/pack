@@ -1,4 +1,4 @@
-// 1.19.2	2024-08-15T14:11:11.8930871	LootTables
+// 1.19.2	2024-08-31T17:38:49.3595762	LootTables
 0190491b04afe0f31979bd3cd2cdc4a46833863a data/mm/loot_tables/blocks/fisson_neutron_activator.json
 c20fdd9030ad61c8f3634448aa6b3d28d0443071 data/mm/loot_tables/blocks/hardlead_air_port_input.json
 338a355285ed87cea81d59af253fdbe63b9e1a78 data/mm/loot_tables/blocks/hardlead_air_port_output.json
@@ -23,6 +23,7 @@ efd27f8e83050aaf036b87e3829aae85dafa723b data/mm/loot_tables/blocks/integrated_f
 15f31dd98c8254b4b23cc6432e3b457f68d2069c data/mm/loot_tables/blocks/integrated_fuel_engine_item_port_output.json
 3a498120499b7609cb19f3ec046ae049c7deabad data/mm/loot_tables/blocks/integrated_fuel_engine_kinetic_port_input.json
 69fbbf14328cfea9fdeecb59ccc696e94d52b18d data/mm/loot_tables/blocks/integrated_fuel_engine_kinetic_port_output.json
+1c933c751e8d48a2ffdf3422a4885f0f8784f89b data/mm/loot_tables/blocks/isotrope_thermoelectric_generator.json
 c31489ac9247a7c311dd6d43dd670b63435bc0b1 data/mm/loot_tables/blocks/lava_centrifugal_controller.json
 4043fe9cff4a710b7f9e425e25b5d73373e81211 data/mm/loot_tables/blocks/mana_restructer_appliance.json
 5031a244a04db155c9801f7ff019fc39a93bd39b data/mm/loot_tables/blocks/micro_particle_collider.json

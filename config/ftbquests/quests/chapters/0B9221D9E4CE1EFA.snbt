@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0B9221D9E4CE1EFA"
+	group: "7741820127317059"
+	icon: "etshtinker:hardlead_plate"
+	id: "0B9221D9E4CE1EFA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "第一章 —— 工匠、动力与更多"
+}
