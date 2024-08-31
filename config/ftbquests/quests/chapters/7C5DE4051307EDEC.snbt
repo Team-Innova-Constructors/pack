@@ -5,18 +5,56 @@
 	group: "7741820127317059"
 	icon: "etshtinker:activated_chroma_plate"
 	id: "7C5DE4051307EDEC"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 3.0d
-		hover: [ ]
-		image: "ftbquests:tasks/input_only"
-		rotation: 0.0d
-		width: 3.0d
-		x: -11.0d
-		y: -6.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.5d
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 2.0d
+			x: -16.5d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -25.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -28.0d
+			y: -14.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -81,7 +119,11 @@
 			y: -6.0d
 		}
 		{
-			description: ["      气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！"]
+			description: [
+				"      气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！"
+				"{image:kubejs:textures/ftbq_images/i5.png width:90 height:66 align:1}"
+				"      &7PnC的独特的温度-压力系统"
+			]
 			icon: "pneumaticcraft:pressure_gauge"
 			id: "4A1A52ED171F3456"
 			shape: "gear"
@@ -132,7 +174,18 @@
 				"      但是由于它太强力了，超出了你所能掌握的范畴（大嘘），所以在本包中Mek的大部分内容需要在这一章的其它支线模组中达成一定进度后才能解锁。"
 				"      至于是一次性把整个Mek都解锁了再开始游玩，还是边解锁边游玩，一切取决于你！"
 			]
-			icon: "mekanism:alloy_infused"
+			icon: {
+				Count: 1b
+				id: "mekanism:robit"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "100000"
+						}]
+					}
+				}
+			}
 			id: "25FE4D8080589D7A"
 			shape: "gear"
 			size: 2.0d
@@ -145,6 +198,10 @@
 			y: -8.0d
 		}
 		{
+			description: [
+				"      热力也是经典的老牌科技模组，有着不错的美工。里面有许多轻量化的单方块机器和一些实用物品。"
+				"      热力系列实际上包括了热力基本、热力拓展、热动力学等等一系列模组，后面我们将其统称为热力/热力系列。"
+			]
 			icon: {
 				Count: 1b
 				id: "thermal:energy_cell"
@@ -167,6 +224,491 @@
 			title: "热力系列"
 			x: -14.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["477FAD6258F9D37F"]
+			id: "2A3F1244C2FA4252"
+			tasks: [{
+				id: "5425D9843F9B9E99"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"00A6DEB8A3AEA4C7"
+				"4A940FEDC6BCB2E3"
+			]
+			id: "127827ADCD31EC93"
+			tasks: [{
+				id: "6AF21154EADF6E3D"
+				item: "thermal:tin_gear"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25FE4D8080589D7A"]
+			id: "56D1C88ECD94BA33"
+			tasks: [{
+				id: "6E724B26475E0A4B"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"      锡齿轮的工作台配方现在需要富集合金，它是你热力之旅的起点。"
+				"      后续可以使用多驱冲压机来高效合成锡齿轮。"
+			]
+			id: "4A940FEDC6BCB2E3"
+			tasks: [{
+				consume_items: false
+				id: "1060AB0665550C76"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["127827ADCD31EC93"]
+			description: ["大部分热力机器的核心，有了它你就能合成更多机器。"]
+			id: "0E59BE3DDD0A75C9"
+			tasks: [{
+				id: "0883322608EACBE7"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"      更省材料的齿轮合成方法。"
+				"      除此之外，它还能高效压制AE2的电路板，从此告别恼人的压印器吧！"
+			]
+			id: "24708A7E2EB25E28"
+			shape: "gear"
+			tasks: [{
+				id: "533559F48C103F93"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0E59BE3DDD0A75C9"]
+			description: [
+				"      感应炉可以用于高效合成信素、流明、末影这三大基础合金。"
+				"      它也是合成彩钢、活化彩钢的必备机器。"
+			]
+			id: "247D0332EDFCB7EE"
+			shape: "rsquare"
+			tasks: [{
+				id: "6823E1076FAA6D97"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["247D0332EDFCB7EE"]
+			id: "5E9C0A525EDCE935"
+			tasks: [{
+				id: "1213D99DE7ABA692"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["247D0332EDFCB7EE"]
+			id: "0A06C2DFF1C7324F"
+			tasks: [{
+				id: "6C889392AA00852B"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["247D0332EDFCB7EE"]
+			id: "0C0F85D3DCF71BB2"
+			tasks: [{
+				id: "456F5AE7EAC66223"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0A06C2DFF1C7324F"
+				"5E9C0A525EDCE935"
+				"0C0F85D3DCF71BB2"
+			]
+			id: "702068CF7FF1F44F"
+			tasks: [{
+				id: "48B94BA4087DD6F2"
+				item: "etshtinker:chroma_plate"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"0C0F85D3DCF71BB2"
+				"247D0332EDFCB7EE"
+			]
+			id: "4EEAF89AEEAF0875"
+			tasks: [{
+				id: "43D6CE97287E00CA"
+				item: "etshtinker:blizz_enderium"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0A06C2DFF1C7324F"
+				"247D0332EDFCB7EE"
+			]
+			id: "4CE18CF6A9B8ABE5"
+			tasks: [{
+				id: "444189188F466390"
+				item: "etshtinker:blitz_lumium"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5E9C0A525EDCE935"
+				"247D0332EDFCB7EE"
+			]
+			id: "7246E26F1E73CD72"
+			tasks: [{
+				id: "246146EBAC0E9B1C"
+				item: "etshtinker:basalz_signalum"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["702068CF7FF1F44F"]
+			id: "4FB63A71C56E83D3"
+			shape: "rsquare"
+			tasks: [{
+				id: "63AE82DD9FC0F728"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7246E26F1E73CD72"
+				"4EEAF89AEEAF0875"
+				"4CE18CF6A9B8ABE5"
+			]
+			id: "6EEF72019466F208"
+			tasks: [{
+				id: "183A6AFF4C7FB57F"
+				item: "etshtinker:activated_chroma_plate"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"157100BC605D0ACC"
+				"4FB63A71C56E83D3"
+			]
+			icon: "etshtinker:ultra_dense"
+			id: "0ED012213D93D738"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6F563B2A662EA386"
+				item: "etshtinker:ultra_dense"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -14.0d
+		}
+		{
+			id: "157100BC605D0ACC"
+			tasks: [{
+				id: "6B4DFD5E9286D014"
+				item: "kubejs:compressed_hardlead"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0ED012213D93D738"]
+			icon: "mm:neutronium_charger_lesser"
+			id: "129F57B14E0204FA"
+			shape: "rsquare"
+			tasks: [{
+				icon: "mm:neutronium_charger_lesser"
+				id: "5C0C161093800E64"
+				item: "mm:neutronium_charger_lesser"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0ED012213D93D738"]
+			id: "6BE24A8980AC2917"
+			shape: "rsquare"
+			tasks: [{
+				id: "060B1B208C2BB3B9"
+				item: "mm:overload_infuser"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"129F57B14E0204FA"
+				"4880079E4B288C37"
+				"013DA5C52C2CD09C"
+			]
+			id: "6353590DAE211F0E"
+			tasks: [{
+				id: "1676F93D596986EE"
+				item: "mm:neutronium_charger_medium"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"6353590DAE211F0E"
+				"4CD5EA0E0A858A2D"
+			]
+			id: "75443AAE635F849E"
+			shape: "diamond"
+			tasks: [{
+				id: "480AAF5EBB22FA07"
+				item: "mm:neutronium_charger_advanced"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6BE24A8980AC2917"]
+			id: "4880079E4B288C37"
+			tasks: [{
+				id: "20EB133834AE904D"
+				item: "kubejs:overchargedultradense"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -15.5d
+		}
+		{
+			id: "013DA5C52C2CD09C"
+			tasks: [{
+				amount: 1L
+				fluid: "etshtinker:overchargedneutronium"
+				id: "3BB273ACCFF44A49"
+				type: "fluid"
+			}]
+			title: "超充能流体中子"
+			x: -25.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["013DA5C52C2CD09C"]
+			id: "4CD5EA0E0A858A2D"
+			tasks: [{
+				id: "71D40F53DAAE02AF"
+				item: "etshtinker:protonium"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6EEF72019466F208"]
+			id: "29BA5DB16FE1995D"
+			shape: "gear"
+			tasks: [{
+				id: "72B3B43F6024AFE3"
+				item: "mm:isotrope_thermoelectric_generator"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -7.0d
+		}
+		{
+			id: "715BFFAD930FEC7B"
+			shape: "gear"
+			tasks: [{
+				id: "1E6787CCB2C0D96F"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -12.5d
+		}
+		{
+			id: "1C518AECBC4A3BF5"
+			shape: "gear"
+			tasks: [{
+				id: "6C8A72E3484AEAE2"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -12.5d
+		}
+		{
+			id: "7DF6676F9808C72B"
+			shape: "gear"
+			tasks: [{
+				id: "3DC23AD4BB4F881A"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -14.0d
+		}
+		{
+			id: "0C78DFDD892A97E6"
+			shape: "gear"
+			tasks: [{
+				id: "28135BDE08C3CACB"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -12.5d
+		}
+		{
+			id: "7707F0A8EA208FA5"
+			shape: "gear"
+			tasks: [{
+				id: "0173CDF7A42A9D30"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -11.0d
+		}
+		{
+			id: "4E2F42AF3DF47E68"
+			shape: "gear"
+			tasks: [{
+				id: "20BEBAFD8B7C0592"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -11.0d
+		}
+		{
+			id: "236ADEF17F9A1E7D"
+			shape: "gear"
+			tasks: [{
+				id: "6B84FA99C38F8667"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -11.0d
+		}
+		{
+			id: "79DC690A0258D67D"
+			shape: "gear"
+			tasks: [{
+				id: "3B29459E35D403D8"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -14.0d
+		}
+		{
+			id: "6F7268AC42E538FD"
+			shape: "gear"
+			tasks: [{
+				id: "4B48921148505B77"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -15.5d
+		}
+		{
+			id: "62A5B31D22482B9E"
+			shape: "gear"
+			tasks: [{
+				id: "16D9D53437A57BAB"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -15.5d
+		}
+		{
+			id: "6BF9199A155CD94A"
+			shape: "gear"
+			tasks: [{
+				id: "57488CA1EFD3C004"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -15.5d
+		}
+		{
+			id: "70C263359C93FA01"
+			tasks: [{
+				id: "301DFD01E448B6F2"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["70C263359C93FA01"]
+			id: "327B23F9D25AACA2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "7C5F8F028191E34E"
+				item: "thermal:phyto_grenade"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.5d
 		}
 	]
 	title: "第二章 —— 进阶科技！"

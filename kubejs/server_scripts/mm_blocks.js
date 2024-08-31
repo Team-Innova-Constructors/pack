@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
   ],
   {
     A: 'etshtinker:ultra_dense',
-    B: 'powah:energizing_rod_nitro',
+    B: 'createaddition:tesla_coil',
     C: 'ae2:charger',
     D: 'immersiveengineering:graphite_electrode'
   })
