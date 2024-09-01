@@ -22,13 +22,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
+			height: 1.5d
 			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
-			width: 2.0d
-			x: -16.5d
-			y: -7.5d
+			width: 1.5d
+			x: -24.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -39,20 +39,285 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.5d
-			x: -25.0d
-			y: -7.0d
+			x: -30.0d
+			y: -6.5d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 1.5d
+			height: 1.75d
 			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 45.0d
-			width: 1.5d
-			x: -28.0d
-			y: -14.0d
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -30.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -21.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -23.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "etshtinker:item/ingot/protonium"
+			rotation: -15.0d
+			width: 0.5d
+			x: -21.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "etshtinker:item/ingot/electronium"
+			rotation: 165.0d
+			width: 0.5d
+			x: -22.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:item/melon_slice"
+			rotation: 0.0d
+			width: 0.5d
+			x: -18.5d
+			y: -3.142857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "thermal:item/phytogro"
+			rotation: 0.0d
+			width: 0.5d
+			x: -18.5d
+			y: -1.8928571428571388d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ae2:item/printed_calculation_processor"
+			rotation: 0.0d
+			width: 0.5d
+			x: -31.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ae2:item/printed_silicon"
+			rotation: 0.0d
+			width: 0.5d
+			x: -31.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ae2:item/printed_engineering_processor"
+			rotation: 0.0d
+			width: 0.5d
+			x: -30.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ae2:item/printed_logic_processor"
+			rotation: 0.0d
+			width: 0.5d
+			x: -30.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -18.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "thermal:item/basalz_powder"
+			rotation: 0.0d
+			width: 0.5d
+			x: -22.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "thermal:item/apatite"
+			rotation: 0.0d
+			width: 0.5d
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "thermal:item/niter"
+			rotation: 0.0d
+			width: 0.5d
+			x: -23.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "thermal:item/blizz_powder"
+			rotation: 0.0d
+			width: 0.5d
+			x: -22.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -35.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "thermal:item/chiller_ingot_cast"
+			rotation: 0.0d
+			width: 0.5d
+			x: -35.0d
+			y: -1.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "ftbteams:textures/cancel.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -35.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 0.5d
+			x: -34.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:block/ice"
+			rotation: 0.0d
+			width: 0.5d
+			x: -35.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: [ ]
+			image: "ftbquests:textures/gui/alert.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -35.24362244897959d
+			y: -1.7857142857142847d
 		}
 	]
 	order_index: 1
@@ -195,25 +460,14 @@
 			}]
 			title: "通用机械 [Mek]"
 			x: -8.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			description: [
 				"      热力也是经典的老牌科技模组，有着不错的美工。里面有许多轻量化的单方块机器和一些实用物品。"
 				"      热力系列实际上包括了热力基本、热力拓展、热动力学等等一系列模组，后面我们将其统称为热力/热力系列。"
 			]
-			icon: {
-				Count: 1b
-				id: "thermal:energy_cell"
-				tag: {
-					BlockEntityTag: {
-						Energy: 0
-						EnergyMax: 1000000
-						EnergyRecv: 1000
-						EnergySend: 1000
-					}
-				}
-			}
+			icon: "thermal:energy_cell_frame"
 			id: "00A6DEB8A3AEA4C7"
 			shape: "gear"
 			size: 2.0d
@@ -223,7 +477,7 @@
 			}]
 			title: "热力系列"
 			x: -14.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["477FAD6258F9D37F"]
@@ -248,7 +502,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: -9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["25FE4D8080589D7A"]
@@ -258,8 +512,8 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -9.0d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -273,8 +527,8 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -10.0d
+			x: -15.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["127827ADCD31EC93"]
@@ -285,28 +539,26 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -9.0d
+			x: -17.0d
+			y: -6.0d
 		}
 		{
-			description: [
-				"      更省材料的齿轮合成方法。"
-				"      除此之外，它还能高效压制AE2的电路板，从此告别恼人的压印器吧！"
-			]
+			description: ["      除此之外，它还能高效压制AE2的电路板，从此告别恼人的压印器吧！"]
 			id: "24708A7E2EB25E28"
 			shape: "gear"
+			subtitle: "更省材料的齿轮合成方法"
 			tasks: [{
 				id: "533559F48C103F93"
 				item: "thermal:machine_press"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -14.0d
+			x: -30.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0E59BE3DDD0A75C9"]
 			description: [
-				"      感应炉可以用于高效合成信素、流明、末影这三大基础合金。"
+				"      感应炉可以用于高效自动化合成信素、流明、末影这三大基础合金。"
 				"      它也是合成彩钢、活化彩钢的必备机器。"
 			]
 			id: "247D0332EDFCB7EE"
@@ -316,8 +568,8 @@
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -9.0d
+			x: -19.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["247D0332EDFCB7EE"]
@@ -327,8 +579,8 @@
 				item: "thermal:signalum_ingot"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -9.5d
+			x: -20.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["247D0332EDFCB7EE"]
@@ -338,8 +590,8 @@
 				item: "thermal:lumium_ingot"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -9.5d
+			x: -20.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["247D0332EDFCB7EE"]
@@ -349,8 +601,8 @@
 				item: "thermal:enderium_ingot"
 				type: "item"
 			}]
-			x: -23.0d
-			y: -9.5d
+			x: -21.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -358,14 +610,16 @@
 				"5E9C0A525EDCE935"
 				"0C0F85D3DCF71BB2"
 			]
+			description: ["      也是部分机器的必须原料"]
 			id: "702068CF7FF1F44F"
+			subtitle: "是一种不错的工具材料，不过更推荐活化彩钢"
 			tasks: [{
 				id: "48B94BA4087DD6F2"
 				item: "etshtinker:chroma_plate"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -11.0d
+			x: -21.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -378,8 +632,8 @@
 				item: "etshtinker:blizz_enderium"
 				type: "item"
 			}]
-			x: -23.0d
-			y: -8.5d
+			x: -21.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -392,8 +646,8 @@
 				item: "etshtinker:blitz_lumium"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -8.5d
+			x: -20.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -406,20 +660,22 @@
 				item: "etshtinker:basalz_signalum"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -8.5d
+			x: -20.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["702068CF7FF1F44F"]
+			description: ["      也用于高效合成赛特斯石英母岩，甚至能合成无暇的母岩！另外也可以合成神晶系列材料，后面要用到的。"]
 			id: "4FB63A71C56E83D3"
 			shape: "rsquare"
+			subtitle: "合成超致密要用这个"
 			tasks: [{
 				id: "63AE82DD9FC0F728"
 				item: "thermal:machine_crystallizer"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -12.5d
+			x: -24.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -428,30 +684,36 @@
 				"4CE18CF6A9B8ABE5"
 			]
 			id: "6EEF72019466F208"
+			subtitle: "强力的材料，就是有点卡（"
 			tasks: [{
 				id: "183A6AFF4C7FB57F"
 				item: "etshtinker:activated_chroma_plate"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -7.0d
+			x: -21.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"157100BC605D0ACC"
 				"4FB63A71C56E83D3"
 			]
+			description: [
+				"      超致密是3级接口的原料，很多机器都需要用到它。"
+				"&e你后面会需要用到大量超致密，做好准备！"
+			]
 			icon: "etshtinker:ultra_dense"
 			id: "0ED012213D93D738"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "这玩意怎么这么重！"
 			tasks: [{
 				id: "6F563B2A662EA386"
 				item: "etshtinker:ultra_dense"
 				type: "item"
 			}]
-			x: -22.0d
-			y: -14.0d
+			x: -24.0d
+			y: -6.5d
 		}
 		{
 			id: "157100BC605D0ACC"
@@ -460,34 +722,44 @@
 				item: "kubejs:compressed_hardlead"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -14.0d
+			x: -23.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0ED012213D93D738"]
+			description: [
+				"      效率最低的充能仪，一秒才能合成一次且有25%的损耗率，但是暂时而言你没有更好的选择了。"
+				"     &a详细的多方快结构移步机动蓝图。"
+			]
 			icon: "mm:neutronium_charger_lesser"
 			id: "129F57B14E0204FA"
 			shape: "rsquare"
+			subtitle: "相对更省材料的超充能中子流体合成方式"
 			tasks: [{
 				icon: "mm:neutronium_charger_lesser"
 				id: "5C0C161093800E64"
 				item: "mm:neutronium_charger_lesser"
 				type: "item"
 			}]
-			x: -24.0d
-			y: -14.0d
+			x: -26.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0ED012213D93D738"]
+			description: [
+				"      可以用于合成过载超致密和四级接口——过载超致密接口。后期部分配方也要用这个机器合成。"
+				"      &a详细的多方快结构移步机动蓝图。"
+			]
 			id: "6BE24A8980AC2917"
 			shape: "rsquare"
+			subtitle: "更高级的充能仪"
 			tasks: [{
 				id: "060B1B208C2BB3B9"
 				item: "mm:overload_infuser"
 				type: "item"
 			}]
-			x: -24.0d
-			y: -15.5d
+			x: -26.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -495,77 +767,104 @@
 				"4880079E4B288C37"
 				"013DA5C52C2CD09C"
 			]
+			description: ["      更好的充能仪，不再会损耗中子，但是能耗也更高，在这章还是先别用了。"]
 			id: "6353590DAE211F0E"
+			subtitle: "希望你有足够的能量......"
 			tasks: [{
 				id: "1676F93D596986EE"
 				item: "mm:neutronium_charger_medium"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -14.0d
+			x: -28.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
 				"6353590DAE211F0E"
 				"4CD5EA0E0A858A2D"
 			]
+			description: ["      虽然在本章内就能合成，但是200MFE/t的耗电量不是闹着玩的。建议留到下一章食用。"]
 			id: "75443AAE635F849E"
 			shape: "diamond"
+			subtitle: "电老虎之一"
 			tasks: [{
 				id: "480AAF5EBB22FA07"
 				item: "mm:neutronium_charger_advanced"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -14.0d
+			x: -30.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6BE24A8980AC2917"]
+			description: ["      被充能了的超致密，主要用于合成中子素。"]
 			id: "4880079E4B288C37"
 			tasks: [{
 				id: "20EB133834AE904D"
 				item: "kubejs:overchargedultradense"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -15.5d
+			x: -28.0d
+			y: -8.0d
 		}
 		{
+			description: ["合成质子、电子的关键材料，也是一种优秀的冶炼炉燃料！"]
 			id: "013DA5C52C2CD09C"
-			tasks: [{
-				amount: 1L
-				fluid: "etshtinker:overchargedneutronium"
-				id: "3BB273ACCFF44A49"
-				type: "fluid"
-			}]
+			subtitle: "有多种获取方式"
+			tasks: [
+				{
+					amount: 1L
+					fluid: "etshtinker:overchargedneutronium"
+					id: "3BB273ACCFF44A49"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "6FFF7D9DD37204A6"
+					item: "etshtinker:overchargedneutronium_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "超充能流体中子"
-			x: -25.0d
-			y: -12.5d
+			x: -27.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["013DA5C52C2CD09C"]
+			description: ["是的，这玩意后面也会需要很多"]
 			id: "4CD5EA0E0A858A2D"
+			subtitle: "能拿在手里的电荷"
 			tasks: [{
 				id: "71D40F53DAAE02AF"
 				item: "etshtinker:protonium"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -12.5d
+			x: -29.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["6EEF72019466F208"]
+			dependencies: [
+				"6EEF72019466F208"
+				"2B9414B298736A31"
+			]
+			description: [
+				"       在本章，你可以用它烧点铀块，达到640kFE/t的高额发电。在下一章中你还可以用它烧钚、钋靶丸，甚至反物质！"
+				"       在结构成型后，结构中的岩浆块和蓝冰会缓缓发生热交换而使结构失效。所以在设计时结构上预留了一些安装方块破坏器和放置器的位点（可以在jei中看可用的方块破坏器、放置器列表），便于你清理换热后的方块和放置新的蓝冰、岩浆块，&6在蓝图中这些地方是空的，打印完后需要你手动补全。"
+			]
 			id: "29BA5DB16FE1995D"
 			shape: "gear"
+			subtitle: "强力的发电设备，但是使用起来也比较麻烦"
 			tasks: [{
 				id: "72B3B43F6024AFE3"
 				item: "mm:isotrope_thermoelectric_generator"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -7.0d
+			x: -24.0d
+			y: -4.0d
 		}
 		{
+			description: ["强大的流体精炼设备，&m能把高能的中子拆成质子和电子"]
 			id: "715BFFAD930FEC7B"
 			shape: "gear"
 			tasks: [{
@@ -573,118 +872,130 @@
 				item: "thermal:machine_refinery"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -12.5d
+			x: -21.5d
+			y: -2.5d
 		}
 		{
 			id: "1C518AECBC4A3BF5"
 			shape: "gear"
+			subtitle: "能用于切割木板并获取锯末，不过mek的精密锯木机会更好一些"
 			tasks: [{
 				id: "6C8A72E3484AEAE2"
 				item: "thermal:machine_sawmill"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -12.5d
+			x: -24.5d
+			y: -2.5d
 		}
 		{
 			id: "7DF6676F9808C72B"
 			shape: "gear"
+			subtitle: "电动的熔炉，在本包里有更好的替代品"
 			tasks: [{
 				id: "3DC23AD4BB4F881A"
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -14.0d
+			x: -32.0d
+			y: -2.5d
 		}
 		{
+			description: ["      此外，如果你探索了外星维度，还可以用来获取热力的三种元素粉，进而更简单地获取活化彩钢。"]
 			id: "0C78DFDD892A97E6"
 			shape: "gear"
+			subtitle: "主要用于量产磷灰石和硝石"
 			tasks: [{
 				id: "28135BDE08C3CACB"
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -12.5d
+			x: -23.0d
+			y: -2.5d
 		}
 		{
+			description: ["      很好用的单方块种植机，还可以用各种催熟剂加速。而且在现版本热力中，有机灌注机不再只能在白天工作（好耶！）。"]
 			id: "7707F0A8EA208FA5"
 			shape: "gear"
+			subtitle: "瓜聚变的小帮手"
 			tasks: [{
 				id: "0173CDF7A42A9D30"
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -11.0d
+			x: -18.5d
+			y: -2.5d
 		}
 		{
 			id: "4E2F42AF3DF47E68"
 			shape: "gear"
+			subtitle: "如其名，分离物品用的。也可以用来处理热力农业的作物以获取荧石、红石、粘液球等资源"
 			tasks: [{
 				id: "20BEBAFD8B7C0592"
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -11.0d
+			x: -20.0d
+			y: -2.5d
 		}
 		{
 			id: "236ADEF17F9A1E7D"
 			shape: "gear"
+			subtitle: "用于制备熔岩、不稳定红石等熔融物"
 			tasks: [{
 				id: "6B84FA99C38F8667"
 				item: "thermal:machine_crucible"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -11.0d
+			x: -17.0d
+			y: -2.5d
 		}
 		{
 			id: "79DC690A0258D67D"
 			shape: "gear"
+			subtitle: "可以用于合成焦炭、杂酚油等，与沉浸有联动"
 			tasks: [{
 				id: "3B29459E35D403D8"
 				item: "thermal:machine_pyrolyzer"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -14.0d
+			x: -33.5d
+			y: -2.5d
 		}
 		{
 			id: "6F7268AC42E538FD"
 			shape: "gear"
+			subtitle: "灌装流体，与机械动力有联动（兼容部分注液器的配方）"
 			tasks: [{
 				id: "4B48921148505B77"
 				item: "thermal:machine_bottler"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -15.5d
+			x: -29.0d
+			y: -2.5d
 		}
 		{
 			id: "62A5B31D22482B9E"
 			shape: "gear"
+			subtitle: "用于药水自动化，比原版能多炼出一瓶"
 			tasks: [{
 				id: "16D9D53437A57BAB"
 				item: "thermal:machine_brewer"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -15.5d
+			x: -27.5d
+			y: -2.5d
 		}
 		{
 			id: "6BF9199A155CD94A"
 			shape: "gear"
+			subtitle: "自动化的工作台"
 			tasks: [{
 				id: "57488CA1EFD3C004"
 				item: "thermal:machine_crafter"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -15.5d
+			x: -26.0d
+			y: -2.5d
 		}
 		{
 			id: "70C263359C93FA01"
@@ -694,21 +1005,255 @@
 				type: "item"
 			}]
 			x: -18.5d
-			y: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["70C263359C93FA01"]
+			description: ["      热力高版本的妙妙小炸弹，拥有强大的范围催熟效果，如果你能把这个量产了就根本不用考虑一般作物的生长问题了。"]
 			id: "327B23F9D25AACA2"
 			shape: "gear"
-			size: 1.5d
+			subtitle: "PNT被办了，别问我为什么（）"
 			tasks: [{
 				count: 64L
 				id: "7C5F8F028191E34E"
 				item: "thermal:phyto_grenade"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -7.5d
+			title: "[自动化挑战] 植育一号催熟爆弹"
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"      相比热力和通用机械，工业先锋可能是一个相对小众的科技模组。但是它提供了大量功能性的机器，甚至有些许“超模”。"
+				"      所以懂得都懂，工业先锋的大部分流程需要先游玩热力和气动工艺才能解锁。"
+			]
+			id: "4FD1BC4ACAACC1F2"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: "industrialforegoing:mycelial_reactor"
+				id: "56142EA4634E6F73"
+				title: "工业先锋 [IF]"
+				type: "custom"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			description: ["      &6注：冷冻机放置锭铸膜时存在bug，不能正常处理配方，所以锭铸膜的合成被禁了。"]
+			id: "6DCC9FA7D2484F6C"
+			shape: "gear"
+			subtitle: "不错的制冰方案"
+			tasks: [{
+				id: "7B70C5E98A3059A5"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7846705881E63359"]
+			id: "2B9414B298736A31"
+			tasks: [{
+				id: "1ADD17978BE1F4B2"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["247D0332EDFCB7EE"]
+			id: "7846705881E63359"
+			tasks: [{
+				id: "01691658F6C59400"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			id: "401F3A17BD013DBC"
+			shape: "rsquare"
+			subtitle: "自动化蜂巢的好帮手，放在蜂巢/蜂箱底部就能自动收集蜂蜜"
+			tasks: [{
+				id: "765E00DD509EDC42"
+				item: "thermal:device_hive_extractor"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				" &e经过代码和测试数据逆推，推测出的算法如下："
+				"      捕捞器有固定的工作间隔 [默认间隔是4800ticks（240秒，4分钟），最小间隔是240ticks（12秒）] 和初始工作范围（没测出来，推测初始范围应该在捕捞器为中心4*4*4左右）。"
+				" &b--在捕捞器的工作范围内每有一格水，工作间隔-20ticks；"
+				" &b--然后根据环境减少工作间隔（海洋群系下工作间隔/3，河流群系下间隔/2）；"
+				" &b--然后根据是否下雨减少工作间隔（下雨时工作间隔/2） "
+				" &b--然后根据有无输入物品（诱饵，垃圾捕捞器这些）增加工作间隔（无输入物品时工作间隔*2）"
+				" &b--最后将工作间隔限制在4800ticks和240ticks之间。"
+				""
+				"&a**虽然在水体足够大的情况下插入一个范围升级就能达到满速，但是由于诱饵会增加单次捕捉量所以依然推荐放入诱饵。"
+				""
+				"&a**整合组件不影响工作间隔，但是相应会增加单次捕捉量。"
+			]
+			id: "20718C58DEA024CE"
+			shape: "rsquare"
+			subtitle: "放入水中就能开始摸鱼，在插有知识浓缩器升级的情况下还能生产经验！"
+			tasks: [{
+				id: "53B60B6D22FDCD9E"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -4.0d
+		}
+		{
+			description: ["      具体的判定标准见百科"]
+			id: "1818617982F614E2"
+			shape: "rsquare"
+			subtitle: "从树上提取树汁，可以在JEI上看提取的流体"
+			tasks: [{
+				id: "408E0D03C75A4182"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -4.0d
+		}
+		{
+			id: "39ABFECBAFD097D8"
+			shape: "rsquare"
+			subtitle: "两者搭配最高能提供500%的作物加速"
+			tasks: [
+				{
+					id: "71450D8E039F970E"
+					item: "thermal:device_soil_infuser"
+					type: "item"
+				}
+				{
+					id: "2300E6A338883DD4"
+					item: "thermal:phytosoil"
+					type: "item"
+				}
+			]
+			x: -30.5d
+			y: -4.0d
+		}
+		{
+			id: "7A58ACBBE8A1EA5A"
+			shape: "rsquare"
+			subtitle: "可以从一定范围的区域吸取物品"
+			tasks: [{
+				id: "0400D45D171E1E19"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -29.0d
+			y: -4.0d
+		}
+		{
+			description: ["       传输效率高达2.14GFE/t，但是热力管道的主动抽取需要通过伺服器完成，而伺服器的效率很低。不过鉴于大部分发电机都有主动输出功能，所以这里还是很推荐能量管道。"]
+			id: "23E38FBBD8D361A7"
+			shape: "rsquare"
+			subtitle: "传输效率极高，无缓存，但是主动抽取的效率很低"
+			tasks: [
+				{
+					id: "519B2F11DDB1559B"
+					item: "thermal:energy_duct"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1478F24C5F55140E"
+					item: "thermal:fluid_duct"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B82834D742D219B"
+					item: "thermal:fluid_duct_windowed"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "热力系列的两种管道"
+			x: -27.5d
+			y: -4.0d
+		}
+		{
+			id: "7DD53FF061290707"
+			tasks: [{
+				id: "479729643D0253D0"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7DD53FF061290707"]
+			id: "595143506931F6AA"
+			tasks: [{
+				id: "0ECC5FB6D0319D94"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["595143506931F6AA"]
+			id: "3BEB4C091023FF09"
+			tasks: [{
+				id: "1F066DD81154DF0F"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -5.5d
+		}
+		{
+			description: ["      虽说是“创造”组件，但是功能性较为有限，所以本包给它们加了配方（而且都不难！）"]
+			id: "60DE870CC160C459"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "热力有很多升级插件，具体请看JEI，这里不介绍了"
+			tasks: [
+				{
+					id: "413F564227102620"
+					item: "thermal:rf_coil_creative_augment"
+					type: "item"
+				}
+				{
+					id: "4F64C5288C5EF11D"
+					item: "thermal:machine_efficiency_creative_augment"
+					type: "item"
+				}
+				{
+					id: "195EAD588B21FA02"
+					item: "thermal:machine_catalyst_creative_augment"
+					type: "item"
+				}
+			]
+			title: "妙妙小升级"
+			x: -33.5d
+			y: -7.0d
 		}
 	]
 	title: "第二章 —— 进阶科技！"

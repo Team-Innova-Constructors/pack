@@ -15,7 +15,7 @@ MMEvents.createProcesses(event => {
             per_tick:true,
             ingredient: {
                 type: "mm:energy",
-                amount: 2500000,
+                amount: 750000,
             }
         })
         .output({
@@ -44,7 +44,7 @@ MMEvents.createProcesses(event => {
             per_tick:true,
             ingredient: {
                 type: "mm:energy",
-                amount: 50000000
+                amount: 25000000
             }
         })
         .output({
@@ -71,7 +71,7 @@ MMEvents.createProcesses(event => {
             type: "mm:input/consume",
             ingredient: {
                 type: "mm:energy",
-                amount: 200000000
+                amount: 150000000
             }
         })
         .output({

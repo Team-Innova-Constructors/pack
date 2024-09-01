@@ -71,7 +71,7 @@ MMEvents.createProcesses(event => {
         })
         .input({
             type: "mm:input/consume",
-            chance:0.0005,
+            chance:0.005,
             ingredient: {
                 type: "mm:item",
                 tag: "forge:ingots/uranium",
@@ -99,7 +99,7 @@ MMEvents.createProcesses(event => {
         })
         .input({
             type: "mm:input/consume",
-            chance:0.0005,
+            chance:0.005,
             ingredient: {
                 type: "mm:item",
                 tag: "forge:storage_blocks/uranium",
@@ -128,7 +128,7 @@ MMEvents.createProcesses(event => {
         })
         .input({
             type: "mm:input/consume",
-            chance:0.00005,
+            chance:0.0002,
             ingredient: {
                 type: "mm:item",
                 item: "etshtinker:stable_plasma",
