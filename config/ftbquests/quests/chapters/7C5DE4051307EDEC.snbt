@@ -1781,7 +1781,22 @@
 		}
 		{
 			dependencies: ["0C84DDFD1EABFF6A"]
+			description: [
+				"具体设备需求在装配程序tooltip上有表明。"
+				"具体摆法是中间放装配平台，然后在装配平台周围8格中摆上IO、激光、钻头和控制器。在装配IO设备旁边放任意容器作为输入端或输出端。"
+				"注意事项："
+				"1、每种机器只能放一个；"
+				"2、机器必须与多方快结构直接相连才会被算入结构中；"
+				"3、装配激光和装配钻头必须与装配平台相连；"
+				"4、装配IO的识别范围为以它为中心的3*3区域，换言之它能识别到对角位置的容器/装配平台。"
+				"5、装配程序（钻头+激光）同时兼容需要钻头和激光的合成，最好做这个。"
+				"{@pagebreak}"
+				"一个简单的AE自动化装配线（方便演示所以用的创造物品）"
+				"{image:kubejs:textures/ftbq_images/i10.png width:211 height:147 align:1}"
+				"图中的箱子可以替换成其它容器。装配平台的下方是输入IO，右侧为输出IO，箱子内的物品会被输入，合成完的产物会直接返回AE。"
+			]
 			id: "32C4C65E43956BC0"
+			subtitle: "同样也是很简单的多方快结构"
 			tasks: [
 				{
 					id: "2DB242D81B9DA421"
@@ -1811,6 +1826,22 @@
 				{
 					id: "5C007E890349688D"
 					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "3D19247B2C918E0D"
+					item: "pneumaticcraft:assembly_program_laser"
+					type: "item"
+				}
+				{
+					id: "4087AF451A3FBD3F"
+					item: "pneumaticcraft:assembly_program_drill"
+					type: "item"
+				}
+				{
+					id: "2431C376F6ADB042"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2135,7 +2166,33 @@
 			]
 			title: "气动工具"
 			x: -8.5d
-			y: 0.0d
+			y: -0.5d
+		}
+		{
+			description: ["      此外，包里还加入了一些具有整合包特色的强力弹药。"]
+			id: "3197262C6E2DD04B"
+			subtitle: "稍稍加强了，弹药现在有4倍基础伤害"
+			tasks: [
+				{
+					id: "6156775A933524C3"
+					item: "pneumaticcraft:minigun"
+					type: "item"
+				}
+				{
+					id: "6105FCEAAF3B847F"
+					item: {
+						Count: 1b
+						id: "cti:ultradense_ammo"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 0.5d
 		}
 	]
 	title: "第二章 —— 进阶科技！"

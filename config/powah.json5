@@ -28,6 +28,7 @@
 		"heat_blocks": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000
@@ -38,7 +39,10 @@
 >>>>>>> 5cbf0f8 (ftb任务分节)
 =======
 			"minecraft:magma_block": 800,
+=======
+>>>>>>> 258606b (加入cti)
 			"powah:blazing_crystal_block": 2800,
+			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000
 >>>>>>> d2cd779 (ftb任务)
 		},
