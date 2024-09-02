@@ -76,10 +76,10 @@
 	manual_compressor_allow_fake_players = false
 	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
 	#Range: > 0
-	pneumatic_dynamo_efficiency = 160
+	pneumatic_dynamo_efficiency = 40
 	#The amount of MJ (Minecraft Joules) produced by using 100mL of air in the Pneumatic Dynamo
 	#Range: > 0
-	pneumatic_engine_efficiency = 160
+	pneumatic_engine_efficiency = 40
 	#Changing this value will alter the pressurized air usage of the Pneumatic Generator. The output, EU, will stay the same.
 	#Range: > 0
 	pneumatic_generator_efficiency = 40
