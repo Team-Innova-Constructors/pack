@@ -271,8 +271,8 @@
 			y: -1.5d
 		}
 		{
-			alpha: 125
-			click: ""
+			alpha: 150
+			click: "#6DCC9FA7D2484F6C"
 			corner: false
 			dev: false
 			height: 0.75d
@@ -318,6 +318,128 @@
 			width: 0.3d
 			x: -35.24362244897959d
 			y: -1.7857142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.75d
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "avaritia:item/resource/neutron_nugget"
+			rotation: 0.0d
+			width: 0.5d
+			x: -13.100765306122447d
+			y: -1.082653061224505d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "avaritia:item/resource/neutron_nugget"
+			rotation: 0.0d
+			width: 0.5d
+			x: -13.917091836734691d
+			y: -1.8989795918367491d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 16711680
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 16711680
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "mm:block/base_ports/energy_input_cutout"
+			rotation: 0.0d
+			width: 1.75d
+			x: -13.5d
+			y: 1.5d
 		}
 	]
 	order_index: 1
@@ -385,12 +507,37 @@
 		}
 		{
 			description: [
-				"      气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！"
+				"      气动工艺是一个很有意思的模组，加入了以压缩空气为主题的一套自动化系统，以及各种有趣的小工具！虽然较为麻烦，但是PnC的很多机器实际上有着很高的效率，说不定能给你一个惊喜！"
 				"{image:kubejs:textures/ftbq_images/i5.png width:90 height:66 align:1}"
 				"      &7PnC的独特的温度-压力系统"
+				"{@pagebreak}"
+				"      然而遗憾的是，我们的任务写手对PnC的了解有限。所以本任务的作用也相当有限，可能不能提供太多技术上的支持，仅用作流程引导。更详细的教程请移步百科等地（看教程时一定要注意模组版本！！！）"
 			]
 			icon: "pneumaticcraft:pressure_gauge"
 			id: "4A1A52ED171F3456"
+			rewards: [
+				{
+					id: "271DACB29D28CDD0"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B502124E5982ADF"
+					item: "pneumaticcraft:module_expansion_card"
+					type: "item"
+				}
+				{
+					id: "5404EA01D6CC781F"
+					item: "pneumaticcraft:pneumatic_wrench"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -402,6 +549,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4A1A52ED171F3456"]
 			description: [
 				"      PnC的大部分机器在压力超过一定值时会发生剧烈爆炸（不破坏方块，但是会损失机器）。"
 				"{image:kubejs:textures/ftbq_images/i3.png width:100 height:100 align:1}"
@@ -424,6 +572,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 2.0d
 			subtitle: "咦，我的机器怎么炸了？？？"
 			tasks: [{
 				id: "470202DF2717133F"
@@ -452,6 +601,11 @@
 				}
 			}
 			id: "25FE4D8080589D7A"
+			rewards: [{
+				id: "7657BB85F6353CDD"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -469,6 +623,28 @@
 			]
 			icon: "thermal:energy_cell_frame"
 			id: "00A6DEB8A3AEA4C7"
+			rewards: [
+				{
+					id: "29284D04CD651E7D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65386E6457708F5B"
+					item: {
+						Count: 1b
+						id: "thermal:wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -478,17 +654,6 @@
 			title: "热力系列"
 			x: -14.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["477FAD6258F9D37F"]
-			id: "2A3F1244C2FA4252"
-			tasks: [{
-				id: "5425D9843F9B9E99"
-				item: "pneumaticcraft:pressure_chamber_wall"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1028,15 +1193,15 @@
 				"      相比热力和通用机械，工业先锋可能是一个相对小众的科技模组。但是它提供了大量功能性的机器，甚至有些许“超模”。"
 				"      所以懂得都懂，工业先锋的大部分流程需要先游玩热力和气动工艺才能解锁。"
 			]
+			icon: "industrialforegoing:mycelial_reactor"
 			id: "4FD1BC4ACAACC1F2"
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				icon: "industrialforegoing:mycelial_reactor"
-				id: "56142EA4634E6F73"
-				title: "工业先锋 [IF]"
-				type: "custom"
+				id: "6B5C016164FD7A29"
+				type: "checkmark"
 			}]
+			title: "工业先锋 [IF]"
 			x: -11.0d
 			y: -9.0d
 		}
@@ -1254,6 +1419,723 @@
 			title: "妙妙小升级"
 			x: -33.5d
 			y: -7.0d
+		}
+		{
+			dependencies: [
+				"30FD231040565F28"
+				"477FAD6258F9D37F"
+			]
+			description: [
+				"压力室由压力室外壁（压力室墙壁或压力室玻璃）、压力室接口、压力室气阀组成。"
+				"&6压力室是中空的正方体，棱长可以是3、4、5，尺寸影响空气容量和能放置的接口数目。"
+				"&b--压力室墙壁/压力室玻璃组成了压力室的边角和棱，这两种方块也可以放在压力室的面上。"
+				"&b--压力室气阀只能放在压力室的面上（不能组成边角和棱），用于输入/输出压缩空气。"
+				""
+				"&a以上两种方块在一个压力室结构中是必须的"
+				""
+				"&b--压力室接口只能放在压力室的面上，用于输入/输出物品，每个压力室接口在一次合成中只能输入一种物品（相当于接口数量决定了自动化合成时的最大输入数量）。"
+				"{@pagebreak}"
+				"&e**虽然压力室接口不是必须的，但是没有压力室接口的压力室&c**必须**&e通过&6把结构挖开-手动丢入物品-把结构摆好-开始合成-把结构挖开-取出物品&e来合成，所以建议加上。&9在摆放压力室接口的时候要注意朝向问题，因为接口朝向决定了这个接口是输入口还是输出口。"
+				"&6**压力室结构中只有压力室气阀会过压爆炸，所以不用担心压力室整个炸掉（安全升级也是塞气阀里）。"
+				"不同尺寸的压力室"
+				"{image:kubejs:textures/ftbq_images/i6.png width:172 height:64 align:1}"
+			]
+			id: "38F90431CEFE965D"
+			shape: "rsquare"
+			subtitle: "PnC的一大核心机器"
+			tasks: [
+				{
+					id: "0113E17FD6502C81"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "6A8A7453A6FEA8C3"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "67B0F92D833E749E"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75D483E673B1E8D0"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "压力室"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30FD231040565F28"]
+			id: "37B6EC208EAC551A"
+			subtitle: "最早能获取的压缩机"
+			tasks: [
+				{
+					id: "5B1072F11C430411"
+					item: "pneumaticcraft:air_compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B6B2B9F37D0A03C"
+					item: "pneumaticcraft:liquid_compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F5A1359C92F100B"
+					item: "pneumaticcraft:manual_compressor"
+					type: "item"
+				}
+			]
+			title: "你的第一台压缩机"
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"37B6EC208EAC551A"
+				"38F90431CEFE965D"
+			]
+			description: ["PnC的阶段性材料，能用于合成二级接口，后面你还会需要很多"]
+			id: "34BF7851DF1B09A7"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "被冷焊到一起了的硬铅"
+			tasks: [{
+				id: "275DDB7050C5875E"
+				item: "kubejs:compressed_hardlead"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34BF7851DF1B09A7"]
+			id: "733041E4F3E0FFEF"
+			subtitle: "利用压缩空气和热进行合成，有较广泛的用途"
+			tasks: [{
+				id: "6BE96AE53F176438"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34BF7851DF1B09A7"]
+			id: "57331E9421E0C223"
+			tasks: [{
+				id: "445EC4182890A046"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57331E9421E0C223"]
+			id: "58821DAE34D625C5"
+			subtitle: "富含矿物的熔岩，后续可以分离出各种矿物"
+			tasks: [
+				{
+					id: "3DC6582FEF846CC7"
+					item: "kubejs:volatile_lava_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					amount: 1L
+					fluid: "kubejs:volatile_lava"
+					id: "465F5846BBD1DFC8"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			title: "挥发性熔岩"
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3330893C09515343"]
+			id: "636560ABC5E871C6"
+			subtitle: "不如其它压缩机那么无脑，但是它能产生10bar的高压"
+			tasks: [{
+				id: "71263C41B0413259"
+				item: "pneumaticcraft:thermal_compressor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4A05D629702AED32"
+				"57331E9421E0C223"
+			]
+			id: "3330893C09515343"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "现代工业的瑰宝，工业先锋现已解锁"
+			tasks: [{
+				id: "21E80A4F8A29C5CE"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "210246E2CA7B0108"
+			rewards: [{
+				id: "07CAC2E3C9915D03"
+				item: "pneumaticcraft:seismic_sensor"
+				type: "item"
+			}]
+			subtitle: "America: Where?"
+			tasks: [
+				{
+					id: "12EBA705C46F4EEF"
+					item: "pneumaticcraft:oil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "thermal:crude_oil"
+					id: "30809C6E7634C443"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			title: "石油"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["210246E2CA7B0108"]
+			description: [
+				"最简单的多方快结构，只需要在精炼厂控制器上方放2~4个精炼厂输出端就行了。"
+				"{image:kubejs:textures/ftbq_images/i7.png width:108 height:77 align:1}"
+				"每个精炼厂输出端只会输出一种流体，对应控制器GUI中的一个输出槽，缺失输出端的槽会标记为红色。"
+				"{image:kubejs:textures/ftbq_images/i8.png width:86 height:53 align:1}"
+				"精炼厂会根据输出端数量动态选择配方。"
+				"{@pagebreak}"
+				"只需输入热量就能工作，精炼厂结构的每个面都能参与热交换"
+			]
+			id: "4A05D629702AED32"
+			subtitle: "用于分馏石油，是LPG的唯一获取方式"
+			tasks: [
+				{
+					id: "7B29303EC0F03C63"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					id: "2A0DD64EB7CEF4F7"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+			]
+			title: "精炼厂"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3330893C09515343"]
+			description: [
+				"既好用又好玩的工具，让你在MC体验网购。"
+				"      绑定完容器后向容器里加入足够的交易物就能愉快地开始下单。"
+				"      你的货物会通过无人机运送到绑定的容器里（很可爱不是吗awa）"
+				"也是制造电路板的必经之路"
+			]
+			id: "78DF493EEA88960F"
+			subtitle: "Amazon：勿cue"
+			tasks: [{
+				id: "2D7DE54935A9290A"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["78DF493EEA88960F"]
+			id: "1ED49DF01DBACB93"
+			tasks: [{
+				id: "7C79F5690DC37C10"
+				item: "pneumaticcraft:pcb_blueprint"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38F90431CEFE965D"]
+			id: "2AB0149BA47B862E"
+			subtitle: "后面搓电路板会需要这些"
+			tasks: [
+				{
+					id: "7CBCBA08585EF3DD"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+				{
+					id: "730BB8C650106EFB"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+				{
+					id: "2D5EBC7DFE53B123"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+				{
+					id: "3711A7064AC6B575"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "半成品电路板"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ED49DF01DBACB93"]
+			description: ["      稍稍思索你就会发现紫外线灯箱的阈值调到100是最高效的。图快不吃香（）"]
+			id: "4451C7E7E0BEA8FA"
+			subtitle: "真实的电路板制造工艺（确信）"
+			tasks: [
+				{
+					id: "35633DCED1D26D7E"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+				{
+					id: "670D1F68560CEC01"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+			]
+			title: "紫外线灯箱和电路板蚀刻器"
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4451C7E7E0BEA8FA"]
+			id: "0C84DDFD1EABFF6A"
+			tasks: [{
+				id: "19B9B89BB9B92DE5"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			title: "完成的电路板"
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["733041E4F3E0FFEF"]
+			id: "3843E47EEC23E6C8"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "需要9bar才能合成，是PnC线的另一个关键材料"
+			tasks: [{
+				id: "5F6275391226158A"
+				item: "kubejs:zirconium_alloy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3843E47EEC23E6C8"]
+			id: "3056D2B98017B073"
+			shape: "diamond"
+			tasks: [{
+				id: "1929001DC905BB10"
+				item: "mm:lava_centrifugal_controller"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"58821DAE34D625C5"
+				"3056D2B98017B073"
+			]
+			id: "27C7C3AE6D47DE59"
+			tasks: [{
+				id: "259AB68A89C6BCD6"
+				item: "kubejs:tungsten_ingot"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C84DDFD1EABFF6A"]
+			id: "32C4C65E43956BC0"
+			tasks: [
+				{
+					id: "2DB242D81B9DA421"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "6E523135E41FD623"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "697AA63621B55323"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "476BF42554B2AEF6"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "6250433A15AE96BB"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "5C007E890349688D"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+			]
+			title: "装配流水线"
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["32C4C65E43956BC0"]
+			description: ["       压力最高的压缩机，可以产生20bar的高压"]
+			id: "2EF7FFA3135A7FE7"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "我估计你最感兴趣的还是通量压缩机（）"
+			tasks: [
+				{
+					id: "7F48FC00043EC4D3"
+					item: "pneumaticcraft:advanced_liquid_compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0813EE35B67705EA"
+					item: "pneumaticcraft:advanced_air_compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27114E7B6AAE2964"
+					item: "pneumaticcraft:flux_compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DF2AF12FBFEC3F6"
+					item: "pneumaticcraft:electrostatic_compressor"
+					type: "item"
+				}
+			]
+			title: "更高级的压缩机"
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"      在本包中，导热架有个全新的用途：通过冷却过载超致密合成中子素。"
+				"      此外，在小批量烧炼物品时导热架表现也不错，因为单次处理时间短，等待时间也短。"
+			]
+			id: "20DD34FE61A05E34"
+			shape: "gear"
+			subtitle: "《1000℃的木箱子》"
+			tasks: [{
+				id: "2ED0F02760FFD21C"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			id: "78E9E928FCA52F6A"
+			shape: "gear"
+			subtitle: "也许可以用来自动化烈焰血"
+			tasks: [{
+				id: "16E9128E6A8E1EE2"
+				item: "pneumaticcraft:spawner_agitator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			description: ["      PnC一大神器，它能做到和玩家物品栏交互，安装了发射器升级后还能存取玩家经验、自动喂食，兼容多个模组的流体经验。可以通过机器的侧面配置来设置物品交互的栏位。"]
+			id: "11D8658566711245"
+			shape: "gear"
+			subtitle: "很多人可能看名字就把它忽略了（）"
+			tasks: [{
+				id: "4FB8876A759710AA"
+				item: "pneumaticcraft:aerial_interface"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"      虽然装满一个核心需要不少怪，但是只要你完成了就会获得一个效率离谱的刷怪机！&a满升级、压缩空气供应充足的情况下刷怪效率高达3ticks一只，此时压缩空气消耗速度仅仅有550mL/t。"
+				"      还有一个小特性：刷怪笼核心右键方块可以消耗1%的源质放出一个生物，但是真空陷阱捕捉一个怪物时产生的源质在2%~4%左右，&b换言之只需要一个怪就能无限刷"
+			]
+			id: "55068CE8227DF049"
+			shape: "gear"
+			subtitle: "很好用的刷怪笼，可以通过调整核心生物的比例刷出多种生物"
+			tasks: [
+				{
+					id: "1D516F5D5949CEB0"
+					item: "pneumaticcraft:pressurized_spawner"
+					type: "item"
+				}
+				{
+					id: "77617822A4BBCBFE"
+					item: "pneumaticcraft:spawner_core"
+					type: "item"
+				}
+				{
+					id: "2F40BDEFB63DD547"
+					item: "pneumaticcraft:spawner_extractor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46CE46CD5346F64F"
+					item: "pneumaticcraft:vacuum_trap"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34BF7851DF1B09A7"]
+			id: "69E9CDAEB3A525C9"
+			subtitle: "电解分离器现在可以制作了"
+			tasks: [{
+				id: "3378B56785BBA1C5"
+				item: "mekanism:electrolytic_core"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32C4C65E43956BC0"]
+			id: "6115104A833578B3"
+			subtitle: "耐压王"
+			tasks: [{
+				id: "26B5B5A5FD0D6FDE"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["733041E4F3E0FFEF"]
+			id: "0C7589C6B04DD16C"
+			subtitle: "更耐压的压力管道"
+			tasks: [{
+				id: "56C9B4FB374F849A"
+				item: "pneumaticcraft:reinforced_pressure_tube"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			id: "1ED30830DB5C1EAA"
+			shape: "rsquare"
+			subtitle: "用压缩空气制造温差"
+			tasks: [{
+				id: "03E839C685CDA157"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			id: "7356EEF92C581616"
+			shape: "rsquare"
+			subtitle: "用高压制造低压"
+			tasks: [{
+				id: "4B4CD6660BA9F2D0"
+				item: "pneumaticcraft:vacuum_pump"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"      虽然JEI中各种低温方块的温度看起来都很诱人，但是仔细观察你会发现它们都有很高的热阻。实际上比较有效的散热方式依然是被动散热，详细教程移步百科。"
+				"      使用空气栅的压缩机散热摆法（取自百科）："
+				"{image:kubejs:textures/ftbq_images/i9.png width:136 height:75 align:1}"
+			]
+			id: "0B2761339B3E376F"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "53096718BB1A7ACF"
+					item: "pneumaticcraft:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "11D9B0E505584169"
+					item: "pneumaticcraft:compressed_iron_block"
+					type: "item"
+				}
+				{
+					id: "1A6CA2731F2F7F78"
+					item: "pneumaticcraft:heat_sink"
+					type: "item"
+				}
+				{
+					id: "5CC62704772B3BCF"
+					item: "pneumaticcraft:air_grate_module"
+					type: "item"
+				}
+			]
+			title: "被动散热4件套"
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			description: ["      可以通过编程使它实现各种复杂功能。具体的话......还是看百科教程吧"]
+			id: "5F37538E409D434A"
+			shape: "rsquare"
+			subtitle: "玩这个会使人头秃"
+			tasks: [
+				{
+					id: "0206DFAF296783F6"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+				{
+					id: "13D79D82B4CA0B3E"
+					item: "pneumaticcraft:logistics_drone"
+					type: "item"
+				}
+				{
+					id: "7F484885537F9038"
+					item: "pneumaticcraft:guard_drone"
+					type: "item"
+				}
+				{
+					id: "1A739408270C3968"
+					item: "pneumaticcraft:collector_drone"
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			id: "772C5A61B245010B"
+			subtitle: "&m人称小Meka套"
+			tasks: [
+				{
+					id: "2BE4F6DC1098226C"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "257ABB383DA2B3A2"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F7FBA33B1523504"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08B3A1A87075D362"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "4A17D662CDFF160B"
+			tasks: [
+				{
+					id: "7819B38530E4D5F9"
+					item: "pneumaticcraft:jackhammer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "617E10BD70B3F15D"
+					item: "pneumaticcraft:vortex_cannon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1FDFA2D1AB49AC9F"
+					item: "pneumaticcraft:logistics_configurator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "016D5FD7CE74BCDF"
+					item: "pneumaticcraft:camo_applicator"
+					type: "item"
+				}
+			]
+			title: "气动工具"
+			x: -8.5d
+			y: 0.0d
 		}
 	]
 	title: "第二章 —— 进阶科技！"

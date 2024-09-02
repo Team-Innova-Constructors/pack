@@ -600,7 +600,7 @@ MMEvents.createStructures(event => {
                 "A A A",
             ]).layer([
                 "AGAGA",
-                "JEBFJ",
+                "DEBFD",
                 "ADCDA",
             ]).layer([
                 "AAAAA",
@@ -611,7 +611,7 @@ MMEvents.createStructures(event => {
             }).key("B", {
                 block: "pneumaticcraft:compressed_iron_block"
             }).key("D", {
-                tag: "mm:block_breaker"
+                tag: "mm:block_breakernplacer"
             }).key("E", {
                 block: "minecraft:blue_ice"
             }).key("F", {
@@ -620,8 +620,6 @@ MMEvents.createStructures(event => {
                 block: "mm:hardlead_item_port_input"
             }).key("I", {
                 tag: "mm:energy_ports/tier3"
-            }).key("J", {
-                tag: "mm:block_placer"
             })
         })
 
