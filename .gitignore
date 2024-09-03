@@ -51,5 +51,9 @@ CTI.jar
 CTI.json
 options.txt
 /config
+<<<<<<< HEAD
+/modernfix
+=======
 /modernfix
 
+>>>>>>> 31d1e60047ec86a7e175e40ca244006232a6f5ff
