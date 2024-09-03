@@ -69,6 +69,7 @@ options.txt
 config/jei
 config/oculus.properties
 <<<<<<< HEAD
+<<<<<<< HEAD
 config/xaerominimap_entities.json
 <<<<<<< HEAD
 >>>>>>> 9ecf30f (基岩合金)
@@ -78,3 +79,8 @@ config/jei
 =======
 config/xaerominimap_entities.json
 >>>>>>> 76a1fd0 (三个熔岩桶翻译)
+=======
+config/xaerominimap_entities.json
+CTI.jar
+CTI.json
+>>>>>>> 91e69e2 (gitignore)
