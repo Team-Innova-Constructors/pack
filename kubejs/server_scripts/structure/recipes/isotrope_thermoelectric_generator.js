@@ -128,7 +128,7 @@ MMEvents.createProcesses(event => {
         })
         .input({
             type: "mm:input/consume",
-            chance:0.0002,
+            chance:0.001,
             ingredient: {
                 type: "mm:item",
                 item: "etshtinker:stable_plasma",

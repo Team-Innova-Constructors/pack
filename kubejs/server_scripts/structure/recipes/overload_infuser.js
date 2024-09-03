@@ -725,10 +725,10 @@ MMEvents.createProcesses(event => {
                 count: 1
             }
         })
-    //奇迹物质
+    //未成·奇迹物质
     event.create("mm:exo_alloy")
         .structureId("mm:overload_infuser")
-        .ticks(1)
+        .ticks(10)
         .input({
             type: "mm:input/consume",
             ingredient: {
@@ -761,33 +761,13 @@ MMEvents.createProcesses(event => {
             type: "mm:input/consume",
             ingredient: {
                 type: "mm:item",
-                item: "etshtinker:trinity_intereactive_alloy",
-                count: 1
-            }
-        }).input({
-            type: "mm:input/consume",
-            ingredient: {
-                type: "mm:item",
-                item: "etshtinker:anti_neutronium",
-                count: 1
-            }
-        }).input({
-            type: "mm:input/consume",
-            ingredient: {
-                type: "mm:item",
-                item: "etshtinker:exotic_matter",
-                count: 1
-            }
-        }).input({
-            type: "mm:input/consume",
-            ingredient: {
-                type: "mm:item",
                 item: "etshtinker:evil_orb",
                 count: 1
             }
         })
         .input({
             type: "mm:input/consume",
+            per_tick:true,
             ingredient: {
                 type: "mm:energy",
                 amount: 1073741824
@@ -797,7 +777,7 @@ MMEvents.createProcesses(event => {
             type: "mm:output/simple",
             ingredient: {
                 type: "mm:item",
-                item: "etshtinker:exo_alloy",
+                item: "kubejs:halfdone_exoalloy",
                 count: 1
             }
         })

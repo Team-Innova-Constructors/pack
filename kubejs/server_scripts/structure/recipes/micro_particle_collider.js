@@ -2,7 +2,7 @@ MMEvents.createProcesses(event => {
     //钚和钋
     event.create("mm:plutonium_from_neut")
         .structureId("mm:micro_particle_collider")
-        .ticks(50)
+        .ticks(25)
         .input({
             type: "mm:input/consume",
             ingredient: {
@@ -30,7 +30,7 @@ MMEvents.createProcesses(event => {
             per_tick:true,
             ingredient: {
                 type: "mm:energy",
-                amount: 96000000
+                amount: 156000000
             }
         })
         .output({
@@ -44,7 +44,7 @@ MMEvents.createProcesses(event => {
 
     event.create("mm:polonium_from_neut")
         .structureId("mm:micro_particle_collider")
-        .ticks(100)
+        .ticks(50)
         .input({
             type: "mm:input/consume",
             ingredient: {
@@ -81,7 +81,7 @@ MMEvents.createProcesses(event => {
             per_tick:true,
             ingredient: {
                 type: "mm:energy",
-                amount: 96000000
+                amount: 156000000
             }
         })
         .output({
@@ -122,6 +122,7 @@ MMEvents.createProcesses(event => {
         })
         .input({
             type: "mm:input/consume",
+            per_tick:true,
             ingredient: {
                 type: "mm:energy",
                 amount: 333333333
@@ -132,6 +133,57 @@ MMEvents.createProcesses(event => {
             ingredient: {
                 type: "mm:item",
                 item: "etshtinker:trinity_intereactive_alloy",
+                count: 1
+            }
+        })
+        //奇迹物质
+    event.create("mm:trinity_from_collider")
+        .structureId("mm:micro_particle_collider")
+        .ticks(10)
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:anti_neutronium",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "kubejs:halfdone_exoalloy",
+                count: 1
+            }
+        }).input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:exotic_matter",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:trinity_intereactive_alloy",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            per_tick:true,
+            ingredient: {
+                type: "mm:energy",
+                amount: 1073741823
+            }
+        })
+        .output({
+            type: "mm:output/simple",
+            ingredient: {
+                type: "mm:item",
+                item: "etshtinker:exo_alloy",
                 count: 1
             }
         })
