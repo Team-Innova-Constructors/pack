@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000
@@ -51,6 +52,11 @@
 			"minecraft:magma_block": 800,
 			"powah:blazing_crystal_block": 2800
 >>>>>>> 200bea9 (优化初始化)
+=======
+			"powah:blazing_crystal_block": 2800,
+			"minecraft:magma_block": 800,
+			"minecraft:lava": 1000
+>>>>>>> 89b3efd (同步)
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 30,
