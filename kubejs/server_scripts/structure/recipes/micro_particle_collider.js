@@ -137,7 +137,7 @@ MMEvents.createProcesses(event => {
             }
         })
         //奇迹物质
-    event.create("mm:trinity_from_collider")
+    event.create("mm:exoalloy_from_collider")
         .structureId("mm:micro_particle_collider")
         .ticks(10)
         .input({
