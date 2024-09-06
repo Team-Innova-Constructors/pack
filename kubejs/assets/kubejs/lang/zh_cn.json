@@ -19,6 +19,8 @@
     
     "item.kubejs.ultra_dense_nugget":"超致密粒",
     "item.kubejs.overchargedultradense":"过载超致密锭",
+
+    "item.kubejs.pyrocrystal":"永燃水晶",
     
     "fluid.kubejs.volatile_lava": "挥发性熔岩",
     "fluid.kubejs.dense_lava": "高密度熔岩",
@@ -28,6 +30,9 @@
     
     "block.kubejs.protonium_block":"质子块",
     "block.kubejs.electronium_block":"电子块",
+
+    "block.kubejs.pyrocrystal_ore":"永燃水晶矿石",
+    "block.kubejs.infernal_blackstone":"炼狱黑石",
     
     "item.kubejs.protonium_nugget":"质子粒",
     "item.kubejs.neutron_gear":"中子齿轮",
@@ -42,7 +47,11 @@
     "block.mm.mana_restructer_appliance": "魔力核子重构机",
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
-    
+
+    "gui.ad_astra.text.infernal":"炼狱星",
+    "biome.kubejs.infernal":"炼狱",
+    "biome.kubejs.infernal_molten_surface":"半熔融炼狱",
+
     "block.mm.ultra_dense_energy_port_input": "超致密能量输入口",
     "block.mm.ultra_dense_energy_port_output": "超致密能量输出口",
     "block.mm.ultra_dense_item_port_input": "超致密物品输入口",
