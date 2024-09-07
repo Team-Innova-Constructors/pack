@@ -24,22 +24,6 @@
           -90.0,
           0.0
         ]
-      },
-      {
-        "texture": "ad_astra:textures/sky/light.png",
-        "blending": true,
-        "render_type": "static",
-        "scale": 120.0,
-        "color": {
-          "r": 204,
-          "g": 100,
-          "b": 85
-        },
-        "rotation": [
-          60.0,
-          0.0,
-          0.0
-        ]
       }
     ]
   }

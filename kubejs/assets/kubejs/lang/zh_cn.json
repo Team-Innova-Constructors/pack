@@ -33,6 +33,12 @@
 
     "block.kubejs.pyrocrystal_ore":"永燃水晶矿石",
     "block.kubejs.infernal_blackstone":"炼狱黑石",
+
+    "block.kubejs.nova_slag":"新星熔渣",
+    "block.kubejs.ionized_slag":"电离熔渣",
+    "block.kubejs.overdense_protonium_ore":"超质量质子矿",
+    "block.kubejs.overdense_neutronium_ore":"超质量中子矿",
+    "block.kubejs.overdense_glacio_stone":"超质量霜星石",
     
     "item.kubejs.protonium_nugget":"质子粒",
     "item.kubejs.neutron_gear":"中子齿轮",
@@ -51,6 +57,13 @@
     "gui.ad_astra.text.infernal":"炼狱星",
     "biome.kubejs.infernal":"炼狱",
     "biome.kubejs.infernal_molten_surface":"半熔融炼狱",
+
+    "gui.ad_astra.text.sagittarius_a":"人马座A*",
+
+    "gui.ad_astra.text.ionized_glacio":"电离冻土星",
+    "biome.kubejs.disordered_zone":"异常区域",
+    "biome.kubejs.ionized_glacio":"电离冻土",
+    "biome.kubejs.ionized_mare":"电离月海",
 
     "block.mm.ultra_dense_energy_port_input": "超致密能量输入口",
     "block.mm.ultra_dense_energy_port_output": "超致密能量输出口",
