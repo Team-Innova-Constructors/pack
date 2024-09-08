@@ -8,7 +8,7 @@
           "target": {
             "predicate_type": "minecraft:blockstate_match",
             "block_state": {
-                "Name":"kubejs:overdense_glacio_stone"
+                "Name":"cti:overdense_glacio_stone"
             }
           },
           "state": {

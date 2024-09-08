@@ -7,6 +7,5 @@ StartupEvents.registry("block",event=>{
     event.create("nova_slag","basic").requiresTool(true).hardness(2.0).resistance(1).tagBlock("mineable/shavel").tagBlock('minecraft:needs_iron_tool').material('sand').soundType(SoundType.GRAVEL).requiresTool(true)
     event.create("ionized_slag","basic").requiresTool(true).hardness(4.0).resistance(2048).tagBlock("mineable/shavel").tagBlock('minecraft:needs_netherite_tool').material('sand').soundType(SoundType.GRAVEL).lightLevel(5).requiresTool(true)
     event.create("overdense_protonium_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK).lightLevel(5).requiresTool(true)
-    event.create("overdense_glacio_stone","basic").requiresTool(true).hardness(4.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('iron').soundType(SoundType.ANCIENT_DEBRIS).requiresTool(true)
     event.create("overdense_neutronium_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK).lightLevel(5).requiresTool(true)
 })

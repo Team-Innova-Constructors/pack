@@ -21,7 +21,8 @@
     "item.kubejs.overchargedultradense":"过载超致密锭",
 
     "item.kubejs.pyrocrystal":"永燃水晶",
-    
+    "item.kubejs.electrocrystal":"感电水晶",
+
     "fluid.kubejs.volatile_lava": "挥发性熔岩",
     "fluid.kubejs.dense_lava": "高密度熔岩",
     "fluid.kubejs.used_lava": "用尽的熔岩",
