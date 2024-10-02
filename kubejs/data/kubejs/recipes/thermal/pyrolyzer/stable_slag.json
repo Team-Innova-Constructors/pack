@@ -1,0 +1,17 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+      "item": "kubejs:stable_slag"
+    },
+    "result": [
+      {
+        "item": "kubejs:tungsten_ingot",
+        "chance": 3
+      },
+      {
+        "item": "minecraft:netherite_scrap",
+        "chance": 0.25
+      }
+    ],
+    "experience": 1.35
+  }

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "item": "kubejs:mineral_slag"
+    },
+    "result": [
+      {
+        "item": "etshtinker:bismuthinite",
+        "chance": 4.5
+      },
+      {
+        "item": "thermal:cinnabar",
+        "chance": 2.5
+      },
+      {
+        "item": "thermal:apatite",
+        "chance": 5.55
+      },
+      {
+        "item": "thermal:niter",
+        "chance": 2.5
+      }
+    ],
+    "experience": 1
+}

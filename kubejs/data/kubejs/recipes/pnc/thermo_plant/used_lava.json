@@ -1,0 +1,26 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "air_use_multiplier": 2.0,
+    "exothermic": false,
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 1000,
+      "fluid": "kubejs:dense_lava"
+    },
+    "item_input": {
+      "tag": "forge:dusts"
+    },
+    "item_output": {
+      "count": 4,
+      "item": "kubejs:dense_slag"
+    },
+    "fluid_output":{
+      "amount": 200,
+      "fluid": "kubejs:used_lava"
+    },
+    "pressure": 2.0,
+    "speed": 1,
+    "temperature": {
+      "min_temp": 773
+    }
+  }

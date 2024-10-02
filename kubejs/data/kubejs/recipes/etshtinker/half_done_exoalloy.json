@@ -1,0 +1,38 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 2147483647,
+    "powerRate": 2147483647,
+    "input": {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    "ingredients": [
+      {
+        "item": "kubejs:tungsten_ingot"
+      },
+      {
+        "item": "kubejs:zirconium_alloy"
+      },
+      {
+        "item": "etshtinker:activated_chroma_plate"
+      },
+      {
+        "item": "etshtinker:manalyn_queen"
+      },
+      {
+        "item": "etshtinker:coronation_alloy"
+      },
+      {
+        "item": "etshtinker:trinity_intereactive_alloy"
+      },
+      {
+        "item": "etshtinker:anti_neutronium"
+      },
+      {
+        "item": "etshtinker:exotic_matter"
+      }
+    ],
+    "result": {
+      "item": "kubejs:halfdone_exoalloy"
+    }
+  }
+  

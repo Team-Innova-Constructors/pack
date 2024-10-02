@@ -10,4 +10,12 @@ StartupEvents.registry("item",event=>{
     event.create("pyrocrystal","basic")
     event.create("electrocrystal","basic")
 
+    event.create("dense_slag","basic")
+    event.create("crystal_slag","basic")
+    event.create("enriched_slag","basic")
+    event.create("metal_slag","basic")
+    event.create("stable_slag","basic")
+    event.create("light_slag","basic")
+    event.create("mineral_slag","basic")
+    event.create("powdered_slag","basic")
 })

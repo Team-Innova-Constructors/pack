@@ -1,0 +1,25 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+      "item": "kubejs:powdered_slag"
+    },
+    "result": [
+      {
+        "item": "minecraft:redstone",
+        "chance": 8.7
+      },
+      {
+        "item": "minecraft:glowstone_dust",
+        "chance": 6.5
+      },
+      {
+        "item": "thermal:quartz_dust",
+        "chance": 3.9
+      },
+      {
+        "item": "ae2:certus_quartz_dust",
+        "chance": 14.5
+      }
+    ],
+    "energy": 2000
+}
