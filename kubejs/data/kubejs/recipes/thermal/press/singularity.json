@@ -1,0 +1,19 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "ae2:singularity",
+      "count": 9
+    },
+    {
+      "item": "kubejs::neutronium_singularity_press"
+    }
+  ],
+  "result": [
+    {
+      "item": "cti:compressed_singularity",
+      "count": 1
+    }
+  ],
+  "energy": 2000
+}

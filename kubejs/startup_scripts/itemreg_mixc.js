@@ -11,6 +11,7 @@ StartupEvents.registry("item",event=>{
     event.create("electrocrystal","basic")
     event.create("violium_alloy","basic")
     event.create("activated_matter_dust","basic")
+    event.create("neutronium_singularity_press","basic").tag('thermal:crafting/dies')
     
     event.create("dense_slag","basic")
     event.create("crystal_slag","basic")
