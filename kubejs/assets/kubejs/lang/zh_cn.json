@@ -18,7 +18,7 @@
     "item.kubejs.halfdone_exoalloy":"未成·奇迹物质",
     
     "item.kubejs.ultra_dense_nugget":"超致密粒",
-    "item.kubejs.overchargedultradense":"过载超致密锭",
+    "item.kubejs.overchargedultradense":"不稳定中子锭",
 
     "item.kubejs.pyrocrystal":"永燃水晶",
     "item.kubejs.electrocrystal":"感电水晶",
@@ -39,15 +39,24 @@
     "block.kubejs.ionized_slag":"电离熔渣",
     "block.kubejs.overdense_protonium_ore":"超质量质子矿",
     "block.kubejs.overdense_neutronium_ore":"超质量中子矿",
-    "block.kubejs.overdense_glacio_stone":"超质量霜星石",
+    "block.kubejs.violium_casing":"维奥合金外壳",
     
     "item.kubejs.protonium_nugget":"质子粒",
     "item.kubejs.neutron_gear":"中子齿轮",
     "item.kubejs.star_coal":"恒星燃料",
-
     "item.kubejs.gas_hydrate":"可燃冰",
     "item.kubejs.graphene":"石墨烯",
     "item.kubejs.tungsten_ingot":"钨锭",
+    "item.kubejs.violium_alloy":"维奥合金锭",
+    "item.kubejs.dense_slag":"致密炉渣",
+    "item.kubejs.crystal_slag":"晶态熔渣",
+    "item.kubejs.enriched_slag":"富集炉渣",
+    "item.kubejs.metal_slag":"金相炉渣",
+    "item.kubejs.stable_slag":"稳定炉渣",
+    "item.kubejs.light_slag":"轻质熔渣",
+    "item.kubejs.mineral_slag":"矿质熔渣",
+    "item.kubejs.powdered_slag":"粉体熔渣",
+    "item.kubejs.activated_matter_dust":"致密物质粉",
     
     "block.mm.overload_infuser": "过载能量注入器",
     

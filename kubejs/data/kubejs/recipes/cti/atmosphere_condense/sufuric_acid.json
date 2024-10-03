@@ -1,0 +1,8 @@
+{
+  "type": "cti:atmosphere_condense",
+  "biome": "ad_astra:infernal_venus_barrens",
+  "output": {
+    "fluid": "mekanism:sulfuric_acid",
+    "amount" : 1250
+  }
+}

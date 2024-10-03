@@ -9,7 +9,9 @@ StartupEvents.registry("item",event=>{
     event.create("halfdone_exoalloy","basic")
     event.create("pyrocrystal","basic")
     event.create("electrocrystal","basic")
-
+    event.create("violium_alloy","basic")
+    event.create("activated_matter_dust","basic")
+    
     event.create("dense_slag","basic")
     event.create("crystal_slag","basic")
     event.create("enriched_slag","basic")

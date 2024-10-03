@@ -21,6 +21,48 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismSmelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
   event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock","mekanism:osmium")
 
+  //维奥合金相关
+  //维奥合金外壳
+  event.shaped(Item.of('kubejs:violium_casing',1), [
+    'AAA',
+    'ABA',
+    'AAA'
+  ],
+  {
+    A: 'kubejs:violium_alloy',
+    B: 'mekanism:steel_casing',
+  }
+  )
+  //多方快结构方块
+  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:thermal_evaporation_block'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:boiler_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:turbine_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:violium_casing')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, 'mekanism:enriched_iron','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanism:laser_amplifier'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  //机器
+  let mach1 =[
+    'mekanism:osmium_compressor',
+    'mekanism:combiner',
+    'mekanism:chemical_crystallizer',
+    'mekanism:chemical_dissolution_chamber',
+    'mekanism:chemical_washer',
+    'mekanism:antiprotonic_nucleosynthesizer',
+    'mekanism:solar_neutron_activator'
+  ]
+  for (let i of mach1){
+    event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:`${i}`}, 'mekanism:steel_casing','kubejs:violium_casing')
+  }
+
+
+  //数采和电板
+	event.remove([{mod: 'mekanism', output: 'mekanism:digital_miner' }])
+	event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
+	event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])
+	event.remove([{mod: 'mekaevolution', output: 'mekaevolution:absolute_control_circuit' }])
+	event.remove([{mod: 'mekaevolution', output: 'mekaevolution:cosmic_control_circuit' }])
+
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
     ' L ',

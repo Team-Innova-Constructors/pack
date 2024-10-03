@@ -11,8 +11,23 @@ ServerEvents.recipes(event => {
 		'projecte:condenser_mk2',
 	]
 	for (let i of proje) {event.remove({id:`${i}`})}
+  	//重力透镜
+  	event.remove({id:'botania:lens_weight'})
+  	event.remove({id:'twilightforest:uncrafting_table'})
+	event.remove({id:'projecte:rm_katar'})
+	event.remove({id:'projecte:rm_sword'})
+	event.remove({id:'projecte:rm_hammer'})
+	event.remove({id:'projecte:rm_morning_star'})
+	event.remove({id:'projecte:rm_shovel'})
+	event.remove({id:'projecte:rm_shovel'})
+	event.remove({id:'projecte:rm_axe'})
+	event.remove({id:'projecte:rm_pick'})
+	//热力锭铸膜
+	event.remove([{mod: 'thermal', output: 'thermal:chiller_ingot_cast' }])
 
-
+	//pnt
+	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
+  	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
 
 	//meka套
 	let meka =[

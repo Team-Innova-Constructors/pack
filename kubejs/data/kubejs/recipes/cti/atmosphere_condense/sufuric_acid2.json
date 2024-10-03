@@ -1,0 +1,8 @@
+{
+  "type": "cti:atmosphere_condense",
+  "biome": "ad_astra:venus_wastelands",
+  "output": {
+    "fluid": "mekanism:sulfuric_acid",
+    "amount" : 1250
+  }
+}

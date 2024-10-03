@@ -8,4 +8,5 @@ StartupEvents.registry("block",event=>{
     event.create("ionized_slag","basic").requiresTool(true).hardness(4.0).resistance(2048).tagBlock("mineable/shavel").tagBlock('minecraft:needs_netherite_tool').material('sand').soundType(SoundType.GRAVEL).lightLevel(5).requiresTool(true)
     event.create("overdense_protonium_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK).lightLevel(5).requiresTool(true)
     event.create("overdense_neutronium_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK).lightLevel(5).requiresTool(true)
+    event.create("violium_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
 })
