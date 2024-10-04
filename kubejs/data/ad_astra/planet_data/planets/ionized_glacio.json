@@ -1,0 +1,16 @@
+{
+    "translation": "gui.ad_astra.text.ionized_glacio",
+    "galaxy": "ad_astra:milky_way",
+    "solar_system": "ad_astra:sagittarius_a",
+    "world": "ad_astra:ionized_glacio",
+    "orbit_world": "ad_astra:ionized_glacio_orbit",
+    "rocket_tier": 5,
+    "gravity": 10.35,
+    "has_atmosphere": true,
+    "days_in_year": 200,
+    "temperature": -203,
+    "solar_power": 20,
+    "orbit_solar_power": 26,
+    "has_oxygen": false,
+    "button_color": "orange"
+  }

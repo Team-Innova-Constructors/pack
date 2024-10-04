@@ -1,0 +1,8 @@
+{
+  "type": "cti:atmosphere_condense",
+  "biome": "cti:disordered_zone",
+  "output": {
+    "fluid": "etshtinker:overchargedneutronium",
+    "amount" : 1
+  }
+}

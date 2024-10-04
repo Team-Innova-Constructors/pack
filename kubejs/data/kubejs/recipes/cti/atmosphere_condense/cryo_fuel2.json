@@ -1,0 +1,8 @@
+{
+  "type": "cti:atmosphere_condense",
+  "biome": "ad_astra:glacio_ice_peaks",
+  "output": {
+    "fluid": "ad_astra:cryo_fuel",
+    "amount" : 25
+  }
+}

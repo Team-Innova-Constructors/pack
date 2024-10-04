@@ -1,0 +1,13 @@
+{
+    "type": "extendedcrafting:shapeless_flux_crafter",
+    "powerRequired": 2147483647,
+    "ingredients": [
+      {
+        "item": "kubejs:halfdone_exoalloy"
+      }
+    ],
+    "result": {
+      "item": "etshtinker:exo_alloy"
+    }
+  }
+  

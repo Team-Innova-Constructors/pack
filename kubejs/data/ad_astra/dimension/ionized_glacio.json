@@ -1,0 +1,49 @@
+{
+    "type": "kubejs:ionized_glacio",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "kubejs:ionized_glacio_noise",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "cti:ionized_glacio",
+            "parameters": {
+              "temperature": 0.4,
+              "humidity": -0.4,
+              "continentalness": 0,
+              "erosion": 0,
+              "weirdness": 0,
+              "depth": -0.05,
+              "offset": 0
+            }
+          },
+          {
+            "biome": "cti:disordered_zone",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0,
+              "continentalness": -0.6,
+              "erosion": 0,
+              "weirdness": -0.6,
+              "depth": 0.005,
+              "offset": 0
+            }
+          },
+          {
+            "biome": "cti:ionized_mare",
+            "parameters": {
+              "temperature": 0,
+              "humidity": -0.5,
+              "continentalness": 0,
+              "erosion": 0,
+              "weirdness": 0.5,
+              "depth": 0,
+              "offset": 0
+            }
+          }
+            
+        ]
+      }
+    }
+  }

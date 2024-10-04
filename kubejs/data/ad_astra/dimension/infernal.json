@@ -1,0 +1,36 @@
+{
+    "type": "kubejs:infernal",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "kubejs:infernal_nosie",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "cti:infernal",
+            "parameters": {
+                "temperature": 0.5,
+                "humidity": 0,
+                "continentalness": 0.5,
+                "erosion": 0,
+                "weirdness": 0.5,
+                "depth": 0,
+                "offset": 0
+              }
+          },
+          {
+            "biome": "cti:infernal_molten_surface",
+            "parameters": {
+                "temperature": 0.6,
+                "humidity": 0,
+                "continentalness": 0.25,
+                "erosion": 0.5,
+                "weirdness": 0,
+                "depth": 0,
+                "offset": 0
+              }
+          }
+        ]
+      }
+    }
+}

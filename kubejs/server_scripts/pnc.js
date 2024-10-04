@@ -10,7 +10,6 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:thermopneumatic_processing_plant'}, 'pneumaticcraft:reinforced_stone_slab','kubejs:compressed_hardlead')
   //涡轮转子
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:turbine_rotor'}, 'pneumaticcraft:ingot_iron_compressed','kubejs:compressed_hardlead')
-  //第一块压缩铁
-  event.replaceInput({mod:'pneumaticcraft',id:'pneumaticcraft:explosion_crafting/compressed_iron_ingot'}, '#forge:ingots/iron','#forge:ingots/steel')
-  event.replaceInput({mod:'pneumaticcraft',id:'pneumaticcraft:explosion_crafting/compressed_iron_block'}, '#forge:stroage_blocks/iron','#forge:stroage_blocks/steel')
+  //热力压缩机
+  event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:thermal_compressor'}, 'minecraft:heavy_weighted_pressure_plate','pneumaticcraft:plastic')
 })

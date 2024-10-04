@@ -1,0 +1,77 @@
+{
+    "parts": [
+        {
+            "path": "tinkers_reforged:item/tool/parts/long_blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/parts/great_blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/handle",
+            "stat_type": "tconstruct:handle"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/guard",
+            "stat_type": "tconstruct:binding"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/blade_broken",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/handle",
+            "stat_type": "tconstruct:handle"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/guard",
+            "stat_type": "tconstruct:binding"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/blade_broken",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/large/blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/large/broken_blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/large/guard",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/greatsword/large/handle",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/large/blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/large/broken_blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/large/guard",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkers_reforged:item/tool/longsword/large/handle",
+            "stat_type": "tconstruct:head"
+        }
+    ],
+    "replace": false
+}

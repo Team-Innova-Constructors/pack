@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "fluid": "etshtinker:molten_ultra_dense",
+      "amount": 900
+    },
+    {
+      "fluid": "etshtinker:molten_protonium",
+      "amount": 900
+    },
+    {
+      "fluid": "etshtinker:molten_electronium",
+      "amount": 900
+    }
+  ],
+  "result": {
+    "fluid": "etshtinker:molten_trinity_intereactive_alloy",
+    "amount": 90
+  },
+  "temperature": 10240
+}

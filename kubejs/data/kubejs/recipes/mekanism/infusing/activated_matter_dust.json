@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 320,
+    "tag": "mekanism:refined_obsidian"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "etshtinker:gs_indused_netherite_dust"
+    }
+  },
+  "output": {
+    "count": 4,
+    "item": "kubejs:activated_matter_dust"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+      "item": "kubejs:dense_slag"
+    },
+    "result": [
+      {
+        "item": "thermal:gold_dust",
+        "chance":3.35
+      },
+      {
+        "item": "thermal:silver_dust",
+        "chance":3.35
+      },
+      {
+        "item": "mekanism:dust_osmium",
+        "chance":6.35
+      },
+      {
+        "item": "mekanism:dust_uranium",
+        "chance":12.25
+      }
+    ],
+    "energy": 2000
+  }

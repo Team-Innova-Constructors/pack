@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "X": {
+            "tag": "forge:ingots/zirconium"
+          }
+        },
+        "pattern": [
+          "XXX",
+          "XXX",
+          "XXX"
+        ],
+        "result": {
+          "item": "tinkers_reforged:titanium_block"
+        }
+      }
+    }
+  ]
+}

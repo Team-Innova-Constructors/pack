@@ -1,0 +1,8 @@
+{
+  "type": "cti:atmosphere_extract",
+  "biome": "ad_astra:glacio_snowy_barrens",
+  "output": {
+    "item": "ad_astra:ice_shard",
+    "count": 4
+  }
+}

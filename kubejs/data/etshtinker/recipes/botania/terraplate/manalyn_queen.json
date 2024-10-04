@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "megacells:mana_storage_cell_1m"
+    },
+    {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+    {
+      "item": "tconstruct:queens_slime_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    }
+  ],
+  "mana": 10000000,
+  "result": {
+    "item": "etshtinker:manalyn_queen"
+  }
+}

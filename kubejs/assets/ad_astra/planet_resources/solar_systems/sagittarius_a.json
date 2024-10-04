@@ -1,0 +1,13 @@
+{
+    "galaxy": "ad_astra:milky_way",
+    "solar_system": "ad_astra:sagittarius_a",
+    "sun": "kubejs:textures/sky/sagittarius_a.png",
+    "sun_scale": 24,
+    "button_color": "gray",
+    "ring_color": {
+      "r": 50,
+      "g": 50,
+      "b": 50,
+      "a": 255
+    }
+}

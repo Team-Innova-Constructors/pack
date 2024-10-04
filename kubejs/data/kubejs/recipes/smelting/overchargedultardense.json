@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "cookingtime": 100,
+    "experience": 2,
+    "ingredient": {
+      "item": "kubejs:activated_matter_dust"
+    },
+    "result": "kubejs:overchargedultradense"
+  }

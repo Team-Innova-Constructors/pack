@@ -1,0 +1,21 @@
+{
+    "parts": [
+        {
+            "path": "tinkerscalibration:item/tool/cutlass/handle",
+            "stat_type": "tconstruct:binding"
+        },
+        {
+            "path": "tinkerscalibration:item/tool/cutlass/broken_blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkerscalibration:item/tool/cutlass/blade",
+            "stat_type": "tconstruct:head"
+        },
+        {
+            "path": "tinkerscalibration:item/tool/parts/bent_blade",
+            "stat_type": "tconstruct:head"
+        }
+    ],
+    "replace": false
+}

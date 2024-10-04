@@ -1,0 +1,25 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+      "item": "kubejs:enriched_slag"
+    },
+    "result": [
+      {
+        "item": "kubejs:metal_slag",
+        "chance":0.8
+      },
+      {
+        "item": "kubejs:light_slag",
+        "chance":1.2
+      },
+      {
+        "item": "kubejs:crystal_slag",
+        "chance":0.6
+      },
+      {
+        "item": "kubejs:mineral_slag",
+        "chance":1.4
+      }
+    ],
+    "energy": 2000
+  }
