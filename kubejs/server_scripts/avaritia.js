@@ -36,5 +36,39 @@ ServerEvents.recipes(
             },
             result: {item: 'avaritia:neutron_gear'}
         })
+
+        //中子压印板
+        event.custom({
+            type: 'avaritia:shaped_extreme_craft',
+            pattern: [
+                "AAAAAAAAA",
+                "ABACCCABA",
+                "AABBEBBAA",
+                "ACBE EBCA",
+                "ACE D ECA",
+                "ACBE EBCA",
+                "AABBEBBAA",
+                "ABACCCABA",
+                "AAAAAAAAA"
+            ],
+            key: {
+                A: [
+                    {item: 'avaritia:neutron_ingot'}
+                ],
+                B: [
+                    {item: 'avaritia:crystal_matrix_ingot'}
+                ],
+                C: [
+                    {item: 'ae2:singularity'}
+                ],
+                D: [
+                    {item: 'kubejs:ultra_dense_block'}
+                ],
+                E: [
+                    {item: 'avaritia:neutron'}
+                ]
+            },
+            result: {item: 'kubejs:neutronium_singularity_press'}
+        })
     }
 )
