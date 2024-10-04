@@ -1,0 +1,18 @@
+{
+    "type": "thermal:crystallizer",
+    "ingredients": [
+      {
+        "fluid": "tconstruct:molten_osmium",
+        "amount": 720
+      },
+      {
+        "item": "kubejs:compressed_hardlead"
+      }
+    ],
+    "result": [
+      {
+        "item": "kubejs:ultra_dense_nugget"
+      }
+    ],
+    "energy": 160
+  }
