@@ -1,8 +1,0 @@
-{
-  "type": "cti:quantum_mining",
-  "chance": 1.8,
-  "output": {
-    "item": "minecraft:copper_ore",
-    "count": 6
-  }
-}

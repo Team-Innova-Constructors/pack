@@ -1,28 +1,21 @@
 {
     "fluid.kubejs.zirconium_fluid": "熔融锆",
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
-    "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
-    "item.kubejs.dense_lava_bucket":"高密度熔岩桶",
-    "item.kubejs.used_lava_bucket":"用尽的熔岩桶",
 
-    "singularity.avaritia.bismuth": "铋",
+    "singularity.avaritia.bismush": "铋",
     "singularity.avaritia.brass": "黄铜",
     "singularity.avaritia.osmium": "锇",
     "singularity.avaritia.zirconium": "锆",
 
 
-    "item.kubejs.dusts_titanium":"钛粉",
+    
     "item.kubejs.compressed_hardlead":"压缩硬铅",
     "item.kubejs.zirconium_alloy":"气锻钛锆合金",
     "item.kubejs.compressed_activated_chroma_plate":"压缩活化彩钢",
-    "item.kubejs.halfdone_exoalloy":"未成·奇迹物质",
     
     "item.kubejs.ultra_dense_nugget":"超致密粒",
-    "item.kubejs.overchargedultradense":"不稳定中子锭",
-
-    "item.kubejs.pyrocrystal":"永燃水晶",
-    "item.kubejs.electrocrystal":"感电水晶",
-
+    "item.kubejs.overchargedultradense":"过载超致密锭",
+    
     "fluid.kubejs.volatile_lava": "挥发性熔岩",
     "fluid.kubejs.dense_lava": "高密度熔岩",
     "fluid.kubejs.used_lava": "用尽的熔岩",
@@ -31,50 +24,20 @@
     
     "block.kubejs.protonium_block":"质子块",
     "block.kubejs.electronium_block":"电子块",
-
-    "block.kubejs.pyrocrystal_ore":"永燃水晶矿石",
-    "block.kubejs.infernal_blackstone":"炼狱黑石",
-
-    "block.kubejs.nova_slag":"新星熔渣",
-    "block.kubejs.ionized_slag":"电离熔渣",
-    "block.kubejs.overdense_protonium_ore":"超质量质子矿",
-    "block.kubejs.overdense_neutronium_ore":"超质量中子矿",
-    "block.kubejs.violium_casing":"维奥合金外壳",
     
     "item.kubejs.protonium_nugget":"质子粒",
     "item.kubejs.neutron_gear":"中子齿轮",
     "item.kubejs.star_coal":"恒星燃料",
+
     "item.kubejs.gas_hydrate":"可燃冰",
     "item.kubejs.graphene":"石墨烯",
-    "item.kubejs.tungsten_ingot":"钨锭",
-    "item.kubejs.violium_alloy":"维奥合金锭",
-    "item.kubejs.dense_slag":"致密炉渣",
-    "item.kubejs.crystal_slag":"晶态熔渣",
-    "item.kubejs.enriched_slag":"富集炉渣",
-    "item.kubejs.metal_slag":"金相炉渣",
-    "item.kubejs.stable_slag":"稳定炉渣",
-    "item.kubejs.light_slag":"轻质熔渣",
-    "item.kubejs.mineral_slag":"矿质熔渣",
-    "item.kubejs.powdered_slag":"粉体熔渣",
-    "item.kubejs.activated_matter_dust":"致密物质粉",
     
     "block.mm.overload_infuser": "过载能量注入器",
     
     "block.mm.mana_restructer_appliance": "魔力核子重构机",
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
-
-    "gui.ad_astra.text.infernal":"炼狱星",
-    "biome.kubejs.infernal":"炼狱",
-    "biome.kubejs.infernal_molten_surface":"半熔融炼狱",
-
-    "gui.ad_astra.text.sagittarius_a":"人马座A*",
-
-    "gui.ad_astra.text.ionized_glacio":"电离冻土星",
-    "biome.kubejs.disordered_zone":"异常区域",
-    "biome.kubejs.ionized_glacio":"电离冻土",
-    "biome.kubejs.ionized_mare":"电离月海",
-
+    
     "block.mm.ultra_dense_energy_port_input": "超致密能量输入口",
     "block.mm.ultra_dense_energy_port_output": "超致密能量输出口",
     "block.mm.ultra_dense_item_port_input": "超致密物品输入口",

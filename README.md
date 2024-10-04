@@ -1,2 +1,0 @@
-# pack
-kubejs and config

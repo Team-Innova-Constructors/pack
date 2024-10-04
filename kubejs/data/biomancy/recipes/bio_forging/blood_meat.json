@@ -11,6 +11,10 @@
             "count": 6
         },
         {
+            "item": "biomancy:gem_fragments",
+            "count": 5
+        },
+        {
             "item": "biomancy:nutrients",
             "count": 28
         },
@@ -22,7 +26,7 @@
             "item": "biomancy:creator_mix"
         }
     ],
-    "nutrientsCost": 100,
+    "nutrientsCost": 80,
     "result": {
         "item": "solidarytinker:bloodmeat_ingot"
     }
