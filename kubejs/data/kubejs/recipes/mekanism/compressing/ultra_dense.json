@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:compressing",
+  "chemicalInput": {
+    "amount": 64,
+    "gas": "cti:neutron"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:compressed_hardlead"
+    }
+  },
+  "output": {
+    "item": "etshtinker:ultra_dense"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:gas_conversion",
+    "input": {
+      "ingredient": {
+        "item": "avaritia:neutron_ingot"
+      }
+    },
+    "output": {
+      "amount": 200,
+      "gas": "cti:neutron"
+    }
+  }

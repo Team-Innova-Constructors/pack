@@ -40,7 +40,6 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:violium_casing')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, 'mekanism:enriched_iron','kubejs:violium_alloy')
-  event.replaceInput({id:'mekanism:laser_amplifier'}, '#forge:ingots/steel','kubejs:violium_alloy')
   //机器
   let mach1 =[
     'mekanism:osmium_compressor',
