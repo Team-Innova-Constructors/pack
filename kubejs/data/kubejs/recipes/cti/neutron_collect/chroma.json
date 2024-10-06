@@ -1,0 +1,9 @@
+{
+    "type": "cti:reactor_neutron_collect",
+    "efficiency": 2.875,
+    "consumption_rate": 0.00775,
+    "catalyst": {
+      "item": "etshtinker:chroma_plate",
+      "count": 5
+    }
+  }

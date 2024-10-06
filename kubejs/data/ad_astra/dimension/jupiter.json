@@ -1,0 +1,11 @@
+{
+    "type": "kubejs:jupiter",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "kubejs:jupiter_noise",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "cti:jupiter"
+      }
+    }
+}

@@ -9,4 +9,8 @@ StartupEvents.registry("block",event=>{
     event.create("overdense_protonium_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK).lightLevel(5).requiresTool(true)
     event.create("overdense_neutronium_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK).lightLevel(5).requiresTool(true)
     event.create("violium_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
+    event.create("philosophers_catalyst","basic").requiresTool(true).hardness(1.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('stone').soundType(SoundType.STONE)
+    event.create("stellar_stone_diamond_ore","basic").requiresTool(true).hardness(7.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
+    event.create("stellar_stone","basic").requiresTool(true).hardness(5.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
+    event.create("stellar_ultra_dense_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
 })

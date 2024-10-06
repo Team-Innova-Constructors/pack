@@ -1,0 +1,15 @@
+{
+    "type": "botania:mana_infusion",
+    "catalyst": {
+      "type": "block",
+      "block": "kubejs:philosophers_catalyst"
+    },
+    "input": {
+      "item": "projecte:mobius_fuel"
+    },
+    "mana": 1000000,
+    "output": {
+      "count": 1,
+      "item": "projecte:aeternalis_fuel"
+    }
+  }

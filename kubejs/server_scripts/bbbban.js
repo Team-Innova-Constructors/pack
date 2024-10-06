@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
 		'projecte:transmutation_table',
 		'projecte:transmutation_tablet',
 		'projecte:philosophers_stone',
+		'projecte:philosophers_stone_alt',
 		'projecte:collector_mk1',
 		'projecte:collector_mk2',
 		'projecte:collector_mk3',
@@ -22,6 +23,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'projecte:rm_shovel'})
 	event.remove({id:'projecte:rm_axe'})
 	event.remove({id:'projecte:rm_pick'})
+	event.remove({mod:'projecte',type:'crafting_shapeless',input:'projecte:philosophers_stone'})
 	//热力锭铸膜
 	event.remove([{mod: 'thermal', output: 'thermal:chiller_ingot_cast' }])
 

@@ -1,0 +1,15 @@
+{
+    "type": "botania:mana_infusion",
+    "catalyst": {
+      "type": "block",
+      "block": "kubejs:philosophers_catalyst"
+    },
+    "input": {
+      "item": "minecraft:coal"
+    },
+    "mana": 16800,
+    "output": {
+      "count": 1,
+      "item": "projecte:alchemical_coal"
+    }
+  }

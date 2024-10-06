@@ -1,0 +1,9 @@
+{
+  "type": "cti:reactor_neutron_collect",
+  "efficiency": 12.675,
+  "consumption_rate": 0.000010,
+  "catalyst": {
+    "item": "etshtinker:ultra_dense",
+    "count": 3
+  }
+}
