@@ -13,7 +13,7 @@
     "infiniburn": "#minecraft:infiniburn_overworld",
     "min_y": -64,
     "height": 384,
-    "effects": "minecraft:nether",
+    "effects": "ad_astra:jupiter",
     "monster_spawn_block_light_limit": 0,
     "monster_spawn_light_level": 0
 }
