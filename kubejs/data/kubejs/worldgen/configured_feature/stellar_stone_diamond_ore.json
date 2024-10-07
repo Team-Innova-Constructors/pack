@@ -8,7 +8,7 @@
         "target": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name":"cti:stellar_stone"
+            "Name":"kubejs:stellar_stone"
           }
         },
         "state": {
