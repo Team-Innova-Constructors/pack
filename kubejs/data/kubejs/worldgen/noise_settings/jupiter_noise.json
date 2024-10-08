@@ -110,7 +110,7 @@
                         }
                       }
                     },
-                    "argument2": -0.35
+                    "argument2": -0.45
                   }
                 }
               },
@@ -151,7 +151,7 @@
                           }
                         }
                       },
-                      "argument2": -0.4
+                      "argument2": -0.3
                     },
                     "argument2": -1
                   }
@@ -159,7 +159,7 @@
               },
               "argument2": {
                 "type": "minecraft:y_clamped_gradient",
-                "from_y": -55,
+                "from_y": 48,
                 "to_y": 64,
                 "from_value": 0,
                 "to_value": 1
@@ -167,8 +167,8 @@
             },
             "argument2": {
               "type": "minecraft:y_clamped_gradient",
-              "from_y": 64,
-              "to_y": 84,
+              "from_y": 72,
+              "to_y": 96,
               "from_value": 1,
               "to_value": 0
             }
