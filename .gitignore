@@ -29,7 +29,7 @@ forge*changelog.txt
 /saves
 /shaderpacks
 /screenshots
-modernfix
+/modernfix
 /ct-natives
 /crash-reports
 .vscode
@@ -49,6 +49,8 @@ tic4.jar
 tic4.json
 options.txt
 CTI.jar
+cti3.jar
+cti3.json
 CTI.json
 /patchouli_books
 /config
