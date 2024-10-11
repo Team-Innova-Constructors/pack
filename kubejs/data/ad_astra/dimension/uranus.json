@@ -1,0 +1,11 @@
+{
+  "type": "kubejs:uranus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "kubejs:uranus_noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "cti:uranus"
+    }
+  }
+}
