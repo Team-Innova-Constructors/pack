@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:fission",
+  "input": {
+    "gas": "cti:overcharged_neutron",
+    "amount": 5
+  },
+  "output": {
+    "gas": "mekanism:nuclear_waste",
+    "amount": 20
+  },
+  "heat": 2
+}

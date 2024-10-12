@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "avaritia:neutron_ingot"
+    }
+  },
+  "output": {
+    "amount": 200,
+    "gas": "cti:neutron"
+  }
+}

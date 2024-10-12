@@ -4,7 +4,7 @@
     "solar_system": "ad_astra:proxima_centauri",
     "world": "ad_astra:infernal",
     "orbit_world": "ad_astra:infernal_orbit",
-    "rocket_tier": 4,
+    "rocket_tier": 3,
     "gravity": 2.123,
     "has_atmosphere": true,
     "days_in_year": 100,

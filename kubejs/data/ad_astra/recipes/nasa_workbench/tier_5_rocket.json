@@ -1,0 +1,76 @@
+{
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_nose_cone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:atherium_casing"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:atherium_casing"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:electronium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:electronium_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:atherium_casing"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:atherium_casing"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:calorite_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:calorite_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:calorite_engine"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    }
+  ],
+  "output": "cti:tier_5_rocket"
+}

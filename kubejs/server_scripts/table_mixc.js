@@ -11,5 +11,16 @@ ServerEvents.recipes(event => {
     event.shapeless('etshtinker:protonium','9x kubejs:protonium_nugget')
     event.shapeless('9x etshtinker:electronium','kubejs:electronium_block')
     event.shapeless('kubejs:electronium_block','9x etshtinker:electronium')
+    //星图
+     event.shaped(Item.of('cti:astra_tablet_5',1), [
+        'AAA',
+        'ABA',
+        'AAA'
+     ],
+     {
+        A: '#forge:plates/steel',
+        B: 'ad_astra:steel_cable',
+     }
+     )
 
 })

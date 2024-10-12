@@ -25,4 +25,10 @@ StartupEvents.registry("fluid",event=>{
     usedlavaAttributes.dropOff(2);
     usedlavaAttributes.tickDelay(20);
     used_lava.attributes = usedlavaAttributes;
+    //超临界过冷钠
+    let cold_sodium = event.create("cold_sodium").thinTexture(0x0000AA).temperature(0).bucketColor(0x0000AA).displayName("cold_sodium");
+    let cold_sodiumAttributes = cold_sodium.createAttributes();
+    cold_sodiumAttributes.dropOff(2);
+    cold_sodiumAttributes.tickDelay(20);
+    cold_sodium.attributes = cold_sodiumAttributes;
 })

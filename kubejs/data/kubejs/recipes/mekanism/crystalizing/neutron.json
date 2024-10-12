@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 200,
+    "gas": "cti:neutron"
+  },
+  "output": {
+    "item": "avaritia:neutron_ingot"
+  }
+}

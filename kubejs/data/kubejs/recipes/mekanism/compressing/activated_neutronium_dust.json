@@ -1,15 +1,15 @@
 {
   "type": "mekanism:compressing",
   "chemicalInput": {
-    "amount": 24,
+    "amount": 1,
     "gas": "cti:neutron"
   },
   "itemInput": {
     "ingredient": {
-      "item": "kubejs:compressed_hardlead"
+      "item": "etshtinker:gs_indused_netherite_dust"
     }
   },
   "output": {
-    "item": "etshtinker:ultra_dense"
+    "item": "etshtinker:activated_neutronium_dust"
   }
 }

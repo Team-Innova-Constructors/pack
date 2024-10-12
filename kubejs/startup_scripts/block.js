@@ -14,4 +14,5 @@ StartupEvents.registry("block",event=>{
     event.create("stellar_stone","basic").requiresTool(true).hardness(5.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
     event.create("stellar_ultra_dense_ore","basic").requiresTool(true).hardness(9.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
     event.create("gas_hydrate_ore","basic").requiresTool(true).hardness(2.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
+    event.create("atherium_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_netherite_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
 })

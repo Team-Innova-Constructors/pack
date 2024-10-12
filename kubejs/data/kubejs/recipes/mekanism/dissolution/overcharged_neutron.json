@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 1,
+    "gas": "cti:neutron"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "etshtinker:activated_neutronium_dust"
+    }
+  },
+  "output": {
+    "amount": 100,
+    "chemicalType": "gas",
+    "gas": "cti:overcharged_neutron"
+  }
+}

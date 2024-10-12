@@ -12,7 +12,8 @@ StartupEvents.registry("item",event=>{
     event.create("violium_alloy","basic")
     event.create("activated_matter_dust","basic")
     event.create("neutronium_singularity_press","basic").tag('thermal:crafting/dies')
-    
+    event.create("atherium_alloy","basic")
+
     event.create("dense_slag","basic")
     event.create("crystal_slag","basic")
     event.create("enriched_slag","basic")
@@ -21,4 +22,12 @@ StartupEvents.registry("item",event=>{
     event.create("light_slag","basic")
     event.create("mineral_slag","basic")
     event.create("powdered_slag","basic")
+
+    event.create("core_basic","basic")
+    event.create("core_blaze","basic")
+    event.create("core_diamond","basic")
+    event.create("core_emerald","basic")
+    event.create("core_harden","basic")
+    event.create("core_nether","basic")
+
 })

@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
   // 催熟手雷
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:phyto_grenade'}, '#forge:ingots/iron','thermal:rich_slag_block')
   // 锡齿轮
-  event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:tin_gear'}, '#forge:nuggets/iron','mekanism:alloy_infused')
+  event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:tin_gear'}, '#forge:nuggets/iron','etshtinker:hardlead_plate')
   // 结晶机
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:machine_crystallizer'}, '#forge:plates/signalum','etshtinker:chroma_plate')
   //创造升级

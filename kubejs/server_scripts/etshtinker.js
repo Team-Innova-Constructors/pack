@@ -1,8 +1,6 @@
 ServerEvents.recipes(event => {
   	// 铋三氧化硫
   	event.replaceInput({mod:'etshtinker',type:'create:mixing',output:'etshtinker:bismuth_ingot'}, 'create:zinc_nugget','createaddition:biomass')
-  	//三一默认配方
-	event.remove([{mod: 'etshtinker', output: 'etshtinker:trinity_intereactive_alloy' }])
   	//悚怖钢
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
   	//血肉重铸
@@ -18,8 +16,6 @@ ServerEvents.recipes(event => {
 	event.replaceOutput({mod: 'etshtinker', id: 'etshtinker:mekanism/compressing/ultra_dense' }, 'etshtinker:ultra_dense','kubejs:ultra_dense_nugget')
 	//奇迹物质
 	event.remove([{mod: 'etshtinker', output: 'etshtinker:exo_alloy' }])
-
-
-
-
+	//粉默认配方
+	event.remove([{mod: 'etshtinker', output: 'etshtinker:activated_neutronium_dust' }])
 })

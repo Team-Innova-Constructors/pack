@@ -12,7 +12,8 @@
       }
     },
     "output": {
-      "item": "kubejs:violium_alloy"
+      "item": "kubejs:violium_alloy",
+      "amount": 4
     }
   }
   

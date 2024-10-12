@@ -5,12 +5,18 @@
         "type": "pneumaticcraft:stacked_item",
         "count": 8,
         "item": "etshtinker:hardlead_plate"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 1,
+        "item": "etshtinker:chroma_plate"
       }
     ],
     "pressure": 2.0,
     "results": [
       {
-        "item": "kubejs:compressed_hardlead"
+        "item": "kubejs:compressed_hardlead",
+        "count": 2
       }
     ]
   }

@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 1,
+    "fluid": "etshtinker:overchargedneutronium"
+  },
+  "fluidOutput": {
+    "amount": 1,
+    "fluid": "etshtinker:overchargedneutronium"
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "cti:overcharged_neutron"
+  },
+  "gasOutput": {
+    "amount": 1,
+    "gas": "cti:overcharged_neutron"
+  }
+}

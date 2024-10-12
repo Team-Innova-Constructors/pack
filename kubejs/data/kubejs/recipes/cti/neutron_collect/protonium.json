@@ -1,9 +1,0 @@
-{
-  "type": "cti:reactor_neutron_collect",
-  "efficiency": 3.398,
-  "consumption_rate": 0.000156,
-  "catalyst": {
-    "item": "etshtinker:protonium",
-    "count": 4
-  }
-}

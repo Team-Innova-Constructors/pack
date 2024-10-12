@@ -38,8 +38,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:boiler_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:turbine_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:violium_casing')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, 'mekanism:enriched_iron','kubejs:violium_alloy')
+
   //机器
   let mach1 =[
     'mekanism:osmium_compressor',
@@ -54,6 +53,25 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:`${i}`}, 'mekanism:steel_casing','kubejs:violium_casing')
   }
 
+  //阳清合金相关
+  //阳清合金外壳
+  event.shaped(Item.of('kubejs:atherium_casing',1), [
+    'AAA',
+    'ABA',
+    'AAA'
+  ],
+  {
+    A: 'kubejs:atherium_alloy',
+    B: 'kubejs:violium_casing',
+  }
+  )
+
+  //多方快结构方块
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:control_rod_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_fuel_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:atherium_casing')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_reactor_casing'}, 'mekanism:steel_casing','kubejs:atherium_casing')
+  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, '#forge:ingots/lead','kubejs:atherium_casing')
 
   //数采和电板
 	event.remove([{mod: 'mekanism', output: 'mekanism:digital_miner' }])
@@ -85,7 +103,7 @@ ServerEvents.recipes(event => {
     M: 'mekanism:logistical_sorter',
     N: 'mekanism:robit',
     A: 'mekanism:alloy_atomic',
-    B: 'mekanism:steel_casing',
+    B: 'mekanism:violium_casing',
     C: 'mekanism:teleportation_core'
   }
 )

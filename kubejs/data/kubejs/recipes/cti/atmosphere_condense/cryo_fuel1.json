@@ -1,8 +1,0 @@
-{
-  "type": "cti:atmosphere_condense",
-  "biome": "ad_astra:glacio_snowy_barrens",
-  "output": {
-    "fluid": "ad_astra:cryo_fuel",
-    "amount" : 25
-  }
-}
