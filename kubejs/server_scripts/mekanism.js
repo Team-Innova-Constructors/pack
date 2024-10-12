@@ -138,8 +138,8 @@ ServerEvents.recipes(event => {
     ' L '
   ],
   {
-    L: 'kubejs:protonium_nugget',
-    M: 'industrialforegoing:pink_slime_ingot',
+    L: 'kubejs:atherium_casing',
+    M: 'kubejs:violium_alloy',
     N: 'mekaevolution:supreme_control_circuit'
   }
 )
