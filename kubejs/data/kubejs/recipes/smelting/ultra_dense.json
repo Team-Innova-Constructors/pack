@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "kubejs:stellar_ultra_dense_ore"
+  },
+  "result": "etshtinker:ultra_dense"
+}

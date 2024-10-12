@@ -1,0 +1,21 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+      "item": "kubejs:ionized_slag"
+    },
+    "result": [
+      {
+        "item": "kubejs:electrocrystal",
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:gravel",
+        "chance": 1
+      },
+      {
+        "fluid": "etshtinker:molten_electronium",
+        "amount": 10
+      }
+    ],
+    "experience": 1.35
+  }

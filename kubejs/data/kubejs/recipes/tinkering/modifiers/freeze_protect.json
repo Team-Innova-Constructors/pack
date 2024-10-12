@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "minecraft:wool",
+      "amount_needed": 1
+    },
+    {
+      "tag": "minecraft:wool",
+      "amount_needed": 1
+    },
+    {
+      "tag": "minecraft:wool",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:molten_knsu_bucket",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:molten_knsu_bucket",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:freeze_protect",
+  "level": {
+    "max": 5
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "cti:ultra_dense_hydride_ore"
+  },
+  "result": "kubejs:ultra_dense_hydride_crystal"
+}

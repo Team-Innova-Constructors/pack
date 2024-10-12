@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:plates/calorite",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:plates/calorite",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:plates/calorite",
+      "amount_needed": 1
+    },
+    {
+      "item": "ad_astra:cryo_fuel_bucket",
+      "amount_needed": 1
+    },
+    {
+      "item": "ad_astra:cryo_fuel_bucket",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:scorch_protect",
+  "level": {
+    "max": 5
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:ingots/copper",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:ingots/silver",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:ingots/lead",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:electronium",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:electronium",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:electric_protect",
+  "level": {
+    "max": 5
+  }
+}
