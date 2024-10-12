@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "cti:ultra_dense_hydride_ore"
+  },
+  "result": [
+    {
+      "item": "kubejs:ultra_dense_hydride_crystal",
+      "chance": 3.5
+    }
+  ],
+  "experience": 0.2
+}

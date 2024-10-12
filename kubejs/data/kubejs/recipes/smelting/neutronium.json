@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "kubejs:overdense_neutronium_ore"
+  },
+  "result": "avaritia:neutron_ingot"
+}

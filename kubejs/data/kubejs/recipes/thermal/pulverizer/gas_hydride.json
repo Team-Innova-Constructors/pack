@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "kubejs:gas_hydrate_ore"
+  },
+  "result": [
+
+    {
+      "item": "kubejs:gas_hydrate",
+      "chance": 2.25
+    },
+    {
+      "item": "ad_astra:ice_shard",
+      "chance": 0.25
+    },
+    {
+      "item": "thermal:blizz_powder",
+      "chance": 0.75
+    }
+  ],
+  "experience": 0.2
+}

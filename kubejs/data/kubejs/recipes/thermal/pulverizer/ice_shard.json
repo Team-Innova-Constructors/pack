@@ -9,10 +9,6 @@
         "chance": 4.0
       },
       {
-        "item": "kubejs:gas_hydrate",
-        "chance": 0.25
-      },
-      {
         "item": "thermal:blizz_powder",
         "chance": 0.1
       }

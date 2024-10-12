@@ -1,0 +1,14 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "item": "kubejs:pyrocrystal_ore"
+    },
+    "result": [
+      {
+        "item": "kubejs:pyrocrystal",
+        "chance": 4.0
+      }
+    ],
+    "experience": 0.2
+}
+  

@@ -68,7 +68,8 @@
     "item.kubejs.core_emerald":"富生核心",
     "item.kubejs.core_harden":"硬化核心",
     "item.kubejs.core_nether":"下界核心",
-    
+    "item.kubejs.ultra_dense_hydride_crystal":"氢化超致密水晶",
+
     "block.mm.overload_infuser": "过载能量注入器",
     
     "block.mm.mana_restructer_appliance": "魔力核子重构机",
@@ -89,7 +90,15 @@
     "gui.ad_astra.text.jupiter":"木星",
     "biome.kubejs.jupiter":"木星核心",
 
-    "gas.cti.overcharged_neutron": "超充能气体中子"
-    
-    
-    }
+    "gas.cti.overcharged_neutron": "超充能气体中子",
+
+    "block.cti.ultra_dense_hydride_ore": "氢化超致密水晶矿",
+
+    "modifier.cti.space_suit": "太空服",
+    "modifier.cti.space_suit.flavor": "太空服",
+    "modifier.cti.space_suit.description": "提供每级0.25的灼热/霜冻抗性和0.1的电离/压强抗性，在外星维度不再需要氧气",
+
+    "modifier.cti.gravity_normalizer": "重力正常化",
+    "modifier.cti.gravity_normalizer.flavor": "重力正常化",
+    "modifier.cti.gravity_normalizer.description": "使你在外星所受重力与主世界一致"
+}

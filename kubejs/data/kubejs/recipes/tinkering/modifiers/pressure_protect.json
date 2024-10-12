@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "kubejs:graphene",
+      "amount_needed": 32
+    },
+    {
+      "item": "etshtinker:stellaralloy",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:stellaralloy",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:stellaralloy",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:stellaralloy",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:pressure_protect",
+  "level": {
+    "max": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "etshtinker:activated_chroma_plate",
+      "amount_needed": 8
+    },
+    {
+      "item": "etshtinker:stellaralloy",
+      "amount_needed": 8
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:gravity_normalizer",
+  "slots": {
+    "abilities": 1
+  },
+  "level": {
+    "max": 1
+  }
+}
