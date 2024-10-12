@@ -38,12 +38,12 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "kubejs:ultra_dense_hydride_crystal"
+              "name": "kubejs:electrocrystal"
             }
           ]
         }
       ],
-      "rolls": 2.0
+      "rolls": 1.0
     }
   ]
 }
