@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluid": "etshtinker:annihilating_plasma",
+      	"amount": 1000
+	},
+	"burnTime": 288000,
+	"superheated": true
+}

@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluid": "mekanismgenerators:fusion_fuel",
+      	"amount": 1000
+	},
+	"burnTime": 36000,
+	"superheated": true
+}
