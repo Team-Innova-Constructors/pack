@@ -19,5 +19,5 @@ ServerEvents.recipes(event => {
 	//粉默认配方
 	event.remove([{mod: 'etshtinker', output: 'etshtinker:activated_neutronium_dust' }])
 	//流体中子
-	event.remove([{id: 'etshtinker:smeltery/melting/overchargedneutronium/overchargedneutronium'}])1
+	event.remove([{id: 'etshtinker:smeltery/melting/overchargedneutronium/overchargedneutronium'}])
 })

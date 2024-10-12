@@ -11,6 +11,12 @@ ServerEvents.recipes(event => {
     event.shapeless('etshtinker:protonium','9x kubejs:protonium_nugget')
     event.shapeless('9x etshtinker:electronium','kubejs:electronium_block')
     event.shapeless('kubejs:electronium_block','9x etshtinker:electronium')
+    //其它金属
+    event.shapeless('9x etshtinker:stellaralloy','kubejs:stellaralloy_block')
+    event.shapeless('kubejs:stellaralloy_block','9x etshtinker:stellaralloy')
+
+    event.shapeless('9x etshtinker:blitz_lumium','kubejs:blitz_luminium_block')
+    event.shapeless('kubejs:blitz_luminium_block','9x etshtinker:blitz_lumium')
     //星图
      event.shaped(Item.of('cti:astra_tablet_5',1), [
         'AAA',
