@@ -1,0 +1,13 @@
+{
+  "type":"tconstruct:melting",
+  "ingredient":{
+    "item":"etshtinker:stable_plasma"
+  },
+  "temperature": 3050,
+  "time": 5,
+  "result":
+  {
+    "fluid": "etshtinker:annihilating_plasma",
+    "amount": 1000
+  }
+}

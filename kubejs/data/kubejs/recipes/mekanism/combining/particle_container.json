@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+      "ingredient": {
+        "tag": "forge:ingots"
+      }
+    },
+    "mainInput": {
+      "amount": 60,
+      "ingredient": {
+        "item": "cti:unipolar_magnet"
+      }
+    },
+    "output": {
+      "item": "kubejs:particle_container",
+      "count": 1
+    }
+  }
+  

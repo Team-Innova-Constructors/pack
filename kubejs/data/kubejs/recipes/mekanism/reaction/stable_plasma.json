@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 200,
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "etshtinker:overchargedneutronium"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanism:fissile_fuel"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "mekanism:spent_nuclear_waste"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:particle_container"
+    }
+  },
+  "itemOutput": {
+    "count": 1,
+    "item": "etshtinker:stable_plasma"
+  }
+}
