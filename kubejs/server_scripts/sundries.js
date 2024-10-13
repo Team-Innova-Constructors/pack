@@ -1,14 +1,8 @@
 ServerEvents.recipes(event => {
-     event.shaped(Item.of('cti:astra_tablet_5',1), [
-        'AAA',
-        'ABA',
-        'AAA'
-     ],
-     {
-        A: '#forge:plates/steel',
-        B: 'ad_astra:steel_cable',
-     }
-     )
+//远古金属粒
+event.shapeless(Item.of('cataclysm:ancient_metal_nugget', 9),[
+  'cataclysm:ancient_metal_ingot'
+])
 
 
 })

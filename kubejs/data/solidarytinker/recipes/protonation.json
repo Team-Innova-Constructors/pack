@@ -1,0 +1,55 @@
+{
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "mekanism",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "mekanismgenerators",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "etshtinker",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "etshtinker:protonium",
+      "amount_needed": 16
+    },
+    {
+      "item": "etshtinker:protonium",
+      "amount_needed": 16
+    },
+    {
+      "item": "etshtinker:protonium",
+      "amount_needed": 16
+    },
+    {
+      "item": "etshtinker:anti_neutronium",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:anti_neutronium",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "slots": {
+    "defense": 2
+  },
+  "allow_crystal": true,
+  "result": "solidarytinker:protonation",
+  "level": {
+    "max": 1
+  }
+}

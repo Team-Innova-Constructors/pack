@@ -105,5 +105,6 @@
     "kubejs.jei.coinmint": "铸币机器已经被禁用",
     "kubejs.jei.uncrafting_table": "致敬传奇耐ban王转化桌/拆解台",
     "kubejs.jei.transmutation_table": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
-    "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创"
+    "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
+    "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick"
 }
