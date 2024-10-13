@@ -67,5 +67,7 @@ ServerEvents.recipes(event => {
 	for(let i of thermalingot){
 		event.remove([{id: `${i}` }])
 	}
+
+	event.remove([{mod: 'tinkers_ingenuity', output: 'tinkers_ingenuity:shuriken' }])
 }
 )

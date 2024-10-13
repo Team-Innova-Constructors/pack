@@ -1,0 +1,29 @@
+{
+  "modules": [
+    {
+      "type": "tconstruct:part_stats",
+      "parts": [
+      ]
+    },
+    {
+      "type": "tconstruct:default_materials",
+      "materials": [
+      ]
+    },
+    {
+      "type": "tconstruct:base_stats",
+      "stats": {
+      }
+    },
+    {
+      "type": "tconstruct:multiply_stats",
+      "multipliers": {
+      }
+    },
+    {
+      "type": "tconstruct:modifier_slots",
+      "slots": {
+      }
+    }
+  ]
+}
