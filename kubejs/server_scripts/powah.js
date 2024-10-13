@@ -76,68 +76,74 @@ ServerEvents.recipes(event => {
     //太阳能板
     event.shaped(
     Item.of('powah:solar_panel_basic',1), [
-      ' B ',
+      'CBC',
       'BAB',
-      ' B '
+      'CBC'
     ],
     {
       A: 'kubejs:core_basic',
       B: 'powah:solar_panel_starter',
+      C: '#forge:ingots/steel'
     }
     )
     event.shaped(
     Item.of('powah:solar_panel_hardened',1), [
-          ' B ',
+          'CBC',
           'BAB',
-          ' B '
+          'CBC'
         ],
         {
           A: 'kubejs:core_harden',
-          B: 'powah:solar_panel_basic'
+          B: 'powah:solar_panel_basic',
+          C: 'avaritia:neutron_ingot'
         }
         )
     event.shaped(
     Item.of('powah:solar_panel_blazing',1), [
-          ' B ',
+          'CBC',
           'BAB',
-          ' B '
+          'CBC'
         ],
         {
           A: 'kubejs:core_blaze',
-          B: 'powah:solar_panel_hardened'
+          B: 'powah:solar_panel_hardened',
+          C:'pneumaticcraft:printed_circuit_board'
         }
     )
     event.shaped(
     Item.of('powah:solar_panel_niotic',1), [
-          ' B ',
+          'CBC',
           'BAB',
-          ' B '
+          'CBC'
         ],
         {
           A: 'kubejs:core_diamond',
-          B: 'powah:solar_panel_blazing'
+          B: 'powah:solar_panel_blazing',
+          C:'etshtinker:ultra_dense'
         }
     )
     event.shaped(
     Item.of('powah:solar_panel_spirited',1), [
-          ' B ',
+          'CBC',
           'BAB',
-          ' B '
+          'CBC'
         ],
         {
           A: 'kubejs:core_emerald',
-          B: 'powah:solar_panel_niotic'
+          B: 'powah:solar_panel_niotic',
+          C:'mekanism:pellet_polonium'
         }
     )
     event.shaped(
     Item.of('powah:solar_panel_nitro',1), [
-          ' B ',
+          'CBC',
           'BAB',
-          ' B '
+          'CBC'
         ],
         {
           A: 'kubejs:core_nether',
-          B: 'powah:solar_panel_spirited'
+          B: 'powah:solar_panel_spirited',
+          C:'etshtinker:alloy_fracture'
         }
         )
     let pannel =[
