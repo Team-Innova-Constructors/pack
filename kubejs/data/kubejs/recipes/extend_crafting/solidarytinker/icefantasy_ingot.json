@@ -1,0 +1,38 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   A   ",
+    "  BAB  ",
+    "CBDEDBC",
+    "AAEFEAA",
+    "GBDEDBG",
+    "  BAB  ",
+    "   A   "
+  ],
+  "key": {
+    "A": {
+      "item": "tinkerscalibration:hymon"
+    },
+    "B": {
+      "item": "l2complements:poseidite_ingot"
+    },
+    "C": {
+      "item": "aquamirae:fin"
+    },
+    "D": {
+      "item": "tinkers_ingenuity:sea_dream_ingot"
+    },
+    "E": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "F": {
+      "item": "enigmaticlegacy:guardian_heart"
+    },
+    "G": {
+      "item": "aquamirae:abyssal_amethyst"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:icefantasy_ingot"
+  }
+}

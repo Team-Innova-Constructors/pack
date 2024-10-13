@@ -1,0 +1,44 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABBBAA",
+    "BBBCBBB",
+    "BDBBBDB",
+    "DEDFDGD",
+    "HDIIIDH",
+    "HHHHHHH",
+    "AABBBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "B": {
+      "item": "cataclysm:ancient_metal_nugget"
+    },
+    "C": {
+      "item": "cataclysm:abyss_eye"
+    },
+    "D": {
+      "item": "solidarytinker:violane"
+    },
+    "E": {
+      "item": "thermal:lumium_ingot"
+    },
+    "F": {
+      "item": "kubejs:core_diamond"
+    },
+    "G": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "H": {
+      "item": "kubejs:pyrocrystal"
+    },
+    "I": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:starfall_ingot"
+  }
+}

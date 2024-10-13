@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBA",
+    "CDEEC",
+    "AFDEA",
+    "CFFDC",
+    "AGGGA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "B": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "C": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "D": {
+      "item": "obscure_api:astral_dust"
+    },
+    "E": {
+      "item": "minecraft:sponge"
+    },
+    "F": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "G": {
+      "item": "tinkers_ingenuity:ocean_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "tinkers_ingenuity:sea_dream_ingot"
+  }
+}

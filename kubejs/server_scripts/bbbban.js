@@ -29,9 +29,14 @@ ServerEvents.recipes(event => {
 	event.remove({id:'lightmanscurrency:coinmint'})
 	//热力锭铸膜
 	event.remove([{mod: 'thermal', output: 'thermal:chiller_ingot_cast' }])
+	//工匠联合
+	event.remove({id:'solidarytinker:table/icefantasy_ingot'})
+	event.remove({id:'solidarytinker:casting/starfall_ingot'})
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
+  	//etshtinker
+  	event.remove({id:'etshtinker:thermal/crystalizer/flawless_budding_quartz'})
 
 	//meka套
 	let meka =[
