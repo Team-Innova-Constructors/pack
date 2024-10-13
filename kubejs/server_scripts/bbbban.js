@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
   	//重力透镜
   	event.remove({id:'botania:lens_weight'})
   	event.remove({id:'twilightforest:uncrafting_table'})
+  	//等价交换
 	event.remove({id:'projecte:rm_katar'})
 	event.remove({id:'projecte:rm_sword'})
 	event.remove({id:'projecte:rm_hammer'})
@@ -24,9 +25,10 @@ ServerEvents.recipes(event => {
 	event.remove({id:'projecte:rm_axe'})
 	event.remove({id:'projecte:rm_pick'})
 	event.remove({mod:'projecte',type:'crafting_shapeless',input:'projecte:philosophers_stone'})
+	//铸币
+	event.remove({id:'lightmanscurrency:coinmint'})
 	//热力锭铸膜
 	event.remove([{mod: 'thermal', output: 'thermal:chiller_ingot_cast' }])
-
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])

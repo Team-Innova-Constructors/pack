@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
       ],
       {
         A: 'minecraft:spider_eye',
-        B: '#biomancy:raw_meat',
+        B: '#biomancy:raw_meats',
       }
     )
 })

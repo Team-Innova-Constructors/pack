@@ -62,7 +62,6 @@
     "item.kubejs.core_nether":"下界核心",
     "item.kubejs.ultra_dense_hydride_crystal":"氢化超致密水晶",
     "item.kubejs.particle_container":"粒子容器",
-    "item.kubejs.particle_container":"粒子容器",
     "item.kubejs.ultra_dense_nugget":"超致密粒",
     "item.kubejs.overchargedultradense":"不稳定中子锭",
     "item.kubejs.pyrocrystal":"永燃水晶",
@@ -99,5 +98,12 @@
 
     "modifier.cti.gravity_normalizer": "重力正常化",
     "modifier.cti.gravity_normalizer.flavor": "重力正常化",
-    "modifier.cti.gravity_normalizer.description": "使你在外星所受重力与主世界一致"
+    "modifier.cti.gravity_normalizer.description": "使你在外星所受重力与主世界一致",
+
+
+    "_null_": "jei信息显示部分",
+    "kubejs.jei.coinmint": "铸币机器已经被禁用",
+    "kubejs.jei.uncrafting_table": "致敬传奇耐ban王转化桌/拆解台",
+    "kubejs.jei.transmutation_table": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
+    "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创"
 }

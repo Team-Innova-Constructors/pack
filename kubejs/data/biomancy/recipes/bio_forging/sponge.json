@@ -15,7 +15,7 @@
             "count": 5
         }
     ],
-    "nutrientsCost": 8,
+    "nutrientsCost": 1,
     "result": {
         "item": "minecraft:sponge"
     }
