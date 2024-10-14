@@ -6,7 +6,7 @@
   },
   "output": {
     "gas": "mekanism:superheated_sodium",
-    "amount": 10
+    "amount": 1
   },
   "thermalEnthalpy": 100000,
   "conductivity": 1000,

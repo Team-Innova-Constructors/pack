@@ -20,6 +20,19 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
   event.recipes.mekanismSmelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
   event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock","mekanism:osmium")
+  //钢壳子
+  event.remove([{mod: 'mekanism', output: 'mekanism:steel_casing' }])
+  event.shaped(Item.of('mekanism:steel_casing',8), [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: '#forge:ingots/steel',
+      B: '#forge:storage_blocks/steel',
+      C: 'thermal:energy_cell'
+    }
+    )
 
   //维奥合金相关
   //维奥合金外壳
