@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'projecte:rm_shovel'})
 	event.remove({id:'projecte:rm_axe'})
 	event.remove({id:'projecte:rm_pick'})
+	event.remove({id:'projecte:watch_of_flowing_time'})
 	event.remove({mod:'projecte',type:'crafting_shapeless',input:'projecte:philosophers_stone'})
 	//铸币
 	event.remove({id:'lightmanscurrency:coinmint'})
