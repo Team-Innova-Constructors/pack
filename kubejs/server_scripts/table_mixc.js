@@ -28,5 +28,16 @@ ServerEvents.recipes(event => {
         B: 'ad_astra:steel_cable',
      }
      )
-
+  //桌子
+  let table =[
+   'extendedcrafting:basic_table',
+   'extendedcrafting:advanced_table',
+   'extendedcrafting:elite_table',
+   'extendedcrafting:ultimate_table'
+ ]
+ for (let i of table) {event.remove({id:`${i}`})}
+ event.shapeless('extendedcrafting:basic_table','2x minecraft:crafting_table')
+ event.shapeless('extendedcrafting:advanced_table','4x minecraft:crafting_table')
+ event.shapeless('extendedcrafting:elite_table','6x minecraft:crafting_table')
+ event.shapeless('extendedcrafting:ultimate_table','8x minecraft:crafting_table')
 })
