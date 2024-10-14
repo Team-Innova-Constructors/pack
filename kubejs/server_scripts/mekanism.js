@@ -19,7 +19,11 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismCrushing('immersiveengineering:slag_gravel', '#forge:slag')
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
   event.recipes.mekanismSmelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
-  event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock","mekanism:osmium")
+  //一些零散的富集仓等配方
+  event.recipes.mekanismEnriching("cti:enriched_mana", "cti:magic_crystal")
+  event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
+  event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock", {gas: 'mekanism:osmium', amount: 2})
+  event.recipes.mekanismInjecting('cti:magic_crystal', 'ae2:certus_quartz_crystal', {gas: 'cti:mana_gas', amount: 20})
   //钢壳子
   event.remove([{mod: 'mekanism', output: 'mekanism:steel_casing' }])
   event.shaped(Item.of('mekanism:steel_casing',8), [

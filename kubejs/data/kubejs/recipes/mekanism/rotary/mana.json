@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 10,
+    "fluid": "manaliquidizer:mana_fluid"
+  },
+  "fluidOutput": {
+    "amount": 10,
+    "fluid": "manaliquidizer:mana_fluid"
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "cti:mana_gas"
+  },
+  "gasOutput": {
+    "amount": 10,
+    "gas": "cti:mana_gas"
+  }
+}

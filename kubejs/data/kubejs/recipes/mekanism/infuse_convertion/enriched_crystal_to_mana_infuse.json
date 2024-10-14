@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "item": "cti:enriched_mana"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "cti:mana_infuse"
+  }
+}
