@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABBCBCBBA",
+    "ABDEDEDBA",
+    "ABFHFHFBA",
+    "AGFEFEFGA",
+    "ABFHFHFBA",
+    "ABFEFEFBA",
+    "ABBCBCBBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:ultra_dense"
+    },
+    "B": {
+      "item": "mekanismgenerators:fission_reactor_casing"
+    },
+    "C": {
+      "item": "powah:thermo_generator_nitro"
+    },
+    "D": {
+      "item": "mekanismgenerators:control_rod_assembly"
+    },
+    "E": {
+      "item": "mekanism:block_salt"
+    },
+    "F": {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    "G": {
+      "item": "mekanismgenerators:fission_reactor_port"
+    },
+    "H": {
+      "item": "kubejs:core_emerald"
+    }
+  },
+  "result": {
+    "item": "cti:sodium_cooler"
+  }
+}

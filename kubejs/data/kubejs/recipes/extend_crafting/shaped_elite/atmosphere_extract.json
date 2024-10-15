@@ -1,0 +1,35 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AA   AA",
+    "ABCCCBA",
+    "ABDEDBA",
+    "AFFEFFA",
+    "ADDEDDA",
+    "ADDDDDA",
+    "AAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:ultra_dense"
+    },
+    "B": {
+      "item": "ad_astra:ice_shard"
+    },
+    "C": {
+      "item": "create:encased_fan"
+    },
+    "D": {
+      "item": "kubejs:graphene"
+    },
+    "E": {
+      "item": "mekanism:chemical_crystallizer"
+    },
+    "F": {
+      "item": "ae2:interface"
+    }
+  },
+  "result": {
+    "item": "cti:atmosphere_extractor"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABBCBBAA",
+    "ADEEEEEDA",
+    "BEDDFDDEB",
+    "BEDGGGDEB",
+    "CEFGHGFEC",
+    "BEDGGGDEB",
+    "BEDDFDDEB",
+    "ADEEEEEDA",
+    "AABBCBBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:exo_alloy"
+    },
+    "B": {
+      "item": "etshtinker:exotic_matter"
+    },
+    "C": {
+      "item": "mekaevolution:infinite_energy_cube"
+    },
+    "D": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "E": {
+      "item": "mekanism:ultimate_induction_provider"
+    },
+    "F": {
+      "item": "cti:quantum_miner"
+    },
+    "G": {
+      "item": "etshtinker:anti_neutronium"
+    },
+    "H": {
+      "item": "kubejs:core_nether"
+    }
+  },
+  "result": {
+    "item": "cti:quantum_miner_advanced"
+  }
+}

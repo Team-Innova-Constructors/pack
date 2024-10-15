@@ -12,4 +12,16 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:turbine_rotor'}, 'pneumaticcraft:ingot_iron_compressed','kubejs:compressed_hardlead')
   //热力压缩机
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:thermal_compressor'}, 'minecraft:heavy_weighted_pressure_plate','pneumaticcraft:plastic')
+  event.shaped(Item.of('cti:alloy_centrifuge',1), [
+    'ACA',
+    'DBC',
+    'ACA'
+  ],
+  {
+    A: 'kubejs:compressed_hardlead',
+    B: 'thermal:machine_centrifuge',
+    C: 'pneumaticcraft:pressure_tube',
+    D: 'tconstruct:scorched_duct'
+  }
+  )
 })

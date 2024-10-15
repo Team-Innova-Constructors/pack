@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABBCDCBBA",
+    "ABCEEECBA",
+    "ACEFGFECA",
+    "ADEGHGEDA",
+    "ACEFGFECA",
+    "ABCEEECBA",
+    "ABBCDCBBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:protonium"
+    },
+    "B": {
+      "item": "cti:advanced_speed_augment"
+    },
+    "C": {
+      "item": "mekanism:ultimate_induction_provider"
+    },
+    "D": {
+      "item": "mekaevolution:infinite_energy_cube"
+    },
+    "E": {
+      "item": "industrialforegoing:laser_drill"
+    },
+    "F": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "G": {
+      "item": "kubejs:core_emerald"
+    },
+    "H": {
+      "item": "industrialforegoing:ore_laser_base"
+    }
+  },
+  "result": {
+    "item": "cti:quantum_miner"
+  }
+}

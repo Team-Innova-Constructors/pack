@@ -1,0 +1,35 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AA   AA",
+    "ABCCCBA",
+    "ABDEDBA",
+    "ADDEDDA",
+    "AFDEDFA",
+    "AFFFFFA",
+    "AAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:ultra_dense"
+    },
+    "B": {
+      "item": "minecraft:blue_ice"
+    },
+    "C": {
+      "item": "create:encased_fan"
+    },
+    "D": {
+      "item": "mekanism:ultimate_mechanical_pipe"
+    },
+    "E": {
+      "item": "mekanism:rotary_condensentrator"
+    },
+    "F": {
+      "item": "kubejs:graphene"
+    }
+  },
+  "result": {
+    "item": "cti:atmosphere_condensator"
+  }
+}

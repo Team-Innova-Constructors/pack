@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABBBBBBBA",
+    "A CCCCC A",
+    "A  DED  A",
+    "AFFDEDFFA",
+    "A  DED  A",
+    "A GGGGG A",
+    "ABBBBBBBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:ultra_dense"
+    },
+    "B": {
+      "item": "mekanismgenerators:fission_reactor_casing"
+    },
+    "C": {
+      "item": "mekanism:chemical_crystallizer"
+    },
+    "D": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "E": {
+      "item": "avaritia:neutron_collector"
+    },
+    "F": {
+      "item": "mekanism:ultimate_pressurized_tube"
+    },
+    "G": {
+      "item": "mekanism:chemical_washer"
+    }
+  },
+  "result": {
+    "item": "cti:reactor_neutron_collector"
+  }
+}
