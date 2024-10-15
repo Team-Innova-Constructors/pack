@@ -91,12 +91,12 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, '#forge:ingots/lead','kubejs:atherium_casing')
 
   //数采和电板
-	event.remove([{mod: 'mekanism', output: 'mekanism:digital_miner' }])
-	event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
-	event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])
-	event.remove([{mod: 'mekaevolution', output: 'mekaevolution:absolute_control_circuit' }])
-	event.remove([{mod: 'mekaevolution', output: 'mekaevolution:cosmic_control_circuit' }])
-
+  event.remove([{mod: 'mekanism', output: 'mekanism:digital_miner' }])
+  event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
+  event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])
+  event.remove([{mod: 'mekaevolution', output: 'mekaevolution:absolute_control_circuit' }])
+  event.remove([{mod: 'mekaevolution', output: 'mekaevolution:cosmic_control_circuit' }])
+  event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
     ' L ',
@@ -107,21 +107,6 @@ ServerEvents.recipes(event => {
     L: 'kubejs:zirconium_alloy',
     M: 'etshtinker:os_induced_netherstarshard',
     N: 'mekanism:ultimate_control_circuit'
-  }
-)
-  //数字采矿机
-  event.shaped(Item.of('mekanism:digital_miner',1), [
-    'ALA',
-    'MNM',
-    'CBC'
-  ],
-  {
-    L: 'mekaevolution:absolute_control_circuit',
-    M: 'mekanism:logistical_sorter',
-    N: 'mekanism:robit',
-    A: 'mekanism:alloy_atomic',
-    B: 'mekanism:violium_casing',
-    C: 'mekanism:teleportation_core'
   }
 )
   //至尊电板

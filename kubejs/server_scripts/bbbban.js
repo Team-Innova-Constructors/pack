@@ -33,6 +33,8 @@ ServerEvents.recipes(event => {
 	//工匠联合
 	event.remove({id:'solidarytinker:table/icefantasy_ingot'})
 	event.remove({id:'solidarytinker:casting/starfall_ingot'})
+	event.remove({id:'solidarytinker:smeltery/alloy/takeru'})
+	event.remove({id:'solidarytinker:table/experience_steel_ingot'})
 	//其他匠魂附属
 	event.remove({id:'tinkerscalibration:tools/materials/moonsteel'})
 	//pnt
@@ -40,7 +42,6 @@ ServerEvents.recipes(event => {
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
   	//etshtinker
   	event.remove({id:'etshtinker:thermal/crystalizer/flawless_budding_quartz'})
-
 	//meka套
 	let meka =[
 		'mekanism:mekasuit_helmet',
