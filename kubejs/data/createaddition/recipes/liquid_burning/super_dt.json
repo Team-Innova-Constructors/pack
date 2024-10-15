@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluid": "solidarytinker:super_dt",
+      	"amount": 1000
+	},
+	"burnTime": 720000,
+	"superheated": true
+}

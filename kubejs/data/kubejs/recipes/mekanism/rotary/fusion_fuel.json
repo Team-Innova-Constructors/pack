@@ -2,18 +2,18 @@
   "type": "mekanism:rotary",
   "fluidInput": {
     "amount": 1,
-    "fluid": "manaliquidizer:mana_fluid"
+    "tag": "forge:fusion_fuel"
   },
   "fluidOutput": {
     "amount": 1,
-    "fluid": "manaliquidizer:mana_fluid"
+    "fluid": "mekanismgenerators:fusion_fuel"
   },
   "gasInput": {
     "amount": 1,
-    "gas": "cti:mana_gas"
+    "tag": "mekanism:fusion_fuel"
   },
   "gasOutput": {
     "amount": 1,
-    "gas": "cti:mana_gas"
+    "gas": "mekanismgenerators:fusion_fuel"
   }
 }
