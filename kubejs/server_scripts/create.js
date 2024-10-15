@@ -41,6 +41,16 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'mekaevolution:cosmic_control_circuit']),
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'mekanism:basic_induction_cell']),
 ]).transitionalItem('kubejs:incomplete_mekasuit').loops(4)
+    event.recipes.create.sequenced_assembly([
+    Item.of('kubejs:living_control_circuit')
+]  ,Item.of('mekanism:ultimate_control_circuit'), [
+    event.recipes.createCutting('kubejs:incomplete_living_control_circuit', 'kubejs:incomplete_living_control_circuit'),
+    event.recipes.createDeploying('kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', 'biomancy:flesh_bits']),
+    event.recipes.createDeploying('kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', 'biomancy:flesh_bits']),
+    event.recipes.createDeploying('kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', 'biomancy:elastic_fibers']),
+    event.recipes.createDeploying('kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', 'biomancy:regenerative_fluid']),
+    event.recipes.create.filling( 'kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', Fluid.of('biomancy:acid').withAmount(1000)]),
+]).transitionalItem('kubejs:incomplete_mekasuit').loops(2)
     event.shaped(Item.of('createoreexcavation:vein_finder',1), [
         'DC ',
         'BA ',

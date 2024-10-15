@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAAAA  ",
+    " ABBBBBA ",
+    "ABCDDDDBA",
+    "ABDCDDDBA",
+    "ABDDECCBA",
+    "ABDDDDDBA",
+    "ABDDDDDBA",
+    " ABBBBBA ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "B": {
+      "item": "projecte:dark_matter"
+    },
+    "C": {
+      "item": "kubejs:atherium_alloy"
+    },
+    "D": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "E": {
+      "item": "kubejs:clock_core"
+    }
+  },
+  "result": {
+    "item": "projecte:watch_of_flowing_time"
+  }
+}
