@@ -33,6 +33,8 @@ ServerEvents.recipes(event => {
 	//工匠联合
 	event.remove({id:'solidarytinker:table/icefantasy_ingot'})
 	event.remove({id:'solidarytinker:casting/starfall_ingot'})
+	//其他匠魂附属
+	event.remove({id:'tinkerscalibration:tools/materials/moonsteel'})
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
@@ -77,5 +79,7 @@ ServerEvents.recipes(event => {
 	}
 
 	event.remove([{mod: 'tinkers_ingenuity', output: 'tinkers_ingenuity:shuriken' }])
+	event.remove({mod: 'explorerscompass', output: 'explorerscompass:explorerscompass' })
+	event.remove({mod: 'naturescompass', output: 'naturescompass:naturescompass' })
 }
 )

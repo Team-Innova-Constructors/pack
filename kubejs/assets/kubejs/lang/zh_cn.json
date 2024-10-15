@@ -71,6 +71,7 @@
     "item.kubejs.zirconium_alloy":"气锻钛锆合金",
     "item.kubejs.compressed_activated_chroma_plate":"压缩活化彩钢",
     "item.kubejs.halfdone_exoalloy":"未成·奇迹物质",
+    "item.kubejs.extremelycoldsteel_ingot":"超低温钢",
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
 
@@ -106,5 +107,6 @@
     "kubejs.jei.uncrafting_table": "致敬传奇耐ban王转化桌/拆解台",
     "kubejs.jei.transmutation_table": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
     "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
+    "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
     "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick"
 }
