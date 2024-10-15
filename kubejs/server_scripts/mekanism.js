@@ -57,7 +57,6 @@ ServerEvents.recipes(event => {
     'mekanism:osmium_compressor',
     'mekanism:combiner',
     'mekanism:chemical_crystallizer',
-    'mekanism:chemical_dissolution_chamber',
     'mekanism:chemical_washer',
     'mekanism:antiprotonic_nucleosynthesizer',
     'mekanism:solar_neutron_activator'
@@ -65,6 +64,7 @@ ServerEvents.recipes(event => {
   for (let i of mach1){
     event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:`${i}`}, 'mekanism:steel_casing','kubejs:violium_casing')
   }
+  event.replaceInput({id:'mekanism:chemical_dissolution_chamber'}, 'mekanism:steel_casing','kubejs:violium_casing')
 
   //阳清合金相关
   //阳清合金外壳

@@ -92,6 +92,12 @@
 
     "block.cti.ultra_dense_hydride_ore": "氢化超致密水晶矿",
 
+    "item.cti.advanced_speed_augment": "高级辅助通量线圈",
+    "item.cti.advanced_catalyst_augment": "高级催化剂回收室",
+    "item.cti.advanced_dyano_augment": "高级能源炉燃烧室",
+    "item.cti.advanced_range_augment": "高级范围插件",
+    "item.cti.advanced_output_augment": "高级深度催化器",
+
     "modifier.cti.space_suit": "太空服",
     "modifier.cti.space_suit.flavor": "太空服",
     "modifier.cti.space_suit.description": "提供每级0.25的灼热/霜冻抗性和0.1的电离/压强抗性，在外星维度不再需要氧气",

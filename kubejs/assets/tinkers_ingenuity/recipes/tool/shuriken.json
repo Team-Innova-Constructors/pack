@@ -1,0 +1,7 @@
+{
+  "conditions": {
+    "type": "forge:false"
+  },
+  "type": "tconstruct:tool_building",
+  "result": "tinkers_ingenuity:shuriken"
+}
