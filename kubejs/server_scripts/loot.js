@@ -5,9 +5,7 @@ LootJS.modifiers(event => {
     event.removeGlobalModifier("@ars_nouveau");
     event.removeGlobalModifier("@sophisticatedbackpacks");
     event.removeGlobalModifier("@extradelight");
-
-
-
+    
     event.addLootTypeModifier(LootType.CHEST)
         .anyStructure(["#minecraft:village"], false)
         .addLoot(LootEntry.of("solidarytinker:starfall_ingot").when((c) => c.randomChance(1)));
