@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "fluidInput": {
+    "amount": 200,
+    "fluid": "ad_astra:cryo_fuel"
+  },
+  "gasInput": {
+    "amount": 100,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  },
+  "itemOutput": {
+    "count": 2,
+    "item": "kubejs:extremelycoldsteel_ingot"
+  }
+}

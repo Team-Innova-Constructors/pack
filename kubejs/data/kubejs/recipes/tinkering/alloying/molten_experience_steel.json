@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "fluid": "tinkerscalibration:moltenmoonsteel",
+      "amount": 180
+    },
+    {
+      "fluid": "tcintegrations:cloggrum",
+      "amount": 360
+    },
+    {
+      "fluid": "tinkersinnovation:molten_experience",
+      "amount": 900
+    }
+  ],
+  "result": {
+    "fluid": "solidarytinker:molten_experience_steel",
+    "amount": 90
+  },
+  "temperature": 5200
+}

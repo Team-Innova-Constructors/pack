@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 20,
+    "infuse_type": "cti:mana_infuse"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:ingot_steel"
+    }
+  },
+  "output": {
+    "item": "tinkerscalibration:moonsteel_ingot"
+  }
+}

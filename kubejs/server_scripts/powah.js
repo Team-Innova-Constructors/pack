@@ -155,4 +155,5 @@ ServerEvents.recipes(event => {
       'powah:crafting/solar_panel_basic',
     ]
     for (let i of pannel) {event.remove({id:`${i}`})}
-      })
+    event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",1000)
+})
