@@ -15,7 +15,6 @@ StartupEvents.registry("item",event=>{
     event.create("atherium_alloy","basic")
     event.create("ultra_dense_hydride_crystal","basic")
     event.create("particle_container","basic")
-    event.create("extremelycoldsteel_ingot","basic").tag('forge:ingots/extremelycoldsteel')
     event.create("clock_core","basic")
     event.create("living_control_circuit","basic")
 

@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'solidarytinker:casting/starfall_ingot'})
 	event.remove({id:'solidarytinker:smeltery/alloy/takeru'})
 	event.remove({id:'solidarytinker:table/experience_steel_ingot'})
+	event.remove({id:'solidarytinker:casting/extremelycoldsteel_ingot'})
 	event.remove({id:'botania:mana_infusion/magicuranium_ingot'})
 	//其他匠魂附属
 	event.remove({id:'tinkerscalibration:tools/materials/moonsteel'})
