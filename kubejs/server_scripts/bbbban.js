@@ -35,8 +35,10 @@ ServerEvents.recipes(event => {
 	event.remove({id:'solidarytinker:casting/starfall_ingot'})
 	event.remove({id:'solidarytinker:smeltery/alloy/takeru'})
 	event.remove({id:'solidarytinker:table/experience_steel_ingot'})
+	event.remove({id:'botania:mana_infusion/magicuranium_ingot'})
 	//其他匠魂附属
 	event.remove({id:'tinkerscalibration:tools/materials/moonsteel'})
+	event.remove({id:'tinkers_ingenuity:tables/materials/sea_dream'})
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])

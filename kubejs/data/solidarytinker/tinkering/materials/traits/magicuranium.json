@@ -1,0 +1,66 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "solidarytinker:clean",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:removeradition",
+        "level": 1
+      },
+      {
+        "name": "tcintegrations:mana",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "solidarytinker:clean",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:removeradition",
+        "level": 1
+      },
+      {
+        "name": "tcintegrations:mana",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "solidarytinker:clean",
+        "level": 1
+      },
+      {
+        "name": "tcintegrations:mana",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "solidarytinker:clean",
+        "level": 1
+      },
+      {
+        "name": "tcintegrations:mana",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "solidarytinker:clean",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:removeradition",
+        "level": 1
+      },
+      {
+        "name": "tcintegrations:mana",
+        "level": 1
+      }
+    ]
+  }
+}
