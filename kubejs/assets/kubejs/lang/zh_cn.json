@@ -72,6 +72,10 @@
     "item.kubejs.compressed_activated_chroma_plate":"压缩活化彩钢",
     "item.kubejs.halfdone_exoalloy":"未成·奇迹物质",
     "item.kubejs.extremelycoldsteel_ingot":"超低温钢",
+    "item.kubejs.living_control_circuit":"生物活体电路板",
+    "item.kubejs.clock_core":"怀表控制核心",
+    "item.kubejs.incomplete_mekasuit":"未完成的mekasuit",
+    "item.kubejs.incomplete_living_control_circuit":"未完成的活体电路",
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
 

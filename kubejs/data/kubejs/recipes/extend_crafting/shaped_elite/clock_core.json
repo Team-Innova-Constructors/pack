@@ -1,0 +1,38 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAA",
+    "ABCDCBA",
+    "ACEFECA",
+    "ADFGFDA",
+    "ACEFECA",
+    "ABCDCBA",
+    "AAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:violium_alloy"
+    },
+    "B": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "C": {
+      "item": "cti:magic_crystal"
+    },
+    "D": {
+      "item": "tinkerscalibration:mangobberslime_ingot"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "F": {
+      "item": "kubejs:living_control_circuit"
+    },
+    "G": {
+      "item": "etshtinker:alloy_fracture"
+    }
+  },
+  "result": {
+    "item": "kubejs:clock_core"
+  }
+}
