@@ -10,5 +10,6 @@ LootJS.modifiers(event => {
 
     event.addLootTypeModifier(LootType.CHEST)
         .anyStructure(["#minecraft:village"], false)
-        .addLoot(LootEntry.of("solidarytinker:starfall_ingot").when((c) => c.randomChance(1)));
+        .addLoot(LootEntry.of("immersiveengineering:treated_wood_horizontal")
+        .when((c) => c.randomChance(0.5)));
 })
