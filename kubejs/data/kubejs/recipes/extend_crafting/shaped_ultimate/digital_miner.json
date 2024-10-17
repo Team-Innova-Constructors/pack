@@ -1,0 +1,52 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " ABBBBBA ",
+    " CDEEEDC ",
+    " CEFGFEC ",
+    " CDGHGDC ",
+    " CEIJIEC ",
+    " CDGGGDC ",
+    " CEBBBEC ",
+    " CDKKKDC ",
+    " ABBBBBA "
+  ],
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "B": {
+      "item": "kubejs:compressed_hardlead"
+    },
+    "C": {
+      "item": "kubejs:violium_alloy"
+    },
+    "D": {
+      "item": "mekanism:teleportation_core"
+    },
+    "E": {
+      "item": "ae2:singularity"
+    },
+    "F": {
+      "item": "mekaevolution:absolute_energy_cube"
+    },
+    "G": {
+      "item": "kubejs:living_control_circuit"
+    },
+    "H": {
+      "item": "mekanism:robit"
+    },
+    "I": {
+      "item": "thermal:flux_drill"
+    },
+    "J": {
+      "item": "kubejs:violium_casing"
+    },
+    "K": {
+      "item": "createoreexcavation:netherite_drill"
+    }
+  },
+  "result": {
+    "item": "mekanism:digital_miner"
+  }
+}
