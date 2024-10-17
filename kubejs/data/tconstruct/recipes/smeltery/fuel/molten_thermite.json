@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "name": "kubejs:molten_thermite",
+    "amount":50
+  },
+  "duration": 200,
+  "temperature": 1538
+}
