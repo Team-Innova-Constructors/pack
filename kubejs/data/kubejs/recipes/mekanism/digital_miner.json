@@ -1,0 +1,31 @@
+{
+    "type": "mekanism:mek_data",
+    "key": {
+      "A": {
+        "tag": "mekanism:alloys/atomic"
+      },
+      "C": {
+        "item": "mekaevolution:supreme_control_circuit"
+      },
+      "R": {
+        "item": "mekanism:robit"
+      },
+      "S": {
+        "item": "mekanism:logistical_sorter"
+      },
+      "T": {
+        "item": "mekanism:teleportation_core"
+      },
+      "X": {
+        "item": "kubejs:violium_casing"
+      }
+    },
+    "pattern": [
+      "ACA",
+      "SRS",
+      "TXT"
+    ],
+    "result": {
+      "item": "mekanism:digital_miner"
+    }
+  }

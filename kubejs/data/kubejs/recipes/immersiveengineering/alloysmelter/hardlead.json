@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:alloy",
+    "input0": {
+      "item": "etshtinker:bismuth_ingot",
+      "count": 1
+    },
+    "input1": {
+      "base_ingredient": {
+        "tag": "forge:ingots/lead"
+      },
+      "count": 3
+    },
+    "result": {
+      "base_ingredient": {
+        "item": "etshtinker:hardlead_plate"
+      },
+      "count": 4
+    },
+    "time": 200
+  }
