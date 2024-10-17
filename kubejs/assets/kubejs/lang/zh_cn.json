@@ -4,7 +4,8 @@
     "fluid.kubejs.dense_lava": "高密度熔岩",
     "fluid.kubejs.used_lava": "用尽的熔岩",
     "fluid.kubejs.cold_sodium": "过冷态超临界钠",
-
+    "fluid.kubejs.molten_thermite": "燃烧中的铝热剂",
+    
     "singularity.avaritia.bismuth": "铋",
     "singularity.avaritia.brass": "黄铜",
     "singularity.avaritia.osmium": "锇",
@@ -76,6 +77,7 @@
     "item.kubejs.clock_core":"怀表控制核心",
     "item.kubejs.incomplete_mekasuit":"未完成的mekasuit",
     "item.kubejs.incomplete_living_control_circuit":"未完成的活体电路",
+    "item.kubejs.thermite":"铝热剂",
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
 

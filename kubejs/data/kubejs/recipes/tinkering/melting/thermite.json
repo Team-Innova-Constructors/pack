@@ -1,0 +1,13 @@
+{
+    "type":"tconstruct:melting",
+    "ingredient":{
+      "item":"kubejs:thermite"
+    },
+    "temperature": 800,
+    "time": 20,
+    "result":
+    {
+      "fluid": "kubejs:molten_thermite",
+      "amount": 1000
+    }
+  }

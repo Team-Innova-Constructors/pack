@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',output:'mekanismgenerators:fusion_reactor_port'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
   //电解核心
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:electrolytic_core'}, '#forge:dusts/osmium','kubejs:compressed_hardlead')
+  
   //钛，矿渣相关
   event.recipes.mekanismCrushing('immersiveengineering:slag_gravel', '#forge:slag')
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
@@ -24,6 +25,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
   event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock", {gas: 'mekanism:osmium', amount: 2})
   event.recipes.mekanismInjecting('cti:magic_crystal', 'ae2:certus_quartz_crystal', {gas: 'cti:mana_gas', amount: 20})
+
   //钢壳子
   event.remove([{mod: 'mekanism', output: 'mekanism:steel_casing' }])
   event.shaped(Item.of('mekanism:steel_casing',8), [
@@ -32,7 +34,7 @@ ServerEvents.recipes(event => {
       'ABA'
     ],
     {
-      A: '#forge:ingots/steel',
+      A: 'etshtinker:chroma_plate',
       B: '#forge:storage_blocks/steel',
       C: 'thermal:energy_cell'
     }

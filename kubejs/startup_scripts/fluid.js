@@ -25,4 +25,11 @@ StartupEvents.registry("fluid",event=>{
     usedlavaAttributes.dropOff(2);
     usedlavaAttributes.tickDelay(20);
     used_lava.attributes = usedlavaAttributes;
+    //铝热剂
+    let thermite = event.create("molten_thermite").thickTexture(0xFFDC8A).temperature(1300).bucketColor(0xFFDC8A).displayName("molten_thermite");
+    let thermiteAttributes = thermite.createAttributes();
+    thermiteAttributes.dropOff(2);
+    thermiteAttributes.tickDelay(20);
+    thermite.attributes = thermiteAttributes;
+    
 })

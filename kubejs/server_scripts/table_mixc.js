@@ -40,4 +40,27 @@ ServerEvents.recipes(event => {
  event.shapeless('extendedcrafting:advanced_table','4x minecraft:crafting_table')
  event.shapeless('extendedcrafting:elite_table','6x minecraft:crafting_table')
  event.shapeless('extendedcrafting:ultimate_table','8x minecraft:crafting_table')
+ //铝热剂
+ event.shaped(Item.of('kubejs:thermite',4), [
+   'BAB',
+   'ABA',
+   'BAB'
+],
+{
+   A: '#forge:dusts/aluminum',
+   B: 'create:crushed_raw_iron',
+}
+)
+ //末影珍珠
+ event.shaped(Item.of('cyclic:eye_teleport',1), [
+   'BAB',
+   'AAA',
+   'BAB'
+],
+{
+   B: '#forge:dusts/ender_pearl',
+   A: 'ae2:singularity',
+}
+)
+
 })

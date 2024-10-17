@@ -17,6 +17,8 @@ StartupEvents.registry("item",event=>{
     event.create("particle_container","basic")
     event.create("clock_core","basic")
     event.create("living_control_circuit","basic")
+    event.create("thermite","basic")
+
 
     event.create("dense_slag","basic")
     event.create("crystal_slag","basic")
