@@ -2,7 +2,7 @@ ServerEvents.recipes(event =>
 {
 //机械动力：矿石开掘配方,drilling后面的括号是需要输出的物品,矿脉名称,生成权重,以 32 RPM 为单位的提取时间。
 //残骸碎片
-event.recipes.createoreexcavation.drilling('tconstruct:debris_nugget','{"text": "残骸碎片"}', 10, 300)
+event.recipes.createoreexcavation.drilling('minecraft:ancient_debris','{"text": "残骸碎片"}', 10, 600)
 //钻头等级
 .drill('createoreexcavation:netherite_drill')
 //生物群落白名单
@@ -17,7 +17,7 @@ event.recipes.createoreexcavation.drilling('tconstruct:debris_nugget','{"text": 
 //碧空史莱姆
 event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text": "碧空史莱姆"}', 10, 400)
 //钻头等级
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 //无限量
 .alwaysInfinite()
 //应力值
@@ -29,9 +29,9 @@ event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text
 
 
 //贫油
-event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 500','{"text": "贫油"}', 10, 200)
+event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 500','{"text": "贫油"}', 10, 600)
 //钻头等级
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 //无限量
 .alwaysInfinite()
 //应力值
@@ -47,13 +47,12 @@ event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 500','
 //富油
 event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "富油"}', 20, 200)
 //钻头等级
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 //无限量
 .alwaysInfinite()
 //应力值
 .stress(512)
 //生物群落白名单
-// .biomeWhitelist('forge:is_desert')
 .biomeWhitelist('forge:is_dry/overworld')
 //配方id
 .id("rich_oil");
@@ -64,7 +63,7 @@ event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000',
 
 //钴矿
 event.recipes.createoreexcavation.drilling('tconstruct:raw_cobalt','{"text": "粗钴"}', 10, 200)
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_nether')
 .alwaysInfinite()
 .stress(128)
@@ -72,7 +71,7 @@ event.recipes.createoreexcavation.drilling('tconstruct:raw_cobalt','{"text": "�
 
 //阿迪特矿
 event.recipes.createoreexcavation.drilling('tinkers_thinking:raw_ardite','{"text": "粗阿迪特"}', 10, 200)
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_nether')
 .alwaysInfinite()
 .stress(128)
@@ -80,7 +79,7 @@ event.recipes.createoreexcavation.drilling('tinkers_thinking:raw_ardite','{"text
 
 //钴-阿迪特伴生矿
 event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite')], '{"text": "钴-阿迪特伴生矿"}', 4, 400)
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_nether')
 .alwaysInfinite()
@@ -89,7 +88,7 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 
 //锡矿
 event.recipes.createoreexcavation.drilling('thermal:raw_tin','{"text": "锡矿"}', 10, 150)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(64)
@@ -97,7 +96,7 @@ event.recipes.createoreexcavation.drilling('thermal:raw_tin','{"text": "锡矿"}
 
 //银矿
 event.recipes.createoreexcavation.drilling('thermal:raw_silver','{"text": "银矿"}', 10, 250)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(96)
@@ -105,7 +104,7 @@ event.recipes.createoreexcavation.drilling('thermal:raw_silver','{"text": "银�
 
 //铅矿
 event.recipes.createoreexcavation.drilling('thermal:raw_lead','{"text": "铅矿"}', 10, 150)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(96)
@@ -113,7 +112,7 @@ event.recipes.createoreexcavation.drilling('thermal:raw_lead','{"text": "铅矿"
 
 //镍矿
 event.recipes.createoreexcavation.drilling('thermal:raw_nickel','{"text": "镍矿"}', 10, 150)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(128)
@@ -121,7 +120,7 @@ event.recipes.createoreexcavation.drilling('thermal:raw_nickel','{"text": "镍�
 
 //铀矿
 event.recipes.createoreexcavation.drilling('mekanism:raw_uranium','{"text": "铀矿"}', 10, 200)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(192)
@@ -129,7 +128,7 @@ event.recipes.createoreexcavation.drilling('mekanism:raw_uranium','{"text": "铀
 
 //锇矿
 event.recipes.createoreexcavation.drilling('mekanism:raw_osmium','{"text": "锇矿"}', 10, 150)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(128)
@@ -137,7 +136,7 @@ event.recipes.createoreexcavation.drilling('mekanism:raw_osmium','{"text": "锇�
 
 //朱砂矿
 event.recipes.createoreexcavation.drilling('thermal:cinnabar','{"text": "朱砂矿"}', 10, 400)
-.drill('createoreexcavation:drill')
+.drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .fluid('minecraft:lava')
 .alwaysInfinite()
@@ -146,7 +145,7 @@ event.recipes.createoreexcavation.drilling('thermal:cinnabar','{"text": "朱砂�
 
 //硫化铁矿
 event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.of('etshtinker:bismuthinite').withChance(0.1)], '{"text": "硫化铁矿"}', 4, 400)
-.drill('createoreexcavation:diamond_drill')
+.drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()

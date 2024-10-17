@@ -5,7 +5,11 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:tin_gear'}, '#forge:nuggets/iron','etshtinker:hardlead_plate')
   // 结晶机
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:machine_crystallizer'}, '#forge:plates/signalum','etshtinker:chroma_plate')
-
+  //磨粉机
+  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(2.5), 'createoreexcavation:raw_diamond').energy(1000)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(2.5),'createoreexcavation:raw_emerald').energy(1000)
   //更多插件
   event.shaped(Item.of('cti:advanced_speed_augment',1),
   [

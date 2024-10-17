@@ -41,6 +41,9 @@ ServerEvents.tags('item', event => {
     event.add('forge:dusts/titanium', 'kubejs:titanium_dust')
     //添加钨的标签
     event.add('forge:ingots/tungsten', 'kubejs:tungsten_ingot')
+    //钻头标签
+    event.add('createoreexcavation:second_createore_drill','createoreexcavation:diamond_drill')
+    event.add('createoreexcavation:second_createore_drill','createoreexcavation:netherite_drill')
 
 })
 //添加方块标签
@@ -56,5 +59,8 @@ ServerEvents.tags('block', event => {
     event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
     event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
     event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
+
+
+
     
 })

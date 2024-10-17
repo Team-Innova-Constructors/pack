@@ -5,6 +5,8 @@
     "fluid.kubejs.used_lava": "用尽的熔岩",
     "fluid.kubejs.cold_sodium": "过冷态超临界钠",
     "fluid.kubejs.molten_thermite": "燃烧中的铝热剂",
+    "fluid.kubejs.fluid_cryotheum": "极寒之凛冰",
+    "fluid.kubejs.fluid_pyrotheum": "烈焰之炽焱",
     
     "singularity.avaritia.bismuth": "铋",
     "singularity.avaritia.brass": "黄铜",
@@ -78,6 +80,11 @@
     "item.kubejs.incomplete_mekasuit":"未完成的mekasuit",
     "item.kubejs.incomplete_living_control_circuit":"未完成的活体电路",
     "item.kubejs.thermite":"铝热剂",
+    "item.kubejs.molten_thermite_bucket":"熔融铝热剂桶",
+    "item.kubejs.dust_mana":"魔尘",
+    "item.kubejs.dust_cryotheum":"凛冰粉",
+    "item.kubejs.dust_pyrotheum":"炽焱粉",
+    "item.kubejs.dust_petrotheum":"地岩粉",
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
 

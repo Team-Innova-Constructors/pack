@@ -31,5 +31,18 @@ StartupEvents.registry("fluid",event=>{
     thermiteAttributes.dropOff(2);
     thermiteAttributes.tickDelay(20);
     thermite.attributes = thermiteAttributes;
+
+    let fluid_cryotheum = event.create("fluid_cryotheum").thickTexture(0xFFDC8A).temperature(1).bucketColor(0xFFDC8A).displayName("fluid_cryotheum");
+    let fluidcryotheumAttributes = fluid_cryotheum.createAttributes();
+    fluidcryotheumAttributes.dropOff(2);
+    fluidcryotheumAttributes.tickDelay(20);
+    fluid_cryotheum.attributes = fluidcryotheumAttributes;
+
+    let fluid_pyrotheum = event.create("fluid_pyrotheum").thickTexture(0xFFDC8A).temperature(1300).bucketColor(0xFFDC8A).displayName("fluid_pyrotheum");
+    let fluidpyrotheumAttributes = fluid_pyrotheum.createAttributes();
+    fluidpyrotheumAttributes.dropOff(2);
+    fluidpyrotheumAttributes.tickDelay(20);
+    fluid_pyrotheum.attributes = fluidpyrotheumAttributes;
+
     
 })
