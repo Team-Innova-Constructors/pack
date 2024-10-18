@@ -1,0 +1,91 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABCCCBAA",
+    "ABDEFGDBA",
+    "BDHIAIJDB",
+    "CKIALAIMC",
+    "CNAOPQANC",
+    "CRIALAISC",
+    "BDTIAIUDB",
+    "ABDVWXDBA",
+    "AABCCCBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:infinity"
+    },
+    "B": {
+      "item": "tinkers_ingenuity:bedrock_alloy_block"
+    },
+    "C": {
+      "item": "enigmaticlegacy:etherium_block"
+    },
+    "D": {
+      "item": "kubejs:electronium_block"
+    },
+    "E": {
+      "item": "avaritia:neutron"
+    },
+    "F": {
+      "item": "enigmaticlegacy:ascension_amulet"
+    },
+    "G": {
+      "item": "kubejs:protonium_block"
+    },
+    "H": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "I": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "J": {
+      "item": "l2complements:poseidite_block"
+    },
+    "K": {
+      "item": "tinkers_ingenuity:orichalcum_block"
+    },
+    "L": {
+      "item": "enigmaticlegacy:twisted_heart"
+    },
+    "M": {
+      "item": "tconstruct:manyullyn_block"
+    },
+    "N": {
+      "item": "l2complements:heirophant_green"
+    },
+    "O": {
+      "item": "enigmaticlegacy:unholy_grail"
+    },
+    "P": {
+      "item": "enigmaticlegacy:the_cube"
+    },
+    "Q": {
+      "item": "enigmaticlegacy:forbidden_fruit"
+    },
+    "R": {
+      "item": "botania:terrasteel_block"
+    },
+    "S": {
+      "item": "botania:elementium_block"
+    },
+    "T": {
+      "item": "mythicbotany:alfsteel_block"
+    },
+    "U": {
+      "item": "botania:manasteel_block"
+    },
+    "V": {
+      "item": "kubejs:stellaralloy_block"
+    },
+    "W": {
+      "item": "enigmaticlegacy:eldritch_amulet"
+    },
+    "X": {
+      "item": "kubejs:blitz_luminium_block"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:enigmatic_item"
+  }
+}
