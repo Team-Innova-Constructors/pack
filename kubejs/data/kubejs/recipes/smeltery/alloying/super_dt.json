@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    { "name": "tinkerscalibration:dragonbreath",
+      "amount": 200 },
+    { "name": "industrialforegoing:biofuel",
+      "amount": 1000 },
+    { "name": "thermal:refined_fuel",
+      "amount": 500 },
+    { "name": "mekanism:ethene",
+      "amount": 1000 },
+    { "name": "mekanismgenerators:fusion_fuel",
+      "amount": 2000 }
+  ],
+  "result": {
+    "fluid": "solidarytinker:super_dt",
+    "amount": 100
+  },
+  "temperature": 6300
+}
