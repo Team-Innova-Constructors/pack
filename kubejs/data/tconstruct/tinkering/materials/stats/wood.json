@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 1,
+      "durability": 0
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 1,
+      "cooldown": 0
+    }
+  }
+}

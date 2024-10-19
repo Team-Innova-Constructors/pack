@@ -1,10 +1,8 @@
 ServerEvents.recipes(event => {
   // 催熟手雷
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:phyto_grenade'}, '#forge:ingots/iron','thermal:rich_slag_block')
-  // 锡齿轮
-  event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:tin_gear'}, '#forge:nuggets/iron','etshtinker:hardlead_plate')
-  // 结晶机
-  event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:machine_crystallizer'}, '#forge:plates/signalum','etshtinker:chroma_plate')
+  // 机器框架
+  event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:machine_frame'}, '#forge:ingots/iron','etshtinker:hardlead_plate')
   //磨粉机
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(2.5), 'createoreexcavation:raw_diamond').energy(1000)
