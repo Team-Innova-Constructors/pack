@@ -1,0 +1,49 @@
+{
+  "translation_key": "item.tinkers_ingenuity.hammer",
+"icon": {
+    "item": "tinkers_ingenuity:hammer",
+    "nbt": {
+      "tic_display": true,
+      "tic_materials": ["tconstruct:ui_render#head", "tconstruct:ui_render#handle", "tconstruct:ui_render#extra", "tconstruct:ui_render#large", "tconstruct:ui_render#extra_large"]
+    }
+  },
+  "sortIndex": 10,
+  "input_slots": [
+    {
+      "icon": "tconstruct:hammer_head",
+      "translation_key": "item.tconstruct.hammer_head",
+      "x": 44,
+      "y": 29,
+      "filter": {
+        "item": "tconstruct:hammer_head"
+      }
+    },
+    {
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 21,
+      "y": 52,
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      }
+    },
+    {
+      "icon": "tconstruct:small_blade",
+      "translation_key": "item.tconstruct.small_blade",
+      "x": 50,
+      "y": 48,
+      "filter": {
+        "item": "tconstruct:small_blade"
+      }
+    },
+    {
+      "icon": "tconstruct:large_plate",
+      "translation_key": "item.tconstruct.large_plate",
+      "x": 25,
+      "y": 20,
+      "filter": {
+        "item": "tconstruct:large_plate"
+      }
+    }
+  ]
+}

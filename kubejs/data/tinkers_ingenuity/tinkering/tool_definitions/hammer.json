@@ -3,16 +3,13 @@
     {
       "type": "tconstruct:part_stats",
       "parts": [
+        "tconstruct:hammer_head",
+        "tconstruct:tough_handle",
         {
-          "item": "tinkers_ingenuity:blade",
-          "scale": 0.5
+          "item": "tconstruct:small_blade",
+          "scale": 0.75
         },
-        {
-          "item": "tinkers_ingenuity:blade",
-          "scale": 0.5
-        },
-        "tinkers_ingenuity:blade",
-        "tinkers_ingenuity:blade"
+        "tconstruct:large_plate"
       ]
     },
     {
@@ -39,16 +36,16 @@
     {
       "type": "tconstruct:base_stats",
       "stats": {
-        "tconstruct:durability": 100.0,
-        "tconstruct:attack_damage": 4.0,
-        "tconstruct:attack_speed": 1.0
+        "tconstruct:attack_damage": 4.5,
+        "tconstruct:attack_speed": 0.55
       }
     },
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:durability": 0.36,
-        "tconstruct:velocity": 0.82
+        "tconstruct:attack_damage": 1.65,
+        "tconstruct:mining_speed": 0.4,
+        "tconstruct:durability": 3.5
       }
     },
     {
@@ -57,6 +54,15 @@
         "abilities": 1,
         "upgrades": 2
       }
+    },
+    {
+      "type": "tconstruct:traits",
+      "traits": [
+        {
+          "level": 1,
+          "name": "tinkers_ingenuity:violent"
+        }
+      ]
     }
   ]
 }

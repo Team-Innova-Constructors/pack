@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tconstruct:freezing",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:grim",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tconstruct:freezing",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:grim",
+        "level": 1
+      }
+    ]
+  }
+}

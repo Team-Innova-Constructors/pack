@@ -1,0 +1,61 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.15,
+      "mining_speed": -0.2,
+      "melee_speed": 0.35,
+      "melee_damage": -0.15
+    },
+    "tconstruct:head": {
+      "durability": 1560,
+      "mining_speed": 6.5,
+      "mining_tier": "tinkers_ingenuity:sea_dream",
+      "melee_attack": 5.85
+    },
+    "tconstruct:limb": {
+      "durability": 1460,
+      "draw_speed": 0.4,
+      "velocity": 0.1,
+      "accuracy": 0.5
+    },
+    "tconstruct:grip": {
+      "durability": 0.05,
+      "accuracy": 0.3,
+      "melee_damage": 5.8
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 5.0,
+      "durability": 800,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 7.0,
+      "durability": 900,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 6.0,
+      "durability": 850,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_boots": {
+      "armor": 4.0,
+      "durability": 780,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 30000,
+      "durability": 0.2
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 35,
+      "cooldown": 0.2
+    }
+  }
+}

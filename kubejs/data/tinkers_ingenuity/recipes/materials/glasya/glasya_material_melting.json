@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:glasya_material",
+  "temperature": 1350,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_glasya",
+    "amount": 90
+  }
+}

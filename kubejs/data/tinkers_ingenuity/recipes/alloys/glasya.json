@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_quartz",
+      "amount": 1200
+    },
+    {
+      "name": "tconstruct:molten_bronze",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_aluminum",
+      "amount": 360
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_glasya",
+    "amount": 90
+  },
+  "temperature": 900
+}

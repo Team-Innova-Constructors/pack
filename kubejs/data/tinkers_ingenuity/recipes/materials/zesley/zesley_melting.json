@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "tinkers_ingenuity:zesley_ingot"
+  },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_zesley",
+    "amount": 90
+  },
+  "temperature": 1850,
+  "time": 20
+}

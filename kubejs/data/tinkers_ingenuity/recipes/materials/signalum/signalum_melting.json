@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "ingredient": {
+    "item": "thermal:signalum_ingot"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_signalum",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "time": 20
+}

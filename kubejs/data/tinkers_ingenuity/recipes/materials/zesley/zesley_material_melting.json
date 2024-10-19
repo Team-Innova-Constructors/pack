@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:zesley_material",
+  "temperature": 1850,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_zesley",
+    "amount": 90
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:dread_blade",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:dread_blade",
+        "level": 1
+      }
+    ]
+  }
+}

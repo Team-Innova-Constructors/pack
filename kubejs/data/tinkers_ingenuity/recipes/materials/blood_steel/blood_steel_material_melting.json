@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:blood_steel_material",
+  "temperature": 3200,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_blood_steel",
+    "amount": 90
+  }
+}

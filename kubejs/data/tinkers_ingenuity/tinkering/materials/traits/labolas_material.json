@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:mortal_wound",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:relentless",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:mortal_wound",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:relentless",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:ingenuity_radiant",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:impolite",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:rage",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:impolite",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:rage",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "tinkers_ingenuity:impolite",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:rage",
+        "level": 1
+      }
+    ]
+  }
+}

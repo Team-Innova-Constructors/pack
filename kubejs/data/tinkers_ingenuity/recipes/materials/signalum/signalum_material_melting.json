@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:signalum_material",
+  "temperature": 1000,
+  "result": {
+    "fluid": "tconstruct:molten_signalum",
+    "amount": 90
+  }
+}

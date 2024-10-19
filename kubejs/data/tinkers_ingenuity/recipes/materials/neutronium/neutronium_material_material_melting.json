@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:neutronium_material",
+  "temperature": 4500,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_neutronium",
+    "amount": 90
+  }
+}

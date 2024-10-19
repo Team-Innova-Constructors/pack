@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:leveraging",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:fleet_of_feet",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:leveraging",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:fleet_of_feet",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:reactive",
+        "level": 1
+      }
+    ]
+  }
+}

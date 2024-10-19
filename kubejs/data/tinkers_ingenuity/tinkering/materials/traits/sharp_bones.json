@@ -1,0 +1,16 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:ocean_hunting",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:ocean_hunting",
+        "level": 1
+      }
+    ]
+  }
+}

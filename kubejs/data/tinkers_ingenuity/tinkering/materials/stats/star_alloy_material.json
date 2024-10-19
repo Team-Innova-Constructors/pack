@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.15,
+      "mining_speed": 0.1,
+      "melee_speed": 0.2,
+      "melee_damage": -0.1
+    },
+    "tconstruct:head": {
+      "durability": 1125,
+      "mining_speed": 7.0,
+      "mining_tier": "tinkers_ingenuity:sea_dream",
+      "melee_attack": 4.2
+    },
+    "tconstruct:limb": {
+      "durability": 1095,
+      "draw_speed": 0.25,
+      "velocity": 0.1,
+      "accuracy": 0.15
+    },
+    "tconstruct:grip": {
+      "durability": 0.1,
+      "accuracy": 0.2,
+      "melee_attack": 4.0
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 5.0,
+      "durability": 900,
+      "knockback_resistance": 0.25,
+      "toughness": 2.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 6.0,
+      "durability": 1100,
+      "knockback_resistance": 0.25,
+      "toughness": 2.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 5.0,
+      "durability": 1040,
+      "knockback_resistance": 0.25,
+      "toughness": 2.0
+    },
+    "tconstruct:plating_boots": {
+      "armor": 4.0,
+      "durability": 950,
+      "knockback_resistance": 0.25,
+      "toughness": 2.0
+    }
+  }
+}

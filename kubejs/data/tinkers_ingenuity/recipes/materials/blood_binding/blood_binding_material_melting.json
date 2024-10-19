@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:blood_binding_material",
+  "temperature": 2786,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_blood_binding",
+    "amount": 90
+  }
+}

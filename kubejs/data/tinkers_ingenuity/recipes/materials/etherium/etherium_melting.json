@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ],
+  "ingredient": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_etherium",
+    "amount": 90
+  },
+  "temperature": 3275,
+  "time": 20
+}

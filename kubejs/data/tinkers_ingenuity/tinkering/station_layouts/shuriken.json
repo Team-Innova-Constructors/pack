@@ -1,3 +1,49 @@
 {
-
+  "translation_key": "item.tinkers_ingenuity.shuriken",
+  "icon": {
+    "item": "tinkers_ingenuity:shuriken",
+    "nbt": {
+      "tic_display": true,
+      "tic_materials": ["tconstruct:ui_render#head", "tconstruct:ui_render#handle", "tconstruct:ui_render#extra", "tconstruct:ui_render#large", "tconstruct:ui_render#extra_large"]
+    }
+  },
+  "sortIndex": 10,
+  "input_slots": [
+    {
+      "icon": "tinkers_ingenuity:blade",
+      "translation_key": "item.tinkers_ingenuity.blade",
+      "x": 45,
+      "y": 26,
+      "filter": {
+        "item": "tinkers_ingenuity:blade"
+      }
+    },
+    {
+      "icon": "tinkers_ingenuity:blade",
+      "translation_key": "item.tinkers_ingenuity.blade",
+      "x": 25,
+      "y": 46,
+      "filter": {
+        "item": "tinkers_ingenuity:blade"
+      }
+    },
+    {
+      "icon": "tinkers_ingenuity:blade",
+      "translation_key": "item.tinkers_ingenuity.blade",
+      "x": 25,
+      "y": 26,
+      "filter": {
+        "item": "tinkers_ingenuity:blade"
+      }
+    },
+    {
+      "icon": "tinkers_ingenuity:blade",
+      "translation_key": "item.tinkers_ingenuity.blade",
+      "x": 45,
+      "y": 46,
+      "filter": {
+        "item": "tinkers_ingenuity:blade"
+      }
+    }
+  ]
 }

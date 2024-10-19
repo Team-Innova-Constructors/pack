@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_manyullyn",
+      "amount": 90
+    },
+    {
+      "name": "tconstruct:molten_amethyst",
+      "amount": 1200
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_labolas",
+    "amount": 90
+  },
+  "temperature": 1100
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:crystal_matrix_material",
+  "temperature": 6950,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_crystal_matrix",
+    "amount": 90
+  }
+}

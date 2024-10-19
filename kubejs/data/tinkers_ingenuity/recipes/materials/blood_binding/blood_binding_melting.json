@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "tinkers_ingenuity:blood_binding_ingot" },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_blood_binding",
+    "amount": 90
+  },
+  "temperature": 2786,
+  "time": 20
+}

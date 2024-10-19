@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "tinkers_ingenuity:gleiter_ingot" },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_gleiter",
+    "amount": 90
+  },
+  "temperature": 8362,
+  "time": 20
+}

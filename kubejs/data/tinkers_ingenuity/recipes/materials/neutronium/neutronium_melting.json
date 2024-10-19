@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "avaritia"
+    }
+  ],
+  "ingredient": {
+    "item": "avaritia:neutronium_ingot"
+  },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_neutronium",
+    "amount": 90
+  },
+  "temperature": 4500,
+  "time": 20
+}

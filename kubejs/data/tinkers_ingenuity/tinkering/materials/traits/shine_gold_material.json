@@ -1,0 +1,36 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:aftershock",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sundering",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:aftershock",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sundering",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:stifling",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "tinkers_ingenuity:curio_sundering",
+        "level": 1
+      }
+    ]
+  }
+}

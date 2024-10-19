@@ -3,25 +3,14 @@
     {
       "type": "tconstruct:part_stats",
       "parts": [
-        {
-          "item": "tinkers_ingenuity:blade",
-          "scale": 0.5
-        },
-        {
-          "item": "tinkers_ingenuity:blade",
-          "scale": 0.5
-        },
-        "tinkers_ingenuity:blade",
-        "tinkers_ingenuity:blade"
+        "tinkers_ingenuity:tube",
+        "tconstruct:bowstring",
+        "tinkers_ingenuity:mouthpiece"
       ]
     },
     {
       "type": "tconstruct:default_materials",
       "materials": [
-        {
-          "type": "tconstruct:random",
-          "tier": 1
-        },
         {
           "type": "tconstruct:random",
           "tier": 1
@@ -40,22 +29,21 @@
       "type": "tconstruct:base_stats",
       "stats": {
         "tconstruct:durability": 100.0,
-        "tconstruct:attack_damage": 4.0,
+        "tconstruct:attack_damage": 1.0,
         "tconstruct:attack_speed": 1.0
       }
     },
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:durability": 0.36,
-        "tconstruct:velocity": 0.82
+        "tconstruct:durability": 1.5
       }
     },
     {
       "type": "tconstruct:modifier_slots",
       "slots": {
         "abilities": 1,
-        "upgrades": 2
+        "upgrades": 3
       }
     }
   ]

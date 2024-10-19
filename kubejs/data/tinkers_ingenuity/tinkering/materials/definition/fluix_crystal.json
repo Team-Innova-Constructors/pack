@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "ae2",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": true,
+  "tier": 3,
+  "sortOrder": 2,
+  "hidden": false
+}

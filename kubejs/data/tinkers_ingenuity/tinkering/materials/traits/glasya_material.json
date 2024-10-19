@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "tinkers_ingenuity:death_blow",
+      "level": 1
+    },
+    {
+      "name": "tinkers_ingenuity:staggering",
+      "level": 1
+    }
+  ]
+}

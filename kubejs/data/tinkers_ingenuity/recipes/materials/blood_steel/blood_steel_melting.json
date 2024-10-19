@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "tinkers_ingenuity:blood_steel_ingot" },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_blood_steel",
+    "amount": 90
+  },
+  "temperature": 3200,
+  "time": 20
+}

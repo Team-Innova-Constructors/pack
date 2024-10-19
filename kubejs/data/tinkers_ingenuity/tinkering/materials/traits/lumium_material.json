@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tconstruct:enhanced",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:aftershock",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tconstruct:enhanced",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:aftershock",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:ingenuity_radiant",
+        "level": 1
+      }
+    ]
+  }
+}

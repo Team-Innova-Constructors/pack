@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:fractured",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:pierce",
+        "level": 2
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:fractured",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:pierce",
+        "level": 2
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:dragon_breath",
+        "level": 1
+      }
+    ]
+  }
+}

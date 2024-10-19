@@ -4,24 +4,16 @@
       "type": "tconstruct:part_stats",
       "parts": [
         {
-          "item": "tinkers_ingenuity:blade",
-          "scale": 0.5
+          "item": "tconstruct:small_blade",
+          "scale": 0.75
         },
-        {
-          "item": "tinkers_ingenuity:blade",
-          "scale": 0.5
-        },
-        "tinkers_ingenuity:blade",
-        "tinkers_ingenuity:blade"
+        "tconstruct:large_plate",
+        "tconstruct:tool_handle"
       ]
     },
     {
       "type": "tconstruct:default_materials",
       "materials": [
-        {
-          "type": "tconstruct:random",
-          "tier": 1
-        },
         {
           "type": "tconstruct:random",
           "tier": 1
@@ -39,24 +31,33 @@
     {
       "type": "tconstruct:base_stats",
       "stats": {
-        "tconstruct:durability": 100.0,
-        "tconstruct:attack_damage": 4.0,
-        "tconstruct:attack_speed": 1.0
+        "tconstruct:attack_damage": 2.5,
+        "tconstruct:attack_speed": 2.1
       }
     },
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:durability": 0.36,
-        "tconstruct:velocity": 0.82
+        "tconstruct:attack_damage": 0.65,
+        "tconstruct:mining_speed": 0.4,
+        "tconstruct:durability": 1.25
       }
     },
     {
       "type": "tconstruct:modifier_slots",
       "slots": {
         "abilities": 1,
-        "upgrades": 2
+        "upgrades": 3
       }
+    },
+    {
+      "type": "tconstruct:traits",
+      "traits": [
+        {
+          "name": "tinkers_ingenuity:puncture",
+          "level": 1
+        }
+      ]
     }
   ]
 }

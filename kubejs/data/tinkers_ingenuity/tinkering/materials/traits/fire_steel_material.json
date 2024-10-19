@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:ice_dragon_killer",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:blazing_fire",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:ice_dragon_killer",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:blazing_fire",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:dragon_steel",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:shielding",
+        "level": 1
+      }
+    ]
+  }
+}

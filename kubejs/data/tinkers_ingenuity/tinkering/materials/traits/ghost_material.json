@@ -1,0 +1,10 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:ghost_blade",
+        "level": 1
+      }
+    ]
+  }
+}

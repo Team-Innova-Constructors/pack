@@ -1,0 +1,36 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:red_heart",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:exquisite",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:red_heart",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:exquisite",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:armor_red_heart",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "tinkers_ingenuity:curio_exquisite",
+        "level": 1
+      }
+    ]
+  }
+}

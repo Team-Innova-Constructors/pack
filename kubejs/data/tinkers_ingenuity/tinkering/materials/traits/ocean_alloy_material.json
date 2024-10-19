@@ -1,0 +1,36 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:poseidon",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:ocean_hunting",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:poseidon",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:ocean_hunting",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:water_shield",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "tinkers_ingenuity:curio_poseidon",
+        "level": 1
+      }
+    ]
+  }
+}

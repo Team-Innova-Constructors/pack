@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "tinkers_ingenuity:glasya_ingot" },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_glasya",
+    "amount": 90
+  },
+  "temperature": 1350,
+  "time": 20
+}

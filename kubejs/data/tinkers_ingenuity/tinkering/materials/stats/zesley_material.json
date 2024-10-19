@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.25,
+      "mining_speed": 0.05,
+      "melee_speed": 0.21,
+      "melee_damage": 0.3
+    },
+    "tconstruct:head": {
+      "durability": 1455,
+      "mining_speed": 5.5,
+      "mining_tier": "minecraft:diamond",
+      "melee_attack": 3.3
+    },
+    "tconstruct:limb": {
+      "durability": 1385,
+      "draw_speed": 0.23,
+      "velocity": 0.05,
+      "accuracy": 0.12
+    },
+    "tconstruct:grip": {
+      "durability": 0.22,
+      "accuracy": 0.13,
+      "melee_damage": 3.2
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 15000,
+      "durability": 0.35
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 30,
+      "cooldown": 0.6
+    }
+  }
+}

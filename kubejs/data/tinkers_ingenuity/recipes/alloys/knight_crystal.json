@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_debris",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_amethyst",
+      "amount": 100
+    },
+    {
+      "name": "tconstruct:molten_diamond",
+      "amount": 400
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_knight_crystal",
+    "amount": 90
+  },
+  "temperature": 3000
+}

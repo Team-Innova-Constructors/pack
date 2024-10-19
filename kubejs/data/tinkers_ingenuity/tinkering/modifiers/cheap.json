@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:repair",
+      "each_level": 0.75
+    }
+  ],
+  "tooltip_display": "always"
+}
