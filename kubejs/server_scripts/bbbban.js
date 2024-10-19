@@ -87,5 +87,9 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'tinkers_ingenuity', output: 'tinkers_ingenuity:shuriken' }])
 	event.remove({mod: 'explorerscompass', output: 'explorerscompass:explorerscompass' })
 	event.remove({mod: 'naturescompass', output: 'naturescompass:naturescompass' })
+	event.remove({id:'l2hostility:curse_of_wrath'})
+	event.remove({id:'l2hostility:book_of_omniscience'})
+	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
+
 }
 )

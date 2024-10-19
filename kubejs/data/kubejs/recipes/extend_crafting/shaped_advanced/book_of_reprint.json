@@ -1,0 +1,24 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBA",
+    "ACCCA",
+    "ACCCA",
+    "ACCCA",
+    "ABBBA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:leather"
+    },
+    "B": {
+      "item": "tinkersinnovation:enchantment_block"
+    },
+    "C": {
+      "tag": "forge:paper"
+    }
+  },
+  "result": {
+    "item": "l2hostility:book_of_reprint"
+  }
+}
