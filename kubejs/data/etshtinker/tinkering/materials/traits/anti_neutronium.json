@@ -1,0 +1,38 @@
+{
+  "condition": {
+    "modid": "mekanism",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "etshtinker:controllableannihl",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:selfassemble",
+      "level": 100
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:reactiveannihlarmor",
+        "level": 100
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ],
+    "etshtinker:plasma_generator": [
+      {
+        "name": "etshtinker:annihilating_slash",
+        "level": 1
+      }
+    ]
+  }
+}
