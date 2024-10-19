@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "cti:molten_uriel",
+    "amount": 90
+  },
+  "temperature": 7412,
+  "output": "cti:uriel"
+}

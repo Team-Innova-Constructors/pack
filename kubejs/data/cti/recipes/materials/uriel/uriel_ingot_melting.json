@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "cti:uriel_ingot"},
+  "result": {
+    "fluid": "cti:molten_uriel",
+    "amount": 90
+  },
+  "temperature": 7412,
+  "time": 20
+}

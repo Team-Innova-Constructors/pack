@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "cti:molten_uriel",
+    "amount": 90
+  },
+  "result": "cti:uriel_ingot",
+  "cooling_time": 200
+}

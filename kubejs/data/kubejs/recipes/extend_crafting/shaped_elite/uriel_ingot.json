@@ -1,0 +1,53 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A     A",
+    "BA C AB",
+    "BBADABB",
+    "EBFGFBE",
+    " EHIHE ",
+    " JEKEJ ",
+    "  JLJ  "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:pyrocrystal"
+    },
+    "B": {
+      "item": "l2complements:resonant_feather"
+    },
+    "C": {
+      "item": "l2hostility:ring_of_divinity"
+    },
+    "D": {
+      "item": "cataclysm:flame_eye"
+    },
+    "E": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "F": {
+      "item": "l2complements:soul_flame"
+    },
+    "G": {
+      "item": "kubejs:core_nether"
+    },
+    "H": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "I": {
+      "item": "enigmaticlegacy:soul_crystal"
+    },
+    "J": {
+      "item": "kubejs:core_blaze"
+    },
+    "K": {
+      "item": "enigmaticlegacy:cosmic_heart"
+    },
+    "L": {
+      "item": "l2hostility:book_of_omniscience"
+    }
+  },
+  "result": {
+    "item": "cti:uriel_ingot"
+  }
+}
