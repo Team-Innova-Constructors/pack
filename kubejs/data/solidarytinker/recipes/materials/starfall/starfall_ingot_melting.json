@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "solidarytinker:starfall_ingot"
+  },
+  "result": {
+    "fluid": "solidarytinker:molten_starfall",
+    "amount": 90
+  },
+  "temperature": 14500,
+  "time": 20
+}
