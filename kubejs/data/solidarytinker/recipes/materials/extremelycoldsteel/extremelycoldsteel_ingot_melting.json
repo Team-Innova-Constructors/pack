@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "solidarytinker:extremelycoldsteel_ingot"},
+  "result": {
+    "fluid": "solidarytinker:molten_extremelycoldsteel",
+    "amount": 90
+  },
+  "temperature": 1762,
+  "time": 40
+}

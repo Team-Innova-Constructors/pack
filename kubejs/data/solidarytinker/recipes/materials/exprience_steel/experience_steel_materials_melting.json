@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "solidarytinker:experience_steel",
+  "temperature": 2786,
+  "result": {
+    "fluid": "solidarytinker:molten_experience_steel",
+    "amount": 90
+  }
+}

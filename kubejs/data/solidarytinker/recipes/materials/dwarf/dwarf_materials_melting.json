@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "solidarytinker:dwarf",
+  "temperature": 8192,
+  "result": {
+    "fluid": "solidarytinker:molten_dwarf",
+    "amount": 90
+  }
+}

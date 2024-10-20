@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "solidarytinker:icefantasy_ingot"},
+  "result": {
+    "fluid": "solidarytinker:molten_icefantasy",
+    "amount": 90
+  },
+  "temperature": 12400,
+  "time": 20
+}

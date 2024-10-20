@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "solidarytinker:experience_steel_ingot"},
+  "result": {
+    "fluid": "solidarytinker:molten_experience_steel",
+    "amount": 90
+  },
+  "temperature": 2786,
+  "time": 20
+}

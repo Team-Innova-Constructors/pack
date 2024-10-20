@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "solidarytinker:magicuranium_ingot"},
+  "result": {
+    "fluid": "solidarytinker:molten_magicuranium",
+    "amount": 90
+  },
+  "temperature": 1981,
+  "time": 20
+}
