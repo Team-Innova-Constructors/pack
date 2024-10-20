@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "fluid_output": {
+      "amount": 4000,
+      "fluid": "kubejs:crystal_growth"
+    },
+    "input1": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 2000,
+      "fluid": "kubejs:co2_water"
+    },
+    "input2": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 2000,
+      "fluid": "kubejs:ca_solution"
+    },
+    "item_output": {
+      "item": "biomancy:stone_powder"
+    },
+    "pressure": 1.0,
+    "time": 60
+  }

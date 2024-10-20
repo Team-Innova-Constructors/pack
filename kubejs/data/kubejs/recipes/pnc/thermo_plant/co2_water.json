@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "air_use_multiplier": 2.0,
+    "exothermic": false,
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 2000,
+      "fluid": "minecraft:water"
+    },
+    "item_input": {
+      "item": "powah:dry_ice"
+    },
+    "fluid_output":{
+      "amount": 2000,
+      "fluid": "kubejs:co2_water"
+    },
+    "pressure": 2.5,
+    "speed": 1,
+    "temperature": {
+      "min_temp": 37
+    }
+  }

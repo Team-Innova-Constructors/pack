@@ -1,0 +1,22 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "fluid_output": {
+      "amount": 10000,
+      "fluid": "biomancy:acid"
+    },
+    "input1": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 1000,
+      "fluid": "kubejs:biotic_acids"
+    },
+    "input2": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 10000,
+      "fluid": "minecraft:water"
+    },
+    "item_output": {
+      "item": "immersiveengineering:dust_saltpeter"
+    },
+    "pressure": 1.0,
+    "time": 60
+  }

@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+      "item": "kubejs:dust_cryotheum"
+    },
+    "result": [
+      {
+        "fluid": "kubejs:fluid_cryotheum",
+        "amount": 250
+      }
+    ],
+    "energy": 100000
+  }
