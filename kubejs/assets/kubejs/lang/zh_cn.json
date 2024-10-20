@@ -115,6 +115,9 @@
     "gui.ad_astra.text.jupiter":"木星",
     "biome.kubejs.jupiter":"木星核心",
 
+    "gui.ad_astra.text.uranus":"天王星",
+    "biome.kubejs.uranus":"天王星核心",
+
     "gas.cti.overcharged_neutron": "超充能气体中子",
 
     "block.cti.ultra_dense_hydride_ore": "氢化超致密水晶矿",
@@ -124,6 +127,8 @@
     "item.cti.advanced_dyano_augment": "高级能源炉燃烧室",
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
+
+    "item.ae2wtlib.quantum_bridge_card": "量子桥卡",
 
     "modifier.cti.space_suit": "太空服",
     "modifier.cti.space_suit.flavor": "太空服",
