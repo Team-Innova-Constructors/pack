@@ -61,24 +61,8 @@ event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000',
 
 
 
-//钴矿
-event.recipes.createoreexcavation.drilling('tconstruct:raw_cobalt','{"text": "粗钴"}', 10, 200)
-.drill('#createoreexcavation:second_createore_drill')
-.biomeWhitelist('minecraft:is_nether')
-.alwaysInfinite()
-.stress(128)
-.id("cobalt");
-
-//阿迪特矿
-event.recipes.createoreexcavation.drilling('tinkers_thinking:raw_ardite','{"text": "粗阿迪特"}', 10, 200)
-.drill('#createoreexcavation:second_createore_drill')
-.biomeWhitelist('minecraft:is_nether')
-.alwaysInfinite()
-.stress(128)
-.id("ardite");
-
 //钴-阿迪特伴生矿
-event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite')], '{"text": "钴-阿迪特伴生矿"}', 4, 400)
+event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite')], '{"text": "钴-阿迪特伴生矿"}', 15, 400)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_nether')
@@ -86,56 +70,26 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 .stress(192)
 .id("cobalt_ardite_complex");
 
-//锡矿
-event.recipes.createoreexcavation.drilling('thermal:raw_tin','{"text": "锡矿"}', 10, 150)
-.drill('#createoreexcavation:drills')
-.biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
-.stress(64)
-.id("tin");
-
-//银矿
-event.recipes.createoreexcavation.drilling('thermal:raw_silver','{"text": "银矿"}', 10, 250)
-.drill('#createoreexcavation:drills')
-.biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
-.stress(96)
-.id("silver");
 
 //铅矿
-event.recipes.createoreexcavation.drilling('thermal:raw_lead','{"text": "铅矿"}', 10, 150)
+event.recipes.createoreexcavation.drilling([Item.of('thermal:raw_lead'), Item.of('mekanism:raw_uranium')],'{"text": "衰变铅矿"}', 15, 150)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(96)
 .id("lead");
 
-//镍矿
-event.recipes.createoreexcavation.drilling('thermal:raw_nickel','{"text": "镍矿"}', 10, 150)
-.drill('#createoreexcavation:drills')
-.biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
-.stress(128)
-.id("nickel");
-
-//铀矿
-event.recipes.createoreexcavation.drilling('mekanism:raw_uranium','{"text": "铀矿"}', 10, 200)
-.drill('#createoreexcavation:second_createore_drill')
-.biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
-.stress(192)
-.id("uranium");
 
 //锇矿
-event.recipes.createoreexcavation.drilling('mekanism:raw_osmium','{"text": "锇矿"}', 10, 150)
+event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_gold'), Item.of('mekanism:raw_osmium')],'{"text": "重金属矿"}', 10, 150)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .alwaysInfinite()
 .stress(128)
 .id("osmium");
 
-//朱砂矿
-event.recipes.createoreexcavation.drilling('thermal:cinnabar','{"text": "朱砂矿"}', 10, 400)
+//硫化物矿
+event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:sulfur')],'{"text": "朱砂矿"}', 10, 400)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .fluid('minecraft:lava')

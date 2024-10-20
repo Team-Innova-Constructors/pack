@@ -7,9 +7,7 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
   	//硫化橡胶熔炉配方
 	event.remove({ id: 'thermal:smelting/cured_rubber_from_smelting' })
-  	//神晶AE配方
-	event.remove({ id: 'etshtinker:ae2/soakwater/blood_certus' })
-	event.remove({ id: 'etshtinker:ae2/soakwater/soul_fluix' })
+
     event.remove({ id: 'tinkers_reforged:titanium_ingot_to_block' })
 	//超致密
 	event.replaceInput({mod: 'etshtinker', id: 'etshtinker:mekanism/compressing/ultra_dense' }, 'etshtinker:os_induced_netherstarshard','kubejs:compressed_hardlead')
