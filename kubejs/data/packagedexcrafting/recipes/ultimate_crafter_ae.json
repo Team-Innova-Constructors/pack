@@ -1,0 +1,35 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "ae2"
+		}
+	],
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "packagedexcrafting:ultimate_crafter",
+		"count": 1
+	},
+	"pattern": [
+		"ICI",
+		"YTY",
+		"IRI"
+	],
+	"key": {
+		"C": {
+			"item": "packagedauto:me_package_component"
+		},
+		"T": {
+			"item": "extendedcrafting:ultimate_table"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "thermal:enderium_gear"
+		},
+		"R": {
+			"item": "thermal:signalum_gear"
+		}
+	}
+}

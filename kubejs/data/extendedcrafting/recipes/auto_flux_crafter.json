@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "extendedcrafting:auto_flux_crafter"
+    }
+  ],
+  "pattern": [
+    "BSB",
+    "CTC",
+    "BSB"
+  ],
+  "key": {
+    "T": {
+      "item": "extendedcrafting:flux_crafter"
+    },
+    "C": {
+      "tag": "forge:gears/enderium"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "thermal:signalum_gear"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:auto_flux_crafter"
+  }
+}

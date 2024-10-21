@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "extendedcrafting:pedestal"
+    }
+  ],
+  "pattern": [
+    " I ",
+    " I ",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:pedestal",
+    "count": 2
+  }
+}

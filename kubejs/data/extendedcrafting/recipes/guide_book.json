@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "patchouli:guide_book"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "patchouli:guide_book",
+    "nbt": {
+      "patchouli:book": "extendedcrafting:guide"
+    }
+  }
+}

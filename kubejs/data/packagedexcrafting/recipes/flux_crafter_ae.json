@@ -1,0 +1,35 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "ae2"
+		}
+	],
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "packagedexcrafting:flux_crafter",
+		"count": 1
+	},
+	"pattern": [
+		"ECE",
+		"YTY",
+		"ERE"
+	],
+	"key": {
+		"C": {
+			"item": "packagedauto:me_package_component"
+		},
+		"T": {
+			"item": "extendedcrafting:auto_flux_crafter"
+		},
+		"E": {
+			"item": "thermal:signalum_ingot"
+		},
+		"Y": {
+			"item": "thermal:enderium_gear"
+		},
+		"R": {
+			"item": "thermal:signalum_gear"
+		}
+	}
+}
