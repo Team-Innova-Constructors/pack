@@ -31,18 +31,46 @@ StartupEvents.registry("fluid",event=>{
     thermiteAttributes.dropOff(2);
     thermiteAttributes.tickDelay(20);
     thermite.attributes = thermiteAttributes;
-
-    let fluid_cryotheum = event.create("fluid_cryotheum").thickTexture(0xFFDC8A).temperature(1).bucketColor(0xFFDC8A).displayName("fluid_cryotheum");
+    //凛冰
+    let fluid_cryotheum = event.create("fluid_cryotheum").thinTexture(0xabe9ff).temperature(1).bucketColor(0xabe9ff).displayName("fluid_cryotheum");
     let fluidcryotheumAttributes = fluid_cryotheum.createAttributes();
     fluidcryotheumAttributes.dropOff(2);
     fluidcryotheumAttributes.tickDelay(20);
     fluid_cryotheum.attributes = fluidcryotheumAttributes;
-
-    let fluid_pyrotheum = event.create("fluid_pyrotheum").thickTexture(0xFFDC8A).temperature(1300).bucketColor(0xFFDC8A).displayName("fluid_pyrotheum");
+    //炽焰
+    let fluid_pyrotheum = event.create("fluid_pyrotheum").thickTexture(0xffcd19).temperature(1300).bucketColor(0xffcd19).displayName("fluid_pyrotheum");
     let fluidpyrotheumAttributes = fluid_pyrotheum.createAttributes();
     fluidpyrotheumAttributes.dropOff(2);
     fluidpyrotheumAttributes.tickDelay(20);
     fluid_pyrotheum.attributes = fluidpyrotheumAttributes;
-
-    
+    //层岩
+    let fluid_petrotheum = event.create("fluid_petrotheum").thickTexture(0x3f3f3f).temperature(1300).bucketColor(0x3f3f3f).displayName("fluid_petrotheum");
+    let fluid_petrotheumAttributes = fluid_petrotheum.createAttributes();
+    fluid_petrotheumAttributes.dropOff(2);
+    fluid_petrotheumAttributes.tickDelay(20);
+    fluid_petrotheum.attributes = fluid_petrotheumAttributes;
+    //生长液
+    let crystal_growth = event.create("crystal_growth").thinTexture(0x00ffff).temperature(500).bucketColor(0x00ffff).displayName("crystal_growth");
+    let crystal_growthAttributes = crystal_growth.createAttributes();
+    crystal_growthAttributes.dropOff(2);
+    crystal_growthAttributes.tickDelay(20);
+    crystal_growth.attributes = crystal_growthAttributes;
+    //富二氧化碳水
+    let co2_water = event.create("co2_water").thinTexture(0xeeede4).temperature(500).bucketColor(0xeeede4).displayName("co2_water");
+    let co2_waterAttributes = co2_water.createAttributes();
+    co2_waterAttributes.dropOff(2);
+    co2_waterAttributes.tickDelay(20);
+    co2_water.attributes = co2_waterAttributes;
+    //钙质溶液
+    let ca_solution = event.create("ca_solution").thinTexture(0xb6b5ae).temperature(500).bucketColor(0xb6b5ae).displayName("ca_solution");
+    let ca_solutionAttributes = ca_solution.createAttributes();
+    ca_solutionAttributes.dropOff(2);
+    ca_solutionAttributes.tickDelay(20);
+    ca_solution.attributes = ca_solutionAttributes;
+    //浓缩腐蚀性生物酸
+    let biotic_acids = event.create("biotic_acids").thinTexture(0x647a5d).temperature(500).bucketColor(0x647a5d).displayName("biotic_acids");
+    let biotic_acidsAttributes = biotic_acids.createAttributes();
+    biotic_acidsAttributes.dropOff(2);
+    biotic_acidsAttributes.tickDelay(20);
+    biotic_acids.attributes = biotic_acidsAttributes;
 })

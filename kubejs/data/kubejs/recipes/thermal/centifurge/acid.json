@@ -1,0 +1,18 @@
+{
+    "type": "thermal:centrifuge",
+    "ingredient": {
+      "item": "biomancy:corrosive_additive"
+    },
+    "result": [
+      {
+        "item": "tinkerscalibration:inert_witherium_nugget",
+        "chance": 1.25,
+        "locked": true
+      },
+      {
+        "fluid": "kubejs:biotic_acids",
+        "amount": 500
+      }
+    ],
+    "energy": 2000
+  }

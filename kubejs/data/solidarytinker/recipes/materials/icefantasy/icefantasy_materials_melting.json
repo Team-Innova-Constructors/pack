@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material_melting",
   "input": "solidarytinker:icefantasy",
-  "temperature": 12400,
+  "temperature": 10086,
   "result": {
     "fluid": "solidarytinker:molten_icefantasy",
     "amount": 90

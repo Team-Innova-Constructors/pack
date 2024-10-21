@@ -1,0 +1,26 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "air_use_multiplier": 2.0,
+  "exothermic": false,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 8000,
+    "fluid": "kubejs:volatile_lava"
+  },
+  "item_input": {
+    "item": "immersivepetroleum:petcoke_dust"
+  },
+  "item_output": {
+    "count": 16,
+    "item": "kubejs:enriched_slag"
+  },
+  "fluid_output":{
+    "amount": 4000,
+    "fluid": "kubejs:dense_lava"
+  },
+  "pressure": 2.0,
+  "speed": 1,
+  "temperature": {
+    "min_temp": 600
+  }
+}
