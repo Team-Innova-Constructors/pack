@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "extendedcrafting:basic_auto_table"
+    }
+  ],
+  "pattern": [
+    "BSB",
+    "CTC",
+    "BSB"
+  ],
+  "key": {
+    "T": {
+      "item": "extendedcrafting:basic_table"
+    },
+    "C": {
+      "tag": "forge:gears/enderium"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "thermal:signalum_gear"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:basic_auto_table"
+  }
+}

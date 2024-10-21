@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:iron_nugget",
+      "amount_needed": 5
+    },
+    {
+      "item": "create:large_cogwheel",
+      "amount_needed": 5
+    },
+    {
+      "item": "create:cogwheel",
+      "amount_needed": 5
+    },
+    {
+      "tag": "forge:plates/gold"
+    }
+  ],
+  "level": 1,
+  "result": "tinkerslevellingaddon:improvable",
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

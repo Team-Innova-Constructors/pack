@@ -141,6 +141,8 @@
     "modifier.cti.gravity_normalizer.flavor": "重力正常化",
     "modifier.cti.gravity_normalizer.description": "使你在外星所受重力与主世界一致",
 
+    "item.extendedcrafting.flux_star":"通量之星",
+    "item.extendedcrafting.flux_star_block":"通量之星块",
 
     "_null_": "jei信息显示部分",
     "kubejs.jei.coinmint": "铸币机器已经被禁用",
@@ -149,4 +151,6 @@
     "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
     "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
     "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick"
+
+
 }

@@ -3,7 +3,31 @@
     "powerRequired": 2147483647,
     "ingredients": [
       {
+        "item": "extendedcrafting:flux_star"
+      },
+      {
+        "item": "extendedcrafting:flux_star_block"
+      },
+      {
+        "item": "extendedcrafting:flux_star"
+      },
+      {
+        "item": "extendedcrafting:flux_star_block"
+      },
+      {
         "item": "kubejs:halfdone_exoalloy"
+      },
+      {
+        "item": "extendedcrafting:flux_star_block"
+      },
+      {
+        "item": "extendedcrafting:flux_star"
+      },
+      {
+        "item": "extendedcrafting:flux_star_block"
+      },
+      {
+        "item": "extendedcrafting:flux_star"
       }
     ],
     "result": {
