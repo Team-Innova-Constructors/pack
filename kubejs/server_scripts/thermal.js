@@ -8,8 +8,12 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(2.5), 'createoreexcavation:raw_diamond').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(2.5),'createoreexcavation:raw_emerald').energy(1000)
+  //罐装机器
+  event.recipes.thermal.bottler('cti:advanced_dyano_augment',['kubejs:unfinished_advanced_dyano_augment',Fluid.of('kubejs:fluid_pyrotheum',1000)]).energy(10000)
+  event.recipes.thermal.bottler('cti:advanced_output_augment',['kubejs:unfinished_advanced_output_augment',Fluid.of('kubejs:fluid_petrotheum',1000)]).energy(10000)
+  event.recipes.thermal.bottler('cti:advanced_speed_augment',['kubejs:unfinished_advanced_speed_augment',Fluid.of('kubejs:fluid_cryotheum',1000)]).energy(10000)
   //更多插件
-  event.shaped(Item.of('cti:advanced_speed_augment',1),
+  event.shaped(Item.of('kubejs:unfinished_advanced_speed_augment',1),
   [
       'AAA',
       'BCD',
@@ -33,7 +37,7 @@ ServerEvents.recipes(event => {
         C: 'pneumaticcraft:printed_circuit_board',
       }
       )
-  event.shaped(Item.of('cti:advanced_dyano_augment',1),
+  event.shaped(Item.of('kubejs:unfinished_advanced_dyano_augment',1),
     [
         'AAA',
         'BCD',
@@ -58,7 +62,7 @@ ServerEvents.recipes(event => {
         C: 'pneumaticcraft:printed_circuit_board',
       }
     )
-  event.shaped(Item.of('cti:advanced_output_augment',1),
+  event.shaped(Item.of('kubejs:unfinished_advanced_output_augment',1),
       [
           'AAA',
           'BCB',
