@@ -1,5 +1,84 @@
 ServerEvents.recipes(event => {
     event.replaceInput({mod:'powah',output:'powah:crystal_nitro'}, '#forge:storage_blocks/redstone','#forge:ingots/tungsten')
+
+    event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','kubejs:compressed_hardlead')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_blazing'}, 'powah:dielectric_paste','kubejs:zirconium_alloy')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_niotic'}, 'powah:dielectric_paste','kubejs:violium_alloy')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','kubejs:atherium_alloy')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_nitro'}, 'powah:dielectric_paste','mekanism:pellet_plutonium')
+    //反应堆
+    event.shaped(
+      Item.of('powah:reactor_basic',4), [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: '#forge:ingots/invar',
+        B: 'powah:capacitor_basic_large',
+        C: 'powah:uraninite'
+      }
+    )
+    event.shaped(
+      Item.of('powah:reactor_hardened',4), [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: '#forge:ingots/steel',
+        B: 'powah:capacitor_hardened',
+        C: 'powah:uraninite'
+      }
+    )
+    event.shaped(
+      Item.of('powah:reactor_blazing',4), [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: 'kubejs:compressed_hardlead',
+        B: 'powah:capacitor_blazing',
+        C: 'powah:uraninite'
+      }
+    )
+    event.shaped(
+      Item.of('powah:reactor_niotic',4), [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: 'kubejs:zirconium_alloy',
+        B: 'powah:capacitor_niotic',
+        C: 'powah:uraninite'
+      }
+    )
+    event.shaped(
+      Item.of('powah:reactor_spirited',4), [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: 'kubejs:violium_alloy',
+        B: 'powah:capacitor_spirited',
+        C: 'powah:uraninite'
+      }
+    )
+    event.shaped(
+      Item.of('powah:reactor_nitro',4), [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: 'kubejs:atherium_alloy',
+        B: 'powah:capacitor_nitro',
+        C: 'powah:uraninite'
+      }
+    )
     //核心
     event.shaped(
     Item.of('kubejs:core_basic',1), [
@@ -156,4 +235,6 @@ ServerEvents.recipes(event => {
     ]
     for (let i of pannel) {event.remove({id:`${i}`})}
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",1000)
+    event.recipes.powah.energizing(["tinkerscalibration:spinel","tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),10000)
+
 })

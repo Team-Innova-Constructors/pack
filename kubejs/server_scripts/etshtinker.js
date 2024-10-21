@@ -18,4 +18,9 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'etshtinker', output: 'etshtinker:activated_neutronium_dust' }])
 	//流体中子
 	event.remove([{id: 'etshtinker:smeltery/melting/overchargedneutronium/overchargedneutronium'}])
+	//天地宝晶
+	event.remove([{id: 'etshtinker:powah/earth_crystal'}])
+	event.remove([{id: 'etshtinker:powah/earth_crystal2'}])
+	event.remove([{id: 'etshtinker:powah/earth_crystal3'}])
+	event.remove([{id: 'etshtinker:powah/earth_crystal4'}])
 })
