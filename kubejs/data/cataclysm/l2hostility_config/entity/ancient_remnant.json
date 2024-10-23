@@ -22,11 +22,6 @@
           "trait": "l2hostility:tank"
         },
         {
-          "free": 1,
-          "min": 1,
-          "trait": "l2hostility:reprint"
-        },
-        {
           "free": 2,
           "min": 3,
           "trait": "l2hostility:adaptive"

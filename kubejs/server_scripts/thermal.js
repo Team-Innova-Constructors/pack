@@ -5,9 +5,10 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:machine_frame'}, '#forge:ingots/iron','etshtinker:hardlead_plate')
   //磨粉机
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
-  event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(2.5), 'createoreexcavation:raw_diamond').energy(1000)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(3.5), 'createoreexcavation:raw_diamond').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
-  event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(2.5),'createoreexcavation:raw_emerald').energy(1000)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(3.5),'createoreexcavation:raw_emerald').energy(1000)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:amethyst_shard').withChance(6.5),'minecraft:amethyst_cluster').energy(1000)
   //罐装机器
   event.recipes.thermal.bottler('cti:advanced_dyano_augment',['kubejs:unfinished_advanced_dyano_augment',Fluid.of('kubejs:fluid_pyrotheum',1000)]).energy(10000)
   event.recipes.thermal.bottler('cti:advanced_output_augment',['kubejs:unfinished_advanced_output_augment',Fluid.of('kubejs:fluid_petrotheum',1000)]).energy(10000)
