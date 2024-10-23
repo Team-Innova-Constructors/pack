@@ -1,0 +1,73 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 2147483647,
+  "powerRate": 2147483647,
+  "input": {
+    "item": "tconstruct:manyullyn_ingot"
+  },
+  "ingredients": [
+    {
+      "item": "kubejs:electrocrystal"
+    },
+    {
+      "item": "ad_astra:ice_shard"
+    },
+    {
+      "item": "kubejs:pyrocrystal"
+    },
+    {
+      "item": "kubejs:ultra_dense_hydride_crystal"
+    },
+    {
+      "item": "avaritia:infinity_ingot"
+    },
+    {
+      "item": "kubejs:electrocrystal"
+    },
+    {
+      "item": "ad_astra:ice_shard"
+    },
+    {
+      "item": "kubejs:pyrocrystal"
+    },
+    {
+      "item": "kubejs:ultra_dense_hydride_crystal"
+    },
+    {
+      "item": "etshtinker:exo_alloy"
+    },
+    {
+      "item": "kubejs:electrocrystal"
+    },
+    {
+      "item": "ad_astra:ice_shard"
+    },
+    {
+      "item": "kubejs:pyrocrystal"
+    },
+    {
+      "item": "kubejs:ultra_dense_hydride_crystal"
+    },
+    {
+      "item": "avaritia:infinity_ingot"
+    },
+    {
+      "item": "kubejs:electrocrystal"
+    },
+    {
+      "item": "ad_astra:ice_shard"
+    },
+    {
+      "item": "kubejs:pyrocrystal"
+    },
+    {
+      "item": "kubejs:ultra_dense_hydride_crystal"
+    },
+    {
+      "item": "etshtinker:exo_alloy"
+    }
+  ],
+  "result": {
+    "item": "cti:stellar_manyullyn"
+  }
+}
