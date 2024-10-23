@@ -18,6 +18,9 @@ StartupEvents.registry("item",event=>{
     event.create("clock_core","basic")
     event.create("living_control_circuit","basic")
     event.create("thermite","basic")
+    event.create("unfinished_advanced_dyano_augment","basic")
+    event.create("unfinished_advanced_output_augment","basic")
+    event.create("unfinished_advanced_speed_augment","basic")
 
 
     event.create("dense_slag","basic")

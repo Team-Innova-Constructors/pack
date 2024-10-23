@@ -1,0 +1,14 @@
+{
+    "_class": "dev.xkmc.l2hostility.content.config.WorldDifficultyConfig",
+    "biomeMap": {},
+    "levelMap": {
+      "undergarden:undergarden": {
+        "apply_chance": 1.0,
+        "base": 150,
+        "min": 150,
+        "scale": 1.1,
+        "trait_chance": 0.6,
+        "variation": 4.0
+      }
+    }
+  }

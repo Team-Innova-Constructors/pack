@@ -12,8 +12,11 @@
       "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:quartz",
-      "chance": 0.75
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:ancient_debris",
+      "chance": 0.1
     }
   ],
   "stress": 64,

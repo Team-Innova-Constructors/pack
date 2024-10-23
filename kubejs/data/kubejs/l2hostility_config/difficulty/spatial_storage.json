@@ -1,0 +1,14 @@
+{
+    "_class": "dev.xkmc.l2hostility.content.config.WorldDifficultyConfig",
+    "biomeMap": {},
+    "levelMap": {
+      "ae2:spatial_storage": {
+        "apply_chance": 1.0,
+        "base": 2100000000,
+        "min": 2100000000,
+        "scale": 1.0,
+        "trait_chance": 1.0,
+        "variation": 4.0
+      }
+    }
+  }
