@@ -5,7 +5,7 @@ event.addItem('projecte:transmutation_table', Text.black({ "translate": "kubejs.
 event.addItem('projecte:transmutation_tablet', Text.black({ "translate": "kubejs.jei.transmutation_tablet" }))
 event.addItem('tinkerscalibration:moonsteel_ingot', Text.black({ "translate": "kubejs.jei.moonsteel_ingot" }))
 event.addFluid('manaliquidizer:mana_fluid', Text.black({ "translate": "kubejs.jei.mana_fluid" }))
-
+event.addItem('immersiveengineering:railgun', Text.black({ "translate": "kubejs.jei.railgun" }))
 
 
 

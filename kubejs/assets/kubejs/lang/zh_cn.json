@@ -147,7 +147,8 @@
     "kubejs.jei.transmutation_table": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
     "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
     "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
-    "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick"
+    "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick",
+    "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害并附带肢解，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。部分需要手持工具的词条可能不会被触发。"
 
 
 }
