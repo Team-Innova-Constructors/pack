@@ -1,0 +1,37 @@
+{
+  "_class": "dev.xkmc.l2hostility.content.config.EntityConfig",
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 1500,
+        "min": 3000,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "cataclysm:ender_guardian"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 3,
+          "min": 5,
+          "trait": "l2hostility:weakness"
+        }
+      ]
+    }
+  ]
+}

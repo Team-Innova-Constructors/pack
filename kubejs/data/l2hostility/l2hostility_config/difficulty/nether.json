@@ -1,0 +1,14 @@
+{
+  "_class": "dev.xkmc.l2hostility.content.config.WorldDifficultyConfig",
+  "biomeMap": {},
+  "levelMap": {
+    "minecraft:the_nether": {
+      "apply_chance": 1.0,
+      "base": 10,
+      "min": 0,
+      "scale": 1.2,
+      "trait_chance": 1.0,
+      "variation": 9.0
+    }
+  }
+}

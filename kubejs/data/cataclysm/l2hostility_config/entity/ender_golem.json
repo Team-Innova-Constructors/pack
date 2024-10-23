@@ -1,0 +1,32 @@
+{
+  "_class": "dev.xkmc.l2hostility.content.config.EntityConfig",
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 250,
+        "min": 500,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "cataclysm:ender_golem"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:weakness"
+        }
+      ]
+    }
+  ]
+}
