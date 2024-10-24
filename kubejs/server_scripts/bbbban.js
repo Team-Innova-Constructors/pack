@@ -92,5 +92,18 @@ ServerEvents.recipes(event => {
 	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
 	event.remove({id:'megacells:inscriber/bulk_cell_component'})
 
+	//移除原有矿脉
+	event.remove({id:'createoreexcavation:extractor/water'})
+	event.remove({id:'createoreexcavation:drilling/coal'})
+	event.remove({id:'createoreexcavation:drilling/copper'})
+	event.remove({id:'createoreexcavation:drilling/diamond'})
+	event.remove({id:'createoreexcavation:drilling/emerald'})
+	event.remove({id:'createoreexcavation:drilling/glowstone'})
+	event.remove({id:'createoreexcavation:drilling/hardened_diamond'})
+	event.remove({id:'createoreexcavation:drilling/iron'})
+	event.remove({id:'createoreexcavation:drilling/gold'})
+	event.remove({id:'createoreexcavation:drilling/quartz'})
+	event.remove({id:'createoreexcavation:drilling/redstone'})
+	event.remove({id:'createoreexcavation:drilling/zinc'})
 }
 )

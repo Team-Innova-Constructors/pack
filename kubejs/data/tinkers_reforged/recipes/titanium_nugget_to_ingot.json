@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "Y": {
+            "item": "tinkers_reforged:titanium_nugget"
+          }
+        },
+        "pattern": [
+          "YYY",
+          "YYY",
+          "YYY"
+        ],
+        "result": {
+          "item": "tinkers_reforged:titanium_ingot"
+        }
+      }
+    }
+  ]
+}

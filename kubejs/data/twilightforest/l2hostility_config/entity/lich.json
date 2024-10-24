@@ -1,0 +1,34 @@
+{
+  "_class": "dev.xkmc.l2hostility.content.config.EntityConfig",
+  "list": [
+    {
+      "blacklist": [
+        "l2hostility:adaptive"
+      ],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 70,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "twilightforest:lich"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 2,
+          "min": 3,
+          "trait": "l2hostility:weakness"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:cursed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "_class": "dev.xkmc.l2hostility.content.config.WeaponConfig",
+  "armor_enchantments": [
+    {
+      "chance": 0.5,
+      "enchantments": [
+        "minecraft:protection"
+      ],
+      "level": 30
+    },
+    {
+      "chance": 0.2,
+      "enchantments": [
+        "minecraft:projectile_protection",
+        "minecraft:blast_protection",
+        "minecraft:fire_protection",
+        "minecraft:feather_falling"
+      ],
+      "level": 30
+    },
+    {
+      "chance": 0.3,
+      "enchantments": [
+        "minecraft:binding_curse"
+      ],
+      "level": 70
+    }
+  ],
+  "melee_weapons": [
+    {
+      "level": 0,
+      "stack": [
+        {
+          "item": "minecraft:air"
+        }
+      ],
+      "weight": 200
+    },
+    {
+      "level": 30,
+      "stack": [
+        {
+          "item": "minecraft:iron_axe",
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "weight": 100
+    },
+    {
+      "level": 50,
+      "stack": [
+        {
+          "item": "minecraft:diamond_axe",
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:diamond_sword",
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "weight": 100
+    },
+    {
+      "level": 70,
+      "stack": [
+        {
+          "item": "minecraft:netherite_axe",
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:netherite_sword",
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "weight": 100
+    }
+  ],
+  "ranged_weapons": [
+    {
+      "level": 0,
+      "stack": [
+        {
+          "item": "minecraft:air"
+        }
+      ],
+      "weight": 100
+    }
+  ],
+  "weapon_enchantments": [
+    {
+      "chance": 0.5,
+      "enchantments": [
+        "minecraft:sharpness",
+        "minecraft:power"
+      ],
+      "level": 30
+    },
+    {
+      "chance": 0.2,
+      "enchantments": [
+        "minecraft:knockback",
+        "minecraft:punch"
+      ],
+      "level": 40
+    },
+    {
+      "chance": 0.1,
+      "enchantments": [
+        "minecraft:fire_aspect",
+        "minecraft:flame"
+      ],
+      "level": 50
+    }
+  ]
+}

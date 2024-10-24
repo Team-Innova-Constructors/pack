@@ -93,12 +93,13 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, '#forge:ingots/lead','kubejs:atherium_casing')
 
   //数采和电板
-  event.remove([{mod: 'mekanism', output: 'mekanism:digital_miner' }])
   event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
   event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])
   event.remove([{mod: 'mekaevolution', output: 'mekaevolution:absolute_control_circuit' }])
   event.remove([{mod: 'mekaevolution', output: 'mekaevolution:cosmic_control_circuit' }])
   event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
+  event.remove({id:'mekanism:digital_miner'})
+
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
     ' L ',
