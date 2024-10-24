@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-  // 催熟手雷
-  event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:phyto_grenade'}, '#forge:ingots/iron','thermal:rich_slag_block')
   // 机器框架
   event.replaceInput({mod:'thermal',type:'crafting_shaped',output:'thermal:machine_frame'}, '#forge:ingots/iron','etshtinker:hardlead_plate')
   //磨粉机

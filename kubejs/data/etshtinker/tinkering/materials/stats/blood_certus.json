@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 2020
+    },
+    "tconstruct:handle": {
+      "durability": 0.25,
+      "mining_speed": -0.2,
+      "melee_speed": -0.5,
+      "melee_damage": 0.5
+    },
+    "tconstruct:head": {
+      "durability": 330,
+      "mining_speed": 8.0,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 1.25
+    }
+  }
+}

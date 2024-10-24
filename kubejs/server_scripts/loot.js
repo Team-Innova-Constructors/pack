@@ -6,5 +6,5 @@ LootJS.modifiers(event => {
     event.addLootTypeModifier(LootType.CHEST)
         .anyStructure(["#minecraft:village"], false)
         .addLoot(LootEntry.of("immersiveengineering:treated_wood_horizontal")
-        .when((c) => c.randomChance(0.5)));
+        .when((c) => c.randomChance(0.75)));
 })
