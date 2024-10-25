@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "kubejs:pyrocrystal_ore"
+              "name": "kubejs:ionized_slag"
             },
             {
               "type": "minecraft:item",

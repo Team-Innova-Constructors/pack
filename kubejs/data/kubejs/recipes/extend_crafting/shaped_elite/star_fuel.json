@@ -1,0 +1,47 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " ABBBA ",
+    "ACDDDCA",
+    "EDFGFDE",
+    "EDHIHDE",
+    "EDFGFDE",
+    "ACDDDCA",
+    " ABBBA "
+  ],
+  "key": {
+    "A": {
+      "type": "forge:nbt",
+      "item": "immersiveengineering:graphite_electrode",
+      "count": 1,
+      "nbt": "{graphDmg:0}"
+    },
+    "B": {
+      "item": "kubejs:thermite"
+    },
+    "C": {
+      "item": "immersivepetroleum:petcoke_dust"
+    },
+    "D": {
+      "item": "minecraft:blaze_rod"
+    },
+    "E": {
+      "item": "etshtinker:knsu"
+    },
+    "F": {
+      "item": "etshtinker:stable_plasma"
+    },
+    "G": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "H": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "I": {
+      "item": "projecte:aeternalis_fuel_block"
+    }
+  },
+  "result": {
+    "item": "avaritia:star_fuel"
+  }
+}
