@@ -23,4 +23,5 @@ ServerEvents.recipes(event => {
 	event.remove([{id: 'etshtinker:powah/earth_crystal2'}])
 	event.remove([{id: 'etshtinker:powah/earth_crystal3'}])
 	event.remove([{id: 'etshtinker:powah/earth_crystal4'}])
+	event.remove([{id: 'etshtinker:thermal/refinery/overchargedneutronium_refine'}])
 })

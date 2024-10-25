@@ -1,0 +1,30 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:misc",
+    "ingredients": [
+        {
+            "item": "powah:dry_ice",
+            "count": 2
+        },
+        {
+            "item": "biomancy:stone_powder",
+            "count": 5
+        },
+        {
+            "item": "biomancy:bio_lumens",
+            "count": 2
+        },
+        {
+            "item": "biomancy:exotic_dust",
+            "count": 2
+        },
+        {
+            "item": "minecraft:snowball",
+            "count": 4
+        }
+    ],
+    "nutrientsCost": 1,
+    "result": {
+        "item": "thermal:blizz_rod"
+    }
+}
