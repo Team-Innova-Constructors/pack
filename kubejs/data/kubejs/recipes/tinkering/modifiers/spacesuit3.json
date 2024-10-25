@@ -25,9 +25,7 @@
   "tools": {
     "tag": "tconstruct:modifiable/armor/worn"
   },
-  "allow_crystal": true,
+  "allow_crystal": false,
   "result":"cti:space_suit",
-  "level": {
-    "max": 3
-  }
+  "level":3
 }
