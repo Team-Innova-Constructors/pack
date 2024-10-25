@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"tinkers_ingenuity:flying",
+  "level": {
+    "max": 1
+  },
+  "slots": {
+    "abilities": 1
+  }
+}
