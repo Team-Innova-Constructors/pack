@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "cti:frozen_induced",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    }
+  ]
+}
