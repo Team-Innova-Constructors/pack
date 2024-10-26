@@ -47,6 +47,8 @@ ServerEvents.recipes(event => {
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
   	//etshtinker
   	event.remove({id:'etshtinker:thermal/crystalizer/flawless_budding_quartz'})
+	//沉浸
+	event.remove({id:'immersiveengineering:crafting/blastbrick'})
 	//meka套
 	let meka =[
 		'mekanism:mekasuit_helmet',

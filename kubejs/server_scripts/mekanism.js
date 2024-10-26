@@ -99,6 +99,7 @@ ServerEvents.recipes(event => {
   event.remove([{mod: 'mekaevolution', output: 'mekaevolution:cosmic_control_circuit' }])
   event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
   event.remove({id:'mekanism:digital_miner'})
+  event.remove({id:'mekanism:module_gravitational_modulating_unit'})
 
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
@@ -124,6 +125,19 @@ ServerEvents.recipes(event => {
       N: 'mekaevolution:absolute_control_circuit'
     }
   )
+  event.shaped(Item.of('mekanism:module_gravitational_modulating_unit',1), [
+    'ABA',
+    'MNM',
+    'LLL'
+  ],
+  {
+    A: 'mekanism:alloy_atomic',
+    B: 'minecraft:nether_star',
+    M: 'mekanism:basic_induction_cell',
+    N: 'mekanism:module_base',
+    L: 'enigmaticlegacy:etherium_ingot',
+  }
+)
   //精英电板
   event.shaped(Item.of('mekanism:elite_control_circuit',1), [
       ' L ',

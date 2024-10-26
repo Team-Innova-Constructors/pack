@@ -95,11 +95,10 @@ event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of
 
 
 //硫化铁矿
-event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.of('etshtinker:bismuthinite').withChance(0.1)], '{"text": "硫化铁矿"}', 50, 200)
+event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.of('etshtinker:bismuthinite').withChance(0.5)], '{"text": "硫化铁矿"}', 200, 200)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("iron_sulfide");
 
