@@ -1,0 +1,92 @@
+{
+  "default": [
+    {
+      "name": "tinkerscalibration:laceratingtitanium",
+      "level": 2
+    },
+    {
+      "name": "etshtinker:momentoaccel",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:ductile",
+      "level": 2
+    },
+    {
+      "name": "tinkers_ingenuity:laceration",
+      "level": 2
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 2,
+        "name": "tinkers_reforged:malleable"
+      },
+      {
+        "name": "tinkerscalibration:compatible_armor",
+        "level": 2
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 2,
+        "name": "tinkers_reforged:malleable"
+      },
+      {
+        "name": "tinkerscalibration:compatible_armor",
+        "level": 2
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 2
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 2,
+        "name": "tinkers_reforged:malleable"
+      },
+      {
+        "name": "tinkerscalibration:compatible_armor",
+        "level": 2
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 2
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 2,
+        "name": "tinkers_reforged:malleable"
+      },
+      {
+        "name": "tinkerscalibration:compatible_armor",
+        "level": 2
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 2
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 2,
+        "name": "tinkers_reforged:malleable"
+      },
+      {
+        "name": "tinkerscalibration:compatible_armor",
+        "level": 2
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 2
+      }
+    ]
+  }
+}
