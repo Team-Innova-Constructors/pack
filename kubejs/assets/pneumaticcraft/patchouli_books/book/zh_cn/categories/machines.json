@@ -1,0 +1,6 @@
+{
+  "name": "机器",
+  "description": "机器和其它功能性物品，大部分都需要消耗 $(l:base_concepts/pressure)pressure/$ 。",
+  "icon": "pneumaticcraft:vortex_tube",
+  "sortnum": 5
+}

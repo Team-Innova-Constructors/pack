@@ -1,0 +1,6 @@
+{
+  "name": "准方块",
+  "description": "$(thing)Semiblocks/$ 是一些可以放在方块上的小挂件，它们不是方块，但是能像方块一样被放置，并且两个准方块不能被放置在相同的位置。$(p)See also $(l:logistics/frames)Logistics Frames/$ 这些实际上也是准方块。",
+  "icon": "pneumaticcraft:transfer_gadget",
+  "sortnum": 7
+}

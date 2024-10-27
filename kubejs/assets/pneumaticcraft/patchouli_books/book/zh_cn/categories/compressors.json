@@ -1,0 +1,6 @@
+{
+  "name": "压缩机",
+  "description": "压缩机是一类通过压缩空气产生 $(l:base_concepts/pressure)pressure/$ 的装置。它们相当于 $(pncr) 的发电机。",
+  "icon": "pneumaticcraft:air_compressor",
+  "sortnum": 1
+}

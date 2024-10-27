@@ -1,0 +1,6 @@
+{
+  "name": "无人机编程",
+  "description": "与 $(l:tools/drone)Drone/$ 编程有关的部分，为无人机编程方面提供了一些帮助。",
+  "icon": "pneumaticcraft:programmer",
+  "sortnum": 10
+}
