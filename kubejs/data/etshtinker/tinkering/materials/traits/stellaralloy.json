@@ -1,0 +1,28 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:masseffect",
+      "level": 1
+    },
+    {
+      "name": "cti:stellar_blessing",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:gravitymanipulate",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:stellarblessing",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:reactiveexplosivearmor",
+        "level": 1
+      }
+    ]
+  }
+}

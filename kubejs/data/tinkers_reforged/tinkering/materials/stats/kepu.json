@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:grip": {
+      "accuracy": 0.2,
+      "durability": 1.0,
+      "melee_damage": 1.0
+    },
+    "tconstruct:handle": {
+      "durability": 0.7,
+      "melee_damage": 0.2,
+      "melee_speed": 0.7,
+      "mining_speed": 0.2
+    },
+    "tconstruct:head": {
+      "durability": 333,
+      "melee_attack": 6.9,
+      "mining_speed": 6.0,
+      "mining_tier": "tinkers_reforged:kepu"
+    },
+    "tconstruct:limb": {
+      "accuracy": 0.2,
+      "draw_speed": 0.15,
+      "durability": 333,
+      "velocity": 0.3
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_boots": {
+      "armor": 6.0,
+      "durability": 576,
+      "knockback_resistance": 0.5
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 7.0,
+      "durability": 677,
+      "knockback_resistance": 0.5
+    },
+    "tconstruct:plating_helmet": {
+      "armor": 7.0,
+      "durability": 677,
+      "knockback_resistance": 0.5
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 6.0,
+      "durability": 576,
+      "knockback_resistance": 0.5
+    },
+    "tconstruct:plating_shield": {
+      "durability": 576,
+      "knockback_resistance": 0.5
+    }
+  }
+}

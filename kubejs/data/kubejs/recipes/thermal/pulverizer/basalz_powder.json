@@ -14,7 +14,7 @@
       },
       {
         "item": "thermal:basalz_powder",
-        "chance": 0.1
+        "chance": 0.005
       }
     ],
     "experience": 0.2
