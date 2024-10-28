@@ -158,5 +158,15 @@ event.recipes.createoreexcavation.drilling([Item.of('immersiveengineering:raw_al
 .alwaysInfinite()
 .stress(256)
 .id("al");
+
+
+//硫化镍矿
+event.recipes.createoreexcavation.drilling([Item.of('thermal:sulfur_dust').withChance(0.3), Item.of('thermal:raw_tin'),Item.of('thermal:raw_nickel')], '{"text": "硫化镍矿"}', 50, 400)
+.drill('#createoreexcavation:second_createore_drill')
+.fluid('minecraft:lava')
+.biomeWhitelist('minecraft:is_overworld')
+.alwaysInfinite()
+.stress(256)
+.id("surfur_nickel");
 },
 );

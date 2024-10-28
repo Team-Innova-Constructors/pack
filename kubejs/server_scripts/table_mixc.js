@@ -76,5 +76,21 @@ ServerEvents.recipes(event => {
    ]
    )
 
+   //通用压印模板
+   event.shaped(Item.of('kubejs:universal_press', 1), [
+      'BAB',
+      'CDE',
+      'BFB'
+   ],
+      {
+         A: 'ae2:silicon_press',
+         B: 'ae2:fluix_pearl',
+         C: 'ae2:engineering_processor_press',
+         D: 'ae2:singularity',
+         E: 'ae2:logic_processor_press',
+         F: 'ae2:calculation_processor_press',
+      }
+   )
+
 
 })

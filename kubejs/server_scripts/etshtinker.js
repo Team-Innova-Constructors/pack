@@ -1,10 +1,6 @@
 ServerEvents.recipes(event => {
   	// 铋三氧化硫
   	event.replaceInput({mod:'etshtinker',type:'create:mixing',output:'etshtinker:bismuth_ingot'}, 'create:zinc_nugget','createaddition:biomass')
-  	//悚怖钢
-	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
-  	//血肉重铸
-	event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
   	//硫化橡胶熔炉配方
 	event.remove({ id: 'thermal:smelting/cured_rubber_from_smelting' })
 
