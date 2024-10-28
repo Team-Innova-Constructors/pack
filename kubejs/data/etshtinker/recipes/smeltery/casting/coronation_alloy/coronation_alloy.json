@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "etshtinker:stellaralloy"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "etshtinker:annihilating_plasma",
+    "amount": 1000
+  },
+  "result": "etshtinker:coronation_alloy",
+  "cooling_time": 1
+}

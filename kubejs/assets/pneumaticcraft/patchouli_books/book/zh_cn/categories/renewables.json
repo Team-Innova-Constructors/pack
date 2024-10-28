@@ -1,0 +1,6 @@
+{
+  "name": "可再生资源",
+  "description": "$(pncr) 提供了一系列可再生的资源获取，比如生物柴油。",
+  "icon": "pneumaticcraft:biodiesel_bucket",
+  "sortnum": 11
+}

@@ -1,0 +1,42 @@
+{
+  "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 100000
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 1,
+      "criticalrate": 1,
+      "fluidefficiency": 1,
+      "slash_color": 4
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 100,
+      "plasmarange": 100,
+      "damagemultiplier": 10
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 1,
+      "mining_speed": 1,
+      "melee_speed": 1,
+      "melee_damage": 1
+    },
+    "tconstruct:head": {
+      "durability": 1000,
+      "mining_speed": 10.0,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 10
+    },
+    "tconstruct:limb": {
+      "durability": 1000,
+      "draw_speed": 1,
+      "velocity": 10,
+      "accuracy": 1
+    },
+    "tconstruct:grip": {
+      "durability": 1,
+      "accuracy": 1,
+      "melee_damage": 10
+    }
+  }
+}

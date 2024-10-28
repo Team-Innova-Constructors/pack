@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "etshtinker:molten_stellaralloy",
+      "amount": 90
+    },
+    {
+      "name": "ad_astra:cryo_fuel",
+      "amount": 50000
+    }
+  ],
+  "result": {
+    "fluid": "etshtinker:molten_coronation",
+    "amount": 90
+  },
+  "temperature": 4750
+}

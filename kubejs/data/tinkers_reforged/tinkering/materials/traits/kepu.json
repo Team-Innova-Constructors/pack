@@ -1,0 +1,64 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tinkers_reforged:draconic"
+    },
+    {
+      "level": 1,
+      "name": "cti:dragons_wifu"
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:draconic"
+      },
+      {
+        "level": 1,
+        "name": "cti:armor_dragons_wifu"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:draconic"
+      },
+      {
+        "level": 1,
+        "name": "cti:armor_dragons_wifu"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:draconic"
+      },
+      {
+        "level": 1,
+        "name": "cti:armor_dragons_wifu"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:draconic"
+      },
+      {
+        "level": 1,
+        "name": "cti:armor_dragons_wifu"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:draconic"
+      },
+      {
+        "level": 1,
+        "name": "cti:armor_dragons_wifu"
+      }
+    ]
+  }
+}

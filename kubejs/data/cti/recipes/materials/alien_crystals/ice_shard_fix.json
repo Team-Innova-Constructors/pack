@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "kubejs:gas_hydrate"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "cti:ice_shard"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "生产",
+  "description": "$(pncr) 中用于生产组件、资源的设备和系统。",
+  "icon": "pneumaticcraft:assembly_controller",
+  "sortnum": 3
+}

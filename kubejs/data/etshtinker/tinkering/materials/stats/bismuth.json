@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 5000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 75,
+      "plasmarange": 30,
+      "damagemultiplier": 2.6
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": -0.3,
+      "mining_speed": 0.7,
+      "melee_speed": -0.3,
+      "melee_damage": 0.7
+    },
+    "tconstruct:head": {
+      "durability": 790,
+      "mining_speed": 4,
+      "mining_tier": "minecraft:iron",
+      "melee_attack": 2.5
+    },
+    "tconstruct:limb": {
+      "durability": 770,
+      "draw_speed": -0.1,
+      "velocity": 0.15,
+      "accuracy": 0.15
+    },
+    "tconstruct:grip": {
+      "durability": -0.2,
+      "accuracy": 0.25,
+      "melee_damage": 2
+    }
+  }
+}

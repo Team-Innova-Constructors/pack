@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 99000,
+      "durability": 0.7
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 36,
+      "cooldown": 8
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.7,
+      "melee_damage": 0.9,
+      "melee_speed": 0.2,
+      "mining_speed": 0.5
+    },
+    "tconstruct:head": {
+      "durability": 2768,
+      "melee_attack": 6.5,
+      "mining_speed": 9.5,
+      "mining_tier": "minecraft:netherite"
+    }
+  }
+}

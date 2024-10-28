@@ -1,0 +1,33 @@
+{
+  "name": "Omnidirectional Hopper",
+  "icon": "pneumaticcraft:omnidirectional_hopper",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The $(item)Omnidirectional Hopper/$ behaves rather like the vanilla $(item)Hopper/$. However, this Hopper can be oriented in $(italic)any/$ direction, not just up. On top of that, it accepts $(l:base_concepts/upgrades)Upgrades/$, which can be used to speed up the Hopper considerably. It doesn't use $(l:base_concepts/pressure)air/$, so it's a very useful early game device."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:omnidirectional_hopper",
+      "text": "When you place the Hopper, its $(9)input/$ will face toward you, and its $(6)output/$ will face toward the block it was placed against.$(p)$(thing)Right-click/$ the Hopper with a $(l:tools/pneumatic_wrench)Pneumatic Wrench/$ (other wrenches may also work) to re-orient its input. $(thing)Sneak+right-click/$ the Hopper to re-orient its output."
+    },
+    {
+      "type": "text",
+      "title": "Dispenser Upgrade",
+      "flag": "pneumaticcraft:omniHopperDispenser",
+      "text": "If a $(l:base_concepts/upgrades#dispenser)Dispenser Upgrade/$ is installed, the hopper will automatically eject items into the world at the $(6)output/$ side (if there's no inventory there).$(p)This can be used as a greatly improved $(item)Dropper/$: faster, more accurate, and better $(#f00)redstone control/$."
+    },
+    {
+      "type": "text",
+      "title": "Entity Tracker Upgrade",
+      "text": "If an $(l:base_concepts/upgrades#entity_tracker)Entity Tracker Upgrade/$ is installed, the hopper will be able to extract items from entities in front of its $(9)input/$ side. Entities can be blacklisted from such extraction by adding them to the $(thing)pneumaticcraft:omnihopper_blacklisted/$ entity type tag; Villagers are blacklisted by default since they can become an infinite source of items."
+    },
+    {
+      "type": "crafting",
+      "text": "Crafting an Omnidirectional Hopper",
+      "recipe": "pneumaticcraft:omnidirectional_hopper"
+    }
+  ]
+}

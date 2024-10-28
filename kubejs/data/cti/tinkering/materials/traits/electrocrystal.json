@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "cti:ionize_induced",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    }
+  ]
+}

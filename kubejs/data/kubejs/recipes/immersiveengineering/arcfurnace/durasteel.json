@@ -1,0 +1,33 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "item": "tinkerscalibration:lindsteel_ingot"
+    },
+    {
+      "item": "tinkerscalibration:steamium_ingot"
+    },
+    {
+      "item": "tinkers_reforged:duralumin_ingot"
+    },
+    {
+      "item": "tinkerscalibration:titanium_ingot"
+    }
+  ],
+  "energy": 1024000,
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:ingots/steel"
+    },
+    "count": 2
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "item": "tinkers_reforged:durasteel_ingot"
+      },
+      "count": 6
+    }
+  ],
+  "time": 256
+}

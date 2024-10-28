@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 85000,
+      "durability": 2.25
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 24,
+      "cooldown": 5
+    },
+    "tconstruct:grip": {
+      "accuracy": 1,
+      "durability": 1.5,
+      "melee_damage": 7.5
+    },
+    "tconstruct:handle": {
+      "durability": 2.25,
+      "melee_damage": 1.8,
+      "melee_speed": -0.6,
+      "mining_speed": -0.6
+    },
+    "tconstruct:head": {
+      "durability": 3370,
+      "melee_attack": 7.5,
+      "mining_speed": 1.5,
+      "mining_tier": "minecraft:netherite"
+    },
+    "tconstruct:limb": {
+      "accuracy": 1,
+      "draw_speed": -0.5,
+      "durability": 3370,
+      "velocity": 0.99
+    }
+  }
+}

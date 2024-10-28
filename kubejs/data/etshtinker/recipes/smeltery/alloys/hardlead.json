@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "etshtinker:molten_bismuth",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_lead",
+      "amount": 180
+    }
+  ],
+  "result": {
+    "fluid": "etshtinker:molten_hardlead",
+    "amount": 270
+  },
+  "temperature": 1000
+}
