@@ -49,6 +49,10 @@ ServerEvents.recipes(event => {
   	event.remove({id:'etshtinker:thermal/crystalizer/flawless_budding_quartz'})
 	//沉浸
 	event.remove({id:'immersiveengineering:crafting/blastbrick'})
+	//杂七杂八
+	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
+    event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
+
 	//meka套
 	let meka =[
 		'mekanism:mekasuit_helmet',
