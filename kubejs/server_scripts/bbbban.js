@@ -52,6 +52,7 @@ ServerEvents.recipes(event => {
 	//杂七杂八
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
     event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
+	event.remove({id:'projecte:dark_matter'})
 
 	//meka套
 	let meka =[
@@ -111,5 +112,8 @@ ServerEvents.recipes(event => {
 	event.remove({id:'createoreexcavation:drilling/quartz'})
 	event.remove({id:'createoreexcavation:drilling/redstone'})
 	event.remove({id:'createoreexcavation:drilling/zinc'})
+	//循环
+	event.remove({id:'cyclic:soulstone'})
+	event.remove({id:'cyclic:soulstone'})
 }
 )
