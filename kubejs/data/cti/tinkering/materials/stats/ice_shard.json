@@ -6,7 +6,7 @@
     },
     "tinkers_ingenuity:laser_medium": {
       "laser_range": 30,
-      "cooldown": 30
+      "cooldown": 1.5
     },
     "tconstruct:binding": {},
     "tconstruct:grip": {
