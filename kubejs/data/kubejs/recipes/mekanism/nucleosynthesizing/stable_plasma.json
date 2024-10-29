@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 120,
+  "gasInput": {
+    "amount": 1000,
+    "gas": "cti:fission_plasma"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:particle_container"
+    }
+  },
+  "output": {
+    "item": "etshtinker:stable_plasma"
+  }
+}
