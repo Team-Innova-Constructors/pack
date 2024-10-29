@@ -44,6 +44,14 @@ ServerEvents.tags('item', event => {
     //钻头标签
     event.add('createoreexcavation:second_createore_drill','createoreexcavation:diamond_drill')
     event.add('createoreexcavation:second_createore_drill','createoreexcavation:netherite_drill')
+    //通用模板
+    event.add('thermal:crafting/dies', 'kubejs:universal_press')
+    //饰品标签
+    event.remove('curios:charm', 'l2hostility:curse_of_greed')
+    event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_1')
+    event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_2')
+    event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_3')
+    event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_4')
 
 })
 //添加方块标签
@@ -59,6 +67,10 @@ ServerEvents.tags('block', event => {
     event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
     event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
     event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
+
+    event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
+    event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
+
 
 
 

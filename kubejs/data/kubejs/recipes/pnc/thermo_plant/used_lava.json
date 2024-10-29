@@ -8,10 +8,10 @@
       "fluid": "kubejs:dense_lava"
     },
     "item_input": {
-      "tag": "forge:dusts"
+      "tag": "forge:slag"
     },
     "item_output": {
-      "count": 4,
+      "count": 2,
       "item": "kubejs:dense_slag"
     },
     "fluid_output":{

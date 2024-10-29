@@ -8,7 +8,7 @@
       "fluid": "biomancy:acid"
     },
     "item_input": {
-      "tag": "forge:normal_stone"
+      "tag": "tconstruct:workstation_rock"
     },
     "fluid_output":{
       "amount": 1000,
