@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 2147483647,
+  "powerRate": 2147483647,
+  "input": {
+    "item": "etshtinker:os_induced_netherstarshard"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:ingots/electrum"
+    },
+    {
+      "tag": "forge:ingots/constantan"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/rose_gold"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    }
+  ],
+  "result": {
+    "item": "extendedcrafting:flux_star"
+  }
+}
