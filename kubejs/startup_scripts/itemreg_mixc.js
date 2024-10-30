@@ -22,6 +22,7 @@ StartupEvents.registry("item",event=>{
     event.create("unfinished_advanced_output_augment","basic")
     event.create("unfinished_advanced_speed_augment","basic")
     event.create("universal_press","basic")
+    event.create("phytogro_zero","basic")
 
 
     event.create("dense_slag","basic")

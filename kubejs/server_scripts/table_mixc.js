@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
       'BAB'
    ],
       {
-         B: '#forge:dusts/ender_pearl',
+         B: 'thermal:enderium_dust',
          A: 'ae2:singularity',
       }
    )
