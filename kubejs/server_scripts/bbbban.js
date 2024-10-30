@@ -98,6 +98,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'l2hostility:book_of_omniscience'})
 	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
 	event.remove({id:'megacells:inscriber/bulk_cell_component'})
+	event.remove({id:'thermal:fuels/compression/creosote'})
 
 	//移除原有矿脉
 	let coe =[
