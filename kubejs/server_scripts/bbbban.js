@@ -151,5 +151,23 @@ ServerEvents.recipes(event => {
       'cyclic:wand_hypno'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
+    //堆
+	let pile =[
+		'lightmanscurrency:coinpile_copper',
+		'lightmanscurrency:coinpile_iron',
+		'lightmanscurrency:coinpile_gold',
+		'lightmanscurrency:coinpile_emerald',
+		'lightmanscurrency:coinpile_diamond',
+		'lightmanscurrency:coinpile_netherite',
+		'lightmanscurrency:coinblock_copper',
+		'lightmanscurrency:coinblock_iron',
+		'lightmanscurrency:coinblock_gold',
+		'lightmanscurrency:coinblock_emerald',
+		'lightmanscurrency:coinblock_diamond',
+		'lightmanscurrency:coinblock_netherite'
+	]
+	for (let i of pile){
+		event.remove([{ mod : 'lightmanscurrency' , output: `${i}` }])
+	}
 }
 )
