@@ -11,7 +11,7 @@
       },
       {
         "item": "kubejs:stable_slag",
-        "chance": 8
+        "chance": 4
       }
     ],
     "energy": 16000

@@ -93,4 +93,17 @@ ServerEvents.recipes(event => {
    )
 
 
+   event.shaped(Item.of('projecte:dark_matter', 1), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         A: 'kubejs:dust_mana',
+         B: 'projecte:aeternalis_fuel',
+         C: 'minecraft:diamond_block',
+      }
+   )
+
+
 })

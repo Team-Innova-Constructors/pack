@@ -10,11 +10,11 @@
       },
       {
         "item": "minecraft:coal",
-        "chance": 18.5
+        "chance": 8.5
       },
       {
         "item": "thermal:raw_nickel",
-        "chance": 3.9
+        "chance": 2.9
       },
       {
         "item": "thermal:sulfur_dust",

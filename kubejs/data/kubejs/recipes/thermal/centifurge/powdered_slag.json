@@ -6,7 +6,7 @@
     "result": [
       {
         "item": "minecraft:redstone",
-        "chance": 8.7
+        "chance": 10.7
       },
       {
         "item": "minecraft:glowstone_dust",
@@ -18,7 +18,7 @@
       },
       {
         "item": "ae2:certus_quartz_dust",
-        "chance": 14.5
+        "chance": 2.5
       }
     ],
     "energy": 2000

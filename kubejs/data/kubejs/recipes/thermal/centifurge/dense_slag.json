@@ -6,15 +6,15 @@
     "result": [
       {
         "item": "thermal:gold_dust",
-        "chance":3.35
+        "chance":1.35
       },
       {
         "item": "thermal:silver_dust",
-        "chance":3.35
+        "chance":2.35
       },
       {
         "item": "mekanism:dust_osmium",
-        "chance":6.35
+        "chance":3.35
       },
       {
         "item": "mekanism:dust_uranium",
