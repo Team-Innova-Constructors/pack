@@ -104,6 +104,40 @@ ServerEvents.recipes(event => {
          C: 'minecraft:diamond_block',
       }
    )
+   //插件
+   event.shaped(Item.of('cti:upgrade_electronium', 1), [
+      'A A',
+      ' C ',
+      ' B '
+   ],
+      {
+         A: '#forge:ingots/tungsten',
+         B: 'pneumaticcraft:printed_circuit_board',
+         C: 'etshtinker:electronium',
+      }
+   )
+   event.shaped(Item.of('cti:upgrade_aetherium', 1), [
+      'A A',
+      'BCB',
+      'A A'
+   ],
+      {
+         A: 'kubejs:atherium_alloy',
+         C: 'kubejs:aetherium_core',
+         B: 'mekanism:supercharged_coil',
+      }
+   )
+   event.shaped(Item.of('cti:upgrade_violium', 1), [
+      ' B ',
+      'BCB',
+      ' A '
+   ],
+      {
+         B: 'kubejs:violium_alloy',
+         A: 'kubejs:violium_core',
+         C: 'powah:capacitor_nitro',
+      }
+   )
 
 
 })

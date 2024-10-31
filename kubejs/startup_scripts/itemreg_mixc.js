@@ -41,6 +41,8 @@ StartupEvents.registry("item",event=>{
     event.create("core_harden","basic")
     event.create("core_nether","basic")
 
+    event.create("aetherium_core","basic")
+    event.create("violium_core","basic")
 
     event.create("dust_mana","basic")
     event.create("dust_cryotheum","basic")

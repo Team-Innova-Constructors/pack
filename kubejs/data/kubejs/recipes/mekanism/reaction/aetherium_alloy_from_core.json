@@ -1,0 +1,25 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 5,
+    "fluidInput": {
+      "amount": 1000,
+      "fluid": "mekanism:hydrogen"
+    },
+    "gasInput": {
+      "amount": 10,
+      "gas": "mekanism:polonium"
+    },
+    "gasOutput": {
+      "amount": 1000,
+      "gas": "mekanismgenerators:fusion_fuel"
+    },
+    "itemInput": {
+      "ingredient": {
+        "item": "kubejs:aetherium_core"
+      }
+    },
+    "itemOutput": {
+      "count": 64,
+      "item": "kubejs:atherium_alloy"
+    }
+  }
