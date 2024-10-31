@@ -6,14 +6,14 @@
       }
     },
     "mainInput": {
-      "amount": 4,
+      "amount": 2,
       "ingredient": {
         "tag": "forge:ingots/steel"
       }
     },
     "output": {
       "item": "kubejs:violium_alloy",
-      "count": 4
+      "count": 1
     }
   }
   

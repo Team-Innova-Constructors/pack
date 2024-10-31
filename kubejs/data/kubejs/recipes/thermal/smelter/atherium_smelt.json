@@ -7,17 +7,17 @@
         },
         {
           "item": "kubejs:zirconium_alloy",
-          "count":4
+          "count":8
         },
         {
           "item": "kubejs:violium_alloy",
-          "count":4
+          "count":16
         }
     ],
     "result": [
       {
         "item": "kubejs:atherium_alloy",
-        "chance": 6
+        "chance": 12
       }
     ],
     "experience": 2
