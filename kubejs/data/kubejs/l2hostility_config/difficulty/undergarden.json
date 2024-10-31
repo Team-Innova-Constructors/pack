@@ -4,8 +4,8 @@
     "levelMap": {
       "undergarden:undergarden": {
         "apply_chance": 1.0,
-        "base": 150,
-        "min": 150,
+        "base": 1000,
+        "min": 500,
         "scale": 1.1,
         "trait_chance": 0.6,
         "variation": 4.0

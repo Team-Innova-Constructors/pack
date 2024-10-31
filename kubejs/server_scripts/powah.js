@@ -235,6 +235,7 @@ ServerEvents.recipes(event => {
     ]
     for (let i of pannel) {event.remove({id:`${i}`})}
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",100000)
+    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',50000)
     event.recipes.powah.energizing(['botania:mana_powder','etshtinker:os_induced_netherstarshard','botania:mana_powder'], 'kubejs:dust_mana',300000)
     event.recipes.powah.energizing(["tinkerscalibration:spinel","tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),10000)
 
@@ -244,7 +245,7 @@ PowahEvents.registerHeatSource(event => {
 	event.add('etshtinker:meteoralloy_block', 6000);
 })
 PowahEvents.registerCoolants(event => {
-	event.addFluid("kubejs:fluid_cryotheum", -107);
+	event.addFluid("kubejs:fluid_cryotheum", -127);
 })
 PowahEvents.registerMagmaticFluid(event => {
 })

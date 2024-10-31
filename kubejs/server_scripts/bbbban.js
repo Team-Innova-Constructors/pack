@@ -98,22 +98,61 @@ ServerEvents.recipes(event => {
 	event.remove({id:'l2hostility:book_of_omniscience'})
 	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
 	event.remove({id:'megacells:inscriber/bulk_cell_component'})
+	event.remove({id:'thermal:fuels/compression/creosote'})
 
 	//移除原有矿脉
-	event.remove({id:'createoreexcavation:extractor/water'})
-	event.remove({id:'createoreexcavation:drilling/coal'})
-	event.remove({id:'createoreexcavation:drilling/copper'})
-	event.remove({id:'createoreexcavation:drilling/diamond'})
-	event.remove({id:'createoreexcavation:drilling/emerald'})
-	event.remove({id:'createoreexcavation:drilling/glowstone'})
-	event.remove({id:'createoreexcavation:drilling/hardened_diamond'})
-	event.remove({id:'createoreexcavation:drilling/iron'})
-	event.remove({id:'createoreexcavation:drilling/gold'})
-	event.remove({id:'createoreexcavation:drilling/quartz'})
-	event.remove({id:'createoreexcavation:drilling/redstone'})
-	event.remove({id:'createoreexcavation:drilling/zinc'})
-
-	//堆
+	let coe =[
+	'createoreexcavation:extractor/water',
+	'createoreexcavation:drilling/coal',
+	'createoreexcavation:drilling/copper',
+	'createoreexcavation:drilling/diamond',
+	'createoreexcavation:drilling/emerald',
+	'createoreexcavation:drilling/glowstone',
+	'createoreexcavation:drilling/hardened_diamond',
+	'createoreexcavation:drilling/iron',
+	'createoreexcavation:drilling/gold',
+	'createoreexcavation:drilling/quartz',
+	'createoreexcavation:drilling/redstone',
+	'createoreexcavation:drilling/zinc',
+	]
+	for (let i of coe) {event.remove({id:`${i}`})}
+	//莱特兰附魔书
+	let l2enchantbook =[
+	'l2complements:enchantments/projectile_reject',
+	'l2complements:enchantments/fire_reject',
+	'l2complements:enchantments/environment_reject',
+	'l2complements:enchantments/explosion_reject',
+	'l2complements:enchantments/magic_reject',
+	'l2complements:enchantments/invincible',
+	'l2complements:enchantments/void_touch',
+	]
+	for (let i of l2enchantbook) {event.remove({id:`${i}`})}
+	//循环
+	let cyclics =[
+      'cyclic:soulstone',
+      'cyclic:crafter',
+      'cyclic:sprinkler',
+      'cyclic:terra_glass',
+      'cyclic:quiver_damage',
+      'cyclic:charm_attack_speed',
+      'cyclic:solidifier/solidifier_obsflower',
+      'cyclic:apple_sprout_diamond',
+      'cyclic:heart',
+      'cyclic:magic_net_alt',
+      'cyclic:magic_net',
+      'cyclic:offset_scepter',
+      'cyclic:solidifier/solidifier_obs_legacy',
+      'cyclic:peace_candle',
+      'cyclic:water_candle',
+      'cyclic:teleport',
+      'cyclic:build_scepter',
+      'cyclic:replace_scepter',
+      'cyclic:workbench',
+      'cyclic:wand_missile',
+      'cyclic:wand_hypno'
+    ]
+    for (let i of cyclics) {event.remove({id:`${i}`})}
+    //堆
 	let pile =[
 		'lightmanscurrency:coinpile_copper',
 		'lightmanscurrency:coinpile_iron',
@@ -131,8 +170,5 @@ ServerEvents.recipes(event => {
 	for (let i of pile){
 		event.remove([{ mod : 'lightmanscurrency' , output: `${i}` }])
 	}
-	//循环
-	event.remove({id:'cyclic:soulstone'})
-	event.remove({id:'cyclic:soulstone'})
 }
 )

@@ -2,7 +2,6 @@ ServerEvents.recipes(event => {
   // 机器框架
   event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:ingots/iron', 'etshtinker:hardlead_plate')
   //磨粉机
-  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(3.5), 'createoreexcavation:raw_diamond').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(3.5), 'createoreexcavation:raw_emerald').energy(1000)
@@ -29,6 +28,18 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(100000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(200000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_petrotheum', 250), 'kubejs:dust_petrotheum').energy(100000)
+  //压缩能源炉
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(3200000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(560000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(4900000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(7200000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(6250000)
+  event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
+  event.recipes.thermal.compression_fuel(Fluid.of('solidarytinker:super_dt', 100)).energy(200000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('etshtinker:annihilating_plasma', 100)).energy(200000000)
+  //催化剂
+  event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
   //更多插件
   event.shaped(Item.of('kubejs:unfinished_advanced_speed_augment', 1),
     [
