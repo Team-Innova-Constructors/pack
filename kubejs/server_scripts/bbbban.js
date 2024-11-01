@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
       'cyclic:workbench',
       'cyclic:wand_missile',
       'cyclic:wand_hypno',
-	  'cyclic:uncrafter'
+	  'cyclic:uncrafter',
 	  'cyclic:sleeping_mat'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
