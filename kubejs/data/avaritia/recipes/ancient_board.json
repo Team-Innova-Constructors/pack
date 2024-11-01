@@ -1,0 +1,63 @@
+{
+    "type": "avaritia:shaped_extreme_craft",
+    "category": "misc",
+    "pattern": [
+      "  A A A  ",
+      " BABABAB ",
+      "BCACACACB",
+      "CDCEFGCDC",
+      "DDHIJIKDD",
+      "CDCLIMCDC",
+      "BCNCNCNCB",
+      " BNBNBNB ",
+      "  N N N  "
+    ],
+    "key": {
+      "A": {
+        "item": "kubejs:pyrocrystal"
+      },
+      "B": {
+        "item": "kubejs:ultra_dense_hydride_crystal"
+      },
+      "C": {
+        "item": "cti:unipolar_magnet"
+      },
+      "D": {
+        "item": "etshtinker:energized_sculk_alloy"
+      },
+      "E": {
+        "item": "cataclysm:gauntlet_of_guard"
+      },
+      "F": {
+        "item": "cataclysm:monstrous_horn"
+      },
+      "G": {
+        "item": "cataclysm:tidal_claws"
+      },
+      "H": {
+        "item": "kubejs:aetherium_core"
+      },
+      "I": {
+        "item": "cataclysm:void_stone"
+      },
+      "J": {
+        "item": "cataclysm:witherite_ingot"
+      },
+      "K": {
+        "item": "kubejs:violium_core"
+      },
+      "L": {
+        "item": "cataclysm:ignitium_ingot"
+      },
+      "M": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "N": {
+        "item": "kubejs:electrocrystal"
+      }
+    },
+    "result": {
+      "item": "kubejs:ancient_circuitboard"
+    },
+    "show_notification": false
+  }
