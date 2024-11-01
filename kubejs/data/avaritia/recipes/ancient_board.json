@@ -2,60 +2,66 @@
     "type": "avaritia:shaped_extreme_craft",
     "category": "misc",
     "pattern": [
-      "  A A A  ",
-      " BABABAB ",
-      "BCACACACB",
-      "CDCEFGCDC",
-      "DDHIJIKDD",
-      "CDCLIMCDC",
-      "BCNCNCNCB",
-      " BNBNBNB ",
-      "  N N N  "
-    ],
-    "key": {
-      "A": {
-        "item": "kubejs:pyrocrystal"
-      },
-      "B": {
-        "item": "kubejs:ultra_dense_hydride_crystal"
-      },
-      "C": {
-        "item": "cti:unipolar_magnet"
-      },
-      "D": {
-        "item": "etshtinker:energized_sculk_alloy"
-      },
-      "E": {
-        "item": "cataclysm:gauntlet_of_guard"
-      },
-      "F": {
-        "item": "cataclysm:monstrous_horn"
-      },
-      "G": {
-        "item": "cataclysm:tidal_claws"
-      },
-      "H": {
-        "item": "kubejs:aetherium_core"
-      },
-      "I": {
-        "item": "cataclysm:void_stone"
-      },
-      "J": {
-        "item": "cataclysm:witherite_ingot"
-      },
-      "K": {
-        "item": "kubejs:violium_core"
-      },
-      "L": {
-        "item": "cataclysm:ignitium_ingot"
-      },
-      "M": {
-        "item": "cataclysm:ancient_metal_ingot"
-      },
-      "N": {
-        "item": "kubejs:electrocrystal"
-      }
+    " ABABABA ",
+    "ACBCBCBCA",
+    "CDBDBDBDC",
+    "DEDFGHDED",
+    "EIJKLKMIE",
+    "DEDNKODED",
+    "CDPDPDPDC",
+    "ACPCPCPCA",
+    " APAPAPA "
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:void_stone"
     },
+    "B": {
+      "item": "kubejs:pyrocrystal"
+    },
+    "C": {
+      "item": "kubejs:ultra_dense_hydride_crystal"
+    },
+    "D": {
+      "item": "cti:unipolar_magnet"
+    },
+    "E": {
+      "item": "etshtinker:energized_sculk_alloy"
+    },
+    "F": {
+      "item": "cataclysm:gauntlet_of_guard"
+    },
+    "G": {
+      "item": "cataclysm:monstrous_horn"
+    },
+    "H": {
+      "item": "cataclysm:tidal_claws"
+    },
+    "I": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "J": {
+      "item": "kubejs:aetherium_core"
+    },
+    "K": {
+      "item": "obscure_api:astral_dust"
+    },
+    "L": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "M": {
+      "item": "kubejs:violium_core"
+    },
+    "N": {
+      "item": "cataclysm:the_incinerator"
+    },
+    "O": {
+      "item": "cataclysm:kobolediator_skull"
+    },
+    "P": {
+      "item": "kubejs:electrocrystal"
+    }
+  },
     "result": {
       "item": "kubejs:ancient_circuitboard"
     },
