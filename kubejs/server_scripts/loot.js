@@ -5,10 +5,10 @@ LootJS.modifiers(event => {
 
     event.addLootTypeModifier(LootType.CHEST)
         .anyStructure(["#minecraft:village"], false)
-        .addLoot(LootEntry.of("immersiveengineering:treated_wood_horizontal")
+        .addLoot(LootEntry.of("10x immersiveengineering:treated_wood_horizontal")
         .when((c) => c.randomChance(0.75)));
      event.addLootTypeModifier(LootType.CHEST)
         .anyStructure(["#minecraft:village"], false)
-        .addLoot(LootEntry.of('lightmanscurrency:coin_gold')
+        .addLoot(LootEntry.of('3x lightmanscurrency:coin_gold')
         .when((c) => c.randomChance(0.75)));
 })

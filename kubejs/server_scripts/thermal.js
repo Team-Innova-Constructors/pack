@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
   // 机器框架
   event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:ingots/iron', 'etshtinker:hardlead_plate')
+  event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:gears/tin', '#forge:gears/steel')
   //磨粉机
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(3.5), 'createoreexcavation:raw_diamond').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
@@ -13,11 +14,12 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.press('8x ae2:printed_engineering_processor', ['8x #forge:gems/diamond', 'kubejs:universal_press']).energy(100)
   event.recipes.thermal.press('8x ae2:printed_logic_processor', ['8x #forge:ingots/gold', 'kubejs:universal_press']).energy(100)
   //罐装机器
+  event.recipes.thermal.bottler('immersiveengineering:treated_wood_horizontal', ['#minecraft:planks', Fluid.of('immersiveengineering:creosote',125)]).energy(400)
   event.recipes.thermal.bottler('cti:advanced_dyano_augment', ['kubejs:unfinished_advanced_dyano_augment', Fluid.of('kubejs:fluid_pyrotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler('cti:advanced_output_augment', ['kubejs:unfinished_advanced_output_augment', Fluid.of('kubejs:fluid_petrotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler('cti:advanced_speed_augment', ['kubejs:unfinished_advanced_speed_augment', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
   //精炼机
-  event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10), Fluid.of('etshtinker:overchargedneutronium', 100)], Fluid.of('thermal:creosote', 200))
+  event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)],Fluid.of('etshtinker:overchargedneutronium', 100))
   //结晶器
   event.recipes.thermal.crystallizer('2x obscure_api:astral_dust', ['obscure_api:astral_dust', Fluid.of('manaliquidizer:mana_fluid', 16000)]).energy(10000)
   event.recipes.thermal.crystallizer('6x mekanism:fluorite_gem', ['mekanism:fluorite_gem', Fluid.of('kubejs:crystal_growth', 100)]).energy(10000)
