@@ -149,7 +149,8 @@ ServerEvents.recipes(event => {
       'cyclic:replace_scepter',
       'cyclic:workbench',
       'cyclic:wand_missile',
-      'cyclic:wand_hypno'
+      'cyclic:wand_hypno',
+	  'cyclic:uncrafter'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
     //堆
