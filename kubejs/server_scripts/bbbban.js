@@ -151,6 +151,7 @@ ServerEvents.recipes(event => {
       'cyclic:wand_missile',
       'cyclic:wand_hypno',
 	  'cyclic:uncrafter'
+	  'cyclic:sleeping_mat'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
     //堆
