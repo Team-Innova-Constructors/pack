@@ -23,7 +23,9 @@ StartupEvents.registry("item",event=>{
     event.create("unfinished_advanced_speed_augment","basic")
     event.create("universal_press","basic")
     event.create("phytogro_zero","basic")
+    event.create("ancient_circuitboard","basic")
 
+    
 
     event.create("dense_slag","basic")
     event.create("crystal_slag","basic")
@@ -41,6 +43,8 @@ StartupEvents.registry("item",event=>{
     event.create("core_harden","basic")
     event.create("core_nether","basic")
 
+    event.create("aetherium_core","basic")
+    event.create("violium_core","basic")
 
     event.create("dust_mana","basic")
     event.create("dust_cryotheum","basic")

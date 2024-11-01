@@ -1,0 +1,25 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 5,
+    "fluidInput": {
+      "amount": 1000,
+      "fluid": "mekanism:hydrogen"
+    },
+    "gasInput": {
+      "amount": 1,
+      "gas": "mekanism:plutonium"
+    },
+    "gasOutput": {
+      "amount": 1000,
+      "gas": "mekanism:fissile_fuel"
+    },
+    "itemInput": {
+      "ingredient": {
+        "item": "kubejs:violium_core"
+      }
+    },
+    "itemOutput": {
+      "count": 64,
+      "item": "kubejs:violium_alloy"
+    }
+  }

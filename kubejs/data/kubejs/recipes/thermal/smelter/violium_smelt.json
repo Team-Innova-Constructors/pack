@@ -3,15 +3,15 @@
     "ingredient": [
         {
           "item": "etshtinker:ultra_dense",
-          "count":1
+          "count":4
         },
         {
           "item": "kubejs:tungsten_ingot",
-          "count":1
+          "count":2
         },
         {
           "tag": "forge:ingots/steel",
-          "count":6
+          "count":4
         }
     ],
     "result": [

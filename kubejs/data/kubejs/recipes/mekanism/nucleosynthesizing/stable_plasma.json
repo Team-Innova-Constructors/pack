@@ -1,6 +1,6 @@
 {
   "type": "mekanism:nucleosynthesizing",
-  "duration": 120,
+  "duration": 2000,
   "gasInput": {
     "amount": 1000,
     "gas": "cti:fission_plasma"
