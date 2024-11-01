@@ -69,7 +69,7 @@ ServerEvents.recipes(
                     {item: 'kubejs:ancient_circuitboard'}
                 ]
             },
-            result: Item.of('avaritia:neutron_gear',16)
+            result: Item.of('avaritia:neutron_gear',8)
         })
 
         //中子压印板
