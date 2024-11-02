@@ -1,0 +1,24 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "fluidInput": {
+    "amount": 540,
+    "fluid": "etshtinker:overchargedneutronium"
+  },
+  "gasInput": {
+    "amount": 100,
+    "gas": "mekanism:hydrogen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "gasOutput": {
+    "amount": 150,
+    "gas": "mekanism:hydrogen"
+  },
+  "itemOutput": {
+    "item": "etshtinker:electronium"
+  }
+}
