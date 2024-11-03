@@ -20,6 +20,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.bottler('cti:advanced_speed_augment', ['kubejs:unfinished_advanced_speed_augment', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
   //精炼机
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)],Fluid.of('etshtinker:overchargedneutronium', 100))
+  event.recipes.thermal.refinery([Item.of('thermal:sulfur_dust').withChance(1.25), Fluid.of('thermal:refined_fuel',100)],Fluid.of('thermal:light_oil', 100))
+  event.recipes.thermal.refinery([Item.of('thermal:tar').withChance(1.25), Fluid.of('thermal:refined_fuel',100)],Fluid.of('thermal:heavy_oil', 100))
+  event.recipes.thermal.refinery([Item.of('thermal:bitumen').withChance(0.1), Fluid.of('thermal:light_oil',50),Fluid.of('thermal:heavy_oil',50)],Fluid.of('thermal:crude_oil',100))
   //结晶器
   event.recipes.thermal.crystallizer('2x obscure_api:astral_dust', ['obscure_api:astral_dust', Fluid.of('manaliquidizer:mana_fluid', 16000)]).energy(10000)
   event.recipes.thermal.crystallizer('6x mekanism:fluorite_gem', ['mekanism:fluorite_gem', Fluid.of('kubejs:crystal_growth', 100)]).energy(10000)
@@ -39,6 +42,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
   event.recipes.thermal.compression_fuel(Fluid.of('solidarytinker:super_dt', 100)).energy(200000000)
   event.recipes.thermal.compression_fuel(Fluid.of('etshtinker:annihilating_plasma', 100)).energy(200000000)
+  //冷冻机
+  event.recipes.thermal.chiller(Item.of('thermal:rubber'),Fluid.of('thermal:latex',250)).energy(800)
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
