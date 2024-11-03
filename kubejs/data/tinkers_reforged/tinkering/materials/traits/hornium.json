@@ -1,0 +1,40 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "cti:eros"
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "cti:breeding"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 1,
+        "name": "cti:breeding"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 1,
+        "name": "cti:breeding"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 1,
+        "name": "cti:breeding"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 1,
+        "name": "cti:breeding"
+      }
+    ]
+  }
+}
