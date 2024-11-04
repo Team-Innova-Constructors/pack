@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(3.5), 'createoreexcavation:raw_emerald').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:amethyst_shard').withChance(6.5), 'minecraft:amethyst_cluster').energy(1000)
+  event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(2.1), Item.of('create:experience_nugget').withChance(0.6)], 'etshtinker:bismuthinite_ore_deepslate').energy(10000)
   //冲压机
   event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(100)
   event.recipes.thermal.press('kubejs:universal_press', ['#forge:storage_blocks/iron', 'kubejs:universal_press']).energy(100)
