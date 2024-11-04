@@ -102,6 +102,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'thermal:machines/refinery/refinery_heavy_oil'})
 	event.remove({id:'thermal:machines/refinery/refinery_light_oil'})
 	event.remove({id:'thermal:machines/refinery/refinery_crude_oil'})
+	event.remove({id:'etshtinker:immersiveengineering/arcfurnace/exo_alloy'})
 
 	//移除原有矿脉
 	let coe =[

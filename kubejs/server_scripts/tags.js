@@ -53,6 +53,7 @@ ServerEvents.tags('item', event => {
     event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_3')
     event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_4')
 
+
 })
 //添加方块标签
 ServerEvents.tags('block', event => {
@@ -70,9 +71,4 @@ ServerEvents.tags('block', event => {
 
     event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
     event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
-
-
-
-
-    
 })
