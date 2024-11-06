@@ -1,13 +1,13 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "   A   ",
+    "  HAH  ",
     "  BAB  ",
     "CBDEDBC",
     "AAEFEAA",
     "GBDEDBG",
     "  BAB  ",
-    "   A   "
+    "  HAH  "
   ],
   "key": {
     "A": {
@@ -30,6 +30,9 @@
     },
     "G": {
       "item": "aquamirae:abyssal_amethyst"
+    },
+    "H": {
+      "item": "etshtinker:coronation_alloy"
     }
   },
   "result": {
