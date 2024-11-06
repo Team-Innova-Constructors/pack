@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:lionheart",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:dragonkiller",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:lionheart",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:dragonkiller",
+        "level": 1
+      }
+    ]
+  }
+}

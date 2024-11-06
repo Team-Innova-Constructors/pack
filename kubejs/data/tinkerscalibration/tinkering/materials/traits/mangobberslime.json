@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+        "name": "tinkerscalibration:united",
+        "level": 1
+      },
+    {
+      "name": "tinkerscalibration:gobber_unbreakable",
+      "level": 1
+    }
+    ]
+}

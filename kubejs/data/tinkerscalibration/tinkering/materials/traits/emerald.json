@@ -1,0 +1,33 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:circulation",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:emerald",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:circulation",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:emerald",
+        "level": 1
+      }
+    ],"tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:circulation_armor",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:emerald",
+        "level": 1
+      }
+    ]
+  }
+}

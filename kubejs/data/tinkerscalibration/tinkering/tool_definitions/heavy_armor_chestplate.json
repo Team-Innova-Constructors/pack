@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "item": "tinkerscalibration:extra_plate"
+    },
+    {
+      "item": "constructsarmory:body_plate"
+    },
+    {
+      "item": "constructsarmory:mail"
+    }
+  ],
+  "stats": {
+    "base": {
+      "tconstruct:knockback_resistance": 0.2
+    },
+    "multipliers": {
+      "tconstruct:armor": 1.25,
+      "tconstruct:armor_toughness": 0.5,
+      "constructsarmory:movement_speed": -0.1
+    }
+  },
+  "slots": {
+    "upgrades": 2,
+    "defense": 5,
+    "abilities": 1
+  }
+}

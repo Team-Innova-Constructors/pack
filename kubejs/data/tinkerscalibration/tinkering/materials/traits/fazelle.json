@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "cti:nerfed_dash",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:envy",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:nerfed_dash",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:envy",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:dash_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:retribution_armor",
+        "level": 1
+      }
+    ]
+  }
+}

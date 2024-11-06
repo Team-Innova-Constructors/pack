@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": {
+    "type": "tconstruct:unique",
+    "first_unique": false,
+    "unique_until": 3
+  },
+  "modules": [
+    {
+      "type": "tconstruct:requirements",
+      "display_modifiers": [
+        {
+          "level": 1,
+          "name": "tconstruct:overslime"
+        }
+      ],
+      "requirement": {
+        "type": "mantle:and",
+        "predicates": [
+          {
+            "type": "tconstruct:has_modifier",
+            "check": "all",
+            "modifier": {
+              "type": "tconstruct:single",
+              "modifier": "tconstruct:overslime"
+            }
+          }
+        ]
+      },
+      "translation_key": "modifier.tinkerscalibration.overshield.overslime"
+    }
+  ],
+  "tooltip_display": "always"
+}

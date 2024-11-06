@@ -1,0 +1,16 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:degenerating",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:degenerating",
+        "level": 1
+      }
+    ]
+  }
+}

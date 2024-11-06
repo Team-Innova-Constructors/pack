@@ -1,0 +1,16 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:moonlight",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:moonlight",
+        "level": 1
+      }
+    ]
+  }
+}

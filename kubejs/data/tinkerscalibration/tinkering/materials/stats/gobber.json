@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.4,
+      "mining_speed": 0.4,
+      "melee_speed": 0.4,
+      "melee_damage": 0.4
+    },
+    "tconstruct:head": {
+      "durability": 1540,
+      "mining_speed": 6,
+      "mining_tier": "gobber2:overworld_gobber",
+      "melee_attack": 4
+    },
+    "tconstruct:limb": {
+      "durability": 1540,
+      "draw_speed": 0.25,
+      "velocity": 0.25,
+      "accuracy": 0.2
+    },
+    "tconstruct:grip": {
+      "durability": 0.4,
+      "accuracy": 0.25,
+      "melee_damage": 4
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_boots": {
+      "armor": 3.0,
+      "durability": 399,
+      "knockback_resistance": 0.02,
+      "toughness": 2
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 8,
+      "durability": 465,
+      "knockback_resistance": 0.02,
+      "toughness": 2
+    },
+    "tconstruct:plating_helmet": {
+      "armor": 3.0,
+      "durability": 423,
+      "knockback_resistance": 0.02,
+      "toughness": 2
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 8.0,
+      "durability": 448,
+      "knockback_resistance": 0.02,
+      "toughness": 2
+    },
+    "tconstruct:plating_shield": {
+      "durability": 512,
+      "knockback_resistance": 0.02,
+      "toughness": 2
+    }
+  }
+}

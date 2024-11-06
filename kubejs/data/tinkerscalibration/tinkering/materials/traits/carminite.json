@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "twilightforest:twilit",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:darkness",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "twilightforest:twilit",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:darkness",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:darkness_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:twilit_armor",
+        "level": 1
+      }
+    ]
+  }
+}

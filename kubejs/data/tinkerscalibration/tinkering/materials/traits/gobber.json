@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+        "name": "tinkerscalibration:gobber_bless",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:gobber_curse",
+        "level": 1
+      }
+    ]
+}

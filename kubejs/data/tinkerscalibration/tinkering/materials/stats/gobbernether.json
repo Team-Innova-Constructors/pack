@@ -1,0 +1,41 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.55,
+      "mining_speed": 0.55,
+      "melee_speed": 0.55,
+      "melee_damage": 0.55
+    },
+    "tconstruct:head": {
+      "durability": 1700,
+      "mining_speed": 7.1,
+      "mining_tier": "gobber2:nether_gobber",
+      "melee_attack": 5
+    },
+    "tconstruct:limb": {
+      "durability": 1700,
+      "draw_speed": 0.35,
+      "velocity": 0.35,
+      "accuracy": 0.35
+    },
+    "tconstruct:grip": {
+      "durability": 0.55,
+      "accuracy": 0.35,
+      "melee_damage": 5.5
+    },
+    "tinkers_ingenuity:mail": {
+      "durability": 0.35,
+      "armor": 1.35,
+      "movementSpeed": 1.15
+    },
+    "tinkers_ingenuity:trim": {},
+    "tinkers_ingenuity:plate": {
+      "durability": 680,
+      "armor": 11.5,
+      "toughness": 4.6,
+      "knockbackResistance": 0.35,
+      "movementSpeed": 0.05
+    }
+  }
+}

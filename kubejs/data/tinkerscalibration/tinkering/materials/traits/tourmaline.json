@@ -1,0 +1,21 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:pyroelectric",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:pyroelectric",
+        "level": 1
+      }
+    ],"tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:pyro_electric_armor",
+        "level": 1
+      }
+    ]
+  }
+}

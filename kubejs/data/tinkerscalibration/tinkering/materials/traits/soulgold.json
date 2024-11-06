@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:vengeance",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:familiar",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:vengeance",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:familiar",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:vengeance_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:familiar_armor",
+        "level": 1
+      }
+    ]
+  }
+}

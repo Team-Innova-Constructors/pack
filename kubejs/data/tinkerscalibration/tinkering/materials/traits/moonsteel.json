@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:protogenesis",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:crystalaccuracy",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:protogenesis",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:grind",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:bloodthirsty",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:momentum",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:sharpweight",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:bloodthirsty",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:momentum",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:sharpweight",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:bloodthirsty_armor",
+        "level": 1
+      }
+    ]
+  }
+}

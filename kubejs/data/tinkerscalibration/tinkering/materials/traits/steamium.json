@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:steamy",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:blowing",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:steamy",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:blowing",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:blowing_armor",
+        "level": 1
+      }
+    ]
+  }
+}

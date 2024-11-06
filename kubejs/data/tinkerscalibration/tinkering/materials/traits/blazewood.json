@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tconstruct:autosmelt",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fiery",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tconstruct:autosmelt",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:conducting",
+        "level": 1
+      }
+    ]
+  }
+}

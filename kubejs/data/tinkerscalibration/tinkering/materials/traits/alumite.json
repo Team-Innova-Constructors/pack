@@ -1,0 +1,20 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:global_traveller",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:featherweight",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:global_traveller",
+        "level": 1
+      }
+    ]
+  }
+}
