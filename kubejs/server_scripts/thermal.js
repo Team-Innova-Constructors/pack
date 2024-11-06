@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.bottler('cti:advanced_dyano_augment', ['kubejs:unfinished_advanced_dyano_augment', Fluid.of('kubejs:fluid_pyrotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler('cti:advanced_output_augment', ['kubejs:unfinished_advanced_output_augment', Fluid.of('kubejs:fluid_petrotheum', 1000)]).energy(10000)
   event.recipes.thermal.bottler('cti:advanced_speed_augment', ['kubejs:unfinished_advanced_speed_augment', Fluid.of('kubejs:fluid_cryotheum', 1000)]).energy(10000)
+  event.recipes.thermal.bottler('cti:upgrade_augment_6', ['kubejs:uncomplete_upgrade_augment_6', Fluid.of('tinkersinnovation:molten_polychrome_alloy', 810)]).energy(10000)
   //精炼机
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)],Fluid.of('etshtinker:overchargedneutronium', 100))
   event.recipes.thermal.refinery([Item.of('thermal:sulfur_dust').withChance(1.25), Fluid.of('thermal:refined_fuel',100)],Fluid.of('thermal:light_oil', 100))
@@ -111,6 +112,45 @@ ServerEvents.recipes(event => {
       A: 'kubejs:zirconium_alloy',
       B: 'thermal:machine_output_augment',
       C: 'pneumaticcraft:printed_circuit_board',
+    }
+  )
+  event.shaped(Item.of('cti:upgrade_augment_4', 1),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'kubejs:zirconium_alloy',
+      B: 'gobber2:gobber2_glass',
+      C: 'thermal:enderium_gear',
+      D: 'thermal:upgrade_augment_3',
+    }
+  )
+  event.shaped(Item.of('cti:upgrade_augment_5', 1),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'etshtinker:chroma_plate',
+      B: 'gobber2:gobber2_glass_nether',
+      C: 'pneumaticcraft:compressed_iron_gear',
+      D: 'cti:upgrade_augment_4',
+    }
+  )
+  event.shaped(Item.of('kubejs:uncomplete_upgrade_augment_6', 1),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'kubejs:overchargedultradense',
+      B: 'kubejs:compressed_activated_chroma_plate',
+      C: 'thermal:netherite_gear',
+      D: 'cti:upgrade_augment_5',
     }
   )
   event.shapeless(Item.of('kubejs:dust_petrotheum', 1), [

@@ -1,1 +1,11 @@
-{"type":"mekanism:activating","input":{"amount":1,"gas":"mekanism:nuclear_waste"},"output":{"amount":1,"gas":"mekanism:polonium"}}
+{
+    "type": "mekanism:activating",
+    "input": {
+        "amount": 1,
+        "gas": "mekanism:nuclear_waste"
+    },
+    "output": {
+        "amount": 1,
+        "gas": "mekanism:polonium"
+    }
+}
