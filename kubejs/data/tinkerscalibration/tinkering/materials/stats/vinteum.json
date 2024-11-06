@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.1,
+      "mining_speed": 0.0,
+      "melee_speed": 0.0,
+      "melee_damage": 0.0
+    },
+    "tconstruct:head": {
+      "durability": 250,
+      "mining_speed": 6.0,
+      "mining_tier": "minecraft:iron",
+      "melee_attack": 2.0
+    },
+    "tconstruct:limb": {
+      "durability": 250,
+      "draw_speed": -0.2,
+      "velocity": 0.1,
+      "accuracy": 0.0
+    },
+    "tconstruct:grip": {
+      "durability": 0.1,
+      "accuracy": 0,
+      "melee_damage": 2.0
+    }
+  }
+}

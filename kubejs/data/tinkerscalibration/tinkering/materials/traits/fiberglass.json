@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:light_like_glass",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:fragile_like_glass",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:sharp_like_glass",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:fragile_like_glass",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:sharp_like_glass_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:fragile_like_glass",
+        "level": 1
+      }
+    ]
+  }
+}

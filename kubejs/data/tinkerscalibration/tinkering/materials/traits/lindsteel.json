@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:impregnable",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:impregnable",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:impregnable_armor",
+        "level": 1
+      }
+    ]
+  }
+}

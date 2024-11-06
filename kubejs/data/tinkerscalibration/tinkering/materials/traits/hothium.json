@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:extremefreezing",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:extremefreezing",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:extreme_freezing_armor",
+        "level": 1
+      }
+    ]
+  }
+}

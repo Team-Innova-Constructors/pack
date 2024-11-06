@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:benthamism",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:welltrained",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:benthamism",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:welltrained",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:benthamism_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:welltrained_armor",
+        "level": 1
+      }
+    ]
+  }
+}

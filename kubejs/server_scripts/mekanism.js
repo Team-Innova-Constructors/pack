@@ -28,17 +28,6 @@ ServerEvents.recipes(event => {
 
   //钢壳子
   event.remove([{mod: 'mekanism', output: 'mekanism:steel_casing' }])
-  event.shaped(Item.of('mekanism:steel_casing',8), [
-      'ABA',
-      'BCB',
-      'ABA'
-    ],
-    {
-      A: 'etshtinker:chroma_plate',
-      B: '#forge:storage_blocks/steel',
-      C: 'thermal:energy_cell'
-    }
-    )
 
   //维奥合金相关
   //维奥合金外壳

@@ -1,0 +1,18 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:protogenesis",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:sweetheart",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:cultivated",
+        "level": 1
+      }
+    ]
+  }
+}

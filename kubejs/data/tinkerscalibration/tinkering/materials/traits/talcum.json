@@ -1,0 +1,16 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tconstruct:writable",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tconstruct:writable",
+        "level": 1
+      }
+    ]
+  }
+}

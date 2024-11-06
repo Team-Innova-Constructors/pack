@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "ABCBA",
+    "ADEDA",
+    "ABCBA",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/steel"
+    },
+    "B": {
+      "item": "etshtinker:chroma_plate"
+    },
+    "C": {
+      "tag": "forge:gears/constantan"
+    },
+    "D": {
+      "tag": "forge:gears/invar"
+    },
+    "E": {
+      "item": "thermal:energy_cell"
+    }
+  },
+  "result": {
+    "item": "mekanism:steel_casing",
+    "count": 8
+  }
+}

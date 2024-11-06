@@ -1,0 +1,58 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:blacksmith",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:spiderite",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:diamond",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:netherite",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:blacksmith",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:spiderite",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:diamond",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:netherite",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:spiderite_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:blacksmith_armor",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:diamond",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:netherite",
+        "level": 1
+      }
+    ]
+  }
+}

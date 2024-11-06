@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:glisten",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:diamond",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:glisten",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:diamond",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:tough_armor",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:diamond",
+        "level": 1
+      }
+    ]
+  }
+}

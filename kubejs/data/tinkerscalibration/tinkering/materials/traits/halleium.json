@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:switching",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:jagged",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:switching",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:jagged",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:switching_armor",
+        "level": 1
+      }
+    ]
+  }
+}

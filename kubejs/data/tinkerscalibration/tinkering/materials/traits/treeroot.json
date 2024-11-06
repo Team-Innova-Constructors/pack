@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:tenacity",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:vegetate",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:tenacity",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:vegetate",
+        "level": 1
+      }
+    ]
+  }
+}

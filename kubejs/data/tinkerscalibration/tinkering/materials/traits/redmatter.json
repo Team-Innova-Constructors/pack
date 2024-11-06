@@ -1,0 +1,36 @@
+{
+  "default": [
+      {
+      "name": "tconstruct:unbreakable",
+      "level": 1
+      }
+  ],
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:subdue",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:dominate",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:subdue",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:subdue_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:dominate_armor",
+        "level": 1
+      }
+    ]
+  }
+}
