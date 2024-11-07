@@ -24,6 +24,8 @@ StartupEvents.registry("item",event=>{
     event.create("universal_press","basic")
     event.create("phytogro_zero","basic")
     event.create("ancient_circuitboard","basic")
+    event.create("enriched_refined_glowstone","basic")
+    event.create("uncomplete_upgrade_augment_6","basic")
 
     
 
