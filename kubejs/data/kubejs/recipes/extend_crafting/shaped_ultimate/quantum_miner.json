@@ -22,7 +22,7 @@
       "item": "mekanism:ultimate_induction_provider"
     },
     "D": {
-      "item": "mekaevolution:infinite_energy_cube"
+      "item": "mekanism:ultimate_energy_cube"
     },
     "E": {
       "item": "industrialforegoing:laser_drill"
@@ -31,7 +31,7 @@
       "item": "mekanism:pellet_plutonium"
     },
     "G": {
-      "item": "kubejs:core_emerald"
+      "item": "kubejs:core_diamond"
     },
     "H": {
       "item": "industrialforegoing:ore_laser_base"

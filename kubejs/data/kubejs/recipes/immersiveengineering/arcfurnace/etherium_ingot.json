@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+  ],
+  "energy": 1024000,
+  "input": {
+    "base_ingredient": {
+      "item": "enigmaticlegacy:etherium_ore"
+    },
+    "count": 1
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      },
+      "count": 4
+    }
+  ],
+  "time": 256
+}
