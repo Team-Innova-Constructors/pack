@@ -45,8 +45,6 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(7200000)
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(6250000)
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
-  event.recipes.thermal.compression_fuel(Fluid.of('solidarytinker:super_dt', 100)).energy(200000000)
-  event.recipes.thermal.compression_fuel(Fluid.of('etshtinker:annihilating_plasma', 100)).energy(200000000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'),Fluid.of('thermal:latex',250)).energy(800)
   //催化剂
