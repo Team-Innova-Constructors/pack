@@ -7,7 +7,5 @@ event.addItem('tinkerscalibration:moonsteel_ingot', Text.black({ "translate": "k
 event.addFluid('manaliquidizer:mana_fluid', Text.black({ "translate": "kubejs.jei.mana_fluid" }))
 event.addItem('immersiveengineering:railgun', Text.black({ "translate": "kubejs.jei.railgun" }))
 
-
-
 })
 
