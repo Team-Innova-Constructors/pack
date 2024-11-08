@@ -1,0 +1,60 @@
+{
+    "_class": "dev.xkmc.l2hostility.content.config.EntityConfig",
+    "list": [
+      {
+        "blacklist": [],
+        "difficulty": {
+          "apply_chance": 1.0,
+          "base": 20,
+          "min": 0,
+          "scale": 0.0,
+          "trait_chance": 1.0,
+          "variation": 1.0
+        },
+        "entities": [
+          "minecraft:elder_guardian",
+          "minecraft:piglin_brute"
+        ],
+        "items": [],
+        "traits": []
+      },
+      {
+        "blacklist": [],
+        "difficulty": {
+          "apply_chance": 1.0,
+          "base": 800,
+          "min": 0,
+          "scale": 0.0,
+          "trait_chance": 1.0,
+          "variation": 1.0
+        },
+        "entities": [
+          "minecraft:wither"
+        ],
+        "items": [],
+        "traits": [
+          {
+            "free": 0,
+            "min": 1,
+            "trait": "l2hostility:cursed"
+          }
+        ]
+      },
+      {
+        "blacklist": [],
+        "difficulty": {
+          "apply_chance": 1.0,
+          "base": 300,
+          "min": 100,
+          "scale": 0.0,
+          "trait_chance": 1.0,
+          "variation": 1.0
+        },
+        "entities": [
+          "minecraft:ender_dragon"
+        ],
+        "items": [],
+        "traits": []
+      }
+    ]
+  }

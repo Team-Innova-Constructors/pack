@@ -3,7 +3,7 @@
   "biomeMap": {
     "minecraft:badlands": {
       "apply_chance": 1.0,
-      "base": 50,
+      "base": 20,
       "min": 0,
       "scale": 0.2,
       "trait_chance": 1.0,
