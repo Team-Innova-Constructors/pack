@@ -3,7 +3,7 @@
   "powerCost": 2147483647,
   "powerRate": 2147483647,
   "input": {
-    "item": "mekanism:pellet_antimatter"
+    "item": "kubejs:ancient_circuitboard"
   },
   "ingredients": [
     {
@@ -24,6 +24,6 @@
   ],
   "result": {
     "item": "kubejs:cosmic_mechanism",
-    "count": 8
+    "count": 64
   }
 }

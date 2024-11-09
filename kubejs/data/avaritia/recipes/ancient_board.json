@@ -63,7 +63,8 @@
     }
   },
     "result": {
-      "item": "kubejs:ancient_circuitboard"
+      "item": "kubejs:ancient_circuitboard",
+      "count": 16
     },
     "show_notification": false
   }
