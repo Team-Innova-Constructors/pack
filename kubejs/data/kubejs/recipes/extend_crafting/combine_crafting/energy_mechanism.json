@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 1073741824,
+  "powerRate": 1073741824,
+  "input": {
+    "item": "avaritia:star_fuel"
+  },
+  "ingredients": [
+    {
+      "item": "etshtinker:anti_neutronium"
+    },
+    {
+      "item": "etshtinker:electronium"
+    },
+    {
+      "item": "thermal:energy_duct"
+    },
+    {
+      "item": "mekanism:ultimate_induction_provider"
+    }
+  ],
+  "result": {
+    "item": "kubejs:energy_mechanism"
+  }
+}

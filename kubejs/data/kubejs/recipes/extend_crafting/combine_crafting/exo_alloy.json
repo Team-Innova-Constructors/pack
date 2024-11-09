@@ -1,7 +1,7 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 2147483647,
-  "powerRate": 2147483647,
+  "powerCost": 2000000000,
+  "powerRate": 500000000,
   "input": {
     "item": "kubejs:halfdone_exoalloy"
   },
@@ -10,25 +10,25 @@
       "item": "extendedcrafting:flux_star"
     },
     {
-      "item": "extendedcrafting:flux_star_block"
+      "item": "extendedcrafting:flux_star"
     },
     {
       "item": "extendedcrafting:flux_star"
     },
     {
-      "item": "extendedcrafting:flux_star_block"
+      "item": "extendedcrafting:flux_star"
     },
     {
       "item": "extendedcrafting:flux_star"
     },
     {
-      "item": "extendedcrafting:flux_star_block"
+      "item": "extendedcrafting:flux_star"
     },
     {
       "item": "extendedcrafting:flux_star"
     },
     {
-      "item": "extendedcrafting:flux_star_block"
+      "item": "extendedcrafting:flux_star"
     }
   ],
   "result": {

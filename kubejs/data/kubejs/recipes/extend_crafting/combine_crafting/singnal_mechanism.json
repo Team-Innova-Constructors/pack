@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 1073741824,
+  "powerRate": 1073741824,
+  "input": {
+    "item": "ae2:wireless_crafting_terminal"
+  },
+  "ingredients": [
+    {
+      "item": "etshtinker:basalz_signalum"
+    },
+    {
+      "item": "ae2:wireless_booster"
+    },
+    {
+      "item": "pneumaticcraft:programming_puzzle"
+    },
+    {
+      "item": "pneumaticcraft:universal_sensor"
+    }
+  ],
+  "result": {
+    "item": "kubejs:singnal_mechanism"
+  }
+}

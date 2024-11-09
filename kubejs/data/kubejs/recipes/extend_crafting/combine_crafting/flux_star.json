@@ -1,9 +1,9 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 2147483647,
-  "powerRate": 2147483647,
+  "powerCost": 1000000000,
+  "powerRate": 1000000000,
   "input": {
-    "item": "etshtinker:os_induced_netherstarshard"
+    "item": "minecraft:nether_star"
   },
   "ingredients": [
     {

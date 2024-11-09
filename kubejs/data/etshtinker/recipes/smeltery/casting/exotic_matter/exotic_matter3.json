@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "create:precision_mechanism"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "etshtinker:unstable_exotic_matter",
+    "amount": 10000
+  },
+  "result": "etshtinker:exotic_matter",
+  "cooling_time": 10
+}

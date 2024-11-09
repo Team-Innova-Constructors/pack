@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 1073741824,
+  "powerRate": 1073741824,
+  "input": {
+    "item": "etshtinker:exotic_matter"
+  },
+  "ingredients": [
+    {
+      "item": "etshtinker:protonium"
+    },
+    {
+      "item": "etshtinker:ultra_dense"
+    },
+    {
+      "item": "etshtinker:stellaralloy"
+    },
+    {
+      "item": "gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit"
+    }
+  ],
+  "result": {
+    "item": "kubejs:gravity_mechanism"
+  }
+}

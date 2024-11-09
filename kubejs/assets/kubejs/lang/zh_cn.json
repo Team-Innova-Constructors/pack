@@ -108,6 +108,13 @@
     "item.kubejs.enriched_refined_glowstone":"富集强化萤石",
     "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
 
+    "item.kubejs.cosmic_mechanism":"宇宙构象",
+    "item.kubejs.electro_magnetic_mechanism":"电磁构象",
+    "item.kubejs.energy_mechanism":"能量构象",
+    "item.kubejs.gravity_mechanism":"引力构象",
+    "item.kubejs.singnal_mechanism":"信息构象",
+    "item.kubejs.structre_mechanism":"结构构象",
+
     
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
 

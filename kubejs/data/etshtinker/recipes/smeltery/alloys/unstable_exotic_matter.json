@@ -3,16 +3,16 @@
   "inputs": [
     {
       "name": "tconstruct:molten_iron",
-      "amount": 14400
+      "amount": 1800
     },
     {
       "name": "mekanismgenerators:deuterium",
-      "amount": 72000
+      "amount": 9000
     }
   ],
   "result": {
     "fluid": "etshtinker:unstable_exotic_matter",
     "amount": 1000
   },
-  "temperature": 6000
+  "temperature": 4250
 }

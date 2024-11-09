@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 1073741824,
+  "powerRate": 1073741824,
+  "input": {
+    "item": "mekaevolution:infinite_control_circuit"
+  },
+  "ingredients": [
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "item": "thermal:flux_magnet"
+    },
+    {
+      "item": "mekanism:supercharged_coil"
+    },
+    {
+      "item": "mekaevolution:absolute_energy_cube"
+    }
+  ],
+  "result": {
+    "item": "kubejs:electro_magnetic_mechanism"
+  }
+}

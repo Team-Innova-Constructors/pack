@@ -1,28 +1,40 @@
 {
     "type": "extendedcrafting:combination",
-    "powerCost": 2147483647,
-    "powerRate": 2147483647,
+    "powerCost": 128000000,
+    "powerRate": 51200000,
     "input": {
-      "item": "kubejs:atherium_alloy"
+      "item": "etshtinker:alloy_fracture"
     },
     "ingredients": [
       {
-        "item": "kubejs:tungsten_ingot"
-      },
-      {
-        "item": "kubejs:graphene"
-      },
-      {
-        "item": "etshtinker:coronation_alloy"
-      },
-      {
-        "item": "etshtinker:anti_neutronium"
-      },
-      {
-        "item": "etshtinker:exotic_matter"
+        "item": "kubejs:atherium_alloy"
       },
       {
         "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
+      },
+      {
+        "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
+      },
+      {
+        "item": "kubejs:atherium_alloy"
       }
     ],
     "result": {

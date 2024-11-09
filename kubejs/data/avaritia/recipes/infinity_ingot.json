@@ -2,9 +2,6 @@
   "type": "avaritia:shaped_extreme_craft",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "avaritia:star_fuel"
-    },
     "B": {
       "item": "avaritia:neutron_gear"
     },
@@ -12,7 +9,7 @@
       "item": "avaritia:crystal_matrix_ingot"
     },
     "N": {
-      "item": "avaritia:neutron"
+      "item": "kubejs:cosmic_mechanism"
     },
     "X": {
       "item": "avaritia:infinity_catalyst"
@@ -21,7 +18,7 @@
   "pattern": [
     "NNNNNNNNN",
     "NCXXCXXCN",
-    "NXAABAAXN",
+    "NXCCBCCXN",
     "NCXXCXXCN",
     "NNNNNNNNN"
   ],
