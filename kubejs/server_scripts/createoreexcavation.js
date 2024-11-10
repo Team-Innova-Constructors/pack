@@ -7,8 +7,6 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:quartz'),Item.of(
 .drill('createoreexcavation:netherite_drill')
 //生物群落白名单
 .biomeWhitelist('minecraft:is_nether')
-//无限量
-.alwaysInfinite()
 //应力值
 .stress(256)
 //配方id
@@ -33,8 +31,6 @@ event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text
 event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 500','{"text": "贫油"}', 200, 800)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
-//无限量
-.alwaysInfinite()
 //应力值
 .stress(128)
 //生物群落白名单
@@ -62,7 +58,6 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_nether')
-.alwaysInfinite()
 .stress(128)
 .id("cobalt_ardite_complex");
 
@@ -71,7 +66,6 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 event.recipes.createoreexcavation.drilling([Item.of('thermal:raw_lead'), Item.of('mekanism:raw_uranium')],'{"text": "衰变铅矿"}', 100, 200)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(64)
 .id("lead");
 
@@ -80,7 +74,6 @@ event.recipes.createoreexcavation.drilling([Item.of('thermal:raw_lead'), Item.of
 event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_gold'), Item.of('mekanism:raw_osmium'),Item.of('thermal:raw_silver')],'{"text": "重金属矿"}', 100, 600)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("osmium");
 
@@ -89,7 +82,6 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_gold'), Item.
 event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:sulfur')],'{"text": "朱砂矿"}', 150, 200)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(120)
 .id("cinnabar");
 
@@ -107,7 +99,6 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.
 event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.of('createoreexcavation:raw_redstone'),Item.of('minecraft:redstone').withChance(0.25)], '{"text": "赤铁矿"}', 100, 200)
 .drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("red_iron_ore");
 
@@ -116,7 +107,6 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.
 event.recipes.createoreexcavation.drilling([Item.of('create:raw_zinc'), Item.of('minecraft:raw_iron'),Item.of('thermal:sulfur')], '{"text": "闪锌矿"}', 100, 200)
 .drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("sphalerite");
 
@@ -126,7 +116,6 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:coal'), Item.of('
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(128)
 .id("bituminous_coal");
 
@@ -136,7 +125,6 @@ event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_dia
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(512)
 .id("high_pressure_crystals");
 
@@ -145,7 +133,6 @@ event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_dia
 event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_copper_block'), Item.of('minecraft:raw_iron'),Item.of('minecraft:raw_gold').withChance(0.3),Item.of('thermal:raw_silver').withChance(0.4)], '{"text": "黄铜矿"}', 50, 400)
 .drill('#createoreexcavation:second_createore_drill')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("chalcopyrite");
 
@@ -155,7 +142,6 @@ event.recipes.createoreexcavation.drilling([Item.of('immersiveengineering:raw_al
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("al");
 
@@ -165,7 +151,6 @@ event.recipes.createoreexcavation.drilling([Item.of('thermal:sulfur_dust').withC
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
-.alwaysInfinite()
 .stress(256)
 .id("surfur_nickel");
 },

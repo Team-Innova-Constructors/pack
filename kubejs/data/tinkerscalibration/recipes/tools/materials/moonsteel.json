@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tinkerscalibration:moltenhorizonite",
+      "amount": 90
+    },
+    {
+      "name": "tinkerscalibration:moltenmoonstone",
+      "amount": 200
+    }
+  ],
+  "result": {
+    "fluid": "tinkerscalibration:moltenmoonsteel",
+    "amount": 180
+  },
+  "temperature": 870
+}
