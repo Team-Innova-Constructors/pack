@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "kubejs:ultra_dense_hydride_crystal"
+              "name": "cti:ultra_dense_hydride_ore"
             },
             {
               "type": "minecraft:item",
