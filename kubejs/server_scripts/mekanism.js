@@ -15,7 +15,6 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',output:'mekanismgenerators:fusion_reactor_port'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
   //电解核心
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:electrolytic_core'}, '#forge:dusts/osmium','kubejs:compressed_hardlead')
-  
   //钛，矿渣相关
   event.recipes.mekanismCrushing('immersiveengineering:slag_gravel', '#forge:slag')
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')

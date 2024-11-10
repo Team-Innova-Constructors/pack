@@ -155,6 +155,16 @@ ServerEvents.recipes(event => {
          C: 'powah:capacitor_nitro',
       }
    )
+   event.shaped(Item.of('waystones:warp_stone', 1), [
+      ' B ',
+      'BAB',
+      ' B '
+   ],
+      {
+         B: 'minecraft:amethyst_shard',
+         A: 'minecraft:ender_pearl',
+      }
+   )
 
 
 })
