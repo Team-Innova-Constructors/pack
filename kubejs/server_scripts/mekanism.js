@@ -80,9 +80,18 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:control_rod_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_fuel_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:atherium_casing')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_reactor_casing'}, 'mekanism:steel_casing','kubejs:atherium_casing')
+  event.remove({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_reactor_casing'})
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, '#forge:ingots/lead','kubejs:atherium_casing')
-
+  event.shaped(Item.of('mekanismgenerators:fission_reactor_casing',64), [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: '#forge:ingots/lead',
+      B: 'kubejs:atherium_casing'
+    }
+  )
   //数采和电板
   event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
   event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])

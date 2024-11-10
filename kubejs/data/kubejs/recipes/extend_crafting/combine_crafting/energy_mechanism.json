@@ -7,7 +7,7 @@
   },
   "ingredients": [
     {
-      "item": "etshtinker:anti_neutronium"
+      "tag": "forge:ingots/uranium"
     },
     {
       "item": "etshtinker:electronium"

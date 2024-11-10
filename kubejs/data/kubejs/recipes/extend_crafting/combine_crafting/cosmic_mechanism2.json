@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 2147483647,
+  "powerRate": 2147483647,
+  "input": {
+    "item": "kubejs:ancient_circuitboard"
+  },
+  "ingredients": [
+    {
+      "item": "kubejs:electro_magnetic_mechanism"
+    },
+    {
+      "item": "kubejs:energy_mechanism"
+    },
+    {
+      "item": "kubejs:gravity_mechanism"
+    },
+    {
+      "item": "kubejs:singnal_mechanism"
+    },
+    {
+      "item": "kubejs:structre_mechanism"
+    }
+  ],
+  "result": {
+    "item": "kubejs:cosmic_mechanism",
+    "count": 64
+  }
+}
