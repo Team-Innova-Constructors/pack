@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:shields",
+      "amount_needed": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:shields",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:armor_infusing",
+  "level": {
+    "max": 10
+  },
+  "slots": {
+    "upgrades": 1
+  }
+}

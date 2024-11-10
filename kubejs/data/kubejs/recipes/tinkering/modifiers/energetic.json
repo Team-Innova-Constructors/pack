@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "kubejs:energy_mechanism",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  },
+  "allow_crystal": true,
+  "result":"cti:energetic",
+  "level": {
+    "max": 1
+  }
+}

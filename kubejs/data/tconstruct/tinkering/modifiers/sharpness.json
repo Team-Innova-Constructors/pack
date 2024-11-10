@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": {
+    "type": "tconstruct:unique",
+    "first_unique": true,
+    "unique_until": 5
+  },
+  "modules": [
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 1.5,
+      "operation": "add",
+      "stat": "tconstruct:attack_damage"
+    }
+  ],
+  "tooltip_display": "always"
+}

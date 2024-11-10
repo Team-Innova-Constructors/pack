@@ -1,9 +1,9 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 1073741824,
-  "powerRate": 1073741824,
+  "powerCost": 25000,
+  "powerRate": 25000,
   "input": {
-    "item": "mekaevolution:infinite_control_circuit"
+    "item": "immersiveengineering:dynamo"
   },
   "ingredients": [
     {
@@ -13,10 +13,10 @@
       "item": "thermal:flux_magnet"
     },
     {
-      "item": "mekanism:supercharged_coil"
+      "item": "createaddition:capacitor"
     },
     {
-      "item": "mekaevolution:absolute_energy_cube"
+      "item": "create:electron_tube"
     }
   ],
   "result": {

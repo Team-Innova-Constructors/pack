@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "kubejs:singnal_mechanism",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  },
+  "allow_crystal": true,
+  "result":"cti:signal",
+  "level": {
+    "max": 1
+  }
+}

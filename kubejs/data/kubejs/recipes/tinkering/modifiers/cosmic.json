@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "kubejs:cosmic_mechanism",
+      "amount_needed": 4
+    },
+    {
+      "item": "avaritia:infinity_catalyst",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  },
+  "allow_crystal": true,
+  "result":"cti:cosmic",
+  "level": {
+    "max": 10
+  }
+}
