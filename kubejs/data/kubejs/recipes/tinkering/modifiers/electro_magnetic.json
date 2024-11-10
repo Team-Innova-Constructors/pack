@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "kubejs:electro_magnetic_mechanism",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  },
+  "allow_crystal": true,
+  "result":"cti:electro_magnetic",
+  "level": {
+    "max": 1
+  }
+}

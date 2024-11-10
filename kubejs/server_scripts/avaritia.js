@@ -71,7 +71,41 @@ ServerEvents.recipes(
             },
             result: Item.of('avaritia:neutron_gear',8)
         })
-
+        event.custom({
+                    type: 'avaritia:shaped_extreme_craft',
+                    pattern: [
+                        " A AAA A ",
+                        "AAABBBAAA",
+                        " ABCDCBA ",
+                        "ABC E CBA",
+                        "ABDEFEDBA",
+                        "ABC E CBA",
+                        " ABCDCBA ",
+                        "AAABBBAAA",
+                        " A AAA A "
+                    ],
+                    key: {
+                        A: [
+                            {item: 'avaritia:neutron_ingot'}
+                        ],
+                        B: [
+                            {item: 'pneumaticcraft:compressed_iron_gear'}
+                        ],
+                        C: [
+                            {item: 'etshtinker:exo_alloy'}
+                        ],
+                        D: [
+                            {item: 'create:precision_mechanism'}
+                        ],
+                        E: [
+                            {item: 'immersiveengineering:component_steel'}
+                        ],
+                        F: [
+                            {item: 'avaritia:star_fuel'}
+                        ]
+                    },
+                    result: Item.of('avaritia:neutron_gear',3)
+                })
         //中子压印板
         event.custom({
             type: 'avaritia:shaped_extreme_craft',

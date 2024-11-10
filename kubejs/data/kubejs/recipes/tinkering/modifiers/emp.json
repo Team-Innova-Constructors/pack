@@ -1,0 +1,24 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "immersiveengineering:toolupgrade_powerpack_tesla",
+        "amount_needed": 1
+      },
+      {
+        "item": "kubejs:electro_magnetic_mechanism",
+        "amount_needed": 2
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/durability"
+    },
+    "slots": {
+        "abilities": 1
+    },
+    "allow_crystal": true,
+    "result":"cti:emp",
+    "level": {
+      "max": 1
+    }
+  }

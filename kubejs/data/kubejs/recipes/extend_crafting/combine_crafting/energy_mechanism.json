@@ -1,22 +1,22 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 1073741824,
-  "powerRate": 1073741824,
+  "powerCost": 512000,
+  "powerRate": 512000,
   "input": {
-    "item": "avaritia:star_fuel"
+    "item": "mekanism:hydrogen_bucket"
   },
   "ingredients": [
     {
       "tag": "forge:ingots/uranium"
     },
     {
-      "item": "etshtinker:electronium"
+      "item": "immersiveengineering:ingot_hop_graphite"
     },
     {
       "item": "thermal:energy_duct"
     },
     {
-      "item": "mekanism:ultimate_induction_provider"
+      "item": "thermal:dynamo_magmatic"
     }
   ],
   "result": {

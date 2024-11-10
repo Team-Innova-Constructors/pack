@@ -1,22 +1,22 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 1073741824,
-  "powerRate": 1073741824,
+  "powerCost": 2750000,
+  "powerRate": 2750000,
   "input": {
-    "item": "kubejs:atherium_casing"
+    "item": "kubejs:zirconium_alloy"
   },
   "ingredients": [
     {
-      "item": "kubejs:graphene"
+      "item": "ae2:fluix_crystal"
     },
     {
-      "item": "etshtinker:activated_chroma_plate"
+      "item": "etshtinker:chroma_plate"
     },
     {
-      "item": "mekanism:hdpe_sheet"
+      "item": "pneumaticcraft:plastic"
     },
     {
-      "item": "kubejs:zirconium_alloy"
+      "item": "kubejs:compressed_hardlead"
     }
   ],
   "result": {

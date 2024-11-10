@@ -1,13 +1,13 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 1073741824,
-  "powerRate": 1073741824,
+  "powerCost": 5760000,
+  "powerRate": 5760000,
   "input": {
     "item": "ae2:wireless_crafting_terminal"
   },
   "ingredients": [
     {
-      "item": "etshtinker:basalz_signalum"
+      "item": "mekanism:dust_lithium"
     },
     {
       "item": "ae2:wireless_booster"

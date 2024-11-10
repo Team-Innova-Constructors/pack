@@ -157,6 +157,34 @@
     "modifier.cti.gravity_normalizer.flavor": "重力正常化",
     "modifier.cti.gravity_normalizer.description": "使你在外星所受重力与主世界一致",
 
+    "modifier.cti.armor_infusing": "护甲注魔",
+    "modifier.cti.armor_infusing.flavor": "槽位扩展",
+    "modifier.cti.armor_infusing.description": "消耗一个升级槽，获得一个防御槽。",
+
+    "modifier.cti.cosmic": "寰宇拓印",
+    "modifier.cti.cosmic.flavor": "宇宙学的知识增加了",
+    "modifier.cti.cosmic.description": "增加5个升级槽和2个能力槽",
+
+    "modifier.cti.electro_magnetic": "电磁拓印",
+    "modifier.cti.electro_magnetic.flavor": "电磁学的知识增加了",
+    "modifier.cti.electro_magnetic.description": "增加1个升级槽",
+
+    "modifier.cti.energetic": "能量拓印",
+    "modifier.cti.energetic.flavor": "热力学的知识增加了",
+    "modifier.cti.energetic.description": "增加1个能力槽",
+
+    "modifier.cti.gravitational": "引力拓印",
+    "modifier.cti.gravitational.flavor": "相互作用力的知识增加了",
+    "modifier.cti.gravitational.description": "增加2个升级槽和1个能力槽",
+
+    "modifier.cti.signal": "信息拓印",
+    "modifier.cti.signal.flavor": "信息传递的知识增加了",
+    "modifier.cti.signal.description": "增加1个能力槽",
+
+    "modifier.cti.structure": "结构拓印",
+    "modifier.cti.structure.flavor": "结构化学的知识增加了",
+    "modifier.cti.structure.description": "增加2个升级槽",
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
 

@@ -1,7 +1,7 @@
 {
   "type": "extendedcrafting:combination",
-  "powerCost": 1073741824,
-  "powerRate": 1073741824,
+  "powerCost": 350070000,
+  "powerRate": 350070000,
   "input": {
     "item": "etshtinker:exotic_matter"
   },
