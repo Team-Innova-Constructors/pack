@@ -117,6 +117,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'enigmaticlegacy:etherium_ingot_from_blasting'})
 	event.remove({id:'enigmaticlegacy:etherium_ingot'})
 	event.remove({id:'waystones:warp_stone'})
+	event.remove({id:'gobber2:gobber2_ring_phoenix'})
 
 	//移除原有矿脉
 	let coe =[

@@ -3,7 +3,4 @@ ServerEvents.recipes(event => {
 event.shapeless(Item.of('cataclysm:ancient_metal_nugget', 9),[
   'cataclysm:ancient_metal_ingot'
 ])
-
-
-
 })
