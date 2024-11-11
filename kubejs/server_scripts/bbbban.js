@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-
 	let proje = [
 		'projecte:transmutation_table',
 		'projecte:transmutation_tablet',
@@ -8,8 +7,19 @@ ServerEvents.recipes(event => {
 		'projecte:collector_mk1',
 		'projecte:collector_mk2',
 		'projecte:collector_mk3',
-		'projecte:condenser_mk1',
-		'projecte:condenser_mk2',
+		'projecte:dm_helmet',
+		'projecte:dm_chestplate',
+		'projecte:dm_leggings',
+		'projecte:dm_boots',
+		'projecte:rm_helmet',
+		'projecte:rm_chestplate',
+		'projecte:rm_leggings',
+		'projecte:rm_boots',
+		'projecte:gem_helmet',
+		'projecte:gem_chestplate',
+		'projecte:gem_leggings',
+		'projecte:gem_boots',
+		'projecte:red_matter',
 	]
 	for (let i of proje) {event.remove({id:`${i}`})}
   	//重力透镜
@@ -106,6 +116,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'etshtinker:immersiveengineering/arcfurnace/exo_alloy'})
 	event.remove({id:'enigmaticlegacy:etherium_ingot_from_blasting'})
 	event.remove({id:'enigmaticlegacy:etherium_ingot'})
+	event.remove({id:'waystones:warp_stone'})
 
 	//移除原有矿脉
 	let coe =[
@@ -123,6 +134,17 @@ ServerEvents.recipes(event => {
 	'createoreexcavation:drilling/zinc',
 	]
 	for (let i of coe) {event.remove({id:`${i}`})}
+	let immersiveengineeringore =[
+	'immersiveengineering:mineral/amethyst_crevasse',
+	'immersiveengineering:mineral/ancient_seabed',
+	'immersiveengineering:mineral/hardened_clay_pan',
+	'immersiveengineering:mineral/bituminous_coal',
+	'immersiveengineering:mineral/cooled_lava_tube',
+	'immersiveengineering:mineral/igneous_rock',
+	'immersiveengineering:mineral/silt',
+	'immersiveengineering:mineral/nether_silt',
+	]
+	for (let i of immersiveengineeringore) {event.remove({id:`${i}`})}
 	//莱特兰附魔书
 	let l2enchantbook =[
 	'l2complements:enchantments/projectile_reject',
@@ -158,7 +180,8 @@ ServerEvents.recipes(event => {
       'cyclic:wand_missile',
       'cyclic:wand_hypno',
 	  'cyclic:uncrafter',
-	  'cyclic:sleeping_mat'
+	  'cyclic:sleeping_mat',
+	  'cyclic:charm_crit'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
     //堆

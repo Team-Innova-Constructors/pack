@@ -16,7 +16,7 @@
       "item": "avaritia:infinity"
     },
     "B": {
-      "item": "tinkers_ingenuity:bedrock_alloy_block"
+      "item": "projecte:dark_matter_block"
     },
     "C": {
       "item": "enigmaticlegacy:etherium_block"
@@ -43,7 +43,7 @@
       "item": "l2complements:poseidite_block"
     },
     "K": {
-      "item": "tinkers_ingenuity:orichalcum_block"
+      "item": "solidarytinker:dwarf_block"
     },
     "L": {
       "item": "enigmaticlegacy:twisted_heart"
