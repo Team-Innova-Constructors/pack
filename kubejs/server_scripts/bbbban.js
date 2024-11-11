@@ -143,6 +143,8 @@ ServerEvents.recipes(event => {
 	'immersiveengineering:mineral/igneous_rock',
 	'immersiveengineering:mineral/silt',
 	'immersiveengineering:mineral/nether_silt',
+	'immersiveengineering:mineral/beryl',
+	'immersiveengineering:mineral/cinnabar',
 	]
 	for (let i of immersiveengineeringore) {event.remove({id:`${i}`})}
 	//莱特兰附魔书
