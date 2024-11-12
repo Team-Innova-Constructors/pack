@@ -102,7 +102,6 @@ ServerEvents.recipes(event => {
 		event.remove([{id: `${i}` }])
 	}
 
-	event.remove([{mod: 'tinkers_ingenuity', output: 'tinkers_ingenuity:shuriken' }])
 	event.remove({mod: 'explorerscompass', output: 'explorerscompass:explorerscompass' })
 	event.remove({mod: 'naturescompass', output: 'naturescompass:naturescompass' })
 	event.remove({id:'l2hostility:curse_of_wrath'})

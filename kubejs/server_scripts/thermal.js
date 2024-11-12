@@ -9,11 +9,11 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer(Item.of('minecraft:amethyst_shard').withChance(6.5), 'minecraft:amethyst_cluster').energy(1000)
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(2.1), Item.of('create:experience_nugget').withChance(0.6)], 'etshtinker:bismuthinite_ore_deepslate').energy(10000)
   //冲压机
-  event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(100)
-  event.recipes.thermal.press('kubejs:universal_press', ['#forge:storage_blocks/iron', 'kubejs:universal_press']).energy(100)
-  event.recipes.thermal.press('8x ae2:printed_calculation_processor', ['8x ae2:certus_quartz_crystal', 'kubejs:universal_press']).energy(100)
-  event.recipes.thermal.press('8x ae2:printed_engineering_processor', ['8x #forge:gems/diamond', 'kubejs:universal_press']).energy(100)
-  event.recipes.thermal.press('8x ae2:printed_logic_processor', ['8x #forge:ingots/gold', 'kubejs:universal_press']).energy(100)
+  event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(2000)
+  event.recipes.thermal.press('kubejs:universal_press', ['#forge:storage_blocks/iron', 'kubejs:universal_press']).energy(2000)
+  event.recipes.thermal.press('8x ae2:printed_calculation_processor', ['8x ae2:certus_quartz_crystal', 'kubejs:universal_press']).energy(2000)
+  event.recipes.thermal.press('8x ae2:printed_engineering_processor', ['8x #forge:gems/diamond', 'kubejs:universal_press']).energy(2000)
+  event.recipes.thermal.press('8x ae2:printed_logic_processor', ['8x #forge:ingots/gold', 'kubejs:universal_press']).energy(2000)
   //感应炉
   event.recipes.thermal.smelter('4x etshtinker:hardlead_plate', ['3x #forge:ingots/lead', 'etshtinker:bismuth_ingot']).energy(10000)
   event.recipes.thermal.smelter(Item.of('etshtinker:bismuth_ingot').withChance(1.25), ['etshtinker:bismuthinite']).energy(20000)
@@ -30,9 +30,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.refinery([Item.of('thermal:bitumen').withChance(0.1), Fluid.of('thermal:light_oil',50),Fluid.of('thermal:heavy_oil',50)],Fluid.of('thermal:crude_oil',100))
   //结晶器
   event.recipes.thermal.crystallizer('2x obscure_api:astral_dust', ['obscure_api:astral_dust', Fluid.of('manaliquidizer:mana_fluid', 16000)]).energy(10000)
-  event.recipes.thermal.crystallizer('6x mekanism:fluorite_gem', ['mekanism:fluorite_gem', Fluid.of('kubejs:crystal_growth', 100)]).energy(10000)
-  event.recipes.thermal.crystallizer('4x ae2:fluix_crystal', ['ae2:fluix_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(200)
-  event.recipes.thermal.crystallizer('2x ae2:quartz_cluster', ['ae2:certus_quartz_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(200)
+  event.recipes.thermal.crystallizer('6x mekanism:fluorite_gem', ['mekanism:fluorite_gem', Fluid.of('kubejs:crystal_growth', 100)]).energy(2000)
+  event.recipes.thermal.crystallizer('4x ae2:fluix_crystal', ['ae2:fluix_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(2000)
+  event.recipes.thermal.crystallizer('2x ae2:quartz_cluster', ['ae2:certus_quartz_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(2000)
   event.recipes.thermal.crystallizer('ae2:flawless_budding_quartz', ['ae2:flawed_budding_quartz', Fluid.of('manaliquidizer:mana_fluid', 32000)]).energy(32000)
   //熔岩炉
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(100000)
