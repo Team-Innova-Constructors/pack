@@ -117,6 +117,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'enigmaticlegacy:etherium_ingot_from_blasting'})
 	event.remove({id:'enigmaticlegacy:etherium_ingot'})
 	event.remove({id:'waystones:warp_stone'})
+	event.remove({id:'gobber2:gobber2_ring_phoenix'})
 
 	//移除原有矿脉
 	let coe =[
@@ -143,6 +144,8 @@ ServerEvents.recipes(event => {
 	'immersiveengineering:mineral/igneous_rock',
 	'immersiveengineering:mineral/silt',
 	'immersiveengineering:mineral/nether_silt',
+	'immersiveengineering:mineral/beryl',
+	'immersiveengineering:mineral/cinnabar',
 	]
 	for (let i of immersiveengineeringore) {event.remove({id:`${i}`})}
 	//莱特兰附魔书
