@@ -1,0 +1,40 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "cti:nerf_colossal"
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:weapon_protection"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:weapon_protection"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:weapon_protection"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:weapon_protection"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 1,
+        "name": "tinkers_reforged:weapon_protection"
+      }
+    ]
+  }
+}
