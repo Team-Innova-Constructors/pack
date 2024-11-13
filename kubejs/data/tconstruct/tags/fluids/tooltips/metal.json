@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "cti:molten_uriel"
+    "cti:molten_uriel",
+    "cti:molten_infinity"
   ]
 }
