@@ -1,0 +1,1 @@
+{"type":"mekanism:rotary","fluidInput":{"amount":1,"tag":"forge:hydrogen"},"fluidOutput":{"amount":1,"fluid":"mekanism:hydrogen"},"gasInput":{"amount":1,"gas":"mekanism:hydrogen"},"gasOutput":{"amount":1,"gas":"mekanism:hydrogen"}}
