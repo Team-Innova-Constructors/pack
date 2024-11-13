@@ -3,7 +3,7 @@
   "pattern": [
     "ABBBA",
     "CDEEC",
-    "AFDEA",
+    "AFHEA",
     "CFFDC",
     "AGGGA"
   ],
@@ -28,6 +28,9 @@
     },
     "G": {
       "item": "tinkers_ingenuity:ocean_alloy_ingot"
+    },
+    "H": {
+      "item": "enigmaticlegacy:guardian_heart"
     }
   },
   "result": {
