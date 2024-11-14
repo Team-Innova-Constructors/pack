@@ -1,0 +1,34 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "etshtinker:exo_alloy"
+      },
+      {
+        "item": "cataclysm:abyssal_sacrifice"
+      },
+      {
+        "item": "etshtinker:perfect_generic_item",
+        "amount_needed": 2
+      },
+      {
+        "item": "cataclysm:abyss_eye",
+        "amount_needed": 8
+      },
+      {
+        "item": "cataclysm:abyss_eye",
+        "amount_needed": 8
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/durability"
+    },
+    "slots": {
+      "ocean": 1
+    },
+    "allow_crystal": true,
+    "result": "cti:deepanddeep",
+    "level": {
+      "max": 5
+    }
+  }
