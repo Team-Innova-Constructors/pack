@@ -3,10 +3,10 @@
   "ingredients": [
     {
       "fluid": "tinkersinnovation:molten_decline",
-      "amount": 500
+      "amount": 50
     },
     {
-      "count": 8,
+      "count": 4,
       "item": "etshtinker:os_induced_netherstarshard"
     }
   ],
@@ -16,5 +16,5 @@
       "item": "minecraft:nether_star"
     }
   ],
-  "energy": 20000
+  "energy": 50000
 }
