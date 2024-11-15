@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
   event.recipes.botania.mana_infusion('projecte:mobius_fuel', ['projecte:alchemical_coal'], 50000, 'kubejs:philosophers_catalyst')
   event.recipes.botania.mana_infusion('projecte:aeternalis_fuel', ['projecte:mobius_fuel'], 200000, 'kubejs:philosophers_catalyst')
   event.recipes.botania.mana_infusion('ae2:certus_quartz_crystal', ['minecraft:lapis_lazuli'], 4000)
+  event.recipes.botania.mana_infusion('kubejs:dust_mana', ['etshtinker:os_induced_netherstarshard'], 10000)
   event.recipes.botania.terra_plate('dreadsteel:dreadsteel_ingot', ['minecraft:blaze_powder', 'tinkerscalibration:witherium_ingot', 'tinkerscalibration:witherium_ingot', 'botania:elementium_ingot', 'iceandfire:dread_shard', 'iceandfire:dread_shard'], 500000)
   event.recipes.botania.terra_plate('solidarytinker:magicuranium_ingot', ['#forge:ingots/uranium', 'cti:magic_crystal', 'botania:manasteel_ingot', 'botanicalmachinery:mana_emerald'], 250000)
   event.recipes.botania.terra_plate('projecte:red_matter', ['etshtinker:evil_orb', 'cti:magic_crystal', 'projecte:dark_matter', 'botania:quartz_red'], 500000)
