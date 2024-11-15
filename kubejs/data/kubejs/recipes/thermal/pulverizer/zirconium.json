@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "tinkers_reforged:titanium_ingot"
+  },
+  "result": [
+    {
+      "item": "tinkers_reforged:titanium_dust",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

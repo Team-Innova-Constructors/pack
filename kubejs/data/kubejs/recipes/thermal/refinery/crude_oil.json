@@ -1,0 +1,22 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid_tag": "forge:crude_oil",
+    "amount": 100
+  },
+  "result": [
+    {
+      "fluid": "thermal:heavy_oil",
+      "amount": 50
+    },
+    {
+      "fluid": "thermal:light_oil",
+      "amount": 50
+    },
+    {
+      "item": "thermal:bitumen",
+      "chance": 0.10
+    }
+  ],
+  "energy": 6000
+}
