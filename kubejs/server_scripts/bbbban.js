@@ -63,6 +63,7 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
     event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
 	event.remove({id:'projecte:dark_matter'})
+	event.remove({id:'projecte:red_matter'})
 	event.remove({id:'tinkersinnovation:items/polychrome_mix'})
 
 	//meka套
