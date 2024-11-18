@@ -11,7 +11,7 @@
       "item": "immersivepetroleum:petcoke_dust"
     },
     "item_output": {
-      "count": 32,
+      "count": 8,
       "item": "kubejs:dense_slag"
     },
     "fluid_output":{

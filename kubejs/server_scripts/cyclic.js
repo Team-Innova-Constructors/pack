@@ -23,15 +23,4 @@ ServerEvents.recipes(event => {
          C: 'minecraft:gold_ingot',
       }
    )
-   event.shaped(Item.of('cyclic:peace_candle', 1), [
-      ' A ',
-      'CBC',
-      'CCC'
-   ],
-      {
-         A: '#minecraft:candles',
-         B: 'minecraft:ice',
-         C: 'minecraft:gold_ingot',
-      }
-   )
 })

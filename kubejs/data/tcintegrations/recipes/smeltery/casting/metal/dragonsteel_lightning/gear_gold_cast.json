@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/dragonsteel_lightning"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "cooling_time": 158,
+  "fluid": {
+    "amount": 360,
+    "tag": "forge:dragonsteel_lightning"
+  },
+  "result": {
+    "tag": "forge:gears/dragonsteel_lightning"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/dragonsteel_ice"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "cooling_time": 79,
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:dragonsteel_ice"
+  },
+  "result": {
+    "tag": "forge:plates/dragonsteel_ice"
+  }
+}
