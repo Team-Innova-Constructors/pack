@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crystallizer('4x ae2:fluix_crystal', ['ae2:fluix_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(2000)
   event.recipes.thermal.crystallizer('2x ae2:quartz_cluster', ['ae2:certus_quartz_crystal', Fluid.of('kubejs:crystal_growth', 100)]).energy(2000)
   event.recipes.thermal.crystallizer('ae2:flawless_budding_quartz', ['ae2:flawed_budding_quartz', Fluid.of('manaliquidizer:mana_fluid', 32000)]).energy(32000)
+  event.recipes.thermal.crystallizer('etshtinker:knsu', ['thermal:niter_dust', Fluid.of('thermal:syrup', 250)]).energy(10000)
   //熔岩炉
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(100000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(200000)
@@ -46,6 +47,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'),Fluid.of('thermal:latex',250)).energy(800)
+  //离心
+  event.recipes.thermal.centrifuge(['thermal:sulfur_dust','2x thermal:niter_dust','mekanism:dust_charcoal'],'4x minecraft:gunpowder').energy(10000)
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
