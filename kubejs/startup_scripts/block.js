@@ -17,4 +17,6 @@ StartupEvents.registry("block",event=>{
     event.create("atherium_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
     event.create("blitz_luminium_block","basic").requiresTool(true).hardness(2.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.COPPER)
     event.create("stellaralloy_block","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.COPPER)
+    event.create("mercury_orichalcum_ore","basic").requiresTool(true).hardness(3.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool').material('netherite').soundType(SoundType.ANCIENT_DEBRIS).lightLevel(8).requiresTool(true)
+    event.create("mercury_tungsten_ore","basic").requiresTool(true).hardness(2.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool').material('netherite').soundType(SoundType.ANCIENT_DEBRIS).requiresTool(true)
 })

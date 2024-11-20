@@ -24,5 +24,33 @@ LootJS.modifiers(event => {
         .anyStructure(["aether:silver_dungeon"], false)
         .addLoot(LootEntry.of("cti:electronium_ammo",9)
         .when((c) => c.randomChance(1.75)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:end_city"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",3)
+        .when((c) => c.randomChance(0.25)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:end_city"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",2)
+        .when((c) => c.randomChance(0.75)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:end_city"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",1)
+        .when((c) => c.randomChance(0.9)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:end_city"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:ender_residual_interest",1)
+        .when((c) => c.randomChance(1)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:end_city"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:ender_residual_interest",1)
+        .when((c) => c.randomChance(0.5)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:end_city"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:ender_residual_interest",1)
+        .when((c) => c.randomChance(0.25)));
+    event.addLootTypeModifier(LootType.CHEST)
+        .anyStructure(["minecraft:fortress"], false)
+        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",1)
+        .when((c) => c.randomChance(0.55)));
         
 })

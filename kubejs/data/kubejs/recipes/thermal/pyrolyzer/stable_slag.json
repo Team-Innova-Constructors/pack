@@ -6,7 +6,7 @@
     "result": [
       {
         "item": "kubejs:tungsten_ingot",
-        "chance": 3
+        "count": 3
       },
       {
         "item": "minecraft:netherite_scrap",

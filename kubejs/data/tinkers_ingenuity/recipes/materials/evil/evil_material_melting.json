@@ -1,6 +1,6 @@
 {
   "type": "tconstruct:material_melting",
-  "input": "tinkers_ingenuity:evil_material",
+  "input": "tinkers_ingenuity:evil",
   "temperature": 1834,
   "result": {
     "fluid": "tinkers_ingenuity:molten_evil",

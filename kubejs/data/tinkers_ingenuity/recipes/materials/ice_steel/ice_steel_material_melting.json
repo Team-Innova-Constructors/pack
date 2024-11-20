@@ -1,6 +1,6 @@
 {
   "type": "tconstruct:material_melting",
-  "input": "tinkers_ingenuity:ice_steel_material",
+  "input": "tinkers_ingenuity:ice_steel",
   "temperature": 3325,
   "result": {
     "fluid": "tinkers_ingenuity:molten_ice_steel",

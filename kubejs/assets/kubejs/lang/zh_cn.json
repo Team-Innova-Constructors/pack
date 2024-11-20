@@ -38,6 +38,8 @@
     "block.kubejs.stellar_ultra_dense_ore":"超致密矿石",
     "block.kubejs.stellar_stone":"星海石",
     "block.kubejs.stellar_stone_diamond_ore":"星海钻石矿",
+    "block.kubejs.mercury_tungsten_ore":"水星钨矿石",
+    "block.kubejs.mercury_orichalcum_ore":"水星山铜矿",
 
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
     "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",

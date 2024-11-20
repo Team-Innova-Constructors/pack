@@ -10,7 +10,7 @@
       },
       {
         "item": "minecraft:gravel",
-        "chance": 1
+        "count": 1
       },
       {
         "fluid": "etshtinker:molten_electronium",
