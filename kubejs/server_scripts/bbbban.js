@@ -88,7 +88,10 @@ ServerEvents.recipes(event => {
 		'projecte:dm_helmet',
 		'projecte:dm_chestplate',
 		'projecte:dm_leggings',
-		'projecte:dm_boots'
+		'projecte:dm_boots',
+		'projecte:condenser_mk1',
+		'projecte:condenser_mk2',
+		'projecte:gem_of_eternal_density'
 	]
 	for (let i of meka){
 		event.remove([{ id: `${i}` }])
@@ -108,6 +111,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'l2hostility:curse_of_wrath'})
 	event.remove({id:'l2hostility:book_of_omniscience'})
 	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
+	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_wrath' })
 	event.remove({id:'megacells:inscriber/bulk_cell_component'})
 	event.remove({id:'thermal:fuels/compression/creosote'})
 	event.remove({id:'thermal:machines/refinery/refinery_heavy_oil'})
@@ -186,7 +190,9 @@ ServerEvents.recipes(event => {
       'cyclic:wand_hypno',
 	  'cyclic:uncrafter',
 	  'cyclic:sleeping_mat',
-	  'cyclic:charm_crit'
+	  'cyclic:charm_crit',
+	  'cyclic:crafting_stick',
+	  'cyclic:crafting_bag'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
     //堆

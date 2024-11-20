@@ -6,12 +6,8 @@
       "fluid": "tconstruct:molten_cobalt"
     },
     {
-      "amount": 100,
-      "fluid": "tconstruct:blazing_blood"
-    },
-    {
-      "amount": 250,
-      "fluid": "tconstruct:liquid_soul"
+      "amount": 1000,
+      "fluid": "tinkersinnovation:molten_active_soul"
     }
   ],
   "result": {

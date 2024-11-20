@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/dragonsteel_ice"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "cooling_time": 237,
+  "fluid": {
+    "amount": 810,
+    "tag": "forge:dragonsteel_ice"
+  },
+  "result": {
+    "tag": "forge:storage_blocks/dragonsteel_ice"
+  }
+}

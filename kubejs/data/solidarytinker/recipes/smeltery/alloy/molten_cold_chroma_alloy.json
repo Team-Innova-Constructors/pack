@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "etshtinker"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "etshtinker:molten_activated_chroma_steel",
+      "amount": 270
+    },
+    {
+      "name": "solidarytinker:molten_extremelycoldsteel",
+      "amount": 360
+    },
+    {
+      "name": "kubejs:fluid_cryotheum",
+      "amount": 1000
+    }
+  ],
+  "result": {
+    "fluid": "solidarytinker:molten_cold_chroma_alloy",
+    "amount": 180
+  },
+  "temperature": 4320
+}
