@@ -1,0 +1,21 @@
+{
+  "type": "thermal:pyrolyzer",
+  "ingredient": {
+    "item": "kubejs:mercury_tungsten_ore"
+  },
+  "result": [
+    {
+      "item": "kubejs:tungsten_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "chance": 0.10
+    },
+    {
+      "fluid": "kubejs:volatile_lava",
+      "amount": 1000
+    }
+  ],
+  "experience": 1.35
+}

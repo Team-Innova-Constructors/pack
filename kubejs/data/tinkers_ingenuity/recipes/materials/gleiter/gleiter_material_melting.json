@@ -1,6 +1,6 @@
 {
   "type": "tconstruct:material_melting",
-  "input": "tinkers_ingenuity:gleiter_material",
+  "input": "tinkers_ingenuity:gleiter",
   "temperature": 8362,
   "result": {
     "fluid": "tinkers_ingenuity:molten_gleiter",

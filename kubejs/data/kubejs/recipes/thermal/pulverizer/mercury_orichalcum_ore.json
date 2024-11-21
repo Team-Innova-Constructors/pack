@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "kubejs:mercury_orichalcum_ore"
+  },
+  "result": [
+    {
+      "item": "tinkers_ingenuity:orichalcum_fragment",
+      "chance": 9.0
+    }
+  ],
+  "experience": 100.2
+}

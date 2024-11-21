@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "kubejs:mercury_orichalcum_ore"
+  },
+  "result": "tinkers_ingenuity:orichalcum_ingot"
+}
