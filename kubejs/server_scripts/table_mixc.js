@@ -75,6 +75,11 @@ ServerEvents.recipes(event => {
       'avaritia:neutron_nugget',
    ]
    )
+   event.shapeless(Item.of('immersiveengineering:graphite_electrode').withNBT('{Unbreakable:1b}'), [
+      'immersiveengineering:graphite_electrode',
+      'l2complements:eternium_ingot'
+   ]
+   )
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [

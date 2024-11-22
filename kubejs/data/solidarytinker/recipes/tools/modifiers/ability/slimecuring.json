@@ -1,0 +1,37 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "tinkerscalibration:queens_slime_reinforcement",
+      "amount_needed": 16
+    },
+    {
+      "item": "tconstruct:slimesteel_ingot",
+      "amount_needed": 16
+    },
+    {
+      "item": "tinkerscalibration:queens_slime_reinforcement",
+      "amount_needed": 16
+    },
+    {
+      "item": "tinkerscalibration:emperorslime_ingot",
+      "amount_needed": 6
+    },
+    {
+      "item": "tconstruct:queens_slime_ingot",
+      "amount_needed": 6
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "solidarytinker:slimecuring",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}
