@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "kubejs:zirconium_alloy"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "kubejs:zirconium_alloy"
+}
