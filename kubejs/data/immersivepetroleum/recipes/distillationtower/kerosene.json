@@ -1,0 +1,23 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "energy": 10240,
+  "input": {
+    "amount": 100,
+    "tag": "forge:kerosene"
+  },
+  "results": [
+    {
+      "amount": 20,
+      "fluid": "immersivepetroleum:naphtha"
+    },
+    {
+      "amount": 30,
+      "fluid": "immersivepetroleum:gasoline_additives"
+    },
+    {
+      "amount": 50,
+      "fluid": "immersivepetroleum:diesel_sulfur"
+    }
+  ],
+  "time": 10
+}

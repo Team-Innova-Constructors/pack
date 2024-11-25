@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+   event.smithing('toms_storage:ts.adv_wireless_terminal','toms_storage:ts.wireless_terminal','tinkers_thinking:obsidian_bronze_ingot')
    //超致密互换
    event.shapeless('9x kubejs:ultra_dense_nugget', 'etshtinker:ultra_dense')
    event.shapeless('etshtinker:ultra_dense', '9x kubejs:ultra_dense_nugget')
@@ -96,8 +97,6 @@ ServerEvents.recipes(event => {
          F: 'ae2:calculation_processor_press',
       }
    )
-
-
    event.shaped(Item.of('projecte:dark_matter', 1), [
       'ABA',
       'BCB',

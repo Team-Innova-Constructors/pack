@@ -1,0 +1,22 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.6,
+  "fermentingtime": 3000,
+  "ingredients": [
+    {
+      "item": "tofucraft:tofumomen"
+    },
+    {
+      "item": "tofucraft:tofumomen"
+    },
+    {
+      "item": "tofucraft:tofumomen"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 3,
+    "item": "tofucraft:tofudried"
+  },
+  "temperature": 3
+}

@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "minecraft:kelp"
+    },
+    "render": {
+        "type": "stacking",
+        "block": "minecraft:kelp"
+    },
+    "results": [
+        {
+            "item": "minecraft:kelp"
+        }
+    ],
+    "soil": {
+        "item": "minecraft:sand"
+    },
+    "time": 300
+}

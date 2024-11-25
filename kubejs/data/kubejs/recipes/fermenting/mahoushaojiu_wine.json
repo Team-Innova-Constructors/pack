@@ -1,0 +1,30 @@
+{
+    "type": "brewinandchewin:fermenting",
+    "container": {
+      "item": "brewinandchewin:tankard"
+    },
+    "experience": 2,
+    "fermentingtime": 6000,
+    "fluiditem": {
+      "item": "brewinandchewin:rice_wine"
+    },
+    "ingredients": [
+      {
+        "item": "ars_nouveau:source_gem"
+      },
+      {
+        "item": "ars_nouveau:source_berry"
+      },
+      {
+        "item": "botania:pixie_dust"
+      },
+      {
+        "item": "botania:magenta_petal"
+      }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+      "item": "cti:mahoushaojiu_wine"
+    },
+    "temperature": 5
+  }

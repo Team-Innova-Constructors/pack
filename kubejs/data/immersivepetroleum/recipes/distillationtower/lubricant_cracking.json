@@ -1,0 +1,25 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "energy": 10240,
+  "byproducts": [
+    {
+      "chance": "0.4",
+      "item": "immersivepetroleum:bitumen"
+    }
+  ],
+  "input": {
+    "amount": 100,
+    "tag": "forge:lubricant_cracked"
+  },
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "immersivepetroleum:kerosene"
+    },
+    {
+      "amount": 100,
+      "fluid": "immersivepetroleum:diesel_sulfur"
+    }
+  ],
+  "time": 10
+}

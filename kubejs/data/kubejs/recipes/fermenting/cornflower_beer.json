@@ -1,0 +1,30 @@
+{
+    "type": "brewinandchewin:fermenting",
+    "container": {
+      "item": "brewinandchewin:tankard"
+    },
+    "experience": 1.2,
+    "fermentingtime": 12000,
+    "fluiditem": {
+      "item": "brewinandchewin:beer"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:cornflower"
+      },
+      {
+        "item": "minecraft:cornflower"
+      },
+      {
+        "item": "tofucraft:soymilk"
+      },
+      {
+        "item": "minecraft:kelp"
+      }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+      "item": "cti:cornflower_beer"
+    },
+    "temperature": 5
+  }

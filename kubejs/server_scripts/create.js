@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('tconstruct:blazing_blood').withAmount(1000)])
 
 
-
+    event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
 ]  ,Item.of('dreadsteel:dreadsteel_helmet'), [

@@ -1,0 +1,30 @@
+{
+    "type": "brewinandchewin:fermenting",
+    "container": {
+      "item": "brewinandchewin:tankard"
+    },
+    "experience": 1.2,
+    "fermentingtime": 3000,
+    "fluiditem": {
+      "item": "brewinandchewin:vodka"
+    },
+    "ingredients": [
+      {
+        "item": "biomancy:withering_ooze"
+      },
+      {
+        "item": "biomancy:exotic_dust"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "botania:quartz_dark"
+      }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+      "item": "cti:unknown_wine"
+    },
+    "temperature": 3
+  }

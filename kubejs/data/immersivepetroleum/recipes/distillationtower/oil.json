@@ -1,0 +1,33 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "chance": 1,
+      "item": "immersivepetroleum:bitumen"
+    }
+  ],
+  "energy": 20480,
+  "input": {
+    "amount": 1000,
+    "tag": "forge:crude_oil"
+  },
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "immersivepetroleum:naphtha"
+    },
+    {
+      "amount": 400,
+      "fluid": "immersivepetroleum:kerosene"
+    },
+    {
+      "amount": 600,
+      "fluid": "immersivepetroleum:diesel_sulfur"
+    },
+    {
+      "amount": 200,
+      "fluid": "immersivepetroleum:lubricant"
+    }
+  ],
+  "time": 20
+}

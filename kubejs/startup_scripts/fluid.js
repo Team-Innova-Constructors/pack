@@ -73,4 +73,28 @@ StartupEvents.registry("fluid",event=>{
     biotic_acidsAttributes.dropOff(2);
     biotic_acidsAttributes.tickDelay(20);
     biotic_acids.attributes = biotic_acidsAttributes;
+    //焦油混合物
+    let tar_mix = event.create("tar_mix").thinTexture(0x413c40).temperature(500).bucketColor(0x413c40).displayName("tar_mix");
+    let tar_mixAttributes = tar_mix.createAttributes();
+    tar_mixAttributes.dropOff(2);
+    tar_mixAttributes.tickDelay(20);
+    tar_mix.attributes = tar_mixAttributes;
+    //乙炔
+    let ethyne = event.create("ethyne").thinTexture(0xcac1f5).temperature(500).bucketColor(0xcac1f5).displayName("ethyne");
+    let ethyneAttributes = ethyne.createAttributes();
+    ethyneAttributes.dropOff(2);
+    ethyneAttributes.tickDelay(20);
+    ethyne.attributes = ethyneAttributes;
+    //重金属高温熔岩
+    let hot_heavymetal_lava = event.create("hot_heavymetal_lava").thickTexture(0xff6923).temperature(2000).bucketColor(0xff6923).displayName("hot_heavymetal_lava");
+    let hot_heavymetal_lavaAttributes = hot_heavymetal_lava.createAttributes();
+    hot_heavymetal_lavaAttributes.dropOff(2);
+    hot_heavymetal_lavaAttributes.tickDelay(20);
+    hot_heavymetal_lava.attributes = hot_heavymetal_lavaAttributes;
+    //蜂王浆
+    let royal_jelly = event.create("royal_jelly").thickTexture(0xfff895).temperature(2000).bucketColor(0xfff895).displayName("royal_jelly");
+    let royal_jellyAttributes = royal_jelly.createAttributes();
+    royal_jellyAttributes.dropOff(2);
+    royal_jellyAttributes.tickDelay(20);
+    royal_jelly.attributes = royal_jellyAttributes;
 })

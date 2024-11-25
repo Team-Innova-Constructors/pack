@@ -124,6 +124,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'gobber2:blastfurnace'})
 	event.remove({id:'immersiveengineering:blastfurnace/steel'})
 	event.remove({id:'immersiveengineering:blastfurnace/steel_block'})
+	event.remove({id:'toms_storage:adv_wireless_terminal'})
 
 	//移除原有矿脉
 	let coe =[

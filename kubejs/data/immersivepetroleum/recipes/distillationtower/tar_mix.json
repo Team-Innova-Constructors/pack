@@ -1,0 +1,33 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "chance": 0.1,
+      "item": "immersivepetroleum:bitumen"
+    }
+  ],
+  "energy": 20480,
+  "input": {
+    "amount": 100,
+    "tag": "kubejs:tar_mix"
+  },
+  "results": [
+    {
+      "amount": 40,
+      "fluid": "kubejs:ethyne"
+    },
+    {
+      "amount": 20,
+      "fluid": "immersivepetroleum:kerosene"
+    },
+    {
+      "amount": 100,
+      "fluid": "immersivepetroleum:diesel_sulfur"
+    },
+    {
+      "amount": 20,
+      "fluid": "immersivepetroleum:lubricant"
+    }
+  ],
+  "time": 20
+}

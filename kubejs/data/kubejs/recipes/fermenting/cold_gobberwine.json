@@ -1,0 +1,30 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 1.2,
+  "fermentingtime": 6000,
+  "fluiditem": {
+    "item": "brewinandchewin:withering_dross"
+  },
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_gooey_bread"
+    },
+    {
+      "item": "gobber2:gobber2_goo"
+    },
+    {
+      "item": "thermal:blizz_powder"
+    },
+    {
+      "item": "kubejs:dust_cryotheum"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "cti:cold_gobberwine"
+  },
+  "temperature": 1
+}

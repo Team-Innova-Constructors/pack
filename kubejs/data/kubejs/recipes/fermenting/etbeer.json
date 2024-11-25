@@ -1,0 +1,30 @@
+{
+    "type": "brewinandchewin:fermenting",
+    "container": {
+      "item": "brewinandchewin:tankard"
+    },
+    "experience": 1.2,
+    "fermentingtime": 12000,
+    "fluiditem": {
+      "item": "biomancy:acid_bucket"
+    },
+    "ingredients": [
+      {
+        "item": "biomancy:nutrient_paste"
+      },
+      {
+        "item": "biomancy:bile"
+      },
+      {
+        "item": "biomancy:mob_gland"
+      },
+      {
+        "item": "biomancy:volatile_gland"
+      }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+      "item": "cti:etbeer"
+    },
+    "temperature": 5
+  }

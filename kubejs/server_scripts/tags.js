@@ -72,3 +72,19 @@ ServerEvents.tags('block', event => {
     event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
     event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
 })
+ServerEvents.tags('block', event => {
+    //修改锆
+    event.add('forge:completely_new_tag', 'forge:ores/zirconium')
+    event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
+    event.add('forge:completely_new_tag', 'forge:storage_blocks/zirconium')
+
+    event.add('forge:ores/zirconium', 'tinkers_reforged:titanium_ore')
+    event.remove('forge:ores/titanium', 'tinkers_reforged:titanium_ore')
+    event.add('forge:storage_blocks/raw_zirconium', 'tinkers_reforged:raw_titanium_block')
+    event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
+    event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
+    event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
+
+    event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
+    event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
+})
