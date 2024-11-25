@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "cti:pressure_loaded"
+    },
+    {
+      "name": "tinkers_ingenuity:laceration",
+      "level": 1
+    }
+  ]
+}

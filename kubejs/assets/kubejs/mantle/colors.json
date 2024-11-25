@@ -1,5 +1,7 @@
 {
-"modifier.kubejs":{
-
-}
+  "modifier.kubejs": {
+  },
+  "material.kubejs": {
+    "zirconium_alloy": "#FACCFF"
+  }
 }

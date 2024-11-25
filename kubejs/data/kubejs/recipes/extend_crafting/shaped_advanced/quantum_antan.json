@@ -1,11 +1,11 @@
 {
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      "AABAA",
-      "ACCCA",
-      "BCDCB",
-      "ACCCA",
-      "AABAA"
+      "AAAAA",
+      "AADAA",
+      "ADBDA",
+      "AADAA",
+      "AAAAA"
     ],
     "key": {
       "A": {
@@ -13,9 +13,6 @@
       },
       "B": {
         "item": "ae2:singularity"
-      },
-      "C": {
-        "item": "ae2:quantum_ring"
       },
       "D": {
         "item": "ae2:quantum_link"

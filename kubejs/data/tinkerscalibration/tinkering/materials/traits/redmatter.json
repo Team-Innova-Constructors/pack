@@ -8,13 +8,17 @@
   "perStat": {
     "tconstruct:ranged": [
       {
+        "name": "cti:dominate_replace",
+        "level": 1
+      },
+      {
         "name": "tinkerscalibration:subdue",
         "level": 1
       }
     ],
     "tconstruct:melee_harvest": [
       {
-        "name": "tinkerscalibration:dominate",
+        "name": "cti:dominate_replace",
         "level": 1
       },
       {
