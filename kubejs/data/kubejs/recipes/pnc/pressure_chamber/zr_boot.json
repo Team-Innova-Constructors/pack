@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "item": "pneumaticcraft:compressed_iron_boots"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 2,
+        "item": "kubejs:zirconium_alloy"
+      }
+    ],
+    "pressure": 2.0,
+    "results": [
+      {
+        "item": "tconstruct:boots_plating",
+        "count": 1,
+        "nbt": "{Material:\"kubejs:zirconium_alloy\"}"
+      }
+    ]
+  }
