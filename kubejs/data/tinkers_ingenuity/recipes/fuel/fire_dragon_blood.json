@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "name": "immersivepetroleum:gasoline",
+    "amount": 100
+  },
+  "duration": 500,
+  "temperature": 6600
+}

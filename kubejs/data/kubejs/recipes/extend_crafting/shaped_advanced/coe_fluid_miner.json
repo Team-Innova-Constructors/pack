@@ -1,0 +1,42 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "FGHGB",
+    "BIIIB",
+    "ABBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_block"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:mechanical_pump"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "item": "create:hose_pulley"
+    },
+    "F": {
+      "item": "create:brass_casing"
+    },
+    "G": {
+      "item": "create:precision_mechanism"
+    },
+    "H": {
+      "item": "create:mechanical_drill"
+    },
+    "I": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "createoreexcavation:extractor"
+  }
+}

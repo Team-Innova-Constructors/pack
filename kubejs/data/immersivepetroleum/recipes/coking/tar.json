@@ -1,0 +1,23 @@
+{
+  "type": "immersivepetroleum:coker",
+  "energy": 16384,
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:tar"
+    },
+    "count": 10
+  },
+  "inputfluid": {
+    "amount": 1000,
+    "tag": "minecraft:water"
+  },
+  "result": {
+    "count": 2,
+    "item": "immersivepetroleum:bitumen"
+  },
+  "resultfluid": {
+    "amount": 100,
+    "fluid": "kubejs:tar_mix"
+  },
+  "time": 40
+}

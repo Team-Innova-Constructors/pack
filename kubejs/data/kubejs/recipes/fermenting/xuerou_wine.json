@@ -1,0 +1,30 @@
+{
+    "type": "brewinandchewin:fermenting",
+    "container": {
+      "item": "brewinandchewin:tankard"
+    },
+    "experience": 1.2,
+    "fermentingtime": 12000,
+    "fluiditem": {
+      "item": "brewinandchewin:saccharine_rum"
+    },
+    "ingredients": [
+      {
+        "item": "biomancy:living_flesh"
+      },
+      {
+        "item": "biomancy:organic_matter"
+      },
+      {
+        "item": "biomancy:creator_mix"
+      },
+      {
+        "item": "biomancy:primordial_core"
+      }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+      "item": "cti:xuerou_wine"
+    },
+    "temperature": 4
+  }
