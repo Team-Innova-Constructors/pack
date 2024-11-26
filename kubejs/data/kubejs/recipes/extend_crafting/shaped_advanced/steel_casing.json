@@ -21,7 +21,7 @@
       "tag": "forge:gears/invar"
     },
     "E": {
-      "item": "thermal:cured_rubber_block"
+      "item": "thermal:energy_cell"
     }
   },
   "result": {

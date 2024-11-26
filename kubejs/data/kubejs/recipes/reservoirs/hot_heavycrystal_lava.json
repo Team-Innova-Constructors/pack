@@ -1,0 +1,21 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "biomes": {
+    "isBlacklist": false,
+    "list": []
+  },
+  "dimensions": {
+    "isBlacklist": false,
+    "list": [
+      "minecraft:overworld",
+      "minecraft:the_nether"
+    ]
+  },
+  "equilibrium": 0,
+  "fluid": "kubejs:hot_heavycrystal_lava",
+  "fluidcapacity": 32000000,
+  "fluidminimum": 16000000,
+  "fluidtrace": 6,
+  "name": "hot_heavycrystal_lava",
+  "weight": 20
+}

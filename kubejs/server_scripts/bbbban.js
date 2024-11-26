@@ -125,6 +125,9 @@ ServerEvents.recipes(event => {
 	event.remove({id:'immersiveengineering:blastfurnace/steel'})
 	event.remove({id:'immersiveengineering:blastfurnace/steel_block'})
 	event.remove({id:'toms_storage:adv_wireless_terminal'})
+	event.remove({id:'industrialforegoing:gold_gear'})
+	event.remove({id:'create:sequenced_assembly/precision_mechanism'})
+
 
 	//移除原有矿脉
 	let coe =[
@@ -153,6 +156,8 @@ ServerEvents.recipes(event => {
 	'immersiveengineering:mineral/nether_silt',
 	'immersiveengineering:mineral/beryl',
 	'immersiveengineering:mineral/cinnabar',
+	'immersivepetroleum:reservoirs/aquifer',
+	'immersivepetroleum:reservoirs/lava',
 	]
 	for (let i of immersiveengineeringore) {event.remove({id:`${i}`})}
 	//莱特兰附魔书

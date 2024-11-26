@@ -91,8 +91,14 @@ StartupEvents.registry("fluid",event=>{
     hot_heavymetal_lavaAttributes.dropOff(2);
     hot_heavymetal_lavaAttributes.tickDelay(20);
     hot_heavymetal_lava.attributes = hot_heavymetal_lavaAttributes;
+    //晶体高温熔岩
+    let hot_heavycrystal_lava = event.create("hot_heavycrystal_lava").thickTexture(0xffe5ca).temperature(2000).bucketColor(0xffe5ca).displayName("hot_heavymetal_lava");
+    let hot_heavycrystal_lavaAttributes = hot_heavycrystal_lava.createAttributes();
+    hot_heavycrystal_lavaAttributes.dropOff(2);
+    hot_heavycrystal_lavaAttributes.tickDelay(20);
+    hot_heavycrystal_lava.attributes = hot_heavycrystal_lavaAttributes;
     //蜂王浆
-    let royal_jelly = event.create("royal_jelly").thickTexture(0xfff895).temperature(2000).bucketColor(0xfff895).displayName("royal_jelly");
+    let royal_jelly = event.create("royal_jelly").thinTexture(0xfff895).temperature(2000).bucketColor(0xfff895).displayName("royal_jelly");
     let royal_jellyAttributes = royal_jelly.createAttributes();
     royal_jellyAttributes.dropOff(2);
     royal_jellyAttributes.tickDelay(20);
