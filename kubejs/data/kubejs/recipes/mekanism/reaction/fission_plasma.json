@@ -1,25 +1,25 @@
 {
   "type": "mekanism:reaction",
-  "duration": 100,
+  "duration": 10,
   "fluidInput": {
     "amount": 4000,
     "fluid": "mekanismgenerators:deuterium"
   },
   "gasInput": {
-    "amount": 4000,
+    "amount": 10000,
     "gas": "mekanism:nuclear_waste"
   },
   "gasOutput": {
-    "amount": 200,
+    "amount": 500,
     "gas": "cti:fission_plasma"
   },
   "itemInput": {
     "ingredient": {
-      "item": "avaritia:neutron"
+      "item": "avaritia:neutron_ingot"
     }
   },
   "itemOutput": {
-    "count": 1,
+    "count": 2,
     "item": "mekanism:reprocessed_fissile_fragment"
   }
 }

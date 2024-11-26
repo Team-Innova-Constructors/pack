@@ -1,0 +1,24 @@
+{
+    "condition": {
+      "modid": "immersiveengineering",
+      "type": "forge:mod_loaded"
+    },
+    "default": [
+      {
+        "name": "etshtinker:momentoaccel",
+        "level": 5
+      }
+    ],
+    "perStat" : {
+      "tconstruct:armor": [
+        {
+          "name": "etshtinker:solidified",
+          "level": 2
+        },
+        {
+            "name": "etshtinker:momentoaccel",
+            "level": 2
+        }
+      ]
+    }
+  }
