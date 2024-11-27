@@ -5,7 +5,7 @@
     "base_ingredient": {
       "tag": "forge:tar"
     },
-    "count": 10
+    "count": 8
   },
   "inputfluid": {
     "amount": 1000,
@@ -16,7 +16,7 @@
     "item": "immersivepetroleum:bitumen"
   },
   "resultfluid": {
-    "amount": 100,
+    "amount": 1000,
     "fluid": "kubejs:tar_mix"
   },
   "time": 40

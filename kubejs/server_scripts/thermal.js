@@ -45,6 +45,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(400000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(400000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_petrotheum', 250), 'kubejs:dust_petrotheum').energy(400000)
+  event.recipes.thermal.crucible(Fluid.of('thermal:redstone', 900), 'kubejs:crystal_redstone').energy(40000)
+  event.recipes.thermal.crucible(Fluid.of('thermal:glowstone', 1000), 'kubejs:crystal_glowstone').energy(40000)
+  event.recipes.thermal.crucible(Fluid.of('thermal:ender', 1000), 'kubejs:crystal_ender').energy(40000)
   //热解炉
   event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(20000)
   //压缩能源炉
@@ -80,6 +83,20 @@ ServerEvents.recipes(event => {
       C: 'thermal:dynamo_fuel_augment',
       D: '#thermal:glass/hardened',
       E: 'thermal:dynamo_throttle_augment',
+    }
+  )
+  //高级储罐
+  event.shaped(Item.of('cti:advanced_fluid_tank_augment',1),
+  [
+    'BAB',
+    'CDC',
+    'BAB'
+  ],
+    {
+      A: '#forge:gears/copper',
+      B: 'etshtinker:chroma_plate',
+      C: 'thermal:fluid_tank_augment',
+      D: 'thermal:redstone_servo',
     }
   )
   //更多插件

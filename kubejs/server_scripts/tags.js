@@ -84,7 +84,23 @@ ServerEvents.tags('block', event => {
     event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
     event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
     event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
-
+//防凋零
+let tconstructblock=[
+    'tconstruct:seared_stone',
+    'tconstruct:seared_cobble',
+    'tconstruct:seared_paver',
+    'tconstruct:seared_cracked_bricks',
+    'tconstruct:seared_fancy_bricks',
+    'tconstruct:seared_triangle_bricks',
+    'tconstruct:seared_ladder',
+    'tconstruct:seared_glass',
+    'tconstruct:seared_soul_glass',
+    'tconstruct:seared_tinted_glass',
+    'tconstruct:seared_drain'
+  ]
+  for (let i of tconstructblock) {
+    event.add('minecraft:wither_immune', `${i}`)
+  }
     event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
     event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
 })

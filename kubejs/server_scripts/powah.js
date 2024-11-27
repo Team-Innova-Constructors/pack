@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     for(let i of level){
       for(let j of type){
         event.replaceInput({mod:'powah',output:`${j}`+`${i}`}, "powah:capacitor_"+`${i}`,"powah:crystal_"+`${i}`)
-        event.replaceInput({mod:'powah',output:`${j}`+'hardened'}, "powah:capacitor_"+`${i}`,"powah:steel_energized")
+        event.replaceInput({mod:'powah',output:`${j}`+'hardened'}, 'powah:capacitor_hardened',"powah:steel_energized")
       }
     }
     //反应堆
