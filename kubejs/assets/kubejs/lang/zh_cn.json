@@ -204,5 +204,7 @@
 
     "material.kubejs.zirconium_alloy": "钛锆合金",
     "material.kubejs.zirconium_alloy.flavor": "空气锻造",
-    "material.kubejs.zirconium_alloy.encyclopedia": "具有独特纹理的复合相材料"
+    "material.kubejs.zirconium_alloy.encyclopedia": "具有独特纹理的复合相材料",
+
+    "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。"
 }

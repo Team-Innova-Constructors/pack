@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "etshtinker:exotic_matter",
+      "amount_needed": 8
+    },
+    {
+      "item": "minecraft:end_rod",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee/weapon"
+  },
+  "slots": {
+    "abilities": 2
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:warpengineex",
+  "level": {
+    "max": 4
+  }
+}

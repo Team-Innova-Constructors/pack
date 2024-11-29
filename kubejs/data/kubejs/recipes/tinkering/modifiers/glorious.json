@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "tinkers_ingenuity:splendid_ingot",
+      "amount_needed": 6
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  },
+  "allow_crystal": true,
+  "result": "tinkers_ingenuity:glorious",
+  "level": {
+    "max": 1
+  },
+  "slots": {
+    "abilities": 2
+  }
+}

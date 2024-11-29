@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "etshtinker:ionizer",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:fluid_chamber",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged/bows"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:ionizing_arrow",
+  "level": {
+    "max": 3
+  }
+}

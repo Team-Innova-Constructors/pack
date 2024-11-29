@@ -8,6 +8,7 @@ event.addFluid('manaliquidizer:mana_fluid', Text.black({ "translate": "kubejs.je
 event.addFluid('manaliquidizer:hot_heavymetal_lava', Text.black({ "translate": "kubejs.jei.hot_heavymetal_lava" }))
 event.addFluid('manaliquidizer:royal_jelly', Text.black({ "translate": "kubejs.jei.royal_jelly" }))
 event.addItem('immersiveengineering:railgun', Text.black({ "translate": "kubejs.jei.railgun" }))
+event.addItem('thermal:chiller_ingot_cast', Text.black({ "translate": "kubejs.jei.ingot_cast" }))
 
 })
 

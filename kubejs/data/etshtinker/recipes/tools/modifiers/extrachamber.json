@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:bucket",
+      "amount_needed": 4
+    },
+    {
+      "item": "minecraft:bucket",
+      "amount_needed": 4
+    }
+  ],
+  "tools":[
+    {
+      "tag": "etshtinker:fluid_weapons"
+    }
+  ],
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:extrachamber",
+  "level": {
+    "max": 5
+  }
+}

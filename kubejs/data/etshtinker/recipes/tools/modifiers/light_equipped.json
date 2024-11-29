@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "amount_needed": 1
+    },
+    {
+      "item": "minecraft:amethyst_block",
+      "amount_needed": 4
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "amount_needed": 1
+    }
+  ],
+  "tools":[
+    {
+      "tag": "etshtinker:fluid_weapons"
+    }
+  ],
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:light_equipped",
+  "level": {
+    "max": 5
+  }
+}
