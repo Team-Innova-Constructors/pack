@@ -15,7 +15,20 @@ ServerEvents.recipes(event => {
    //其它金属
    event.shapeless('9x etshtinker:stellaralloy', 'kubejs:stellaralloy_block')
    event.shapeless('kubejs:stellaralloy_block', '9x etshtinker:stellaralloy')
-
+   //管道替换
+   event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:advanced_upgrade'}, 'minecraft:redstone_block','minecraft:redstone')
+   event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:advanced_upgrade'}, 'minecraft:diamond','minecraft:lapis_lazuli')
+   event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:ultimate_upgrade'}, 'minecraft:redstone_block','minecraft:redstone')
+   event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:ultimate_upgrade'}, 'minecraft:netherite_ingot','tinkers_thinking:obsidian_bronze_ingot')
+   let dye=[
+      'black_dye',
+      'blue_dye',
+      'red_dye',
+      'green_dye'
+    ]
+    for(let i of dye){
+      event.replaceInput({mod:'sfm',type:'crafting_shaped'}, 'minecraft:'+`${i}`,'#forge:dyes')
+    }
    event.shapeless('9x etshtinker:blitz_lumium', 'kubejs:blitz_luminium_block')
    event.shapeless('kubejs:blitz_luminium_block', '9x etshtinker:blitz_lumium')
    //星图

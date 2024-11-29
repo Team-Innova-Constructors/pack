@@ -121,7 +121,7 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:coal'), Item.of('
 
 
 //高压晶体宝石矿
-event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_diamond'), Item.of('createoreexcavation:raw_emerald'),Item.of('minecraft:amethyst_cluster'),Item.of('minecraft:lapis_lazuli')], '{"text": "高压晶体矿"}', 50, 400)
+event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_diamond'), Item.of('createoreexcavation:raw_emerald'),Item.of('minecraft:amethyst_cluster'),Item.of('minecraft:lapis_lazuli')], '{"text": "高压晶体矿"}', 50, 200)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
@@ -153,5 +153,13 @@ event.recipes.createoreexcavation.drilling([Item.of('thermal:sulfur_dust').withC
 .biomeWhitelist('minecraft:is_overworld')
 .stress(256)
 .id("surfur_nickel");
+
+//络合物矿
+event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').withChance(0.2), Item.of('kubejs:crystal_glowstone').withChance(0.2),Item.of('kubejs:crystal_redstone').withChance(0.2)], '{"text": "络合物矿"}', 50, 100)
+.drill('#createoreexcavation:second_createore_drill')
+.fluid('minecraft:water')
+.biomeWhitelist('minecraft:is_overworld')
+.stress(256)
+.id("complex");
 },
 );

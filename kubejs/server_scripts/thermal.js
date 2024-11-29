@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
   //感应炉
   event.recipes.thermal.smelter('4x etshtinker:hardlead_plate', ['3x #forge:ingots/lead', 'etshtinker:bismuth_ingot']).energy(10000)
   event.recipes.thermal.smelter(Item.of('etshtinker:bismuth_ingot').withChance(1.25), ['etshtinker:bismuthinite']).energy(12000)
+  event.recipes.thermal.smelter('tinkers_thinking:obsidian_bronze_ingot', ['#forge:ingots/copper', '2x #forge:dusts/obsidian']).energy(2000)
   event.recipes.thermal.smelter(Item.of('tinkers_reforged:titanium_dust').withChance(2.5), ['kubejs:stable_slag', 'tinkers_reforged:titanium_dust']).energy(12000)
   //罐装机器
   event.recipes.thermal.bottler('immersiveengineering:treated_wood_horizontal', ['#minecraft:planks', Fluid.of('immersiveengineering:creosote', 125)]).energy(400)
@@ -31,7 +32,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)], Fluid.of('etshtinker:overchargedneutronium', 100))
   event.recipes.thermal.refinery([Item.of('thermal:sulfur_dust').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:light_oil', 100))
   event.recipes.thermal.refinery([Item.of('thermal:tar').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:heavy_oil', 100))
-  event.recipes.thermal.refinery([Item.of('minecraft:honeycomb').withChance(0.75), Fluid.of('create:honey', 250)], Fluid.of('kubejs:royal_jelly', 250))
+  event.recipes.thermal.refinery([Item.of('minecraft:honeycomb').withChance(0.75), Fluid.of('create:honey', 500)], Fluid.of('kubejs:royal_jelly', 250))
   event.recipes.thermal.refinery([Item.of('kubejs:stable_slag').withChance(1.15), Fluid.of('tinkerscalibration:moltentitanium', 180)], Fluid.of('kubejs:used_lava', 200)).energy(25000)
   //结晶器
   event.recipes.thermal.crystallizer('2x obscure_api:astral_dust', ['obscure_api:astral_dust', Fluid.of('manaliquidizer:mana_fluid', 16000)]).energy(10000)
@@ -44,6 +45,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cryotheum', 250), 'kubejs:dust_cryotheum').energy(400000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_pyrotheum', 250), 'kubejs:dust_pyrotheum').energy(400000)
   event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_petrotheum', 250), 'kubejs:dust_petrotheum').energy(400000)
+  event.recipes.thermal.crucible(Fluid.of('thermal:redstone', 900), 'kubejs:crystal_redstone').energy(40000)
+  event.recipes.thermal.crucible(Fluid.of('thermal:glowstone', 1000), 'kubejs:crystal_glowstone').energy(40000)
+  event.recipes.thermal.crucible(Fluid.of('thermal:ender', 1000), 'kubejs:crystal_ender').energy(40000)
   //热解炉
   event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(20000)
   //压缩能源炉
@@ -64,9 +68,11 @@ ServerEvents.recipes(event => {
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)
-
+  //锯木机
+  event.recipes.thermal.sawmill('6x create:shaft','create:andesite_alloy')
   //次级能源炉燃烧组件
-  event.shaped(Item.of('cti:secondary_dyano_augment', 1), [
+  event.shaped(Item.of('cti:secondary_dyano_augment',1),
+  [
     'BAB',
     'CDE',
     'BAB'
@@ -74,9 +80,23 @@ ServerEvents.recipes(event => {
     {
       A: 'immersivepetroleum:paraffin_wax',
       B: 'etshtinker:chroma_plate',
-      C: 'ae2:engineering_processor_press',
-      D: 'thermal:dynamo_fuel_augment',
+      C: 'thermal:dynamo_fuel_augment',
+      D: '#thermal:glass/hardened',
       E: 'thermal:dynamo_throttle_augment',
+    }
+  )
+  //高级储罐
+  event.shaped(Item.of('cti:advanced_fluid_tank_augment',1),
+  [
+    'BAB',
+    'CDC',
+    'BAB'
+  ],
+    {
+      A: '#forge:gears/copper',
+      B: 'etshtinker:chroma_plate',
+      C: 'thermal:fluid_tank_augment',
+      D: 'thermal:redstone_servo',
     }
   )
   //更多插件

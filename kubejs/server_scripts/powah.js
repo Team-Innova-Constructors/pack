@@ -6,6 +6,28 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod:'powah',output:'powah:capacitor_niotic'}, 'powah:dielectric_paste','kubejs:violium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','kubejs:atherium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_nitro'}, 'powah:dielectric_paste','mekanism:pellet_plutonium')
+
+    let level=[
+      "nitro",
+      "spirited",
+      "niotic",
+      "blazing",
+    ]
+    let type=[
+      'powah:battery_',
+      'powah:energy_cell_',
+      'powah:energy_cable_',
+      'powah:energizing_rod_',
+      'powah:player_transmitter_',
+      'powah:energy_hopper_',
+      'powah:energy_discharger_',
+    ]
+    for(let i of level){
+      for(let j of type){
+        event.replaceInput({mod:'powah',output:`${j}`+`${i}`}, "powah:capacitor_"+`${i}`,"powah:crystal_"+`${i}`)
+        event.replaceInput({mod:'powah',output:`${j}`+'hardened'}, 'powah:capacitor_hardened',"powah:steel_energized")
+      }
+    }
     //反应堆
     event.shaped(
       Item.of('powah:reactor_basic',4), [

@@ -14,6 +14,9 @@
     "fluid.kubejs.biotic_acids": "浓缩腐蚀性生物酸",
     "fluid.kubejs.tar_mix": "焦油混合物",
     "fluid.kubejs.ethyne": "液态乙炔",
+    "fluid.kubejs.royal_jelly": "蜂王浆",
+    "fluid.kubejs.hot_heavymetal_lava": "重金属高温熔岩",
+    "fluid.kubejs.hot_heavycrystal_lava": "晶体高温熔岩",
 
     
     "singularity.avaritia.bismuth": "铋",
@@ -55,6 +58,9 @@
     "item.kubejs.co2_water_bucket":"富二氧化碳水桶",
     "item.kubejs.ca_solution_bucket":"钙质溶液桶",
     "item.kubejs.biotic_acids_bucket":"浓缩腐蚀性生物酸桶",
+    "item.kubejs.royal_jelly_bucket":"蜂王浆桶",
+    "item.kubejs.hot_heavymetal_lava_bucket":"重金属高温熔岩桶",
+    "item.kubejs.hot_heavycrystal_lava_bucket":"晶体高温熔岩桶",
     
     "item.kubejs.protonium_nugget":"质子粒",
     "item.kubejs.neutron_gear":"中子齿轮",
@@ -102,6 +108,9 @@
     "item.kubejs.dust_cryotheum":"凛冰粉",
     "item.kubejs.dust_pyrotheum":"炽焱粉",
     "item.kubejs.dust_petrotheum":"地岩粉",
+    "item.kubejs.crystal_ender":"末影络合物",
+    "item.kubejs.crystal_redstone":"红石络合物",
+    "item.kubejs.crystal_glowstone":"荧石络合物",
     "item.kubejs.unfinished_advanced_dyano_augment":"待注能的燃烧室组件",
     "item.kubejs.unfinished_advanced_output_augment":"待激发的深度催化剂",
     "item.kubejs.unfinished_advanced_speed_augment":"待冷却的辅助通量线圈",
@@ -200,6 +209,9 @@
     "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
     "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
     "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick",
+    "kubejs.jei.royal_jelly": "蜂王浆需要在豆腐世界用沉浸原油的钻井开采,容量4000-16000桶",
+    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉，需要沉浸原油的钻井开采，可以在热力精炼机或者分馏塔精炼出来其中产物,矿脉容量2000-5000桶",
+    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种流体矿脉，需要沉浸原油的钻井开采，可以在热力精炼机或者分馏塔精炼出来其中产物,矿脉容量4000-8000桶",
     "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。部分需要手持工具的词条可能不会被触发。",
 
     "material.kubejs.zirconium_alloy": "钛锆合金",

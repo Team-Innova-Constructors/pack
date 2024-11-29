@@ -56,6 +56,14 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying('kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', 'biomancy:regenerative_fluid']),
     event.recipes.create.filling( 'kubejs:incomplete_living_control_circuit', ['kubejs:incomplete_living_control_circuit', Fluid.of('biomancy:acid').withAmount(1000)]),
 ]).transitionalItem('kubejs:incomplete_mekasuit').loops(2)
+//简化精密构建
+event.recipes.create.sequenced_assembly([
+    Item.of('create:precision_mechanism')
+]  ,Item.of("#forge:plates/gold"), [
+    event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:cogwheel']),
+    event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:large_cogwheel']),
+    event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', '#forge:nuggets/iron']),
+]).transitionalItem('create:incomplete_precision_mechanism').loops(3)
     event.shaped(Item.of('createoreexcavation:vein_finder',1), [
         'DC ',
         'BA ',
