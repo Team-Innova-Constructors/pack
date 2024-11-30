@@ -5,8 +5,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'thermal:smelting/cured_rubber_from_smelting' })
 
     event.remove({ id: 'tinkers_reforged:titanium_ingot_to_block' })
-	//超致密
-	event.replaceInput({mod: 'etshtinker', id: 'etshtinker:mekanism/compressing/ultra_dense' }, 'etshtinker:os_induced_netherstarshard','kubejs:compressed_hardlead')
 	//奇迹物质
 	event.remove([{mod: 'etshtinker', output: 'etshtinker:exo_alloy',type:'crafting_shaped' }])
 	//粉默认配方

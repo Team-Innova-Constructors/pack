@@ -1,8 +1,14 @@
 {
+  "conditions": [
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
   "type": "mekanism:compressing",
   "chemicalInput": {
     "amount": 9,
-    "gas": "cti:neutron"
+    "gas": "mekanism:osmium"
   },
   "itemInput": {
     "ingredient": {
@@ -10,6 +16,6 @@
     }
   },
   "output": {
-    "item": "kubejs:ultra_dense_block"
+    "item": "etshtinker:ultra_dense"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": [
+    {
+      "item": "kubejs:overdense_protonium_ore",
+      "count":1
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:protonium_nugget",
+      "chance": 2.25
+    }
+  ],
+  "experience": 2,
+  "energy": 120000
+}
