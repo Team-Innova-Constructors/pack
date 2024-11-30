@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "conditions": [
+    {
+      "modid": "l2hostility",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "allow_crystal": false,
+  "amount_per_item": 1,
+  "input": {
+    "item": "l2hostility:bottle_of_curse"
+  },
+  "needed_per_level": 120,
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "result": "tinkersinnovation:hostility"
+}

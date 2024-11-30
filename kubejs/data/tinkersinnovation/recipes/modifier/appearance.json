@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:feather",
+      "amount_needed": 20
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal",
+      "amount_needed": 10
+    },
+    {
+      "item": "tinkersinnovation:slimton_ingot"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:appearance",
+  "level": 1
+}

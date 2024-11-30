@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:nether_star",
+      "amount_needed": 3
+    },
+    {
+      "item": "minecraft:end_rod",
+      "amount_needed": 6
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "result": "tinkersinnovation:owner_protection",
+  "level": 1
+}

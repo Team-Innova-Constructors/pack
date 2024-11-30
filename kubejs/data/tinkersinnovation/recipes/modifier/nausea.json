@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "conditions": [
+    {
+      "modid": "l2hostility",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "allow_crystal": true,
+  "amount_per_item": 1,
+  "input": {
+    "item": "l2hostility:nausea"
+  },
+  "needed_per_level": 12,
+  "slots": {
+    "hostilities": 1
+  },
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    {
+      "tag": "tconstruct:modifiable/harvest"
+    },
+    {
+      "tag": "tconstruct:modifiable/ranged"
+    }
+  ],
+  "result": "tinkersinnovation:nausea",
+  "level": {
+    "max": 3
+  }
+}

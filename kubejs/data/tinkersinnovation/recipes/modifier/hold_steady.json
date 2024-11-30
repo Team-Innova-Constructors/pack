@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "tinkersinnovation:polychrome_alloy_ingot"
+    },
+    {
+      "item": "tinkersinnovation:shulkerate_reinforcement",
+      "amount_needed": 5
+    },
+    {
+      "item": "tconstruct:cobalt_reinforcement",
+      "amount_needed": 5
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/held"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:hold_steady",
+  "level": {
+    "max": 5
+  }
+}

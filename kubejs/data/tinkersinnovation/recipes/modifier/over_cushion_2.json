@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:storage_blocks/queens_slime",
+      "amount_needed": 9
+    },
+    {
+      "tag": "forge:storage_blocks/slimesteel",
+      "amount_needed": 20
+    },
+    {
+      "item": "tinkersinnovation:slimton_block",
+      "amount_needed": 20
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tinkersinnovation:modifiable/shields_with_amount"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:over_cushion",
+  "level": 2
+}

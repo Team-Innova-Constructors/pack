@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "iceandfire",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "iceandfire:hydra_heart"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:big_heart",
+  "level": 1
+}

@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "conditions": [
+    {
+      "modid": "l2hostility",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "allow_crystal": true,
+  "amount_per_item": 1,
+  "input": {
+    "item": "l2hostility:tank"
+  },
+  "needed_per_level": 12,
+  "slots": {
+    "hostilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "result": "tinkersinnovation:tanky",
+  "level": {
+    "max": 5
+  }
+}
