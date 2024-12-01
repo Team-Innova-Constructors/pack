@@ -9,9 +9,9 @@
   "result": [
     {
       "item": "kubejs:ultra_dense_nugget",
-      "chance": 2.25
+      "chance": 1.75
     }
   ],
   "experience": 2,
-  "energy": 120000
+  "energy": 240000
 }
