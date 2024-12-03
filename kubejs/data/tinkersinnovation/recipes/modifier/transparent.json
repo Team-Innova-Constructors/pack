@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "tinkersinnovation:shulkerate_reinforcement",
+      "amount_needed": 10
+    },
+    {
+      "item": "tinkersinnovation:sculkium_reinforcement",
+      "amount_needed": 10
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:transparent",
+  "level": 1
+}

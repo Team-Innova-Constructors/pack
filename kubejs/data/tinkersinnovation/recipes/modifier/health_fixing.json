@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "allow_crystal": true,
+  "amount_per_item": 1,
+  "input": {
+    "item": "tinkersinnovation:totemic_gold_reinforcement"
+  },
+  "needed_per_level": 20,
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  },
+  "result": "tinkersinnovation:health_fixing",
+  "level": {
+    "max": 3
+  }
+}

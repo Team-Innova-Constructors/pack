@@ -1,7 +1,7 @@
 {
   "type": "mekanism:dissolution",
   "gasInput": {
-    "amount": 1,
+    "amount": 2,
     "gas": "cti:neutron"
   },
   "itemInput": {
@@ -10,7 +10,7 @@
     }
   },
   "output": {
-    "amount": 100,
+    "amount": 500,
     "chemicalType": "gas",
     "gas": "cti:overcharged_neutron"
   }

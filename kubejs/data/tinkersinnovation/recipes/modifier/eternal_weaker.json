@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "l2complements",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "tinkersinnovation:eternium_reinforcement",
+      "amount_needed": 20
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:eternal_weaker",
+  "level": 1
+}

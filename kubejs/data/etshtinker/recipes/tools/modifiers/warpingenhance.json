@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:exotic_matter",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee/weapon"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "requirements": {
+    "name": "etshtinker:warpengine",
+    "level": 1,
+    "error": "recipe.etshtinker.modifier.warpingenhance"
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:warpingenhance",
+  "level": {
+    "max": 1
+  }
+}

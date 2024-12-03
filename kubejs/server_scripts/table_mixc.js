@@ -67,9 +67,9 @@ ServerEvents.recipes(event => {
    )
    //末影珍珠
    event.shaped(Item.of('cyclic:eye_teleport', 1), [
+      ' B ',
       'BAB',
-      'AAA',
-      'BAB'
+      ' B '
    ],
       {
          B: 'thermal:enderium_dust',

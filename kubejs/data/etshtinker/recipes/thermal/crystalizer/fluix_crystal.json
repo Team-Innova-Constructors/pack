@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "thermal",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "ae2",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {
+      "fluid": "thermal:redstone",
+      "amount": 2400
+    },
+    {
+      "count": 24,
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "count": 24,
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": [
+    {
+      "count": 64,
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "energy": 200
+}

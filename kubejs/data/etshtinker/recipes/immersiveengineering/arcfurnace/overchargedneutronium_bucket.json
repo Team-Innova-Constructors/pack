@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "modid": "immersiveengineering",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "item": "etshtinker:activated_neutronium_dust"
+    }
+  ],
+  "energy": 5000000,
+  "input": {
+    "item": "tinkers_ingenuity:molten_neutronium_bucket"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "item": "etshtinker:overchargedneutronium_bucket"
+      },
+      "count": 1
+    }
+  ],
+  "time": 100
+}

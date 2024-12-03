@@ -9,6 +9,7 @@ event.addFluid('kubejs:hot_heavymetal_lava', Text.black({ "translate": "kubejs.j
 event.addFluid('kubejs:royal_jelly', Text.black({ "translate": "kubejs.jei.royal_jelly" }))
 event.addFluid('kubejs:hot_heavycrystal_lava', Text.black({ "translate": "kubejs.jei.hot_heavycrystal_lava" }))
 event.addItem('immersiveengineering:railgun', Text.black({ "translate": "kubejs.jei.railgun" }))
+event.addItem('thermal:chiller_ingot_cast', Text.black({ "translate": "kubejs.jei.ingot_cast" }))
 
 })
 

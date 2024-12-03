@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "l2complements",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "l2complements:soul_flame",
+      "amount_needed": 5
+    },
+    {
+      "item": "minecraft:cactus",
+      "amount_needed": 25
+    }
+  ],
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "result": "tinkersinnovation:soul_flame_thorn",
+  "level": {
+    "max": 3
+  }
+}

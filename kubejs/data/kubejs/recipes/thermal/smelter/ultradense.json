@@ -1,0 +1,17 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": [
+    {
+      "item": "kubejs:stellar_ultra_dense_ore",
+      "count":1
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:ultra_dense_nugget",
+      "chance": 1.75
+    }
+  ],
+  "experience": 2,
+  "energy": 240000
+}

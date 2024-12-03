@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:echo_shard",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:sculk_energycore",
+      "amount_needed": 2
+    },
+    {
+      "item": "minecraft:echo_shard",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "item": "etshtinker:ionized_cannon"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:multishotplasma",
+  "level": {
+    "max": 4
+  }
+}

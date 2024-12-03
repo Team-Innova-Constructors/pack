@@ -1,6 +1,6 @@
 {
   "type": "mekanism:reaction",
-  "duration": 100,
+  "duration": 20,
   "fluidInput": {
     "amount": 50,
     "fluid": "mekanism:hydrogen"

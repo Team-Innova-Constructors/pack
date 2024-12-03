@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "conditions": [
+    {
+      "modid": "l2complements",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "allow_crystal": true,
+  "amount_per_item": 1,
+  "input": {
+    "item": "l2complements:heirophant_green"
+  },
+  "needed_per_level": 20,
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "result": "tinkersinnovation:heirophant_green",
+  "level": {
+    "max": 3
+  }
+}

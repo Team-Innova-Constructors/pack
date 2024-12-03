@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "mekanism:compressing",
+  "chemicalInput": {
+    "amount": 9,
+    "gas": "mekanism:osmium"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:compressed_hardlead"
+    }
+  },
+  "output": {
+    "item": "etshtinker:ultra_dense"
+  }
+}

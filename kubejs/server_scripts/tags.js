@@ -53,6 +53,9 @@ ServerEvents.tags('item', event => {
     event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_3')
     event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_4')
 
+    //锭铸膜
+    event.add('thermal:crafting/casts', '#tconstruct:casts/multi_use/ingot')
+
 
 })
 //添加方块标签
