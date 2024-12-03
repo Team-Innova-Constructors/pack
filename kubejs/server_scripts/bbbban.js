@@ -53,6 +53,7 @@ ServerEvents.recipes(event => {
 	//其他匠魂附属
 	event.remove({id:'tinkerscalibration:tools/materials/moonsteel'})
 	event.remove({id:'tinkers_ingenuity:tables/materials/sea_dream'})
+	event.remove({id:'tconstruct:smeltery/alloys/molten_pewter'})
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])

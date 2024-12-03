@@ -2,11 +2,11 @@
     "type": "tconstruct:modifier",
     "inputs": [
       {
-        "item": "immersiveengineering:toolupgrade_powerpack_tesla",
-        "amount_needed": 1
+        "item": "botania:endoflame",
+        "amount_needed": 8
       },
       {
-        "item": "kubejs:electro_magnetic_mechanism",
+        "item": "kubejs:energy_mechanism",
         "amount_needed": 2
       }
     ],
@@ -14,10 +14,10 @@
       "tag": "tconstruct:modifiable/held"
     },
     "slots": {
-        "abilities": 1
+        "upgrades": 1
     },
     "allow_crystal": true,
-    "result":"cti:emp",
+    "result":"cti:combustor_modifier",
     "level": {
       "max": 1
     }
