@@ -3,7 +3,7 @@
     "dimensions": [
         "minecraft:the_nether"
     ],
-    "fail_chance": 0.5,
+    "fail_chance": 0.2,
     "ores": [
         {
             "chance": 0.4,

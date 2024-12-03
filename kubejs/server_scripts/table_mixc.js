@@ -94,6 +94,11 @@ ServerEvents.recipes(event => {
       'l2complements:eternium_ingot'
    ]
    )
+   event.shapeless(Item.of('minecraft:ender_pearl',3), [
+      'kubejs:crystal_ender',
+      'minecraft:snowball'
+   ]
+   )
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [
@@ -119,6 +124,16 @@ ServerEvents.recipes(event => {
          A: 'kubejs:dust_mana',
          B: 'projecte:aeternalis_fuel',
          C: 'minecraft:diamond_block',
+      }
+   )
+   event.shaped(Item.of('minecraft:crying_obsidian',8), [
+      'AAA',
+      'ABA',
+      'AAA'
+   ],
+      {
+         A: '#forge:obsidian',
+         B: '#forge:onion/sliced',
       }
    )
    event.shaped(Item.of('tinkersinnovation:polychrome_mix', 1), [

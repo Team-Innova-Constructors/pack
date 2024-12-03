@@ -1,0 +1,62 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tconstruct:cultivated",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:chivalrous",
+        "level": 1
+      },
+      {
+        "name": "cti:knightglory",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tconstruct:cultivated",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:chivalrous",
+        "level": 1
+      },
+      {
+        "name": "cti:knightglory",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:revitalize",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:life_origin",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "tconstruct:cultivated",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:chivalrous",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:knight_glory",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "tinkers_ingenuity:curio_knight_vow",
+        "level": 1
+      }
+    ]
+  }
+}

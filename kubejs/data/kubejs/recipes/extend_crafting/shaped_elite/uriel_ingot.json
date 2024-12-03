@@ -4,14 +4,14 @@
     "A     A",
     "BA C AB",
     "BBADABB",
-    "EBFGFBE",
-    " EHIHE ",
-    " JEKEJ ",
-    "  JLJ  "
+    "EBFGHBI",
+    " JBKBL ",
+    " MNONM ",
+    "  NPN  "
   ],
   "key": {
     "A": {
-      "item": "kubejs:pyrocrystal"
+      "item": "minecraft:nether_star"
     },
     "B": {
       "item": "l2complements:resonant_feather"
@@ -20,31 +20,46 @@
       "item": "l2hostility:ring_of_divinity"
     },
     "D": {
-      "item": "cataclysm:flame_eye"
+      "item": "l2complements:guardian_eye"
     },
     "E": {
-      "item": "cataclysm:ignitium_ingot"
+      "item": "l2hostility:soul_burner"
     },
     "F": {
-      "item": "l2complements:soul_flame"
+      "item": "enigmaticlegacy:enchantment_transposer"
     },
     "G": {
-      "item": "kubejs:core_nether"
-    },
-    "H": {
-      "item": "l2complements:totemic_gold_ingot"
-    },
-    "I": {
-      "item": "enigmaticlegacy:soul_crystal"
-    },
-    "J": {
-      "item": "kubejs:core_blaze"
-    },
-    "K": {
       "item": "enigmaticlegacy:cosmic_heart"
     },
+    "H": {
+      "type": "forge:nbt",
+      "item": "iceandfire:dragonsteel_fire_sword",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    },
+    "I": {
+      "item": "l2hostility:fiery"
+    },
+    "J": {
+      "item": "l2hostility:protection"
+    },
+    "K": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
     "L": {
-      "item": "meetyourfight:passages_toll"
+      "item": "l2hostility:regenerate"
+    },
+    "M": {
+      "item": "l2complements:cursed_droplet"
+    },
+    "N": {
+      "item": "l2complements:soul_flame"
+    },
+    "O": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "P": {
+      "item": "enigmaticlegacy:soul_crystal"
     }
   },
   "result": {

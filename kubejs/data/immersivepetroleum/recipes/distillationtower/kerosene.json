@@ -1,5 +1,11 @@
 {
   "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "chance": 0.6,
+      "item": "immersivepetroleum:bitumen"
+    }
+  ],
   "energy": 10240,
   "input": {
     "amount": 100,
