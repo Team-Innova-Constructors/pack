@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
   event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock", {gas: 'mekanism:osmium', amount: 2})
   event.recipes.mekanismInjecting('cti:magic_crystal', 'ae2:certus_quartz_crystal', {gas: 'cti:mana_gas', amount: 20})
-
+  event.recipes.mekanismCrushing('6x ae2:certus_quartz_crystal', 'ae2:quartz_cluster')
+  event.recipes.mekanismCrushing('ae2:sky_dust','ad_astra:sky_stone')
   //钢壳子
   event.remove([{mod: 'mekanism', output: 'mekanism:steel_casing' }])
 

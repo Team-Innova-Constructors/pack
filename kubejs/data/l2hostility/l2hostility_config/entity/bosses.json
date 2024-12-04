@@ -41,7 +41,9 @@
         ]
       },
       {
-        "blacklist": [],
+        "blacklist": [
+          "l2hostility:regenerate"
+        ],
         "difficulty": {
           "apply_chance": 1.0,
           "base": 300,

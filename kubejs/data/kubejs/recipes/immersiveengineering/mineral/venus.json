@@ -1,0 +1,42 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "dimensions": [
+      "ad_astra:venus"
+    ],
+    "fail_chance": 0.01,
+    "ores": [
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "ad_astra:venus_gold_ore"
+        }
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "ad_astra:venus_coal_ore"
+        }
+      },
+      {
+        "chance": 0.4,
+        "output": {
+          "item": "ad_astra:venus_calorite_ore"
+        }
+      }
+    ],
+    "spoils": [
+      {
+        "chance": 0.4,
+        "output": {
+          "item": "ad_astra:venus_stone"
+        }
+      },
+      {
+        "chance": 0.6,
+        "output": {
+          "item": "ad_astra:venus_sand"
+        }
+      }
+    ],
+    "weight": 30
+  }
