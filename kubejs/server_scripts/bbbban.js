@@ -67,6 +67,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'projecte:dark_matter'})
 	event.remove({id:'projecte:red_matter'})
 	event.remove({id:'tinkersinnovation:items/polychrome_mix'})
+	event.remove({id:'thermal:machines/smelter/smelter_alloy_rose_gold'})
 
 	//meka套
 	let meka =[

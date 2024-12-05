@@ -223,5 +223,9 @@
     "material.kubejs.zirconium_alloy.encyclopedia": "具有独特纹理的复合相材料",
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
-    "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。"
+    "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
+    "dimension.ad_astra.venus": "金星",
+    "dimension.ad_astra.mars": "火星",
+    "dimension.ad_astra.moon": "月球",
+    "dimension.ad_astra.glacio": "霜原星"
 }

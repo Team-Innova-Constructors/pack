@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "createutilities:graviton_tube"
+    },
+    "Y": {
+      "item": "createutilities:void_casing"
+    },
+    "Z": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "result": {
+    "item": "createutilities:void_motor",
+    "count":2
+  }
+}
