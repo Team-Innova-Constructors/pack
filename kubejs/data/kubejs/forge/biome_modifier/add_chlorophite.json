@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes":[
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle"
+  ],
+  "features": "kubejs:chlorophite",
+  "step": "underground_ores"
+}

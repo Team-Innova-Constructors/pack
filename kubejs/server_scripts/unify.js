@@ -72,6 +72,9 @@ ServerEvents.recipes(event => {
             event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:plates/steel'},'#forge:plates/steel','thermal:steel_plate')
             event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:dusts/obsidian'},'#forge:dusts/obsidian','create:powdered_obsidian')
             event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:nuggets/copper'},'#forge:nuggets/copper','create:copper_nugget')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:ingots/rose_gold'},'#forge:ingots/steel','tconstruct:rose_gold_ingot')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:storage_blocks/rose_gold'},'#forge:storage_blocks/steel','tconstruct:rose_gold_block')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:nuggets/rose_gold'},'#forge:nuggets/steel','tconstruct:rose_gold_nugget')
         }
     }
 })

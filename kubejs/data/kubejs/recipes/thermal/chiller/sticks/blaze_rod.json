@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:blazing_blood",
+      "amount": 100
+    },
+    {
+      "item": "thermal:chiller_rod_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:blaze_rod",
+      "count": 1
+    }
+  ],
+  "energy": 1000
+}

@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.centrifuge([Item.of('kubejs:light_slag').withChance(1.8), Item.of('kubejs:crystal_slag').withChance(1.30), Item.of('kubejs:metal_slag').withChance(1.6), Item.of('kubejs:mineral_slag').withChance(1.2)], 'kubejs:enriched_slag').energy(12000)
   event.recipes.thermal.centrifuge([Item.of('kubejs:powdered_slag').withChance(1.1), Item.of('minecraft:coal').withChance(2.5), Item.of('thermal:raw_nickel').withChance(1.4), Item.of('thermal:sulfur_dust').withChance(3.5)], 'kubejs:light_slag').energy(12000)
   event.recipes.thermal.centrifuge([Item.of('thermal:gold_dust').withChance(2.15), Item.of('thermal:silver_dust').withChance(2.65), Item.of('mekanism:dust_osmium').withChance(2.75), Item.of('mekanism:dust_uranium').withChance(5.5)], 'kubejs:dense_slag').energy(12000)
-  event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(4.2), Item.of('minecraft:glowstone_dust').withChance(3.1), Item.of('thermal:quartz_dust').withChance(2.9), Item.of('thermal:niter_dust').withChance(1.8)], 'kubejs:powdered_slag').energy(12000)
+  event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(4.2), Item.of('minecraft:glowstone_dust').withChance(3.1), Item.of('thermal:quartz_dust').withChance(2.9), Item.of('2x minecraft:clay_ball').withChance(1.8)], 'kubejs:powdered_slag').energy(12000)
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
   event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(3.0).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.1)

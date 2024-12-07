@@ -1,0 +1,24 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "botania:endoflame",
+        "amount_needed": 8
+      },
+      {
+        "item": "kubejs:energy_mechanism",
+        "amount_needed": 2
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/held"
+    },
+    "slots": {
+        "upgrades": 1
+    },
+    "allow_crystal": true,
+    "result":"cti:combustor_modifier",
+    "level": {
+      "max": 1
+    }
+  }

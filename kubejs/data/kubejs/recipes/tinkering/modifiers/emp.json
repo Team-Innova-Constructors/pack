@@ -11,7 +11,7 @@
       }
     ],
     "tools": {
-      "tag": "tconstruct:modifiable/durability"
+      "tag": "tconstruct:modifiable/held"
     },
     "slots": {
         "abilities": 1
