@@ -2,11 +2,11 @@
   "type": "tconstruct:modifier",
   "inputs": [
     {
-      "item": "ad_astra:oxygen_bucket",
+      "item": "ad_astra:ostrum_plate",
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:netherite_space_helmet",
+      "item": "ad_astra:ostrum_plate",
       "amount_needed": 1
     },
     {
@@ -14,11 +14,11 @@
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:netherite_space_pants",
+      "item": "ad_astra:ice_shard",
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:netherite_space_boots",
+      "item": "ad_astra:ice_shard",
       "amount_needed": 1
     }
   ],

@@ -2,11 +2,11 @@
   "type": "tconstruct:modifier",
   "inputs": [
     {
-      "item": "ad_astra:oxygen_bucket",
+      "tag": "minecraft:wool",
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:space_helmet",
+      "tag": "minecraft:wool",
       "amount_needed": 1
     },
     {
@@ -14,11 +14,11 @@
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:space_pants",
+      "tag": "forge:plates/steel",
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:space_boots",
+      "tag": "forge:plates/steel",
       "amount_needed": 1
     }
   ],

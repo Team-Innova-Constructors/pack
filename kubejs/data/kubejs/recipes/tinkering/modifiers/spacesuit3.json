@@ -2,23 +2,23 @@
   "type": "tconstruct:modifier",
   "inputs": [
     {
-      "item": "ad_astra:oxygen_bucket",
-      "amount_needed": 1
-    },
-    {
-      "item": "ad_astra:jet_suit_helmet",
-      "amount_needed": 1
-    },
-    {
       "item": "ad_astra:jet_suit",
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:jet_suit_pants",
+      "item": "pneumaticcraft:vortex_tube",
       "amount_needed": 1
     },
     {
-      "item": "ad_astra:jet_suit_boots",
+      "item": "ad_astra:calorite_plate",
+      "amount_needed": 1
+    },
+    {
+      "item": "ad_astra:calorite_plate",
+      "amount_needed": 1
+    },
+    {
+      "item": "ad_astra:calorite_plate",
       "amount_needed": 1
     }
   ],
