@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+  ],
+  "energy": 100000,
+  "input": {
+    "base_ingredient": {
+      "item": "kubejs:stellar_ultra_dense_ore"
+    },
+    "count": 1
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "item": "kubejs:ultra_dense_nugget"
+      },
+      "count": 2
+    }
+  ],
+  "time": 2
+}
