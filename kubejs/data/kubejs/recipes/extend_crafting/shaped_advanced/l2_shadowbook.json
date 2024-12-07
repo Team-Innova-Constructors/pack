@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBA",
+    "BCCCB",
+    "ADDDA",
+    "BCCCB",
+    "ABBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "tinkersinnovation:enchantment_ingot"
+    },
+    "B": {
+      "tag": "forge:plates/electrum"
+    },
+    "C": {
+      "item": "l2hostility:book_of_reprint"
+    },
+    "D": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "l2hostility:book_of_omniscience"
+  }
+}

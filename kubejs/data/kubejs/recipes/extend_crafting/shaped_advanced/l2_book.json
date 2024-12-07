@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "ABBBA",
+    "ACDCA",
+    "ABBBA",
+    "AAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "tinkersinnovation:enchantment_nugget"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "D": {
+      "item": "tinkersinnovation:enchantment_ingot"
+    }
+  },
+  "result": {
+    "item": "l2hostility:book_of_reprint"
+  }
+}
