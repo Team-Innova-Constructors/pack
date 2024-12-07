@@ -3,8 +3,13 @@
     "inputs": [
       {
         "type": "pneumaticcraft:stacked_item",
-        "count": 32,
+        "count": 8,
         "item": "etshtinker:activated_chroma_plate"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 1,
+        "item": "kubejs:zirconium_alloy"
       }
     ],
     "pressure": 4.0,
