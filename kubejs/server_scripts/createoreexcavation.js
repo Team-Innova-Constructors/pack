@@ -40,7 +40,7 @@ event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 500','
 
 
 //富油
-event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "富油"}', 100, 100)
+event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "富油"}', 20, 100)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //无限量

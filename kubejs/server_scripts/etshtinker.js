@@ -3,7 +3,6 @@ ServerEvents.recipes(event => {
   	event.replaceInput({mod:'etshtinker',type:'create:mixing',output:'etshtinker:bismuth_ingot'}, 'create:zinc_nugget','createaddition:biomass')
   	//硫化橡胶熔炉配方
 	event.remove({ id: 'thermal:smelting/cured_rubber_from_smelting' })
-
     event.remove({ id: 'tinkers_reforged:titanium_ingot_to_block' })
 	//奇迹物质
 	event.remove([{mod: 'etshtinker', output: 'etshtinker:exo_alloy',type:'crafting_shaped' }])

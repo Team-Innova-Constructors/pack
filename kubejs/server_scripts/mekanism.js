@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismEnriching("kubejs:enriched_refined_glowstone", 'mekanism:ingot_refined_glowstone')
   //其他
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
+  event.recipes.mekanismSmelting('immersiveengineering:ingot_aluminum', '#forge:dusts/aluminum')
   event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock", {gas: 'mekanism:osmium', amount: 2})
   event.recipes.mekanismInjecting('cti:magic_crystal', 'ae2:certus_quartz_crystal', {gas: 'cti:mana_gas', amount: 20})
   event.recipes.mekanismCrushing('6x ae2:certus_quartz_crystal', 'ae2:quartz_cluster')
@@ -135,7 +136,7 @@ ServerEvents.recipes(event => {
     B: 'minecraft:nether_star',
     M: 'mekanism:basic_induction_cell',
     N: 'mekanism:module_base',
-    L: 'enigmaticlegacy:etherium_ingot',
+    L: 'etshtinker:stellaralloy',
   }
 )
   //精英电板

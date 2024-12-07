@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer(Item.of('minecraft:amethyst_shard').withChance(6.5), 'minecraft:amethyst_cluster').energy(1000)
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(2.1), Item.of('create:experience_nugget').withChance(0.6)], 'etshtinker:bismuthinite_ore_deepslate').energy(8000)
   event.recipes.thermal.pulverizer([Item.of('minecraft:diamond').withChance(1.2), Item.of('powah:uraninite_raw').withChance(1.7), Item.of('minecraft:lapis_lazuli').withChance(2.5), Item.of('minecraft:emerald').withChance(1.4)], 'kubejs:crystal_slag').energy(8000)
-  event.recipes.thermal.pulverizer([Item.of('thermal:raw_tin').withChance(1.85), Item.of('thermal:raw_lead').withChance(2.15), Item.of('minecraft:raw_iron').withChance(2.75), Item.of('minecraft:raw_copper').withChance(2.85)], 'kubejs:metal_slag').energy(8000)
+  event.recipes.thermal.pulverizer([Item.of('thermal:raw_tin').withChance(2.45), Item.of('thermal:raw_lead').withChance(2.55), Item.of('minecraft:raw_iron').withChance(2.75), Item.of('minecraft:raw_copper').withChance(2.85)], 'kubejs:metal_slag').energy(8000)
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(1.05), Item.of('thermal:cinnabar').withChance(2.65), Item.of('thermal:niter').withChance(2.3), Item.of('thermal:apatite').withChance(3.48)], 'kubejs:mineral_slag').energy(8000)
   //冲压机
   event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(2000)
@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.crucible(Fluid.of('thermal:glowstone', 1000), 'kubejs:crystal_glowstone').energy(40000)
   event.recipes.thermal.crucible(Fluid.of('thermal:ender', 1000), 'kubejs:crystal_ender').energy(40000)
   //热解炉
-  event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(20000)
+  event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(2000)
   //压缩能源炉
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(3200000)
   event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(560000)
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
     'BAB'
   ],
     {
-      A: 'immersivepetroleum:paraffin_wax',
+      A: 'immersivepetroleum:bitumen',
       B: 'etshtinker:chroma_plate',
       C: 'thermal:dynamo_fuel_augment',
       D: '#thermal:glass/hardened',

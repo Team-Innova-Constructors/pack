@@ -1,12 +1,12 @@
 {
   "type": "tconstruct:alloy",
   "inputs": [
-    { "name": "tinkerscalibration:dragonbreath",
-      "amount": 200 },
+    { "name": "manaliquidizer:mana_fluid",
+      "amount": 4000 },
     { "name": "industrialforegoing:biofuel",
       "amount": 1000 },
     { "name": "thermal:refined_fuel",
-      "amount": 500 },
+      "amount": 1000 },
     { "name": "mekanism:ethene",
       "amount": 1000 },
     { "name": "mekanismgenerators:fusion_fuel",
