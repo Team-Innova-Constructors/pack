@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "ad_astra:ice_shard"
+  },
+  "result": {
+    "amount": 200,
+    "fluid": "ad_astra:cryo_fuel"
+  },
+  "temperature": 100,
+  "time": 10
+}
