@@ -6,7 +6,7 @@
   },
   "itemInput": {
     "ingredient": {
-      "item": "mekanism:ingot_steel"
+      "tag": "forge:ingots/steel"
     }
   },
   "output": {
