@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "modid": "ae2",
+    "type": "forge:mod_loaded"
+  },
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 0,
+  "hidden": false
+}

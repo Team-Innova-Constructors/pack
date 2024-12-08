@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    }
+  ],
+    "type":"tconstruct:material_melting", 
+    "input": "kubejs:perfect_generic_item_new",
+    "temperature": 2300,
+    "result":{
+      "fluid": "etshtinker:molten_perfect",
+      "amount": 100
+    }
+}

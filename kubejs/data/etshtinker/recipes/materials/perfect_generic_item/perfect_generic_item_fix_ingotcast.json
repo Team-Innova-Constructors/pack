@@ -1,0 +1,19 @@
+{
+    "conditions": [
+        {
+            "modid": "ae2",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "tconstruct:casts/multi_use/gem"
+    },
+    "cast_consumed": false,
+    "fluid": {
+        "name": "etshtinker:molten_perfect",
+        "amount": 100
+    },
+    "result": "etshtinker:perfect_generic_item",
+    "cooling_time": 20
+}

@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
    event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:advanced_upgrade'}, 'minecraft:diamond','minecraft:lapis_lazuli')
    event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:ultimate_upgrade'}, 'minecraft:redstone_block','minecraft:redstone')
    event.replaceInput({mod:'pipez',type:'crafting_shaped',output:'pipez:ultimate_upgrade'}, 'minecraft:netherite_ingot','tinkers_thinking:obsidian_bronze_ingot')
+   event.replaceInput({mod:'farmingforblockheads',type:'crafting_shaped',output: 'farmingforblockheads:market'}, '#minecraft:planks','create:andesite_alloy')
    let dye=[
       'black_dye',
       'blue_dye',
@@ -203,6 +204,28 @@ ServerEvents.recipes(event => {
       {
          B: 'minecraft:amethyst_shard',
          A: 'minecraft:ender_pearl',
+      }
+   )
+      event.shaped(Item.of('l2complements:eternium_nugget', 4), [
+      'CBC',
+      'BAB',
+      'CBC'
+   ],
+      {
+         B: 'l2complements:space_shard',
+         A: 'l2complements:explosion_shard',
+         C: 'l2complements:shulkerate_nugget',
+      }
+   )
+   //创造AE能
+   event.shaped(Item.of('ae2:creative_energy_cell', 1), [
+      'AAA',
+      'ABA',
+      'AAA'
+   ],
+      {
+         A: 'megacells:mega_energy_cell',
+         B: 'ae2:engineering_processor',
       }
    )
    event.smithing('constructionwand:infinity_wand','constructionwand:diamond_wand','tconstruct:manyullyn_ingot')

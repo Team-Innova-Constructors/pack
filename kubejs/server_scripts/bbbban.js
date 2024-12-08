@@ -20,6 +20,10 @@ ServerEvents.recipes(event => {
 		'projecte:gem_leggings',
 		'projecte:gem_boots',
 		'projecte:red_matter',
+		'projecte:condenser_mk1',
+		'projecte:condenser_mk2',
+		'projecte:alchemical_chest',
+		'projecte:gem_of_eternal_density',
 	]
 	for (let i of proje) {event.remove({id:`${i}`})}
   	//重力透镜
@@ -43,7 +47,6 @@ ServerEvents.recipes(event => {
 	//工匠联合
 	event.remove({id:'solidarytinker:table/icefantasy_ingot'})
 	event.remove({id:'solidarytinker:casting/starfall_ingot'})
-	event.remove({id:'solidarytinker:smeltery/alloy/takeru'})
 	event.remove({id:'solidarytinker:table/experience_steel_ingot'})
 	event.remove({id:'solidarytinker:casting/extremelycoldsteel_ingot'})
 	event.remove({id:'solidarytinker:smeltery/alloy/super_dt'})
@@ -78,26 +81,6 @@ ServerEvents.recipes(event => {
 	]
 	for (let i of meka){
 		event.remove([{id: `${i}` }])
-	}
-	let pjearm =[
-		'projecte:rm_helmet',
-		'projecte:rm_chestplate',
-		'projecte:rm_leggings',
-		'projecte:rm_boots',
-		'projecte:gem_helmet',
-		'projecte:gem_chestplate',
-		'projecte:gem_leggings',
-		'projecte:gem_boots',
-		'projecte:dm_helmet',
-		'projecte:dm_chestplate',
-		'projecte:dm_leggings',
-		'projecte:dm_boots',
-		'projecte:condenser_mk1',
-		'projecte:condenser_mk2',
-		'projecte:gem_of_eternal_density'
-	]
-	for (let i of meka){
-		event.remove([{ id: `${i}` }])
 	}
   	//热力锭
       let thermalingot=[

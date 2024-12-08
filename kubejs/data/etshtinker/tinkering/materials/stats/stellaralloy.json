@@ -1,0 +1,37 @@
+{
+  "condition": {
+    "modid": "ad_astra",
+    "type": "forge:mod_loaded"
+  },
+  "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 38000
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.60,
+      "mining_speed": 3.4,
+      "melee_speed": 1.25,
+      "melee_damage": 0.76
+    },
+    "tconstruct:head": {
+      "durability": 1754,
+      "mining_speed": 11.5,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 6
+    },
+    "tconstruct:limb": {
+      "durability": 1070,
+      "draw_speed": 0.3,
+      "velocity": 1.0,
+      "accuracy": 0.3
+    },
+    "tconstruct:grip": {
+      "durability": 0.2,
+      "accuracy": 0.0,
+      "melee_damage": 6
+    },
+    "tconstruct:maille": {},
+    "tconstruct:shield_core": {}
+  }
+}

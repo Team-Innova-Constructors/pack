@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+  event.replaceInput({mod:'appbot',type:'crafting_shaped',output:'appbot:mana_cell_housing'}, 'botania:life_essence','botania:quartz_mana')
   event.smithing('projecte:rm_helmet','projecte:dm_helmet','projecte:red_matter_block')
   event.smithing('projecte:rm_chestplate','projecte:dm_chestplate','projecte:red_matter_block')
   event.smithing('projecte:rm_leggings','projecte:dm_leggings','projecte:red_matter_block')

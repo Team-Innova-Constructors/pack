@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "aquaculture:neptunes_bounty"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 720
+  },
+  "temperature": 1850,
+  "time": 200
+}

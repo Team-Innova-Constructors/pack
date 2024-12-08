@@ -2,6 +2,8 @@
   "modifier.kubejs": {
   },
   "material.kubejs": {
-    "zirconium_alloy": "#FACCFF"
+    "zirconium_alloy": "#FACCFF",
+    "perfect_generic_item_new": "#90FF90"
+
   }
 }

@@ -256,8 +256,9 @@ ServerEvents.recipes(event => {
       'powah:crafting/solar_panel_basic',
     ]
     for (let i of pannel) {event.remove({id:`${i}`})}
-    event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",100000)
+    event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
     event.recipes.powah.energizing(["minecraft:gold_block","minecraft:iron_block"], 'powah:energized_steel_block',100000)
+    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',50000)
     event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',50000)
     event.recipes.powah.energizing(["tinkerscalibration:spinel","tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),10000)
 
