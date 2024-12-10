@@ -144,6 +144,8 @@ ServerEvents.recipes(event => {
 	'immersiveengineering:mineral/cinnabar',
 	'immersivepetroleum:reservoirs/aquifer',
 	'immersivepetroleum:reservoirs/lava',
+	'immersivepetroleum:reservoirs/oil',
+	'immersivepetroleum:coking/petcoke',
 	]
 	for (let i of immersiveengineeringore) {event.remove({id:`${i}`})}
 	//莱特兰附魔书

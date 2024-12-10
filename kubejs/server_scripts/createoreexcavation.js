@@ -13,7 +13,28 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:quartz'),Item.of(
 .id("quartz");
 
 
-//碧空史莱姆
+//重金属高温熔岩
+event.recipes.createoreexcavation.extracting('kubejs:hot_heavymetal_lava 1000','{"text": "重金属高温熔岩"}', 30, 100)
+//钻头等级
+.drill('#createoreexcavation:second_createore_drill')
+//应力值
+.stress(512)
+//生物群落白名单
+.biomeWhitelist('minecraft:is_overworld')
+//配方id
+.id("hot_heavymetal_lava");
+
+//晶体高温熔岩
+event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000','{"text": "晶体高温熔岩"}', 30, 100)
+//钻头等级
+.drill('#createoreexcavation:second_createore_drill')
+//应力值
+.stress(512)
+//生物群落白名单
+.biomeWhitelist('minecraft:is_overworld')
+//配方id
+.id("hot_heavycrystal_lava");
+
 event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text": "碧空史莱姆"}', 50, 100)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')

@@ -1,0 +1,33 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "chance": 1,
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "energy": 2048,
+  "input": {
+    "amount": 1000,
+    "tag": "kubejs:hot_heavycrystal_lava"
+  },
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "tconstruct:molten_diamond"
+    },
+    {
+      "amount": 100,
+      "fluid": "tconstruct:molten_emerald"
+    },
+    {
+      "amount": 500,
+      "fluid": "thermal:redstone"
+    },
+    {
+      "amount": 200,
+      "fluid": "tconstruct:molten_quartz"
+    }
+  ],
+  "time": 2
+}

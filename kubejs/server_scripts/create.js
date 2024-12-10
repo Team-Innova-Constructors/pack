@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
-]  ,Item.of('dreadsteel:dreadsteel_helmet'), [
+]  ,Item.of('pneumaticcraft:pneumatic_helmet'), [
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('etshtinker:unstable_exotic_matter').withAmount(1000)]),
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('etshtinker:molten_stellaralloy').withAmount(900)]),
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'kubejs:electronium_block']),
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 ]).transitionalItem('kubejs:incomplete_mekasuit').loops(5)
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_bodyarmor')
-]  ,Item.of('dreadsteel:dreadsteel_chestplate'), [
+]  ,Item.of('pneumaticcraft:pneumatic_chestplate'), [
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('etshtinker:unstable_exotic_matter').withAmount(1000)]),
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('solidarytinker:molten_dwarf').withAmount(900)]),
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'etshtinker:stellaralloy']),
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 ]).transitionalItem('kubejs:incomplete_mekasuit').loops(8)
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_pants')
-]  ,Item.of('dreadsteel:dreadsteel_leggings'), [
+]  ,Item.of('pneumaticcraft:pneumatic_leggings'), [
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('etshtinker:unstable_exotic_matter').withAmount(1000)]),
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('solidarytinker:molten_extremelycoldsteel').withAmount(900)]),
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'immersiveengineering:ingot_hop_graphite']),
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
 ]).transitionalItem('kubejs:incomplete_mekasuit').loops(7)
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_boots')
-]  ,Item.of('dreadsteel:dreadsteel_boots'), [
+]  ,Item.of('pneumaticcraft:pneumatic_boots'), [
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('etshtinker:unstable_exotic_matter').withAmount(1000)]),
     event.recipes.create.filling( 'kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', Fluid.of('tinkerscalibration:moltenmoonsteel').withAmount(900)]),
     event.recipes.createDeploying('kubejs:incomplete_mekasuit', ['kubejs:incomplete_mekasuit', 'tinkersinnovation:decline_block']),
