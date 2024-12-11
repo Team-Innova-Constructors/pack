@@ -1,0 +1,25 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "cti:igneous",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:igneous",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:igneous_armor",
+        "level": 1
+      },{
+        "name": "tconstruct:blast_protection",
+        "level": 1
+      }
+    ]
+  }
+}
