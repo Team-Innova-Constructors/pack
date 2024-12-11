@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.press('8x ae2:printed_logic_processor', ['8x #forge:ingots/gold', 'kubejs:universal_press']).energy(2000)
   //感应炉
   event.recipes.thermal.smelter('4x etshtinker:hardlead_plate', ['3x #forge:ingots/lead', 'etshtinker:bismuth_ingot']).energy(10000)
+  event.recipes.thermal.smelter('4x thermal:enderium_ingot', ['3x #forge:ingots/lead', '2x minecraft:ender_pearl','#forge:dusts/diamond']).energy(16000)
   event.recipes.thermal.smelter(Item.of('etshtinker:bismuth_ingot').withChance(1.25), ['etshtinker:bismuthinite']).energy(12000)
   event.recipes.thermal.smelter('tinkers_thinking:obsidian_bronze_ingot', ['#forge:ingots/copper', '2x #forge:dusts/obsidian']).energy(2000)
   event.recipes.thermal.smelter(Item.of('tinkers_reforged:titanium_dust').withChance(2.5), ['kubejs:stable_slag', 'tinkers_reforged:titanium_dust']).energy(12000)

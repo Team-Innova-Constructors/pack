@@ -113,6 +113,10 @@ ServerEvents.recipes(event => {
 	event.remove({id:'toms_storage:adv_wireless_terminal'})
 	event.remove({id:'industrialforegoing:gold_gear'})
 	event.remove({id:'create:sequenced_assembly/precision_mechanism'})
+	event.remove({id:'tconstruct:smeltery/melting/metal/iron/ingot_1'})
+	event.remove({id:'tconstruct:smeltery/melting/metal/iron/nugget_3'})
+	event.remove({id:'tconstruct:smeltery/melting/metal/gold/powered_rail'})
+	event.remove({id:'thermal:machines/smelter/smelter_alloy_enderium'})
 
 
 	//移除原有矿脉

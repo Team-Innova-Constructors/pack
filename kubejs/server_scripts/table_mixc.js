@@ -77,14 +77,6 @@ ServerEvents.recipes(event => {
          A: 'ae2:singularity',
       }
    )
-   event.shapeless(Item.of('create:copper_nugget', 2), [
-      'iceandfire:copper_pile',
-   ]
-   )
-   event.shapeless(Item.of('thermal:silver_nugget', 2), [
-      'iceandfire:silver_pile',
-   ]
-   )
    //中子转换
    event.shapeless(Item.of('avaritia:neutron_ingot', 9), [
       'avaritia:neutron',

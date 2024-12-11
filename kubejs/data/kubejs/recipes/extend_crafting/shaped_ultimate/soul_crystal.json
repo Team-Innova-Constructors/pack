@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A       A",
+    "    B    ",
+    "  ABCBA  ",
+    "  BCDCB  ",
+    "  BEFEB  ",
+    "  BCDCB  ",
+    "  ABCBA  ",
+    "    B    ",
+    "A       A"
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:totemic_gold_nugget"
+    },
+    "B": {
+      "item": "l2complements:storm_core"
+    },
+    "C": {
+      "item": "l2complements:soul_flame"
+    },
+    "D": {
+      "item": "l2complements:life_essence"
+    },
+    "E": {
+      "item": "l2hostility:cursed"
+    },
+    "F": {
+      "item": "l2hostility:undying"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:soul_crystal"
+  }
+}
