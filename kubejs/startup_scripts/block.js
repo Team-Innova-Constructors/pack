@@ -19,4 +19,6 @@ StartupEvents.registry("block",event=>{
     event.create("stellaralloy_block","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.COPPER).tagBlock('forge:storage_blocks/stellaralloy')
     event.create("mercury_orichalcum_ore","basic").requiresTool(true).hardness(3.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool').material('netherite').soundType(SoundType.ANCIENT_DEBRIS).lightLevel(8).requiresTool(true)
     event.create("mercury_tungsten_ore","basic").requiresTool(true).hardness(2.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool').material('netherite').soundType(SoundType.ANCIENT_DEBRIS).requiresTool(true).tagBlock('forge:ores/tungsten')
+    event.create("block_enriched_refined_glowstone","basic").requiresTool(true).hardness(2.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).lightLevel(15).requiresTool(true)
+    event.create("block_enriched_refined_obsidian","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
 })

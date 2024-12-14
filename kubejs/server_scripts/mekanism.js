@@ -165,4 +165,10 @@ ServerEvents.recipes(event => {
     N: 'mekaevolution:supreme_control_circuit'
   }
 )
+event.shapeless('kubejs:block_enriched_refined_glowstone', '9x kubejs:enriched_refined_glowstone')
+event.shapeless('9x kubejs:enriched_refined_glowstone', 'kubejs:block_enriched_refined_glowstone')
+event.shapeless('kubejs:block_enriched_refined_obsidian', '9x mekanism:enriched_refined_obsidian')
+event.shapeless('9x mekanism:enriched_refined_obsidian', 'kubejs:block_enriched_refined_obsidian')
+event.recipes.mekanismEnriching("kubejs:block_enriched_refined_glowstone", 'mekanism:block_refined_glowstone')
+event.recipes.mekanismEnriching("kubejs:block_enriched_refined_obsidian", 'mekanism:block_refined_obsidian')
 })

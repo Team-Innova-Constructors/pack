@@ -1,0 +1,13 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "type": "pneumaticcraft:stacked_item",
+    "count": 16,
+    "item": "pneumaticcraft:empty_pcb"
+  },
+  "program": "laser",
+  "result": {
+    "count": 16,
+    "item": "pneumaticcraft:unassembled_pcb"
+  }
+}
