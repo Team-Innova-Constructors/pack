@@ -209,17 +209,6 @@ ServerEvents.recipes(event => {
          C: 'l2complements:shulkerate_nugget',
       }
    )
-   //创造AE能
-   event.shaped(Item.of('ae2:creative_energy_cell', 1), [
-      'AAA',
-      'ABA',
-      'AAA'
-   ],
-      {
-         A: 'megacells:mega_energy_cell',
-         B: 'ae2:engineering_processor',
-      }
-   )
    event.smithing('constructionwand:infinity_wand','constructionwand:diamond_wand','tconstruct:manyullyn_ingot')
 
 

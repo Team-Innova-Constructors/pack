@@ -32,10 +32,7 @@
       "item": "enigmaticlegacy:cosmic_heart"
     },
     "H": {
-      "type": "forge:nbt",
-      "item": "iceandfire:dragonsteel_fire_sword",
-      "count": 1,
-      "nbt": "{Damage:0}"
+      "item": "iceandfire:dragonsteel_fire_sword"
     },
     "I": {
       "item": "l2hostility:fiery"
