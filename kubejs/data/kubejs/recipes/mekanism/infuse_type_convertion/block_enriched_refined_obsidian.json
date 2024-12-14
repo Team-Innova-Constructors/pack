@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": {
+        "item": "kubejs:block_enriched_refined_obsidian"
+      }
+    },
+    "output": {
+      "amount": 720,
+      "infuse_type": "mekanism:refined_obsidian"
+    }
+  }

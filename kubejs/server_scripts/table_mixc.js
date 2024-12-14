@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
       {
          B: 'kubejs:violium_alloy',
          A: 'kubejs:violium_core',
-         C: 'powah:capacitor_nitro',
+         C: 'powah:capacitor_niotic',
       }
    )
    event.shaped(Item.of('waystones:warp_stone', 1), [

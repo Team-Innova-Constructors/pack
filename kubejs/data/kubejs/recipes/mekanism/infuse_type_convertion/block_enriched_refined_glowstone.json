@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+      "ingredient": {
+        "item": "kubejs:block_enriched_refined_glowstone"
+      }
+    },
+    "output": {
+      "amount": 720,
+      "infuse_type": "etshtinker:refined_glowstone"
+    }
+  }
