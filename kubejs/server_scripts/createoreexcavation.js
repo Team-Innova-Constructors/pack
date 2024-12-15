@@ -38,14 +38,32 @@ event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000'
 event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text": "碧空史莱姆"}', 50, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
-//无限量
-.alwaysInfinite()
 //应力值
 .stress(256)
 //生物群落白名单
 .biomeWhitelist('minecraft:is_overworld')
 //配方id
 .id("sky_slime");
+
+event.recipes.createoreexcavation.extracting('tconstruct:earth_slime 2000','{"text": "大地史莱姆"}', 50, 80)
+//钻头等级
+.drill('#createoreexcavation:second_createore_drill')
+//应力值
+.stress(256)
+//生物群落白名单
+.biomeWhitelist('minecraft:is_overworld')
+//配方id
+.id("earth_slime");
+
+event.recipes.createoreexcavation.extracting('tconstruct:ender_slime 2000','{"text": "末影史莱姆"}', 50, 80)
+//钻头等级
+.drill('#createoreexcavation:second_createore_drill')
+//应力值
+.stress(256)
+//生物群落白名单
+.biomeWhitelist('minecraft:is_end')
+//配方id
+.id("end_slime");
 
 
 //贫油

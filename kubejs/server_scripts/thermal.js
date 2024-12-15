@@ -59,7 +59,10 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(6250000)
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
   //冷冻机
-  event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(800)
+  event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)
+  event.recipes.thermal.chiller(Item.of('tconstruct:sky_congealed_slime'), Fluid.of('tconstruct:sky_slime', 1000)).energy(4000)
+  event.recipes.thermal.chiller(Item.of('tconstruct:ender_congealed_slime'), Fluid.of('tconstruct:ender_slime', 1000)).energy(4000)
+  event.recipes.thermal.chiller(Item.of('tconstruct:earth_congealed_slime'), Fluid.of('tconstruct:earth_slime', 1000)).energy(4000)
   //离心机
   event.recipes.thermal.centrifuge(['thermal:sulfur_dust', '2x thermal:niter_dust', 'mekanism:dust_charcoal'], '4x minecraft:gunpowder').energy(10000)
   event.recipes.thermal.centrifuge([Item.of('kubejs:light_slag').withChance(1.8), Item.of('kubejs:crystal_slag').withChance(1.30), Item.of('kubejs:metal_slag').withChance(1.6), Item.of('kubejs:mineral_slag').withChance(1.2)], 'kubejs:enriched_slag').energy(12000)
