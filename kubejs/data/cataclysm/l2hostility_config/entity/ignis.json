@@ -21,7 +21,7 @@
             {
               "stack": {
                 "item": "cataclysm:the_incinerator",
-                "nbt": "{Enchantments:[{id:\"l2complements:void_touch\",lvl:10s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
               },
               "weight": 100
             }
