@@ -171,4 +171,7 @@ event.shapeless('kubejs:block_enriched_refined_obsidian', '9x mekanism:enriched_
 event.shapeless('9x mekanism:enriched_refined_obsidian', 'kubejs:block_enriched_refined_obsidian')
 event.recipes.mekanismEnriching("kubejs:block_enriched_refined_glowstone", 'mekanism:block_refined_glowstone')
 event.recipes.mekanismEnriching("kubejs:block_enriched_refined_obsidian", 'mekanism:block_refined_obsidian')
+event.shapeless('kubejs:block_yellow_cake_uranium', '9x mekanism:yellow_cake_uranium')
+event.shapeless('9x mekanism:yellow_cake_uranium', 'kubejs:block_yellow_cake_uranium')
+event.recipes.mekanismEnriching("kubejs:block_yellow_cake_uranium", '#forge:storage_blocks/uranium')
 })

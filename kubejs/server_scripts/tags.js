@@ -56,6 +56,8 @@ ServerEvents.tags('item', event => {
     //锭铸膜
     event.add('thermal:crafting/casts', '#tconstruct:casts/multi_use/ingot')
 
+    event.add('ae2:p2p_attunements/item_p2p_tunnel', 'ae2:item_cell_housing')
+
 
 })
 //添加方块标签
