@@ -1,5 +1,8 @@
 {
   "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 128000
+    },
     "tinkers_ingenuity:battery": {
       "energy_capacity": 85000,
       "durability": 2.25
