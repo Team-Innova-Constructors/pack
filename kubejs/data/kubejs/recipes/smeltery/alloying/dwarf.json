@@ -8,7 +8,7 @@
     { "name": "tinkers_ingenuity:molten_neutronium",
       "amount": 90 },
     { "name": "solidarytinker:super_dt",
-      "amount": 500 }
+      "amount": 1000 }
   ],
   "result": {
     "fluid": "solidarytinker:molten_dwarf",

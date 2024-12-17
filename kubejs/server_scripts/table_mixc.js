@@ -82,6 +82,10 @@ ServerEvents.recipes(event => {
       'avaritia:neutron',
    ]
    )
+   event.shapeless(Item.of('avaritia:crystal_matrix_ingot', 9), [
+      'avaritia:crystal_matrix',
+   ]
+   )
    event.shapeless(Item.of('avaritia:neutron_nugget', 9), [
       'avaritia:neutron_ingot',
    ]
