@@ -15,9 +15,9 @@
     "item": "kubejs:zirconium_alloy"
   },
   "pressure": 9.0,
-  "speed": 1,
+  "speed": 16,
   "temperature": {
-    "min_temp": 773
+    "min_temp": 1273
   }
     
 }
