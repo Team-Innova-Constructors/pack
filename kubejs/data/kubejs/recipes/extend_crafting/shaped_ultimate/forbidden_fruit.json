@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "    A    ",
+    " B  C  B ",
+    "  CDEDC  ",
+    "  DEFED  ",
+    "ACEFGFECA",
+    "  DEFED  ",
+    "  CDEDC  ",
+    " B  C  B ",
+    "    A    "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:void_eye"
+    },
+    "B": {
+      "item": "l2complements:force_field"
+    },
+    "C": {
+      "item": "l2complements:captured_wind"
+    },
+    "D": {
+      "item": "l2complements:soul_flame"
+    },
+    "E": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "F": {
+      "item": "l2hostility:witch_droplet"
+    },
+    "G": {
+      "item": "l2complements:enchanted_totemic_apple"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:forbidden_fruit"
+  }
+}

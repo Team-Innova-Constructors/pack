@@ -1,0 +1,55 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " A  B  A ",
+    " ABBBBBA ",
+    " BCDEDCB ",
+    "BBDFGFDBB",
+    "HBBIJIBBH",
+    " HBFKFBH ",
+    "  HBBBH  ",
+    "  BHHHB  ",
+    " BLLLLLB "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:eternium_block"
+    },
+    "B": {
+      "item": "iceandfire:dragonsteel_fire_block"
+    },
+    "C": {
+      "item": "l2complements:sun_membrane"
+    },
+    "D": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "E": {
+      "item": "l2complements:guardian_eye"
+    },
+    "F": {
+      "item": "l2hostility:pulling"
+    },
+    "G": {
+      "item": "enigmaticlegacy:avarice_scroll"
+    },
+    "H": {
+      "item": "l2complements:soul_flame"
+    },
+    "I": {
+      "item": "l2hostility:ragnarok"
+    },
+    "J": {
+      "item": "tinkersinnovation:hostilium_block"
+    },
+    "K": {
+      "item": "l2hostility:curse_of_greed"
+    },
+    "L": {
+      "item": "l2complements:sculkium_block"
+    }
+  },
+  "result": {
+    "item": "l2hostility:greed_of_nidhoggur"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " A BBB A ",
+    "  BBBBB  ",
+    " BCDEDCB ",
+    "BBDEFEDBB",
+    "BBEFGFEBB",
+    "BBDEFEDBB",
+    " BCDEDCB ",
+    "  BBBBB  ",
+    " A BBB A "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "B": {
+      "item": "l2complements:poseidite_ingot"
+    },
+    "C": {
+      "item": "l2complements:eternium_block"
+    },
+    "D": {
+      "item": "l2complements:blackstone_core"
+    },
+    "E": {
+      "item": "l2complements:poseidite_block"
+    },
+    "F": {
+      "item": "l2complements:totem_of_the_sea"
+    },
+    "G": {
+      "item": "avaritia:infinity_ingot"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:ocean_stone"
+  }
+}

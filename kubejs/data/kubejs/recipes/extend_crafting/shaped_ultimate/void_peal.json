@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A       A",
+    "BA     AB",
+    "BA CCC AB",
+    "AACDEDCAA",
+    "AFCEGECFA",
+    "AFCDEDCFA",
+    " AFCCCFA ",
+    "  AAAAA  ",
+    "   AAA   "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "B": {
+      "item": "l2complements:sun_membrane"
+    },
+    "C": {
+      "item": "l2complements:void_eye"
+    },
+    "D": {
+      "item": "l2hostility:killer_aura"
+    },
+    "E": {
+      "item": "l2hostility:ragnarok"
+    },
+    "F": {
+      "item": "l2hostility:dementor"
+    },
+    "G": {
+      "item": "avaritia:infinity_ingot"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:void_pearl"
+  }
+}

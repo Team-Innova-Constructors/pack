@@ -1,0 +1,49 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AA     AA",
+    "ABCDDDCBA",
+    "EFDGHIDFE",
+    "AFDIJJDFA",
+    "ABDHJGDBA",
+    "ABCDDDCBA",
+    " ABAAABA ",
+    " AB   BA ",
+    " AB   BA "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:sculkium_block"
+    },
+    "B": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "C": {
+      "item": "l2hostility:moonwalk"
+    },
+    "D": {
+      "item": "l2hostility:levitation"
+    },
+    "E": {
+      "item": "l2complements:storm_core"
+    },
+    "F": {
+      "item": "l2complements:heirophant_green"
+    },
+    "G": {
+      "item": "l2hostility:teleport"
+    },
+    "H": {
+      "item": "l2hostility:invisible"
+    },
+    "I": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "J": {
+      "item": "l2hostility:reflect"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:eye_of_nebula"
+  }
+}

@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         "count": 2
       },
       {
-        "tag": "forge:dusts/obsidian",
+        "item": "create:powdered_obsidian",
         "count": 4
       }
     ],

@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  A   A  ",
+    "BA     AB",
+    "A   C   A",
+    "DA CEC AD",
+    "DACEFECAD",
+    "DA CEC AD",
+    "A   C   A",
+    "BA     AB",
+    "  A   A  "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "B": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "C": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "D": {
+      "item": "l2complements:storm_core"
+    },
+    "E": {
+      "item": "l2complements:sun_membrane"
+    },
+    "F": {
+      "item": "avaritia:infinity_nugget"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:angel_blessing"
+  }
+}

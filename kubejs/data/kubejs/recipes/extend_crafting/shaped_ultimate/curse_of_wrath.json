@@ -1,0 +1,55 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  A   A  ",
+    "  ABBBA  ",
+    " BCCCCCB ",
+    " BDECEDB ",
+    " BFGHGFB ",
+    "  BDIDB  ",
+    "   BJB   ",
+    "   BKB   ",
+    "  L B L  "
+  ],
+  "key": {
+    "A": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "B": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "C": {
+      "item": "l2complements:explosion_shard"
+    },
+    "D": {
+      "item": "l2hostility:ragnarok"
+    },
+    "E": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "F": {
+      "item": "l2hostility:moonwalk"
+    },
+    "G": {
+      "item": "l2hostility:killer_aura"
+    },
+    "H": {
+      "item": "l2hostility:counter_strike"
+    },
+    "I": {
+      "item": "enigmaticlegacy:berserk_charm"
+    },
+    "J": {
+      "item": "cataclysm:the_incinerator"
+    },
+    "K": {
+      "item": "enigmaticlegacy:forbidden_axe"
+    },
+    "L": {
+      "item": "l2complements:space_shard"
+    }
+  },
+  "result": {
+    "item": "l2hostility:curse_of_wrath"
+  }
+}

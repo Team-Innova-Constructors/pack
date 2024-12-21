@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ABCBA",
+    "BDEDB",
+    "ABDBA",
+    "AFFFA"
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:resonant_feather"
+    },
+    "B": {
+      "item": "l2complements:captured_wind"
+    },
+    "C": {
+      "item": "pneumaticcraft:pressure_gauge"
+    },
+    "D": {
+      "item": "l2hostility:speedy"
+    },
+    "E": {
+      "item": "aether:zanite_gloves"
+    },
+    "F": {
+      "item": "cyclic:gem_amber"
+    }
+  },
+  "result": {
+    "item": "cyclic:charm_attack_speed"
+  }
+}
