@@ -1,0 +1,1 @@
+{"type":"mekanism:separating","input":{"amount":100,"tag":"forge:brine"},"leftGasOutput":{"amount":100,"gas":"mekanism:sodium"},"rightGasOutput":{"amount":1,"gas":"mekanism:chlorine"}}

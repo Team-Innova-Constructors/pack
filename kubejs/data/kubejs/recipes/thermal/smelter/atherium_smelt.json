@@ -3,11 +3,11 @@
     "ingredient": [
         {
           "item": "etshtinker:trinity_intereactive_alloy",
-          "count":1
+          "count":2
         },
         {
           "item": "kubejs:zirconium_alloy",
-          "count":8
+          "count":6
         },
         {
           "item": "kubejs:violium_alloy",
@@ -17,7 +17,7 @@
     "result": [
       {
         "item": "kubejs:atherium_alloy",
-        "chance": 12
+        "chance": 8
       }
     ],
     "experience": 2

@@ -6,7 +6,7 @@
       }
     },
     "mainInput": {
-      "amount": 64,
+      "amount": 16,
       "ingredient": {
         "item": "cti:unipolar_magnet"
       }

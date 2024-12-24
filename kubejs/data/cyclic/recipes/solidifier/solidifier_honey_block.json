@@ -1,0 +1,24 @@
+{
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": "minecraft:honeycomb"
+  },
+  {
+    "item": "minecraft:honeycomb"
+  },
+   {
+    "item": "minecraft:stick"
+  }],
+	"energy": {
+		"rfpertick": 100,
+		"ticks": 100
+	},
+	  "mix": {
+    "tag": "forge:honey",
+    "count": 1000
+  },
+  "result": {
+    "item": "minecraft:honey_block",
+	"count": 1
+  }
+}
