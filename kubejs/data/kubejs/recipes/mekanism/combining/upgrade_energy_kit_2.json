@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "extraInput": {
+    "ingredient": {
+      "item": "kubejs:electronium_block"
+    }
+  },
+  "mainInput": {
+    "amount": 1,
+    "ingredient": {
+      "item": "cti:upgrade_energy_kit"
+    }
+  },
+  "output": {
+    "item": "cti:upgrade_energy_kit_2",
+    "count": 1
+  }
+}

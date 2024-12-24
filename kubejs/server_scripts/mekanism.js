@@ -174,4 +174,16 @@ event.recipes.mekanismEnriching("kubejs:block_enriched_refined_obsidian", 'mekan
 event.shapeless('kubejs:block_yellow_cake_uranium', '9x mekanism:yellow_cake_uranium')
 event.shapeless('9x mekanism:yellow_cake_uranium', 'kubejs:block_yellow_cake_uranium')
 event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:storage_blocks/uranium')
+
+  event.shaped(Item.of('cti:upgrade_double_kit',1), [
+    'C C',
+    'ACB',
+    'C C'
+  ],
+  {
+    A: 'cti:upgrade_speed_kit',
+    B: 'cti:upgrade_energy_kit',
+    C: 'ae2:singularity',
+  }
+  )
 })

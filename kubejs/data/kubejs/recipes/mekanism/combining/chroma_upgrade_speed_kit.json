@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "extraInput": {
+    "ingredient": {
+      "item": "kubejs:compressed_activated_chroma_plate"
+    }
+  },
+  "mainInput": {
+    "amount": 1,
+    "ingredient": {
+      "item": "cti:upgrade_speed_kit"
+    }
+  },
+  "output": {
+    "item": "cti:chroma_upgrade_speed_kit",
+    "count": 64
+  }
+}
