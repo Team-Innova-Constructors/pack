@@ -16,7 +16,7 @@
       "item": "enigmaticlegacy:astral_dust"
     },
     "B": {
-      "item": "avaritia:infinity_catalyst"
+      "item": "avaritia:infinity_nugget"
     },
     "C": {
       "item": "enigmaticlegacy:evil_essence"
@@ -58,10 +58,7 @@
       "item": "cataclysm:void_eye"
     },
     "P": {
-      "type": "forge:nbt",
-      "item": "immersiveengineering:shield",
-      "count": 1,
-      "nbt": "{Damage:0}"
+      "item": "immersiveengineering:shield"
     },
     "Q": {
       "item": "minecraft:sand"

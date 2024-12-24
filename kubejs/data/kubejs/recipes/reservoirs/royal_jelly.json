@@ -7,7 +7,7 @@
   "dimensions": {
     "isBlacklist": false,
     "list": [
-      "tofucraft:tofu_world"
+      "minecraft:overworld"
     ]
   },
   "equilibrium": 0,

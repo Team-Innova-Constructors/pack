@@ -117,6 +117,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'tconstruct:smeltery/melting/metal/iron/nugget_3'})
 	event.remove({id:'tconstruct:smeltery/melting/metal/gold/powered_rail'})
 	event.remove({id:'thermal:machines/smelter/smelter_alloy_enderium'})
+	event.remove({id:'l2hostility:greed_of_nidhoggur'})
 
 
 	//移除原有矿脉

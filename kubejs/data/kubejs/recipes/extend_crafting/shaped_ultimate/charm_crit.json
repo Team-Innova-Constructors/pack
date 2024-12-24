@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABB",
+    "AABCB",
+    "ABDBA",
+    "EBBAA",
+    "EEAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "tinkers_ingenuity:teslin_alloy_ingot"
+    },
+    "B": {
+      "item": "etshtinker:protonium"
+    },
+    "C": {
+      "item": "l2hostility:protection"
+    },
+    "D": {
+      "item": "l2hostility:tank"
+    },
+    "E": {
+      "item": "l2complements:storm_core"
+    }
+  },
+  "result": {
+    "item": "cyclic:charm_crit"
+  }
+}

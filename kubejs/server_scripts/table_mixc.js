@@ -66,6 +66,18 @@ ServerEvents.recipes(event => {
          B: 'create:crushed_raw_iron',
       }
    )
+   //鸡蛋
+   event.shaped(Item.of('minecraft:egg', 16), [
+      'BAB',
+      'BCB',
+      'BAB'
+   ],
+      {
+         A: 'biomancy:stone_powder',
+         B: 'minecraft:bone_meal',
+         C: 'l2complements:life_essence',
+      }
+   )
    //末影珍珠
    event.shaped(Item.of('cyclic:eye_teleport', 1), [
       ' B ',

@@ -1,0 +1,49 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   ABA   ",
+    "  CDEDC  ",
+    " CFGDGFC ",
+    "ADGHIHGDA",
+    "BEDIJIDEB",
+    "ADGHIHGDA",
+    " CFGDGFC ",
+    "  CDEDC  ",
+    "   ABA   "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:soul_flame"
+    },
+    "B": {
+      "item": "l2complements:void_eye"
+    },
+    "C": {
+      "item": "l2complements:life_essence"
+    },
+    "D": {
+      "item": "l2complements:storm_core"
+    },
+    "E": {
+      "item": "l2complements:space_shard"
+    },
+    "F": {
+      "item": "l2complements:heirophant_green"
+    },
+    "G": {
+      "item": "l2complements:hard_ice"
+    },
+    "H": {
+      "item": "minecraft:ghast_tear"
+    },
+    "I": {
+      "item": "l2complements:cursed_droplet"
+    },
+    "J": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "avaritia:infinity_nugget"
+  }
+}

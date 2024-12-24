@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " A     A ",
+    "BAAAAAAAB",
+    "BACDDDCAB",
+    "BACCDCCAB",
+    "BEACFCAEB",
+    "BEACDCAEB",
+    "BEACGCAEB",
+    "BAACGCABB",
+    " ACGGGCA "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:blackstone_core"
+    },
+    "B": {
+      "item": "l2complements:explosion_shard"
+    },
+    "C": {
+      "item": "l2complements:soul_flame"
+    },
+    "D": {
+      "item": "l2hostility:soul_burner"
+    },
+    "E": {
+      "item": "l2hostility:drain"
+    },
+    "F": {
+      "item": "avaritia:infinity_nugget"
+    },
+    "G": {
+      "item": "l2hostility:fiery"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:blazing_core"
+  }
+}

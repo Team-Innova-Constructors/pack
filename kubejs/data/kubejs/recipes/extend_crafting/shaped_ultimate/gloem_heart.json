@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABBACCC",
+    "AADDDDACC",
+    "ADEFEFEAC",
+    "BDFEGEFDA",
+    "BDEGGGEDB",
+    "ADFEGEFDB",
+    "CAEFEFEDA",
+    "CCADDDDAA",
+    "CCCABBAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:explosion_shard"
+    },
+    "B": {
+      "item": "l2complements:blackstone_core"
+    },
+    "C": {
+      "item": "l2complements:shulkerate_block"
+    },
+    "D": {
+      "item": "l2complements:storm_core"
+    },
+    "E": {
+      "item": "l2hostility:protection"
+    },
+    "F": {
+      "item": "l2hostility:adaptive"
+    },
+    "G": {
+      "item": "l2hostility:tank"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:golem_heart"
+  }
+}

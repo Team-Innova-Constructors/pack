@@ -3,12 +3,12 @@
   "pattern": [
     "AABCCCBAA",
     "ABDEFGDBA",
-    "BDHIAIJDB",
-    "CKIALAIMC",
-    "CNAOPQANC",
-    "CRIALAISC",
-    "BDTIAIUDB",
-    "ABDVWXDBA",
+    "BDHIJIKDB",
+    "CLIJMJINC",
+    "COJPQRJOC",
+    "CSIJTJIUC",
+    "BDVIJIWDB",
+    "ABDXYZDBA",
     "AABCCCBAA"
   ],
   "key": {
@@ -40,48 +40,54 @@
       "item": "l2hostility:chaos_ingot"
     },
     "J": {
-      "item": "l2complements:poseidite_block"
+      "item": "avaritia:infinity_ingot"
     },
     "K": {
-      "item": "solidarytinker:dwarf_block"
+      "item": "l2complements:poseidite_block"
     },
     "L": {
-      "item": "enigmaticlegacy:twisted_heart"
+      "item": "solidarytinker:dwarf_block"
     },
     "M": {
-      "item": "tconstruct:manyullyn_block"
+      "item": "enigmaticlegacy:twisted_heart"
     },
     "N": {
-      "item": "l2complements:heirophant_green"
+      "item": "tconstruct:manyullyn_block"
     },
     "O": {
-      "item": "enigmaticlegacy:unholy_grail"
+      "item": "l2complements:heirophant_green"
     },
     "P": {
-      "item": "enigmaticlegacy:the_cube"
+      "item": "enigmaticlegacy:unholy_grail"
     },
     "Q": {
-      "item": "enigmaticlegacy:forbidden_fruit"
+      "item": "avaritia:infinity_nugget"
     },
     "R": {
-      "item": "botania:terrasteel_block"
+      "item": "enigmaticlegacy:forbidden_fruit"
     },
     "S": {
-      "item": "botania:elementium_block"
+      "item": "botania:terrasteel_block"
     },
     "T": {
-      "item": "mythicbotany:alfsteel_block"
+      "item": "enigmaticlegacy:the_cube"
     },
     "U": {
-      "item": "botania:manasteel_block"
+      "item": "botania:elementium_block"
     },
     "V": {
-      "item": "kubejs:stellaralloy_block"
+      "item": "mythicbotany:alfsteel_block"
     },
     "W": {
-      "item": "enigmaticlegacy:eldritch_amulet"
+      "item": "botania:manasteel_block"
     },
     "X": {
+      "item": "kubejs:stellaralloy_block"
+    },
+    "Y": {
+      "item": "enigmaticlegacy:eldritch_amulet"
+    },
+    "Z": {
       "item": "kubejs:blitz_luminium_block"
     }
   },

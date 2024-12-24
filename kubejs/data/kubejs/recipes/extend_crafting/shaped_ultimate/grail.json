@@ -1,0 +1,49 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " ABCBCBA ",
+    " ADBBBDA ",
+    " AEDFDEA ",
+    "  AGHIA  ",
+    "  AEJEA  ",
+    "   AEA   ",
+    "   AEA   ",
+    "  AAEAA  ",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "B": {
+      "item": "l2hostility:bottle_of_curse"
+    },
+    "C": {
+      "item": "l2hostility:witch_droplet"
+    },
+    "D": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "E": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "F": {
+      "item": "l2hostility:nausea"
+    },
+    "G": {
+      "item": "l2hostility:wither"
+    },
+    "H": {
+      "item": "l2hostility:blindness"
+    },
+    "I": {
+      "item": "l2hostility:poison"
+    },
+    "J": {
+      "item": "l2hostility:weakness"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:unholy_grail"
+  }
+}

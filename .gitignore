@@ -46,6 +46,7 @@ patchouli_data.json
 rhino.local.properties
 user*
 tic4.jar
+TrashSlotSaveState.json
 tic4.json
 options.txt
 CTI.jar
@@ -56,6 +57,7 @@ CTI.json
 /config
 /backups
 /log4j2.xml
+/schematics/uploaded
 natives-windows-x86_64
 /cti3-natives
 /cacher
