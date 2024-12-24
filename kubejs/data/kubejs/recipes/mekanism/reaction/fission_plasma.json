@@ -10,7 +10,7 @@
     "gas": "mekanism:nuclear_waste"
   },
   "gasOutput": {
-    "amount": 500,
+    "amount": 100,
     "gas": "cti:fission_plasma"
   },
   "itemInput": {
@@ -19,7 +19,7 @@
     }
   },
   "itemOutput": {
-    "count": 2,
-    "item": "mekanism:reprocessed_fissile_fragment"
+    "count": 1,
+    "item": "avaritia:neutron_pile"
   }
 }

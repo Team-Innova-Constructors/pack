@@ -1,0 +1,36 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "tag": "forge:eggs",
+        "amount_needed": 1
+      },
+      {
+        "tag": "forge:eggs",
+        "amount_needed": 1
+      },
+      {
+        "tag": "forge:eggs",
+        "amount_needed": 1
+      },
+      {
+        "tag": "forge:eggs",
+        "amount_needed": 1
+      },
+      {
+        "tag": "forge:eggs",
+        "amount_needed": 1
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    "allow_crystal": true,
+    "result":"cti:egg_boost",
+    "level": {
+      "max": 5
+    },
+    "slots": {
+      "upgrades": 2
+    }
+  }

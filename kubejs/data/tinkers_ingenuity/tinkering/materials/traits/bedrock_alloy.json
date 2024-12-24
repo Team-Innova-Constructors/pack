@@ -1,0 +1,32 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:thousand_heavy",
+        "level": 1
+      },
+      {
+        "name": "cti:earth_core_crush",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:eternal",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:thousand_heavy",
+        "level": 1
+      },
+      {
+        "name": "cti:earth_core_crush",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:eternal",
+        "level": 1
+      }
+    ]
+  }
+}
