@@ -17,4 +17,6 @@ ServerEvents.recipes(event => {
               "item": "megacells:bulk_cell_component"
             }
       })
+    event.replaceInput({mod:'megacells',type:'crafting_shaped',output:'megacells:cell_component_4m'}, 'ae2:ender_dust','#forge:dusts/ender_pearl')
+    event.replaceInput({mod:'megacells',type:'crafting_shaped',output:'megacells:cell_component_16m'}, 'ae2:ender_dust','#forge:dusts/ender_pearl')
 })

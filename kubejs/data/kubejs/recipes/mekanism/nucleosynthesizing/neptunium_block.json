@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 1000,
+  "gasInput": {
+    "amount": 14,
+    "gas": "mekanism:antimatter"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "l2complements:poseidite_block"
+    }
+  },
+  "output": {
+    "item": "aquaculture:neptunium_block"
+  }
+}

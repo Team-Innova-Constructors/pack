@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
   // 机器框架
   event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:ingots/iron', 'etshtinker:hardlead_plate')
   event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:gears/tin', '#forge:gears/steel')
+  event.replaceInput({ mod: 'thermal', output: 'thermal:white_rockwool' }, 'thermal:slag', '#forge:slag')
   //磨粉机
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(3.5), 'createoreexcavation:raw_diamond').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
@@ -19,6 +20,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.press('8x ae2:printed_logic_processor', ['8x #forge:ingots/gold', 'kubejs:universal_press']).energy(2000)
   //感应炉
   event.recipes.thermal.smelter('4x etshtinker:hardlead_plate', ['3x #forge:ingots/lead', 'etshtinker:bismuth_ingot']).energy(10000)
+  event.recipes.thermal.smelter('2x tinkers_ingenuity:blood_binding_ingot', ['3x thermal:steel_ingot','4x minecraft:gold_ingot','5x minecraft:blaze_rod']).energy(10000)
+  event.recipes.thermal.smelter('2x tinkers_reforged:duralumin_ingot', ['4x immersiveengineering:ingot_aluminum', '2x minecraft:copper_ingot']).energy(8000)
   event.recipes.thermal.smelter('4x thermal:enderium_ingot', ['3x #forge:ingots/lead', '2x minecraft:ender_pearl','#forge:dusts/diamond']).energy(16000)
   event.recipes.thermal.smelter(Item.of('etshtinker:bismuth_ingot').withChance(1.25), ['etshtinker:bismuthinite']).energy(12000)
   event.recipes.thermal.smelter([Item.of('l2hostility:hostility_essence').withChance(0.25),'64x minecraft:glass_bottle'], ['64x l2hostility:bottle_of_curse','kubejs:dust_pyrotheum']).energy(12000)

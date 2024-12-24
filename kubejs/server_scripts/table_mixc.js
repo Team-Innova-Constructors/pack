@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
       'GHI'
    ],
       {
-         A: 'tinkers_ingenuity:blood_steel_ingot',
+         A: 'tinkers_ingenuity:blood_binding_ingot',
          B: 'tconstruct:rose_gold_ingot',
          C: 'minecraft:gold_ingot',
          D: 'tinkers_thinking:chlorophyte_ingot',
@@ -223,6 +223,17 @@ ServerEvents.recipes(event => {
          B: 'l2complements:space_shard',
          A: 'l2complements:explosion_shard',
          C: 'l2complements:shulkerate_nugget',
+      }
+   )
+   event.shaped(Item.of('pipez:infinity_upgrade', 1), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         A: 'kubejs:atherium_alloy',
+         C: 'pipez:ultimate_upgrade',
+         B: 'minecraft:redstone',
       }
    )
    event.smithing('constructionwand:infinity_wand','constructionwand:diamond_wand','tconstruct:manyullyn_ingot')

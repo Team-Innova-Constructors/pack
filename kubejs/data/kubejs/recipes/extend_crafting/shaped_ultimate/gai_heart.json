@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   AAA   ",
+    " BCDDDCB ",
+    "BEBCCCBEB",
+    "BCEFGFECB",
+    " BFEHEFB ",
+    " BCFGFCB ",
+    "  BCBCB  ",
+    "   BCB  B",
+    "B   B  BB"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:grass_seeds"
+    },
+    "B": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "C": {
+      "item": "botania:life_essence"
+    },
+    "D": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "E": {
+      "item": "l2hostility:growth"
+    },
+    "F": {
+      "item": "enigmaticlegacy:evil_ingot"
+    },
+    "G": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:earth_heart"
+  }
+}

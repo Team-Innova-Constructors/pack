@@ -92,12 +92,12 @@ ServerEvents.recipes(event => {
 		event.remove([{id: `${i}` }])
 	}
 
-	event.remove({mod: 'explorerscompass', output: 'explorerscompass:explorerscompass' })
-	event.remove({mod: 'naturescompass', output: 'naturescompass:naturescompass' })
+	event.remove({mod:'explorerscompass', output: 'explorerscompass:explorerscompass' })
+	event.remove({mod:'naturescompass', output: 'naturescompass:naturescompass' })
 	event.remove({id:'l2hostility:curse_of_wrath'})
 	event.remove({id:'l2hostility:book_of_omniscience'})
-	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
-	event.remove({mod: 'l2hostility', output: 'l2hostility:curse_of_wrath' })
+	event.remove({mod:'l2hostility', output: 'l2hostility:curse_of_pride' })
+	event.remove({mod:'l2hostility', output: 'l2hostility:curse_of_wrath' })
 	event.remove({id:'megacells:inscriber/bulk_cell_component'})
 	event.remove({id:'thermal:fuels/compression/creosote'})
 	event.remove({id:'thermal:machines/refinery/refinery_heavy_oil'})
@@ -118,6 +118,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'tconstruct:smeltery/melting/metal/gold/powered_rail'})
 	event.remove({id:'thermal:machines/smelter/smelter_alloy_enderium'})
 	event.remove({id:'l2hostility:greed_of_nidhoggur'})
+	event.remove({id:'immersiveengineering:smelting/slag_glass'})
 
 
 	//移除原有矿脉
