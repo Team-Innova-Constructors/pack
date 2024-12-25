@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "extraInput": {
+    "ingredient": {
+      "tag": "forge:dusts/ender_pearl"
+    }
+  },
+  "mainInput": {
+    "amount": 64,
+    "ingredient": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "output": {
+    "item": "minecraft:end_stone",
+    "count": 64
+  }
+}

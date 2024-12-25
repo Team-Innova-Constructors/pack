@@ -238,5 +238,23 @@ ServerEvents.recipes(event => {
    )
    event.smithing('constructionwand:infinity_wand','constructionwand:diamond_wand','tconstruct:manyullyn_ingot')
 
+   event.shaped(Item.of('cti:flat_tablet', 1), [
+      'A',
+      'B'
+   ],
+      {
+         A: 'minecraft:redstone',
+         B: '#forge:plates/iron',
+      }
+   )
 
+   event.shaped(Item.of('cti:flat_tablet_day', 1), [
+      'A',
+      'B'
+   ],
+      {
+         A: 'aether:sun_altar',
+         B: 'cti:flat_tablet',
+      }
+   )
 })

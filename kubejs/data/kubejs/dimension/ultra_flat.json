@@ -1,0 +1,20 @@
+{
+    "type": "kubejs:ultra_flat",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "layers": [
+          {
+            "height": 1,
+            "block": "minecraft:bedrock"
+          }
+        ],
+        "biome":"kubejs:ultra_flat",
+        "structure_overrides": {}
+      },
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "kubejs:ultra_flat"
+      }
+    }
+}
