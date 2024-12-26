@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
       ' L '
     ],
     {
-      L: '#forge:ingots/tungsten',
+      L: 'kubejs:tungsten_steel_ingot',
       M: '#forge:nuggets/ultra_dense',
       N: 'mekaevolution:absolute_control_circuit'
     }

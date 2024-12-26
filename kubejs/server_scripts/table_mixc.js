@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
       ' B '
    ],
       {
-         A: '#forge:ingots/tungsten',
+         A: 'kubejs:tungsten_steel_ingot',
          B: 'pneumaticcraft:printed_circuit_board',
          C: 'etshtinker:electronium',
       }
