@@ -63,4 +63,5 @@ StartupEvents.registry("item",event=>{
     event.create("gravity_mechanism","basic")
     event.create("singnal_mechanism","basic")
     event.create("structre_mechanism","basic")
+    event.create("tungsten_steel_ingot","basic")
 })

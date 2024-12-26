@@ -1,0 +1,32 @@
+{
+    "default": [
+      {
+        "level": 4,
+        "name": "cti:pressure_loaded"
+      },
+      {
+        "name": "tinkers_ingenuity:mortal_wound",
+        "level": 4
+      },
+      {
+        "level": 1,
+        "name": "cti:double_edged"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+          "level": 5,
+          "name": "cti:pressure_loaded"
+        },
+        {
+          "name": "etshtinker:solidified",
+          "level": 4
+        },
+        {
+            "name": "tinkers_ingenuity:second_wind",
+            "level": 2
+        }
+      ]
+    }
+  }

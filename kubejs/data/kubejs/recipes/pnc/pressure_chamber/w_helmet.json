@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "item": "pneumaticcraft:compressed_iron_helmet"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 3,
+        "item": "kubejs:tungsten_steel_ingot"
+      }
+    ],
+    "pressure": 2.0,
+    "results": [
+      {
+        "item": "tconstruct:helmet_plating",
+        "count": 1,
+        "nbt": "{Material:\"kubejs:tungsten_steel\"}"
+      }
+    ]
+  }

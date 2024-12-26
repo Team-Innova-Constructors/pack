@@ -228,6 +228,11 @@
     "material.kubejs.perfect_generic_item_new.flavor": "完美通用物品",
     "material.kubejs.perfect_generic_item_new.encyclopedia": "一个完美通用物品，非常的完美",
 
+    "item.kubejs.tungsten_steel_ingot": "钨钢锭",
+    "material.kubejs.tungsten_steel": "钨钢",
+    "material.kubejs.tungsten_steel.flavor": "别与那些绿色的金属破烂搞混了！",
+    "material.kubejs.tungsten_steel.encyclopedia": "曾经是最硬的合金材料，常用于制造各种刀头",
+
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
     "dimension.ad_astra.venus": "金星",

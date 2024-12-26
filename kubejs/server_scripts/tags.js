@@ -58,6 +58,9 @@ ServerEvents.tags('item', event => {
 
     event.add('ae2:p2p_attunements/item_p2p_tunnel', 'ae2:item_cell_housing')
 
+    event.add('curios:ring', 'cti:astra_tablet_5')
+    event.add('curios:charm', 'cti:astra_tablet_5')
+
 
 })
 //添加方块标签

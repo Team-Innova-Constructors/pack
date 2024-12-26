@@ -18,7 +18,7 @@
         "texture": "ad_astra:textures/sky/blue_sun.png",
         "blending": true,
         "render_type": "dynamic",
-        "scale": 180.0,
+        "scale": 360.0,
         "rotation": [
           0.0,
           -90.0,

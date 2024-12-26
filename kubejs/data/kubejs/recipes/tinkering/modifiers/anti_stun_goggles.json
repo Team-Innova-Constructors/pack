@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:string",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:glass/dark",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:glass/dark",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:glass/dark",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:glass/dark",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  },
+  "allow_crystal": true,
+  "result":"cti:anti_stun_goggles",
+  "level": {
+    "max": 1
+  }
+}
