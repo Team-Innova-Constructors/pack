@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 32,
+        "item": "etshtinker:hardlead_plate"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 3,
+        "item": "etshtinker:chroma_plate"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 1,
+        "item": "kubejs:tungsten_ingot"
+      }
+    ],
+    "pressure": 2.5,
+    "results": [
+      {
+        "item": "kubejs:compressed_hardlead",
+        "count": 8
+      }
+    ]
+  }

@@ -11,6 +11,11 @@ event.addFluid('kubejs:hot_heavycrystal_lava', Text.black({ "translate": "kubejs
 event.addItem('immersiveengineering:railgun', Text.black({ "translate": "kubejs.jei.railgun" }))
 event.addItem('thermal:chiller_ingot_cast', Text.black({ "translate": "kubejs.jei.ingot_cast" }))
 event.addItem('tinkers_ingenuity:splendid_ingot', Text.black({ "translate": "kubejs.jei.glorious_seal" }))
+event.addItem('bigger_ae2:4_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
+event.addItem('bigger_ae2:16_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
+event.addItem('bigger_ae2:64_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
+event.addItem('bigger_ae2:256_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
+event.addItem('bigger_ae2:1024_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
 
 })
 

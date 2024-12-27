@@ -257,4 +257,25 @@ ServerEvents.recipes(event => {
          B: 'cti:flat_tablet',
       }
    )
+
+   event.shaped(Item.of('pneumaticcraft:advanced_pressure_tube', 8), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         A: 'pneumaticcraft:pressure_tube',
+         C: 'kubejs:tungsten_ingot',
+      }
+   )
+
+   event.remove({id:'megacells:crafting/mega_crafting_unit'})
+   event.shaped(Item.of('megacells:mega_crafting_unit', 1), [
+      'AA',
+      'AA'
+   ],
+      {
+         A: 'ae2:crafting_unit',
+      }
+   )
 })

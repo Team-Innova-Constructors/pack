@@ -213,5 +213,16 @@ ServerEvents.recipes(event => {
 	for (let i of pile){
 		event.remove([{ mod : 'lightmanscurrency' , output: `${i}` }])
 	}
+	//并行
+	let accelerator =[
+		'bigger_ae2:4_core_crafting_accelerator',
+		'bigger_ae2:256_core_crafting_accelerator',
+		'bigger_ae2:64_core_crafting_accelerator',
+		'bigger_ae2:16_core_crafting_accelerator',
+		'bigger_ae2:1024_core_crafting_accelerator'
+	]
+	for (let i of accelerator){
+		event.remove([{ mod : 'bigger_ae2' , output: `${i}` }])
+	}
 }
 )

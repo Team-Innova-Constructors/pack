@@ -218,7 +218,8 @@
     "kubejs.jei.royal_jelly": "蜂王浆需要在豆腐世界用沉浸原油的钻井开采,容量4000-16000桶",
     "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉，需要沉浸原油的钻井开采，可以在热力精炼机或者分馏塔精炼出来其中产物,矿脉容量40000-60000桶",
     "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种流体矿脉，需要沉浸原油的钻井开采，可以在热力精炼机或者分馏塔精炼出来其中产物,矿脉容量40000-60000桶",
-    "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。部分需要手持工具的词条可能不会被触发。",
+    "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。",
+    "kubejs.jei.accelerator": "由于潜在的崩档问题，Bigger AE2的并行单元已被禁用。",
 
     "material.kubejs.zirconium_alloy": "钛锆合金",
     "material.kubejs.zirconium_alloy.flavor": "空气锻造",
