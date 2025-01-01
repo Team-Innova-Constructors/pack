@@ -243,5 +243,7 @@
 
     "block.kubejs.block_enriched_refined_obsidian":"富集强化黑曜石块",
     "block.kubejs.block_enriched_refined_glowstone":"富集强化荧石块",
-    "block.kubejs.block_yellow_cake_uranium":"铀饼"
+    "block.kubejs.block_yellow_cake_uranium":"铀饼",
+
+    "gas.mekanism.sulfuric_acid": "气态硫酸"
 }
