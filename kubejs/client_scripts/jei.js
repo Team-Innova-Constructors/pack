@@ -16,6 +16,12 @@ event.addItem('bigger_ae2:16_core_crafting_accelerator', Text.black({ "translate
 event.addItem('bigger_ae2:64_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
 event.addItem('bigger_ae2:256_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
 event.addItem('bigger_ae2:1024_core_crafting_accelerator', Text.black({ "translate": "kubejs.jei.accelerator" }))
+event.addItem('cti:fracture_silicon', Text.black({ "translate": "kubejs.jei.fracture_silicon" }))
+event.addItem('cti:fracture_silicon_budding', Text.black({ "translate": "kubejs.jei.fracture_silicon" }))
+event.addItem('cti:rasterite', Text.black({ "translate": "kubejs.jei.rasterite" }))
+event.addItem('cti:rasterite_budding', Text.black({ "translate": "kubejs.jei.rasterite" }))
+event.addItem('cti:unipolar_magnet', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
+event.addItem('cti:unipolar_magnet_budding', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
 
 })
 

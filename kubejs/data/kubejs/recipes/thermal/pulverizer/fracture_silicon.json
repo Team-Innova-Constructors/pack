@@ -1,0 +1,13 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "item": "cti:fracture_silicon"
+    },
+    "result": [
+      {
+        "item": "ae2:silicon",
+        "chance": 12.0
+      }
+    ],
+    "experience": 10
+}

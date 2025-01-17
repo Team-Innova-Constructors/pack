@@ -22,4 +22,5 @@ StartupEvents.registry("block",event=>{
     event.create("block_enriched_refined_glowstone","basic").requiresTool(true).hardness(2.0).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).lightLevel(15).requiresTool(true)
     event.create("block_enriched_refined_obsidian","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
     event.create("block_yellow_cake_uranium","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
+    event.create("pressurized_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
 })

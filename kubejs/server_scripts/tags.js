@@ -61,6 +61,15 @@ ServerEvents.tags('item', event => {
     event.add('curios:ring', 'cti:astra_tablet_5')
     event.add('curios:charm', 'cti:astra_tablet_5')
 
+    event.add('kubejs:cell_1m', 'megacells:cell_component_1m')
+    event.add('kubejs:cell_1m', 'ae2additions:cell_component_1024')
+    event.add('kubejs:cell_4m', 'megacells:cell_component_4m')
+    event.add('kubejs:cell_4m', 'ae2additions:cell_component_4096')
+    event.add('kubejs:cell_16m', 'megacells:cell_component_16m')
+    event.add('kubejs:cell_16m', 'ae2additions:cell_component_16384')
+    event.add('kubejs:cell_64m', 'megacells:cell_component_64m')
+    event.add('kubejs:cell_64m', 'ae2additions:cell_component_65536')
+
 
 })
 //添加方块标签
@@ -79,6 +88,9 @@ ServerEvents.tags('block', event => {
 
     event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
     event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
+
+    event.add('forge:budding', 'cti:fracture_silicon_budding')
+    event.add('forge:budding', 'cti:rasterite_budding')
 })
 ServerEvents.tags('block', event => {
     //修改锆

@@ -1,0 +1,48 @@
+{
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DXE",
+    "FGH"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:echo_shard"
+    },
+    "B": {
+      "item": "minecraft:dragon_egg"
+    },
+    "C": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "F": {
+      "item": "minecraft:netherite_block"
+    },
+    "H": {
+      "item": "minecraft:end_crystal"
+    },
+    "G": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "megacells:item_storage_cell_64m"
+    },
+    "E": {
+      "item": "megacells:fluid_storage_cell_64m"
+    },
+    "X": {
+      "item": "etshtinker:evil_orb"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "etshtinker:perfect_generic_item"
+  }
+}

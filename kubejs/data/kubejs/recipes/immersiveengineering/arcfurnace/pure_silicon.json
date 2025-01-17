@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [
+    ],
+    "energy": 6400,
+    "input": {
+      "base_ingredient": {
+        "item": "cti:fracture_silicon"
+      },
+      "count": 1
+    },
+    "results": [
+      {
+        "base_ingredient": {
+          "item": "kubejs:pure_silicon"
+        },
+        "count": 4
+      }
+    ],
+    "time": 2
+  }
