@@ -1,40 +1,34 @@
 {
     "type": "extendedcrafting:combination",
-    "powerCost": 128000000,
-    "powerRate": 51200000,
+    "powerCost": 2000000000,
+    "powerRate": 512000000,
     "input": {
       "item": "etshtinker:alloy_fracture"
     },
     "ingredients": [
       {
-        "item": "kubejs:atherium_alloy"
+        "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "create:andesite_casing"
       },
       {
         "item": "etshtinker:perfect_generic_item"
       },
       {
-        "item": "kubejs:atherium_alloy"
-      },
-      {
-        "item": "kubejs:atherium_alloy"
-      },
-      {
-        "item": "kubejs:atherium_alloy"
-      },
-      {
-        "item": "kubejs:atherium_alloy"
+        "item": "thermal:machine_frame"
       },
       {
         "item": "etshtinker:perfect_generic_item"
       },
       {
-        "item": "kubejs:atherium_alloy"
+        "item": "kubejs:pressurized_casing"
       },
       {
-        "item": "kubejs:atherium_alloy"
+        "item": "etshtinker:perfect_generic_item"
       },
       {
-        "item": "kubejs:atherium_alloy"
+        "item": "kubejs:atherium_casing"
       }
     ],
     "result": {

@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
   ],
   {
     A: 'kubejs:violium_alloy',
-    B: 'mekanism:steel_casing',
+    B: 'kubejs:pressurized_casing',
   }
   )
   //多方快结构方块
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_fuel_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:atherium_casing')
   event.remove({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_reactor_casing'})
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'}, '#forge:ingots/lead','kubejs:atherium_casing')
+  event.remove({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'})
   event.shaped(Item.of('mekanismgenerators:fission_reactor_casing',64), [
       ' A ',
       'ABA',
@@ -97,6 +97,17 @@ ServerEvents.recipes(event => {
       B: 'kubejs:atherium_casing'
     }
   )
+  event.shaped(Item.of('mekanismgenerators:reactor_glass',32), [
+    'CAC',
+    'ABA',
+    'CAC'
+  ],
+  {
+    B: 'ae2:quartz_glass',
+    A: 'kubejs:atherium_casing',
+    C: 'thermal:obsidian_glass'
+  }
+)
   //数采和电板
   event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
   event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])

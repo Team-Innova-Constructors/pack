@@ -1,0 +1,27 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 4,
+        "tag": "forge:ingots/zirconium"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 8,
+        "item": "kubejs:compressed_hardlead"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 2,
+        "item": "mekanism:steel_casing"
+      }
+    ],
+    "pressure": 3.0,
+    "results": [
+      {
+        "item": "kubejs:pressurized_casing",
+        "count": 2
+      }
+    ]
+  }

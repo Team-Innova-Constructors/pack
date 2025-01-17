@@ -6,8 +6,10 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:pressure_chamber_valve'}, 'pneumaticcraft:ingot_iron_compressed','etshtinker:hardlead_plate')
   // 流体混合
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:fluid_mixer'}, 'pneumaticcraft:reinforced_brick_wall','kubejs:compressed_hardlead')
+  event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:fluid_mixer'}, 'pneumaticcraft:pressure_tube','kubejs:pressurized_casing')
   // 热气动
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:thermopneumatic_processing_plant'}, 'pneumaticcraft:reinforced_stone_slab','kubejs:compressed_hardlead')
+  event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:thermopneumatic_processing_plant'}, 'pneumaticcraft:pressure_tube','kubejs:pressurized_casing')
   //涡轮转子
   event.replaceInput({mod:'pneumaticcraft',type:'crafting_shaped',output:'pneumaticcraft:turbine_rotor'}, 'pneumaticcraft:ingot_iron_compressed','kubejs:compressed_hardlead')
   //热力压缩机

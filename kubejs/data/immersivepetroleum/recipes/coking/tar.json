@@ -1,6 +1,6 @@
 {
   "type": "immersivepetroleum:coker",
-  "energy": 16384,
+  "energy": 15360,
   "input": {
     "base_ingredient": {
       "tag": "forge:tar"
@@ -19,5 +19,5 @@
     "amount": 100,
     "fluid": "kubejs:tar_mix"
   },
-  "time": 40
+  "time": 15
 }
