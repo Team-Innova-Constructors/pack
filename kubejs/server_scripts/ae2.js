@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
       })
     event.replaceInput({mod:'megacells',type:'crafting_shaped',output:'megacells:cell_component_4m'}, 'ae2:ender_dust','#forge:dusts/ender_pearl')
     event.replaceInput({mod:'megacells',type:'crafting_shaped',output:'megacells:cell_component_16m'}, 'ae2:ender_dust','#forge:dusts/ender_pearl')
-    event.shaped(Item.of('ae2additions:super_cell_component_1k',4), [
+    event.shaped(Item.of('ae2additions:super_cell_component_1k',8), [
       'BCB',
       'CAC',
       'BCB'
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
       C: 'cti:rasterite'
     }
   )
-  event.shaped(Item.of('ae2additions:super_cell_component_4k',2), [
+  event.shaped(Item.of('ae2additions:super_cell_component_4k',4), [
     'BDB',
     'CAC',
     'BDB'
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     D:'cti:rasterite'
   }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_16k',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_16k',2), [
   'BDB',
   'CAC',
   'BDB'
@@ -54,7 +54,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_16k',1), [
   D:'cti:rasterite'
 }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_64k',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_64k',2), [
   'BDB',
   'CAC',
   'BDB'
@@ -66,7 +66,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_64k',1), [
   D:'cti:rasterite'
 }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_256k',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_256k',2), [
   'BDB',
   'CAC',
   'BDB'
@@ -78,7 +78,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_256k',1), [
   D:'cti:rasterite'
 }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_1024k',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_1024k',2), [
   'BDB',
   'CAC',
   'BDB'
@@ -90,7 +90,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_1024k',1), [
   D:'cti:rasterite'
 }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_4096k',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_4096k',2), [
   'BDB',
   'CAC',
   'BDB'
@@ -102,7 +102,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_4096k',1), [
   D:'cti:rasterite'
 }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_16m',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_16m',2), [
   'BDB',
   'CAC',
   'BDB'
@@ -114,7 +114,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_16m',1), [
   D:'cti:rasterite'
 }
 )
-event.shaped(Item.of('ae2additions:super_cell_component_65m',1), [
+event.shaped(Item.of('ae2additions:super_cell_component_65m',2), [
   'BDB',
   'CAC',
   'BDB'
