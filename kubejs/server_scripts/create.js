@@ -74,4 +74,18 @@ event.recipes.create.sequenced_assembly([
         D: 'minecraft:ender_eye',
     })
 
+
+event.recipes.createMechanicalCrafting('cti:roxy_ingot', [
+  'AABAA',
+  'ACDEA',
+  'AAFAA'
+], {
+  A: 'ae2:not_so_mysterious_cube',
+  B: 'ars_nouveau:apprentice_hood',
+  C: 'l2complements:poseidite_ingot',
+  D: 'dummmmmmy:target_dummy',
+  E: 'etshtinker:electronium',
+  F: 'ae2:item_storage_cell_256k'
+})
+
 })

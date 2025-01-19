@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "ae2:logic_processor"
+      },
+      {
+        "item": "ae2:engineering_processor"
+      },
+      {
+        "item": "ae2:calculation_processor"
+      },
+      {
+        "item": "mekanism:ultimate_control_circuit"
+      },
+      {
+        "item": "mekanism:ultimate_control_circuit"
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/held"
+    },
+    "allow_crystal": true,
+    "result":"cti:encrypt",
+    "level": {
+      "max": 1
+    }
+  }

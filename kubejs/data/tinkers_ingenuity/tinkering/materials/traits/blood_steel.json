@@ -1,0 +1,40 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:bloody_mary",
+        "level": 1
+      },
+      {
+        "name": "cti:fixsanguine",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:bloody_mary",
+        "level": 1
+      },
+      {
+        "name": "cti:fixsanguine",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:wound_heal",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "tinkers_ingenuity:bloody_mary",
+        "level": 1
+      },
+      {
+        "name": "cti:fixsanguine",
+        "level": 1
+      }
+    ]
+  }
+}
