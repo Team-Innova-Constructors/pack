@@ -236,6 +236,17 @@ ServerEvents.recipes(event => {
          B: 'minecraft:redstone',
       }
    )
+   event.shaped(Item.of('aether:golden_feather', 1), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         A: 'l2complements:sun_membrane',
+         C: 'minecraft:feather',
+         B: 'minecraft:gold_nugget',
+      }
+   )
    event.smithing('constructionwand:infinity_wand','constructionwand:diamond_wand','tconstruct:manyullyn_ingot')
 
    event.shaped(Item.of('cti:flat_tablet', 1), [

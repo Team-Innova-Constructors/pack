@@ -13,7 +13,10 @@ ServerEvents.recipes(event => {
   event.recipes.botania.terra_plate('dreadsteel:dreadsteel_ingot', ['minecraft:blaze_powder', 'tinkerscalibration:witherium_ingot', 'tinkerscalibration:witherium_ingot', 'botania:elementium_ingot', 'iceandfire:dread_shard', 'iceandfire:dread_shard'], 500000)
   event.recipes.botania.terra_plate('solidarytinker:magicuranium_ingot', ['#forge:ingots/uranium', 'cti:magic_crystal', 'botania:manasteel_ingot', 'botanicalmachinery:mana_emerald'], 250000)
   event.recipes.botania.terra_plate('projecte:red_matter', ['etshtinker:evil_orb', 'cti:magic_crystal', 'projecte:dark_matter', 'botania:quartz_red'], 500000)
-
+  event.recipes.botania.terra_plate('projecte:dm_helmet', ['botania:terrasteel_helmet', 'projecte:dark_matter_block', 'mythicbotany:asgard_rune', 'mythicbotany:helheim_rune','mythicbotany:vanaheim_rune','projecte:dark_matter_block'], 1000000)
+  event.recipes.botania.terra_plate('projecte:dm_chestplate', ['botania:terrasteel_chestplate', 'projecte:dark_matter_block', 'mythicbotany:midgard_rune', 'mythicbotany:helheim_rune','mythicbotany:alfheim_rune','projecte:dark_matter_block'], 1000000)
+  event.recipes.botania.terra_plate('projecte:dm_leggings', ['botania:terrasteel_leggings', 'projecte:dark_matter_block', 'mythicbotany:muspelheim_rune', 'mythicbotany:helheim_rune','mythicbotany:joetunheim_rune','projecte:dark_matter_block'], 1000000)
+  event.recipes.botania.terra_plate('projecte:dm_boots', ['botania:terrasteel_boots', 'projecte:dark_matter_block', 'mythicbotany:helheim_rune', 'mythicbotany:nidavellir_rune','mythicbotany:vanaheim_rune','projecte:dark_matter_block'], 1000000)
   event.shaped(Item.of('kubejs:philosophers_catalyst', 1), [
     'ABA',
     'BCB',
@@ -24,130 +27,6 @@ ServerEvents.recipes(event => {
       B: 'minecraft:diamond',
       C: 'botania:alchemy_catalyst'
     })
-  event.custom({
-    "type": "mythicbotany:infuser",
-    "fromColor": 4521776,
-    "group": "infuser",
-    "ingredients": [
-      {
-        "item": "botania:terrasteel_helmet"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      },
-      {
-        "item": "mythicbotany:asgard_rune"
-      },
-      {
-        "item": "mythicbotany:helheim_rune"
-      },
-      {
-        "item": "mythicbotany:vanaheim_rune"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      }
-    ],
-    "mana": 4000000,
-    "output": {
-      "count": 1,
-      "item": "projecte:dm_helmet"
-    },
-    "toColor": 3683394
-  })
-  event.custom({
-    "type": "mythicbotany:infuser",
-    "fromColor": 4521776,
-    "group": "infuser",
-    "ingredients": [
-      {
-        "item": "botania:terrasteel_chestplate"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      },
-      {
-        "item": "mythicbotany:midgard_rune"
-      },
-      {
-        "item": "mythicbotany:helheim_rune"
-      },
-      {
-        "item": "mythicbotany:alfheim_rune"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      }
-    ],
-    "mana": 4000000,
-    "output": {
-      "count": 1,
-      "item": "projecte:dm_chestplate"
-    },
-    "toColor": 3683394
-  })
-  event.custom({
-    "type": "mythicbotany:infuser",
-    "fromColor": 4521776,
-    "group": "infuser",
-    "ingredients": [
-      {
-        "item": "botania:terrasteel_leggings"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      },
-      {
-        "item": "mythicbotany:muspelheim_rune"
-      },
-      {
-        "item": "mythicbotany:helheim_rune"
-      },
-      {
-        "item": "mythicbotany:joetunheim_rune"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      }
-    ],
-    "mana": 4000000,
-    "output": {
-      "count": 1,
-      "item": "projecte:dm_leggings"
-    },
-    "toColor": 3683394
-  })
-  event.custom({
-    "type": "mythicbotany:infuser",
-    "fromColor": 4521776,
-    "group": "infuser",
-    "ingredients": [
-      {
-        "item": "botania:terrasteel_boots"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      },
-      {
-        "item": "mythicbotany:niflheim_rune"
-      },
-      {
-        "item": "mythicbotany:helheim_rune"
-      },
-      {
-        "item": "mythicbotany:nidavellir_rune"
-      },
-      {
-        "item": "projecte:dark_matter_block"
-      }
-    ],
-    "mana": 4000000,
-    "output": {
-      "count": 1,
-      "item": "projecte:dm_boots"
-    },
-    "toColor": 3683394
-  })
   event.custom({
     "type": "mythicbotany:infuser",
     "fromColor": 3683394,
@@ -166,7 +45,7 @@ ServerEvents.recipes(event => {
         "item": "botania:quartz_red"
       },
     ],
-    "mana": 1000000,
+    "mana": 500000,
     "output": {
       "count": 1,
       "item": "projecte:red_matter"

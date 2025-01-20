@@ -1,82 +1,64 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "AAAAAAAAA",
-    "BCBCDCBCB",
-    "EFGBHBIJI",
-    "FKFCLCJMJ",
-    "NFOBHBIJI",
-    "BCBCPCBCB",
-    "QQQQQQQQQ",
-    "RRRSTSRRR",
-    "UUUUUUUUU"
+    "AABCDCBAA",
+    "AEEEEEEEA",
+    "FGGGHGGGF",
+    "IJKJILMLI",
+    "IKNKIMOMI",
+    "IJKJILMLI",
+    "FGGGHGGGF",
+    "AEEEEEEEA",
+    "AABHHHBAA"
   ],
   "key": {
     "A": {
-      "item": "enigmaticlegacy:astral_dust"
+      "item": "l2complements:life_essence"
     },
     "B": {
-      "item": "avaritia:infinity_nugget"
+      "item": "cataclysm:ancient_metal_ingot"
     },
     "C": {
-      "item": "enigmaticlegacy:evil_essence"
-    },
-    "D": {
       "item": "l2hostility:killer_aura"
     },
+    "D": {
+      "item": "l2complements:void_eye"
+    },
     "E": {
-      "item": "cataclysm:abyss_eye"
+      "item": "solidarytinker:violane"
     },
     "F": {
-      "item": "minecraft:clock"
+      "item": "industrialforegoing:pink_slime_ingot"
     },
     "G": {
-      "item": "cataclysm:monstrous_eye"
+      "item": "tconstruct:amethyst_bronze_ingot"
     },
     "H": {
-      "item": "avaritia:infinity_ingot"
+      "item": "minecraft:nether_star"
     },
     "I": {
-      "item": "l2complements:force_field"
+      "item": "industrialforegoing:pink_slime"
     },
     "J": {
-      "item": "l2complements:space_shard"
+      "item": "mekanism:ingot_refined_glowstone"
     },
     "K": {
-      "item": "cataclysm:flame_eye"
+      "item": "l2complements:totemic_gold_ingot"
     },
     "L": {
-      "item": "solidarytinker:starfall_ingot"
+      "item": "enigmaticlegacy:etherium_ingot"
     },
     "M": {
-      "item": "minecraft:writable_book"
+      "item": "tinkerscalibration:moonsteel_ingot"
     },
     "N": {
-      "item": "cataclysm:mech_eye"
+      "item": "kubejs:core_blaze"
     },
     "O": {
-      "item": "cataclysm:void_eye"
-    },
-    "P": {
-      "item": "immersiveengineering:shield"
-    },
-    "Q": {
-      "item": "minecraft:sand"
-    },
-    "R": {
-      "item": "mythicbotany:dreamwood_leaves"
-    },
-    "S": {
-      "item": "minecraft:bone"
-    },
-    "T": {
-      "item": "minecraft:skeleton_skull"
-    },
-    "U": {
-      "item": "minecraft:gravel"
+      "item": "kubejs:core_diamond"
     }
   },
   "result": {
-    "item": "cti:invert_hoshino"
+    "item": "solidarytinker:starfall_ingot"
   }
 }
