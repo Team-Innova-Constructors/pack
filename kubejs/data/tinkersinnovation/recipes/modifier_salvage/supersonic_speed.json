@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "l2complements",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "l2complements:space_shard"
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal",
+      "amount_needed": 10
+    },
+    {
+      "item": "tconstruct:ichor_slime_crystal",
+      "amount_needed": 10
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:supersonic_speed",
+  "level": 1
+}

@@ -1,0 +1,36 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:slime_block",
+      "amount_needed": 5
+    },
+    {
+      "item": "tconstruct:sky_slime",
+      "amount_needed": 5
+    },
+    {
+      "item": "tconstruct:ichor_slime",
+      "amount_needed": 5
+    },
+    {
+      "item": "tconstruct:ender_slime",
+      "amount_needed": 5
+    },
+    {
+      "tag": "forge:storage_blocks/slimesteel",
+      "amount_needed": 2
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tinkersinnovation:modifiable/shields_with_amount"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:over_cushion",
+  "level": 1
+}

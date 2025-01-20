@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "immersivepetroleum:petcoke"
+  },
+  "result": [
+    {
+      "item": "immersivepetroleum:petcoke_dust",
+      "chance": 0.4
+    }
+  ],
+  "experience": 10.2
+}

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:incremental_modifier",
+  "conditions": [
+    {
+      "modid": "l2hostility",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "allow_crystal": true,
+  "amount_per_item": 1,
+  "input": {
+    "item": "l2hostility:invisible"
+  },
+  "needed_per_level": 12,
+  "slots": {
+    "hostilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/leggings"
+  },
+  "result": "tinkersinnovation:invisible",
+  "level": 1
+}
