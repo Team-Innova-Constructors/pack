@@ -231,5 +231,5 @@ ServerEvents.recipes(event => {
   ]
   )
 
-  event.replaceInput({ mod: 'thermal', input: 'thermal:chiller_ingot_cast' }, 'thermal:chiller_ingot_cast', '#tconstruct:casts/multi_use/ingot')
+
 })

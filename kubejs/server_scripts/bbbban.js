@@ -42,8 +42,6 @@ ServerEvents.recipes(event => {
 	event.remove({mod:'projecte',type:'crafting_shapeless',input:'projecte:philosophers_stone'})
 	//铸币
 	event.remove({id:'lightmanscurrency:coinmint'})
-	//热力锭铸膜
-	event.remove([{mod: 'thermal', output: 'thermal:chiller_ingot_cast' }])
 	//工匠联合
 	event.remove({id:'solidarytinker:table/icefantasy_ingot'})
 	event.remove({id:'solidarytinker:casting/starfall_ingot'})
