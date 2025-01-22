@@ -108,6 +108,7 @@ ServerEvents.tags('block', event => {
 let tconstructblock=[
     'tconstruct:seared_stone',
     'tconstruct:seared_cobble',
+    'tconstruct:seared_bricks',
     'tconstruct:seared_paver',
     'tconstruct:seared_cracked_bricks',
     'tconstruct:seared_fancy_bricks',
