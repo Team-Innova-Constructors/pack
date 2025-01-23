@@ -190,7 +190,11 @@ ServerEvents.recipes(event => {
 	  'cyclic:sleeping_mat',
 	  'cyclic:charm_crit',
 	  'cyclic:crafting_stick',
-	  'cyclic:crafting_bag'
+	  'cyclic:crafting_bag',
+	  'cyclic:crusher/rail',
+	  'cyclic:crusher/activator_rail',
+	  'cyclic:crusher/powered_rail',
+	  'cyclic:crusher/detector_rail'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
     //堆

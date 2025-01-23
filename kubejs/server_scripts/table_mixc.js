@@ -116,6 +116,10 @@ ServerEvents.recipes(event => {
       'minecraft:snowball'
    ]
    )
+   event.shapeless(Item.of('tconstruct:seared_brick',4), [
+      'tconstruct:seared_bricks',
+   ]
+   )
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [

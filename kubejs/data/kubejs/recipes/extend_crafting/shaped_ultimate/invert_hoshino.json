@@ -1,0 +1,82 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "BCBCDCBCB",
+    "EFGBHBIJI",
+    "FKFCLCJMJ",
+    "NFOBHBIJI",
+    "BCBCPCBCB",
+    "QQQQQQQQQ",
+    "RRRSTSRRR",
+    "UUUUUUUUU"
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "B": {
+      "item": "avaritia:infinity_nugget"
+    },
+    "C": {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    "D": {
+      "item": "l2hostility:killer_aura"
+    },
+    "E": {
+      "item": "cataclysm:abyss_eye"
+    },
+    "F": {
+      "item": "minecraft:clock"
+    },
+    "G": {
+      "item": "cataclysm:monstrous_eye"
+    },
+    "H": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "I": {
+      "item": "l2complements:force_field"
+    },
+    "J": {
+      "item": "l2complements:space_shard"
+    },
+    "K": {
+      "item": "cataclysm:flame_eye"
+    },
+    "L": {
+      "item": "solidarytinker:starfall_ingot"
+    },
+    "M": {
+      "item": "minecraft:writable_book"
+    },
+    "N": {
+      "item": "cataclysm:mech_eye"
+    },
+    "O": {
+      "item": "cataclysm:void_eye"
+    },
+    "P": {
+      "item": "immersiveengineering:shield"
+    },
+    "Q": {
+      "item": "minecraft:sand"
+    },
+    "R": {
+      "item": "mythicbotany:dreamwood_leaves"
+    },
+    "S": {
+      "item": "minecraft:bone"
+    },
+    "T": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "U": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "cti:invert_hoshino"
+  }
+}
