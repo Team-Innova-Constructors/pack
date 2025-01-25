@@ -293,4 +293,11 @@ ServerEvents.recipes(event => {
          A: 'ae2:crafting_unit',
       }
    )
+   event.shaped('minecraft:elytra', [
+        'PPP',
+        'PPP',
+        '   '
+    ], {
+        P: 'minecraft:phantom_membrane'
+    });
 })
