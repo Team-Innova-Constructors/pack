@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'tconstruct:smeltery/melting/metal/gold/powered_rail'})
 	event.remove({id:'thermal:machines/smelter/smelter_alloy_enderium'})
 	event.remove({id:'l2hostility:greed_of_nidhoggur'})
-	event.remove({id:'l2hostility:vanilla/renew/elytra'})
+	event.remove({id:'l2complements:vanilla/renew/elytra'})
 	event.remove({id:'immersiveengineering:smelting/slag_glass'})
 
 
