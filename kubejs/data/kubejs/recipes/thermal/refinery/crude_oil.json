@@ -6,16 +6,16 @@
   },
   "result": [
     {
-      "fluid": "thermal:heavy_oil",
-      "amount": 50
+      "fluid": "thermal:refined_fuel",
+      "amount": 100
     },
     {
-      "fluid": "thermal:light_oil",
+      "fluid": "mekanism:hydrogen",
       "amount": 50
     },
     {
       "item": "thermal:bitumen",
-      "chance": 0.10
+      "chance": 0.2
     }
   ],
   "energy": 6000

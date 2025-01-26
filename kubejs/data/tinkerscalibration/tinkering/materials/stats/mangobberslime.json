@@ -2,57 +2,57 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 0.75,
-      "mining_speed": 0.75,
-      "melee_speed": 0.75,
-      "melee_damage": 0.75
+      "durability": 1,
+      "mining_speed": 1,
+      "melee_speed": 1,
+      "melee_damage": 1
     },
     "tconstruct:head": {
-      "durability": 1900,
-      "mining_speed": 9,
+      "durability": 3840,
+      "mining_speed": 12,
       "mining_tier": "gobber2:end_gobber",
-      "melee_attack": 7
+      "melee_attack": 15
     },
     "tconstruct:limb": {
-      "durability": 1900,
-      "draw_speed": 0.5,
-      "velocity": 0.5,
-      "accuracy": 0.5
+      "durability": 3840,
+      "draw_speed": 0.8,
+      "velocity": 0.8,
+      "accuracy": 0.8
     },
     "tconstruct:grip": {
-      "durability": 0.75,
-      "accuracy": 0.5,
-      "melee_damage": 6.5
+      "durability": 0.8,
+      "accuracy": 0.8,
+      "melee_damage": 15
     },
     "tconstruct:maille": {},
     "tconstruct:plating_boots": {
-      "armor": 3.0,
-      "durability": 499,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 6.0,
+      "durability": 752,
+      "knockback_resistance": 0.1,
+      "toughness": 3
     },
     "tconstruct:plating_chestplate": {
-      "armor": 8,
-      "durability": 545,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 10,
+      "durability": 864,
+      "knockback_resistance": 0.1,
+      "toughness": 3
     },
     "tconstruct:plating_helmet": {
-      "armor": 4.0,
-      "durability": 509,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 6.0,
+      "durability": 752,
+      "knockback_resistance": 0.1,
+      "toughness": 3
     },
     "tconstruct:plating_leggings": {
-      "armor": 8.0,
-      "durability": 537,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 10.0,
+      "durability": 864,
+      "knockback_resistance": 0.1,
+      "toughness": 3
     },
     "tconstruct:plating_shield": {
       "durability": 672,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "knockback_resistance": 0.1,
+      "toughness": 3
     }
   }
 }

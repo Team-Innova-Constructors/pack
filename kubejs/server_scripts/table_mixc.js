@@ -229,17 +229,6 @@ ServerEvents.recipes(event => {
          C: 'l2complements:shulkerate_nugget',
       }
    )
-   event.shaped(Item.of('pipez:infinity_upgrade', 1), [
-      'ABA',
-      'BCB',
-      'ABA'
-   ],
-      {
-         A: 'kubejs:atherium_alloy',
-         C: 'pipez:ultimate_upgrade',
-         B: 'minecraft:redstone',
-      }
-   )
    event.shaped(Item.of('aether:golden_feather', 1), [
       'ABA',
       'BCB',
@@ -299,5 +288,48 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         P: 'minecraft:phantom_membrane'
+    });
+    //gobber系列
+    event.remove({id:'gobber2:gobber2_ingot'})
+    event.remove({id:'gobber2:gobber2_ingot_nether'})
+    event.remove({id:'gobber2:gobber2_ingot_end'})
+
+    event.shaped(Item.of('gobber2:gobber2_ingot',2), [
+        'ABC',
+        'BEB',
+        'DBF'
+    ], {
+        A: '#forge:ingots/electrum',
+        B: 'tconstruct:sky_slime_ball',
+        C: 'tinkers_ingenuity:ocean_alloy_ingot',
+        D: 'tconstruct:slimesteel_ingot',
+        E: 'gobber2:gobber2_glob',
+        F: '#forge:ingots/bronze'
+    });
+    event.shaped(Item.of('gobber2:gobber2_ingot_nether',2), [
+        'ABC',
+        'GEG',
+        'DBF'
+    ], {
+        A: 'tinkerscalibration:witherium_ingot',
+        B: 'gobber2:gobber2_ingot',
+        C: '#minecraft:soul_fire_base_blocks',
+        D: 'minecraft:nether_star',
+        E: 'gobber2:gobber2_glob_nether',
+        F: 'minecraft:nether_brick',
+        G: 'tconstruct:ichor_slime_ball'
+    });
+    event.shaped(Item.of('gobber2:gobber2_ingot_end',2), [
+        'ABC',
+        'GEG',
+        'DBF'
+    ], {
+        A: 'thermal:enderium_ingot',
+        B: 'gobber2:gobber2_ingot_nether',
+        C: 'minecraft:chorus_flower',
+        D: 'minecraft:dragon_breath',
+        E: 'gobber2:gobber2_glob_end',
+        F: 'tinkers_ingenuity:twilight_ingot',
+        G: 'tconstruct:ender_slime_ball'
     });
 })
