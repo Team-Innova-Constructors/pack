@@ -1,0 +1,44 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "    AAAA ",
+    "   ABBCA ",
+    "  ADEEBA ",
+    " ABFGEBA ",
+    " ABFFDA  ",
+    " ACBBA   ",
+    " AAAA    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "projecte:red_matter"
+    },
+    "B": {
+      "item": "etshtinker:stellaralloy"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:redstone\"}"
+    },
+    "D": {
+      "item": "etshtinker:coronation_alloy"
+    },
+    "E": {
+      "item": "l2hostility:cursed"
+    },
+    "F": {
+      "item": "l2hostility:regenerate"
+    },
+    "G": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "result": {
+    "item": "momotinker:arriving_at_the_other_shore",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "  AABCC  ",
+    "  ADEDC  ",
+    "  ADFDC  ",
+    "  ADEDC  ",
+    "  AABCC  ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticlegacy:enchantment_transposer"
+    },
+    "B": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "C": {
+      "item": "enigmaticlegacy:curse_transposer"
+    },
+    "D": {
+      "item": "l2hostility:book_of_reprint"
+    },
+    "E": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:gold\"}"
+    },
+    "F": {
+      "item": "kubejs:core_blaze"
+    }
+  },
+  "result": {
+    "item": "momotinker:jealous_notes",
+    "count": 1
+  }
+}
