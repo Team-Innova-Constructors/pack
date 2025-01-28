@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "etshtinker:coronation_alloy"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "cti:extraterrestrial_essense",
+    "amount": 1000
+  },
+  "result": "cti:xenoglarium_ingot",
+  "cooling_time": 5
+}

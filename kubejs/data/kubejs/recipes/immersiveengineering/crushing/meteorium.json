@@ -1,0 +1,64 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 720,
+    "input": {
+      "item": "cti:meteorite_ore"
+    },
+    "result": {
+      "base_ingredient": {
+        "item": "kubejs:meteorium_scrap"
+      },
+      "count": 6
+    },
+    "secondaries": [
+      {
+        "chance": 0.95,
+        "output": {
+            "count": 6,
+          "item": "thermal:sulfur_dust"
+        }
+      },
+      {
+        "chance": 0.75,
+        "output": {
+            "count": 5,
+          "item": "minecraft:raw_iron"
+        }
+      },
+      {
+        "chance": 0.78,
+        "output": {
+            "count": 4,
+          "item": "minecraft:raw_gold"
+        }
+      },
+      {
+        "chance": 0.52,
+        "output": {
+            "count": 5,
+          "item": "createoreexcavation:raw_diamond"
+        }
+      },
+      {
+        "chance": 0.62,
+        "output": {
+            "count": 4,
+          "item": "ae2:certus_quartz_crystal"
+        }
+      },
+      {
+        "chance": 0.52,
+        "output": {
+            "count": 5,
+          "item": "minecraft:amethyst_shard"
+        }
+      },
+      {
+        "chance": 0.72,
+        "output": {
+            "count": 5,
+          "item": "ae2:silicon"
+        }
+      }
+    ]
+  }

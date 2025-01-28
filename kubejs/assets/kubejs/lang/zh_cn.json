@@ -254,5 +254,9 @@
     "kubejs.jei.rasterite": "光栅石母岩的晶洞可以在霜原星（非常稀有！）和电离冻土星除了异常区域外群系的地下发现。它可以被晶体催生器加速，且在方块亮度高的地方生长得更快。",
     "kubejs.jei.fracture_silicon": "分形硅石的晶洞可以在水星（非常稀有！）和炼狱星的深处发现。它可以被晶体催生器加速。当与水、熔岩、焦黑/焦褐熔石接触时消耗流体加速生长，这三者的加速效率分别是3x、30x、300x。",
 
-    "item.kubejs.pure_silicon": "高纯硅棒"
+    "item.kubejs.pure_silicon": "高纯硅棒",
+    "item.kubejs.meteorium_scrap": "陨铁碎片",
+    "item.kubejs.meteorium_ingot": "陨铁合金锭"
+
+    
 }
