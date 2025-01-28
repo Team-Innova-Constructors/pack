@@ -2,40 +2,57 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 0.55,
-      "mining_speed": 0.55,
-      "melee_speed": 0.55,
-      "melee_damage": 0.55
+      "durability": 0.8,
+      "mining_speed": 0.8,
+      "melee_speed": 0.8,
+      "melee_damage": 0.8
     },
     "tconstruct:head": {
-      "durability": 1700,
-      "mining_speed": 7.1,
+      "durability": 2560,
+      "mining_speed": 10,
       "mining_tier": "gobber2:nether_gobber",
-      "melee_attack": 5
+      "melee_attack": 10
     },
     "tconstruct:limb": {
-      "durability": 1700,
-      "draw_speed": 0.35,
-      "velocity": 0.35,
-      "accuracy": 0.35
+      "durability": 2560,
+      "draw_speed": 0.6,
+      "velocity": 0.6,
+      "accuracy": 0.6
     },
     "tconstruct:grip": {
-      "durability": 0.55,
-      "accuracy": 0.35,
-      "melee_damage": 5.5
+      "durability": 0.6,
+      "accuracy": 0.6,
+      "melee_damage": 8
     },
-    "tinkers_ingenuity:mail": {
-      "durability": 0.35,
-      "armor": 1.35,
-      "movementSpeed": 1.15
+    "tconstruct:maille": {},
+    "tconstruct:plating_boots": {
+      "armor": 5.0,
+      "durability": 500,
+      "knockback_resistance": 0.04,
+      "toughness": 2
     },
-    "tinkers_ingenuity:trim": {},
-    "tinkers_ingenuity:plate": {
-      "durability": 680,
-      "armor": 11.5,
-      "toughness": 4.6,
-      "knockbackResistance": 0.35,
-      "movementSpeed": 0.05
+    "tconstruct:plating_chestplate": {
+      "armor": 9,
+      "durability": 600,
+      "knockback_resistance": 0.04,
+      "toughness": 2
+    },
+    "tconstruct:plating_helmet": {
+      "armor": 5.0,
+      "durability": 500,
+      "knockback_resistance": 0.04,
+      "toughness": 2
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 9.0,
+      "durability": 600,
+      "knockback_resistance": 0.04,
+      "toughness": 2
+    },
+    "tconstruct:plating_shield": {
+      "durability": 700,
+      "knockback_resistance": 0.04,
+      "toughness": 3
     }
   }
 }

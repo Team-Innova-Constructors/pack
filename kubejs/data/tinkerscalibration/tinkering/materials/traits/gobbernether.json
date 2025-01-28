@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+        "name": "tinkerscalibration:gobber_bless_nether",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:gobber_curse_nether",
+        "level": 1
+      },
+      {
+        "name": "cti:nethergobberbless",
+        "level": 1
+      }
+    ]
+}

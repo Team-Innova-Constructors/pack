@@ -1,0 +1,41 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "  AAAAB  ",
+    "  ACDEA  ",
+    "  ADFDA  ",
+    "  AEDCA  ",
+    "  BAAAA  ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "undergarden:forgotten_ingot"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:emerald\"}"
+    },
+    "C": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "D": {
+      "item": "l2hostility:regenerate"
+    },
+    "E": {
+      "item": "l2hostility:ring_of_healing"
+    },
+    "F": {
+      "item": "kubejs:core_blaze"
+    }
+  },
+  "result": {
+    "item": "momotinker:spirit_visage",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "   AAAAA ",
+    "   BCDB  ",
+    "   BEB   ",
+    "  BDCB   ",
+    " AAAAA   ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticlegacy:thicc_scroll"
+    },
+    "B": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "C": {
+      "item": "enigmaticlegacy:darkest_scroll"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:lapis_lazuli\"}"
+    },
+    "E": {
+      "item": "kubejs:core_diamond"
+    }
+  },
+  "result": {
+    "item": "momotinker:greedy_contract",
+    "count": 1
+  }
+}

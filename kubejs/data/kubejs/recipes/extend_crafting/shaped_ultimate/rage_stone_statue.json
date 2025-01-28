@@ -1,0 +1,47 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    " A     A ",
+    " AB   BA ",
+    "  ABCBA  ",
+    "  ADEDA  ",
+    "  ABFBA  ",
+    "   AAA   ",
+    "  GGGGG  ",
+    " GGGGGGG "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:blackstone_core"
+    },
+    "B": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:steel\"}"
+    },
+    "D": {
+      "item": "l2hostility:ring_of_healing"
+    },
+    "E": {
+      "item": "kubejs:core_emerald"
+    },
+    "F": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:coal\"}"
+    },
+    "G": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "momotinker:rage_stone_statue",
+    "count": 1
+  }
+}

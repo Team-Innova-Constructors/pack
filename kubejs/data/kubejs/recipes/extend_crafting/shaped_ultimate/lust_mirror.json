@@ -1,0 +1,44 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "  AAAAA  ",
+    "  ABCDA  ",
+    "  ACECA  ",
+    "  AFCBA  ",
+    "  AAAAA  ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "createutilities:polished_amethyst"
+    },
+    "B": {
+      "item": "cataclysm:amethyst_crab_meat"
+    },
+    "C": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:diamond\"}"
+    },
+    "E": {
+      "item": "kubejs:core_blaze"
+    },
+    "F": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:osmium\"}"
+    }
+  },
+  "result": {
+    "item": "momotinker:lust_mirror",
+    "count": 1
+  }
+}

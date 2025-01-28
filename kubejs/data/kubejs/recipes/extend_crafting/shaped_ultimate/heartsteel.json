@@ -1,0 +1,53 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "  A   A  ",
+    " BCBDBCB ",
+    "BCECFCECB",
+    " BCGHGCB ",
+    "  BCFCB  ",
+    "   BIB   ",
+    "    A    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "B": {
+      "item": "undergarden:forgotten_ingot"
+    },
+    "C": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:gold\"}"
+    },
+    "E": {
+      "item": "tconstruct:jeweled_apple"
+    },
+    "F": {
+      "item": "l2hostility:tank"
+    },
+    "G": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "H": {
+      "item": "kubejs:core_blaze"
+    },
+    "I": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:emerald\"}"
+    }
+  },
+  "result": {
+    "item": "momotinker:heartsteel",
+    "count": 1
+  }
+}

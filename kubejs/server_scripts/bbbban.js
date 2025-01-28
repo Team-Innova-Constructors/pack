@@ -116,6 +116,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'tconstruct:smeltery/melting/metal/gold/powered_rail'})
 	event.remove({id:'thermal:machines/smelter/smelter_alloy_enderium'})
 	event.remove({id:'l2hostility:greed_of_nidhoggur'})
+	event.remove({id:'l2complements:vanilla/renew/elytra'})
 	event.remove({id:'immersiveengineering:smelting/slag_glass'})
 
 
@@ -190,7 +191,11 @@ ServerEvents.recipes(event => {
 	  'cyclic:sleeping_mat',
 	  'cyclic:charm_crit',
 	  'cyclic:crafting_stick',
-	  'cyclic:crafting_bag'
+	  'cyclic:crafting_bag',
+	  'cyclic:crusher/rail',
+	  'cyclic:crusher/activator_rail',
+	  'cyclic:crusher/powered_rail',
+	  'cyclic:crusher/detector_rail'
     ]
     for (let i of cyclics) {event.remove({id:`${i}`})}
     //堆
