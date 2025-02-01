@@ -1,0 +1,16 @@
+{
+    "type": "brewinandchewin:fermenting",
+    "experience": 0.6,
+    "fermentingtime": 200,
+    "ingredients": [
+      {
+        "item": "minecraft:milk_bucket"
+      }
+    ],
+    "recipe_book_tab": "misc",
+    "result": {
+      "count": 1,
+      "item": "tconstruct:cheese_block"
+    },
+    "temperature": 4
+  }

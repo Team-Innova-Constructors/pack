@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": { "tag": "tconstruct:casts/multi_use/ingot" },
+  "cast_consumed": false,
+  "fluid": {
+    "name": "cti:molten_aetherium",
+    "amount": 90
+  },
+  "result": "kubejs:atherium_alloy",
+  "cooling_time": 25
+}

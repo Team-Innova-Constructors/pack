@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "cti:molten_violium",
+    "amount": 90
+  },
+  "result": "kubejs:violium_alloy",
+  "cooling_time": 20
+}
