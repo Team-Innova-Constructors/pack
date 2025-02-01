@@ -1,0 +1,32 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:sharpnessex",
+      "level": 1
+    },
+    {
+      "name": "cti:refined",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:fluxloaded",
+      "level": 2
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:extradense_armor",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:fluxloaded",
+        "level": 2
+      }
+    ]
+  }
+}

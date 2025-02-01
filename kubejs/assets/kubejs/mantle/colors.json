@@ -1,6 +1,13 @@
 {
   "modifier.kubejs": {
   },
+  "modifier.cti": {
+    "refined": "#A48DFF"
+  },
+  "material.cti": {
+    "violium": "#A48DFF",
+    "aetherium": "#A48DFF"
+  },
   "material.kubejs": {
     "zirconium_alloy": "#FACCFF",
     "perfect_generic_item_new": "#90FF90"

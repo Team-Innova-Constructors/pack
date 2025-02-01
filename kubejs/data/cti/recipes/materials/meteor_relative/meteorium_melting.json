@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "kubejs:meteorium_ingot"},
+  "result": {
+    "fluid": "cti:molten_meteorium",
+    "amount": 90
+  },
+  "temperature": 4950,
+  "time": 40
+}
