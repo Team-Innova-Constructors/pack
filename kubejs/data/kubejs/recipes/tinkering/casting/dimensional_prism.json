@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "avaritia:resource"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "etshtinker:annihilating_plasma",
+    "amount": 500
+  },
+  "result": "momotinker:dimensional_prism",
+  "cooling_time": 20
+}
