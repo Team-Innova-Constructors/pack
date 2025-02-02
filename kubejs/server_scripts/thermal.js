@@ -230,6 +230,7 @@ ServerEvents.recipes(event => {
     'minecraft:redstone',
   ]
   )
+  event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of('kubejs:zirconium_fluid',90),'thermal:chiller_ingot_cast'])
 
 
 })

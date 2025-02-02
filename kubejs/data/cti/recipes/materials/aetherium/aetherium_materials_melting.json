@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "cti:aetherium",
+  "temperature": 7920,
+  "result": {
+    "fluid": "cti:molten_aetherium",
+    "amount": 90
+  }
+}

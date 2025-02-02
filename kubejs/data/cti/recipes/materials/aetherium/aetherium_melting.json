@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "kubejs:atherium_alloy"},
+  "result": {
+    "fluid": "cti:molten_aetherium",
+    "amount": 90
+  },
+  "temperature": 7920,
+  "time": 40
+}

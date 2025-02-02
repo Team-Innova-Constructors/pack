@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": { "tag": "tconstruct:casts/multi_use/ingot" },
+  "cast_consumed": false,
+  "fluid": {
+    "name": "cti:molten_meteorium",
+    "amount": 90
+  },
+  "result": "kubejs:meteorium_ingot",
+  "cooling_time": 25
+}

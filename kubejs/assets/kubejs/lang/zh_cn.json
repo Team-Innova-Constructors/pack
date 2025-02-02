@@ -206,6 +206,10 @@
     "modifier.cti.structure.flavor": "结构化学的知识增加了",
     "modifier.cti.structure.description": "增加2个升级槽",
 
+    "modifier.cti.refined": "精炼",
+    "modifier.cti.refined.flavor": "太纯了！",
+    "modifier.cti.refined.description": "每级提供30%大部分属性提升和能力槽、升级槽各一个。",
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
 
@@ -256,7 +260,13 @@
 
     "item.kubejs.pure_silicon": "高纯硅棒",
     "item.kubejs.meteorium_scrap": "陨铁碎片",
-    "item.kubejs.meteorium_ingot": "陨铁合金锭"
+    "item.kubejs.meteorium_ingot": "陨铁合金锭",
 
-    
+    "material.cti.violium": "维奥合金",
+    "material.cti.violium.flavor": "紫紫的",
+    "material.cti.violium.encyclopedia": "超致密与钢融合而成的致密金属，坚固且耐用。",
+
+    "material.cti.aetherium": "阳清合金",
+    "material.cti.aetherium.flavor": "工业界的“紫色黄金”",
+    "material.cti.aetherium.encyclopedia": "闪烁着神明般的光辉。"
 }

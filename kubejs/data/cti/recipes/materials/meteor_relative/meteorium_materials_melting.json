@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "cti:meteorium",
+  "temperature": 4950,
+  "result": {
+    "fluid": "cti:molten_meteorium",
+    "amount": 90
+  }
+}

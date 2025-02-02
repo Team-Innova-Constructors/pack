@@ -73,6 +73,8 @@ event.recipes.create.sequenced_assembly([
         C: 'minecraft:emerald',
         D: 'minecraft:ender_eye',
     })
+//烈光合金部件
+event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:chestplate_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:leggings_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:boots_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('etshtinker:ionizer', '{Material:"cti:xenoglarium"}').withChance(0.05),Item.of('etshtinker:plasma_generator', '{Material:"cti:xenoglarium"}').withChance(0.05)], ['etshtinker:stellaralloy', 'cti:xenoglarium_ingot'])
 
 
 event.recipes.createMechanicalCrafting('cti:roxy_ingot', [
