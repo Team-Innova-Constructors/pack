@@ -64,3 +64,5 @@ natives-windows-x86_64
 /hs_err_pid50504.log
 servers.dat
 servers.dat_old
+/keybinding presets/initialized.dat
+/keybinding presets/preset_to_load_on_first_startup.txt
