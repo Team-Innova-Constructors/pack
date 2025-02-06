@@ -10,10 +10,16 @@
         "item": "etshtinker:perfect_generic_item"
       },
       {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
         "item": "create:andesite_casing"
       },
       {
         "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
       },
       {
         "item": "thermal:machine_frame"
@@ -22,10 +28,16 @@
         "item": "etshtinker:perfect_generic_item"
       },
       {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
         "item": "kubejs:pressurized_casing"
       },
       {
         "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
       },
       {
         "item": "kubejs:atherium_casing"

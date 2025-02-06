@@ -1,0 +1,38 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "   AAA   ",
+    "  ABCBA  ",
+    "  ADEDA  ",
+    "  ABCBA  ",
+    "   AAA   ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "projecte:red_matter"
+    },
+    "B": {
+      "item": "l2complements:blackstone_core"
+    },
+    "C": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:redstone\"}"
+    },
+    "E": {
+      "item": "kubejs:core_blaze"
+    }
+  },
+  "result": {
+    "item": "momotinker:arrogance_proof",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "result": [
+    {
+      "item": "createaddition:zinc_sheet",
+      "count": 1
+    }
+  ],
+  "energy": 4000
+}

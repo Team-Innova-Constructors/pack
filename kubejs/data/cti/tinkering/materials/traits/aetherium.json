@@ -1,0 +1,36 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:sharpnessex",
+      "level": 1
+    },
+    {
+      "name": "tinkers_ingenuity:puncture",
+      "level": 1
+    },
+    {
+      "name": "cti:refined",
+      "level": 2
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "cti:cripplesuppermass",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 2
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "cti:violium",
+  "temperature": 6190,
+  "result": {
+    "fluid": "cti:molten_violium",
+    "amount": 90
+  }
+}

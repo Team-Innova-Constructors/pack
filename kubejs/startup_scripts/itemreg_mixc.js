@@ -66,4 +66,7 @@ StartupEvents.registry("item",event=>{
     event.create("tungsten_steel_ingot","basic")
     event.create("evil_mechanism","basic")
     event.create("pure_silicon","basic")
+
+    event.create("meteorium_scrap","basic")
+    event.create("meteorium_ingot","basic")
 })

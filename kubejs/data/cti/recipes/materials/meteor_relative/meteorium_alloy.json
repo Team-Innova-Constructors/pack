@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "etshtinker:molten_stellaralloy",
+      "amount": 90
+    },
+    {
+      "name": "cti:extraterrestrial_essense",
+      "amount": 100
+    }
+  ],
+  "result": {
+    "fluid": "cti:molten_meteorium",
+    "amount": 180
+  },
+  "temperature": 16385
+}

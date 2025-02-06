@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "kubejs:violium_alloy"},
+  "result": {
+    "fluid": "cti:molten_violium",
+    "amount": 90
+  },
+  "temperature": 6120,
+  "time": 40
+}

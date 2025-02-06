@@ -282,6 +282,29 @@ ServerEvents.recipes(event => {
          A: 'ae2:crafting_unit',
       }
    )
+   event.shapeless('kubejs:meteorium_ingot',['3x kubejs:meteorium_scrap','ad_astra:desh_ingot','ad_astra:ostrum_ingot','ad_astra:calorite_ingot'])
+
+   event.shaped(Item.of('cti:meteorium_plane', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'ae2:annihilation_plane',
+         A: 'kubejs:meteorium_scrap',
+      }
+   )
+   event.smithing('cti:meteorium_plane','ae2:annihilation_plane','kubejs:meteorium_ingot')
+
+   event.shaped(Item.of('cti:meteor_shower_tablet', 1), [
+      'CA',
+      'AA'
+   ],
+      {
+         C: 'ars_nouveau:red_archwood_log',
+         A: 'kubejs:meteorium_scrap',
+      }
+   )
    event.shaped('minecraft:elytra', [
         'PPP',
         'PPP',

@@ -1,0 +1,41 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "    A    ",
+    "   ABA   ",
+    "   ACBA  ",
+    "   DAA   ",
+    " AE      ",
+    " FA      ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "B": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "C": {
+      "item": "kubejs:core_blaze"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "avaritia:singularity",
+      "count": 1,
+      "nbt": "{Id:\"avaritia:bronze\"}"
+    },
+    "E": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "F": {
+      "item": "l2complements:enchanted_totemic_apple"
+    }
+  },
+  "result": {
+    "item": "momotinker:lazy_grail",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "create:brass_ingot"
+    }
+  ],
+  "result": [
+    {
+      "item": "create:brass_sheet",
+      "count": 1
+    }
+  ],
+  "energy": 4000
+}

@@ -9,7 +9,7 @@
       "damagemultiplier": 6
     },
     "etshtinker:plasma_generator": {
-      "damagemultiplier": 1.1,
+      "damagemultiplier": 0.8,
       "criticalrate": 0.88,
       "fluidefficiency": 1.93,
       "slash_color": 5
@@ -17,7 +17,7 @@
     "tconstruct:binding": {},
     "tconstruct:handle": {
       "durability": 0.90,
-      "mining_speed": 2.70,
+      "mining_speed": 0.70,
       "melee_speed": 0.5,
       "melee_damage": 0.65
     },

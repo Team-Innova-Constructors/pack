@@ -2,7 +2,7 @@
   "type": "immersiveengineering:arc_furnace",
   "additives": [
   ],
-  "energy": 100000,
+  "energy": 32000,
   "input": {
     "base_ingredient": {
       "item": "kubejs:overdense_protonium_ore"
