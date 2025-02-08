@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.smelter(Item.of('etshtinker:bismuth_ingot').withChance(1.25), ['etshtinker:bismuthinite']).energy(12000)
   event.recipes.thermal.smelter([Item.of('l2hostility:hostility_essence').withChance(0.25),'64x minecraft:glass_bottle'], ['64x l2hostility:bottle_of_curse','kubejs:dust_pyrotheum']).energy(12000)
   event.recipes.thermal.smelter('tinkers_thinking:obsidian_bronze_ingot', ['#forge:ingots/copper', '2x #forge:dusts/obsidian']).energy(2000)
-  event.recipes.thermal.smelter(Item.of('tinkers_reforged:titanium_dust').withChance(2.5), ['kubejs:stable_slag', 'tinkers_reforged:titanium_dust']).energy(12000)
+  event.recipes.thermal.smelter([Item.of('tinkers_reforged:titanium_dust').withChance(2),Item.of('tinkerscalibration:titanium_ingot').withChance(2)], ['kubejs:stable_slag', 'tinkers_reforged:titanium_dust']).energy(12000)
   //罐装机器
   event.recipes.thermal.bottler('immersiveengineering:treated_wood_horizontal', ['#minecraft:planks', Fluid.of('immersiveengineering:creosote', 125)]).energy(400)
   event.recipes.thermal.bottler('cti:advanced_dyano_augment', ['kubejs:unfinished_advanced_dyano_augment', Fluid.of('kubejs:fluid_pyrotheum', 1000)]).energy(40000)
