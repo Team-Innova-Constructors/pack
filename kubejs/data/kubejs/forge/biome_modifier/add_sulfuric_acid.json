@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes":[
+    "ad_astra:venus_wastelands"
+  ],
+  "features": "kubejs:sulfuric_acid_lake",
+  "step": "lakes"
+}
