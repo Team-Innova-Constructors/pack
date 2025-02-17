@@ -227,5 +227,13 @@ ServerEvents.recipes(event => {
 	for (let i of accelerator){
 		event.remove([{ mod : 'bigger_ae2' , output: `${i}` }])
 	}
+
+	//过时的生铁配方
+	let pigiron=[
+		'createaddition:compat/tconstruct/pig_iron',
+		'createaddition:compat/tconstruct/pig_iron_2',
+		'thermal:compat/tconstruct/smelter_alloy_tconstruct_pigiron_ingot'
+	]
+	for (let i of pigiron) {event.remove({id:`${i}`})}
 }
 )

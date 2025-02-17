@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 10,
+  "fluidInput": {
+    "amount": 250,
+    "fluid": "kubejs:fuming_sulfuric_acid"
+  },
+  "gasInput": {
+    "amount": 250,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "gasOutput": {
+    "amount": 750,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:snowball"
+    }
+  }
+}

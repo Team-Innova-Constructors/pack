@@ -103,4 +103,23 @@ StartupEvents.registry("fluid",event=>{
     royal_jellyAttributes.dropOff(2);
     royal_jellyAttributes.tickDelay(20);
     royal_jelly.attributes = royal_jellyAttributes;
+    //金属氢
+    let metalic_hydrogen = event.create("metalic_hydrogen").thinTexture(0xcccccc).temperature(0).bucketColor(0xcccccc).displayName("metalic_hydrogen");
+    let metalic_hydrogenAttributes = metalic_hydrogen.createAttributes();
+    metalic_hydrogenAttributes.dropOff(2);
+    metalic_hydrogenAttributes.tickDelay(20);
+    metalic_hydrogen.attributes = metalic_hydrogenAttributes;
+    //金属氦
+    let metalic_hellium = event.create("metalic_hellium").thinTexture(0x555555).temperature(0).bucketColor(0x555555).displayName("metalic_hellium");
+    let metalic_helliumAttributes = metalic_hellium.createAttributes();
+    metalic_helliumAttributes.dropOff(2);
+    metalic_helliumAttributes.tickDelay(20);
+    metalic_hellium.attributes = metalic_helliumAttributes;
+
+    //发烟硫酸
+    let fuming_sulfuric_acid = event.create("fuming_sulfuric_acid").thinTexture(0xddffcc).temperature(555).bucketColor(0xddffcc).displayName("fuming_sulfuric_acid");
+    let fuming_sulfuric_acidAttributes = fuming_sulfuric_acid.createAttributes();
+    fuming_sulfuric_acidAttributes.dropOff(2);
+    fuming_sulfuric_acidAttributes.tickDelay(20);
+    fuming_sulfuric_acid.attributes = fuming_sulfuric_acidAttributes;
 })
