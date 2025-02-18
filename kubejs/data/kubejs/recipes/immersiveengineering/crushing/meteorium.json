@@ -59,6 +59,13 @@
             "count": 5,
           "item": "ae2:silicon"
         }
+      },
+      {
+        "chance": 0.62,
+        "output": {
+          "count": 18,
+          "item": "mekanism:raw_uranium"
+        }
       }
     ]
   }
