@@ -26,4 +26,6 @@ ServerEvents.recipes(event => {
     D: 'tconstruct:scorched_duct'
   }
   )
+  event.remove({id:'pneumaticcraft:speed_upgrade'})
+  event.remove({id:'pneumaticcraft:speed_upgrade_from_glycerol'})
 })

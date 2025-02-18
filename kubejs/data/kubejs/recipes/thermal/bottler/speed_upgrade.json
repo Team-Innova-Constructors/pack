@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "fluid_tag": "forge:lubricant",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "item": "pneumaticcraft:speed_upgrade"
+    }
+  ]
+}
