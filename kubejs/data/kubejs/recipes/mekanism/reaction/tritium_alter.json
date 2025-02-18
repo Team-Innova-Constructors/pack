@@ -2,7 +2,7 @@
   "type": "mekanism:reaction",
   "duration": 10,
   "fluidInput": {
-    "amount": 250,
+    "amount": 500,
     "fluid": "kubejs:metalic_hellium"
   },
   "gasInput": {
