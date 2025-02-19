@@ -116,6 +116,8 @@ ServerEvents.recipes(event => {
   event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
   event.remove({id:'mekanism:digital_miner'})
   event.remove({id:'mekanism:module_gravitational_modulating_unit'})
+  event.remove({id:'mekanismgenerators:generator/solar'})
+  event.remove({id:'mekanismgenerators:generator/advanced_solar'})
 
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
