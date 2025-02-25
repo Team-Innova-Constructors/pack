@@ -57,6 +57,8 @@ StartupEvents.registry("item",event=>{
     event.create("crystal_glowstone","basic")
     event.create("crystal_redstone","basic")
 
+    event.create("empty_record","basic")
+
     event.create("cosmic_mechanism","basic")
     event.create("electro_magnetic_mechanism","basic")
     event.create("energy_mechanism","basic")

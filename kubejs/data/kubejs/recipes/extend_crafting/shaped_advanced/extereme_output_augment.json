@@ -1,0 +1,42 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ACDEA",
+    "FGHGF",
+    "AEDCA",
+    "AAIAA"
+  ],
+  "key": {
+    "A": {
+      "item": "tconstruct:obsidian_pane"
+    },
+    "B": {
+      "item": "l2complements:void_eye"
+    },
+    "C": {
+      "item": "l2complements:life_essence"
+    },
+    "D": {
+      "item": "etshtinker:energized_sculk_alloy"
+    },
+    "E": {
+      "item": "l2complements:cursed_droplet"
+    },
+    "F": {
+      "item": "l2hostility:growth"
+    },
+    "G": {
+      "item": "cti:advanced_output_augment"
+    },
+    "H": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "I": {
+      "item": "l2hostility:witch_droplet"
+    }
+  },
+  "result": {
+    "item": "cti:extereme_output_augment"
+  }
+}

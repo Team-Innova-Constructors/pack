@@ -1,0 +1,52 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "    A    ",
+    "  BCDCB  ",
+    "  CBEBC  ",
+    " FDGHIDJ ",
+    "  CBEBC  ",
+    "  BCDCB  ",
+    "    K    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "ars_nouveau:blaze_fiber"
+    },
+    "B": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "C": {
+      "item": "botania:quartz_mana"
+    },
+    "D": {
+      "item": "ars_nouveau:source_berry"
+    },
+    "E": {
+      "item": "botania:elementium_ingot"
+    },
+    "F": {
+      "item": "ars_nouveau:wixie_shards"
+    },
+    "G": {
+      "item": "solidarytinker:magicuranium_ingot"
+    },
+    "H": {
+      "item": "botania:rune_mana"
+    },
+    "I": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "J": {
+      "item": "ars_nouveau:whirlisprig_shards"
+    },
+    "K": {
+      "item": "ars_nouveau:starbuncle_shards"
+    }
+  },
+  "result": {
+    "item": "cti:omniscient_gold_ingot"
+  }
+}

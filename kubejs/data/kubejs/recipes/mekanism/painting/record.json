@@ -1,0 +1,13 @@
+{
+    "type": "mekanism:painting",
+    "chemicalInput": {
+        "amount": 256,
+        "pigment": "mekanism:blue"
+    },
+    "itemInput": {
+        "item": "kubejs:empty_record"
+        },
+    "output": {
+        "item": "minecraft:music_disc_wait"
+    }
+}

@@ -120,6 +120,11 @@ ServerEvents.recipes(event => {
       'tconstruct:seared_bricks',
    ]
    )
+   event.shapeless(Item.of('minecraft:music_disc_wait',1), [
+      'kubejs:empty_record',
+      'minecraft:blue_dye'
+   ]
+   )
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [
@@ -270,6 +275,18 @@ ServerEvents.recipes(event => {
       {
          A: 'pneumaticcraft:pressure_tube',
          C: 'kubejs:tungsten_ingot',
+      }
+   )
+
+   event.shaped(Item.of('cherrytinker:enchantedgold',4), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         A: 'minecraft:experience_bottle',
+         B: 'l2complements:totemic_gold_ingot',
+         C: 'minecraft:gold_block',
       }
    )
 
