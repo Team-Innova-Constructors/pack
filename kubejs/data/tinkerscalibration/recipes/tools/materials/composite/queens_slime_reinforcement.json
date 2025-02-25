@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:obsidian_pane"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_queens_slime",
+    "amount": 10
+  },
+  "result": "tinkerscalibration:queens_slime_reinforcement",
+  "cooling_time": 80
+}

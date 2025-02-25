@@ -1,0 +1,48 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:gaia_wrath",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sprite_of_gaia",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sin_root",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:sprite_of_gaia",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sin_root",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:gaia_guard",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "tinkers_ingenuity:gaia_wrath",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sprite_of_gaia",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:sin_root",
+        "level": 1
+      }
+    ]
+  }
+}

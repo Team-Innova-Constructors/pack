@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 350234,
+  "powerRate": 350234,
+  "input": {
+    "item": "l2complements:soul_flame"
+  },
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:cursed_stone"
+    },
+    {
+      "item": "l2hostility:chaos_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "l2hostility:miracle_powder"
+    },
+    {
+      "item": "l2complements:heirophant_green"
+    },
+    {
+      "item": "enigmaticlegacy:evil_ingot"
+    }
+  ],
+  "result": {
+    "item": "kubejs:evil_mechanism"
+  }
+}

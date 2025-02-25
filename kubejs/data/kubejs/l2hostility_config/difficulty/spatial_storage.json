@@ -4,8 +4,8 @@
     "levelMap": {
       "ae2:spatial_storage": {
         "apply_chance": 1.0,
-        "base": 2100000000,
-        "min": 2100000000,
+        "base": 10000,
+        "min": 10000,
         "scale": 1.0,
         "trait_chance": 1.0,
         "variation": 4.0

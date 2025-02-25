@@ -69,6 +69,8 @@ ServerEvents.recipes(event => {
 	event.remove({id:'projecte:red_matter_alt'})
 	event.remove({id:'tinkersinnovation:items/polychrome_mix'})
 	event.remove({id:'thermal:machines/smelter/smelter_alloy_rose_gold'})
+	event.remove({id:'mekanism:compact/ae2/decorative/certus_quartz/crushing/block_to_chiseled_block'})
+	event.remove({id:'cherrytinker:tables/enchantedgold_ingot'})
 
 	//meka套
 	let meka =[

@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ACDEA",
+    "BFGFB",
+    "AEDCA",
+    "AABAA"
+  ],
+  "key": {
+    "A": {
+      "item": "tconstruct:obsidian_pane"
+    },
+    "B": {
+      "item": "l2hostility:soul_burner"
+    },
+    "C": {
+      "item": "l2complements:storm_core"
+    },
+    "D": {
+      "item": "etshtinker:energized_sculk_alloy"
+    },
+    "E": {
+      "item": "l2complements:soul_flame"
+    },
+    "F": {
+      "item": "cti:advanced_dyano_augment"
+    },
+    "G": {
+      "item": "kubejs:evil_mechanism"
+    }
+  },
+  "result": {
+    "item": "cti:extereme_dyano_augment"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "modifier.tinkers_ingenuity.curio_knight_vow": "骑士誓约",
+  "modifier.tinkers_ingenuity.curio_knight_vow.flavor": "正义或许会迟到，但绝不会忘记砸到你的头顶。",
+  "modifier.tinkers_ingenuity.curio_knight_vow.description": "受到攻击时，延迟2秒后使自身获得相当于受到伤害110%的伤害吸收，至多获得最大生命20%的伤害吸收。",
+
+  "modifier.tinkers_ingenuity.sin_root": "罪孽根源",
+  "modifier.tinkers_ingenuity.sin_root.flavor": "客自海外归……",
+  "modifier.tinkers_ingenuity.sin_root.description": "该工具造成伤害时额外对目标造成相当于其最大生命值的3%的伤害。",
+
+  "modifier.tinkers_ingenuity.sprite_of_gaia": "盖亚之魄",
+  "modifier.tinkers_ingenuity.sprite_of_gaia.flavor": "盖亚意志。",
+  "modifier.tinkers_ingenuity.sprite_of_gaia.description": "拥有魔力时，降低50%耐久消耗，提高50%挖掘速度，每次攻击目标后额外对目标造成一次原伤害30%的凋零伤害。",
+
+  "modifier.tinkers_ingenuity.gaia_guard": "盖亚守护",
+  "modifier.tinkers_ingenuity.gaia_guard.flavor": "盖亚意志。",
+  "modifier.tinkers_ingenuity.gaia_guard.description": "每拥有50点魔力降低1点受到伤害，单次至多降低100点受到伤害。"
+}
+

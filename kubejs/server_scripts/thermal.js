@@ -64,6 +64,11 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)
+  event.recipes.thermal.chiller(Item.of('pneumaticcraft:plastic'), Fluid.of('pneumaticcraft:plastic', 1000)).energy(2000)
+  event.recipes.thermal.chiller(Item.of('mekanism:block_osmium'), Fluid.of('tconstruct:molten_osmium', 810)).energy(2000)
+  event.recipes.thermal.chiller(Item.of('etshtinker:electronium'), Fluid.of('etshtinker:molten_electronium', 90)).energy(800)
+  event.recipes.thermal.chiller(Item.of('etshtinker:trinity_intereactive_alloy'), Fluid.of('etshtinker:molten_trinity_intereactive_alloy', 90)).energy(800)
+  event.recipes.thermal.chiller(Item.of('tinkers_reforged:titanium_ingot'), Fluid.of('kubejs:zirconium_fluid', 90)).energy(800)
   event.recipes.thermal.chiller(Item.of('tconstruct:sky_congealed_slime'), Fluid.of('tconstruct:sky_slime', 1000)).energy(4000)
   event.recipes.thermal.chiller(Item.of('tconstruct:ender_congealed_slime'), Fluid.of('tconstruct:ender_slime', 1000)).energy(4000)
   event.recipes.thermal.chiller(Item.of('tconstruct:earth_congealed_slime'), Fluid.of('tconstruct:earth_slime', 1000)).energy(4000)

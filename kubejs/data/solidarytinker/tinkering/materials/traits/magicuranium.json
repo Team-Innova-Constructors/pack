@@ -2,10 +2,6 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "solidarytinker:clean",
-        "level": 1
-      },
-      {
         "name": "solidarytinker:removeradition",
         "level": 1
       },
@@ -15,10 +11,6 @@
       }
     ],
     "tconstruct:ranged": [
-      {
-        "name": "solidarytinker:clean",
-        "level": 1
-      },
       {
         "name": "solidarytinker:removeradition",
         "level": 1
@@ -49,10 +41,6 @@
       }
     ],
     "tinkers_ingenuity:laser_gun": [
-      {
-        "name": "solidarytinker:clean",
-        "level": 1
-      },
       {
         "name": "solidarytinker:removeradition",
         "level": 1
