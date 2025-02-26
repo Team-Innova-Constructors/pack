@@ -18,4 +18,3 @@ PlayerEvents.loggedIn(event => {
     var text = Text.red("问题反馈，游玩讨论加入CTI官方QQ群：761155624").clickCopy("761155624").hover("点击复制");
     player.tell(text);
 });
-});
