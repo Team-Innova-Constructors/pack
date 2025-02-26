@@ -43,6 +43,16 @@ ServerEvents.recipes(event => {
          B: 'ad_astra:steel_cable',
       }
    )
+   event.shaped(Item.of('cherrytinker:enchantedgold_block', 4), [
+      'AAA',
+      'ABA',
+      'AAA'
+   ],
+      {
+         B: 'minecraft:enchanted_golden_apple',
+         A: 'l2complements:totemic_gold_block',
+      }
+   )
    //桌子
    let table = [
       'extendedcrafting:basic_table',

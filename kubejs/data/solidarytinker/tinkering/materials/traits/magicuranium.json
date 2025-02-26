@@ -49,6 +49,12 @@
         "name": "tcintegrations:mana",
         "level": 1
       }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "solidarytinker:cleancurio",
+        "level": 1
+      }
     ]
   }
 }

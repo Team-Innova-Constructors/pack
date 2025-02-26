@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
   event.recipes.botania.mana_infusion('ae2:certus_quartz_crystal', ['minecraft:lapis_lazuli'], 4000)
   event.recipes.botania.mana_infusion('kubejs:dust_mana', ['etshtinker:os_induced_netherstarshard'], 10000)
   event.recipes.botania.terra_plate('dreadsteel:dreadsteel_ingot', ['minecraft:blaze_powder', 'tinkerscalibration:witherium_ingot','minecraft:nether_brick', 'botania:elementium_ingot', 'botania:quartz_dark', 'iceandfire:dread_shard'], 500000)
-  event.recipes.botania.terra_plate('solidarytinker:magicuranium_ingot', ['#forge:ingots/uranium', 'cti:magic_crystal', 'botania:manasteel_ingot', 'botanicalmachinery:mana_emerald'], 250000)
+  event.recipes.botania.terra_plate('solidarytinker:magicuranium_ingot', ['#forge:ingots/uranium', 'cti:magic_crystal', 'botania:manasteel_ingot','mythicbotany:alfsteel_ingot','botania:gaia_ingot','botanicalmachinery:mana_emerald'], 250000)
   event.recipes.botania.terra_plate('projecte:red_matter', ['etshtinker:evil_orb', 'cti:magic_crystal', 'projecte:dark_matter', 'botania:quartz_red'], 500000)
   event.recipes.botania.terra_plate('projecte:dm_helmet', ['botania:terrasteel_helmet', 'tconstruct:hepatizon_block', 'mythicbotany:asgard_rune', 'mythicbotany:helheim_rune','mythicbotany:vanaheim_rune','projecte:dark_matter_block'], 1000000)
   event.recipes.botania.terra_plate('projecte:dm_chestplate', ['botania:terrasteel_chestplate', 'tconstruct:hepatizon_block', 'mythicbotany:midgard_rune', 'mythicbotany:helheim_rune','mythicbotany:alfheim_rune','projecte:dark_matter_block'], 1000000)
