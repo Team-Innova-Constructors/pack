@@ -137,10 +137,11 @@
 
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
-    "desc.immersiveengineering.info.mineral.complex":"富络合物",
+    "desc.immersiveengineering.info.mineral.chalcopyrite_al":"铜锌矿",
     "desc.immersiveengineering.info.mineral.mars":"火星大型矿脉",
     "desc.immersiveengineering.info.mineral.moon":"月球大型矿脉",
     "desc.immersiveengineering.info.mineral.venus":"金星大型矿脉",
+    "desc.immersiveengineering.info.mineral.heavy_metal":"重金属矿脉",
 
     "gui.ad_astra.text.infernal":"炼狱星",
     "biome.kubejs.infernal":"炼狱",

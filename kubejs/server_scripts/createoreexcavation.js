@@ -88,7 +88,7 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 .id("cobalt_ardite_complex");
 
 
-//硫化物矿
+//朱砂矿
 event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:sulfur')],'{"text": "朱砂矿"}', 50, 80)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
@@ -106,7 +106,7 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.
 
 
 //戈伯矿
-event.recipes.createoreexcavation.drilling([Item.of('gobber2:gobber2_globette'),Item.of('gobber2:gobber2_foo').withChance(0.5)], '{"text": "戈伯煤矿"}', 50, 80)
+event.recipes.createoreexcavation.drilling([Item.of('gobber2:gobber2_globette'),Item.of('gobber2:gobber2_foo').withChance(0.5),Item.of('gobber2:gobber2_foo_nether').withChance(0.3),Item.of('gobber2:gobber2_foo_end').withChance(0.2)], '{"text": "戈伯煤矿"}', 50, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
@@ -123,13 +123,14 @@ event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_dia
 .id("high_pressure_crystals");
 
 
-//浓质硅酸盐矿
-event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.7),Item.of('gobber2:gobber2_globette').withChance(0.5)],'{"text": "浓质硅酸盐矿"}', 50, 80)
+//浓质磷硅酸盐矿
+event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.7),Item.of('minecraft:clay').withChance(0.8),Item.of('thermal:apatite')],'{"text": "浓质硅酸盐矿"}', 50, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('minecraft:is_overworld')
 .stress(256)
 .id("al");
+
 
 //络合物矿
 event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').withChance(0.2), Item.of('kubejs:crystal_glowstone').withChance(0.5),Item.of('kubejs:crystal_redstone').withChance(0.3)], '{"text": "络合物矿"}', 50, 80)
@@ -139,13 +140,17 @@ event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').with
 .stress(256)
 .id("complex");
 
+
+
 //工匠金属补给矿
-event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_magiga').withChance(0.5), Item.of('tinkerscalibration:raw_tonium').withChance(0.5)], '{"text": "工匠金属矿"}',40, 80)
+event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_magiga').withChance(0.5), Item.of('tinkerscalibration:raw_tonium').withChance(0.5),Item.of('tinkerscalibration:steamium_nugget')], '{"text": "工匠金属矿"}',40, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
 .stress(256)
 .id("tinkersmetal");
+
+
 
 //工匠宝石补给矿
 event.recipes.createoreexcavation.drilling([Item.of('tinkers_reforged:red_beryl_gem').withChance(0.2), Item.of('tinkers_reforged:epidote_gem').withChance(0.2),Item.of('tinkers_reforged:hureaulite_gem').withChance(0.2),Item.of('tinkerscalibration:corundum').withChance(0.2),Item.of('tinkerscalibration:vibrating_crystal').withChance(0.2),Item.of('tinkerscalibration:spinel').withChance(0.2)], '{"text": "工匠宝石矿"}', 40, 80)
@@ -155,6 +160,7 @@ event.recipes.createoreexcavation.drilling([Item.of('tinkers_reforged:red_beryl_
 .stress(256)
 .id("tinkersgem");
 
+
 //沉银霍斯恒星金属
 event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_immersed_silver').withChance(0.8), Item.of('tinkerscalibration:raw_hothium').withChance(0.5),Item.of('tinkerscalibration:raw_stellarium').withChance(0.9)], '{"text": "詹姆氏稀有金属矿"}', 20, 80)
 .drill('#createoreexcavation:second_createore_drill')
@@ -162,6 +168,14 @@ event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_imme
 .biomeWhitelist('forge:is_cold')
 .stress(256)
 .id("james");
+
+
+event.recipes.createoreexcavation.drilling([Item.of('powah:uraninite_raw').withChance(1.2), Item.of('powah:dry_ice').withChance(0.6),Item.of('gobber2:gobber2_foo').withChance(0.9)], '{"text": "热核能源矿"}', 20, 80)
+.drill('#createoreexcavation:second_createore_drill')
+.fluid('minecraft:water')
+.biomeWhitelist('forge:is_cold')
+.stress(256)
+.id("coalanduranium");
 
 },
 );
