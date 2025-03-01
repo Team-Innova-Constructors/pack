@@ -121,6 +121,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'l2hostility:greed_of_nidhoggur'})
 	event.remove({id:'l2complements:vanilla/renew/elytra'})
 	event.remove({id:'immersiveengineering:smelting/slag_glass'})
+    event.remove({id:'megacells:crafting/compression_card'})
 
 
 	//移除原有矿脉
