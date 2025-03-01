@@ -284,7 +284,7 @@ ServerEvents.recipes(event => {
    ],
       {
          A: 'pneumaticcraft:pressure_tube',
-         C: 'kubejs:tungsten_ingot',
+         C: 'kubejs:tungsten_steel_ingot',
       }
    )
 
