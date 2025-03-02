@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "modid": "ad_astra",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 30,
+      "fluid": "etshtinker:molten_stellaralloy"
+    }
+  ],
+  "ingredient": {
+    "item": "etshtinker:advanced_sandwich_alloy"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 1800,
+    "fluid": "etshtinker:molten_meteoralloy"
+  },
+  "temperature": 3500,
+  "time": 20
+}

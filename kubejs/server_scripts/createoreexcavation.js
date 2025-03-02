@@ -14,7 +14,7 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:quartz'),Item.of(
 
 
 //重金属高温熔岩
-event.recipes.createoreexcavation.extracting('kubejs:hot_heavymetal_lava 1000','{"text": "重金属高温熔岩"}', 30, 80)
+event.recipes.createoreexcavation.extracting('kubejs:hot_heavymetal_lava 1000','{"text": "重金属高温熔岩"}', 60, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //应力值
@@ -25,7 +25,7 @@ event.recipes.createoreexcavation.extracting('kubejs:hot_heavymetal_lava 1000','
 .id("hot_heavymetal_lava");
 
 //晶体高温熔岩
-event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000','{"text": "晶体高温熔岩"}', 30, 80)
+event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000','{"text": "晶体高温熔岩"}', 60, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //应力值
@@ -35,7 +35,7 @@ event.recipes.createoreexcavation.extracting('kubejs:hot_heavycrystal_lava 1000'
 //配方id
 .id("hot_heavycrystal_lava");
 
-event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text": "碧空史莱姆"}', 50, 80)
+event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text": "碧空史莱姆"}', 60, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //应力值
@@ -45,7 +45,7 @@ event.recipes.createoreexcavation.extracting('tconstruct:sky_slime 2000','{"text
 //配方id
 .id("sky_slime");
 
-event.recipes.createoreexcavation.extracting('tconstruct:earth_slime 2000','{"text": "大地史莱姆"}', 50, 80)
+event.recipes.createoreexcavation.extracting('tconstruct:earth_slime 2000','{"text": "大地史莱姆"}', 60, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //应力值
@@ -54,8 +54,8 @@ event.recipes.createoreexcavation.extracting('tconstruct:earth_slime 2000','{"te
 .biomeWhitelist('minecraft:is_overworld')
 //配方id
 .id("earth_slime");
-
-event.recipes.createoreexcavation.extracting('tconstruct:ender_slime 2000','{"text": "末影史莱姆"}', 50, 80)
+0
+event.recipes.createoreexcavation.extracting('tconstruct:ender_slime 2000','{"text": "末影史莱姆"}', 60, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //应力值
@@ -89,7 +89,7 @@ event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), It
 
 
 //朱砂矿
-event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:sulfur')],'{"text": "朱砂矿"}', 50, 80)
+event.recipes.createoreexcavation.drilling([Item.of('thermal:cinnabar'), Item.of('thermal:sulfur')],'{"text": "朱砂矿"}', 60, 80)
 .drill('#createoreexcavation:drills')
 .biomeWhitelist('minecraft:is_overworld')
 .stress(120)
@@ -106,7 +106,7 @@ event.recipes.createoreexcavation.drilling([Item.of('minecraft:raw_iron'), Item.
 
 
 //戈伯矿
-event.recipes.createoreexcavation.drilling([Item.of('gobber2:gobber2_globette'),Item.of('gobber2:gobber2_foo').withChance(0.5),Item.of('gobber2:gobber2_foo_nether').withChance(0.3),Item.of('gobber2:gobber2_foo_end').withChance(0.2)], '{"text": "戈伯煤矿"}', 50, 80)
+event.recipes.createoreexcavation.drilling([Item.of('gobber2:gobber2_globette'),Item.of('gobber2:gobber2_foo').withChance(0.5),Item.of('gobber2:gobber2_foo_nether').withChance(0.3),Item.of('gobber2:gobber2_foo_end').withChance(0.2)], '{"text": "戈伯煤矿"}', 60, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
@@ -115,7 +115,7 @@ event.recipes.createoreexcavation.drilling([Item.of('gobber2:gobber2_globette'),
 
 
 //高压晶体宝石矿
-event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_diamond'), Item.of('createoreexcavation:raw_emerald'),Item.of('minecraft:amethyst_cluster'),Item.of('minecraft:lapis_lazuli')], '{"text": "高压晶体矿"}', 50, 80)
+event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_diamond'), Item.of('createoreexcavation:raw_emerald'),Item.of('minecraft:amethyst_cluster'),Item.of('minecraft:lapis_lazuli')], '{"text": "高压晶体矿"}', 60, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
@@ -124,7 +124,7 @@ event.recipes.createoreexcavation.drilling([Item.of('createoreexcavation:raw_dia
 
 
 //浓质磷硅酸盐矿
-event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.7),Item.of('minecraft:clay').withChance(0.8),Item.of('thermal:apatite')],'{"text": "浓质硅酸盐矿"}', 50, 80)
+event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.7),Item.of('minecraft:clay').withChance(0.8),Item.of('thermal:apatite')],'{"text": "浓质磷硅酸盐矿"}', 60, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('minecraft:is_overworld')
@@ -133,7 +133,7 @@ event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.
 
 
 //络合物矿
-event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').withChance(0.2), Item.of('kubejs:crystal_glowstone').withChance(0.5),Item.of('kubejs:crystal_redstone').withChance(0.3)], '{"text": "络合物矿"}', 50, 80)
+event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').withChance(0.2), Item.of('kubejs:crystal_glowstone').withChance(0.5),Item.of('kubejs:crystal_redstone').withChance(0.3)], '{"text": "络合物矿"}', 60, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('minecraft:is_overworld')
@@ -143,7 +143,7 @@ event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').with
 
 
 //工匠金属补给矿
-event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_magiga').withChance(0.5), Item.of('tinkerscalibration:raw_tonium').withChance(0.5),Item.of('tinkerscalibration:steamium_nugget')], '{"text": "工匠金属矿"}',40, 80)
+event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_magiga').withChance(0.5), Item.of('tinkerscalibration:raw_tonium').withChance(0.5),Item.of('tinkerscalibration:steamium_nugget')], '{"text": "工匠金属矿"}',60, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:lava')
 .biomeWhitelist('minecraft:is_overworld')
@@ -162,18 +162,18 @@ event.recipes.createoreexcavation.drilling([Item.of('tinkers_reforged:red_beryl_
 
 
 //沉银霍斯恒星金属
-event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_immersed_silver').withChance(0.8), Item.of('tinkerscalibration:raw_hothium').withChance(0.5),Item.of('tinkerscalibration:raw_stellarium').withChance(0.9)], '{"text": "詹姆氏稀有金属矿"}', 20, 80)
+event.recipes.createoreexcavation.drilling([Item.of('tinkerscalibration:raw_immersed_silver').withChance(0.8), Item.of('tinkerscalibration:raw_hothium').withChance(0.5),Item.of('tinkerscalibration:raw_stellarium').withChance(0.9)], '{"text": "詹姆氏稀有金属矿"}', 40, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('forge:is_cold')
 .stress(256)
 .id("james");
 
-
-event.recipes.createoreexcavation.drilling([Item.of('powah:uraninite_raw').withChance(1.2), Item.of('powah:dry_ice').withChance(0.6),Item.of('gobber2:gobber2_foo').withChance(0.9)], '{"text": "热核能源矿"}', 20, 80)
+//热核
+event.recipes.createoreexcavation.drilling([Item.of('powah:uraninite_raw').withChance(1.2), Item.of('powah:dry_ice').withChance(0.6),Item.of('gobber2:gobber2_foo').withChance(0.9)], '{"text": "热核能源矿"}', 40, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
-.biomeWhitelist('forge:is_cold')
+.biomeWhitelist('minecraft:is_overworld')
 .stress(256)
 .id("coalanduranium");
 

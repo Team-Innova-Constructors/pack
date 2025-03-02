@@ -7,9 +7,9 @@
   ],
   "type": "tconstruct:melting_fuel",
   "fluid": {
-    "name": "immersiveengineering:ethanol",
+    "name": "immersiveengineering:acetaldehyde",
     "amount": 100
   },
-  "duration": 75,
-  "temperature": 2900
+  "duration": 100,
+  "temperature": 3500
 }
