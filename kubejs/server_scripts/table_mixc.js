@@ -162,6 +162,16 @@ ServerEvents.recipes(event => {
          C: 'minecraft:diamond_block',
       }
    )
+   event.shaped(Item.of('tinkers_thinking:heavy_core', 1), [
+      ' B ',
+      'BAB',
+      ' B '
+   ],
+      {
+         A: 'mekanism:block_osmium',
+         B: 'etshtinker:hardlead_plate',
+      }
+   )
    event.shaped(Item.of('minecraft:crying_obsidian',8), [
       'AAA',
       'ABA',

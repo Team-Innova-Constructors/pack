@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     event.replaceInput({mod:'powah',output:'powah:crystal_nitro'}, '#forge:storage_blocks/redstone','#forge:ingots/tungsten')
 
-    event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','kubejs:compressed_hardlead')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','etshtinker:hardlead_plate')
     event.replaceInput({mod:'powah',output:'powah:capacitor_blazing'}, 'powah:dielectric_paste','kubejs:zirconium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_niotic'}, 'powah:dielectric_paste','kubejs:violium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','kubejs:atherium_alloy')
