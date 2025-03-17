@@ -109,6 +109,9 @@ ServerEvents.recipes(event => {
 	event.remove({id:'enigmaticlegacy:etherium_ingot'})
 	event.remove({id:'waystones:warp_stone'})
 	event.remove({id:'gobber2:blastfurnace'})
+	//这个会刷物品
+	event.remove({id:'waystones:warp_plate'})
+
 	event.remove({id:'immersiveengineering:blastfurnace/steel'})
 	event.remove({id:'immersiveengineering:blastfurnace/steel_block'})
 	event.remove({id:'toms_storage:adv_wireless_terminal'})
@@ -122,6 +125,16 @@ ServerEvents.recipes(event => {
 	event.remove({id:'l2complements:vanilla/renew/elytra'})
 	event.remove({id:'immersiveengineering:smelting/slag_glass'})
 	event.remove({id:'drinkbeer:trade_box_normal'})
+	//powah能耗增加
+	let powah=[
+	'powah:energizing/dry_ice',
+	'powah:energizing/certus_quartz_to_charged_certus_quartz',
+	'powah:energizing/spirited_crystal',
+	'powah:energizing/niotic_crystal',
+	'powah:energizing/energized_steel',
+	]
+	for (let k of powah) {event.remove({id:`${k}`})}
+	event.remove({id:'thermal:machines/refinery/refinery_crude_oil'})
 
 
 	//移除原有矿脉

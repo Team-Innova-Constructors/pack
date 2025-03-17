@@ -54,7 +54,7 @@ ServerEvents.tags('item', event => {
     event.remove('curios:pandora_charm', 'l2hostility:charm_of_looting_4')
 
     //锭铸膜
-    event.add('thermal:crafting/casts', '#tconstruct:casts/multi_use/ingot')
+    event.add('thermal:crafting/casts', '#tconstruct:casts/multi_use')
 
     event.add('ae2:p2p_attunements/item_p2p_tunnel', 'ae2:item_cell_housing')
 
