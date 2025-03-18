@@ -269,6 +269,9 @@
     "item.kubejs.meteorium_scrap": "陨铁碎片",
     "item.kubejs.meteorium_ingot": "陨铁合金锭",
 
+    "item.kubejs.disintegrate_crystal": "解离水晶",
+    "item.kubejs.cnt": "碳纳米管",
+
     "material.cti.violium": "维奥合金",
     "material.cti.violium.flavor": "紫紫的",
     "material.cti.violium.encyclopedia": "超致密与钢融合而成的致密金属，坚固且耐用。",

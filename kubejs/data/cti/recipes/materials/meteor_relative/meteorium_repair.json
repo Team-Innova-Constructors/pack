@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "item": "cti:meteorium_ingot"
+    "item": "kubejs:meteorium_ingot"
   },
   "value": 1,
   "needed": 1,

@@ -56,12 +56,13 @@ ServerEvents.recipes(event => {
   //热解炉
   event.recipes.thermal.pyrolyzer([Item.of('kubejs:tungsten_ingot').withChance(1.5), Item.of('minecraft:netherite_scrap').withChance(0.8), Fluid.of('kubejs:zirconium_fluid', 90)], 'kubejs:stable_slag').energy(2000)
   //压缩能源炉
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(3200000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(560000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(4900000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(7200000)
-  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(6250000)
-  event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(795000)
+  event.recipes.thermal.compression_fuel(Fluid.of('thermal:refined_fuel', 1000)).energy(16000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:diesel', 1000)).energy(32000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersiveengineering:ethanol', 1000)).energy(5600000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:gasoline', 1000)).energy(49000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:ethylene', 1000)).energy(72000000)
+  event.recipes.thermal.compression_fuel(Fluid.of('immersivepetroleum:napalm', 1000)).energy(62500000)
+  event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(7950000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)
   event.recipes.thermal.chiller(Item.of('pneumaticcraft:plastic'), Fluid.of('pneumaticcraft:plastic', 1000)).energy(2000)

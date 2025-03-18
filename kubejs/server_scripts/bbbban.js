@@ -121,6 +121,7 @@ ServerEvents.recipes(event => {
 	event.remove({id:'tconstruct:smeltery/melting/metal/iron/nugget_3'})
 	event.remove({id:'tconstruct:smeltery/melting/metal/gold/powered_rail'})
 	event.remove({id:'thermal:machines/smelter/smelter_alloy_enderium'})
+	event.remove({id:'thermal:fuels/compression/compression_refined_fuel'})
 	event.remove({id:'l2hostility:greed_of_nidhoggur'})
 	event.remove({id:'l2complements:vanilla/renew/elytra'})
 	event.remove({id:'immersiveengineering:smelting/slag_glass'})
@@ -132,6 +133,8 @@ ServerEvents.recipes(event => {
 	'powah:energizing/spirited_crystal',
 	'powah:energizing/niotic_crystal',
 	'powah:energizing/energized_steel',
+	'powah:energizing/blazing_crystal',
+	'powah:energizing/blazing_crystal_2',
 	]
 	for (let k of powah) {event.remove({id:`${k}`})}
 	event.remove({id:'thermal:machines/refinery/refinery_crude_oil'})

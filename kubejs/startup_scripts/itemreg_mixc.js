@@ -26,6 +26,8 @@ StartupEvents.registry("item",event=>{
     event.create("ancient_circuitboard","basic")
     event.create("enriched_refined_glowstone","basic")
     event.create("uncomplete_upgrade_augment_6","basic")
+    event.create("disintegrate_crystal","basic")
+    event.create("cnt","basic")
 
     
 
