@@ -22,6 +22,7 @@ event.addItem('cti:rasterite', Text.black({ "translate": "kubejs.jei.rasterite" 
 event.addItem('cti:rasterite_budding', Text.black({ "translate": "kubejs.jei.rasterite" }))
 event.addItem('cti:unipolar_magnet', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
 event.addItem('cti:unipolar_magnet_budding', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
-
+event.addItem('cti:aetherium_core', Text.black({ "translate": "kubejs.jei.aetherium_core" }))
+event.addItem('cti:violium_core', Text.black({ "translate": "kubejs.jei.violium_core" }))
 })
 
