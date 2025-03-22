@@ -65,14 +65,6 @@ ServerEvents.recipes(event => {
 	//杂七杂八
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
     event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
-	event.remove({id:'projecte:dark_matter'})
-	event.remove({id:'projecte:red_matter_alt'})
-	event.remove({id:'tinkersinnovation:items/polychrome_mix'})
-	event.remove({id:'thermal:machines/smelter/smelter_alloy_rose_gold'})
-	event.remove({id:'mekanism:compact/ae2/decorative/certus_quartz/crushing/block_to_chiseled_block'})
-	event.remove({id:'cherrytinker:tables/enchantedgold_ingot'})
-	event.remove({id:'cherrytinker:tables/enchantedgold_block'})
-
 	//meka套
 	let meka =[
 		'mekanism:mekasuit_helmet',
@@ -111,7 +103,13 @@ ServerEvents.recipes(event => {
 	event.remove({id:'gobber2:blastfurnace'})
 	//这个会刷物品
 	event.remove({id:'waystones:warp_plate'})
-
+	event.remove({id:'projecte:dark_matter'})
+	event.remove({id:'projecte:red_matter_alt'})
+	event.remove({id:'tinkersinnovation:items/polychrome_mix'})
+	event.remove({id:'thermal:machines/smelter/smelter_alloy_rose_gold'})
+	event.remove({id:'mekanism:compact/ae2/decorative/certus_quartz/crushing/block_to_chiseled_block'})
+	event.remove({id:'cherrytinker:tables/enchantedgold_ingot'})
+	event.remove({id:'cherrytinker:tables/enchantedgold_block'})
 	event.remove({id:'immersiveengineering:blastfurnace/steel'})
 	event.remove({id:'immersiveengineering:blastfurnace/steel_block'})
 	event.remove({id:'toms_storage:adv_wireless_terminal'})

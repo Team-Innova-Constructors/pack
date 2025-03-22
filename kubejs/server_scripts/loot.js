@@ -1,56 +1,55 @@
 LootJS.modifiers(event => {
-//移除该模组全部战利品（极度暴力不建议）
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["#minecraft:village"], false)
-        .addLoot(LootEntry.of("immersiveengineering:treated_wood_horizontal")
-        .when((c) => c.randomChance(2.75)));
-     event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["#minecraft:village"], false)
-        .addLoot(LootEntry.of('lightmanscurrency:coin_gold')
-        .when((c) => c.randomChance(0.75)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["undergarden:catacombs"], false)
-        .addLoot(LootEntry.of("kubejs:aetherium_core",9)
-        .when((c) => c.randomChance(9.5)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["aether:gold_dungeon"], false)
-        .addLoot(LootEntry.of("kubejs:violium_core",12)
-        .when((c) => c.randomChance(12.5)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["undergarden:catacombs"], false)
-        .addLoot(LootEntry.of("cti:protonium_ammo",9)
-        .when((c) => c.randomChance(1.75)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["aether:silver_dungeon"], false)
-        .addLoot(LootEntry.of("cti:electronium_ammo",9)
-        .when((c) => c.randomChance(1.75)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:end_city"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",3)
-        .when((c) => c.randomChance(0.25)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:end_city"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",2)
-        .when((c) => c.randomChance(0.75)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:end_city"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",1)
-        .when((c) => c.randomChance(0.9)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:end_city"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:ender_residual_interest",1)
-        .when((c) => c.randomChance(1)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:end_city"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:ender_residual_interest",1)
-        .when((c) => c.randomChance(0.5)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:end_city"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:ender_residual_interest",1)
-        .when((c) => c.randomChance(0.25)));
-    event.addLootTypeModifier(LootType.CHEST)
-        .anyStructure(["minecraft:fortress"], false)
-        .addLoot(LootEntry.of("tinkers_ingenuity:orichalcum_fragment",1)
-        .when((c) => c.randomChance(0.55)));
-        
+    const lootTables = {
+        //村庄通用
+        village: [
+            { item: "immersiveengineering:treated_wood_horizontal", count: 4, chance: 0.75 },
+            { item: 'lightmanscurrency:coin_gold', count: 1, chance: 1 },
+            { item: 'lightmanscurrency:coin_gold', count: 3, chance: 0.25 },
+        ],
+        //下界堡垒
+        fortress: [
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },
+        ],
+        //末地城
+        end_city: [
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.7 },
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 1 },
+            { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },
+        ],
+        //黄金地牢
+        gold_dungeon: [
+            { item: "kubejs:violium_core", count: 12, chance: 1 },
+        ],
+        //白银地牢
+        silver_dungeon: [
+            { item: "cti:electronium_ammo", count: 2, chance: 0.7 },
+        ],
+        //下僻巢穴
+        catacombs: [
+            { item: "cti:protonium_ammo", count: 2, chance: 0.7 },
+            { item: "kubejs:aetherium_core", count: 9, chance: 1},
+        ],
+        //AD的陨石
+        meteor: [
+            { item: 'ae2:item_storage_cell_16k', count: 1, chance: 1 },
+            { item: 'ae2:item_storage_cell_16k', count: 2, chance: 0.75 },
+            { item: 'ae2:fluid_storage_cell_16k', count: 1, chance: 1 },
+            { item: 'ae2:fluid_storage_cell_16k', count: 2, chance: 0.75 },
+        ]
+    };
+    function addLootToStructure(structureID, lootEntries) {
+        lootEntries.forEach(entry => {
+            event.addLootTypeModifier(LootType.CHEST)
+                .anyStructure([structureID], false)
+                .addLoot(LootEntry.of(entry.item, entry.count)
+                .when((c) => c.randomChance(entry.chance)));
+        });
+    }
+    addLootToStructure('#minecraft:village', lootTables.village);
+    addLootToStructure('minecraft:end_city', lootTables.end_city);
+    addLootToStructure('aether:gold_dungeon', lootTables.gold_dungeon);
+    addLootToStructure("undergarden:catacombs", lootTables.catacombs);
+    addLootToStructure("aether:silver_dungeon", lootTables.silver_dungeon);
+    addLootToStructure("minecraft:fortress", lootTables.fortress);
+    addLootToStructure("ad_astra:meteor", lootTables.meteor);
 })

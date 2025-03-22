@@ -70,6 +70,8 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:cell_64m', 'megacells:cell_component_64m')
     event.add('kubejs:cell_64m', 'ae2additions:cell_component_65536')
 
+    event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
+    event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
 
 })
 //添加方块标签
@@ -91,10 +93,8 @@ ServerEvents.tags('block', event => {
 
     event.add('forge:budding', 'cti:fracture_silicon_budding')
     event.add('forge:budding', 'cti:rasterite_budding')
-})
-ServerEvents.tags('block', event => {
-    //修改锆
-    event.add('forge:completely_new_tag', 'forge:ores/zirconium')
+
+     event.add('forge:completely_new_tag', 'forge:ores/zirconium')
     event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
     event.add('forge:completely_new_tag', 'forge:storage_blocks/zirconium')
 
@@ -122,6 +122,8 @@ let tconstructblock=[
   for (let i of tconstructblock) {
     event.add('minecraft:wither_immune', `${i}`)
   }
-    event.add('minecraft:needs_diamond_tool', 'cti:alloy_centrifuge')
-    event.add('minecraft:mineable/pickaxe', 'cti:alloy_centrifuge')
+})
+ServerEvents.tags('fluid', event => {
+    event.add('create:bottomless/allow', 'ad_astra:cryo_fuel')
+    event.add('create:bottomless/allow', 'mekanism:hydrogen')
 })
