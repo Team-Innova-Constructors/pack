@@ -349,11 +349,6 @@ ServerEvents.recipes(event => {
     ], {
         P: 'minecraft:phantom_membrane'
     });
-    //gobber系列
-    event.remove({id:'gobber2:gobber2_ingot'})
-    event.remove({id:'gobber2:gobber2_ingot_nether'})
-    event.remove({id:'gobber2:gobber2_ingot_end'})
-
     event.shaped(Item.of('gobber2:gobber2_ingot',2), [
         'ABC',
         'BEB',

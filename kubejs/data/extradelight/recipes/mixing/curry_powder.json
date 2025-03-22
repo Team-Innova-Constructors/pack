@@ -1,0 +1,25 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "ingredients": [
+    {
+      "item": "extradelight:grated_ginger"
+    },
+    {
+      "item": "extradelight:grated_ginger"
+    },
+    {
+      "item": "extradelight:ground_cinnamon"
+    },
+    {
+      "item": "extradelight:ground_cinnamon"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "extradelight:curry_powder"
+  },
+  "stirs": 4,
+  "usedItem": {
+    "item": "minecraft:glass_bottle"
+  }
+}
