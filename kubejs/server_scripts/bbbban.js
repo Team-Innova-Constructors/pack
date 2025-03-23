@@ -43,7 +43,9 @@ ServerEvents.recipes(event => {
   	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
     event.remove([{mod: 'biomancy', output: 'biomancy:primordial_core' }])
+    event.remove([{mod: 'biomancy', output: 'biomancy:maw_hopper' }])
     event.remove([{mod: 'botania', output: 'botania:loonium' }])
+    event.remove([{mod: 'enigmaticlegacy', output: 'enigmaticlegacy:extradimensional_eye' }])
 
 	//杂七杂八的按照ID移除的配方
 	let other=[
@@ -59,6 +61,7 @@ ServerEvents.recipes(event => {
 	     'l2complements:enchantments/magic_reject',
 	     'l2complements:enchantments/invincible',
 	     'l2complements:enchantments/void_touch',
+	     'l2complements:craft/totem_of_dream',
 	     //megacell
 	     'megacells:inscriber/bulk_cell_component',
 	     //热力的
@@ -193,6 +196,7 @@ ServerEvents.recipes(event => {
 	//循环
 	let cyclics =[
       'cyclic:soulstone',
+      'cyclic:flute_summoning',
       'cyclic:crafter',
       'cyclic:sprinkler',
       'cyclic:terra_glass',
