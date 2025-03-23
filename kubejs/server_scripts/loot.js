@@ -48,7 +48,7 @@ LootJS.modifiers(event => {
 
     //根据战利品表ID增加战利品,可以用指令/loot来查看精确ID
     //和结构添加不同的是有些结构会重复利用原版的已有的战利品表,那类来这边加
-    const LootToLootTables={
+    const LootToLootTables = {
         //下界堡垒
         fortress: [
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },
@@ -68,9 +68,9 @@ LootJS.modifiers(event => {
         });
     }
 
-    addLootToTable("minecraft:chests/nether_fortress/fort_inside",LootToLootTables.fortress);
-    addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic",LootToLootTables.fortress);
-    addLootToTable("minecraft:chests/end_city_treasure",LootToLootTables.end_city);
+    addLootToTable("minecraft:chests/nether_fortress/fort_inside", LootToLootTables.fortress);
+    addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic", LootToLootTables.fortress);
+    addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
