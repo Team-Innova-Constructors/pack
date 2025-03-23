@@ -387,4 +387,34 @@ ServerEvents.recipes(event => {
         F: 'tinkers_ingenuity:twilight_ingot',
         G: 'tconstruct:ender_slime_ball'
     });
+    event.shaped(Item.of('minecraft:diamond_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:diamond',
+      }
+   )
+   event.shaped(Item.of('minecraft:iron_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:iron_ingot',
+      }
+   )
+   event.shaped(Item.of('minecraft:golden_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:gold_ingot',
+      }
+   )
 })

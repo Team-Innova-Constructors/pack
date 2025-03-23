@@ -52,6 +52,8 @@ LootJS.modifiers(event => {
         //下界堡垒
         fortress: [
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },
+            { item: 'etshtinker:basalz_signalum', count: 1, chance: 1 },
+            { item: 'etshtinker:basalz_signalum', count: 3, chance: 0.8 },
         ],
         //末地城
         end_city: [
@@ -59,11 +61,16 @@ LootJS.modifiers(event => {
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 1 },
             { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },
         ],
+        //悚陵
+        mausoleum:[
+            { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },
+            { item: 'etshtinker:blizz_enderium', count: 2, chance: 1 },
+        ]
     }
     function addLootToTable(LootTableID, lootEntries) {
         lootEntries.forEach(entry => {
             event.addLootTableModifier(LootTableID)
-                .addLoot(LootEntry.of(entry.item, entry.count)
+            .addLoot(LootEntry.of(entry.item, entry.count)
                     .when((c) => c.randomChance(entry.chance)))
         });
     }
@@ -71,6 +78,7 @@ LootJS.modifiers(event => {
     addLootToTable("minecraft:chests/nether_fortress/fort_inside", LootToLootTables.fortress);
     addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic", LootToLootTables.fortress);
     addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
+    addLootToTable("iceandfire:chest/mausoleum_chest", LootToLootTables.mausoleum);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
@@ -142,6 +150,11 @@ LootJS.modifiers(event => {
         "sophisticatedbackpacks:magnet_upgrade",
         'sophisticatedbackpacks:advanced_magnet_upgrade',
         "sophisticatedbackpacks:feeding_upgrade",
+        'minecraft:leather_horse_armor',
+        'minecraft:golden_horse_armor',
+        'minecraft:iron_horse_armor',
+        'minecraft:diamond_horse_armor',
+
     ];
     lootToRemoveFromChest.forEach(removeLootFromChest);
 })
