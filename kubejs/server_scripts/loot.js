@@ -28,6 +28,26 @@ LootJS.modifiers(event => {
             { item: 'ae2:item_storage_cell_16k', count: 2, chance: 0.75 },
             { item: 'ae2:fluid_storage_cell_16k', count: 1, chance: 1 },
             { item: 'ae2:fluid_storage_cell_16k', count: 2, chance: 0.75 },
+        ],
+        //月球村庄
+        moonVillage: [
+            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.5 },
+            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.5 },
+            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.5 },
+            { item: 'ae2:fluix_smart_dense_cable', count: 26, chance: 0.8 },
+            { item: 'ae2:drive', count: 1, chance: 0.4 },
+            { item: 'ae2:energy_cell', count: 1, chance: 0.4 },
+        ],
+        //月球地牢
+        moonDungeon: [
+            { item: 'megacells:cell_component_1m', count: 2, chance: 0.4 },
+            { item: 'megacells:cell_component_4m', count: 1, chance: 0.4 },
+            { item: 'bigger_ae2:quantum_cell_component', count: 1, chance: 0.4 },
+            { item: 'bigger_ae2:quantum_cell_component', count: 2, chance: 0.4 },
+            { item: 'ae2:dense_energy_cell', count: 1, chance: 0.8 },
+            { item: 'megacells:mega_energy_cell', count: 1, chance: 0.2 },
+            { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
+            { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
         ]
     };
     function addLootToStructure(structureID, lootEntries) {
@@ -44,6 +64,9 @@ LootJS.modifiers(event => {
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
     addLootToStructure("aether:silver_dungeon", StructurelootTables.silver_dungeon);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
+    addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
+    addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
+    addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
 
 
     //根据战利品表ID增加战利品,可以用指令/loot来查看精确ID
@@ -65,6 +88,10 @@ LootJS.modifiers(event => {
         mausoleum:[
             { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },
             { item: 'etshtinker:blizz_enderium', count: 2, chance: 1 },
+        ],
+        desertPyramid:[
+            { item: 'etshtinker:blitz_lumium', count: 1, chance: 1 },
+            { item: 'etshtinker:blitz_lumium', count: 3, chance: 0.85 },
         ]
     }
     function addLootToTable(LootTableID, lootEntries) {
@@ -79,6 +106,7 @@ LootJS.modifiers(event => {
     addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic", LootToLootTables.fortress);
     addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
     addLootToTable("iceandfire:chest/mausoleum_chest", LootToLootTables.mausoleum);
+    addLootToTable("minecraft:chests/desert_pyramid", LootToLootTables.desertPyramid);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
