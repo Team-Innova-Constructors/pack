@@ -40,12 +40,11 @@ ServerEvents.recipes(event => {
     }
   })
   event.custom({
-
     "type": "biomancy:bio_forging",
     "bio_forge_tab": "biomancy:misc",
     "ingredients": [
       {
-        "item": "botania:mana_powder",
+        "item": "minecraft:sand",
         "count": 2
       },
       {

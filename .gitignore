@@ -64,5 +64,8 @@ natives-windows-x86_64
 /hs_err_pid50504.log
 servers.dat
 servers.dat_old
+/hs_err_pid6968.log
+/hs_err_pid21912.log
 /keybinding presets/initialized.dat
 /keybinding presets/preset_to_load_on_first_startup.txt
+/replay_pid6968.log

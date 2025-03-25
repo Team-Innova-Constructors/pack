@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 20,
+    "infuse_type": "mekanism:carbon"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "pneumaticcraft:plastic"
+    }
+  },
+  "output": {
+    "item": "kubejs:empty_record"
+  }
+}

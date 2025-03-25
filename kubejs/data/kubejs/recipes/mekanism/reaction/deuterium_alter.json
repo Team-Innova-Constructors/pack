@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 10,
+  "fluidInput": {
+    "amount": 500,
+    "fluid": "kubejs:metalic_hydrogen"
+  },
+  "gasInput": {
+    "amount": 100,
+    "gas": "mekanism:hydrogen"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "mekanismgenerators:deuterium"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "avaritia:neutron_pile"
+    }
+  }
+}

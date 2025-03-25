@@ -1,0 +1,40 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tinkers_reforged:headshot"
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "solidarytinker:armorcoating"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 1,
+        "name": "solidarytinker:armorcoating"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 1,
+        "name": "solidarytinker:armorcoating"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 1,
+        "name": "solidarytinker:armorcoating"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 1,
+        "name": "solidarytinker:armorcoating"
+      }
+    ]
+  }
+}

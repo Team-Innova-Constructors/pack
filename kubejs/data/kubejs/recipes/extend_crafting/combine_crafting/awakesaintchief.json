@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 114514,
+  "powerRate": 114514,
+  "input": {
+    "item": "solidarytinker:saint_chief_ingot"
+  },
+  "ingredients": [
+    {
+      "item": "ends_delight:dragon_meat_stew_block"
+    },
+    {
+      "item": "nethersdelight:stuffed_hoglin"
+    },
+    {
+      "item": "aether:enchanted_berry"
+    },
+    {
+      "item": "iceandfire:ice_dragon_heart"
+    },
+    {
+      "item": "enigmaticlegacy:cosmic_cake"
+    },
+    {
+      "item": "twilightdelight:fiery_snakes_block"
+    },
+    {
+      "item": "tofucraft:soy_sculk_bone"
+    }
+  ],
+  "result": {
+    "item": "cti:awakesaintchef_ingot"
+  }
+}

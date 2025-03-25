@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:upgrade_matrix"
+    },
+    {
+      "fluid_tag": "forge:lubricant",
+      "amount": 500
+    }
+  ],
+  "result": [
+    {
+      "item": "pneumaticcraft:speed_upgrade"
+    }
+  ]
+}

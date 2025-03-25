@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_reforged:red_beryl",
+  "result": {
+    "amount": 100,
+    "fluid": "tinkers_reforged:red_beryl"
+  },
+  "temperature": 800
+}

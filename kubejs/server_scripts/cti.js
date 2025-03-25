@@ -1,6 +1,6 @@
 PlayerEvents.loggedIn(event => {
     var player = event.player;
-    var text = Text.green("工匠：技艺革新[版本0.34]").hover("感谢游玩，觉得好玩请给个红票，谢谢喵");
+    var text = Text.green("工匠：技艺革新[版本0.35]").hover("感谢游玩，觉得好玩请给个红票，谢谢喵");
     player.tell(text);
 });
 PlayerEvents.loggedIn(event => {
@@ -16,11 +16,5 @@ PlayerEvents.loggedIn(event => {
 PlayerEvents.loggedIn(event => {
     var player = event.player;
     var text = Text.red("问题反馈，游玩讨论加入CTI官方QQ群：761155624").clickCopy("761155624").hover("点击复制");
-    player.tell(text);
-});
-
-PlayerEvents.loggedIn(event => {
-    var player = event.player;
-    var text = Text.red("CTI制作团队祝广大MC玩家除夕快乐，新春快乐").hover("蛇年大吉");
     player.tell(text);
 });

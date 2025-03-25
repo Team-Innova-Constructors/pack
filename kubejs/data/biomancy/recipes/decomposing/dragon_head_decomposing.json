@@ -1,0 +1,45 @@
+{
+  "type": "biomancy:decomposing",
+  "ingredient": {
+    "item": "minecraft:dragon_head"
+  },
+  "nutrientsCost": 6,
+  "processingTime": 200,
+  "results": [
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 100
+      },
+      "item": "biomancy:flesh_bits"
+    },
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 100
+      },
+      "item": "biomancy:exotic_dust"
+    },
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 50
+      },
+      "item": "biomancy:tough_fibers"
+    },
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 40
+      },
+      "item": "biomancy:mineral_fragment"
+    },
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 100
+      },
+      "item": "biomancy:bone_fragments"
+    }
+  ]
+}

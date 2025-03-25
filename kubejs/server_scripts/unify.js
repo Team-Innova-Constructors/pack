@@ -25,7 +25,8 @@ ServerEvents.recipes(event => {
         'create',
         'tconstruct',
         'ad_astra',
-        'createaddition'
+        'createaddition',
+        'tinkers_reforged'
     ]
     let id =[
         'minecraft:smelting',
@@ -72,9 +73,12 @@ ServerEvents.recipes(event => {
             event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:plates/steel'},'#forge:plates/steel','thermal:steel_plate')
             event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:dusts/obsidian'},'#forge:dusts/obsidian','create:powdered_obsidian')
             event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:nuggets/copper'},'#forge:nuggets/copper','create:copper_nugget')
-            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:ingots/rose_gold'},'#forge:ingots/steel','tconstruct:rose_gold_ingot')
-            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:storage_blocks/rose_gold'},'#forge:storage_blocks/steel','tconstruct:rose_gold_block')
-            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:nuggets/rose_gold'},'#forge:nuggets/steel','tconstruct:rose_gold_nugget')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:ingots/rose_gold'},'#forge:ingots/rose_gold','tconstruct:rose_gold_ingot')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:storage_blocks/rose_gold'},'#forge:storage_blocks/rose_gold','tconstruct:rose_gold_block')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:nuggets/rose_gold'},'#forge:nuggets/rose_gold','tconstruct:rose_gold_nugget')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:ingots/aluminum'},'#forge:ingots/aluminum','immersiveengineering:ingot_aluminum')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:storage_blocks/aluminum'},'#forge:storage_blocks/aluminum','immersiveengineering:storage_aluminum')
+            event.replaceOutput({mod:`${i}`,type:`${k}`,output:'#forge:nuggets/aluminum'},'#forge:nuggets/aluminum','immersiveengineering:nugget_aluminum')
         }
     }
 })

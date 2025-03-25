@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "modid": "immersiveengineering",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "name": "immersiveengineering:ethanol",
+    "amount": 100
+  },
+  "duration": 75,
+  "temperature": 2900
+}

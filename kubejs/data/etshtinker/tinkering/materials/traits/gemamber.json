@@ -1,0 +1,16 @@
+{
+  "condition": {
+      "modid": "cyclic",
+      "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    },
+    {
+      "name": "solidarytinker:injured",
+      "level": 1
+    }
+  ]
+}

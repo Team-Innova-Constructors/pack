@@ -17,6 +17,9 @@
     "fluid.kubejs.royal_jelly": "蜂王浆",
     "fluid.kubejs.hot_heavymetal_lava": "重金属高温熔岩",
     "fluid.kubejs.hot_heavycrystal_lava": "晶体高温熔岩",
+    "fluid.kubejs.metalic_hydrogen": "超流体金属氢",
+    "fluid.kubejs.metalic_hellium": "超流体金属氦",
+    "fluid.kubejs.fuming_sulfuric_acid": "发烟硫酸",
 
 
 
@@ -122,6 +125,7 @@
     "item.kubejs.ancient_circuitboard":"始源之板",
     "item.kubejs.enriched_refined_glowstone":"富集强化萤石",
     "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
+    "item.kubejs.empty_record":"空白唱片",
 
     "item.kubejs.cosmic_mechanism":"宇宙构象",
     "item.kubejs.electro_magnetic_mechanism":"电磁构象",
@@ -133,10 +137,12 @@
 
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
-    "desc.immersiveengineering.info.mineral.complex":"富络合物",
+    "desc.immersiveengineering.info.mineral.chalcopyrite_al":"铜锌矿",
     "desc.immersiveengineering.info.mineral.mars":"火星大型矿脉",
     "desc.immersiveengineering.info.mineral.moon":"月球大型矿脉",
     "desc.immersiveengineering.info.mineral.venus":"金星大型矿脉",
+    "desc.immersiveengineering.info.mineral.heavy_metal":"重金属矿脉",
+    "desc.immersiveengineering.info.mineral.charcoal":"煤矿脉",
 
     "gui.ad_astra.text.infernal":"炼狱星",
     "biome.kubejs.infernal":"炼狱",
@@ -220,11 +226,12 @@
     "kubejs.jei.transmutation_tablet": "转化桌由于其独特的逆天机制，已被禁用，如有需要自行开创",
     "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
     "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick",
-    "kubejs.jei.royal_jelly": "蜂王浆需要在豆腐世界用沉浸原油的钻井开采,容量4000-16000桶",
-    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉，需要沉浸原油的钻井开采，可以在热力精炼机或者分馏塔精炼出来其中产物,矿脉容量40000-60000桶",
-    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种流体矿脉，需要沉浸原油的钻井开采，可以在热力精炼机或者分馏塔精炼出来其中产物,矿脉容量40000-60000桶",
+    "kubejs.jei.royal_jelly": "蜂王浆需要在主世界用机械动力的钻井开采,容量略大",
+    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉,可以在热力精炼机或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种流体矿脉,可以在热力精炼机或者分馏塔精炼出来其中产物",
     "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。",
     "kubejs.jei.accelerator": "由于潜在的崩档问题，Bigger AE2的并行单元已被禁用。",
+    "kubejs.jei.compression_card": "压缩卡出了一些问题，功能异常，在查明问题前暂时先禁用了。",
 
     "material.kubejs.zirconium_alloy": "钛锆合金",
     "material.kubejs.zirconium_alloy.flavor": "空气锻造",
@@ -257,10 +264,15 @@
     "kubejs.jei.unipolar_magnet": "单极磁石母岩发现于电离冻土星的异常区域群系的地下。当单极磁石母岩被放在超质量霜星石上方时会被加速生长，但是每次加速生长时都会释放一束致命的等离子爆炸（比超质量霜星石正常产生的威力更大！）。",
     "kubejs.jei.rasterite": "光栅石母岩的晶洞可以在霜原星（非常稀有！）和电离冻土星除了异常区域外群系的地下发现。它可以被晶体催生器加速，且在方块亮度高的地方生长得更快。",
     "kubejs.jei.fracture_silicon": "分形硅石的晶洞可以在水星（非常稀有！）和炼狱星的深处发现。它可以被晶体催生器加速。当与水、熔岩、焦黑/焦褐熔石接触时消耗流体加速生长，这三者的加速效率分别是3x、30x、300x。",
+    "kubejs.jei.aetherium_core": "可以在深暗之园的宅邸中找到，用于制作一些高级插件或者转化为阳清合金",
+    "kubejs.jei.violium_core": "可以在天镜的黄金地牢中找到，用于制作一些高级插件或者转化为维奥合金",
 
     "item.kubejs.pure_silicon": "高纯硅棒",
     "item.kubejs.meteorium_scrap": "陨铁碎片",
     "item.kubejs.meteorium_ingot": "陨铁合金锭",
+
+    "item.kubejs.disintegrate_crystal": "解离水晶",
+    "item.kubejs.cnt": "碳纳米管",
 
     "material.cti.violium": "维奥合金",
     "material.cti.violium.flavor": "紫紫的",

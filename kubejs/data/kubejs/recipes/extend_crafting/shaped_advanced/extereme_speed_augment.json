@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ACDEA",
+    "BFGFB",
+    "AEDCA",
+    "AABAA"
+  ],
+  "key": {
+    "A": {
+      "item": "tconstruct:obsidian_pane"
+    },
+    "B": {
+      "item": "l2hostility:speedy"
+    },
+    "C": {
+      "item": "l2complements:hard_ice"
+    },
+    "D": {
+      "item": "etshtinker:energized_sculk_alloy"
+    },
+    "E": {
+      "item": "l2complements:captured_wind"
+    },
+    "F": {
+      "item": "cti:advanced_speed_augment"
+    },
+    "G": {
+      "item": "kubejs:evil_mechanism"
+    }
+  },
+  "result": {
+    "item": "cti:extereme_speed_augment"
+  }
+}

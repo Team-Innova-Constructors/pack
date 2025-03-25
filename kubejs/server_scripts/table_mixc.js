@@ -43,6 +43,16 @@ ServerEvents.recipes(event => {
          B: 'ad_astra:steel_cable',
       }
    )
+   event.shaped(Item.of('cherrytinker:enchantedgold_block', 4), [
+      'AAA',
+      'ABA',
+      'AAA'
+   ],
+      {
+         B: 'minecraft:enchanted_golden_apple',
+         A: 'l2complements:totemic_gold_block',
+      }
+   )
    //桌子
    let table = [
       'extendedcrafting:basic_table',
@@ -120,6 +130,11 @@ ServerEvents.recipes(event => {
       'tconstruct:seared_bricks',
    ]
    )
+   event.shapeless(Item.of('minecraft:music_disc_wait',1), [
+      'kubejs:empty_record',
+      'minecraft:blue_dye'
+   ]
+   )
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [
@@ -145,6 +160,16 @@ ServerEvents.recipes(event => {
          A: 'kubejs:dust_mana',
          B: 'projecte:aeternalis_fuel',
          C: 'minecraft:diamond_block',
+      }
+   )
+   event.shaped(Item.of('tinkers_thinking:heavy_core', 1), [
+      ' B ',
+      'BAB',
+      ' B '
+   ],
+      {
+         A: 'mekanism:block_osmium',
+         B: 'etshtinker:hardlead_plate',
       }
    )
    event.shaped(Item.of('minecraft:crying_obsidian',8), [
@@ -269,7 +294,19 @@ ServerEvents.recipes(event => {
    ],
       {
          A: 'pneumaticcraft:pressure_tube',
-         C: 'kubejs:tungsten_ingot',
+         C: 'kubejs:tungsten_steel_ingot',
+      }
+   )
+
+   event.shaped(Item.of('cherrytinker:enchantedgold',4), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         A: 'minecraft:experience_bottle',
+         B: 'l2complements:totemic_gold_ingot',
+         C: 'minecraft:gold_block',
       }
    )
 
@@ -312,11 +349,6 @@ ServerEvents.recipes(event => {
     ], {
         P: 'minecraft:phantom_membrane'
     });
-    //gobber系列
-    event.remove({id:'gobber2:gobber2_ingot'})
-    event.remove({id:'gobber2:gobber2_ingot_nether'})
-    event.remove({id:'gobber2:gobber2_ingot_end'})
-
     event.shaped(Item.of('gobber2:gobber2_ingot',2), [
         'ABC',
         'BEB',
@@ -355,4 +387,34 @@ ServerEvents.recipes(event => {
         F: 'tinkers_ingenuity:twilight_ingot',
         G: 'tconstruct:ender_slime_ball'
     });
+    event.shaped(Item.of('minecraft:diamond_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:diamond',
+      }
+   )
+   event.shaped(Item.of('minecraft:iron_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:iron_ingot',
+      }
+   )
+   event.shaped(Item.of('minecraft:golden_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:gold_ingot',
+      }
+   )
 })
