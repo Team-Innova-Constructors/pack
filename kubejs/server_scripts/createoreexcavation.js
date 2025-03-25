@@ -143,7 +143,7 @@ event.recipes.createoreexcavation.drilling([Item.of('ae2:silicon').withChance(0.
 
 
 //络合物矿
-event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').withChance(0.2), Item.of('kubejs:crystal_glowstone').withChance(0.5),Item.of('kubejs:crystal_redstone').withChance(0.3)], '{"text": "络合物矿"}', 60, 80)
+event.recipes.createoreexcavation.drilling([Item.of('kubejs:crystal_ender').withChance(0.8), Item.of('kubejs:crystal_glowstone').withChance(0.8),Item.of('kubejs:crystal_redstone').withChance(0.8)], '{"text": "络合物矿"}', 60, 80)
 .drill('#createoreexcavation:second_createore_drill')
 .fluid('minecraft:water')
 .biomeWhitelist('minecraft:is_overworld')
