@@ -1,0 +1,42 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAABB",
+      "ACDEB",
+      "AFGDA",
+      "HIFCA",
+      "HHAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:magma_cream"
+      },
+      "B": {
+        "item": "l2complements:totemic_gold_nugget"
+      },
+      "C": {
+        "item": "kubejs:evil_mechanism"
+      },
+      "D": {
+        "item": "l2complements:life_essence"
+      },
+      "E": {
+        "item": "l2complements:totemic_gold_ingot"
+      },
+      "F": {
+        "item": "l2hostility:witch_droplet"
+      },
+      "G": {
+        "item": "l2hostility:chaos_ingot"
+      },
+      "H": {
+        "item": "enigmaticlegacy:evil_essence"
+      },
+      "I": {
+        "item": "l2hostility:hostility_essence"
+      }
+    },
+    "result": {
+      "item": "l2hostility:charm_of_looting_3"
+    }
+  }

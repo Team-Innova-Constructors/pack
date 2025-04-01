@@ -48,6 +48,10 @@ LootJS.modifiers(event => {
             { item: 'megacells:mega_energy_cell', count: 1, chance: 0.2 },
             { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
             { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
+        ],
+        //冰火墓地
+        IAF_graveyard:[
+            {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
         ]
     };
     function addLootToStructure(structureID, lootEntries) {
@@ -67,6 +71,7 @@ LootJS.modifiers(event => {
     addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
+    addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
 
 
     //根据战利品表ID增加战利品,可以用指令/loot来查看精确ID
@@ -74,25 +79,69 @@ LootJS.modifiers(event => {
     const LootToLootTables = {
         //下界堡垒
         fortress: [
-            { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },
-            { item: 'etshtinker:basalz_signalum', count: 1, chance: 1 },
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },//山铜碎块
+            { item: 'etshtinker:basalz_signalum', count: 1, chance: 1 },//地岩信素
             { item: 'etshtinker:basalz_signalum', count: 3, chance: 0.8 },
         ],
         //末地城
         end_city: [
-            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.7 },
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.7 },//山铜碎块
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 1 },
-            { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },
+            { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },//末影残息
         ],
         //悚陵
         mausoleum:[
-            { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },
+            { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },//霜覆末影
             { item: 'etshtinker:blizz_enderium', count: 2, chance: 1 },
         ],
+        //沙漠神殿
         desertPyramid:[
-            { item: 'etshtinker:blitz_lumium', count: 1, chance: 1 },
+            { item: 'etshtinker:blitz_lumium', count: 1, chance: 1 },//震荡流明
             { item: 'etshtinker:blitz_lumium', count: 3, chance: 0.85 },
+        ],
+        //迷阵冰封箱子
+        frozenChest:[
+            { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
+            { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
+        ],
+        //亡灵海盗船普通宝藏
+        seas_dungeon_ship_cheap:[
+            { item: 'cyclic:gem_amber', count: 2, chance: 0.6 },//琥珀结晶
+            { item: 'tconstruct:hepatizon_ingot', count: 2, chance: 0.6 },//黑色科林斯青铜
+        ],
+        //亡灵海盗船高级宝藏
+        seas_dungeon_ship_treasure:[
+            { item: 'cyclic:gem_obsidian', count: 2, chance: 0.6 },//黑耀石结晶
+            { item: 'industrialforegoing:advanced_black_hole_tank', count: 1, chance: 0.4 },//黑洞流体储罐T3
+            { item: 'l2complements:explosion_shard', count: 2, chance: 0.4 },//破灭残片
+            { item: Item.of('sophisticatedstorage:netherite_barrel', '{woodType:"oak"}'), count: 1, chance: 0.4 },//下界合金木桶
+        ],
+        //掠夺者营地
+        pillager_outpost_treasure:[
+            { item: 'lightmanscurrency:coin_gold', count: 2, chance: 0.8 },//金币
+            { item: 'lightmanscurrency:coin_gold', count: 2, chance: 0.8 },//金币
+        ],
+        //飞艇燃料箱
+        small_blimp_coal_chest:[
+            { item: 'gobber2:gobber2_foo', count: 5, chance: 0.9 },//戈伯煤炭三种
+            { item: 'gobber2:gobber2_foo_nether', count: 5, chance: 0.8 },
+            { item: 'gobber2:gobber2_foo_end', count: 5, chance: 0.7 },
+            { item: 'projecte:alchemical_coal', count: 5, chance: 0.4 },//等价炼金煤炭
+        ],
+        //飞艇红石箱子
+        small_blimp_redstone_chest:[
+            { item: 'kubejs:crystal_redstone', count: 12, chance: 0.9 },//红石络合物
+            { item: 'minecraft:redstone_block', count: 5, chance: 0.7 },//红石块
+            
+        ],
+        //飞艇宝藏
+        small_blimp_treasure:[
+            { item: 'l2complements:space_shard', count: 3, chance: 0.5 },//逐日之翼
+            { item: 'l2complements:soul_flame', count: 2, chance: 0.7 },//魂火
+            { item: 'l2complements:cursed_droplet', count: 3, chance: 0.8 },//亡魂泪
         ]
+
+
     }
     function addLootToTable(LootTableID, lootEntries) {
         lootEntries.forEach(entry => {
@@ -107,6 +156,14 @@ LootJS.modifiers(event => {
     addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
     addLootToTable("iceandfire:chest/mausoleum_chest", LootToLootTables.mausoleum);
     addLootToTable("minecraft:chests/desert_pyramid", LootToLootTables.desertPyramid);
+    addLootToTable("aquamirae:chests/frozen_chest", LootToLootTables.frozenChest);
+    addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels", LootToLootTables.seas_dungeon_ship_cheap);
+    addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_enchants", LootToLootTables.seas_dungeon_ship_cheap);
+    addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_supply", LootToLootTables.seas_dungeon_ship_cheap);
+    addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure", LootToLootTables.seas_dungeon_ship_treasure);
+    addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_barrels", LootToLootTables.seas_dungeon_ship_cheap);
+    addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal", LootToLootTables.seas_dungeon_ship_cheap);
+    addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)

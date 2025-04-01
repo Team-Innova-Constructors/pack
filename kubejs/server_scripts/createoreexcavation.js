@@ -64,7 +64,7 @@ event.recipes.createoreexcavation.extracting('tconstruct:earth_slime 2000','{"te
 .biomeWhitelist('minecraft:is_overworld')
 //配方id
 .id("earth_slime");
-0
+
 event.recipes.createoreexcavation.extracting('tconstruct:ender_slime 2000','{"text": "末影史莱姆"}', 60, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
@@ -76,7 +76,7 @@ event.recipes.createoreexcavation.extracting('tconstruct:ender_slime 2000','{"te
 .id("end_slime");
 
 //富油
-event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "富油"}', 20, 80)
+event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000','{"text": "富油"}', 30, 80)
 //钻头等级
 .drill('#createoreexcavation:second_createore_drill')
 //无限量

@@ -109,6 +109,90 @@ ServerEvents.tags('item', event => {
   for (let i of vanillaEquipment) {
     event.add('kubejs:vanilla_equipment', `${i}`)
   }
+  //掉落相关
+  event.add('forge:completely_new_tag', 'kubejs:bio_drop')
+  event.add('forge:completely_new_tag', 'kubejs:l2_allow')
+  event.add('forge:completely_new_tag', 'kubejs:severing_drop')
+  let bio_drop=[
+  'biomancy:mob_fang',
+  'biomancy:mob_claw',
+  'biomancy:mob_sinew',
+  'biomancy:mob_marrow',
+  'biomancy:withered_mob_marrow',
+  'biomancy:mob_gland',
+  'biomancy:toxin_gland',
+  'biomancy:volatile_gland',
+  'biomancy:living_flesh',
+  ]
+  let l2_allow=[
+  'l2complements:totemic_gold_nugget',
+  'l2complements:shulkerate_ingot',
+  'l2complements:shulkerate_nugget',
+  'l2complements:sculkium_nugget',
+  'l2complements:eternium_nugget',
+  '#l2complements:l2c_legendary',
+  'l2hostility:bottle_of_curse',
+  'l2hostility:witch_droplet',
+  'l2hostility:chaos_ingot',
+  'l2hostility:imagine_breaker',
+  // '#l2hostility:trait_item',
+  'minecraft:fermented_spider_eye',
+  'minecraft:pufferfish',
+  'minecraft:dragon_breath',
+  'minecraft:wither_rose',
+  'minecraft:blaze_rod',
+  'minecraft:wither_skeleton_skull',
+  'minecraft:netherite_scrap',
+  'minecraft:gunpowder',
+  'minecraft:scute',
+  'minecraft:phantom_membrane',
+  'minecraft:rabbit_foot',
+  'minecraft:spider_eye',
+  'l2hostility:book_of_reprint',
+  'minecraft:enchanted_golden_apple',
+  'minecraft:totem_of_undying',
+  'enigmaticlegacy:etherium_ingot',
+  'minecraft:ghast_tear',
+  'minecraft:creeper_head',
+  'minecraft:ink_sac',
+  'enigmaticlegacy:etherium_nugget',
+  'minecraft:shulker_shell',
+  'minecraft:diamond',
+  'minecraft:cobweb',
+  ]
+  let severing_drop=[
+  '#forge:heads',
+  'minecraft:blaze_rod',
+  'minecraft:feather',
+  'minecraft:cobweb',
+  'minecraft:tnt',
+  'minecraft:slime_ball',
+  'tconstruct:ender_slime_ball',
+  'minecraft:prismarine_shard',
+  'minecraft:magma_cream',
+  'minecraft:red_mushroom',
+  'minecraft:phantom_membrane',
+  'minecraft:rabbit_foot',
+  'minecraft:white_wool',
+  'minecraft:shulker_shell',
+  'minecraft:bone',
+  'tconstruct:sky_slime_ball',
+  'minecraft:carved_pumpkin',
+  'minecraft:spider_eye',
+  'minecraft:clay_ball',
+  'minecraft:turtle_helmet',
+  'tconstruct:necrotic_bone',
+  ]
+  for (let i of bio_drop) {
+    event.add('kubejs:bio_drop', `${i}`)
+  }
+  for (let i of l2_allow) {
+    event.add('kubejs:l2_allow', `${i}`)
+  }
+  for (let i of severing_drop) {
+    event.add('kubejs:severing_drop', `${i}`)
+  }
+
 })
 //添加方块标签
 ServerEvents.tags('block', event => {

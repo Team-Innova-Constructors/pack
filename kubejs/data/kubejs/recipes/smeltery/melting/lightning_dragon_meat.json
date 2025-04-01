@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+      "item": "iceandfire:lightning_dragon_flesh"
+    },
+    "result": {
+      "amount": 200,
+      "fluid": "tinkers_ingenuity:lightning_dragon_blood"
+    },
+    "temperature": 1000,
+    "time": 10
+  }

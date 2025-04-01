@@ -62,8 +62,11 @@ ServerEvents.recipes(event => {
 		'l2complements:enchantments/invincible',
 		'l2complements:enchantments/void_touch',
 		'l2complements:craft/totem_of_dream',
-		//megacell
-		'megacells:inscriber/bulk_cell_component',
+		'l2hostility:charm_of_looting_2',
+		'l2hostility:charm_of_looting_3',
+		'l2hostility:charm_of_looting_4',
+		'l2hostility:curse_of_envy',
+		
 		//热力的
 		'thermal:fire_charge/signalum_ingot_4',
 		'thermal:fire_charge/lumium_ingot_4',
@@ -129,6 +132,7 @@ ServerEvents.recipes(event => {
 		'lightmanscurrency:coinmint',
 		'twilightforest:uncrafting_table',
 		'entangled:block',
+		'megacells:inscriber/bulk_cell_component',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 

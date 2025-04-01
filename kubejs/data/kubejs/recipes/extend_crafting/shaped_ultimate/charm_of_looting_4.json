@@ -1,0 +1,55 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "  A B A  ",
+      " ACBDBCA ",
+      "ACAEFEACA",
+      " BEGHGEB ",
+      "BDIJKLIDB",
+      " BEGHGEB ",
+      "ACAEFEACA",
+      " ACBDBCA ",
+      "  A B A  "
+    ],
+    "key": {
+      "A": {
+        "item": "enigmaticlegacy:evil_essence"
+      },
+      "B": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      },
+      "C": {
+        "item": "l2complements:storm_core"
+      },
+      "D": {
+        "item": "etshtinker:energized_sculk_alloy"
+      },
+      "E": {
+        "item": "l2complements:sculkium_ingot"
+      },
+      "F": {
+        "item": "l2complements:warden_bone_shard"
+      },
+      "G": {
+        "item": "kubejs:evil_mechanism"
+      },
+      "H": {
+        "item": "aether:ambrosium_shard"
+      },
+      "I": {
+        "item": "aether:zanite_gemstone"
+      },
+      "J": {
+        "item": "l2complements:force_field"
+      },
+      "K": {
+        "item": "l2hostility:miracle_ingot"
+      },
+      "L": {
+        "item": "l2complements:blackstone_core"
+      }
+    },
+    "result": {
+      "item": "l2hostility:charm_of_looting_4"
+    }
+  }
