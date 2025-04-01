@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " ABA ",
+      "ACDCA",
+      " EFE ",
+      "  G  ",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "twilightforest:ironwood_ingot"
+      },
+      "B": {
+        "item": "kubejs:evil_mechanism"
+      },
+      "C": {
+        "item": "minecraft:ender_eye"
+      },
+      "D": {
+        "item": "l2complements:life_essence"
+      },
+      "E": {
+        "item": "biomancy:mob_fang"
+      },
+      "F": {
+        "item": "biomancy:tendon_chain"
+      },
+      "G": {
+        "item": "l2hostility:chaos_ingot"
+      }
+    },
+    "result": {
+      "item": "l2hostility:curse_of_envy"
+    }
+  }
