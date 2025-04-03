@@ -1,0 +1,58 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "   AAA   ",
+      "  ABCBA  ",
+      " ACDEFCA ",
+      "ABFGHIDBA",
+      "ACEJKLECA",
+      "ABDIMGFBA",
+      " ACFEDCA ",
+      "  ABCBA  ",
+      "   AAA   "
+    ],
+    "key": {
+      "A": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "B": {
+        "item": "l2hostility:miracle_ingot"
+      },
+      "C": {
+        "item": "l2complements:sun_membrane"
+      },
+      "D": {
+        "item": "l2complements:eternium_ingot"
+      },
+      "E": {
+        "item": "l2hostility:chaos_ingot"
+      },
+      "F": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      },
+      "G": {
+        "item": "l2hostility:purify"
+      },
+      "H": {
+        "item": "l2hostility:ring_of_reflection"
+      },
+      "I": {
+        "item": "l2hostility:imagine_breaker"
+      },
+      "J": {
+        "item": "l2complements:force_field"
+      },
+      "K": {
+        "item": "enigmaticlegacy:twisted_heart"
+      },
+      "L": {
+        "item": "l2complements:void_eye"
+      },
+      "M": {
+        "item": "kubejs:evil_mechanism"
+      }
+    },
+    "result": {
+      "item": "l2hostility:abrahadabra"
+    }
+  }

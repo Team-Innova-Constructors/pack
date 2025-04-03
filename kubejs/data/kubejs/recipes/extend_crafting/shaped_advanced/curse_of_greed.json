@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAA ",
+    "ABCBA",
+    "ADEDB",
+    "ABCBA",
+    " ABA "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:blackstone_core"
+    },
+    "B": {
+      "item": "tinkersinnovation:slimton_ingot"
+    },
+    "C": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "D": {
+      "item": "l2hostility:pulling"
+    },
+    "E": {
+      "item": "kubejs:evil_mechanism"
+    }
+  },
+  "result": {
+    "item": "l2hostility:curse_of_greed"
+  }
+}

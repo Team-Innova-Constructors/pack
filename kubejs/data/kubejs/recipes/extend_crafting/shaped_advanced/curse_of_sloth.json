@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " A A ",
+      "ABCBA",
+      "ACDCA",
+      "ABEBA",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "l2complements:blackstone_core"
+      },
+      "C": {
+        "item": "l2hostility:bottle_of_sanity"
+      },
+      "D": {
+        "item": "kubejs:evil_mechanism"
+      },
+      "E": {
+        "item": "l2hostility:chaos_ingot"
+      }
+    },
+    "result": {
+      "item": "l2hostility:curse_of_sloth"
+    }
+  }

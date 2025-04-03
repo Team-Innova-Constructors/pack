@@ -66,6 +66,12 @@ ServerEvents.recipes(event => {
 		'l2hostility:charm_of_looting_3',
 		'l2hostility:charm_of_looting_4',
 		'l2hostility:curse_of_envy',
+		'l2hostility:curse_of_gluttony',
+		'l2hostility:curse_of_lust',
+		'l2hostility:curse_of_sloth',
+		'l2hostility:abrahadabra',
+		'l2hostility:curse_of_greed',
+		
 		
 		//热力的
 		'thermal:fire_charge/signalum_ingot_4',
