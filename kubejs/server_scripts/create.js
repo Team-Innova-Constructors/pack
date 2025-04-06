@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     //压块塑性
     event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('tconstruct:blazing_blood').withAmount(1000)])
     event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
+    event.recipes.create.mixing(Fluid.of('cherrytinker:sun_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(1000),'cherrytinker:cherrygem']).heated()
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
 ]  ,Item.of('pneumaticcraft:pneumatic_helmet'), [

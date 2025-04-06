@@ -271,10 +271,16 @@ ServerEvents.recipes(event => {
     for (let i of pannel) {event.remove({id:`${i}`})}
 })
 PowahEvents.registerHeatSource(event => {
-	event.add('etshtinker:meteoralloy_block', 6000);
+    event.add('cherrytinker:sun_cherryfuel', 2200);
+    event.add('twilightforest:fiery_block', 2750);
+	event.add('etshtinker:meteoralloy_block', 3500);
+	event.add('kubejs:stellaralloy_block', 5000);
+	event.add('iceandfire:dragonsteel_fire_block', 5500);
+	event.add('solidarytinker:dwarf_block', 11500);
+	event.add('avaritia:infinity', 32768);
 })
 PowahEvents.registerCoolants(event => {
-	event.addFluid("kubejs:fluid_cryotheum", -127);
+	event.addFluid("kubejs:fluid_cryotheum", -40);
 })
 PowahEvents.registerMagmaticFluid(event => {
 })
