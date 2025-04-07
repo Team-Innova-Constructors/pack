@@ -71,8 +71,19 @@ ServerEvents.recipes(event => {
 		'l2hostility:curse_of_sloth',
 		'l2hostility:abrahadabra',
 		'l2hostility:curse_of_greed',
-		
-		
+		//pnc的油
+		'pneumaticcraft:refinery/oil_2',
+		'pneumaticcraft:refinery/oil_3',
+
+		'pneumaticcraft:amadron/lpg_to_emerald',
+		'pneumaticcraft:thermo_plant/kerosene',
+		'pneumaticcraft:thermo_plant/gasoline',
+		'pneumaticcraft:thermo_plant/lpg',
+		'pneumaticcraft:thermo_plant/plastic_from_lpg',
+
+		'pneumaticcraft:thermo_plant/lubricant_from_biodiesel',
+		'pneumaticcraft:thermo_plant/lubricant_from_diesel',
+		'pneumaticcraft:fluid_mixer/biodiesel',
 		//热力的
 		'thermal:fire_charge/signalum_ingot_4',
 		'thermal:fire_charge/lumium_ingot_4',

@@ -246,4 +246,10 @@ ServerEvents.tags('block', event => {
 ServerEvents.tags('fluid', event => {
   event.add('create:bottomless/allow', 'ad_astra:cryo_fuel')
   event.add('create:bottomless/allow', 'mekanism:hydrogen')
+
+  event.remove('forge:gasoline', 'pneumaticcraft:gasoline')
+  event.remove('forge:diesel', 'pneumaticcraft:diesel')
+  event.remove('forge:kerosene', 'pneumaticcraft:kerosene')
+  event.remove('forge:lubricant', 'pneumaticcraft:lubricant')
+  event.remove('ad_astra_platform:biodiesel','pneumaticcraft:biodiesel')
 })
