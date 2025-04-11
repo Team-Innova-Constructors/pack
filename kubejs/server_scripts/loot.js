@@ -31,28 +31,24 @@ LootJS.modifiers(event => {
         ],
         //月球村庄
         moonVillage: [
-            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.5 },
-            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.5 },
-            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.5 },
+            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.3 },
             { item: 'ae2:fluix_smart_dense_cable', count: 26, chance: 0.8 },
             { item: 'ae2:drive', count: 1, chance: 0.4 },
             { item: 'ae2:energy_cell', count: 1, chance: 0.4 },
         ],
         //月球地牢
         moonDungeon: [
-            { item: 'megacells:cell_component_1m', count: 2, chance: 0.4 },
-            { item: 'megacells:cell_component_4m', count: 1, chance: 0.4 },
-            { item: 'bigger_ae2:quantum_cell_component', count: 1, chance: 0.4 },
-            { item: 'bigger_ae2:quantum_cell_component', count: 2, chance: 0.4 },
+            { item: 'megacells:cell_component_1m', count: 2, chance: 0.3 },
+            { item: 'megacells:cell_component_4m', count: 1, chance: 0.15 },
+            { item: 'bigger_ae2:quantum_cell_component', count: 1, chance: 0.3 },
+            { item: 'bigger_ae2:quantum_cell_component', count: 2, chance: 0.15 },
             { item: 'ae2:dense_energy_cell', count: 1, chance: 0.8 },
             { item: 'megacells:mega_energy_cell', count: 1, chance: 0.2 },
             { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
             { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
         ],
-        //冰火墓地
-        IAF_graveyard:[
-            {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
-        ]
     };
     function addLootToStructure(structureID, lootEntries) {
         lootEntries.forEach(entry => {
@@ -139,6 +135,10 @@ LootJS.modifiers(event => {
             { item: 'l2complements:space_shard', count: 3, chance: 0.5 },//逐日之翼
             { item: 'l2complements:soul_flame', count: 2, chance: 0.7 },//魂火
             { item: 'l2complements:cursed_droplet', count: 3, chance: 0.8 },//亡魂泪
+        ],
+        //冰火墓地
+        iaf_graveyard:[
+            {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
         ]
 
 
@@ -155,6 +155,7 @@ LootJS.modifiers(event => {
     addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic", LootToLootTables.fortress);
     addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
     addLootToTable("iceandfire:chest/mausoleum_chest", LootToLootTables.mausoleum);
+    addLootToTable("iceandfire:chest/graveyard", LootToLootTables.iaf_graveyard);
     addLootToTable("minecraft:chests/desert_pyramid", LootToLootTables.desertPyramid);
     addLootToTable("aquamirae:chests/frozen_chest", LootToLootTables.frozenChest);
     addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels", LootToLootTables.seas_dungeon_ship_cheap);
