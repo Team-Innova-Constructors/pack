@@ -152,7 +152,9 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
 	event.remove({ mod: 'l2hostility', output: 'l2hostility:curse_of_wrath' })
 	event.remove({ mod: 'cyclic', output: 'cyclic:tile_transporter_empty' })
-
+	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:item_transporter_type' })
+	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:fluid_transporter_type' })
+	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:world_transporter_type' })
 
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
