@@ -67,6 +67,12 @@
       "durability": 3273,
       "knockback_resistance": 1,
       "toughness": 4
+    },
+    "solidarytinker:soulge_heart": {
+      "detection_range": 90,
+      "exert_times": 60,
+      "attack_frequency": 2,
+      "kill_threshold": 0.36
     }
   }
 }

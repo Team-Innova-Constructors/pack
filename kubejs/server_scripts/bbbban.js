@@ -54,13 +54,6 @@ ServerEvents.recipes(event => {
 		'l2hostility:book_of_omniscience',
 		'l2hostility:greed_of_nidhoggur',
 		'l2complements:vanilla/renew/elytra',
-		'l2complements:enchantments/projectile_reject',
-		'l2complements:enchantments/fire_reject',
-		'l2complements:enchantments/environment_reject',
-		'l2complements:enchantments/explosion_reject',
-		'l2complements:enchantments/magic_reject',
-		'l2complements:enchantments/invincible',
-		'l2complements:enchantments/void_touch',
 		'l2complements:craft/totem_of_dream',
 		'l2hostility:charm_of_looting_2',
 		'l2hostility:charm_of_looting_3',
@@ -96,7 +89,7 @@ ServerEvents.recipes(event => {
 		'thermal:fuels/compression/compression_refined_fuel',
 		'thermal:machines/smelter/smelter_alloy_enderium',
 		//mek
-		'mekanism:compact/ae2/decorative/certus_quartz/crushing/block_to_chiseled_block',
+		'mekanism:compat/ae2/decorative/certus_quartz/crushing/block_to_chiseled_block',
 		'mekanism:mekasuit_helmet',
 		'mekanism:mekasuit_bodyarmor',
 		'mekanism:mekasuit_pants',
@@ -158,6 +151,7 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'naturescompass', output: 'naturescompass:naturescompass' })
 	event.remove({ mod: 'l2hostility', output: 'l2hostility:curse_of_pride' })
 	event.remove({ mod: 'l2hostility', output: 'l2hostility:curse_of_wrath' })
+	event.remove({ mod: 'cyclic', output: 'cyclic:tile_transporter_empty' })
 
 
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
@@ -212,7 +206,13 @@ ServerEvents.recipes(event => {
 	for (let i of immersiveengineeringore) { event.remove({ id: `${i}` }) }
 	//莱特兰附魔书
 	let l2enchantbook = [
-
+		'l2complements:enchantments/projectile_reject',
+		'l2complements:enchantments/fire_reject',
+		'l2complements:enchantments/environment_reject',
+		'l2complements:enchantments/explosion_reject',
+		'l2complements:enchantments/magic_reject',
+		'l2complements:enchantments/invincible',
+		'l2complements:enchantments/void_touch',
 	]
 	for (let i of l2enchantbook) { event.remove({ id: `${i}` }) }
 	//循环

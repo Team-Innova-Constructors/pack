@@ -1,0 +1,56 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:resonance_effect",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:amplitude_characteristic",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:resonance_effect",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:reactive_resonate_armor",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "etshtinker:resonance_effect",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:phase_characteristic",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ],
+    "solidarytinker:soulge_heart": [
+      {
+        "name": "etshtinker:resonance_effect",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ]
+  }
+}

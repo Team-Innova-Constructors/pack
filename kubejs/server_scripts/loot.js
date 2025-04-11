@@ -161,6 +161,9 @@ LootJS.modifiers(event => {
     addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_enchants", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_supply", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure", LootToLootTables.seas_dungeon_ship_treasure);
+    addLootToTable("dungeons_arise:chests/small_blimp/small_blimp_coal_storage", LootToLootTables.small_blimp_coal_chest);
+    addLootToTable("dungeons_arise:chests/small_blimp/small_blimp_redstone_chamber", LootToLootTables.small_blimp_redstone_chest);
+    addLootToTable("dungeons_arise:chests/small_blimp/small_blimp_treasure", LootToLootTables.small_blimp_treasure);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_barrels", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);

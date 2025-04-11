@@ -183,6 +183,14 @@ ServerEvents.tags('item', event => {
   'minecraft:turtle_helmet',
   'tconstruct:necrotic_bone',
   ]
+  let no_seal=[
+    "enigmaticlegacy:the_cube",
+    'enigmaticlegacy:enigmatic_eye',
+    'enigmaticlegacy:ascension_amulet',
+    'enigmaticlegacy:eldritch_amulet',
+    'enigmaticlegacy:desolation_ring',
+    'enigmaticlegacy:enigmatic_amulet',
+  ]
   for (let i of bio_drop) {
     event.add('kubejs:bio_drop', `${i}`)
   }
@@ -191,6 +199,9 @@ ServerEvents.tags('item', event => {
   }
   for (let i of severing_drop) {
     event.add('kubejs:severing_drop', `${i}`)
+  }
+  for (let i of no_seal) {
+    event.add('l2hostility:no_seal', `${i}`)
   }
 
 })

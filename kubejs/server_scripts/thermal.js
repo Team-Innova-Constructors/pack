@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ mod: 'thermal', output: 'thermal:white_rockwool' }, 'thermal:slag', '#forge:slag')
   //磨粉机
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(3.5), 'createoreexcavation:raw_diamond').energy(1000)
+  event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(5.5), 'kubejs:stellar_stone_diamond_ore').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:redstone').withChance(6.5), 'createoreexcavation:raw_redstone').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:emerald').withChance(3.5), 'createoreexcavation:raw_emerald').energy(1000)
   event.recipes.thermal.pulverizer(Item.of('minecraft:amethyst_shard').withChance(6.5), 'minecraft:amethyst_cluster').energy(1000)
