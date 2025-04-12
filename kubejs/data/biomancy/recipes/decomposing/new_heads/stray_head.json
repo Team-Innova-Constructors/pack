@@ -1,0 +1,34 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+      "item": "tconstruct:stray_head"
+    },
+    "nutrientsCost": 2,
+    "processingTime": 200,
+    "results": [
+      {
+        "countRange": {
+          "type": "uniform",
+          "max": 48,
+          "min": 28
+        },
+        "item": "biomancy:bone_fragments"
+      },
+      {
+        "countRange": {
+          "type": "uniform",
+          "max": 8,
+          "min": 4
+        },
+        "item": "minecraft:snowball"
+      },
+      {
+        "countRange": {
+          "type": "uniform",
+          "max": 7,
+          "min": 4
+        },
+        "item": "biomancy:mineral_fragment"
+      }
+    ]
+  }

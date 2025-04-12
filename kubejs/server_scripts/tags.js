@@ -113,6 +113,8 @@ ServerEvents.tags('item', event => {
   event.add('forge:completely_new_tag', 'kubejs:bio_drop')
   event.add('forge:completely_new_tag', 'kubejs:l2_allow')
   event.add('forge:completely_new_tag', 'kubejs:severing_drop')
+
+  event.add('forge:completely_new_tag', 'kubejs:pig_head')
   let bio_drop=[
   'biomancy:mob_fang',
   'biomancy:mob_claw',
@@ -191,6 +193,11 @@ ServerEvents.tags('item', event => {
     'enigmaticlegacy:desolation_ring',
     'enigmaticlegacy:enigmatic_amulet',
   ]
+  let pig_head=[
+    'tconstruct:zombified_piglin_head',
+    'tconstruct:piglin_brute_head',
+    'tconstruct:piglin_head',
+  ]
   for (let i of bio_drop) {
     event.add('kubejs:bio_drop', `${i}`)
   }
@@ -202,6 +209,9 @@ ServerEvents.tags('item', event => {
   }
   for (let i of no_seal) {
     event.add('l2hostility:no_seal', `${i}`)
+  }
+  for (let i of pig_head) {
+    event.add('kubejs:pig_head', `${i}`)
   }
 
 })
