@@ -14,7 +14,22 @@
         "entities": [
           "aquamirae:captain_cornelia"
         ],
-        "items": [],
+        "items": [
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "cherrytinker:sk",
+                "nbt": " {Damage:0,tic_broken:0b,tic_materials:[\"cti:buriedocean\",\"cti:buriedocean\",\"cti:buriedocean\"],tic_modifiers:[{level:3,name:\"cti:buriedocean\"},{level:1,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:reach\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":16.148f,\"tconstruct:attack_speed\":3.0f,\"tconstruct:durability\":875.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 600,
+          "slot": "equipment/mainhand"
+        }
+      ],
         "traits": [
           {
             "free": 5,

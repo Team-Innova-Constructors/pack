@@ -1,0 +1,41 @@
+{
+  "condition": {
+    "modid": "thermal",
+    "type": "forge:mod_loaded"
+  },
+  "stats": {
+    "tconstruct:binding": {},
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 8000
+    },
+    "tconstruct:handle": {
+      "durability": 0.1,
+      "mining_speed": 0.4,
+      "melee_speed": 0.3,
+      "melee_damage": 0.25
+    },
+    "tconstruct:head": {
+      "durability": 720,
+      "mining_speed": 8.5,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 3.5
+    },
+    "tconstruct:limb": {
+      "durability": 755,
+      "draw_speed": 0.6,
+      "velocity": 0.02,
+      "accuracy": 0.2
+    },
+    "tconstruct:grip": {
+      "durability": 1.0,
+      "accuracy": 1.0,
+      "melee_damage": 4.0
+    },
+    "solidarytinker:soulge_heart": {
+      "detection_range": 30,
+      "exert_times": 25,
+      "attack_frequency": 8,
+      "kill_threshold": 0.16
+    }
+  }
+}

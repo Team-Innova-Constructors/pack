@@ -15,7 +15,6 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanismgenerators',output:'mekanismgenerators:fusion_reactor_port'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
   //电解核心
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:electrolytic_core'}, '#forge:dusts/osmium','kubejs:compressed_hardlead')
-
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:module_elytra_unit'}, 'mekanism:pellet_antimatter','etshtinker:electronium')
   //钛，矿渣相关
   event.recipes.mekanismCrushing('immersiveengineering:slag_gravel', '#forge:slag')
@@ -29,6 +28,9 @@ ServerEvents.recipes(event => {
   //其他
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
   event.recipes.mekanismSmelting('immersiveengineering:ingot_aluminum', '#forge:dusts/aluminum')
+  event.recipes.mekanismSmelting('l2hostility:miracle_powder', "#l2hostility:trait_item")
+  event.recipes.mekanismSmelting('l2hostility:chaos_ingot', "#l2hostility:chaos_equipment")
+  event.recipes.mekanismSmelting('l2complements:poseidite_ingot', 'minecraft:trident')
   event.recipes.mekanismCompressing("tinkers_ingenuity:bedrock_alloy_ingot","minecraft:bedrock", {gas: 'mekanism:osmium', amount: 2})
   event.recipes.mekanismInjecting('cti:magic_crystal', 'ae2:certus_quartz_crystal', {gas: 'cti:mana_gas', amount: 20})
   event.recipes.mekanismCrushing('6x ae2:certus_quartz_crystal', 'ae2:quartz_cluster')

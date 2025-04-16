@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "exothermic": false,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1000,
+    "tag": "forge:diesel"
+  },
+  "fluid_output": {
+    "amount": 1000,
+    "fluid": "immersivepetroleum:lubricant"
+  },
+  "item_input": {
+    "tag": "forge:dusts/redstone"
+  },
+  "temperature": {
+    "min_temp": 373
+  }
+}

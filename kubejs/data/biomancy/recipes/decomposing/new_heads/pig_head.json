@@ -1,0 +1,41 @@
+{
+    "type": "biomancy:decomposing",
+    "ingredient": {
+        "tag": "kubejs:pig_head"
+    },
+    "nutrientsCost": 2,
+    "processingTime": 200,
+    "results": [
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 24,
+                "min": 14
+            },
+            "item": "biomancy:flesh_bits"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 9,
+                "min": 5
+            },
+            "item": "biomancy:elastic_fibers"
+        },
+        {
+            "countRange": {
+                "type": "uniform",
+                "max": 28,
+                "min": 7
+            },
+            "item": "minecraft:gold_nugget"
+        },
+        {
+            "countRange": {
+                "type": "constant",
+                "value": 1
+            },
+            "item": "minecraft:skeleton_skull"
+        }
+    ]
+}

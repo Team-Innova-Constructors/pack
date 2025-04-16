@@ -7,6 +7,10 @@
           {
             "height": 1,
             "block": "minecraft:bedrock"
+          },
+          {
+            "height": 4,
+            "block": "minecraft:smooth_stone"
           }
         ],
         "biome":"kubejs:ultra_flat",

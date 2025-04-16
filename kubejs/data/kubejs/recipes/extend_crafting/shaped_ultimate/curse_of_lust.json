@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "A   A",
+      "AABAA",
+      "ACDCA",
+      " AEA ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "item": "tinkers_reforged:hornium_ingot"
+      },
+      "B": {
+        "item": "l2hostility:chaos_ingot"
+      },
+      "C": {
+        "item": "l2hostility:invisible"
+      },
+      "D": {
+        "item": "kubejs:evil_mechanism"
+      },
+      "E": {
+        "item": "l2hostility:blindness"
+      }
+    },
+    "result": {
+      "item": "l2hostility:curse_of_lust"
+    }
+  }

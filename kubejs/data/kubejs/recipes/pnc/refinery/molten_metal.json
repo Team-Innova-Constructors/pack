@@ -1,0 +1,29 @@
+{
+  "type": "pneumaticcraft:refinery",
+  "input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1000,
+    "fluid": "kubejs:hot_heavymetal_lava"
+  },
+  "results": [
+    {
+      "amount": 270,
+      "fluid": "tconstruct:molten_iron"
+    },
+    {
+      "amount": 180,
+      "fluid": "tconstruct:molten_gold"
+    },
+    {
+      "amount": 180,
+      "fluid": "tconstruct:molten_silver"
+    },
+    {
+      "amount": 270,
+      "fluid": "tconstruct:molten_lead"
+    }
+  ],
+  "temperature": {
+    "min_temp": 1240
+  }
+}

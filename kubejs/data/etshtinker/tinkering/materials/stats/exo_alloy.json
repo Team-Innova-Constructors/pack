@@ -1,0 +1,85 @@
+{
+  "condition": {
+    "type": "forge:not",
+    "value": {
+      "type": "forge:tag_empty",
+      "tag": "forge:ingots/exo_alloy"
+    }
+  },
+  "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 9000000
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 10.24,
+      "criticalrate": 1.28,
+      "fluidefficiency": 128,
+      "slash_color": 10
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 10,
+      "plasmarange": 70,
+      "damagemultiplier": 10
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 2.95,
+      "mining_speed": 1.2,
+      "melee_speed": 6.0,
+      "melee_damage": 1.95
+    },
+    "tconstruct:head": {
+      "durability": 8600,
+      "mining_speed": 15.0,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 4.75
+    },
+    "tconstruct:limb": {
+      "durability": 6780,
+      "draw_speed": 7.5,
+      "velocity": 1.5,
+      "accuracy": 1.5
+    },
+    "tconstruct:grip": {
+      "durability": 0.5,
+      "accuracy": 0.5,
+      "melee_damage": 25.0
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 12.0,
+      "durability": 32767,
+      "knockback_resistance": 1,
+      "toughness": 16
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 20.0,
+      "durability": 32767,
+      "knockback_resistance": 1,
+      "toughness": 16
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 16.0,
+      "durability": 32767,
+      "knockback_resistance": 1,
+      "toughness": 16
+    },
+    "tconstruct:plating_boots": {
+      "armor": 10.0,
+      "durability": 32767,
+      "knockback_resistance": 1,
+      "toughness": 16
+    },
+    "tconstruct:plating_shield": {
+      "durability": 32767,
+      "knockback_resistance": 1,
+      "toughness": 16
+    },
+    "solidarytinker:soulge_heart": {
+      "detection_range": 100,
+      "exert_times": 100,
+      "attack_frequency": 1,
+      "kill_threshold": 0.72
+    }
+  }
+}

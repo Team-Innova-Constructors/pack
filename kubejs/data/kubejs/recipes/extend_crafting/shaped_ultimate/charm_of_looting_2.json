@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBA",
+    "BCDDB",
+    "BDEFB",
+    "BDFCB",
+    "ABBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "twilightforest:naga_scale"
+    },
+    "B": {
+      "item": "twilightforest:ironwood_ingot"
+    },
+    "C": {
+      "item": "twilightforest:torchberries"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "F": {
+      "item": "botania:blaze_block"
+    }
+  },
+  "result": {
+    "item": "l2hostility:charm_of_looting_2"
+  }
+}

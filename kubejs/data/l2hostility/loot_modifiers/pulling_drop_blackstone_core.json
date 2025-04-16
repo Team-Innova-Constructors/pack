@@ -1,0 +1,25 @@
+{
+  "type": "l2hostility:trait_scaled",
+  "chance": 0.0,
+  "conditions": [
+    {
+      "condition": "minecraft:killed_by_player"
+    },
+    {
+      "condition": "l2hostility:trait_and_level",
+      "maxLevel": 5,
+      "minLevel": 1,
+      "trait": "l2hostility:pulling"
+    },
+    {
+      "condition": "l2hostility:player_has_item",
+      "item": "l2hostility:charm_of_looting_3"
+    }
+  ],
+  "rankBonus": 0.30,
+  "result": {
+    "Count": 1,
+    "id": "l2complements:blackstone_core"
+  },
+  "trait": "l2hostility:pulling"
+}

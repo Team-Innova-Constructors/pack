@@ -1,0 +1,36 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "dimensions": [
+    "ad_astra:mercury"
+  ],
+  "fail_chance": 0.01,
+  "ores": [
+    {
+      "chance": 0.4,
+      "output": {
+        "item": "kubejs:mercury_tungsten_ore"
+      }
+    },
+    {
+      "chance": 0.6,
+      "output": {
+        "tag": "forge:ores/iron"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.7,
+      "output": {
+        "item": "ad_astra:mercury_stone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "minecraft:basalt"
+      }
+    }
+  ],
+  "weight": 30
+}

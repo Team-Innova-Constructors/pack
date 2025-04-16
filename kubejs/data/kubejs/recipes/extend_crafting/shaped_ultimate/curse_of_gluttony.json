@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "A   A",
+      "AABAA",
+      "ACDCA",
+      " AEA ",
+      "  A  "
+    ],
+    "key": {
+      "A": {
+        "item": "tconstruct:pig_iron_ingot"
+      },
+      "B": {
+        "item": "l2hostility:growth"
+      },
+      "C": {
+        "item": "l2hostility:regenerate"
+      },
+      "D": {
+        "item": "kubejs:evil_mechanism"
+      },
+      "E": {
+        "item": "l2hostility:chaos_ingot"
+      }
+    },
+    "result": {
+      "item": "l2hostility:curse_of_gluttony"
+    }
+  }

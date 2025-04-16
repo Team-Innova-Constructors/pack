@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BCDCB",
+    "CDEDC",
+    "BCDCB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:compressed_hardlead"
+    },
+    "B": {
+      "item": "minecraft:crimson_planks"
+    },
+    "C": {
+      "item": "ae2:singularity"
+    },
+    "D": {
+      "item": "etshtinker:blizz_enderium"
+    },
+    "E": {
+      "item": "enigmaticlegacy:etherium_block"
+    }
+  },
+  "result": {
+    "item": "entangled:block"
+  }
+}

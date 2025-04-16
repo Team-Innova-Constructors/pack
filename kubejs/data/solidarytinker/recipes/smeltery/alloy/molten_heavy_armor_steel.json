@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "etshtinker"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "etshtinker:molten_hardlead",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_steel",
+      "amount": 180
+    },
+    {
+      "name": "tinkers_reforged:red_beryl",
+      "amount": 900
+    }
+  ],
+  "result": {
+    "fluid": "solidarytinker:molten_heavy_armor_steel",
+    "amount": 90
+  },
+  "temperature": 1400
+}

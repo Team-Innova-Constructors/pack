@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "modid": "immersiveengineering",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "name": "immersiveengineering:acetaldehyde",
+    "amount": 100
+  },
+  "duration": 100,
+  "temperature": 3500
+}

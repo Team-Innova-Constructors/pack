@@ -162,6 +162,16 @@ ServerEvents.recipes(event => {
          C: 'minecraft:diamond_block',
       }
    )
+   event.shaped(Item.of('tinkers_thinking:heavy_core', 1), [
+      ' B ',
+      'BAB',
+      ' B '
+   ],
+      {
+         A: 'mekanism:block_osmium',
+         B: 'etshtinker:hardlead_plate',
+      }
+   )
    event.shaped(Item.of('minecraft:crying_obsidian',8), [
       'AAA',
       'ABA',
@@ -339,11 +349,6 @@ ServerEvents.recipes(event => {
     ], {
         P: 'minecraft:phantom_membrane'
     });
-    //gobber系列
-    event.remove({id:'gobber2:gobber2_ingot'})
-    event.remove({id:'gobber2:gobber2_ingot_nether'})
-    event.remove({id:'gobber2:gobber2_ingot_end'})
-
     event.shaped(Item.of('gobber2:gobber2_ingot',2), [
         'ABC',
         'BEB',
@@ -382,4 +387,34 @@ ServerEvents.recipes(event => {
         F: 'tinkers_ingenuity:twilight_ingot',
         G: 'tconstruct:ender_slime_ball'
     });
+    event.shaped(Item.of('minecraft:diamond_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:diamond',
+      }
+   )
+   event.shaped(Item.of('minecraft:iron_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:iron_ingot',
+      }
+   )
+   event.shaped(Item.of('minecraft:golden_horse_armor', 1), [
+      'AAA',
+      'ACA',
+      'AAA'
+   ],
+      {
+         C: 'minecraft:leather_horse_armor',
+         A: 'minecraft:gold_ingot',
+      }
+   )
 })

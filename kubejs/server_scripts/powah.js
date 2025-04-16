@@ -1,12 +1,25 @@
 ServerEvents.recipes(event => {
     event.replaceInput({mod:'powah',output:'powah:crystal_nitro'}, '#forge:storage_blocks/redstone','#forge:ingots/tungsten')
 
-    event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','kubejs:compressed_hardlead')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','etshtinker:hardlead_plate')
     event.replaceInput({mod:'powah',output:'powah:capacitor_blazing'}, 'powah:dielectric_paste','kubejs:zirconium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_niotic'}, 'powah:dielectric_paste','kubejs:violium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','kubejs:atherium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_nitro'}, 'powah:dielectric_paste','mekanism:pellet_plutonium')
 
+    event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
+    event.recipes.powah.energizing(["minecraft:emerald"], "powah:crystal_spirited",8000000)
+    event.recipes.powah.energizing(["minecraft:diamond"], "powah:crystal_niotic",2400000)
+    event.recipes.powah.energizing(["minecraft:blaze_rod"], "powah:crystal_blazing",600000)
+    event.recipes.powah.energizing(['minecraft:blue_ice','minecraft:blue_ice'],'powah:dry_ice',150000)
+    event.recipes.powah.energizing(['minecraft:ice','minecraft:ice','minecraft:ice','minecraft:ice','minecraft:ice','minecraft:ice'],Item.of('minecraft:packed_ice',6),5000)
+    event.recipes.powah.energizing(['minecraft:packed_ice','minecraft:packed_ice','minecraft:packed_ice','minecraft:packed_ice','minecraft:packed_ice','minecraft:packed_ice'],Item.of('minecraft:blue_ice',6),45000)
+    event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
+    event.recipes.powah.energizing(["minecraft:iron_ingot","minecraft:gold_ingot"],  Item.of("powah:steel_energized",2),100000)
+    event.recipes.powah.energizing(["minecraft:iron_block","minecraft:gold_block"],  Item.of('powah:energized_steel_block',2),900000)
+    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',80000)
+    event.recipes.powah.energizing(['tinkers_reforged:red_beryl_gem',"tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),2500000)
+    event.recipes.powah.energizing(["ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block"], Item.of("ae2:charged_certus_quartz_crystal",24),1024000)
     let level=[
       "nitro",
       "spirited",
@@ -256,19 +269,18 @@ ServerEvents.recipes(event => {
       'powah:crafting/solar_panel_basic',
     ]
     for (let i of pannel) {event.remove({id:`${i}`})}
-    event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
-    event.recipes.powah.energizing(["minecraft:gold_block","minecraft:iron_block"], 'powah:energized_steel_block',100000)
-    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',50000)
-    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',50000)
-    event.recipes.powah.energizing(["tinkerscalibration:spinel","tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),10000)
-
-
 })
 PowahEvents.registerHeatSource(event => {
-	event.add('etshtinker:meteoralloy_block', 6000);
+    event.add('cherrytinker:sun_cherryfuel', 2200);
+    event.add('twilightforest:fiery_block', 2750);
+	event.add('etshtinker:meteoralloy_block', 3500);
+	event.add('kubejs:stellaralloy_block', 5000);
+	event.add('iceandfire:dragonsteel_fire_block', 5500);
+	event.add('solidarytinker:dwarf_block', 11500);
+	event.add('avaritia:infinity', 32768);
 })
 PowahEvents.registerCoolants(event => {
-	event.addFluid("kubejs:fluid_cryotheum", -127);
+	event.addFluid("kubejs:fluid_cryotheum", -40);
 })
 PowahEvents.registerMagmaticFluid(event => {
 })
