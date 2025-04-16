@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:tool_building",
+  "extra_requirements": [
+    { "item": "tinkersinnovation:teleport_core" }
+  ],
+  "result": "tinkersinnovation:teleport_staff",
+  "result_count": 1
+}

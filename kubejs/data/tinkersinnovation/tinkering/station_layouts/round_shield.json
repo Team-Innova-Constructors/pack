@@ -1,0 +1,37 @@
+{
+  "translation_key": "item.tinkersinnovation.round_shield",
+  "icon": {
+    "item": "tinkersinnovation:round_shield",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+  },
+  "sortIndex": 6,
+  "input_slots": [
+    {
+      "icon": "tinkersinnovation:light_shield_plate",
+      "translation_key": "item.tinkersinnovation.light_shield_plate",
+      "x": 39,
+      "y": 53,
+      "filter": {
+        "item": "tinkersinnovation:light_shield_plate"
+      }
+    },
+    {
+      "icon": "tconstruct:maille",
+      "translation_key": "item.tconstruct.maille",
+      "x": 39,
+      "y": 35,
+      "filter": {
+        "item": "tconstruct:maille"
+      }
+    },
+    {
+      "icon": "tconstruct:shield_core",
+      "translation_key": "item.tconstruct.shield_core",
+      "x": 21,
+      "y": 53,
+      "filter": {
+        "item": "tconstruct:shield_core"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:table_tool_casting",
+  "conditions": [
+    {
+      "modid": "alexsmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "cast": {
+    "item": "alexsmobs:skelewag_sword"
+  },
+  "item_cost": 2,
+  "result": "tinkersinnovation:skelewag_sword"
+}
