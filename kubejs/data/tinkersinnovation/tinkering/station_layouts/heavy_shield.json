@@ -1,0 +1,46 @@
+{
+  "translation_key": "item.tinkersinnovation.heavy_shield",
+  "icon": {
+    "item": "tinkersinnovation:heavy_shield",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+  },
+  "sortIndex": 10,
+  "input_slots": [
+    {
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 21,
+      "y": 53,
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      }
+    },
+    {
+      "icon": "tinkersinnovation:heavy_shield_plate",
+      "translation_key": "item.tinkersinnovation.heavy_shield_plate",
+      "x": 39,
+      "y": 53,
+      "filter": {
+        "item": "tinkersinnovation:heavy_shield_plate"
+      }
+    },
+    {
+      "icon": "tinkersinnovation:heavy_shield_plate",
+      "translation_key": "item.tinkersinnovation.heavy_shield_plate",
+      "x": 21,
+      "y": 35,
+      "filter": {
+        "item": "tinkersinnovation:heavy_shield_plate"
+      }
+    },
+    {
+      "icon": "tconstruct:large_plate",
+      "translation_key": "item.tconstruct.large_plate",
+      "x": 39,
+      "y": 35,
+      "filter": {
+        "item": "tconstruct:large_plate"
+      }
+    }
+  ]
+}

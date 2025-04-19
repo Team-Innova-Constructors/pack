@@ -1,0 +1,49 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "pattern": [
+    "MSM",
+    "AJA",
+    "CNC",
+    "#N#",
+    "HGH"
+  ],
+  "key": {
+    "M": {
+      "item": "create:polished_rose_quartz"
+    },
+    "G": {
+      "item": "create:refined_radiance"
+    },
+    "A": {
+      "item": "create:shadow_steel"
+    },
+    "J": {
+      "item": "create:precision_mechanism"
+    },
+    "N": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "#": {
+      "item": "create:shaft"
+    },
+    "H": {
+      "tag": "forge:ingots/brass"
+    },
+    "S": {
+      "item": "create:brass_hand"
+    }
+  },
+  "result": {
+    "item": "tinkersinnovation:mechanical_multifunctional_cane"
+  },
+  "acceptMirrored": false
+}
