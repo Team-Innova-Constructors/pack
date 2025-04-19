@@ -77,22 +77,22 @@
         "items": [],
         "traits": [
           {
-            "free": 0,
+            "free": 5,
             "min": 5,
             "trait": "l2hostility:regenerate"
           },
           {
-            "free": 0,
+            "free": 1,
             "min": 1,
             "trait": "l2hostility:undying"
           },
           {
-            "free": 0,
+            "free": 5,
             "min": 5,
             "trait": "l2hostility:tank"
           },
           {
-            "free": 0,
+            "free": 5,
             "min": 5,
             "trait": "l2hostility:weakness"
           }

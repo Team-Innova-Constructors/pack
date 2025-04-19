@@ -271,7 +271,6 @@ ServerEvents.recipes(event => {
     for (let i of pannel) {event.remove({id:`${i}`})}
 })
 PowahEvents.registerHeatSource(event => {
-    event.add('cherrytinker:sun_cherryfuel', 2200);
     event.add('twilightforest:fiery_block', 2750);
 	event.add('etshtinker:meteoralloy_block', 3500);
 	event.add('kubejs:stellaralloy_block', 5000);
