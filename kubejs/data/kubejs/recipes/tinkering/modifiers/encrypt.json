@@ -18,7 +18,7 @@
       }
     ],
     "tools": {
-      "tag": "tconstruct:modifiable/held"
+      "tag": "tconstruct:modifiable"
     },
     "allow_crystal": true,
     "result":"cti:encrypt",
