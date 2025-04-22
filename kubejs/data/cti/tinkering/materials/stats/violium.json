@@ -65,7 +65,7 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 45,
       "exert_times": 45,
-      "attack_frequency": 3,
+      "attack_frequency": 4,
       "kill_threshold": 0.28
     }
   }
