@@ -53,7 +53,6 @@ ServerEvents.recipes(event => {
 		'l2hostility:curse_of_wrath',
 		'l2hostility:book_of_omniscience',
 		'l2hostility:greed_of_nidhoggur',
-		'l2complements:vanilla/renew/elytra',
 		'l2complements:craft/totem_of_dream',
 		'l2hostility:charm_of_looting_2',
 		'l2hostility:charm_of_looting_3',

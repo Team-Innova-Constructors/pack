@@ -342,13 +342,6 @@ ServerEvents.recipes(event => {
          A: 'kubejs:meteorium_scrap',
       }
    )
-   event.shaped('minecraft:elytra', [
-        'PPP',
-        'PPP',
-        '   '
-    ], {
-        P: 'minecraft:phantom_membrane'
-    });
     event.shaped(Item.of('gobber2:gobber2_ingot',2), [
         'ABC',
         'BEB',
