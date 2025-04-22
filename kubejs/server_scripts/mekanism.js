@@ -55,6 +55,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:boiler_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:turbine_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:module_inhalation_purification_unit'}, 'mekanism:pellet_polonium','kubejs:atherium_alloy')
 
   //机器
   let mach1 =[
@@ -203,4 +204,27 @@ event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:s
     C: 'ae2:singularity',
   }
   )
+  event.shaped(Item.of('mekanism:module_base',1), [
+      'CAC',
+      'ABA',
+      'CAC'
+   ],
+      {
+         A: 'mekaevolution:supreme_control_circuit',
+         B: 'mekanism:hdpe_sheet',
+         C: '#forge:storage_blocks/bronze'
+      }
+   )
+   event.shaped(Item.of('mekanism:module_energy_unit',1), [
+      'ADA',
+      'ABA',
+      'CCC'
+   ],
+      {
+         A: 'kubejs:atherium_alloy',
+         B: 'mekanism:module_base',
+         C: 'mekaevolution:cosmic_control_circuit',
+         D: 'mekanism:ultimate_induction_cell'
+      }
+   )
 })

@@ -1,9 +1,0 @@
-{
-  "loader": "mantle:nbt_key",
-  "parent": "forge:item/default",
-  "textures": {
-    "shenjin": "cti:item/slot/shenjin"
-  },
-  "nbt_key": "slot",
-  "extra_textures_key": "tconstruct:creative_slot"
-}

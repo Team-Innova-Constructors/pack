@@ -94,6 +94,8 @@ ServerEvents.recipes(event => {
 		'mekanism:mekasuit_bodyarmor',
 		'mekanism:mekasuit_pants',
 		'mekanism:mekasuit_boots',
+		//mek模块
+		'mekanism:module_base',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
 		'createutilities:mixing/void_steel_ingot',

@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "create:super_glue"
+    },
+    {
+      "item": "minecraft:cobweb",
+      "amount_needed": 6
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "cti:donotsplit",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}
