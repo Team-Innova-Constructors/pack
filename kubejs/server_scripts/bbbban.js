@@ -155,6 +155,7 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:item_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:fluid_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:world_transporter_type' })
+	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
 
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
@@ -289,5 +290,18 @@ ServerEvents.recipes(event => {
 		'thermal:compat/tconstruct/smelter_alloy_tconstruct_pigiron_ingot'
 	]
 	for (let i of pigiron) { event.remove({ id: `${i}` }) }
+
+	//IAF
+	let iaf = [
+		'iceandfire:copper_pickaxe',
+		'iceandfire:dragonbone_pickaxe',
+		'iceandfire:copper_pile',
+		'iceandfire:gold_pile',
+		'iceandfire:silver_pile',
+		'iceandfire:myrmex_desert_pickaxe',
+		'iceandfire:myrmex_jungle_pickaxe',
+		'iceandfire:silver_pickaxe'
+	]
+	for (let i of iaf) { event.remove({ id: `${i}` }) }
 }
 )
