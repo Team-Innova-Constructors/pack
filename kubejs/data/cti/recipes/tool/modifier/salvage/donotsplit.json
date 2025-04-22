@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:donotsplit",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+
+  }
+}
