@@ -1,0 +1,14 @@
+{
+    "_class": "dev.xkmc.l2hostility.content.config.WorldDifficultyConfig",
+    "biomeMap": {},
+    "levelMap": {
+      "aether:the_aether": {
+        "apply_chance": 1.0,
+        "base": 500,
+        "min": 500,
+        "scale": 1.0,
+        "trait_chance": 1.0,
+        "variation": 2.0
+      }
+    }
+  }

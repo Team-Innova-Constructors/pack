@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.refinery([Item.of('etshtinker:protonium').withChance(1), Fluid.of('etshtinker:molten_electronium', 10)], Fluid.of('etshtinker:overchargedneutronium', 100))
   event.recipes.thermal.refinery([Item.of('thermal:sulfur_dust').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:light_oil', 100))
   event.recipes.thermal.refinery([Item.of('thermal:tar').withChance(1.25), Fluid.of('thermal:refined_fuel', 100)], Fluid.of('thermal:heavy_oil', 100))
-  event.recipes.thermal.refinery([Item.of('minecraft:honeycomb').withChance(0.75), Fluid.of('create:honey', 500)], Fluid.of('kubejs:royal_jelly', 250))
+  event.recipes.thermal.refinery([Item.of('minecraft:honeycomb').withChance(0.75), Fluid.of('cofh_core:honey', 500)], Fluid.of('kubejs:royal_jelly', 250))
   event.recipes.thermal.refinery([Item.of('kubejs:stable_slag').withChance(1.15), Fluid.of('tinkerscalibration:moltentitanium', 180)], Fluid.of('kubejs:used_lava', 200)).energy(25000)
   //结晶器
   event.recipes.thermal.crystallizer('2x obscure_api:astral_dust', ['obscure_api:astral_dust', Fluid.of('manaliquidizer:mana_fluid', 16000)]).energy(10000)
