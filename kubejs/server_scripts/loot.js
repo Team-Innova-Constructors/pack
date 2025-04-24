@@ -140,8 +140,6 @@ LootJS.modifiers(event => {
         iaf_graveyard:[
             {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
         ]
-
-
     }
     function addLootToTable(LootTableID, lootEntries) {
         lootEntries.forEach(entry => {
