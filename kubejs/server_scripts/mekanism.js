@@ -1,21 +1,21 @@
 ServerEvents.recipes(event => {
   // 灌注机
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:metallurgic_infuser'}, 'mekanism:ingot_osmium','mekanism:steel_casing')
+  event.replaceInput({id:'mekanism:metallurgic_infuser'}, 'mekanism:ingot_osmium','mekanism:steel_casing')
   // 蒸馏塔
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:thermal_evaporation_valve'}, 'mekanism:advanced_control_circuit','mekaevolution:absolute_control_circuit')
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:thermal_evaporation_controller'}, 'mekanism:advanced_control_circuit','mekaevolution:absolute_control_circuit')
+  event.replaceInput({id:'mekanism:thermal_evaporation_valve'}, 'mekanism:advanced_control_circuit','mekaevolution:absolute_control_circuit')
+  event.replaceInput({id:'mekanism:thermal_evaporation_controller'}, 'mekanism:advanced_control_circuit','mekaevolution:absolute_control_circuit')
   //太阳能中子
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:solar_neutron_activator'}, 'mekanism:elite_control_circuit','mekaevolution:supreme_control_circuit')
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:solar_neutron_activator'}, 'mekanism:alloy_reinforced','mekanism:alloy_atomic')
+  event.replaceInput({id:'mekanism:solar_neutron_activator'}, 'mekanism:elite_control_circuit','mekaevolution:supreme_control_circuit')
+  event.replaceInput({id:'mekanism:solar_neutron_activator'}, 'mekanism:alloy_reinforced','mekanism:alloy_atomic')
   //裂变
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_reactor_port'}, 'mekanism:elite_control_circuit','mekaevolution:cosmic_control_circuit')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:control_rod_assembly'}, 'mekanism:elite_control_circuit','mekaevolution:cosmic_control_circuit')
+  event.replaceInput({id:'mekanismgenerators:fission_reactor/port'}, 'mekanism:elite_control_circuit','mekaevolution:cosmic_control_circuit')
+  event.replaceInput({id:'mekanismgenerators:fission_reactor/control_rod_assembly'}, 'mekanism:elite_control_circuit','mekaevolution:cosmic_control_circuit')
   //聚变
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_controller'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
-  event.replaceInput({mod:'mekanismgenerators',output:'mekanismgenerators:fusion_reactor_port'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
+  event.replaceInput({id:'mekanismgenerators:reactor/controller'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
+  event.replaceInput({id:'mekanismgenerators:reactor/port'}, 'mekanism:ultimate_control_circuit','mekaevolution:infinite_control_circuit')
   //电解核心
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:electrolytic_core'}, '#forge:dusts/osmium','kubejs:compressed_hardlead')
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:module_elytra_unit'}, 'mekanism:pellet_antimatter','etshtinker:electronium')
+  event.replaceInput({id:'mekanism:electrolytic_core'}, '#forge:dusts/osmium','kubejs:compressed_hardlead')
+  event.replaceInput({id:'mekanism:module_elytra_unit'}, 'mekanism:pellet_antimatter','etshtinker:electronium')
   //钛，矿渣相关
   event.recipes.mekanismCrushing('immersiveengineering:slag_gravel', '#forge:slag')
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismCrushing('6x ae2:certus_quartz_crystal', 'ae2:quartz_cluster')
   event.recipes.mekanismCrushing('ae2:sky_dust','ad_astra:sky_stone')
   //钢壳子
-  event.remove([{mod: 'mekanism', output: 'mekanism:steel_casing' }])
+  event.remove([{id: 'mekanism:steel_casing' }])
 
   //维奥合金相关
   //维奥合金外壳
@@ -51,25 +51,25 @@ ServerEvents.recipes(event => {
   }
   )
   //多方快结构方块
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:thermal_evaporation_block'}, '#forge:ingots/steel','kubejs:violium_alloy')
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:boiler_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:turbine_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
-  event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:'mekanism:module_inhalation_purification_unit'}, 'mekanism:pellet_polonium','kubejs:atherium_alloy')
+  event.replaceInput({id:'mekanism:thermal_evaporation/block'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanism:boiler_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanismgenerators:turbine/casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanism:module_inhalation_purification_unit'}, 'mekanism:pellet_polonium','kubejs:atherium_alloy')
 
   //机器
-  let mach1 =[
+  let machine1 =[
     'mekanism:osmium_compressor',
     'mekanism:combiner',
     'mekanism:chemical_crystallizer',
     'mekanism:chemical_washer',
     'mekanism:antiprotonic_nucleosynthesizer',
-    'mekanism:solar_neutron_activator'
+    'mekanism:solar_neutron_activator',
+    'mekanism:chemical_dissolution_chamber'
   ]
-  for (let i of mach1){
-    event.replaceInput({mod:'mekanism',type:'crafting_shaped',output:`${i}`}, 'mekanism:steel_casing','kubejs:violium_casing')
+  for (let i of machine1){
+    event.replaceInput({id:`${i}`}, 'mekanism:steel_casing','kubejs:violium_casing')
   }
-  event.replaceInput({id:'mekanism:chemical_dissolution_chamber'}, 'mekanism:steel_casing','kubejs:violium_casing')
 
   //阳清合金相关
   //阳清合金外壳
@@ -85,11 +85,11 @@ ServerEvents.recipes(event => {
   )
 
   //多方快结构方块
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:control_rod_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_fuel_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
-  event.replaceInput({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing','kubejs:atherium_casing')
-  event.remove({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:fission_reactor_casing'})
-  event.remove({mod:'mekanismgenerators',type:'crafting_shaped',output:'mekanismgenerators:reactor_glass'})
+  event.replaceInput({id:'mekanismgenerators:fission_reactor/control_rod_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
+  event.replaceInput({id:'mekanismgenerators:fission_reactor/fuel_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
+  event.replaceInput({id:'mekanismgenerators:reactor/frame'}, 'mekanism:steel_casing','kubejs:atherium_casing')
+  event.remove({id:'mekanismgenerators:fission_reactor/casing'})
+  event.remove({id:'mekanismgenerators:reactor/glass'})
   event.shaped(Item.of('mekanismgenerators:fission_reactor_casing',64), [
       ' A ',
       'ABA',
@@ -112,10 +112,10 @@ ServerEvents.recipes(event => {
   }
 )
   //数采和电板
-  event.remove([{mod: 'mekaevolution', output: 'mekaevolution:supreme_control_circuit' }])
-  event.remove([{mod: 'mekanism', output: 'mekanism:elite_control_circuit' }])
-  event.remove([{mod: 'mekaevolution', output: 'mekaevolution:absolute_control_circuit' }])
-  event.remove([{mod: 'mekaevolution', output: 'mekaevolution:cosmic_control_circuit' }])
+  event.remove([{id:'mekaevolution:supreme_control_circuit' }])
+  event.remove([{id:'mekanism:elite_control_circuit' }])
+  event.remove([{id:'mekaevolution:absolute_control_circuit' }])
+  event.remove([{id:'mekaevolution:cosmic_control_circuit' }])
   event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
   event.remove({id:'mekanism:digital_miner'})
   event.remove({id:'mekanism:module_gravitational_modulating_unit'})
