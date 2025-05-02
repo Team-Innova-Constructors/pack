@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
 )
   //数采和电板
   event.remove([{id:'mekaevolution:supreme_control_circuit' }])
-  event.remove([{id:'mekanism:elite_control_circuit' }])
+  event.remove([{id:'mekanism:control_circuit/elite' }])
   event.remove([{id:'mekaevolution:absolute_control_circuit' }])
   event.remove([{id:'mekaevolution:cosmic_control_circuit' }])
   event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
