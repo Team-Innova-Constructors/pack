@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 1.31,
+      "mining_speed": -0.75,
+      "melee_speed": 2.78,
+      "melee_damage": 1.14
+    },
+    "tconstruct:head": {
+      "durability": 2018,
+      "mining_speed": 2.5,
+      "mining_tier": "cti:roxy",
+      "melee_attack": 9
+    },
+    "tconstruct:limb": {
+      "durability": 2018,
+      "draw_speed": 0.3,
+      "velocity": 2.3,
+      "accuracy": 1.5
+    },
+    "tconstruct:grip": {
+      "durability": 1.9,
+      "accuracy": 2.0,
+      "melee_damage": 5.0
+    }
+  }
+}

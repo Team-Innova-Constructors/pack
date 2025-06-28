@@ -1,0 +1,13 @@
+{
+  "condition": {
+    "type": "forge:not",
+    "value": {
+      "type": "forge:tag_empty",
+      "tag": "forge:ingots/exo_alloy"
+    }
+  },
+  "craftable": false,
+  "tier": 9,
+  "sortOrder": 0,
+  "hidden": false
+}

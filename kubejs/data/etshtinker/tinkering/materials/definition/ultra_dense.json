@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "modid": "mekanism",
+    "type": "forge:mod_loaded"
+  },
+  "craftable": false,
+  "tier": 7,
+  "sortOrder": 0,
+  "hidden": false
+}

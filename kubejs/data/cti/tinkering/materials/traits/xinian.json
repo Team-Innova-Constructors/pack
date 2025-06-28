@@ -1,0 +1,20 @@
+{
+  "default": [
+    {
+      "name": "cti:originbasedcomputation",
+      "level": 1
+    },
+    {
+      "name": "cti:kingdomofnumbers",
+      "level": 1
+    },
+    {
+      "name": "cti:curvemapping",
+      "level": 1
+    },
+    {
+      "name": "cti:supplementaryformula",
+      "level": 1
+    }
+  ]
+}

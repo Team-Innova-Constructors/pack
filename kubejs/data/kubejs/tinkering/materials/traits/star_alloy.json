@@ -1,0 +1,18 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:ode_to_star",
+        "level": 1
+      },
+      {
+        "name": "cti:star_fury",
+        "level": 1
+      },
+      {
+        "name": "cti:ambrosium_powered",
+        "level": 2
+      }
+    ]
+  }
+}

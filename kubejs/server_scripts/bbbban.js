@@ -133,6 +133,12 @@ ServerEvents.recipes(event => {
 		'solidarytinker:smeltery/alloy/dwarf',
 		'tinkerscalibration:tools/materials/moonsteel',
 		'tinkers_ingenuity:tables/materials/sea_dream',
+		'tinkersinnovation:alloy/sunsoul_alloy',
+		'tinkersinnovation:alloy/farseeing_alloy',
+		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_block',
+		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_ingot',
+		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_nugget',
+		'tinkersinnovation:alloy/straddlite_alloy',
 		//匠魂
 		'tconstruct:smeltery/melting/metal/gold/powered_rail',
 		'tconstruct:smeltery/melting/metal/iron/nugget_3',
@@ -208,7 +214,7 @@ ServerEvents.recipes(event => {
 		'immersivepetroleum:coking/petcoke',
 	]
 	for (let i of immersiveengineeringore) { event.remove({ id: `${i}` }) }
-	//莱特兰附魔书
+	//莱特兰
 	let l2enchantbook = [
 		'l2complements:enchantments/projectile_reject',
 		'l2complements:enchantments/fire_reject',
@@ -217,6 +223,14 @@ ServerEvents.recipes(event => {
 		'l2complements:enchantments/magic_reject',
 		'l2complements:enchantments/invincible',
 		'l2complements:enchantments/void_touch',
+		'l2hostility:naga_boss_spawner',
+		'l2hostility:lich_boss_spawner',
+		'l2hostility:minoshroom_boss_spawner',
+		'l2hostility:hydra_boss_spawner',
+		'l2hostility:knight_phantom_boss_spawner',
+		'l2hostility:ur_ghast_boss_spawner',
+		'l2hostility:alpha_yeti_boss_spawner',
+		'l2hostility:snow_queen_boss_spawner',
 	]
 	for (let i of l2enchantbook) { event.remove({ id: `${i}` }) }
 	//循环
@@ -292,17 +306,58 @@ ServerEvents.recipes(event => {
 	]
 	for (let i of pigiron) { event.remove({ id: `${i}` }) }
 
+	//AE Addition的有问题的磁盘
+	let aeAddition = [
+		'ae2additions:item_storage_cell_1024',
+		'ae2additions:item_storage_cell_4096',
+		'ae2additions:item_storage_cell_65536',
+		'ae2additions:item_storage_cell_16384',
+		'ae2additions:fluid_storage_cell_1024',
+		'ae2additions:fluid_storage_cell_16384',
+		'ae2additions:fluid_storage_cell_4096',
+		'ae2additions:chemical_storage_cell_1024',
+		'ae2additions:chemical_storage_cell_4096',
+		'ae2additions:chemical_storage_cell_16384'
+	]
+	for (let i of aeAddition) { 
+		event.remove([{ mod: 'ae2additions', output: `${i}` }])
+	}
+
 	//IAF
 	let iaf = [
 		'iceandfire:copper_pickaxe',
+		'iceandfire:copper_sword',
+		'iceandfire:copper_shovel',
+		'iceandfire:copper_hoe',
+		'iceandfire:copper_axe',
 		'iceandfire:dragonbone_pickaxe',
 		'iceandfire:copper_pile',
 		'iceandfire:gold_pile',
 		'iceandfire:silver_pile',
 		'iceandfire:myrmex_desert_pickaxe',
 		'iceandfire:myrmex_jungle_pickaxe',
-		'iceandfire:silver_pickaxe'
+		'iceandfire:silver_pickaxe',
+		'iceandfire:silver_sword',
+		'iceandfire:silver_shovel',
+		'iceandfire:silver_hoe',
+		'iceandfire:silver_axe',
 	]
-	for (let i of iaf) { event.remove({ id: `${i}` }) }
+	for (let i of iaf) {event.remove({ id: `${i}` })}
+
+	//燃料归一
+	let fuels = [
+		'tinkersinnovation:fuel/active_soul',
+		'tinkersinnovation:fuel/sun',
+		'tinkers_reforged:smeltery/fuel/proto_lava',
+		'tinkers_reforged:smeltery/fuel/blazium',
+		'cherrytinker:smeltery/fuel/sun_cherryfuel',
+		'cherrytinker:smeltery/fuel/moon_cherryfuel',
+		'cloudertinker:fuel/firetear',
+		'cloudertinker:fuel/fireblood',
+		'cloudertinker:fuel/fiery',
+	]
+	for (let i of fuels) {event.remove({ id: `${i}` })}
+
+
 }
 )

@@ -10,7 +10,8 @@
   },
   "material.kubejs": {
     "zirconium_alloy": "#FACCFF",
-    "perfect_generic_item_new": "#90FF90"
-
+    "perfect_generic_item_new": "#90FF90",
+    "veridium": "#00A2E8",
+    "star_alloy": "#3259be"
   }
 }

@@ -1,0 +1,74 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:arcaneomniscient",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanetough",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanefilling",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:arcaneomniscient",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanetough",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanefilling",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:arcaneomniscient",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanetough",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanefilling",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:arcaneomniscient",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanetough",
+        "level": 1
+      },
+      {
+        "name": "cti:arcaneprotect",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "cti:arcaneomniscient",
+        "level": 1
+      },
+      {
+        "name": "cti:arcanetough",
+        "level": 1
+      },
+      {
+        "name": "cti:arcaneprotect",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:infinity",
+        "level": 1
+      },
+      {
+        "name": "cti:cosmopolitan",
+        "level": 1
+      },
+      {
+        "name": "cti:tinge",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:infinity",
+        "level": 1
+      },
+      {
+        "name": "cti:cosmopolitan",
+        "level": 1
+      },
+      {
+        "name": "cti:tinge",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:unmatched",
+        "level": 1
+      },
+      {
+        "name": "cti:infinity",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "cti:infinity",
+        "level": 1
+      },
+      {
+        "name": "cti:cosmopolitan",
+        "level": 1
+      },
+      {
+        "name": "cti:tinge",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:infinity",
+        "level": 1
+      },
+      {
+        "name": "cti:cosmopolitan",
+        "level": 1
+      },
+      {
+        "name": "cti:tinge",
+        "level": 1
+      }
+    ],
+    "etshtinker:plasma_generator": [
+      {
+        "name": "cti:infinity",
+        "level": 3
+      },
+      {
+        "name": "cti:cosmopolitan",
+        "level": 3
+      },
+      {
+        "name": "cti:tinge",
+        "level": 3
+      }
+    ]
+  }
+}
