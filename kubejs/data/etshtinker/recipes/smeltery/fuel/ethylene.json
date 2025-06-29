@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:melting_fuel",
-  "fluid": {
-    "name": "kubejs:ethyne",
-    "amount": 100
-  },
-  "duration": 500,
-  "temperature": 7500
-}

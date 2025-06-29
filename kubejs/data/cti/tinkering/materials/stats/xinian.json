@@ -1,0 +1,82 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 1.31,
+      "mining_speed": -0.75,
+      "melee_speed": 4.75,
+      "melee_damage": 1.14
+    },
+    "tconstruct:head": {
+      "durability": 2018,
+      "mining_speed": 2.5,
+      "mining_tier": "solidarytinker:momo",
+      "melee_attack": 9
+    },
+    "tconstruct:limb": {
+      "durability": 2018,
+      "draw_speed": 0.3,
+      "velocity": 2.3,
+      "accuracy": 1.5
+    },
+    "tconstruct:grip": {
+      "durability": 1.9,
+      "accuracy": 2.0,
+      "melee_damage": 5.0
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 4.0,
+      "durability": 750,
+      "knockback_resistance": 0.2,
+      "toughness": 3.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 9.0,
+      "durability": 1130,
+      "knockback_resistance": 0.2,
+      "toughness": 6.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 7.0,
+      "durability": 910,
+      "knockback_resistance": 0.2,
+      "toughness": 4.0
+    },
+    "tconstruct:plating_boots": {
+      "armor": 4.0,
+      "durability": 890,
+      "knockback_resistance": 0.2,
+      "toughness": 3.0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 1360,
+      "knockback_resistance": 0.4,
+      "toughness": 5
+    },
+    "tinkersinnovation:shield_plate": {
+      "durability": 1780,
+      "armor": 5.0,
+      "toughness": 4,
+      "knockback_resistance": 0.4,
+      "block_amount": 0.3,
+      "shield_amount": 5
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 30000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 100,
+      "plasmarange": 50,
+      "damagemultiplier": 6.5
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 30000,
+      "durability": 0.2
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 35,
+      "cooldown": 0.2
+    }
+  }
+}

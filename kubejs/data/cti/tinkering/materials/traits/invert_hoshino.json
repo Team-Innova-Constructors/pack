@@ -1,0 +1,74 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:eventually",
+        "level": 1
+      },
+      {
+        "name": "cti:transmigration",
+        "level": 1
+      },
+      {
+        "name": "cti:trauma",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:eventually",
+        "level": 1
+      },
+      {
+        "name": "cti:transmigration",
+        "level": 1
+      },
+      {
+        "name": "cti:trauma",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:eventually",
+        "level": 1
+      },
+      {
+        "name": "cti:transmigration",
+        "level": 1
+      },
+      {
+        "name": "cti:trauma",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "cti:eventually",
+        "level": 1
+      },
+      {
+        "name": "cti:transmigration",
+        "level": 1
+      },
+      {
+        "name": "cti:trauma",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:eventually",
+        "level": 1
+      },
+      {
+        "name": "cti:transmigration",
+        "level": 1
+      },
+      {
+        "name": "cti:trauma",
+        "level": 1
+      }
+    ]
+  }
+}
