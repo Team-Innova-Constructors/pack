@@ -1,0 +1,102 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 1,
+      "name": "minecraft:fortune",
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/harvest"
+      }
+    },
+    {
+      "type": "tconstruct:armor_harvest_enchantment",
+      "level": 1,
+      "name": "minecraft:fortune",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor/worn"
+      }
+    },
+    {
+      "type": "tconstruct:weapon_looting",
+      "level": 1,
+      "tool": {
+        "type": "mantle:or",
+        "predicates": [
+          {
+            "type": "mantle:set",
+            "items": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "mantle:tag",
+            "tag": "tconstruct:modifiable/melee"
+          }
+        ]
+      }
+    },
+    {
+      "type": "tconstruct:armor_looting",
+      "level": 1,
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor/worn"
+      }
+    },
+    {
+      "type": "tconstruct:rarity",
+      "rarity": "uncommon"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "flat": 1000.0,
+      "operation": "add",
+      "stat": "tconstruct:durability"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "flat": 2.0,
+      "operation": "add",
+      "stat": "tconstruct:armor"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "flat": 5,
+      "operation": "add",
+      "stat": "tconstruct:attack_damage"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "flat": 4.0,
+      "operation": "add",
+      "stat": "tconstruct:mining_speed"
+    },
+    {
+      "type": "tconstruct:set_stat",
+      "stat": "tconstruct:harvest_tier",
+      "value": "minecraft:netherite"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "flat": 1,
+      "operation": "add",
+      "stat": "tconstruct:projectile_damage"
+    }
+  ],
+  "tooltip_display": "always"
+}

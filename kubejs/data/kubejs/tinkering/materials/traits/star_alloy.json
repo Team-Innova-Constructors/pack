@@ -2,11 +2,11 @@
   "perStat": {
     "tconstruct:ranged": [
       {
-        "name": "tinkers_ingenuity:ode_to_star",
+        "name": "cti:atheric",
         "level": 1
       },
       {
-        "name": "cti:star_fury",
+        "name": "cti:stellar_arrow",
         "level": 1
       },
       {

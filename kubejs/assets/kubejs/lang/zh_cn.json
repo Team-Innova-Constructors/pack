@@ -187,6 +187,7 @@
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
     "item.kubejs.phytogro_zero":"植育零号",
+    "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
 
     "item.ae2wtlib.quantum_bridge_card": "量子桥卡",
 
@@ -230,6 +231,10 @@
     "modifier.cti.refined.flavor": "太纯了！",
     "modifier.cti.refined.description": "每级提供30%大部分属性提升和能力槽、升级槽各一个。",
 
+    "modifier.cti.aetheric_amethyst": "紫晶石",
+    "modifier.cti.aetheric_amethyst.flavor": "蕴含天镜能量的宝石",
+    "modifier.cti.aetheric_amethyst.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。",
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
 
@@ -267,6 +272,14 @@
     "material.kubejs.star_alloy": "星辰合金",
     "material.kubejs.star_alloy.flavor": "馈赠，抑或是灾祸？",
     "material.kubejs.star_alloy.encyclopedia": "天空中的繁星化作了这一小块金属。",
+
+    "material.kubejs.sentrite": "哨石",
+    "material.kubejs.sentrite.flavor": "滑行魔石与它的迷宫的重要组成部分",
+    "material.kubejs.sentrite.encyclopedia": "介于金属和岩石之间的材料，硬且坚固。",
+
+    "material.kubejs.gravitite": "重力晶",
+    "material.kubejs.gravitite.flavor": "会飞的金属",
+    "material.kubejs.gravitite.encyclopedia": "周围分布着奇特的重力场。",
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",

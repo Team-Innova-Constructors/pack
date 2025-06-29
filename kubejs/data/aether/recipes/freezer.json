@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "aether:holystone"
+    },
+    "I": {
+      "item": "aether:icestone"
+    },
+    "A": {
+      "item": "aether_redux:sentry_chip"
+    },
+    "P": {
+      "item": "aether:skyroot_planks"
+    }
+  },
+  "pattern": [
+    "HHH",
+    "AIA",
+    "PPP"
+  ],
+  "result": {
+    "item": "aether:freezer"
+  },
+  "show_notification": true
+}

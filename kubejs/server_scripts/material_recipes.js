@@ -75,5 +75,7 @@ ServerEvents.recipes(event => {
         )
     }
 
-    metalMaterial("kubejs:veridium","kubejs:molten_veridium","aether_redux:veridium_ingot",2000)
+    metalMaterial("kubejs:veridium","kubejs:molten_veridium","aether_redux:veridium_ingot",1500)
+    metalMaterial("kubejs:sentrite","kubejs:molten_sentrite","aether_redux:refined_sentrite",2000)
+    metalMaterial("kubejs:gravitite","kubejs:molten_gravitite","aether_redux:gravitite_ingot",3000)
 })

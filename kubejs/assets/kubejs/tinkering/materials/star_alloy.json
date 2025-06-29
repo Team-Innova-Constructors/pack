@@ -3,7 +3,7 @@
     "metal"
   ],
   "color": "88a0b6",
-  "luminosity": 2,
+  "luminosity": 15,
   "generator": {
     "transformer": {
       "type": "tconstruct:recolor_sprite",

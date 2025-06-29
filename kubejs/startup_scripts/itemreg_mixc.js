@@ -75,4 +75,5 @@ StartupEvents.registry("item",event=>{
     event.create("meteorium_ingot","basic")
 
     event.create("aetheric_thermite","basic")
+    event.create("broken_victory_medal","basic")
 })
