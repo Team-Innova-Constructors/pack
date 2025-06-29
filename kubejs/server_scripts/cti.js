@@ -1,6 +1,6 @@
 PlayerEvents.loggedIn(event => {
     var player = event.player;
-    var text = Text.green("工匠：技艺革新[版本0.35c]").hover("感谢游玩，觉得好玩请给个红票，谢谢喵");
+    var text = Text.green("工匠：技艺革新[版本0.35d]").hover("感谢游玩，觉得好玩请给个红票，谢谢喵");
     player.tell(text);
 });
 PlayerEvents.loggedIn(event => {
@@ -10,7 +10,7 @@ PlayerEvents.loggedIn(event => {
 });
 PlayerEvents.loggedIn(event => {
     var player = event.player;
-    var text = Text.red("作品传播协议CC-BY-NC-SA4.0").clickOpenUrl("https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans").hover("点击打开");
+    var text = Text.red("作品传播协议CC-BY-NC-ND4.0").clickOpenUrl("https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans").hover("点击打开");
     player.tell(text);
 });
 PlayerEvents.loggedIn(event => {
