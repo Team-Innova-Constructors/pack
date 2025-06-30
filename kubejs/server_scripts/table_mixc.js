@@ -130,6 +130,10 @@ ServerEvents.recipes(event => {
       'tconstruct:seared_bricks',
    ]
    )
+   event.shapeless(Item.of('tconstruct:scorched_brick',4), [
+      'tconstruct:scorched_bricks',
+   ]
+   )
    event.shapeless(Item.of('minecraft:music_disc_wait',1), [
       'kubejs:empty_record',
       'minecraft:blue_dye'
