@@ -76,4 +76,7 @@ StartupEvents.registry("item",event=>{
 
     event.create("aetheric_thermite","basic")
     event.create("broken_victory_medal","basic")
+
+    event.create("phoenix_ingot","basic")
+    event.create("valkyrie_ingot","basic")
 })

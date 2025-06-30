@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+        "name": "cti:ambrosium_powered",
+        "level": 1
+    },
+    {
+      "name": "cti:reborn",
+      "level": 1
+    },
+    {
+      "name": "cti:phoenix",
+      "level": 1
+    }
+  ]
+}

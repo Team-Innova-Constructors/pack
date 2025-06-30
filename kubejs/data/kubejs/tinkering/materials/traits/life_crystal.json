@@ -1,0 +1,32 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "cti:life_steal"
+      },
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    },
+      {
+        "name": "cti:ambrosium_powered",
+        "level": 1
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+          "level": 2,
+          "name": "cti:life_enhance"
+        },
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    },
+    {
+        "name": "cti:ambrosium_powered",
+        "level": 1
+      }
+      ]
+    }
+}

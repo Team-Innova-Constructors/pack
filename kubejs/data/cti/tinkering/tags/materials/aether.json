@@ -1,6 +1,8 @@
 {
   "values": [
     "kubejs:veridium",
+    "kubejs:sentrite",
+    "kubejs:gravitite",
     "kubejs:star_alloy"
   ]
 }
