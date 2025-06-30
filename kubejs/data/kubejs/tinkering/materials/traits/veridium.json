@@ -1,0 +1,12 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "cti:atheric"
+      },
+      {
+        "name": "cti:ambrosium_powered",
+        "level": 1
+      }
+    ]
+}

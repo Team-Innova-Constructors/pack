@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "freezable_blocks",
+  "cookingtime": 4,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:packed_ice"
+  },
+  "result": "minecraft:blue_ice"
+}

@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "name": "cti:all",
+      "level": 1
+    },
+    {
+      "name": "cti:stellar_blade",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:beconcerted",
+      "level": 1
+    }
+  ]
+}

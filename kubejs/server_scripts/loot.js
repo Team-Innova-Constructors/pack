@@ -146,6 +146,10 @@ LootJS.modifiers(event => {
         //冰火墓地
         iaf_graveyard:[
             {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
+        ],
+        //滑滑魔石
+        slider:[
+            {item: 'aether_redux:sentry_chip', count: 8, chance: 1 },
         ]
     }
     function addLootToTable(LootTableID, lootEntries) {
@@ -173,6 +177,7 @@ LootJS.modifiers(event => {
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_barrels", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);
+    addLootToTable("aether:entities/slider", LootToLootTables.slider);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
@@ -202,7 +207,8 @@ LootJS.modifiers(event => {
         "aether:gloves_loot_diamond",
         "aether:gloves_loot_netherite",
         "ars_nouveau:dungeon_loot",
-        "pneumaticcraft:dungeon_loot"
+        "pneumaticcraft:dungeon_loot",
+        "aether_redux:sentry_chip"
     ];
     globalLootToRemove.forEach(removeGlobalLoot);
 

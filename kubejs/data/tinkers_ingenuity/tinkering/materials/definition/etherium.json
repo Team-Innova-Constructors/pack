@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "enigmaticlegacy",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": false,
+  "tier": 6,
+  "sortOrder": 2,
+  "hidden": false
+}

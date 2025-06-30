@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "name": "cti:gravity_shield",
+      "level": 1
+    },
+    {
+      "name": "cti:ambrosium_powered",
+      "level": 1
+    },
+    {
+        "name": "cti:flying",
+        "level": 1
+    }
+  ]
+}

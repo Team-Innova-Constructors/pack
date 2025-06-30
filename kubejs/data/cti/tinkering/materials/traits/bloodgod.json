@@ -1,0 +1,46 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:bloodthirsty",
+        "level": 1
+      },
+      {
+        "name": "cti:bloodgodbless",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:bloodthirsty",
+        "level": 1
+      },
+      {
+        "name": "cti:bloodgodbless",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:subspace",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "cti:subspace",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:bloodthirsty",
+        "level": 1
+      },
+      {
+        "name": "cti:bloodgodbless",
+        "level": 1
+      }
+    ]
+  }
+}

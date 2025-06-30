@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 2147483647,
+      "durability": 99.99
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 99,
+      "cooldown": 0
+    },
+    "tinkers_ingenuity:curio_extra": {},
+    "tinkers_ingenuity:curio_main": {
+      "movement_speed": 1,
+      "armor": 30,
+      "toughness": 30,
+      "attack": 30,
+      "arrow_damage": 30
+    },
+    "tconstruct:binding": {},
+    "tconstruct:grip": {
+      "accuracy": 1,
+      "durability": 99,
+      "melee_damage": 9999
+    },
+    "tconstruct:handle": {
+      "durability": 99,
+      "melee_damage": 99,
+      "melee_speed": 99,
+      "mining_speed": 99
+    },
+    "tconstruct:head": {
+      "durability": 214748,
+      "melee_attack": 9999,
+      "mining_speed": 99,
+      "mining_tier": "minecraft:netherite"
+    },
+    "tconstruct:limb": {
+      "accuracy": 1,
+      "draw_speed": 10,
+      "durability": 214748,
+      "velocity": 10
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 20.0,
+      "durability": 214748,
+      "knockback_resistance": 1,
+      "toughness": 20.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 30.0,
+      "durability": 214748,
+      "knockback_resistance": 1,
+      "toughness": 30.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 25.0,
+      "durability": 214748,
+      "knockback_resistance": 1,
+      "toughness": 25.0
+    },
+    "tconstruct:plating_boots": {
+      "armor": 20.0,
+      "durability": 214748,
+      "knockback_resistance": 1,
+      "toughness": 20.0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 214748,
+      "knockback_resistance": 1,
+      "toughness": 20
+    },
+    "tinkersinnovation:shield_plate": {
+      "durability": 214748,
+      "armor": 20.0,
+      "toughness": 20,
+      "knockback_resistance": 1,
+      "block_amount": 2147,
+      "shield_amount": 2147
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 2147483647
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 30,
+      "criticalrate": 30,
+      "fluidefficiency": 30,
+      "slash_color": 10
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 100,
+      "plasmarange": 50,
+      "damagemultiplier": 6.5
+    },
+    "solidarytinker:soulge_heart": {
+      "detection_range": 100,
+      "exert_times": 100,
+      "attack_frequency": 1,
+      "kill_threshold": 0.9
+    }
+  }
+}

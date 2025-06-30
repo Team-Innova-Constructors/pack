@@ -21,6 +21,18 @@
     "fluid.kubejs.metalic_hellium": "超流体金属氦",
     "fluid.kubejs.fuming_sulfuric_acid": "发烟硫酸",
 
+    "fluid.kubejs.molten_veridium": "熔融实金",
+    "fluid.kubejs.molten_gravitite": "熔融重力晶",
+    "fluid.kubejs.molten_sentrite": "熔融哨石",
+    "fluid.kubejs.molten_phoenix": "熔融凤凰",
+    "fluid.kubejs.molten_valkyrie": "熔融女武神",
+
+    
+    "item.kubejs.molten_veridium_bucket":"熔融实金桶",
+    "item.kubejs.molten_gravitite_bucket":"熔融重力晶桶",
+    "item.kubejs.molten_sentrite_bucket":"熔融哨石桶",
+    "item.kubejs.molten_phoenix_bucket":"熔融凤凰桶",
+    "item.kubejs.molten_valkyrie_bucket":"熔融女武神桶",
 
 
     
@@ -126,6 +138,7 @@
     "item.kubejs.enriched_refined_glowstone":"富集强化萤石",
     "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
     "item.kubejs.empty_record":"空白唱片",
+    "item.kubejs.aetheric_thermite":"神能铝热剂",
 
     "item.kubejs.cosmic_mechanism":"宇宙构象",
     "item.kubejs.electro_magnetic_mechanism":"电磁构象",
@@ -174,6 +187,7 @@
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
     "item.kubejs.phytogro_zero":"植育零号",
+    "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
 
     "item.ae2wtlib.quantum_bridge_card": "量子桥卡",
 
@@ -217,6 +231,10 @@
     "modifier.cti.refined.flavor": "太纯了！",
     "modifier.cti.refined.description": "每级提供30%大部分属性提升和能力槽、升级槽各一个。",
 
+    "modifier.cti.aetheric_amethyst": "紫晶石",
+    "modifier.cti.aetheric_amethyst.flavor": "蕴含天镜能量的宝石",
+    "modifier.cti.aetheric_amethyst.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。",
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
 
@@ -246,6 +264,22 @@
     "material.kubejs.tungsten_steel": "钨钢",
     "material.kubejs.tungsten_steel.flavor": "别与那些绿色的金属破烂搞混了！",
     "material.kubejs.tungsten_steel.encyclopedia": "曾经是最硬的合金材料，常用于制造各种刀头",
+
+    "material.kubejs.veridium": "实金",
+    "material.kubejs.veridium.flavor": "这是天蓝矿？",
+    "material.kubejs.veridium.encyclopedia": "蓝色的金属，与神的能量有着共鸣",
+
+    "material.kubejs.star_alloy": "星辰合金",
+    "material.kubejs.star_alloy.flavor": "馈赠，抑或是灾祸？",
+    "material.kubejs.star_alloy.encyclopedia": "天空中的繁星化作了这一小块金属。",
+
+    "material.kubejs.sentrite": "哨石",
+    "material.kubejs.sentrite.flavor": "滑行魔石与它的迷宫的重要组成部分",
+    "material.kubejs.sentrite.encyclopedia": "介于金属和岩石之间的材料，硬且坚固。",
+
+    "material.kubejs.gravitite": "重力晶",
+    "material.kubejs.gravitite.flavor": "会飞的金属",
+    "material.kubejs.gravitite.encyclopedia": "周围分布着奇特的重力场。",
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
@@ -281,5 +315,13 @@
 
     "material.cti.aetherium": "阳清合金",
     "material.cti.aetherium.flavor": "工业界的“紫色黄金”",
-    "material.cti.aetherium.encyclopedia": "闪烁着神明般的光辉。"
+    "material.cti.aetherium.encyclopedia": "闪烁着神明般的光辉。",
+
+    "info.biomes.cti.ionized_glacio": "电离冻土是电离冻土星球的基础群系，它是本包中温度最低的群系。",
+    "info.biomes.cti.ionized_mare": "电离月海在电离冻土星球地势略低于电离冻土群系的地方。",
+    "info.biomes.cti.infernal": "炼狱是炼狱星的基础群系。",
+    "info.biomes.cti.infernal_molten_surface": "半熔融炼狱是炼狱星上的热群系，有800+℃的环境温度。",
+    "info.biomes.cti.jupiter": "木星核心有着本包中最高的高温，高达1900℃，你可以上去煮自热米饭。",
+    "info.biomes.cti.uranus": "天王星核心的温度是-90℃，很冷。",
+    "info.biomes.undergarden.smog_spires": "烟雾尖顶在深暗之园维度，请带上你的自然指南针去找它。"
 }

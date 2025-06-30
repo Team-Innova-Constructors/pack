@@ -214,6 +214,18 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:pig_head', `${i}`)
   }
 
+  let removed_tools=[
+    'tinkerscalibration:cutlass',
+    'tinkers_thinking:arrow_thrower',
+    'tinkers_innovation:round_shield',
+    'tinkers_innovation:tinker_bomb',
+    'tinkers_innovation:skelewag_sword',
+    'tinkers_innovation:heavy_shield',
+  ]
+    for (let i of removed_tools) {
+    event.removeAllTagsFrom(`${i}`)
+  }
+
 })
 //添加方块标签
 ServerEvents.tags('block', event => {
@@ -273,4 +285,7 @@ ServerEvents.tags('fluid', event => {
   event.remove('forge:kerosene', 'pneumaticcraft:kerosene')
   event.remove('forge:lubricant', 'pneumaticcraft:lubricant')
   event.remove('ad_astra_platform:biodiesel','pneumaticcraft:biodiesel')
+
+  event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
+  event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
 })

@@ -11,11 +11,6 @@
       "laser_range": 24,
       "cooldown": 0.25
     },
-    "tconstruct:grip": {
-      "accuracy": 1,
-      "durability": 1.5,
-      "melee_damage": 7.5
-    },
     "tconstruct:handle": {
       "durability": 2.25,
       "melee_damage": 1.8,
@@ -27,12 +22,6 @@
       "melee_attack": 7.5,
       "mining_speed": 1.5,
       "mining_tier": "minecraft:netherite"
-    },
-    "tconstruct:limb": {
-      "accuracy": 1,
-      "draw_speed": -0.5,
-      "durability": 3370,
-      "velocity": 0.99
     }
   }
 }

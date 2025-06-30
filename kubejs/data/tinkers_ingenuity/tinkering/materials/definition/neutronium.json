@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "avaritia",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": true,
+  "tier": 7,
+  "sortOrder": 2,
+  "hidden": false
+}

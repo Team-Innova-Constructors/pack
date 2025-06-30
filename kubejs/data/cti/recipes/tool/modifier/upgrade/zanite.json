@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "tag": "aether:gems/zanite"
+    }
+  ],
+  "level": 1,
+  "result": "cti:zanite",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  }
+}

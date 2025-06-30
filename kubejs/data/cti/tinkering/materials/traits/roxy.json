@@ -1,0 +1,102 @@
+{
+  "perStat": {
+    "tconstruct:binding": [
+      {
+        "name": "cti:alienmatter",
+        "level": 1
+      },
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ],
+    "tconstruct:head": [
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "cti:lebegusprotection",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "cti:lebegusprotection",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "name": "cti:lebegusprotection",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "cti:lebegusprotection",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_shield": [
+      {
+        "name": "cti:abelisures",
+        "level": 1
+      },
+      {
+        "name": "cti:roxylightning",
+        "level": 1
+      }
+    ]
+  }
+}

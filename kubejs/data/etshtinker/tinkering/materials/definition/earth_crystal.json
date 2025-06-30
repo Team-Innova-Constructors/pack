@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "modid": "powah",
+    "type": "forge:mod_loaded"
+  },
+  "craftable": true,
+  "tier": 5,
+  "sortOrder": 0,
+  "hidden": false
+}

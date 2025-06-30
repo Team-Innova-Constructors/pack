@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:zanite",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  }
+}

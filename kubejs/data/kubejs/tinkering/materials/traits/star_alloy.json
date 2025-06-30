@@ -1,0 +1,18 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "cti:atheric",
+        "level": 1
+      },
+      {
+        "name": "cti:stellar_arrow",
+        "level": 1
+      },
+      {
+        "name": "cti:ambrosium_powered",
+        "level": 2
+      }
+    ]
+  }
+}

@@ -2,7 +2,8 @@
   "modifier.kubejs": {
   },
   "modifier.cti": {
-    "refined": "#A48DFF"
+    "refined": "#A48DFF",
+    "aetheric_amethyst": "#A984D1"
   },
   "material.cti": {
     "violium": "#A48DFF",
@@ -10,7 +11,10 @@
   },
   "material.kubejs": {
     "zirconium_alloy": "#FACCFF",
-    "perfect_generic_item_new": "#90FF90"
-
+    "perfect_generic_item_new": "#90FF90",
+    "veridium": "#00A2E8",
+    "star_alloy": "#3259be",
+    "sentrite": "#737376",
+    "gravitite": "#BE40B4"
   }
 }

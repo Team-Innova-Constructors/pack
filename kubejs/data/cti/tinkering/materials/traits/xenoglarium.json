@@ -1,0 +1,56 @@
+{
+  "default": [
+    {
+      "name": "cti:star_fury",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:masseffect",
+      "level": 1
+    },
+    {
+      "name": "cti:stellar_blessing",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:stellarblessing",
+        "level": 1
+      },
+      {
+        "name": "cti:plasma_shielding",
+        "level": 1
+      }
+    ],
+    "etshtinker:ionizer": [
+      {
+        "name": "etshtinker:plasmaenhance",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:star_fury",
+        "level": 1
+      },
+      {
+        "name": "cti:stellar_blessing",
+        "level": 1
+      }
+    ],
+    "etshtinker:plasma_generator": [
+      {
+        "name": "etshtinker:flexible_blade",
+        "level": 1
+      },
+      {
+        "name": "cti:stellar_blessing",
+        "level": 1
+      },
+      {
+        "name": "cti:star_fury",
+        "level": 1
+      }
+    ]
+  }
+}

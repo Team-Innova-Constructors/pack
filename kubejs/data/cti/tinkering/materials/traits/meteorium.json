@@ -1,0 +1,18 @@
+{
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:stellarblessing",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:reactiveexplosivearmor",
+        "level": 1
+      },
+      {
+        "name": "cti:outer_space",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "modid": "thermal",
+    "type": "forge:mod_loaded"
+  },
+  "craftable": true,
+  "tier": 100,
+  "sortOrder": 0,
+  "hidden": false
+}
