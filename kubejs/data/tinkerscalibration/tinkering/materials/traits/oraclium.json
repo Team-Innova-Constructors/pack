@@ -14,7 +14,7 @@
     ],
     "tconstruct:armor": [
       {
-        "name": "tinkerscalibration:oracular_armor",
+        "name": "cti:armor_oracle",
         "level": 1
       }
     ]

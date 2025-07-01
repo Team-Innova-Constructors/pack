@@ -1,0 +1,7 @@
+{
+  "entries": [
+    "cti:oracle_drop_oraclum_ingots",
+    "cti:oracle_drop_oraclum_nuggets"
+  ],
+  "replace": false
+}

@@ -139,6 +139,7 @@ ServerEvents.recipes(event => {
 		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_ingot',
 		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_nugget',
 		'tinkersinnovation:alloy/straddlite_alloy',
+		'tinkerscalibration:tools/materials/oraclium',
 		//匠魂
 		'tconstruct:smeltery/melting/metal/gold/powered_rail',
 		'tconstruct:smeltery/melting/metal/iron/nugget_3',
