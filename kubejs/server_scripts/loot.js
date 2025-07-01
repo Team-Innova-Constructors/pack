@@ -12,19 +12,13 @@ LootJS.modifiers(event => {
         //黄金地牢
         gold_dungeon: [
             { item: "kubejs:violium_core", count: 12, chance: 1 },
+            { item: "aether:life_shard", count: 6, chance: 1 },
         ],
         //白银地牢
         silver_dungeon: [
-            { item: "cti:electronium_ammo", count: 2, chance: 0.7 },
-
-        ],
-        //天镜通用
-        aether_dungeon: [
-            { item: "kubejs:violium_core", count: 4, chance: 1 },
         ],
         //下僻巢穴
         catacombs: [
-            { item: "cti:protonium_ammo", count: 2, chance: 0.7 },
             { item: "kubejs:aetherium_core", count: 9, chance: 1 },
         ],
         //AD的陨石
@@ -66,10 +60,8 @@ LootJS.modifiers(event => {
 
     addLootToStructure('#minecraft:village', StructurelootTables.village);
     addLootToStructure('aether:gold_dungeon', StructurelootTables.gold_dungeon);
-    addLootToStructure("aether:gold_dungeon", StructurelootTables.aether_dungeon);
-    addLootToStructure("aether:silver_dungeon", StructurelootTables.silver_dungeon);
-    addLootToStructure("aether:silver_dungeon", StructurelootTables.aether_dungeon);
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
+    addLootToStructure("aether:silver_dungeon", StructurelootTables.silver_dungeon);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
     addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
@@ -254,7 +246,6 @@ LootJS.modifiers(event => {
         'minecraft:golden_horse_armor',
         'minecraft:iron_horse_armor',
         'minecraft:diamond_horse_armor',
-
     ];
     lootToRemoveFromChest.forEach(removeLootFromChest);
 })

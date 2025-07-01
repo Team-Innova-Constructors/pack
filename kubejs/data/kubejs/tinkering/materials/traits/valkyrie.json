@@ -1,0 +1,16 @@
+{
+    "default": [
+      {
+        "name": "cti:ambrosium_powered",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:reach",
+        "level": 3
+      },
+      {
+        "name": "cti:valkyrie_bless",
+        "level": 1
+      }
+    ]
+}

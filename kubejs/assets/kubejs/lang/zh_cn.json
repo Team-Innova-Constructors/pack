@@ -139,6 +139,8 @@
     "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
     "item.kubejs.empty_record":"空白唱片",
     "item.kubejs.aetheric_thermite":"神能铝热剂",
+    "item.kubejs.phoenix_ingot":"凤凰锭",
+    "item.kubejs.valkyrie_ingot":"女武神合金锭",
 
     "item.kubejs.cosmic_mechanism":"宇宙构象",
     "item.kubejs.electro_magnetic_mechanism":"电磁构象",
@@ -270,7 +272,7 @@
     "material.kubejs.veridium.encyclopedia": "蓝色的金属，与神的能量有着共鸣",
 
     "material.kubejs.star_alloy": "星辰合金",
-    "material.kubejs.star_alloy.flavor": "馈赠，抑或是灾祸？",
+    "material.kubejs.star_alloy.flavor": "馈赠，或是灾祸？",
     "material.kubejs.star_alloy.encyclopedia": "天空中的繁星化作了这一小块金属。",
 
     "material.kubejs.sentrite": "哨石",
@@ -280,6 +282,18 @@
     "material.kubejs.gravitite": "重力晶",
     "material.kubejs.gravitite.flavor": "会飞的金属",
     "material.kubejs.gravitite.encyclopedia": "周围分布着奇特的重力场。",
+
+    "material.kubejs.valkyrie": "女武神",
+    "material.kubejs.valkyrie.flavor": "女武神身上装备的合金原料",
+    "material.kubejs.valkyrie.encyclopedia": "获得了这个，说明你抢走了武神女王穿的装备（？）",
+
+    "material.kubejs.phoenix": "凤凰",
+    "material.kubejs.phoenix.flavor": "",
+    "material.kubejs.phoenix.encyclopedia": "散发着足以熔化玻璃的炽热...",
+
+    "material.kubejs.life_crystal": "生命水晶",
+    "material.kubejs.life_crystal.flavor": "+1心",
+    "material.kubejs.life_crystal.encyclopedia": "+1心",
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",

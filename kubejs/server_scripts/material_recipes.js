@@ -74,8 +74,24 @@ ServerEvents.recipes(event => {
             }
         )
     }
+    function craftableMaterial(materialId,ingred_item){
+        event.custom(
+            {
+                "type": "tconstruct:material",
+                "ingredient": {
+                    "item": ingred_item
+                },
+                "value": 1,
+                "needed": 1,
+                "material": materialId
+            }
+        )
+    }
 
     metalMaterial("kubejs:veridium","kubejs:molten_veridium","aether_redux:veridium_ingot",1500)
     metalMaterial("kubejs:sentrite","kubejs:molten_sentrite","aether_redux:refined_sentrite",2000)
     metalMaterial("kubejs:gravitite","kubejs:molten_gravitite","aether_redux:gravitite_ingot",3000)
+    metalMaterial("kubejs:phoenix","kubejs:molten_phoenix","kubejs:phoenix_ingot",3350)
+    metalMaterial("kubejs:valkyrie","kubejs:molten_valkyrie","kubejs:valkyrie_ingot",3200)
+    craftableMaterial("kubejs:life_crystal","aether:life_shard")
 })
