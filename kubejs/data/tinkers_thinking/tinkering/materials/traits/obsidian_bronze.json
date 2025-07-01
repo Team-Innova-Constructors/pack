@@ -1,0 +1,14 @@
+{
+  "tconstruct:melee_harvest": [
+    {
+      "name": "tinkers_thinking:duritae",
+      "level": 1
+    }
+  ],
+  "tconstruct:armor": [
+    {
+      "name": "cti:wearproof",
+      "level": 1
+    }
+  ]
+}
