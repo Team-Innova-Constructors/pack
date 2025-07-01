@@ -161,6 +161,8 @@ ServerEvents.tags('item', event => {
   'minecraft:shulker_shell',
   'minecraft:diamond',
   'minecraft:cobweb',
+  'tinkerscalibration:oraclium_nugget',
+  'tinkerscalibration:oraclium_ingot'
   ]
   let severing_drop=[
   '#forge:heads',
@@ -224,6 +226,12 @@ ServerEvents.tags('item', event => {
   ]
     for (let i of removed_tools) {
     event.removeAllTagsFrom(`${i}`)
+  }
+  let traits=[
+    'l2hostility:oracle',
+  ]
+  for (let i of traits) {
+    event.add('l2hostility:trait_item', `${i}`)
   }
 
 })
