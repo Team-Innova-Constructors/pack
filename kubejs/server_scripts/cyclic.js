@@ -3,6 +3,10 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod: 'cyclic', id: 'cyclic:anvil' }, 'minecraft:diamond','minecraft:diamond_block')
   event.replaceInput({mod: 'cyclic', id: 'cyclic:charm_invisible'}, 'cyclic:sleeping_mat','#aether:accessories_capes')
   event.replaceInput({mod: 'cyclic', id: 'cyclic:wireless_fluid' }, 'cyclic:gem_amber','tinkers_thinking:tinkers_bronze_ingot')
+   event.replaceInput({id: 'cyclic:antigravity' }, 'cyclic:gem_obsidian','enigmaticlegacy:etherium_ore')
+   event.replaceInput({id: 'cyclic:charm_antipotion' }, 'minecraft:fermented_spider_eye','tinkerscalibration:oraclium_nugget')
+   event.replaceInput({id: 'cyclic:charm_creeper' }, 'cyclic:fireball','etshtinker:basalz_signalum')
+   event.replaceInput({id: 'cyclic:charm_magicdefense' }, 'cyclic:heart_empty','etshtinker:activated_chroma_plate')
   event.shaped(Item.of('cyclic:water_candle', 1), [
       ' A ',
       'CBC',

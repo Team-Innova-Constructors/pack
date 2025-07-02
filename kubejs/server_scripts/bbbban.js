@@ -122,9 +122,16 @@ ServerEvents.recipes(event => {
 		'gobber2:gobber2_ingot',
 		'gobber2:gobber2_ingot_nether',
 		'gobber2:gobber2_ingot_end',
+		'gobber2:gobber2_ring_stealth',
+		'gobber2:gobber2_ring_miner',
+		'gobber2:gobber2_medallion_healing3',
+		'gobber2:gobber2_medallion_healing2',
+		'gobber2:gobber2_medallion_healing',
+		'gobber2:gobber2_ring_ascent',
 		//etshtinker
 		'etshtinker:immersiveengineering/arcfurnace/exo_alloy',
 		'etshtinker:thermal/crystalizer/flawless_budding_quartz',
+		'etshtinker:smeltery/casting/lightless_alloy/lightless_alloy',
 		//工匠创新等匠魂附属
 		'tinkersinnovation:items/polychrome_mix',
 		'cherrytinker:tables/enchantedgold_block',
@@ -364,6 +371,32 @@ ServerEvents.recipes(event => {
 		'cloudertinker:fuel/fiery',
 	]
 	for (let i of fuels) {event.remove({ id: `${i}` })}
+	//戈博套装和工具
+	let gobberType = [
+		"",
+		"_nether",
+		"_end",
+		"_dragon"
+	]
+	let toolType = [
+		"helmet",
+		"chestplate",
+		"leggings",
+		"boots",
+		"sword",
+		"pickaxe",
+		"shovel",
+		"axe",
+		"bow",
+		"hoe",
+		"hammer",
+		"tree_axe",
+		"excavator",
+	]
+
+	for (let i of gobberType){
+		for (let j of toolType) {event.remove({ id: 'gobber2:gobber2_' + `${j}`+ `${i}`})}
+	}
 
 
 }

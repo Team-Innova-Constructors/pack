@@ -449,4 +449,6 @@ ServerEvents.recipes(event => {
          "item": "tconstruct:cleaver"
       }
    })
+
+   event.replaceInput({id: 'gobber2:gobber2_ring_curing' }, 'minecraft:fermented_spider_eye','tinkerscalibration:oraclium_nugget')
 })
