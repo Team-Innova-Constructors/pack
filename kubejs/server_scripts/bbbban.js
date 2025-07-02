@@ -93,8 +93,14 @@ ServerEvents.recipes(event => {
 		'mekanism:mekasuit_bodyarmor',
 		'mekanism:mekasuit_pants',
 		'mekanism:mekasuit_boots',
+		//mek容易掉配方的几个
+		'mekanismgenerators:rotary/deuterium',
+		'mekanismgenerators:rotary/fusion_fuel',
+		'mekanismgenerators:rotary/tritium',
+		'mekanismgenerators:separator/heavy_water',
 		//mek模块
 		'mekanism:module_base',
+		'mekanism:module_energy_unit',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
 		'createutilities:mixing/void_steel_ingot',
