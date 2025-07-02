@@ -298,6 +298,18 @@
     "material.kubejs.life_crystal.flavor": "+1心",
     "material.kubejs.life_crystal.encyclopedia": "+1心",
 
+    "material.kubejs.lightning_steel": "龙霆钢",
+    "material.kubejs.lightning_steel.flavor": "龙息锻造",
+    "material.kubejs.lightning_steel.encyclopedia": "没学过物理的电龙是怎么学会将空气电离然后用来攻击人的呢？",
+
+    "material.kubejs.ice_steel": "龙霜钢",
+    "material.kubejs.ice_steel.flavor": "龙息锻造",
+    "material.kubejs.ice_steel.encyclopedia": "摸起来很冷。",
+
+    "material.kubejs.fire_steel": "龙炎钢",
+    "material.kubejs.fire_steel.flavor": "龙息锻造",
+    "material.kubejs.fire_steel.encyclopedia": "即使拿出炉子也在不断燃烧。",
+
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
     "dimension.ad_astra.venus": "金星",

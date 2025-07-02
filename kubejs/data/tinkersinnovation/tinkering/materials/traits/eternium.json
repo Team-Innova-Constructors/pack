@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+        "name": "tinkersinnovation:hostility",
+        "level": 1
+    },
+    {
+        "name": "tinkersinnovation:no_sealed",
+        "level": 1
+    },
+    {
+      "name": "cti:eternity",
+      "level": 1
+    }
+  ]
+}

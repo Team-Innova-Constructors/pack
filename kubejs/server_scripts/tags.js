@@ -294,6 +294,9 @@ ServerEvents.tags('fluid', event => {
   event.remove('forge:lubricant', 'pneumaticcraft:lubricant')
   event.remove('ad_astra_platform:biodiesel','pneumaticcraft:biodiesel')
 
+  event.add('cti:lava_heated', 'cti:lava_heated')
+
+  event.add('cti:fuel/diesel_eq', 'immersivepetroleum:diesel')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
 })

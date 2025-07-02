@@ -1,5 +1,6 @@
 {
   "level_display": "tconstruct:default",
+  "type": "tconstruct:composable",
   "modules": [
     {
       "type": "tconstruct:constant_enchantment",

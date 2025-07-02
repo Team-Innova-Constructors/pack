@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "tconstruct:repair_kit": {
+      "durability": 2147483647
+    },
+    "tconstruct:limb": {
+      "durability": 16384,
+      "draw_speed": -0.1,
+      "velocity": 10,
+      "accuracy": 1
+    },
+    "tconstruct:grip": {
+      "durability": 12.8,
+      "accuracy": 0.0,
+      "melee_damage": 100.0
+    }
+  }
+}

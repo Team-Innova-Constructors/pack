@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material_melting",
-  "input": "tinkers_ingenuity:fire_steel",
-  "temperature": 3325,
+  "input": "kubejs:fire_steel",
+  "temperature": 4750,
   "result": {
     "fluid": "tinkers_ingenuity:molten_fire_steel",
     "amount": 90

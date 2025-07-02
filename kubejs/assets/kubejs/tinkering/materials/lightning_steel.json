@@ -1,0 +1,53 @@
+{
+  "fallbacks": [
+    "bone",
+    "metal"
+  ],
+  "color": "3d0d56",
+  "luminosity": 2,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:grey_to_sprite",
+      "palette": [
+        {
+          "grey": 0,
+          "color": "FF000000"
+        },
+        {
+          "grey": 63,
+          "color": "FF9872D5",
+          "path": "tinkers_ingenuity:generator/dragonsteel_lightning_border"
+        },
+        {
+          "grey": 102,
+          "path": "tinkers_ingenuity:generator/dragonsteel_lightning_border"
+        },
+        {
+          "grey": 140,
+          "color": "FF6F39C3",
+          "path": "tinkers_ingenuity:generator/dragonsteel_lightning"
+        },
+        {
+          "grey": 178,
+          "path": "tinkers_ingenuity:generator/dragonsteel_lightning"
+        },
+        {
+          "grey": 216,
+          "color": "FFAC87E6",
+          "path": "tinkers_ingenuity:generator/dragonsteel_lightning_highlight"
+        },
+        {
+          "grey": 255,
+          "path": "tinkers_ingenuity:generator/dragonsteel_lightning_highlight"
+        }
+      ]
+    },
+    "supportedStats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:repair_kit"
+    ],
+    "ignoreMaterialStats": false
+  }
+}
