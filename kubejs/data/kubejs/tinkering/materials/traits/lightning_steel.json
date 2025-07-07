@@ -1,0 +1,14 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:devourer_of_dragons",
+        "level": 1
+      },
+      {
+        "name": "cti:plasma_wave_slash",
+        "level": 1
+      }
+    ]
+  }
+}

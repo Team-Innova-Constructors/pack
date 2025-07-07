@@ -1,0 +1,14 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "cti:devourer_of_dragons",
+        "level": 1
+      },
+      {
+        "name": "cti:fiery_javelin",
+        "level": 1
+      }
+    ]
+  }
+}

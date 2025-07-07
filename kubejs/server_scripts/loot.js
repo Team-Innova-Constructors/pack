@@ -14,9 +14,6 @@ LootJS.modifiers(event => {
             { item: "kubejs:violium_core", count: 12, chance: 1 },
             { item: "aether:life_shard", count: 6, chance: 1 },
         ],
-        //白银地牢
-        silver_dungeon: [
-        ],
         //下僻巢穴
         catacombs: [
             { item: "kubejs:aetherium_core", count: 9, chance: 1 },
@@ -61,7 +58,6 @@ LootJS.modifiers(event => {
     addLootToStructure('#minecraft:village', StructurelootTables.village);
     addLootToStructure('aether:gold_dungeon', StructurelootTables.gold_dungeon);
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
-    addLootToStructure("aether:silver_dungeon", StructurelootTables.silver_dungeon);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
     addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
@@ -142,6 +138,10 @@ LootJS.modifiers(event => {
         //滑滑魔石
         slider:[
             {item: 'aether_redux:sentry_chip', count: 8, chance: 1 },
+        ],
+        //白银地牢奖励箱
+        silver_dungeon_reward:[
+            {item: 'cti:strange_ice_crystal', count: 1, chance: 1 },
         ]
     }
     function addLootToTable(LootTableID, lootEntries) {
@@ -170,6 +170,7 @@ LootJS.modifiers(event => {
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);
     addLootToTable("aether:entities/slider", LootToLootTables.slider);
+    addLootToTable("aether:chests/dungeon/silver/silver_dungeon_reward", LootToLootTables.silver_dungeon_reward);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)

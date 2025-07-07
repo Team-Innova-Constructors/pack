@@ -34,6 +34,9 @@
     "item.kubejs.molten_phoenix_bucket":"熔融凤凰桶",
     "item.kubejs.molten_valkyrie_bucket":"熔融女武神桶",
 
+    "fluid.tinkersinnovation.molten_andesite_alloy": "熔融安山合金",
+    "item.tinkersinnovation.molten_andesite_alloy_bucket":"熔融安山合金桶",
+
 
     
     "singularity.avaritia.bismuth": "铋",
@@ -233,9 +236,9 @@
     "modifier.cti.refined.flavor": "太纯了！",
     "modifier.cti.refined.description": "每级提供30%大部分属性提升和能力槽、升级槽各一个。",
 
-    "modifier.cti.aetheric_amethyst": "紫晶石",
-    "modifier.cti.aetheric_amethyst.flavor": "蕴含天镜能量的宝石",
-    "modifier.cti.aetheric_amethyst.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。",
+    "modifier.cti.zanite": "紫晶石",
+    "modifier.cti.zanite.flavor": "蕴含天镜能量的宝石",
+    "modifier.cti.zanite.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。移除天镜对你工具的削弱。",
 
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
@@ -294,6 +297,18 @@
     "material.kubejs.life_crystal": "生命水晶",
     "material.kubejs.life_crystal.flavor": "+1心",
     "material.kubejs.life_crystal.encyclopedia": "+1心",
+
+    "material.kubejs.lightning_steel": "龙霆钢",
+    "material.kubejs.lightning_steel.flavor": "龙息锻造",
+    "material.kubejs.lightning_steel.encyclopedia": "没学过物理的电龙是怎么学会将空气电离然后用来攻击人的呢？",
+
+    "material.kubejs.ice_steel": "龙霜钢",
+    "material.kubejs.ice_steel.flavor": "龙息锻造",
+    "material.kubejs.ice_steel.encyclopedia": "摸起来很冷。",
+
+    "material.kubejs.fire_steel": "龙炎钢",
+    "material.kubejs.fire_steel.flavor": "龙息锻造",
+    "material.kubejs.fire_steel.encyclopedia": "即使拿出炉子也在不断燃烧。",
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",

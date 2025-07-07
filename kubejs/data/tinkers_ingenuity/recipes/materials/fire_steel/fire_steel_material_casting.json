@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "tinkers_ingenuity:molten_fire_steel",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "output": "kubejs:fire_steel"
+}

@@ -3,6 +3,10 @@
     "kubejs:veridium",
     "kubejs:sentrite",
     "kubejs:gravitite",
-    "kubejs:star_alloy"
+    "kubejs:star_alloy",
+    "kubejs:valkyrie",
+    "kubejs:phoenix",
+    "kubejs:life_crystal",
+    "tinkerscalibration:oraclium"
   ]
 }

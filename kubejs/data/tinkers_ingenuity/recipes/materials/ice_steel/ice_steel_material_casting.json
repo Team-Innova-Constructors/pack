@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "tinkers_ingenuity:molten_ice_steel",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "output": "kubejs:ice_steel"
+}

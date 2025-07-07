@@ -3,7 +3,7 @@
   },
   "modifier.cti": {
     "refined": "#A48DFF",
-    "aetheric_amethyst": "#A984D1"
+    "zanite": "#A984D1"
   },
   "material.cti": {
     "violium": "#A48DFF",
@@ -18,6 +18,9 @@
     "gravitite": "#BE40B4",
     "life_crystal": "#42000D",
     "phoenix": "#FFC59E",
-    "valkyrie": "#E0D04D"
+    "valkyrie": "#E0D04D",
+    "lightning_steel": "#3D0D56",
+    "ice_steel": "#789295",
+    "fire_steel": "#4B4757"
   }
 }

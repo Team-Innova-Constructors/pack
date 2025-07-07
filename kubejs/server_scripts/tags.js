@@ -161,6 +161,8 @@ ServerEvents.tags('item', event => {
   'minecraft:shulker_shell',
   'minecraft:diamond',
   'minecraft:cobweb',
+  'tinkerscalibration:oraclium_nugget',
+  'tinkerscalibration:oraclium_ingot'
   ]
   let severing_drop=[
   '#forge:heads',
@@ -225,6 +227,12 @@ ServerEvents.tags('item', event => {
     for (let i of removed_tools) {
     event.removeAllTagsFrom(`${i}`)
   }
+  let traits=[
+    'l2hostility:oracle',
+  ]
+  for (let i of traits) {
+    event.add('l2hostility:trait_item', `${i}`)
+  }
 
 })
 //添加方块标签
@@ -286,6 +294,9 @@ ServerEvents.tags('fluid', event => {
   event.remove('forge:lubricant', 'pneumaticcraft:lubricant')
   event.remove('ad_astra_platform:biodiesel','pneumaticcraft:biodiesel')
 
+  event.add('cti:lava_heated', 'cti:lava_heated')
+
+  event.add('cti:fuel/diesel_eq', 'immersivepetroleum:diesel')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
 })

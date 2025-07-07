@@ -13,7 +13,44 @@ ServerEvents.recipes(event => {
             }
         )
     }
+    function addMelting(item,fluid,amount,temp,time){
+        event.custom(
+            {
+                "type":"tconstruct:melting",
+                "ingredient":{
+                    "item":item
+                },
+                "temperature": temp,
+                "time": time,
+                "result":{
+                    "fluid": fluid,
+                    "amount": amount
+                }
+            }
+        )
+    }
 
     addSevering("aether:valkyrie","kubejs:broken_victory_medal",2)
+    addSevering("mowziesmobs:ferrous_wroughtnaut","thermal:steel_plate",8)
+
+    addMelting("aether:valkyrie_boots","kubejs:molten_valkyrie",360,3250,100)
+    addMelting("aether:valkyrie_helmet","kubejs:molten_valkyrie",450,3250,125)
+    addMelting("aether:valkyrie_chestplate","kubejs:molten_valkyrie",720,3250,200)
+    addMelting("aether:valkyrie_leggings","kubejs:molten_valkyrie",630,3250,175)
+
+    addMelting("aether:phoenix_boots","kubejs:molten_phoenix",360,3475,100)
+    addMelting("aether:phoenix_helmet","kubejs:molten_phoenix",450,3475,125)
+    addMelting("aether:phoenix_chestplate","kubejs:molten_phoenix",720,3475,200)
+    addMelting("aether:phoenix_leggings","kubejs:molten_phoenix",630,3475,175)
+
+    addMelting("aether:gravitite_sword","kubejs:molten_gravitite",180,2500,100)
+
+    addMelting("aether:valkyrie_lance","kubejs:molten_valkyrie",180,3250,100)
+    addMelting("aether:valkyrie_hoe","kubejs:molten_valkyrie",180,3250,100)
+    addMelting("aether:valkyrie_axe","kubejs:molten_valkyrie",180,3250,100)
+    addMelting("aether:valkyrie_shovel","kubejs:molten_valkyrie",180,3250,100)
+    addMelting("aether:valkyrie_pickaxe","kubejs:molten_valkyrie",180,3250,100)
+
+    
     
 })

@@ -1,0 +1,14 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "name": "cti:devourer_of_dragons_armor",
+        "level": 1
+      },
+      {
+        "name": "cti:permafrost_revival",
+        "level": 1
+      }
+    ]
+  }
+}

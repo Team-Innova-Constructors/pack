@@ -1,0 +1,58 @@
+{
+  "fallbacks": [
+    "bone",
+    "metal"
+  ],
+  "color": "789295",
+  "luminosity": 2,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:grey_to_sprite",
+      "palette": [
+        {
+          "grey": 0,
+          "color": "FF000000"
+        },
+        {
+          "grey": 63,
+          "color": "FF4D6465",
+          "path": "tinkers_ingenuity:generator/dragonsteel_ice_border"
+        },
+        {
+          "grey": 102,
+          "path": "tinkers_ingenuity:generator/dragonsteel_ice_border"
+        },
+        {
+          "grey": 140,
+          "color": "FFA1E7E0",
+          "path": "tinkers_ingenuity:generator/dragonsteel_ice"
+        },
+        {
+          "grey": 178,
+          "path": "tinkers_ingenuity:generator/dragonsteel_ice"
+        },
+        {
+          "grey": 216,
+          "color": "FFA1E7E0",
+          "path": "tinkers_ingenuity:generator/dragonsteel_ice_highlight"
+        },
+        {
+          "grey": 255,
+          "path": "tinkers_ingenuity:generator/dragonsteel_ice_highlight"
+        }
+      ]
+    },
+    "supportedStats": [
+      "tconstruct:repair_kit",
+      "tconstruct:armor_plating",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:plating_shield",
+      "tconstruct:maille",
+      "tconstruct:armor_maille"
+    ],
+    "ignoreMaterialStats": false
+  }
+}

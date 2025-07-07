@@ -23,6 +23,20 @@
         "draw_speed": 0.25,
         "durability": 2500,
         "velocity": 0.75
-      }
+      },
+      "etshtinker:fluid_chamber": {
+      "fluid_capacity": 120000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 12,
+      "plasmarange": 10,
+      "damagemultiplier": 8
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 1.1,
+      "criticalrate": 0.67,
+      "fluidefficiency": 2.0,
+      "slash_color": 2
+    }
     }
   }

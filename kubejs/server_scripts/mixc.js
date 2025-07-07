@@ -130,6 +130,10 @@ ServerEvents.recipes(event => {
       'tconstruct:seared_bricks',
    ]
    )
+   event.shapeless(Item.of('tconstruct:scorched_brick',4), [
+      'tconstruct:scorched_bricks',
+   ]
+   )
    event.shapeless(Item.of('minecraft:music_disc_wait',1), [
       'kubejs:empty_record',
       'minecraft:blue_dye'
@@ -410,4 +414,41 @@ ServerEvents.recipes(event => {
          A: 'minecraft:gold_ingot',
       }
    )
+
+   event.custom({
+      "type": "farmersdelight:cutting",
+      "ingredients": [
+         {
+            "item": "mowziesmobs:wrought_helmet"
+         }
+      ],
+      "result": [
+         {
+            "count": 8,
+            "item": "thermal:steel_plate"
+         }
+      ],
+      "tool": {
+         "item": "tconstruct:cleaver"
+      }
+   })
+   event.custom({
+      "type": "farmersdelight:cutting",
+      "ingredients": [
+         {
+            "item": "mowziesmobs:wrought_axe"
+         }
+      ],
+      "result": [
+         {
+            "count": 8,
+            "item": "thermal:steel_plate"
+         }
+      ],
+      "tool": {
+         "item": "tconstruct:cleaver"
+      }
+   })
+
+   event.replaceInput({id: 'gobber2:gobber2_ring_curing' }, 'minecraft:fermented_spider_eye','tinkerscalibration:oraclium_nugget')
 })

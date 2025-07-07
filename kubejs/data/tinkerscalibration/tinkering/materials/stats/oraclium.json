@@ -2,57 +2,60 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 0.15,
+      "durability": -0.15,
       "mining_speed": -0.2,
-      "melee_speed": 0.1,
-      "melee_damage": 0.2
+      "melee_speed": 0.75,
+      "melee_damage": 1.5
     },
     "tconstruct:head": {
-      "durability": 1250,
+      "durability": 890,
       "mining_speed": 5,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 3.4
+      "melee_attack": 16.0
     },
     "tconstruct:limb": {
-      "durability": 1250,
-      "draw_speed": 0.05,
-      "velocity": 0.1,
-      "accuracy": -0.1
+      "durability": 890,
+      "draw_speed": 0.35,
+      "velocity": 4.5,
+      "accuracy": 0.1
     },
     "tconstruct:grip": {
-      "durability": 0.15,
+      "durability": -0.15,
       "accuracy": 0.1,
-      "melee_damage": 2.2
+      "melee_damage": 16
     },
     "tconstruct:maille": {},
     "tconstruct:plating_boots": {
-      "armor": 3.0,
-      "durability": 425,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 9.0,
+      "durability": 675,
+      "toughness": 4
     },
     "tconstruct:plating_chestplate": {
-      "armor": 7.5,
-      "durability": 476,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 14,
+      "durability": 775,
+      "toughness": 4
     },
     "tconstruct:plating_helmet": {
-      "armor": 3.5,
-      "durability": 441,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 12,
+      "durability": 725,
+      "toughness": 4
     },
     "tconstruct:plating_leggings": {
-      "armor": 7.0,
-      "durability": 473,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "armor": 7,
+      "durability": 625,
+      "toughness": 4
     },
     "tconstruct:plating_shield": {
-      "durability": 599,
-      "knockback_resistance": 0.05,
-      "toughness": 2
+      "durability": 725,
+      "toughness": 4
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 120000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 28,
+      "plasmarange": 20,
+      "damagemultiplier": 9
     }
   }
 }

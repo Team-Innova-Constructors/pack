@@ -16,8 +16,13 @@
       {
         "name": "tinkerscalibration:igneous_armor",
         "level": 1
-      },{
+      },
+      {
         "name": "tconstruct:blast_protection",
+        "level": 1
+      },
+      {
+        "name": "cti:fragment",
         "level": 1
       }
     ]

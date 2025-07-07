@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#undergarden:is_undergarden",
+  "features": [
+    "tinkersinnovation:void_crystal_ore"
+  ],
+  "step": "underground_decoration"
+}
