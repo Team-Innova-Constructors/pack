@@ -1,0 +1,14 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:memory_alloy",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 720,
+    "input": {
+      "item": "kubejs:aetheric_meteorite_ore"
+    },
+    "result": {
+      "base_ingredient": {
+        "item": "kubejs:meteorium_scrap"
+      },
+      "count": 2
+    },
+    "secondaries": [
+      {
+        "chance": 0.75,
+        "output": {
+            "count": 3,
+          "item": "aether:icestone"
+        }
+      },
+      {
+        "chance": 0.75,
+        "output": {
+            "count": 5,
+          "item": "immersiveengineering:raw_aluminum"
+        }
+      },
+      {
+        "chance": 0.78,
+        "output": {
+            "count": 4,
+          "item": "thermal:raw_nickel"
+        }
+      },
+      {
+        "chance": 0.52,
+        "output": {
+            "count": 5,
+          "item": "createoreexcavation:raw_diamond"
+        }
+      },
+      {
+        "chance": 0.5,
+        "output": {
+            "count": 4,
+          "item": "ae2:fluix_crystal"
+        }
+      },
+      {
+        "chance": 0.1,
+        "output": {
+            "count": 1,
+          "item": "aether_redux:raw_gravitite"
+        }
+      },
+      {
+        "chance": 0.72,
+        "output": {
+            "count": 5,
+          "item": "aether:ambrosium_shard"
+        }
+      },
+      {
+        "chance": 0.45,
+        "output": {
+          "count": 5,
+          "item": "minecraft:glowstone_dust"
+        }
+      }
+    ]
+  }

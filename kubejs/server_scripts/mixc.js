@@ -424,7 +424,7 @@ ServerEvents.recipes(event => {
       ],
       "result": [
          {
-            "count": 8,
+            "count": 16,
             "item": "thermal:steel_plate"
          }
       ],
@@ -441,7 +441,7 @@ ServerEvents.recipes(event => {
       ],
       "result": [
          {
-            "count": 8,
+            "count": 16,
             "item": "thermal:steel_plate"
          }
       ],
@@ -449,6 +449,112 @@ ServerEvents.recipes(event => {
          "item": "tconstruct:cleaver"
       }
    })
+   event.custom({
+      "type": "farmersdelight:cutting",
+      "ingredients": [
+         {
+            "item": "mowziesmobs:sol_visage"
+         }
+      ],
+      "result": [
+         {
+            "count": 32,
+            "item": "tinkers_ingenuity:shine_alloy_ingot"
+         }
+      ],
+      "tool": {
+         "item": "tconstruct:cleaver"
+      }
+   })
+
+   event.shaped(Item.of('kubejs:radient_engine', 1), [
+      'AAA',
+      ' B ',
+      ' C '
+   ],
+      {
+         C: 'twilightforest:fiery_ingot',
+         B: 'ad_astra:engine_frame',
+         A: 'kubejs:luminous_metal_plate',
+      }
+   )
 
    event.replaceInput({id: 'gobber2:gobber2_ring_curing' }, 'minecraft:fermented_spider_eye','tinkerscalibration:oraclium_nugget')
+
+   event.custom({
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_nose_cone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:luminous_metal_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:luminous_metal_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:luminous_metal_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:luminous_metal_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:luminous_metal_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:luminous_metal_plate"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:steel_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:steel_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:radient_engine"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    }
+  ],
+  "output": "ad_astra:tier_2_rocket"
+})
 })

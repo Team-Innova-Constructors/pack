@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.5,
+      "mining_speed": 0.5,
+      "melee_speed": 1.5,
+      "melee_damage": 0.25
+    },
+    "tconstruct:head": {
+      "durability": 16384,
+      "mining_speed": 12.0,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 17.5
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 240000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 32,
+      "plasmarange": 24,
+      "damagemultiplier": 12.5
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 3.3,
+      "criticalrate": 1,
+      "fluidefficiency": 0.8,
+      "slash_color": 4
+    }
+  }
+}

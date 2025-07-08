@@ -1,17 +1,5 @@
 {
-  "type": "tconstruct:incremental_modifier",
-  "conditions": [
-    {
-      "modid": "l2complements",
-      "type": "forge:mod_loaded"
-    }
-  ],
-  "allow_crystal": true,
-  "amount_per_item": 1,
-  "input": {
-    "item": "l2complements:captured_wind"
-  },
-  "needed_per_level": 20,
+  "type": "tconstruct:modifier_salvage",
   "slots": {
     "upgrades": 1
   },
@@ -26,8 +14,5 @@
       "tag": "tconstruct:modifiable/ranged"
     }
   ],
-  "result": "tinkersinnovation:wind_power",
-  "level": {
-    "max": 5
-  }
+  "modifier": "tinkersinnovation:wind_power"
 }

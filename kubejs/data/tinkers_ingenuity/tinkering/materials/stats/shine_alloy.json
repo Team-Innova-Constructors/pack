@@ -1,0 +1,61 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": -0.1,
+      "mining_speed": 0.0,
+      "melee_speed": 0.5,
+      "melee_damage": 0.25
+    },
+    "tconstruct:head": {
+      "durability": 920,
+      "mining_speed": 6.5,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 5.75
+    },
+    "tconstruct:limb": {
+      "durability": 920,
+      "draw_speed": 0.25,
+      "velocity": 0.25,
+      "accuracy": 0.02
+    },
+    "tconstruct:grip": {
+      "durability": 0.3,
+      "accuracy": 0.02,
+      "melee_damage": 5.75
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 4.0,
+      "durability": 525,
+      "knockback_resistance": 0.01,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 6.0,
+      "durability": 630,
+      "knockback_resistance": 0.01,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 5.0,
+      "durability": 580,
+      "knockback_resistance": 0.01,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_boots": {
+      "armor": 3.0,
+      "durability": 520,
+      "knockback_resistance": 0.01,
+      "toughness": 2.5
+    },
+    "tinkers_ingenuity:curio_extra": {},
+    "tinkers_ingenuity:curio_main": {
+      "movement_speed": 0.35,
+      "armor": 2.5,
+      "toughness": 0.4,
+      "attack": 1.25,
+      "arrow_damage": 0.1
+    }
+  }
+}

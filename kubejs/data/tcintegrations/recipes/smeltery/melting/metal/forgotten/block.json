@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/forgotten_metal"
+  },
+  "result": {
+    "amount": 810,
+    "fluid": "tcintegrations:forgotten"
+  },
+  "temperature": 4950,
+  "time": 190
+}

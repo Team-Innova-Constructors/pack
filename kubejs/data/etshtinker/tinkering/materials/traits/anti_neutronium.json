@@ -10,7 +10,7 @@
     },
     {
       "name": "etshtinker:selfassemble",
-      "level": 10
+      "level": 1
     },
     {
       "name": "etshtinker:solidex",
@@ -21,7 +21,7 @@
     "tconstruct:armor": [
       {
         "name": "etshtinker:reactiveannihlarmor",
-        "level": 100
+        "level": 1
       },
       {
         "name": "etshtinker:solidex",

@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/forgotten"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:dusts/forgotten_metal"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "tcintegrations:forgotten"
+  },
+  "temperature": 4950,
+  "time": 47
+}

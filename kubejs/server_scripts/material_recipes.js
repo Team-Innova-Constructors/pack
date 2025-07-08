@@ -74,6 +74,41 @@ ServerEvents.recipes(event => {
             }
         )
     }
+    function metalMaterialNoIngotMelt(materialId,fluid,ingot,temp){
+        event.custom(
+            {
+                "type": "tconstruct:material_fluid",
+                "fluid": {
+                    "name": fluid,
+                    "amount": 90
+                },
+                "temperature": temp,
+                "output": materialId
+            }
+        )
+        event.custom(
+            {
+                "type": "tconstruct:material_melting",
+                "result": {
+                    "name": fluid,
+                    "amount": 90
+                },
+                "temperature": temp,
+                "input": materialId,
+            }
+        )
+        event.custom(
+            {
+                "type": "tconstruct:material",
+                "ingredient": {
+                    "item": ingot
+                },
+                "value": 1,
+                "needed": 1,
+                "material": materialId
+            }
+        )
+    }
     function craftableMaterial(materialId,ingred_item){
         event.custom(
             {
@@ -94,4 +129,5 @@ ServerEvents.recipes(event => {
     metalMaterial("kubejs:phoenix","kubejs:molten_phoenix","kubejs:phoenix_ingot",3350)
     metalMaterial("kubejs:valkyrie","kubejs:molten_valkyrie","kubejs:valkyrie_ingot",3200)
     craftableMaterial("kubejs:life_crystal","aether:life_shard")
+    metalMaterialNoIngotMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_ingot",4950)
 })

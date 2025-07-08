@@ -1,0 +1,44 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:sunshine",
+        "level": 1
+      },
+      {
+        "name": "cti:sunstrike",
+        "level": 1
+      },
+    {
+      "level": 1,
+      "name": "cti:fiery_capable"
+    }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:sunshine",
+        "level": 1
+      },
+    {
+      "level": 1,
+      "name": "cti:fiery_capable"
+    }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:armor_sunshine",
+        "level": 1
+      },
+    {
+      "level": 1,
+      "name": "cti:fiery_capable"
+    }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "tinkers_ingenuity:curio_sunshine",
+        "level": 1
+      }
+    ]
+  }
+}

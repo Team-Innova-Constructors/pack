@@ -69,3 +69,5 @@ servers.dat_old
 /keybinding presets/initialized.dat
 /keybinding presets/preset_to_load_on_first_startup.txt
 /replay_pid6968.log
+/Package.BakaCoreInfo
+/.abnormal

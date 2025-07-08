@@ -14,7 +14,7 @@
       "durability": 16384,
       "mining_speed": 25.0,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 50.0
+      "melee_attack": 30.0
     },
     "etshtinker:fluid_chamber": {
       "fluid_capacity": 240000
@@ -25,7 +25,7 @@
       "damagemultiplier": 25
     },
     "etshtinker:plasma_generator": {
-      "damagemultiplier": 2.5,
+      "damagemultiplier": 5.5,
       "criticalrate": 0.75,
       "fluidefficiency": 1.95,
       "slash_color": 7

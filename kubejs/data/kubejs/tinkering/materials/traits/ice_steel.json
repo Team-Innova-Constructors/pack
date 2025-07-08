@@ -8,6 +8,10 @@
       {
         "name": "cti:permafrost_revival",
         "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
       }
     ]
   }

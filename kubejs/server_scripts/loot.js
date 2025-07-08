@@ -12,7 +12,7 @@ LootJS.modifiers(event => {
         //黄金地牢
         gold_dungeon: [
             { item: "kubejs:violium_core", count: 12, chance: 1 },
-            { item: "aether:life_shard", count: 6, chance: 1 },
+            { item: "aether:life_shard", count: 12, chance: 1 },
         ],
         //下僻巢穴
         catacombs: [

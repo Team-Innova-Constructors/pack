@@ -1,0 +1,53 @@
+{
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    },
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "avaritia:infinity_ingot",
+      "amount_needed": 2
+    },
+    {
+      "item": "etshtinker:anti_neutronium",
+      "amount_needed": 8
+    },
+    {
+      "item": "etshtinker:stable_plasma",
+      "amount_needed": 8
+    },
+    {
+      "item": "etshtinker:exotic_matter",
+      "amount_needed": 8
+    }
+
+  ],
+  "tools": [
+    {
+    "item": "tconstruct:broad_axe"
+    },
+    {
+      "item": "tconstruct:hand_axe"
+    }
+  ],
+  "slots": {
+    "abilities": 5
+  },
+  "requirements": {
+    "id": "etshtinker:godlymetal",
+    "level": 1,
+    "error": "recipe.etshtinker.modifier.modifiershadowaxe"
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:modifiershadowaxe",
+  "level": {
+    "max": 1
+  }
+}

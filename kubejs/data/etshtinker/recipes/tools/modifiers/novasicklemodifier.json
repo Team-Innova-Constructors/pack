@@ -1,0 +1,53 @@
+{
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    },
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "avaritia:infinity_ingot",
+      "amount_needed": 2
+    },
+    {
+      "item": "etshtinker:anti_neutronium",
+      "amount_needed": 8
+    },
+    {
+      "item": "etshtinker:ultra_dense",
+      "amount_needed": 8
+    },
+    {
+      "item": "etshtinker:stellaralloy",
+      "amount_needed": 16
+    }
+
+  ],
+  "tools": [
+    {
+    "item": "tconstruct:kama"
+    },
+    {
+      "item": "tconstruct:scythe"
+    }
+  ],
+  "slots": {
+    "abilities": 5
+  },
+  "requirements": {
+    "name": "etshtinker:godlymetal",
+    "level": 1,
+    "error": "recipe.etshtinker.modifier.modifiernovasickle"
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:modifiernovasickle",
+  "level": {
+    "max": 1
+  }
+}

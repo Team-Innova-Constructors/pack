@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    },
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "etshtinker:exotic_matter",
+      "amount_needed": 4
+    },
+    {
+      "item": "avaritia:infinity_ingot",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee/weapon"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "requirements": {
+    "name": "etshtinker:godlymetal",
+    "level": 1,
+    "error": "recipe.etshtinker.modifier.warpattackex"
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:warpattackex",
+  "level": {
+    "max": 5
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "twilightforest:highlands",
+  "features": "kubejs:bismuthinite_ore_twilight",
+  "step": "underground_ores"
+}

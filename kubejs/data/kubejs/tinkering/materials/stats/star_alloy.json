@@ -10,6 +10,7 @@
       "durability": 0.5,
       "accuracy": 0.2,
       "melee_damage": 16.5
-    }
+    },
+    "tconstruct:bowstring": {}
   }
 }

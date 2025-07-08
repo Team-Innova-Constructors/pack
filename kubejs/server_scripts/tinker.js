@@ -31,7 +31,6 @@ ServerEvents.recipes(event => {
     }
 
     addSevering("aether:valkyrie","kubejs:broken_victory_medal",2)
-    addSevering("mowziesmobs:ferrous_wroughtnaut","thermal:steel_plate",8)
 
     addMelting("aether:valkyrie_boots","kubejs:molten_valkyrie",360,3250,100)
     addMelting("aether:valkyrie_helmet","kubejs:molten_valkyrie",450,3250,125)
@@ -51,6 +50,19 @@ ServerEvents.recipes(event => {
     addMelting("aether:valkyrie_shovel","kubejs:molten_valkyrie",180,3250,100)
     addMelting("aether:valkyrie_pickaxe","kubejs:molten_valkyrie",180,3250,100)
 
+    event.custom(
+            {
+                "type":"tconstruct:casting_table",
+                "cast": { "tag": "forge:plates/steel" },
+                "cast_consumed": true,
+                "fluid": {
+                    "name": "tinkers_ingenuity:molten_shine_alloy",
+                    "amount": 180
+                },
+                "result": "kubejs:luminous_metal_plate",
+                "cooling_time": 20
+            }
+        )
     
     
 })

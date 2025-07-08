@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "gobber2:gobber2_lucky_block_end",
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "weight": 20,
+		  "name": "gobber2:gobber2_foo_end"
+		},
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "gobber2:gobber2_globette_end"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "gobber2:gobber2_glass_end"
+        }
+		
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

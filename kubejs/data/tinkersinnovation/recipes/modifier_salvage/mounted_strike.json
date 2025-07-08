@@ -1,22 +1,5 @@
 {
-  "type": "tconstruct:modifier",
-  "inputs": [
-    {
-      "item": "minecraft:lead"
-    },
-    {
-      "item": "minecraft:saddle"
-    },
-    {
-      "item": "minecraft:lead"
-    },
-    {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "item": "minecraft:iron_ingot"
-    }
-  ],
+  "type": "tconstruct:modifier_salvage",
   "tools": [
     {
       "tag": "tconstruct:modifiable/melee"
@@ -31,6 +14,5 @@
   "slots": {
     "abilities": 1
   },
-  "allow_crystal": true,
-  "result": "tinkersinnovation:mounted_strike"
+  "modifier": "tinkersinnovation:mounted_strike"
 }

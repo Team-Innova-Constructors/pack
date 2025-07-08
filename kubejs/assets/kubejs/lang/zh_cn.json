@@ -310,6 +310,12 @@
     "material.kubejs.fire_steel.flavor": "龙息锻造",
     "material.kubejs.fire_steel.encyclopedia": "即使拿出炉子也在不断燃烧。",
 
+    "material.kubejs.forgotten_metal": "遗忆金属",
+    "material.kubejs.forgotten_metal.flavor": "残存的记忆",
+    "material.kubejs.forgotten_metal.encyclopedia": "是谁创造了这种金属？让我们来读读它的内存...",
+
+
+
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
     "dimension.ad_astra.venus": "金星",
@@ -321,6 +327,7 @@
     "block.kubejs.block_enriched_refined_glowstone":"富集强化荧石块",
     "block.kubejs.block_yellow_cake_uranium":"铀饼",
     "block.kubejs.pressurized_casing":"耐压外壳",
+    "block.kubejs.aetheric_meteorite_ore":"神赐陨铁",
     
 
     "gas.mekanism.sulfuric_acid": "气态硫酸",
@@ -337,6 +344,8 @@
 
     "item.kubejs.disintegrate_crystal": "解离水晶",
     "item.kubejs.cnt": "碳纳米管",
+    "item.kubejs.luminous_metal_plate": "半熔化的发光金属板",
+    "item.kubejs.radient_engine": "光耀引擎",
 
     "material.cti.violium": "维奥合金",
     "material.cti.violium.flavor": "紫紫的",

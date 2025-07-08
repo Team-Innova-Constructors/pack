@@ -1,0 +1,52 @@
+{
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    },
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "avaritia:infinity_ingot",
+      "amount_needed": 2
+    },
+    {
+      "item": "etshtinker:molten_trinity_intereactive_alloy_bucket",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:molten_perfect_bucket",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:annihilating_plasma_bucket",
+      "amount_needed": 1
+    },
+    {
+      "item": "etshtinker:molten_anti_neutronium_bucket",
+      "amount_needed": 1
+    }
+
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged/bows"
+  },
+  "slots": {
+    "abilities": 5
+  },
+  "requirements": {
+    "name": "etshtinker:godlymetal",
+    "level": 1,
+    "error": "recipe.etshtinker.modifier.heavenly_gale"
+  },
+  "allow_crystal": true,
+  "result": "etshtinker:heavenly_gale",
+  "level": {
+    "max": 1
+  }
+}

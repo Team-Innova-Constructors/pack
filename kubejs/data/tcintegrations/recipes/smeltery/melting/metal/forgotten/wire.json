@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:wires/forgotten"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:wires/forgotten_metal"
+  },
+  "result": {
+    "amount": 45,
+    "fluid": "tcintegrations:forgotten"
+  },
+  "temperature": 4950,
+  "time": 13
+}
