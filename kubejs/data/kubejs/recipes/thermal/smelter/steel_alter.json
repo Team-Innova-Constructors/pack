@@ -1,0 +1,25 @@
+{
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count":2
+      },
+      {
+        "item": "mekanism:dust_coal",
+        "count":4
+      }
+    ],
+    "result": [
+      {
+        "item": "thermal:steel_ingot",
+        "count": 1
+      },
+      {
+        "item": "thermal:steel_ingot",
+        "chance": 0.25
+      }
+    ],
+    "energy": 9600,
+    "experience": 1.5
+  }

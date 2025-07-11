@@ -71,3 +71,4 @@ servers.dat_old
 /replay_pid6968.log
 /Package.BakaCoreInfo
 /.abnormal
+*.disabled

@@ -1,0 +1,34 @@
+{
+    "default": [
+      {
+          "name": "etshtinker:solidified",
+          "level": 2
+        },
+      {
+        "name": "cti:sentrite_defense",
+        "level": 1
+      }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+          "name": "etshtinker:solidified",
+          "level": 1
+        },
+      {
+        "name": "cti:secondary_armor",
+        "level": 1
+      }
+    ],
+    "tconstruct:shield_core": [
+      {
+          "name": "etshtinker:solidified",
+          "level": 1
+        },
+      {
+        "name": "cti:secondary_armor",
+        "level": 1
+      }
+    ]
+  }
+}

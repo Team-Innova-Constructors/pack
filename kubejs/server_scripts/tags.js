@@ -283,6 +283,21 @@ ServerEvents.tags('block', event => {
   for (let i of tconstructblock) {
     event.add('minecraft:wither_immune', `${i}`)
   }
+  //防凋零
+  let ores = [
+    'cti:ultra_dense_hydride_ore',
+    'kubejs:pyrocrystal_ore',
+    'kubejs:overdense_protonium_ore',
+    'kubejs:overdense_neutronium_ore',
+    'kubejs:mercury_tungsten_ore',
+    'kubejs:stellar_ultra_dense_ore',
+    'kubejs:mercury_orichalcum_ore',
+    'kubejs:gas_hydrate_ore',
+    'cti:meteorite_ore'
+  ]
+  for (let i of ores) {
+    event.add('forge:ores', `${i}`)
+  }
 })
 ServerEvents.tags('fluid', event => {
   event.add('create:bottomless/allow', 'ad_astra:cryo_fuel')
@@ -299,4 +314,13 @@ ServerEvents.tags('fluid', event => {
   event.add('cti:fuel/diesel_eq', 'immersivepetroleum:diesel')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
+
+  //给沉浸用的
+  let needTags = [
+    'kubejs:methane'
+  ]
+  for (let i of needTags) {
+    event.add(`${i}`, `${i}`)
+  }
+  
 })

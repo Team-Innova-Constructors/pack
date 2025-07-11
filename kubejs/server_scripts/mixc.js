@@ -61,10 +61,6 @@ ServerEvents.recipes(event => {
       'extendedcrafting:ultimate_table'
    ]
    for (let i of table) { event.remove({ id: `${i}` }) }
-   event.shapeless('extendedcrafting:basic_table', '2x minecraft:crafting_table')
-   event.shapeless('extendedcrafting:advanced_table', '4x minecraft:crafting_table')
-   event.shapeless('extendedcrafting:elite_table', '6x minecraft:crafting_table')
-   event.shapeless('extendedcrafting:ultimate_table', '8x minecraft:crafting_table')
    //铝热剂
    event.shaped(Item.of('kubejs:thermite', 4), [
       'BAB',
@@ -557,4 +553,28 @@ ServerEvents.recipes(event => {
   ],
   "output": "ad_astra:tier_2_rocket"
 })
+
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  A  ",
+    " BAB ",
+    "AAAAA",
+    " BAB ",
+    "  A  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:crafting_table"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:advanced_table"
+  }
+})
+   event.smithing('extendedcrafting:elite_table','extendedcrafting:advanced_table','mekanism:alloy_reinforced')
+   event.smithing('extendedcrafting:ultimate_table','extendedcrafting:elite_table','mekanism:alloy_atomic')
 })

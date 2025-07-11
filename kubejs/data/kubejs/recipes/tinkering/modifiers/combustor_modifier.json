@@ -11,7 +11,7 @@
       }
     ],
     "tools": {
-      "tag": "tconstruct:modifiable/held"
+      "tag": "tconstruct:modifiable/melee"
     },
     "slots": {
         "upgrades": 1

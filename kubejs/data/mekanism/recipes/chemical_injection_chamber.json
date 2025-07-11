@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:mek_data",
+  "key": {
+    "#": {
+      "item": "mekanism:ultimate_purifying_factory"
+    },
+    "A": {
+      "tag": "mekanism:alloys/reinforced"
+    },
+    "C": {
+      "tag": "forge:circuits/elite"
+    },
+    "I": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "I#I",
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism:ultimate_injecting_factory"
+  }
+}

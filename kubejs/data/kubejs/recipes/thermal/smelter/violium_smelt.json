@@ -17,7 +17,11 @@
     "result": [
       {
         "item": "kubejs:violium_alloy",
-        "chance": 4
+        "count": 2
+      },
+      {
+        "item": "kubejs:violium_alloy",
+        "chance": 2
       }
     ],
     "experience": 2

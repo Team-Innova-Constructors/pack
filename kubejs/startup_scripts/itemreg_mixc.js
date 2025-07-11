@@ -78,4 +78,15 @@ StartupEvents.registry("item",event=>{
 
     event.create("luminous_metal_plate","basic")
     event.create("radient_engine","basic")
+
+    event.create("dielectric_paste_1","basic")
+    event.create("dielectric_paste_2","basic")
+    event.create("dielectric_paste_3","basic")
+    event.create("dielectric_paste_4","basic")
+    event.create("dielectric_paste_5","basic")
+    event.create("dielectric_paste_6","basic")
+
+    event.create("sentrite","basic")
+    event.create("pneumatic_shield","basic")
+    event.create("carbon_plate","basic")
 })

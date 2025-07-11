@@ -1,0 +1,24 @@
+{
+  "default": [
+    {
+      "level": 3,
+      "name": "tconstruct:ductile"
+    },
+    {
+          "name": "cti:industrial",
+          "level": 2
+        }
+  ],
+  "perStat" : {
+      "tconstruct:armor": [
+        {
+      "level": 5,
+      "name": "tconstruct:ductile"
+    },
+    {
+          "name": "cti:industrial_armor",
+          "level": 2
+        }
+      ]
+    }
+}

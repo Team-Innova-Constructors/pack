@@ -124,11 +124,27 @@ StartupEvents.registry("fluid",event=>{
         newFluidAttributes.tickDelay(20);
         newFluid.attributes = newFluidAttributes;
     }
+    function createThinFluid([name,color,temp]) {
+        let newFluid = event.create(name).thinTexture(color).bucketColor(color).temperature(temp).displayName(name)
+        let newFluidAttributes = newFluid.createAttributes();
+        newFluidAttributes.dropOff(2);
+        newFluidAttributes.tickDelay(20);
+        newFluid.attributes = newFluidAttributes;
+    }
 
     createFluid(["molten_veridium",0x00A2E8,1500])
     createFluid(["molten_gravitite",0xFF7DC2,1500])
     createFluid(["molten_sentrite",0x454545,1500])
     createFluid(["molten_phoenix",0xFFA313,2500])
     createFluid(["molten_valkyrie",0xFFF99C,2500])
+    createFluid(["molten_refined_sentrite",0x353545,1500])
 
+    createThinFluid(["redstone_additive",0x5D0021,1000])
+    createThinFluid(["diamond_additive",0x005D5C,1000])
+    createThinFluid(["obsidian_additive",0x49005D,1000])
+    createThinFluid(["methane",0xD5FDFF,233])
+    createFluid(["pure_matter",0x101010,273])
+    createThinFluid(["radical_initiator",0x946748,298])
+    createThinFluid(["phenol",0xE6C8A5,298])
+    createThinFluid(["benzoic_acid",0xCFC869,298])
 })

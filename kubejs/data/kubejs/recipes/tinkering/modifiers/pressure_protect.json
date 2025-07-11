@@ -2,23 +2,23 @@
   "type": "tconstruct:modifier",
   "inputs": [
     {
-      "item": "kubejs:graphene",
-      "amount_needed": 32
+      "item": "kubejs:pneumatic_shield",
+      "amount_needed": 4
     },
     {
-      "item": "etshtinker:stellaralloy",
+      "item": "kubejs:carbon_plate",
       "amount_needed": 1
     },
     {
-      "item": "etshtinker:stellaralloy",
+      "item": "kubejs:carbon_plate",
       "amount_needed": 1
     },
     {
-      "item": "etshtinker:stellaralloy",
+      "item": "kubejs:carbon_plate",
       "amount_needed": 1
     },
     {
-      "item": "etshtinker:stellaralloy",
+      "item": "kubejs:carbon_plate",
       "amount_needed": 1
     }
   ],

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "kubejs:planetoids/planetoid_treasure",
+  "biomes": "#aether:is_aether",
+  "max_distance_from_center": 32,
+  "use_expansion_hack": false,
+  "size": 2,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": { "below_top": 24 }, 
+    "min_inclusive": { "above_bottom": 48 }
+  },
+  "step": "surface_structures",
+  "stubFoliage": {
+    "feature": "aether:golden_oak_tree",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 64
+      }
+    ]
+  },
+  "spawn_overrides": {},
+  "stubcount": 4
+}

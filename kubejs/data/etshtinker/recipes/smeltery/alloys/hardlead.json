@@ -7,12 +7,12 @@
     },
     {
       "name": "tconstruct:molten_lead",
-      "amount": 180
+      "amount": 270
     }
   ],
   "result": {
     "fluid": "etshtinker:molten_hardlead",
-    "amount": 270
+    "amount": 480
   },
-  "temperature": 1000
+  "temperature": 1500
 }

@@ -142,6 +142,9 @@ LootJS.modifiers(event => {
         //白银地牢奖励箱
         silver_dungeon_reward:[
             {item: 'cti:strange_ice_crystal', count: 1, chance: 1 },
+        ],
+        golden_dungeon_reward:[
+            {item: 'kubejs:violium_core', count: 24, chance: 1 },
         ]
     }
     function addLootToTable(LootTableID, lootEntries) {
@@ -171,6 +174,7 @@ LootJS.modifiers(event => {
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);
     addLootToTable("aether:entities/slider", LootToLootTables.slider);
     addLootToTable("aether:chests/dungeon/silver/silver_dungeon_reward", LootToLootTables.silver_dungeon_reward);
+    addLootToTable("aether:chests/dungeon/gold/golden_dungeon_reward", LootToLootTables.golden_dungeon_reward);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)

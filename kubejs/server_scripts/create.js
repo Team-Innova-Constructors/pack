@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     //压块塑性
-    event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('tconstruct:blazing_blood').withAmount(1000)])
+    event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick_reinforced',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('etshtinker:molten_hardlead').withAmount(270)])
     event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
     event.recipes.create.mixing(Fluid.of('cherrytinker:sun_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(1000),'cherrytinker:cherrygem']).heated()
     event.recipes.create.mixing(Fluid.of('cti:lava_heated').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(500),Fluid.of('minecraft:lava').withAmount(500),'kubejs:thermite'])
@@ -102,6 +102,19 @@ event.recipes.createMechanicalCrafting('cti:roxy_ingot', [
   D: 'dummmmmmy:target_dummy',
   E: 'etshtinker:electronium',
   F: 'ae2:item_storage_cell_256k'
+})
+event.recipes.createMechanicalCrafting('extendedcrafting:advanced_table', [
+  'ABBBA',
+  'AEEEA',
+  'ADCDA',
+  'AEEEA',
+  'AAAAA'
+], {
+  A: 'thermal:steel_plate',
+  B: 'create:brass_sheet',
+  C: 'minecraft:crafting_table',
+  D: 'create:mechanical_crafter',
+  E: 'etshtinker:hardlead_plate'
 })
 
 })

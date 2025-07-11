@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mekanism:ultimate_universal_cable",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mekanism:ultimate_pressurized_tube",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mekanism:ultimate_mechanical_pipe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mekanism:alloy_reinforced",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:gauge_dropper",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:configurator",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:quantum_entangloporter",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:quantum_entangloporter",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:quantum_entangloporter",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:ultimate_energy_cube",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cti:upgrade_energy_kit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cti:upgrade_speed_kit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mekanism:block_osmium",
+          "weight": 4
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 14.0,
+        "min": 6.0
+      }
+    }
+  ]
+}

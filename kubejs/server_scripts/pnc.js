@@ -28,4 +28,15 @@ ServerEvents.recipes(event => {
   )
   event.remove({id:'pneumaticcraft:speed_upgrade'})
   event.remove({id:'pneumaticcraft:speed_upgrade_from_glycerol'})
+
+  event.custom({
+  "type": "pneumaticcraft:heat_properties",
+  "block": "aether:icestone",
+  "temperature": 233,
+  "thermalResistance": 25,
+  "heatCapacity": 1000000,
+  "transformHot": {
+    "block": "aether:icestone"
+  }
+})
 })

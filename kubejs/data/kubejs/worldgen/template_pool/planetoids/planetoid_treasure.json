@@ -1,0 +1,35 @@
+{
+  "name": "kubejs:planetoids/planetoid_labs",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "kubejs:planetoid_treasure_bronze",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "kubejs:planetoid_treasure_golden",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "kubejs:planetoid_treasure_silver",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

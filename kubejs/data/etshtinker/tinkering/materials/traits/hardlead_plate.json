@@ -7,13 +7,21 @@
       {
         "name": "etshtinker:momentoaccel",
         "level": 5
-      }
+      },
+      {
+          "name": "cti:industrial",
+          "level": 1
+        }
     ],
     "perStat" : {
       "tconstruct:armor": [
         {
           "name": "etshtinker:solidified",
           "level": 2
+        },
+        {
+          "name": "cti:industrial_armor",
+          "level": 1
         },
         {
             "name": "etshtinker:momentoaccel",

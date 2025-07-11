@@ -1,12 +1,7 @@
 ServerEvents.recipes(event => {
-  // 灌注机
-  event.replaceInput({id:'mekanism:metallurgic_infuser'}, 'mekanism:ingot_osmium','mekanism:steel_casing')
   // 蒸馏塔
   event.replaceInput({id:'mekanism:thermal_evaporation_valve'}, 'mekanism:advanced_control_circuit','mekaevolution:absolute_control_circuit')
   event.replaceInput({id:'mekanism:thermal_evaporation_controller'}, 'mekanism:advanced_control_circuit','mekaevolution:absolute_control_circuit')
-  //太阳能中子
-  event.replaceInput({id:'mekanism:solar_neutron_activator'}, 'mekanism:elite_control_circuit','mekaevolution:supreme_control_circuit')
-  event.replaceInput({id:'mekanism:solar_neutron_activator'}, 'mekanism:alloy_reinforced','mekanism:alloy_atomic')
   //裂变
   event.replaceInput({id:'mekanismgenerators:fission_reactor/port'}, 'mekanism:elite_control_circuit','mekaevolution:cosmic_control_circuit')
   event.replaceInput({id:'mekanismgenerators:fission_reactor/control_rod_assembly'}, 'mekanism:elite_control_circuit','mekaevolution:cosmic_control_circuit')
@@ -25,6 +20,7 @@ ServerEvents.recipes(event => {
   //富集仓
   event.recipes.mekanismEnriching("cti:enriched_mana", "cti:magic_crystal")
   event.recipes.mekanismEnriching("kubejs:enriched_refined_glowstone", 'mekanism:ingot_refined_glowstone')
+  event.recipes.mekanismEnriching("aether_redux:refined_sentrite", 'kubejs:sentrite')
   //其他
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
   event.recipes.mekanismSmelting('immersiveengineering:ingot_aluminum', '#forge:dusts/aluminum')
@@ -56,20 +52,6 @@ ServerEvents.recipes(event => {
   event.replaceInput({id:'mekanismgenerators:turbine/casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({id:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({id:'mekanism:module_inhalation_purification_unit'}, 'mekanism:pellet_polonium','kubejs:atherium_alloy')
-
-  //机器
-  let machine1 =[
-    'mekanism:osmium_compressor',
-    'mekanism:combiner',
-    'mekanism:chemical_crystallizer',
-    'mekanism:chemical_washer',
-    'mekanism:antiprotonic_nucleosynthesizer',
-    'mekanism:solar_neutron_activator',
-    'mekanism:chemical_dissolution_chamber'
-  ]
-  for (let i of machine1){
-    event.replaceInput({id:`${i}`}, 'mekanism:steel_casing','kubejs:violium_casing')
-  }
 
   //阳清合金相关
   //阳清合金外壳
@@ -159,18 +141,6 @@ ServerEvents.recipes(event => {
     L: 'etshtinker:stellaralloy',
   }
 )
-  //精英电板
-  event.shaped(Item.of('mekanism:elite_control_circuit',1), [
-      ' L ',
-      'MNM',
-      ' L '
-    ],
-    {
-      L: 'etshtinker:hardlead_plate',
-      M: 'mekanism:alloy_reinforced',
-      N: 'mekanism:advanced_control_circuit'
-    }
-  )
   //寰宇
   event.shaped(Item.of('mekaevolution:cosmic_control_circuit',1), [
     ' L ',
@@ -227,4 +197,461 @@ event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:s
          D: 'mekanism:ultimate_induction_cell'
       }
    )
+
+   //机器配方重做
+   let mekMachines = [
+    'mekanism:enrichment_chamber',
+    'mekanism:osmium_compressor',
+    'mekanism:combiner',
+    'mekanism:crusher',
+    'mekanism:metallurgic_infuser',
+    'mekanism:energized_smelter',
+    'mekanism:energized_smelter',
+    'mekanism:isotopic_centrifuge',
+    'mekanism:pressurized_reaction_chamber',
+    'mekanism:chemical_crystallizer',
+    'mekanism:chemical_washer',
+    'mekanism:chemical_dissolution_chamber',
+    'mekanism:chemical_oxidizer',
+    'mekanism:rotary_condensentrator',
+    'mekanism:solar_neutron_activator'
+   ]
+	for (let i of mekMachines) { event.remove({ id: `${i}` }) }
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B EFE B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_furnace"
+    },
+    "F": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_smelting_factory"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B FGF B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_pulverizer"
+    },
+    "F": {
+      "item": "thermal:machine_smelter"
+    },
+    "G": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_enriching_factory"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B EFE B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_pulverizer"
+    },
+    "F": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_crushing_factory"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B EFE B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_press"
+    },
+    "F": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_compressing_factory"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B FGF B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_press"
+    },
+    "F": {
+      "item": "thermal:machine_smelter"
+    },
+    "G": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_combining_factory"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B EFE B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_crystallizer"
+    },
+    "F": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_infusing_factory"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "A C C A",
+    "ACDEDCA",
+    "B EFE B",
+    "ACDEDCA",
+    "A C C A",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "ae2:crafting_accelerator"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "thermal:machine_sawmill"
+    },
+    "F": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_sawing_factory"
+  }
+})
+
+event.custom({
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 1,
+    "fluid": "kubejs:methane"
+  },
+  "fluidOutput": {
+    "amount": 1,
+    "fluid": "kubejs:methane"
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "cti:methane"
+  },
+  "gasOutput": {
+    "amount": 1,
+    "gas": "cti:methane"
+  }
+  })
+
+  function rotary(fluid,gas){
+event.custom({
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 1,
+    "fluid": fluid
+  },
+  "fluidOutput": {
+    "amount": 1,
+    "fluid": fluid
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": gas
+  },
+  "gasOutput": {
+    "amount": 1,
+    "gas": gas
+  }
+  })
+  }
+
+  event.remove({id:'mekanism:reaction/substrate/water_hydrogen'})
+  event.remove({id:'mekanism:reaction/substrate/water_ethene'})
+  event.remove({id:'mekanism:reaction/substrate/ethene_oxygen'})
+  event.custom({
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "energyRequired": 100000,
+  "fluidInput": {
+    "amount": 10,
+    "fluid": "kubejs:radical_initiator"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanism:ethene"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:substrate"
+    }
+  },
+  "itemOutput": {
+    "item": "mekanism:hdpe_pellet",
+    "count":32
+  }
+})
+  rotary("kubejs:phenol","cti:phenol")
+  rotary("immersiveengineering:phenolic_resin","cti:phenolic_resin")
+  rotary("kubejs:benzoic_acid","cti:benzoic_acid")
+  rotary("immersiveengineering:acetaldehyde","cti:aldehyde")
+  rotary("kubejs:radical_initiator","cti:dibenzoyl_peroxide")
+  function chemicalInfuse(inputRe,amountRe,inputOx,amountOx,output,outputAmount){
+    event.custom({
+  "type": "mekanism:chemical_infusing",
+  "leftInput": {
+    "amount": amountOx,
+    "gas": inputOx
+  },
+  "output": {
+    "amount": outputAmount,
+    "gas": output
+  },
+  "rightInput": {
+    "amount": amountRe,
+    "gas": inputRe
+  }
+})
+  }
+  chemicalInfuse("cti:benzoic_acid",2,"mekanism:oxygen",1,"cti:dibenzoyl_peroxide",1)
+  chemicalInfuse("cti:ethanol",2,"mekanism:oxygen",1,"cti:aldehyde",2)
+  chemicalInfuse("cti:phenol",1,"cti:aldehyde",1,"cti:phenolic_resin",2)
+  function oxidize(input,gas,amount){
+    event.custom({
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": input
+    }
+  },
+  "output": {
+    "amount": amount,
+    "gas": gas
+  }
+  })
+  }
+
+  event.custom({
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 1,
+    "tag": "forge:ethanol"
+  },
+  "fluidOutput": {
+    "amount": 1,
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "cti:ethanol"
+  },
+  "gasOutput": {
+    "amount": 1,
+    "gas": "cti:ethanol"
+  }
+  })
+
+  event.custom({
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 2,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "thermal:netherite_gear"
+    }
+  },
+  "output": {
+    "amount": 400,
+    "chemicalType": "gas",
+    "gas": "cti:precursor"
+  }
+})
+
+  event.custom({
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 2,
+    "gas": "cti:precursor"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:compressed_activated_chroma_plate"
+    }
+  },
+  "output": {
+    "amount": 200,
+    "chemicalType": "gas",
+    "gas": "cti:chromatic_metal"
+  }
+  })
+
+  event.custom({
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 2,
+    "gas": "cti:precursor"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:carbon_plate"
+    }
+  },
+  "output": {
+    "amount": 200,
+    "chemicalType": "gas",
+    "gas": "cti:polymer"
+  }
+  })
+  chemicalInfuse("cti:chromatic_metal",1,"cti:polymer",1,"cti:pure_matter",2)
+  rotary("kubejs:pure_matter","cti:pure_matter")
+  
+  
 })

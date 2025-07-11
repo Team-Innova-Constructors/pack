@@ -62,7 +62,42 @@ ServerEvents.recipes(event => {
                 "result": "kubejs:luminous_metal_plate",
                 "cooling_time": 20
             }
-        )
+    )
+
+    event.custom(
+        {
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 270,
+      "fluid": "etshtinker:molten_bismuth"
+    }
+  ],
+  "ingredient": {
+    "item": "etshtinker:bismuthinite"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 2000,
+    "fluid": "tconstruct:seared_stone"
+  },
+  "temperature": 1500,
+  "time": 60
+}
+    )
+    event.custom(
+            {
+                "type":"tconstruct:casting_table",
+                "cast": { "item": "etshtinker:activated_chroma_plate" },
+                "cast_consumed": false,
+                "fluid": {
+                    "name": "immersiveengineering:phenolic_resin",
+                    "amount": 250
+                },
+                "result": "immersiveengineering:plate_duroplast",
+                "cooling_time": 10
+            }
+    )
     
     
 })

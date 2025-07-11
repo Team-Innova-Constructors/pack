@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         "ingredient": {
             "tag": "aether:sentry_blocks"
         },
-        "result": "aether_redux:refined_sentrite"
+        "result": "kubejs:sentrite"
     })
 
     event.remove({id:'aether_redux:refine_sentrite_smelt'})

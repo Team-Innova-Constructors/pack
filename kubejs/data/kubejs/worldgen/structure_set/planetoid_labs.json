@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19294839,
+    "separation": 5,
+    "spacing": 16
+  },
+  "structures": [
+    {
+      "structure": "kubejs:planetoid_lab",
+      "weight": 1
+    }
+  ]
+}

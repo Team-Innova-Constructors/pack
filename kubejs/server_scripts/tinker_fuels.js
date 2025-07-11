@@ -130,6 +130,28 @@ ServerEvents.recipes(event => {
         "input1": {
             "type": "pneumaticcraft:fluid",
             "amount": 1000,
+            "fluid": "immersivepetroleum:gasoline"
+        },
+        "input2": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 4000,
+            "fluid": "cti:lava_overheated"
+        },
+        "item_output": {
+            "item": "minecraft:blaze_powder"
+        },
+        "pressure": 3.0,
+        "time": 40
+    })
+    event.custom({
+        "type": "pneumaticcraft:fluid_mixer",
+        "fluid_output": {
+            "amount": 4000,
+            "fluid": "cti:lava_plasmatic"
+        },
+        "input1": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 1000,
             "fluid": "kubejs:ethyne"
         },
         "input2": {

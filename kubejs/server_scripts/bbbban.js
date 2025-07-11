@@ -132,6 +132,8 @@ ServerEvents.recipes(event => {
 		'etshtinker:immersiveengineering/arcfurnace/exo_alloy',
 		'etshtinker:thermal/crystalizer/flawless_budding_quartz',
 		'etshtinker:smeltery/casting/lightless_alloy/lightless_alloy',
+		'etshtinker:create/mixing/bismuth_ingot',
+        'etshtinker:create/mixing/molten_bismuth',
 		//工匠创新等匠魂附属
 		'tinkersinnovation:items/polychrome_mix',
 		'cherrytinker:tables/enchantedgold_block',

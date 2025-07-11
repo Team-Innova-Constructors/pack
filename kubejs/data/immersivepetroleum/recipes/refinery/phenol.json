@@ -7,7 +7,7 @@
   },
   "input1": {
     "amount": 10,
-    "tag": "forge:propylene"
+    "tag": "minecraft:water"
   },
   "result": {
     "amount": 20,
