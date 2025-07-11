@@ -72,3 +72,4 @@ servers.dat_old
 /Package.BakaCoreInfo
 /.abnormal
 *.disabled
+TrashSlotSaveState.json

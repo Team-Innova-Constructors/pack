@@ -214,6 +214,7 @@ event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:s
     'mekanism:chemical_dissolution_chamber',
     'mekanism:chemical_oxidizer',
     'mekanism:rotary_condensentrator',
+    'mekanism:chemical_infuser',
     'mekanism:solar_neutron_activator'
    ]
 	for (let i of mekMachines) { event.remove({ id: `${i}` }) }
@@ -354,7 +355,7 @@ event.custom({
       "item": "thermal:machine_press"
     },
     "F": {
-      "item": "mekanism:block_osmium"
+      "item": "kubejs:ultra_dense_block"
     }
   },
   "result": {
@@ -652,6 +653,494 @@ event.custom({
   })
   chemicalInfuse("cti:chromatic_metal",1,"cti:polymer",1,"cti:pure_matter",2)
   rotary("kubejs:pure_matter","cti:pure_matter")
+  oxidize("kubejs:gas_hydrate","cti:methane",250)
+
+  event.custom({
+  "type": "mekanism:reaction",
+  "duration": 50,
+  "energyRequired": 100000,
+  "fluidInput": {
+    "amount": 80,
+    "fluid": "kubejs:methane"
+  },
+  "gasInput": {
+    "amount": 100,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    }
+  },
+  "itemOutput": {
+    "item": "kubejs:graphene",
+    "count":2
+  }
+})
+
+  function chemicalCrystallize(gas,amount,output){
+    event.custom({
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": amount,
+    "gas": gas
+  },
+  "output": {
+    "item": output
+  }
+  })
+  }
+
+  chemicalCrystallize("cti:phenolic_resin",250,"immersiveengineering:plate_duroplast")
+
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHIJIHB",
+    "ADDKDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "tag": "kubejs:plastic_eq"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "J": {
+      "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "mekanism:personal_chest"
+    }
+  },
+  "result": {
+    "item": "mekanism:pressurized_reaction_chamber",
+    "count":4
+  }
+})
+
+
+
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHIJIHB",
+    "ADDGDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "tag": "kubejs:plastic_eq"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "J": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:rotary_condensentrator",
+    "count":4
+  }
+})
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHIJKHB",
+    "ADDGDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:block_fluorite"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "J": {
+      "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "mekanism:personal_chest"
+    }
+  },
+  "result": {
+    "item": "mekanism:chemical_crystallizer",
+    "count":4
+  }
+})
   
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHGIJHB",
+    "ADDKDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:steel_casing"
+    },
+    "J": {
+      "item": "mekanism:personal_chest"
+    },
+    "K": {
+      "item": "mekanism:block_fluorite"
+    }
+  },
+  "result": {
+    "item": "mekanism:chemical_dissolution_chamber",
+    "count":4
+  }
+})
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDDDDA",
+    "BGHIJGB",
+    "ADDDDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "H": {
+      "item": "mekanism:personal_chest"
+    },
+    "I": {
+      "item": "mekanism:steel_casing"
+    },
+    "J": {
+      "item": "mekanism:ultimate_chemical_tank"
+    }
+  },
+  "result": {
+    "item": "mekanism:chemical_oxidizer",
+    "count":4
+  }
+})
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHGIGHB",
+    "ADDDDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:chemical_infuser",
+    "count":4
+  }
+})
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHIJGHB",
+    "ADDDDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "J": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:chemical_washer",
+    "count":4
+  }
+})
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHIJIHB",
+    "ADDDDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanismgenerators:solar_panel"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "J": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:solar_neutron_activator",
+    "count":4
+  }
+})
+
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABAAA",
+    "ACDEDFA",
+    "ADDGDDA",
+    "BHIJIHB",
+    "ADDGDDA",
+    "AFDEDCA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "B": {
+      "item": "ae2:interface"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "thermal:invar_gear"
+    },
+    "G": {
+      "item": "mekanismgenerators:turbine_blade"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "I": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "J": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:isotopic_centrifuge",
+    "count":4
+  }
+})
   
 })

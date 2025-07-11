@@ -233,6 +233,9 @@ ServerEvents.tags('item', event => {
   for (let i of traits) {
     event.add('l2hostility:trait_item', `${i}`)
   }
+  //塑料相关
+  event.add('kubejs:plastic_eq','pneumaticcraft:plastic')
+  event.add('kubejs:plastic_eq','mekanism:hdpe_sheet')
 
 })
 //添加方块标签

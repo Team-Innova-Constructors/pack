@@ -310,4 +310,33 @@ ServerEvents.recipes(event => {
     ],
     "experience": 100
   })
+
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "kubejs:graphene",
+          "count":8
+        },
+        {
+          "item": "mekanism:hdpe_sheet",
+          "count":4
+        },
+        {
+          "item": "immersiveengineering:plate_duroplast",
+          "count":2
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:carbon_plate",
+        "count": 1
+      },
+      {
+        "item": "kubejs:carbon_plate",
+        "chance": 1
+      }
+    ],
+    "experience": 100
+  })
 })

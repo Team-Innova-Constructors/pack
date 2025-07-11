@@ -9,7 +9,7 @@
   ],
   "key": {
     "A": {
-      "tag": "forge:plates/steel"
+      "item": "thermal:steel_plate"
     },
     "B": {
       "item": "etshtinker:chroma_plate"

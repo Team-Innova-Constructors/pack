@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
                     "amount": 250
                 },
                 "result": "immersiveengineering:plate_duroplast",
-                "cooling_time": 10
+                "cooling_time": 5
             }
     )
     

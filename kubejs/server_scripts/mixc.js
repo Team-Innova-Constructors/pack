@@ -577,4 +577,16 @@ event.custom({
 })
    event.smithing('extendedcrafting:elite_table','extendedcrafting:advanced_table','mekanism:alloy_reinforced')
    event.smithing('extendedcrafting:ultimate_table','extendedcrafting:elite_table','mekanism:alloy_atomic')
+
+   event.shaped(Item.of('kubejs:pneumatic_shield', 1), [
+      ' C ',
+      'BBB',
+      ' A '
+   ],
+      {
+         C: 'pneumaticcraft:printed_circuit_board',
+         B: 'kubejs:carbon_plate',
+         A: 'pneumaticcraft:reinforced_air_canister'
+      }
+   )
 })
