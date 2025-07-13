@@ -262,9 +262,9 @@ ServerEvents.recipes(event => {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "AABAA",
-    "ACCCA",
-    "BCDCB",
-    "ACCCA",
+    "ACDCA",
+    "BDEDB",
+    "ACDCA",
     "AABAA"
   ],
   "key": {
@@ -279,6 +279,9 @@ ServerEvents.recipes(event => {
     },
     "D": {
       "item": "immersiveengineering:heavy_engineering"
+    },
+    "E":{
+      "item":"thermal:tin_gear"
     }
   },
   "result": {
@@ -289,7 +292,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.thermal.refinery([Fluid.of('kubejs:phenol',250),Fluid.of('kubejs:benzoic_acid',250)],Fluid.of('immersiveengineering:creosote',500))
   event.recipes.thermal.press([Fluid.of('immersiveengineering:ethanol',128),'mekanism:substrate'],'mekanism:bio_fuel')
-  event.recipes.thermal.crystallizer('kubejs:activated_matter_dust',[Fluid.of('kubejs:pure_matter',50),'ae2:singularity']).energy(2000)
+  event.recipes.thermal.crystallizer('kubejs:activated_matter_dust',[Fluid.of('kubejs:pure_matter',400),'ae2:singularity']).energy(2000)
   event.custom({
     "type": "thermal:smelter",
     "ingredient": [
@@ -338,5 +341,34 @@ ServerEvents.recipes(event => {
       }
     ],
     "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "kubejs:phoenix_ingot",
+          "count":1
+        },
+        {
+          "item": "kubejs:cnt",
+          "count":1
+        },
+        
+        {
+          "item": "kubejs:pyrocrystal",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:phoenix_ingot",
+        "count": 1
+      },
+      {
+        "item": "kubejs:disintegrate_crystal",
+        "chance": 1
+      }
+    ],
+    "experience": 10
   })
 })

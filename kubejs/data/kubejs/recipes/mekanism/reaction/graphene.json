@@ -7,7 +7,7 @@
   },
   "gasInput": {
     "amount": 50,
-    "gas": "mekanism:hydrogen"
+    "gas": "cti:methane"
   },
   "gasOutput": {
     "amount": 1000,

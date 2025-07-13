@@ -311,6 +311,7 @@ ServerEvents.tags('fluid', event => {
   event.remove('forge:kerosene', 'pneumaticcraft:kerosene')
   event.remove('forge:lubricant', 'pneumaticcraft:lubricant')
   event.remove('ad_astra_platform:biodiesel','pneumaticcraft:biodiesel')
+  event.remove('minecraft:water','ad_astra:cryo_fuel')
 
   event.add('cti:lava_heated', 'cti:lava_heated')
 
