@@ -24,4 +24,5 @@ StartupEvents.registry("block",event=>{
     event.create("block_yellow_cake_uranium","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
     event.create("pressurized_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
     event.create("aetheric_meteorite_ore","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.ANCIENT_DEBRIS)
+    event.create("reactor_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
 })

@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
       'A A'
    ],
       {
-         A: 'kubejs:atherium_alloy',
+         A: 'etshtinker:trinity_intereactive_alloy',
          C: 'kubejs:aetherium_core',
          B: 'mekanism:supercharged_coil',
       }

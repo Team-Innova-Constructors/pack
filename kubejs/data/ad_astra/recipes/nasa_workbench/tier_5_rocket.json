@@ -8,17 +8,12 @@
     },
     {
       "ingredient": {
-        "item": "kubejs:atherium_casing"
+        "item": "kubejs:reactor_casing"
       }
     },
     {
       "ingredient": {
-        "item": "kubejs:atherium_casing"
-      }
-    },
-    {
-      "ingredient": {
-        "item": "kubejs:electronium_block"
+        "item": "kubejs:reactor_casing"
       }
     },
     {
@@ -28,12 +23,17 @@
     },
     {
       "ingredient": {
-        "item": "kubejs:atherium_casing"
+        "item": "kubejs:electronium_block"
       }
     },
     {
       "ingredient": {
-        "item": "kubejs:atherium_casing"
+        "item": "kubejs:reactor_casing"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:reactor_casing"
       }
     },
     {

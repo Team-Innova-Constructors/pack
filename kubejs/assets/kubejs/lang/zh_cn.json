@@ -81,6 +81,7 @@
     "block.kubejs.stellar_stone_diamond_ore":"星海钻石矿",
     "block.kubejs.mercury_tungsten_ore":"水星钨矿石",
     "block.kubejs.mercury_orichalcum_ore":"水星山铜矿",
+    "block.kubejs.reactor_casing":"反应堆外壳",
 
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
     "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
@@ -215,6 +216,7 @@
     "gas.cti.polymer": "浓质高分子",
     "gas.cti.precursor": "前驱体",
     "gas.cti.pure_matter": "纯粹物质",
+    "gas.cti.concentrated_carbon": "浓化碳",
 
     "block.cti.ultra_dense_hydride_ore": "氢化超致密水晶矿",
 

@@ -1,12 +1,12 @@
 {
   "type": "mekanism:compressing",
   "chemicalInput": {
-    "amount": 9,
+    "amount": 18,
     "gas": "cti:neutron"
   },
   "itemInput": {
     "ingredient": {
-      "item": "kubejs:compressed_hardlead"
+      "item": "aether_redux:gravitite_ingot"
     }
   },
   "output": {

@@ -2,7 +2,7 @@
   "type": "mekanism:combining",
   "extraInput": {
     "ingredient": {
-      "item": "kubejs:atherium_casing"
+      "item": "kubejs:reactor_casing"
     }
   },
   "mainInput": {
