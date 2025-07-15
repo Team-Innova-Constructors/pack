@@ -121,7 +121,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_65m',2), [
 ],
 {
   A:'ae2:engineering_processor',
-  B: 'kubejs:atherium_alloy',
+  B: 'etshtinker:trinity_intereactive_alloy',
   C: 'ae2additions:super_cell_component_16m',
   D:'cti:rasterite'
 }

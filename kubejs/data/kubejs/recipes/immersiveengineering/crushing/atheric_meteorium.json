@@ -47,9 +47,9 @@
         }
       },
       {
-        "chance": 0.1,
+        "chance": 0.25,
         "output": {
-            "count": 1,
+            "count": 2,
           "item": "aether_redux:raw_gravitite"
         }
       },

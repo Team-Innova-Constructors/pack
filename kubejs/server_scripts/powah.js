@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','etshtinker:hardlead_plate')
     event.replaceInput({mod:'powah',output:'powah:capacitor_blazing'}, 'powah:dielectric_paste','kubejs:zirconium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_niotic'}, 'powah:dielectric_paste','kubejs:violium_alloy')
-    event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','kubejs:atherium_alloy')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','etshtinker:trinity_intereactive_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_nitro'}, 'powah:dielectric_paste','mekanism:pellet_plutonium')
 
     event.replaceInput({id:'powah:crafting/thermo_generator_basic'}, 'powah:dielectric_paste','kubejs:dielectric_paste_1')
@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:atherium_alloy',
+        A: 'etshtinker:trinity_intereactive_alloy',
         B: 'powah:capacitor_nitro',
         C: 'powah:uraninite'
       }

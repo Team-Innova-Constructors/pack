@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({id:'mekanism:boiler_casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({id:'mekanismgenerators:turbine/casing'}, '#forge:ingots/steel','kubejs:violium_alloy')
   event.replaceInput({id:'mekanism:structural_glass'}, '#forge:ingots/steel','kubejs:violium_alloy')
-  event.replaceInput({id:'mekanism:module_inhalation_purification_unit'}, 'mekanism:pellet_polonium','kubejs:atherium_alloy')
+  event.replaceInput({id:'mekanism:module_inhalation_purification_unit'}, 'mekanism:pellet_polonium','kubejs:violium_alloy')
 
   //阳清合金相关
   //阳清合金外壳
@@ -62,40 +62,39 @@ ServerEvents.recipes(event => {
   ],
   {
     A: 'kubejs:atherium_alloy',
-    B: 'kubejs:violium_casing',
+    B: 'kubejs:reactor_casing',
   }
   )
 
   //多方快结构方块
-  event.replaceInput({id:'mekanismgenerators:fission_reactor/control_rod_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
-  event.replaceInput({id:'mekanismgenerators:fission_reactor/fuel_assembly'}, '#forge:ingots/steel','kubejs:atherium_alloy')
-  event.replaceInput({id:'mekanismgenerators:reactor/frame'}, 'mekanism:steel_casing','kubejs:atherium_casing')
+  event.replaceInput({id:'mekanismgenerators:fission_reactor/control_rod_assembly'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanismgenerators:fission_reactor/fuel_assembly'}, '#forge:ingots/steel','kubejs:violium_alloy')
+  event.replaceInput({id:'mekanismgenerators:reactor/frame'}, 'mekanism:steel_casing','kubejs:reactor_casing')
   event.remove({id:'mekanismgenerators:fission_reactor/casing'})
   event.remove({id:'mekanismgenerators:reactor/glass'})
-  event.shaped(Item.of('mekanismgenerators:fission_reactor_casing',64), [
+  event.shaped(Item.of('mekanismgenerators:fission_reactor_casing',48), [
       ' A ',
       'ABA',
       ' A '
     ],
     {
       A: '#forge:ingots/lead',
-      B: 'kubejs:atherium_casing'
+      B: 'kubejs:reactor_casing'
     }
   )
-  event.shaped(Item.of('mekanismgenerators:reactor_glass',32), [
+  event.shaped(Item.of('mekanismgenerators:reactor_glass',16), [
     'CAC',
     'ABA',
     'CAC'
   ],
   {
     B: 'ae2:quartz_glass',
-    A: 'kubejs:atherium_casing',
+    A: 'kubejs:reactor_casing',
     C: 'thermal:obsidian_glass'
   }
 )
   //数采和电板
   event.remove([{id:'mekaevolution:supreme_control_circuit' }])
-  event.remove([{id:'mekanism:control_circuit/elite' }])
   event.remove([{id:'mekaevolution:absolute_control_circuit' }])
   event.remove([{id:'mekaevolution:cosmic_control_circuit' }])
   event.remove({id:'mekanismgenerators:rotary/fusion_fuel'})
@@ -106,26 +105,26 @@ ServerEvents.recipes(event => {
 
   //绝对电板
   event.shaped(Item.of('mekaevolution:absolute_control_circuit',1), [
-    ' L ',
-    'MNM',
-    ' L '
+    'ALA',
+    'M M',
+    'ALA'
   ],
   {
     L: 'kubejs:zirconium_alloy',
-    M: 'etshtinker:os_induced_netherstarshard',
-    N: 'mekanism:ultimate_control_circuit'
+    M: 'solidarytinker:extremelycoldsteel_ingot',
+    A: 'mekanism:ultimate_control_circuit'
   }
 )
   //至尊电板
   event.shaped(Item.of('mekaevolution:supreme_control_circuit',1), [
-      ' L ',
-      'MNM',
-      ' L '
+      'ALA',
+      'M M',
+      'ALA'
     ],
     {
       L: 'kubejs:tungsten_steel_ingot',
-      M: '#forge:nuggets/ultra_dense',
-      N: 'mekaevolution:absolute_control_circuit'
+      M: 'etshtinker:os_induced_netherstarshard',
+      A: 'mekaevolution:absolute_control_circuit'
     }
   )
   event.shaped(Item.of('mekanism:module_gravitational_modulating_unit',1), [
@@ -143,14 +142,14 @@ ServerEvents.recipes(event => {
 )
   //寰宇
   event.shaped(Item.of('mekaevolution:cosmic_control_circuit',1), [
-    ' L ',
-    'MNM',
-    ' L '
+    'ALA',
+    'M M',
+    'ALA'
   ],
   {
-    L: 'kubejs:atherium_casing',
+    L: 'kubejs:reactor_casing',
     M: 'kubejs:violium_alloy',
-    N: 'mekaevolution:supreme_control_circuit'
+    A: 'mekaevolution:supreme_control_circuit'
   }
 )
 event.shapeless('kubejs:block_enriched_refined_glowstone', '9x kubejs:enriched_refined_glowstone')
@@ -191,7 +190,7 @@ event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:s
       'CCC'
    ],
       {
-         A: 'kubejs:atherium_alloy',
+         A: 'kubejs:violium_alloy',
          B: 'mekanism:module_base',
          C: 'mekaevolution:cosmic_control_circuit',
          D: 'mekanism:ultimate_induction_cell'
@@ -708,7 +707,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -762,7 +761,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -810,7 +809,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -862,7 +861,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -914,7 +913,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -963,7 +962,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -1009,7 +1008,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -1058,7 +1057,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -1079,7 +1078,7 @@ event.custom({
       "item": "mekanismgenerators:solar_panel"
     },
     "H": {
-      "item": "mekanism:ultimate_control_circuit"
+      "item": "mekaevolution:absolute_control_circuit"
     },
     "I": {
       "item": "mekanism:ultimate_chemical_tank"
@@ -1107,7 +1106,7 @@ event.custom({
   ],
   "key": {
     "A": {
-      "item": "etshtinker:hardlead_plate"
+      "item": "kubejs:compressed_hardlead"
     },
     "B": {
       "item": "ae2:interface"
@@ -1128,7 +1127,7 @@ event.custom({
       "item": "mekanismgenerators:turbine_blade"
     },
     "H": {
-      "item": "mekanism:ultimate_control_circuit"
+      "item": "mekaevolution:supreme_control_circuit"
     },
     "I": {
       "item": "mekanism:ultimate_chemical_tank"
@@ -1142,5 +1141,106 @@ event.custom({
     "count":4
   }
 })
-  
+
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "etshtinker:trinity_intereactive_alloy",
+          "count":4
+        },
+        {
+          "item": "avaritia:neutron_ingot",
+          "count":8
+        },
+        {
+          "item": "kubejs:violium_casing",
+          "count":8
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:reactor_casing",
+        "count": 4
+      },
+      {
+        "item": "kubejs:reactor_casing",
+        "chance": 4
+      }
+    ],
+    "experience": 2
+  })
+
+  oxidize("aether:ambrosium_shard","cti:concentrated_carbon",100)
+  event.custom({
+  "type": "mekanism:reaction",
+  "duration": 50,
+  "energyRequired": 100000,
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "mekanism:hydrogen"
+  },
+  "gasInput": {
+    "amount": 200,
+    "gas": "cti:concentrated_carbon"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:carbon_plate"
+    }
+  },
+  "itemOutput": {
+    "item": "kubejs:cnt",
+    "count":4
+  }
+})
+
+event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "etshtinker:anti_neutronium",
+          "count":1
+        },
+        {
+          "item": "kubejs:violium_alloy",
+          "count":4
+        },
+        {
+          "item": "mekanism:alloy_atomic",
+          "count":16
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:atherium_alloy",
+        "count": 2
+      },
+      {
+        "item": "kubejs:atherium_alloy",
+        "chance": 2
+      }
+    ],
+    "experience": 2
+  })
+
+  function electrolysis(fluid,amountFluid,gasRe,amountRe,gasOx,amountOx){
+    event.custom({
+  "type": "mekanism:separating",
+  "input": {
+    "amount": amountFluid,
+    "fluid": fluid
+  },
+  "leftGasOutput": {
+    "amount": amountRe,
+    "gas": gasRe
+  },
+  "rightGasOutput": {
+    "amount": amountOx,
+    "gas": gasOx
+  }
+  })
+  }
+
+  electrolysis("ad_astra:cryo_fuel",10,"cti:methane",4,"mekanism:oxygen",6)
 })

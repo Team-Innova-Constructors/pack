@@ -2,11 +2,19 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
+      "name": "cti:refined",
+      "level": 1
+    },
+      {
         "name": "tinkers_ingenuity:puncture",
         "level": 1
       }
     ],
     "tconstruct:ranged": [
+      {
+      "name": "cti:refined",
+      "level": 1
+    },
       {
         "name": "tinkers_ingenuity:puncture",
         "level": 1
@@ -14,11 +22,19 @@
     ],
     "tconstruct:armor": [
       {
+      "name": "cti:refined",
+      "level": 2
+    },
+      {
         "name": "cti:cripplesuppermass",
         "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
+      {
+      "name": "cti:refined",
+      "level": 1
+    },
       {
         "name": "tinkers_ingenuity:puncture",
         "level": 1

@@ -1,7 +1,7 @@
 {
   "type": "mekanism:compressing",
   "chemicalInput": {
-    "amount": 1,
+    "amount": 4,
     "gas": "cti:neutron"
   },
   "itemInput": {

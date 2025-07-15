@@ -6,7 +6,7 @@
     },
     {
       "name": "cti:refined",
-      "level": 1
+      "level": 2
     },
     {
       "name": "etshtinker:fluxloaded",
@@ -16,12 +16,12 @@
   "perStat" : {
     "tconstruct:armor": [
       {
-        "name": "etshtinker:extradense_armor",
+        "name": "cti:piercing_immune",
         "level": 1
       },
       {
         "name": "cti:refined",
-        "level": 1
+        "level": 3
       },
       {
         "name": "etshtinker:fluxloaded",

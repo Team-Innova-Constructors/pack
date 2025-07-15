@@ -39,4 +39,6 @@ ServerEvents.recipes(event => {
     "block": "aether:icestone"
   }
 })
+
+  event.replaceInput({id:'pneumaticcraft:refinery_output'},'forge:gems/diamond','kubejs:pressurized_casing')
 })

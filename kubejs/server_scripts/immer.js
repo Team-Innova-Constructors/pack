@@ -116,4 +116,7 @@ event.custom({
   }
 })
 
+  event.replaceInput({id:'immersiveengineering:crafting/rs_engineering'},'#forge:ingots/copper','create:copper_casing')
+  event.replaceInput({id:'immersiveengineering:crafting/light_engineering'},'#forge:ingots/copper','create:andesite_casing')
+  event.replaceInput({id:'immersiveengineering:crafting/heavy_engineering'},'#forge:ingots/electrum','create:brass_casing')
 })

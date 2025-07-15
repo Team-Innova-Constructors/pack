@@ -249,9 +249,9 @@ ServerEvents.recipes(event => {
   ]
   )
   event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of('kubejs:zirconium_fluid',90),'thermal:chiller_ingot_cast'])
-  event.recipes.thermal.crystallizer('16x mekanism:alloy_infused',[Fluid.of('kubejs:redstone_additive',250),'16x minecraft:iron_ingot'])
-  event.recipes.thermal.crystallizer('16x mekanism:alloy_reinforced',[Fluid.of('kubejs:diamond_additive',250),'16x mekanism:alloy_infused'])
-  event.recipes.thermal.crystallizer('16x mekanism:alloy_atomic',[Fluid.of('kubejs:obsidian_additive',250),'16x mekanism:alloy_reinforced'])
+  event.recipes.thermal.crystallizer('16x mekanism:alloy_infused',[Fluid.of('kubejs:redstone_additive',250),'16x minecraft:iron_ingot']).energy(200)
+  event.recipes.thermal.crystallizer('16x mekanism:alloy_reinforced',[Fluid.of('kubejs:diamond_additive',250),'16x mekanism:alloy_infused']).energy(200)
+  event.recipes.thermal.crystallizer('16x mekanism:alloy_atomic',[Fluid.of('kubejs:obsidian_additive',250),'16x mekanism:alloy_reinforced']).energy(200)
   event.recipes.thermal.pulverizer('mekanism:dust_coal','minecraft:coal')
   event.recipes.thermal.pulverizer('4x create:powdered_obsidian','minecraft:obsidian')
   event.recipes.thermal.pulverizer('mekanism:dust_osmium','mekanism:ingot_osmium')
@@ -261,9 +261,9 @@ ServerEvents.recipes(event => {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "AABAA",
-    "ACCCA",
-    "BCDCB",
-    "ACCCA",
+    "ACDCA",
+    "BDEDB",
+    "ACDCA",
     "AABAA"
   ],
   "key": {
@@ -278,6 +278,9 @@ ServerEvents.recipes(event => {
     },
     "D": {
       "item": "immersiveengineering:heavy_engineering"
+    },
+    "E":{
+      "item":"thermal:tin_gear"
     }
   },
   "result": {
@@ -288,7 +291,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.thermal.refinery([Fluid.of('kubejs:phenol',250),Fluid.of('kubejs:benzoic_acid',250)],Fluid.of('immersiveengineering:creosote',500))
   event.recipes.thermal.press([Fluid.of('immersiveengineering:ethanol',128),'mekanism:substrate'],'mekanism:bio_fuel')
-  event.recipes.thermal.crystallizer('kubejs:activated_matter_dust',[Fluid.of('kubejs:pure_matter',50),'ae2:singularity'])
+  event.recipes.thermal.crystallizer('kubejs:activated_matter_dust',[Fluid.of('kubejs:pure_matter',400),'ae2:singularity']).energy(2000)
   event.custom({
     "type": "thermal:smelter",
     "ingredient": [
@@ -337,5 +340,34 @@ ServerEvents.recipes(event => {
       }
     ],
     "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "kubejs:phoenix_ingot",
+          "count":1
+        },
+        {
+          "item": "kubejs:cnt",
+          "count":1
+        },
+        
+        {
+          "item": "kubejs:pyrocrystal",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:phoenix_ingot",
+        "count": 1
+      },
+      {
+        "item": "kubejs:disintegrate_crystal",
+        "chance": 1
+      }
+    ],
+    "experience": 10
   })
 })

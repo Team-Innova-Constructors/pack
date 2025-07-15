@@ -6,8 +6,8 @@
       "fluid": "mekanism:hydrogen"
     },
     "gasInput": {
-      "amount": 10,
-      "gas": "mekanism:polonium"
+      "amount": 1000,
+      "gas": "mekanism:antimatter"
     },
     "gasOutput": {
       "amount": 1000,
@@ -19,7 +19,7 @@
       }
     },
     "itemOutput": {
-      "count": 64,
+      "count": 32,
       "item": "kubejs:atherium_alloy"
     }
   }
