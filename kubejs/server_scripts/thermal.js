@@ -63,10 +63,13 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(7950000)
 //有机灌注器
   event.recipes.thermal.insolator(['thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5),Item.of('4x ars_nouveau:bastion_pod').withChance(0.25)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:green_archwood_log',Item.of('ars_nouveau:green_archwood_sapling').withChance(1.5),Item.of('4x ars_nouveau:mendosteen_pod').withChance(0.25)],'ars_nouveau:green_archwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:blue_archwood_log',Item.of('ars_nouveau:blue_archwood_sapling').withChance(1.5),Item.of('4x ars_nouveau:frostaya_pod').withChance(0.25)],'ars_nouveau:blue_archwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:red_archwood_log',Item.of('ars_nouveau:red_archwood_sapling').withChance(1.5),Item.of('4x ars_nouveau:bombegranate_pod').withChance(0.25)],'ars_nouveau:red_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bastion_pod').withChance(0.25)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:green_archwood_log',Item.of('ars_nouveau:green_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:mendosteen_pod').withChance(0.25)],'ars_nouveau:green_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:blue_archwood_log',Item.of('ars_nouveau:blue_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:frostaya_pod').withChance(0.25)],'ars_nouveau:blue_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:red_archwood_log',Item.of('ars_nouveau:red_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bombegranate_pod').withChance(0.25)],'ars_nouveau:red_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans',Item.of('tofucraft:seeds_soybeans').withChance(1.1)],'tofucraft:seeds_soybeans').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_nether',Item.of('tofucraft:seeds_soybeans_nether').withChance(0.5)],'tofucraft:seeds_soybeans_nether').water(10000).energy(120000)
+  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_soul',Item.of('tofucraft:seeds_soybeans_soul').withChance(0.1)],'tofucraft:seeds_soybeans_soul').water(10000).energy(120000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)
   event.recipes.thermal.chiller(Item.of('pneumaticcraft:plastic'), Fluid.of('pneumaticcraft:plastic', 1000)).energy(2000)
