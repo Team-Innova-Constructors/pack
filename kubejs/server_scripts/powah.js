@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
         {
           A: 'kubejs:core_harden',
           B: 'powah:solar_panel_basic',
-          C: 'avaritia:neutron_ingot'
+          C: 'immersiveengineering:plate_duroplast'
         }
         )
     event.shaped(
