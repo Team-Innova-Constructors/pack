@@ -201,6 +201,7 @@ event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:s
    let mekMachines = [
     'mekanism:enrichment_chamber',
     'mekanism:osmium_compressor',
+    'mekanism:precision_sawmill',
     'mekanism:combiner',
     'mekanism:crusher',
     'mekanism:metallurgic_infuser',
@@ -618,7 +619,7 @@ event.custom({
   event.custom({
   "type": "mekanism:dissolution",
   "gasInput": {
-    "amount": 2,
+    "amount": 4,
     "gas": "cti:precursor"
   },
   "itemInput": {
@@ -627,7 +628,7 @@ event.custom({
     }
   },
   "output": {
-    "amount": 200,
+    "amount": 1600,
     "chemicalType": "gas",
     "gas": "cti:chromatic_metal"
   }
@@ -636,7 +637,7 @@ event.custom({
   event.custom({
   "type": "mekanism:dissolution",
   "gasInput": {
-    "amount": 2,
+    "amount": 4,
     "gas": "cti:precursor"
   },
   "itemInput": {
@@ -645,7 +646,7 @@ event.custom({
     }
   },
   "output": {
-    "amount": 200,
+    "amount": 1600,
     "chemicalType": "gas",
     "gas": "cti:polymer"
   }
@@ -1171,7 +1172,7 @@ event.custom({
     "experience": 2
   })
 
-  oxidize("aether:ambrosium_shard","cti:concentrated_carbon",100)
+  oxidize("aether:ambrosium_shard","cti:concentrated_carbon",250)
   event.custom({
   "type": "mekanism:reaction",
   "duration": 50,
@@ -1243,4 +1244,6 @@ event.custom({
   }
 
   electrolysis("ad_astra:cryo_fuel",10,"cti:methane",4,"mekanism:oxygen",6)
+  event.replaceInput({id:'mekanism:modification_station'},'mekanism:steel_casing','kubejs:reactor_casing')
+  event.replaceInput({id:'mekanism:antiprotonic_nucleosynthesizer'},'mekanism:steel_casing','kubejs:reactor_casing')
 })

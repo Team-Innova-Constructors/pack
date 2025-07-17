@@ -354,6 +354,10 @@
     "material.kubejs.refined_sentrite.flavor": "哨石中的精华组分",
     "material.kubejs.refined_sentrite.encyclopedia": "比钢更坚韧，可惜由于硬度不够而不能用于打造武器。",
 
+    "material.kubejs.carbon_plate": "碳复合板",
+    "material.kubejs.carbon_plate.flavor": "轻便且坚韧的材料",
+    "material.kubejs.carbon_plate.encyclopedia": "由碳纤维与坚固的树脂结合形成的复合材料，难以被生命体代谢。",
+
 
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
@@ -386,11 +390,11 @@
     "item.kubejs.radient_engine": "光耀引擎",
 
     "item.aether_redux.raw_gravitite": "粗重力晶",
-  "item.aether_redux.raw_veridium": "粗实金",
-  "item.aether_redux.refined_sentrite": "精炼哨石",
-  "item.aether_redux.sentry_chip": "哨卫石AI芯片",
-  "item.aether_redux.gravitite_ingot": "小块重力晶",
-   "item.aether_redux.veridium_ingot": "实金锭",
+    "item.aether_redux.raw_veridium": "粗实金",
+    "item.aether_redux.refined_sentrite": "精炼哨石",
+    "item.aether_redux.sentry_chip": "哨卫石AI芯片",
+    "item.aether_redux.gravitite_ingot": "小块重力晶",
+    "item.aether_redux.veridium_ingot": "实金锭",
 
     "item.kubejs.carbon_plate": "碳复合板",
     "item.kubejs.pneumatic_shield": "压强抵抗装置",
@@ -413,12 +417,12 @@
 
     "gui.aether_redux.airbound_cape_jump_boost": "获得二段跳的能力",
     "gui.aether_redux.bittersweet_charm_poison_chance": "近战攻击有10%概率施加毒",
-  "gui.aether_redux.cockatrice_feather_protection": "提供对瘟疫植物的保护",
-  "gui.aether_redux.feather_of_warding_immunity": "对醺毒免疫并提供对瘟疫植物的保护",
-  "gui.aether_redux.sentry_ring_embers": "近战攻击释放滞留的余烬（注：慎用，非常卡！）",
-  "gui.aether_redux.shroom_ring_adrenaline": "低血量下受到伤害时获得肾上腺素效果，获得属性加成，但是在一段时间后获得负面效果。",
-  "gui.aether_redux.solar_emblem_fireball": "按 [%s] 释放火球",
-  "gui.aether_redux.vampire_amulet_day_debuff": "白天时受到伤害增加",
-  "gui.aether_redux.vampire_amulet_night_ability": "在佩戴超过一个主世界日后，增加伤害吸收量。",
-  "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成"
+    "gui.aether_redux.cockatrice_feather_protection": "提供对瘟疫植物的保护",
+    "gui.aether_redux.feather_of_warding_immunity": "对醺毒免疫并提供对瘟疫植物的保护",
+    "gui.aether_redux.sentry_ring_embers": "近战攻击释放滞留的余烬（注：慎用，非常卡！）",
+    "gui.aether_redux.shroom_ring_adrenaline": "低血量下受到伤害时获得肾上腺素效果，获得属性加成，但是在一段时间后获得负面效果。",
+    "gui.aether_redux.solar_emblem_fireball": "按 [%s] 释放火球",
+    "gui.aether_redux.vampire_amulet_day_debuff": "白天时受到伤害增加",
+    "gui.aether_redux.vampire_amulet_night_ability": "在佩戴超过一个主世界日后，增加伤害吸收量。",
+    "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成"
 }

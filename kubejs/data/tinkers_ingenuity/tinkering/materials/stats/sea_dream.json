@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.15,
+      "mining_speed": -0.2,
+      "melee_speed": 0.35,
+      "melee_damage": -0.15
+    },
+    "tconstruct:head": {
+      "durability": 1560,
+      "mining_speed": 6.5,
+      "mining_tier": "tinkers_ingenuity:sea_dream",
+      "melee_attack": 7.45
+    },
+    "tconstruct:limb": {
+      "durability": 1460,
+      "draw_speed": 0.4,
+      "velocity": 0.1,
+      "accuracy": 0.5
+    },
+    "tconstruct:grip": {
+      "durability": 0.05,
+      "accuracy": 0.3,
+      "melee_damage": 7.2
+    },
+    "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 30000,
+      "durability": 0.2
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 35,
+      "cooldown": 0.2
+    },
+    "tinkers_ingenuity:curio_extra": {},
+    "tinkers_ingenuity:curio_main": {
+      "movement_speed": 0.1,
+      "armor": 0.65,
+      "toughness": 0.35,
+      "attack": 0.75,
+      "arrow_damage": 0.5
+    }
+  }
+}

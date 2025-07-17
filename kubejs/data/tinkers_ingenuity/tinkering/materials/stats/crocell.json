@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.02,
+      "mining_speed": 0.1,
+      "melee_speed": -0.15,
+      "melee_damage": 0.1
+    },
+    "tconstruct:head": {
+      "durability": 1245,
+      "mining_speed": 6.5,
+      "mining_tier": "minecraft:diamond",
+      "melee_attack": 3.85
+    },
+    "tconstruct:limb": {
+      "durability": 1195,
+      "draw_speed": 0.45,
+      "velocity": 0.05,
+      "accuracy": 0.25
+    },
+    "tconstruct:grip": {
+      "durability": -0.1,
+      "accuracy": 0.2,
+      "melee_damage": 3.8
+    },
+    "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 21000,
+      "durability": -0.15
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 24,
+      "cooldown": 0.6
+    },
+    "tinkers_ingenuity:curio_extra": {},
+    "tinkers_ingenuity:curio_main": {
+      "movement_speed": 0.05,
+      "armor": 0.5,
+      "toughness": 0.25,
+      "attack": 0.45,
+      "arrow_damage": 0.21
+    }
+  }
+}
