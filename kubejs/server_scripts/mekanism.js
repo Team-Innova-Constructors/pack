@@ -201,6 +201,7 @@ event.recipes.mekanismEnriching("2x kubejs:block_yellow_cake_uranium", '#forge:s
    let mekMachines = [
     'mekanism:enrichment_chamber',
     'mekanism:osmium_compressor',
+    'mekanism:precision_sawmill',
     'mekanism:combiner',
     'mekanism:crusher',
     'mekanism:metallurgic_infuser',
@@ -601,7 +602,7 @@ event.custom({
   "type": "mekanism:dissolution",
   "gasInput": {
     "amount": 2,
-    "gas": "mekanism:sulfuric_acid"
+    "gas": "mekanism:hydrofluoric_acid"
   },
   "itemInput": {
     "ingredient": {
@@ -618,7 +619,7 @@ event.custom({
   event.custom({
   "type": "mekanism:dissolution",
   "gasInput": {
-    "amount": 2,
+    "amount": 4,
     "gas": "cti:precursor"
   },
   "itemInput": {
@@ -627,7 +628,7 @@ event.custom({
     }
   },
   "output": {
-    "amount": 200,
+    "amount": 1600,
     "chemicalType": "gas",
     "gas": "cti:chromatic_metal"
   }
@@ -636,7 +637,7 @@ event.custom({
   event.custom({
   "type": "mekanism:dissolution",
   "gasInput": {
-    "amount": 2,
+    "amount": 4,
     "gas": "cti:precursor"
   },
   "itemInput": {
@@ -645,7 +646,7 @@ event.custom({
     }
   },
   "output": {
-    "amount": 200,
+    "amount": 1600,
     "chemicalType": "gas",
     "gas": "cti:polymer"
   }
@@ -699,9 +700,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHIJIHB",
-    "ADDKDDA",
+    "ADLKLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -738,6 +739,9 @@ event.custom({
     },
     "K": {
       "item": "mekanism:personal_chest"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -753,9 +757,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHIJIHB",
-    "ADDGDDA",
+    "ADLGLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -789,6 +793,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -801,9 +808,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHIJKHB",
-    "ADDGDDA",
+    "ADLGLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -840,6 +847,9 @@ event.custom({
     },
     "K": {
       "item": "mekanism:personal_chest"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -853,9 +863,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHGIJHB",
-    "ADDKDDA",
+    "ADLKLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -892,6 +902,9 @@ event.custom({
     },
     "K": {
       "item": "mekanism:block_fluorite"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -905,9 +918,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDDDDA",
+    "ADKDKDA",
     "BGHIJGB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -941,6 +954,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:ultimate_chemical_tank"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -954,9 +970,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHGIGHB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -987,6 +1003,9 @@ event.custom({
     },
     "I": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1000,9 +1019,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHIJGHB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -1036,6 +1055,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1049,9 +1071,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHIJIHB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -1085,6 +1107,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1098,9 +1123,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHIJIHB",
-    "ADDGDDA",
+    "ADKGKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -1134,6 +1159,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1150,7 +1178,7 @@ event.custom({
           "count":4
         },
         {
-          "item": "avaritia:neutron_ingot",
+          "item": "kubejs:overchargedultradense",
           "count":8
         },
         {
@@ -1171,7 +1199,7 @@ event.custom({
     "experience": 2
   })
 
-  oxidize("aether:ambrosium_shard","cti:concentrated_carbon",100)
+  oxidize("aether:ambrosium_shard","cti:concentrated_carbon",250)
   event.custom({
   "type": "mekanism:reaction",
   "duration": 50,
@@ -1243,4 +1271,6 @@ event.custom({
   }
 
   electrolysis("ad_astra:cryo_fuel",10,"cti:methane",4,"mekanism:oxygen",6)
+  event.replaceInput({id:'mekanism:modification_station'},'mekanism:steel_casing','kubejs:reactor_casing')
+  event.replaceInput({id:'mekanism:antiprotonic_nucleosynthesizer'},'mekanism:steel_casing','kubejs:reactor_casing')
 })

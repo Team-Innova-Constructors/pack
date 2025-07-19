@@ -5,6 +5,10 @@
       "name": "cti:refined",
       "level": 1
     },
+    {
+      "name": "cti:neutron_collect",
+      "level": 1
+    },
       {
         "name": "tinkers_ingenuity:puncture",
         "level": 1
@@ -23,7 +27,7 @@
     "tconstruct:armor": [
       {
       "name": "cti:refined",
-      "level": 2
+      "level": 1
     },
       {
         "name": "cti:cripplesuppermass",

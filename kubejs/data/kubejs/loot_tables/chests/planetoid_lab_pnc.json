@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "pneumaticcraft:reinforced_pressure_tube",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "pneumaticcraft:pressure_chamber_wall",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "pneumaticcraft:compressed_iron_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "pneumaticcraft:speed_upgrade",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "sfm:cable",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:spawner_core",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:empty_spawner",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:heat_frame",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:spawner_agitator",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:aerial_interface",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:assembly_program_drill_laser",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 14.0,
+        "min": 6.0
+      }
+    }
+  ]
+}

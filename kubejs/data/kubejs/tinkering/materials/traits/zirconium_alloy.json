@@ -5,6 +5,10 @@
       "name": "cti:pressure_loaded"
     },
     {
+      "name": "cti:industrial",
+      "level": 1
+    },
+    {
       "name": "tinkers_ingenuity:laceration",
       "level": 1
     }
@@ -16,8 +20,12 @@
         "name": "cti:pressure_loaded"
       },
       {
-        "name": "etshtinker:solidified",
+        "name": "cti:industrial",
         "level": 1
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 2
       }
     ]
   }
