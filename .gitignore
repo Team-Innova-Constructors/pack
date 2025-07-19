@@ -73,3 +73,4 @@ servers.dat_old
 /.abnormal
 *.disabled
 TrashSlotSaveState.json
+/fancymenu_data/last_world.fmdata
