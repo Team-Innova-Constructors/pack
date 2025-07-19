@@ -602,7 +602,7 @@ event.custom({
   "type": "mekanism:dissolution",
   "gasInput": {
     "amount": 2,
-    "gas": "mekanism:sulfuric_acid"
+    "gas": "mekanism:hydrofluoric_acid"
   },
   "itemInput": {
     "ingredient": {
@@ -700,9 +700,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHIJIHB",
-    "ADDKDDA",
+    "ADLKLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -739,6 +739,9 @@ event.custom({
     },
     "K": {
       "item": "mekanism:personal_chest"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -754,9 +757,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHIJIHB",
-    "ADDGDDA",
+    "ADLGLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -790,6 +793,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -802,9 +808,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHIJKHB",
-    "ADDGDDA",
+    "ADLGLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -841,6 +847,9 @@ event.custom({
     },
     "K": {
       "item": "mekanism:personal_chest"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -854,9 +863,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADLGLDA",
     "BHGIJHB",
-    "ADDKDDA",
+    "ADLKLDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -893,6 +902,9 @@ event.custom({
     },
     "K": {
       "item": "mekanism:block_fluorite"
+    },
+    "L": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -906,9 +918,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDDDDA",
+    "ADKDKDA",
     "BGHIJGB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -942,6 +954,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:ultimate_chemical_tank"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -955,9 +970,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHGIGHB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -988,6 +1003,9 @@ event.custom({
     },
     "I": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1001,9 +1019,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHIJGHB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -1037,6 +1055,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1050,9 +1071,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHIJIHB",
-    "ADDDDDA",
+    "ADKDKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -1086,6 +1107,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1099,9 +1123,9 @@ event.custom({
   "pattern": [
     "AAABAAA",
     "ACDEDFA",
-    "ADDGDDA",
+    "ADKGKDA",
     "BHIJIHB",
-    "ADDGDDA",
+    "ADKGKDA",
     "AFDEDCA",
     "AAABAAA"
   ],
@@ -1135,6 +1159,9 @@ event.custom({
     },
     "J": {
       "item": "mekanism:steel_casing"
+    },
+    "K": {
+      "item": "immersiveengineering:plate_duroplast"
     }
   },
   "result": {
@@ -1151,7 +1178,7 @@ event.custom({
           "count":4
         },
         {
-          "item": "avaritia:neutron_ingot",
+          "item": "kubejs:overchargedultradense",
           "count":8
         },
         {

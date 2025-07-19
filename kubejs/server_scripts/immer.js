@@ -3,8 +3,8 @@ ServerEvents.recipes(event => {
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo').time(24000)
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo_nether').time(36000)
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo_end').time(48000)
-  event.recipes.immersiveengineeringBlastFurnace('thermal:steel_ingot','minecraft:iron_ingot','immersiveengineering:slag').time(400)
-  event.recipes.immersiveengineeringBlastFurnace('immersiveengineering:storage_steel','minecraft:iron_block','9x immersiveengineering:slag').time(3600)
+  event.recipes.immersiveengineeringBlastFurnace('thermal:steel_ingot','minecraft:iron_ingot','immersiveengineering:slag').time(600)
+  event.recipes.immersiveengineeringBlastFurnace('immersiveengineering:storage_steel','minecraft:iron_block','9x immersiveengineering:slag').time(5000)
   event.custom({
   "type": "immersiveengineering:mixer",
   "energy": 3200,

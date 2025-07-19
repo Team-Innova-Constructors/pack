@@ -139,5 +139,17 @@ ServerEvents.recipes(
             },
             result: {item: 'kubejs:neutronium_singularity_press'}
         })
+        event.remove({id:'avaritia:diamond_lattice'})
+        event.shaped('avaritia:diamond_lattice', [
+      'BCB',
+      'CAC',
+      'BCB'
+    ],
+    {
+      A: 'minecraft:netherite_scrap',
+      B: 'minecraft:diamond',
+      C: 'avaritia:neutron_ingot'
+    }
+  )
     }
 )

@@ -9,6 +9,10 @@
         "level": 4
       },
       {
+        "name": "cti:industrial",
+        "level": 1
+      },
+      {
         "level": 1,
         "name": "cti:double_edged"
       }
@@ -22,6 +26,10 @@
         {
           "name": "etshtinker:solidified",
           "level": 3
+        },
+        {
+          "name": "cti:industrial",
+          "level": 1
         },
         {
             "name": "tinkers_ingenuity:second_wind",

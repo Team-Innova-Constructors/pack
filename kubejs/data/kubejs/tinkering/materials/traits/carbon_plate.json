@@ -5,6 +5,10 @@
         "name": "cti:pressure_loaded"
       },
       {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
         "name": "cti:carcinogenic",
         "level": 1
       }
@@ -14,6 +18,10 @@
         {
           "level": 4,
           "name": "cti:pressure_loaded"
+        },
+        {
+          "name": "cti:industrial",
+          "level": 2
         },
         {
           "name": "cti:piercing_immune",
