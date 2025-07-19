@@ -62,7 +62,6 @@ LootJS.modifiers(event => {
     addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
-    addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
 
 
     //根据战利品表ID增加战利品,可以用指令/loot来查看精确ID

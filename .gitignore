@@ -72,4 +72,5 @@ servers.dat_old
 /Package.BakaCoreInfo
 /.abnormal
 *.disabled
+/fancymenu_data/last_world.fmdata
 TrashSlotSaveState.json
