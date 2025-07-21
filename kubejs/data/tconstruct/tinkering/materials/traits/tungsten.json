@@ -1,0 +1,38 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:sharpweight"
+    }
+  ],
+    "perStat": {
+    "tconstruct:shield_core": [
+      {
+        "level": 1,
+        "name": "tconstruct:sharpweight"
+      },
+      {
+        "level": 1,
+        "name": "cti:stable_step"
+      },
+      {
+          "name": "cti:industrial_armor",
+          "level": 2
+        }
+    ],
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tconstruct:sharpweight"
+      },
+      {
+        "level": 1,
+        "name": "cti:stable_step"
+      },
+      {
+          "name": "cti:industrial_armor",
+          "level": 2
+        }
+    ]
+  }
+}

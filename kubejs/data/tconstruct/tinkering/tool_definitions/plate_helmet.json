@@ -5,7 +5,7 @@
       "parts": [
         {
           "item": "tconstruct:helmet_plating",
-          "scale": 1.5
+          "scale": 2
         },
         "tconstruct:maille"
       ],

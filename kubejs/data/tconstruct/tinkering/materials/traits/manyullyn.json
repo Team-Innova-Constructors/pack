@@ -12,13 +12,41 @@
   "perStat": {
   "tconstruct:armor": [
     {
-      "level": 1,
+      "level": 2,
       "name": "tconstruct:kinetic"
     },
     {
       "level": 1,
       "name": "cti:stress"
     }
-  ]
+  ],
+  "tconstruct:shield_core": [
+      {
+      "level": 3,
+      "name": "tconstruct:kinetic"
+    },
+    {
+      "level": 2,
+      "name": "cti:stress"
+    },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+      "level": 3,
+      "name": "tconstruct:kinetic"
+    },
+    {
+      "level": 2,
+      "name": "cti:stress"
+    },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ]
 }
 }

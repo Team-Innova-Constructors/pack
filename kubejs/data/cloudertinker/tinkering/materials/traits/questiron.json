@@ -1,0 +1,136 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:crumblehorn",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:crumblehorn",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:crumblehorn",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:crumblehorn",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:crumblehorn",
+        "level": 1
+      }
+    ],
+
+    "tconstruct:plating_helmet": [
+
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:questprotect",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:questprotect",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:questprotect",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:questprotect",
+        "level": 1
+      }
+    ],
+    "tconstruct:shield_core": [
+
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:questprotect",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:anti_curse"
+      },
+      {
+        "level": 1,
+        "name": "cti:clean"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "name": "cloudertinker:forestquest",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:questprotect",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:anti_curse"
+      },
+      {
+        "level": 1,
+        "name": "cti:clean"
+      }
+    ]
+  }
+}

@@ -236,6 +236,10 @@ ServerEvents.tags('item', event => {
   //塑料相关
   event.add('kubejs:plastic_eq','pneumaticcraft:plastic')
   event.add('kubejs:plastic_eq','mekanism:hdpe_sheet')
+  event.add('kubejs:giant_blade_pattern','#tconstruct:casts/single_use/giant_blade')
+  event.add('kubejs:giant_blade_pattern','#tconstruct:casts/multi_use/giant_blade')
+  event.add('kubejs:giant_blade_pattern','twilightforest:giant_sword')
+  event.add('tconstruct:patterns','twilightforest:giant_sword')
 
 })
 //添加方块标签

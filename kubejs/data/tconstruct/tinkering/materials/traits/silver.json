@@ -1,0 +1,42 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "tconstruct:consecrated"
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1,
+        "name": "tconstruct:smite"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "tconstruct:holy"
+      }
+    ],
+    "tconstruct:shield_core": [
+      {
+        "level": 1,
+        "name": "tconstruct:consecrated"
+      },
+      {
+        "level": 1,
+        "name": "cti:anti_curse"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tconstruct:consecrated"
+      },
+      {
+        "level": 1,
+        "name": "cti:anti_curse"
+      }
+    ]
+  }
+}
