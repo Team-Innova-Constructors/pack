@@ -194,6 +194,15 @@ ServerEvents.recipes(event => {
 		'twilightforest:uncrafting_table',
 		'entangled:block',
 		'megacells:inscriber/bulk_cell_component',
+		//多彩合金锭前置锭的部分配方删除
+		'tinkers_reforged:crafting/duralumin_ingot_from_smelting_duralumin_dust',
+		'tinkers_reforged:smeltery/alloy/duralumin',
+		'tinkers_ingenuity:alloys/blood_binding',
+		'tconstruct:smeltery/alloys/molten_slimesteel',
+		'tinkers_thinking:common/chlorophyte/ingot_blasting2',
+		'tinkers_thinking:common/chlorophyte/ingot_blasting',
+		'tinkers_thinking:common/chlorophyte/compound_melting',
+		'kubejs:thermal/smelter/chloro',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
