@@ -1,0 +1,30 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:heavy"
+    }
+  ],
+  "perStat": {
+    "tconstruct:shield_core": [
+      {
+        "level": 1,
+        "name": "tconstruct:heavy"
+      },
+      {
+        "level": 1,
+        "name": "cti:stable_step"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tconstruct:heavy"
+      },
+      {
+        "level": 1,
+        "name": "cti:stable_step"
+      }
+    ]
+  }
+}

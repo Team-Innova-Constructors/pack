@@ -5,14 +5,14 @@
           "level": 1
         },
     {
-      "name": "tinkersinnovation:precision",
+      "name": "cti:fixed_precision",
       "level": 1
     }
   ],
   "perStat" : {
       "tconstruct:armor": [
         {
-      "name": "tinkersinnovation:precision",
+      "name": "cti:fixed_precision",
       "level": 1
     },
     {

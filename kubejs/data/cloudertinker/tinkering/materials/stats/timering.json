@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "tconstruct:curio_extra": {},
+    "tconstruct:plating_helmet": {
+      "armor": 5.5,
+      "durability": 524,
+      "knockback_resistance": 0.2,
+      "toughness": 2.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 6.5,
+      "durability": 648,
+      "knockback_resistance": 0.2,
+      "toughness": 2.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 5.75,
+      "durability": 660,
+      "knockback_resistance": 0.2,
+      "toughness": 2.0
+    },
+    "tconstruct:plating_boots": {
+      "armor": 5.5,
+      "durability": 535,
+      "knockback_resistance": 0.2,
+      "toughness": 1.0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 870,
+      "knockback_resistance": 0.4,
+      "toughness": 2
+    }
+  }}

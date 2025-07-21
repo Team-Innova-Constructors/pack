@@ -1,0 +1,132 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:relieveresentment",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:relieveresentment",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:relieveresentment",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:readyboom",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:readyboom",
+        "level": 1
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:fiery_capable"
+      }
+    ],
+    "tconstruct:shield_core": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:fiery_capable"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_shield": [
+      {
+        "name": "cloudertinker:resentment",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:nodienoend",
+        "level": 1
+      }
+    ]
+  }
+}

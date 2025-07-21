@@ -12,6 +12,7 @@
       "melee_speed": -0.05,
       "mining_speed": 0.25
     },
+    "tconstruct:shield_core": {},
     "tconstruct:head": {
       "durability": 1440,
       "melee_attack": 4.25,

@@ -1,0 +1,30 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:invariant"
+    }
+  ],
+  "perStat": {
+    "tconstruct:shield_core": [
+      {
+        "level": 1,
+        "name": "tconstruct:invariant"
+      },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tconstruct:invariant"
+      },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ]
+  }
+}

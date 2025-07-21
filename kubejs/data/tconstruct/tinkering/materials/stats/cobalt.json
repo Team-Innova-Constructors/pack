@@ -25,6 +25,7 @@
       "velocity": 0.15
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
     "tconstruct:plating_boots": {
       "armor": 3.0,
       "durability": 390,

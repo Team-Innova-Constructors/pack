@@ -1,0 +1,92 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+
+    "tconstruct:maille": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ],
+    "tconstruct:shield_core": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_shield": [
+
+      {
+        "name": "cloudertinker:stalwart",
+        "level": 1
+      }
+    ]
+  }
+}

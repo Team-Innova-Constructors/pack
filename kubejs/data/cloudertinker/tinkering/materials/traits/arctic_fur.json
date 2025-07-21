@@ -1,0 +1,45 @@
+{"perStat": {
+  "tconstruct:bowstring": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:frosttought",
+      "level": 1
+    }
+  ],
+  "tconstruct:shield_core": [
+
+    {
+      "name": "cloudertinker:chillaura",
+      "level": 1
+    },
+    {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+  ],
+  "tconstruct:binding": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:frosttought",
+      "level": 1
+    }
+  ],
+  "tconstruct:maille": [
+
+    {
+      "name": "cloudertinker:chillaura",
+      "level": 1
+    },
+    {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+    ]
+}
+}
