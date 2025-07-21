@@ -2,6 +2,10 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
+        "name": "cti:industrial",
+        "level": 1
+      },
+      {
         "name": "tinkers_ingenuity:crystalline",
         "level": 1
       },
@@ -12,11 +16,19 @@
     ],
     "tconstruct:ranged": [
       {
+        "name": "cti:industrial",
+        "level": 1
+      },
+      {
         "name": "tinkers_ingenuity:crystalline",
         "level": 1
       }
     ],
     "tconstruct:armor": [
+      {
+        "name": "cti:industrial",
+        "level": 1
+      },
       {
         "name": "cti:clean",
         "level": 1

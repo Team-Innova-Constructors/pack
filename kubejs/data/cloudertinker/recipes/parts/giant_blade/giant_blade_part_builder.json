@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:part_builder",
+  "pattern": "cloudertinker:giant_blade",
+  "pattern_item": [
+    {
+      "tag": "kubejs:giant_blade_pattern"
+    }
+  ],
+  "cost": 32,
+  "result": {
+    "item": "cloudertinker:giant_blade"
+  }
+}

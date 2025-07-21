@@ -27,6 +27,24 @@
             "name": "etshtinker:momentoaccel",
             "level": 2
         }
+      ],
+      "tconstruct:maille": [
+        {
+          "name": "etshtinker:solidified",
+          "level": 2
+        },
+        {
+          "name": "cti:industrial_armor",
+          "level": 1
+        },
+        {
+            "name": "etshtinker:momentoaccel",
+            "level": 2
+        },
+        {
+            "name": "cti:stable_step",
+            "level": 1
+        }
       ]
     }
   }

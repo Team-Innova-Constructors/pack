@@ -1,0 +1,121 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:autosmelt",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fiery",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:autosmelt",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fiery",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:autosmelt",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fiery",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fiery",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:superheat",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fiery",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_helmet": [
+
+      {
+        "name": "cloudertinker:fire_react",
+        "level": 3
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+
+      {
+        "name": "cloudertinker:fire_react",
+        "level": 3
+      }
+    ],
+    "tconstruct:plating_leggings": [
+
+      {
+        "name": "cloudertinker:fire_react",
+        "level": 3
+      }
+    ],
+    "tconstruct:plating_boots": [
+
+      {
+        "name": "cloudertinker:fire_react",
+        "level": 3
+      }
+    ],
+    "tconstruct:plating_shield": [
+
+      {
+        "name": "cloudertinker:fire_react",
+        "level": 3
+      }
+    ]
+  }
+}

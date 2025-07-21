@@ -1,0 +1,36 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:lightweight"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "tconstruct:melee_protection"
+      }
+    ],
+    "tconstruct:shield_core": [
+      {
+        "level": 1,
+        "name": "tconstruct:melee_protection"
+      },
+      {
+        "level": 1,
+        "name": "cti:light_step"
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "tconstruct:melee_protection"
+      },
+      {
+        "level": 1,
+        "name": "cti:light_step"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "tconstruct:limb": {
+      "durability": 1165,
+      "draw_speed": -0.3,
+      "velocity": 1,
+      "accuracy": -0.2
+    },
+    "tconstruct:head": {
+      "durability": 1149,
+      "mining_speed": 6,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 5
+    },
+    "tconstruct:shield_core": {},
+    "tconstruct:maille": {}
+  }
+}
