@@ -1,0 +1,117 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:breakphantom",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:soulbound",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:breakphantom",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:soulbound",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:breakphantom",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:soulbound",
+        "level": 1
+      }
+    ],
+
+    "tconstruct:maille": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:phantom",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:anti_curse"
+      }
+    ],
+    "tconstruct:shield_core": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:phantom",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:anti_curse"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:phantom",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:soulbound",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:phantom",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:soulbound",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_shield": [
+      {
+        "name": "cloudertinker:knight_honorable",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:phantom",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:soulbound",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{"perStat": {
+  "tconstruct:head": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:hydrabitten",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:insatiable",
+      "level": 1
+    }
+  ],
+  "tconstruct:limb": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:hydrafire",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:insatiable",
+      "level": 1
+    }
+  ],
+  "tconstruct:shield_core": [
+
+    {
+      "name": "cloudertinker:hydralife",
+      "level": 1
+    },
+    {
+      "level": 2,
+      "name": "cti:stress"
+    },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }
+  ],
+  "tconstruct:maille": [
+
+    {
+      "name": "cloudertinker:hydralife",
+      "level": 1
+    },
+    {
+      "level": 2,
+      "name": "cti:stress"
+    },
+      {
+        "level": 1,
+        "name": "cti:strengthen"
+      }]
+}
+}

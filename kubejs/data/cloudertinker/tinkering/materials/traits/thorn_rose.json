@@ -1,0 +1,44 @@
+{"perStat": {
+  "tconstruct:shield_core": [
+{
+      "name": "tconstruct:enhanced",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:fortified",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:thorns",
+      "level": 3
+    }
+  ],
+  "tconstruct:binding": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:enhanced",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:pierce",
+      "level": 3
+    }
+  ],
+  "tconstruct:maille": [
+{
+      "name": "tconstruct:enhanced",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:fortified",
+      "level": 2
+    },
+    {
+      "name": "tconstruct:thorns",
+      "level": 3
+    }]
+}
+}

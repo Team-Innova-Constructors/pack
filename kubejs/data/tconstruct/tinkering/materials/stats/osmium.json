@@ -14,6 +14,7 @@
       "mining_tier": "minecraft:iron"
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
     "tconstruct:plating_boots": {
       "armor": 1.0,
       "durability": 325,

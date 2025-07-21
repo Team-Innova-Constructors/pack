@@ -5,7 +5,7 @@
       "parts": [
         {
           "item": "tconstruct:chestplate_plating",
-          "scale": 1.5
+          "scale": 2
         },
         "tconstruct:maille"
       ],

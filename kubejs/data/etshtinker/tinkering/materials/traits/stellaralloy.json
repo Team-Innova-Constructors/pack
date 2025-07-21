@@ -22,7 +22,11 @@
       {
         "name": "etshtinker:reactiveexplosivearmor",
         "level": 1
-      }
+      },
+      {
+            "name": "cti:stable_step",
+            "level": 1
+        }
     ]
   }
 }

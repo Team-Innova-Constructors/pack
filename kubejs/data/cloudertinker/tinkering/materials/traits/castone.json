@@ -1,0 +1,108 @@
+{"perStat": {
+  "tconstruct:maille": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    },
+      {
+        "level": 1,
+        "name": "cti:stable_step"
+      }
+    ],
+    "tconstruct:shield_core": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    },
+      {
+        "level": 1,
+        "name": "cti:stable_step"
+      }
+    ],
+  "tconstruct:plating_helmet": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_chestplate": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_leggings": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_boots": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_shield": [
+    {
+      "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:magicforce",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:winderosion",
+      "level": 1
+    }
+  ]
+}}
