@@ -153,9 +153,10 @@ LootJS.modifiers(event => {
         //冰火墓地
         iaf_graveyard:[
             {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
-            {item: 'thermal:blitz_rod', count: 2, chance: 0.2 },
-            {item: 'thermal:basalz_rod', count: 2, chance: 0.25 },
-            {item: 'thermal:blizz_rod', count: 2, chance: 0.3 }
+            {item: 'minecraft:gold_ingot', count: 7, chance: 0.6 },
+            {item: 'minecraft:iron_ingot', count: 5, chance: 0.5 },
+            {item: 'minecraft:diamond', count: 5, chance: 0.3 },
+            {item: 'minecraft:emerald', count: 3, chance: 0.4 }
         ],
         //滑滑魔石
         slider:[
