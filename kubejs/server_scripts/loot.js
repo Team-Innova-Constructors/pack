@@ -168,6 +168,9 @@ LootJS.modifiers(event => {
         ],
         golden_dungeon_reward:[
             {item: 'kubejs:violium_core', count: 24, chance: 1 },
+        ],
+        simple_dungeon:[
+        {item: 'pneumaticcraft:spawner_agitator', count: 1, chance: 1 },
         ]
     }
     function addLootToTable(LootTableID, lootEntries) {
@@ -180,6 +183,8 @@ LootJS.modifiers(event => {
 
     addLootToTable("minecraft:chests/nether_fortress/fort_inside", LootToLootTables.fortress);
     addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic", LootToLootTables.fortress);
+    addLootToTable("minecraft:chests/nether_bridge", LootToLootTables.fortress);
+    addLootToTable("minecraft:chests/simple_dungeon", LootToLootTables.simple_dungeon);
     addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
     addLootToTable("iceandfire:chest/mausoleum_chest", LootToLootTables.mausoleum);
     addLootToTable("iceandfire:chest/graveyard", LootToLootTables.iaf_graveyard);
