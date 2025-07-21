@@ -4,6 +4,6 @@
       "item": "minecraft:shield"
     },
     "cast_consumed": true,
-    "item_cost": 2,
+    "item_cost": 4,
     "result": "tconstruct:shield_core"
   }
