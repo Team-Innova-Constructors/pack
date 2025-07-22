@@ -234,7 +234,7 @@
 
     "modifier.cti.space_suit": "太空服",
     "modifier.cti.space_suit.flavor": "太空服",
-    "modifier.cti.space_suit.description": "提供每级0.25的灼热/霜冻抗性和0.1的电离抗性，打在头盔上时在外星维度不再需要氧气",
+    "modifier.cti.space_suit.description": "提供每级0.25的灼热/霜冻抗性和0.1的电离抗性。打在头盔时能消耗头盔存储的液氧为玩家供氧。",
 
     "modifier.cti.gravity_normalizer": "重力正常化",
     "modifier.cti.gravity_normalizer.flavor": "重力正常化",

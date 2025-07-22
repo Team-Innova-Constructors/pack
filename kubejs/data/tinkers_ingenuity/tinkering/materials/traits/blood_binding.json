@@ -1,0 +1,38 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkers_ingenuity:blood_bound",
+        "level": 1
+      },
+      {
+        "name": "cti:buffed_anger",
+        "level": 1
+      },
+      {
+        "name": "cti:sacrifice",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkers_ingenuity:blood_bound",
+        "level": 1
+      },
+      {
+        "name": "cti:buffed_anger",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:blood_bound",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:blood_wall",
+        "level": 1
+      }
+    ]
+  }
+}
