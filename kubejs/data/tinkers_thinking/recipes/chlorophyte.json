@@ -1,0 +1,9 @@
+{
+"type": "smelting",
+"ingredient": {
+"item": "tinkers_thinking:chlorophyll_ore"
+},
+"result": "tinkers_thinking:chlorophyte_compound",
+"experience": 0.5,
+"cookingtime": 200
+}

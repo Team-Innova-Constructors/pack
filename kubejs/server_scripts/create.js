@@ -1,11 +1,16 @@
 ServerEvents.recipes(event => {
     //压块塑性
     event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick_reinforced',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('etshtinker:molten_hardlead').withAmount(270)])
+    event.recipes.create.compacting([Item.of('tinkers_reforged:duralumin_ingot',2)],['2x minecraft:copper_ingot','4x immersiveengineering:ingot_aluminum'])
+    event.recipes.create.compacting([Item.of('tinkers_thinking:chlorophyte_ingot',9)],['9x minecraft:iron_ingot','tinkers_thinking:chlorophyte_compound',Fluid.of('minecraft:water').withAmount(720)])
+    event.recipes.create.compacting([Item.of('tinkers_ingenuity:blood_binding_ingot',2)],['4x minecraft:gold_ingot','3x thermal:steel_ingot',Fluid.of('tconstruct:blazing_blood').withAmount(400)])
     event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
     event.recipes.create.mixing(Fluid.of('cherrytinker:sun_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(1000),'cherrytinker:cherrygem']).heated()
     event.recipes.create.mixing(Fluid.of('cti:lava_heated').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(500),Fluid.of('minecraft:lava').withAmount(500),'kubejs:thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_overheated').withAmount(1000), [Fluid.of('cti:lava_heated').withAmount(500),'kubejs:aetheric_thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
+
+
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
 ]  ,Item.of('pneumaticcraft:pneumatic_helmet'), [
