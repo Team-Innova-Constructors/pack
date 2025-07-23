@@ -189,6 +189,7 @@ ServerEvents.recipes(event => {
 		'tconstruct:smeltery/melting/metal/iron/ingot_1',
 		'tconstruct:smeltery/alloys/molten_pewter',
 		'tconstruct:smeltery/melting/metal/signalum/ingot',
+		'tconstruct:smeltery/alloys/molten_brass',
 		//其他
 		'lightmanscurrency:coinmint',
 		'twilightforest:uncrafting_table',

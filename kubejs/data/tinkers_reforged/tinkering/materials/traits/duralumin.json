@@ -1,0 +1,64 @@
+{
+  "default": [
+    {
+      "name": "cti:industrial",
+      "level": 1
+    },
+    {
+      "level": 1,
+      "name": "tinkers_reforged:rock_solid"
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "tinkers_reforged:rock_solid"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      },
+      {
+        "level": 2,
+        "name": "tinkers_reforged:rock_solid"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      },
+      {
+        "level": 2,
+        "name": "tinkers_reforged:rock_solid"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      },
+      {
+        "level": 2,
+        "name": "tinkers_reforged:rock_solid"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      },
+      {
+        "level": 2,
+        "name": "tinkers_reforged:rock_solid"
+      }
+    ]
+  }
+}

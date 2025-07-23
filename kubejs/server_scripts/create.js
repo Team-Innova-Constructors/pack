@@ -1,14 +1,14 @@
 ServerEvents.recipes(event => {
-    //压块塑性
+    //工作盆
     event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick_reinforced',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('etshtinker:molten_hardlead').withAmount(270)])
     event.recipes.create.compacting([Item.of('tinkers_reforged:duralumin_ingot',2)],['2x minecraft:copper_ingot','4x immersiveengineering:ingot_aluminum'])
-    event.recipes.create.compacting([Item.of('tinkers_thinking:chlorophyte_ingot',9)],['9x minecraft:iron_ingot','tinkers_thinking:chlorophyte_compound',Fluid.of('minecraft:water').withAmount(720)])
-    event.recipes.create.compacting([Item.of('tinkers_ingenuity:blood_binding_ingot',2)],['4x minecraft:gold_ingot','3x thermal:steel_ingot',Fluid.of('tconstruct:blazing_blood').withAmount(400)])
+    event.recipes.create.mixing([Item.of('tinkers_thinking:chlorophyte_ingot',9)],['9x minecraft:iron_ingot','tinkers_thinking:chlorophyte_compound',Fluid.of('minecraft:water').withAmount(720)]).heated()
     event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
     event.recipes.create.mixing(Fluid.of('cherrytinker:sun_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(1000),'cherrytinker:cherrygem']).heated()
     event.recipes.create.mixing(Fluid.of('cti:lava_heated').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(500),Fluid.of('minecraft:lava').withAmount(500),'kubejs:thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_overheated').withAmount(1000), [Fluid.of('cti:lava_heated').withAmount(500),'kubejs:aetheric_thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
+    event.recipes.create.mixing(Item.of('create:brass_ingot',2), [Fluid.of('tconstruct:molten_copper').withAmount(90),'create:zinc_ingot'])
 
 
     event.recipes.create.sequenced_assembly([
@@ -121,6 +121,94 @@ event.recipes.createMechanicalCrafting('extendedcrafting:advanced_table', [
   C: 'minecraft:crafting_table',
   D: 'create:mechanical_crafter',
   E: 'etshtinker:hardlead_plate'
+})
+
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  A  ",
+    " BCD ",
+    "AEFGA",
+    " HIJ ",
+    "  A  "
+  ],
+  "key": {
+    "A": {
+      "item": "etshtinker:bismuth_ingot"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "tconstruct:rose_gold_ingot"
+    },
+    "D": {
+      "item": "tinkers_ingenuity:blood_binding_ingot"
+    },
+    "E": {
+      "item": "tinkers_thinking:chlorophyte_ingot"
+    },
+    "F": {
+      "item": "tconstruct:hepatizon_ingot"
+    },
+    "G": {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+    "H": {
+      "item": "tinkers_reforged:duralumin_ingot"
+    },
+    "I": {
+      "item": "tconstruct:slimesteel_ingot"
+    },
+    "J": {
+      "item": "tconstruct:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "tinkersinnovation:polychrome_mix",
+    "count":2
+  }
+})
+event.recipes.createMechanicalCrafting('3x tinkersinnovation:polychrome_mix', [
+  '  A  ',
+  ' BCD ',
+  'AEFGA',
+  ' HIJ ',
+  '  A  '
+], {
+  A: 'etshtinker:bismuth_ingot',
+  B: 'create:brass_ingot',
+  C: 'tconstruct:rose_gold_ingot',
+  D: 'tinkers_ingenuity:blood_binding_ingot',
+  E: 'tinkers_thinking:chlorophyte_ingot',
+  F:'tconstruct:hepatizon_ingot',
+  G:'tconstruct:manyullyn_ingot',
+  H:'tinkers_reforged:duralumin_ingot',
+  I:'tconstruct:slimesteel_ingot',
+  J:'tconstruct:cobalt_ingot'
+})
+
+event.custom({
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "tconstruct:blazing_blood"
+    },
+    {
+      "item": "tinkers_ingenuity:blood_steel_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "tinkers_ingenuity:blood_binding_ingot",
+      "count":2
+    }
+  ]
 })
 
 })

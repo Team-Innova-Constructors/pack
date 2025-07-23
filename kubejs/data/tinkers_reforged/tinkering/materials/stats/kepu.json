@@ -8,14 +8,14 @@
     },
     "tconstruct:handle": {
       "durability": 0.7,
-      "melee_damage": 0.2,
+      "melee_damage": 0.5,
       "melee_speed": 0.7,
-      "mining_speed": 0.2
+      "mining_speed": 0.5
     },
     "tconstruct:head": {
       "durability": 333,
       "melee_attack": 6.9,
-      "mining_speed": 6.0,
+      "mining_speed": 8.0,
       "mining_tier": "tinkers_reforged:kepu"
     },
     "tconstruct:limb": {
@@ -31,12 +31,12 @@
       "knockback_resistance": 0.5
     },
     "tconstruct:plating_chestplate": {
-      "armor": 7.0,
+      "armor": 9.0,
       "durability": 677,
       "knockback_resistance": 0.5
     },
     "tconstruct:plating_helmet": {
-      "armor": 7.0,
+      "armor": 9.0,
       "durability": 677,
       "knockback_resistance": 0.5
     },

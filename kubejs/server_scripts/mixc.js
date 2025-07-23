@@ -182,23 +182,7 @@ ServerEvents.recipes(event => {
          B: '#forge:onion/sliced',
       }
    )
-   event.shaped(Item.of('tinkersinnovation:polychrome_mix', 1), [
-      'ABC',
-      'DEF',
-      'GHI'
-   ],
-      {
-         A: 'tinkers_ingenuity:blood_binding_ingot',
-         B: 'tconstruct:rose_gold_ingot',
-         C: 'minecraft:gold_ingot',
-         D: 'tinkers_thinking:chlorophyte_ingot',
-         E: 'tinkers_reforged:duralumin_ingot',
-         F: 'tconstruct:slimesteel_ingot',
-         G: 'tconstruct:cobalt_ingot',
-         H: 'tconstruct:manyullyn_ingot',
-         I: 'tconstruct:hepatizon_ingot',
-      }
-   )
+
    //插件
    event.shaped(Item.of('cti:upgrade_electronium', 1), [
       'A A',
