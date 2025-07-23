@@ -1,7 +1,8 @@
 {
   "entries": [
     "cti:oracle_drop_oraclum_ingots",
-    "cti:oracle_drop_oraclum_nuggets"
+    "cti:oracle_drop_oraclum_nuggets",
+    "cti:lightless_alloy_drop"
   ],
   "replace": false
 }

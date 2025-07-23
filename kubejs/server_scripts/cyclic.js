@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
   event.replaceInput({mod: 'cyclic', id: 'cyclic:crusher/netherrack' }, 'minecraft:blaze_rod','minecraft:blaze_powder')
   event.replaceInput({mod: 'cyclic', id: 'cyclic:anvil' }, 'minecraft:diamond','minecraft:diamond_block')
-  event.replaceInput({mod: 'cyclic', id: 'cyclic:charm_invisible'}, 'cyclic:sleeping_mat','#aether:accessories_capes')
+  event.replaceInput({mod: 'cyclic', id: 'cyclic:charm_invisible'}, 'cyclic:sleeping_mat','etshtinker:lightless_alloy')
   event.replaceInput({mod: 'cyclic', id: 'cyclic:wireless_fluid' }, 'cyclic:gem_amber','tinkers_thinking:tinkers_bronze_ingot')
    event.replaceInput({id: 'cyclic:antigravity' }, 'cyclic:gem_obsidian','enigmaticlegacy:etherium_ore')
    event.replaceInput({id: 'cyclic:charm_antipotion' }, 'minecraft:fermented_spider_eye','tinkerscalibration:oraclium_nugget')

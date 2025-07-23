@@ -573,4 +573,6 @@ event.custom({
          A: 'pneumaticcraft:reinforced_air_canister'
       }
    )
+
+   event.replaceInput({id: 'botania:invisibility_cloak' }, 'botania:mana_pearl','etshtinker:lightless_alloy')
 })
