@@ -330,5 +330,17 @@ ServerEvents.tags('fluid', event => {
   for (let i of needTags) {
     event.add(`${i}`, `${i}`)
   }
+  //匠魂的tooltip
+  let metalToolTip = [
+    'kubejs:molten_veridium',
+    'kubejs:molten_gravitite',
+    'kubejs:molten_sentrite',
+    'kubejs:molten_phoenix',
+    'kubejs:molten_valkyrie',
+    'kubejs:molten_refined_sentrite'
+  ]
+  for (let i of metalToolTip) {
+    event.add('tconstruct:tooltips/metal', `${i}`)
+  }
   
 })

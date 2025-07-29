@@ -10,7 +10,7 @@
     },
     {
       "name": "cti:refined",
-      "level": 3
+      "level": 4
     },
     {
       "name": "etshtinker:solidex",
@@ -25,12 +25,26 @@
       },
       {
         "name": "cti:refined",
-        "level": 3
+        "level": 4
       },
       {
         "name": "etshtinker:solidex",
         "level": 1
       }
+    ],
+    "tconstruct:head": [
+      {
+      "name": "cti:ion_apocalypse",
+      "level": 1
+    },
+    {
+      "name": "cti:refined",
+      "level": 4
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
     ]
   }
 }

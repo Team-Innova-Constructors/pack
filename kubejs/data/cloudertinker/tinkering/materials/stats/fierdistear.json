@@ -11,12 +11,12 @@
       "durability": 869,
       "mining_speed": 8.6,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 5.0
+      "melee_attack": 8.0
     },
     "tconstruct:limb": {
       "durability": 869,
       "draw_speed": 0.3,
-      "velocity": 0.18,
+      "velocity": 1.8,
       "accuracy": 1.0
     },
     "tconstruct:grip": {

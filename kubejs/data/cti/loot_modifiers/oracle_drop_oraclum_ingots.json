@@ -16,9 +16,9 @@
       "item": "l2hostility:charm_of_looting_3"
     }
   ],
-  "rankBonus": 0.1,
+  "rankBonus": 0.2,
   "result": {
-    "Count": 1,
+    "Count": 6,
     "id": "tinkerscalibration:oraclium_ingot"
   },
   "trait": "l2hostility:oracle"

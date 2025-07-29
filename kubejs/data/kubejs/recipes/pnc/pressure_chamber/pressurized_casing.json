@@ -3,17 +3,22 @@
     "inputs": [
       {
         "type": "pneumaticcraft:stacked_item",
-        "count": 4,
+        "count": 8,
         "tag": "forge:ingots/zirconium"
       },
       {
         "type": "pneumaticcraft:stacked_item",
-        "count": 8,
+        "count": 16,
         "item": "kubejs:compressed_hardlead"
       },
       {
         "type": "pneumaticcraft:stacked_item",
-        "count": 2,
+        "count": 4,
+        "tag": "kubejs:plastic_eq"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 4,
         "item": "mekanism:steel_casing"
       }
     ],
@@ -21,7 +26,7 @@
     "results": [
       {
         "item": "kubejs:pressurized_casing",
-        "count": 2
+        "count": 8
       }
     ]
   }

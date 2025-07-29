@@ -40,5 +40,4 @@ ServerEvents.recipes(event => {
   }
 })
 
-  event.replaceInput({id:'pneumaticcraft:refinery_output'},'forge:gems/diamond','kubejs:pressurized_casing')
 })

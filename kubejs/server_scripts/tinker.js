@@ -98,6 +98,62 @@ ServerEvents.recipes(event => {
                 "cooling_time": 5
             }
     )
+
+    event.custom(
+            {
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "aquamirae:oxygelium"
+    },
+    {
+      "item": "aquamirae:elodea"
+    },
+    {
+      "item": "kubejs:luminous_metal_plate"
+    },
+    {
+      "item": "twilightforest:torchberries"
+    },
+    {
+      "item": "aquamirae:esca"
+    }
+  ],
+  "level": 1,
+  "result": "cti:oxygelium_bud_helmet",
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  }
+}
+    )
+
+    event.custom({
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "item":"aether_redux:veridium_ore"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 180,
+    "fluid": "kubejs:molten_veridium"
+  },
+  "temperature": 2000,
+  "time": 120
+})
+    event.custom({
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "item": "aether_redux:raw_veridium"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 90,
+    "fluid": "kubejs:molten_veridium"
+  },
+  "temperature": 200,
+  "time": 60
+})
     
     
 })

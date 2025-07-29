@@ -89,4 +89,5 @@ StartupEvents.registry("item",event=>{
     event.create("sentrite","basic")
     event.create("pneumatic_shield","basic")
     event.create("carbon_plate","basic")
+    event.create("life_crystal","basic")
 })

@@ -26,6 +26,7 @@
     "fluid.kubejs.molten_sentrite": "熔融哨石",
     "fluid.kubejs.molten_phoenix": "熔融凤凰",
     "fluid.kubejs.molten_valkyrie": "熔融女武神",
+    "fluid.kubejs.molten_refined_sentrite": "熔融精炼哨石",
 
     "fluid.kubejs.redstone_additive": "红石添加剂",
     "fluid.kubejs.obsidian_additive": "黑曜石添加剂",
@@ -42,6 +43,7 @@
     "item.kubejs.molten_sentrite_bucket":"熔融哨石桶",
     "item.kubejs.molten_phoenix_bucket":"熔融凤凰桶",
     "item.kubejs.molten_valkyrie_bucket":"熔融女武神桶",
+    "item.kubejs.molten_refined_sentrite_bucket":"熔融精炼哨石桶",
     
     "item.kubejs.redstone_additive_bucket":"红石添加剂桶",
     "item.kubejs.obsidian_additive_bucket":"黑曜石添加剂桶",
@@ -167,6 +169,7 @@
     "item.kubejs.dielectric_paste_4":"化学纯 绝缘覆层",
     "item.kubejs.dielectric_paste_5":"分析纯 绝缘覆层",
     "item.kubejs.dielectric_paste_6":"光谱纯 绝缘覆层",
+    "item.kubejs.life_crystal":"生命水晶碎块",
 
     "item.kubejs.cosmic_mechanism":"宇宙构象",
     "item.kubejs.electro_magnetic_mechanism":"电磁构象",

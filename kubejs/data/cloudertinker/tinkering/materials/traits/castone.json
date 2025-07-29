@@ -41,6 +41,10 @@
       "level": 1
     },
     {
+      "name": "etshtinker:solidified",
+      "level": 1
+    },
+    {
       "name": "cloudertinker:magicforce",
       "level": 1
     },
@@ -52,6 +56,10 @@
   "tconstruct:plating_chestplate": [
     {
       "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:solidified",
       "level": 1
     },
     {
@@ -69,6 +77,10 @@
       "level": 1
     },
     {
+      "name": "etshtinker:solidified",
+      "level": 1
+    },
+    {
       "name": "cloudertinker:magicforce",
       "level": 1
     },
@@ -83,6 +95,10 @@
       "level": 1
     },
     {
+      "name": "etshtinker:solidified",
+      "level": 1
+    },
+    {
       "name": "cloudertinker:magicforce",
       "level": 1
     },
@@ -94,6 +110,10 @@
   "tconstruct:plating_shield": [
     {
       "name": "cloudertinker:highlandwatching",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:solidified",
       "level": 1
     },
     {

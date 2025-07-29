@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "kubejs:pressurized_casing"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "item": "pneumaticcraft:reinforced_stone_slab"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "GDG",
+    "SSS"
+  ],
+  "result": {
+    "item": "pneumaticcraft:refinery_output"
+  }
+}

@@ -575,4 +575,33 @@ event.custom({
    )
 
    event.replaceInput({id: 'botania:invisibility_cloak' }, 'botania:mana_pearl','etshtinker:lightless_alloy')
+
+   event.shaped(Item.of('mekanism:quantum_entangloporter', 4), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         C: 'ae2:quantum_link',
+         B: 'ae2:singularity',
+         A: 'thermal:invar_block'
+      }
+   )
+
+   event.shaped(Item.of('extendedcrafting:advanced_table', 1), [
+      'ABA',
+      ' C ',
+      'DEF'
+   ],
+      {
+         C: 'cloudertinker:orescore',
+         B: '#forge:workbenches',
+         A: 'twilightforest:fiery_ingot',
+         D: 'cloudertinker:timering',
+         E: 'cloudertinker:changeheart',
+         F: 'cloudertinker:sorteye'
+      }
+   )
+   event.shapeless('aether:life_shard', '2x kubejs:life_crystal')
+   event.shapeless('2x kubejs:life_crystal', 'aether:life_shard')
 })
