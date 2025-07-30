@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
   "type": "pneumaticcraft:heat_properties",
   "block": "aether:icestone",
   "temperature": 233,
-  "thermalResistance": 25,
+  "thermalResistance": 5,
   "heatCapacity": 1000000,
   "transformHot": {
     "block": "aether:icestone"

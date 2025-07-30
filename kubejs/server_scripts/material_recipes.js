@@ -54,12 +54,12 @@ ServerEvents.recipes(event => {
         event.custom(
             {
                 "type": "tconstruct:material_melting",
-                "result": {
-                    "name": fluid,
-                    "amount": 90
-                },
                 "temperature": temp,
                 "input": materialId,
+                "result": {
+                    "fluid": fluid,
+                    "amount": 90
+                }
             }
         )
         event.custom(
@@ -89,12 +89,12 @@ ServerEvents.recipes(event => {
         event.custom(
             {
                 "type": "tconstruct:material_melting",
-                "result": {
-                    "name": fluid,
-                    "amount": 90
-                },
                 "temperature": temp,
                 "input": materialId,
+                "result": {
+                    "fluid": fluid,
+                    "amount": 90
+                }
             }
         )
         event.custom(

@@ -16,11 +16,11 @@
     "perStat": {
       "tconstruct:armor": [
         {
-          "level": 4,
-          "name": "cti:pressure_loaded"
+          "name": "etshtinker:solidified",
+          "level": 2
         },
         {
-          "name": "cti:industrial",
+          "name": "cti:industrial_armor",
           "level": 2
         },
         {

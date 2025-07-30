@@ -323,6 +323,7 @@ ServerEvents.tags('fluid', event => {
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
 
+  event.add('forge:ethylene', 'mekanism:ethene')
   //给沉浸用的
   let needTags = [
     'kubejs:methane'
