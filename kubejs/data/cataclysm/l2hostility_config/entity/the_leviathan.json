@@ -27,9 +27,19 @@
           "trait": "l2hostility:reflect"
         },
         {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:temporary_armor"
+        },
+        {
           "free": 2,
           "min": 3,
           "trait": "l2hostility:freezing"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:extreme_damage_reduce"
         }
       ]
     }

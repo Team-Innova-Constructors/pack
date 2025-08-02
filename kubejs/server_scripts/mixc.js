@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
       {
          A: 'etshtinker:trinity_intereactive_alloy',
          C: 'kubejs:aetherium_core',
-         B: 'mekanism:supercharged_coil',
+         B: 'mekanismgenerators:electromagnetic_coil',
       }
    )
    event.shaped(Item.of('cti:upgrade_violium', 1), [

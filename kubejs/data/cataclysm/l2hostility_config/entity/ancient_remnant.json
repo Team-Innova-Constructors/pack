@@ -23,8 +23,18 @@
         },
         {
           "free": 2,
-          "min": 3,
+          "min": 2,
           "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:temporary_armor"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:extreme_damage_reduce"
         }
       ]
     }

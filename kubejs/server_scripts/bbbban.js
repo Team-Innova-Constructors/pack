@@ -216,8 +216,7 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:item_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:fluid_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:world_transporter_type' })
-	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
-
+	event.remove({id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
 	event.remove({ id: 'drinkbeer:trade_box_normal' })
