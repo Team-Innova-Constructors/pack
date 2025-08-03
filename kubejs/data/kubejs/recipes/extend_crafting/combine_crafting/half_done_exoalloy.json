@@ -1,47 +1,60 @@
 {
     "type": "extendedcrafting:combination",
     "powerCost": 2000000000,
-    "powerRate": 512000000,
+    "powerRate": 1000000000,
     "input": {
       "item": "etshtinker:alloy_fracture"
     },
     "ingredients": [
-      {
-        "item": "etshtinker:perfect_generic_item"
-      },
-      {
-        "item": "immersiveengineering:heavy_engineering"
-      },
-      {
-        "item": "create:andesite_casing"
-      },
-      {
-        "item": "etshtinker:perfect_generic_item"
-      },
-      {
-        "item": "immersiveengineering:heavy_engineering"
-      },
-      {
-        "item": "thermal:machine_frame"
-      },
-      {
-        "item": "etshtinker:perfect_generic_item"
-      },
-      {
-        "item": "immersiveengineering:heavy_engineering"
-      },
-      {
-        "item": "kubejs:pressurized_casing"
-      },
-      {
-        "item": "etshtinker:perfect_generic_item"
-      },
-      {
-        "item": "immersiveengineering:heavy_engineering"
-      },
-      {
-        "item": "kubejs:atherium_casing"
-      }
+    
+    {
+      "item": "kubejs:atherium_casing"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "kubejs:reactor_casing"
+    },
+    {
+      "item": "kubejs:electronium_block"
+    },
+    {
+      "item": "kubejs:violium_casing"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "kubejs:pressurized_casing"
+    },
+    {
+      "item": "kubejs:ultra_dense_block"
+    },
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "avaritia:neutron"
+    },
+    {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "item": "etshtinker:perfect_generic_item"
+    },
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "mekanism:block_steel"
+    }
     ],
     "result": {
       "item": "kubejs:halfdone_exoalloy"

@@ -604,4 +604,15 @@ event.custom({
    )
    event.shapeless('aether:life_shard', '2x kubejs:life_crystal')
    event.shapeless('2x kubejs:life_crystal', 'aether:life_shard')
+   event.shaped(Item.of('cti:orb_of_curse', 1), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         C: 'kubejs:evil_mechanism',
+         B: 'l2hostility:hostility_essence',
+         A: 'undergarden:forgotten_nugget'
+      }
+   )
 })

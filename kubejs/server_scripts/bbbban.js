@@ -195,6 +195,7 @@ ServerEvents.recipes(event => {
 		'twilightforest:uncrafting_table',
 		'entangled:block',
 		'megacells:inscriber/bulk_cell_component',
+		'cataclysm:smithing/cursium_chestplate',
 		//多彩合金锭前置锭的部分配方删除
 		'tinkers_reforged:crafting/duralumin_ingot_from_smelting_duralumin_dust',
 		'tinkers_reforged:smeltery/alloy/duralumin',

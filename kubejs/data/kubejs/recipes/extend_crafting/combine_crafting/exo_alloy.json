@@ -1,37 +1,50 @@
 {
   "type": "extendedcrafting:combination",
   "powerCost": 2000000000,
-  "powerRate": 500000000,
+  "powerRate": 1000000000,
   "input": {
     "item": "kubejs:halfdone_exoalloy"
   },
   "ingredients": [
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "minecraft:nether_star"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "enigmaticlegacy:evil_essence"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "enigmaticlegacy:etherium_ingot"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "aether:silver_dungeon_key"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "tinkerscalibration:oraclium_ingot"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "aether:gold_dungeon_key"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "undergarden:forgotten_nugget"
     },
     {
-      "item": "extendedcrafting:flux_star"
+      "item": "undergarden:utherium_crystal"
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    {
+      "item": "twilightforest:arctic_fur"
+    },
+    {
+      "item": "twilightforest:knightmetal_ingot"
+    },
+    {
+      "item": "twilightforest:carminite"
     }
   ],
   "result": {
-    "item": "etshtinker:exo_alloy"
+    "item": "etshtinker:exo_alloy",
+    "count": 4
   }
 }
