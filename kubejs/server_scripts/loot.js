@@ -106,6 +106,7 @@ LootJS.modifiers(event => {
         //迷阵冰封箱子
         frozenChest:[
             { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
+            { item: 'obscure_api:astral_dust', count: 1, chance: 1 },//保底星体尘尘
             { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
         ],
         //亡灵海盗船普通宝藏
