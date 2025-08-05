@@ -323,12 +323,25 @@ ServerEvents.tags('fluid', event => {
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
   event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
 
+  event.add('forge:ethylene', 'mekanism:ethene')
   //给沉浸用的
   let needTags = [
     'kubejs:methane'
   ]
   for (let i of needTags) {
     event.add(`${i}`, `${i}`)
+  }
+  //匠魂的tooltip
+  let metalToolTip = [
+    'kubejs:molten_veridium',
+    'kubejs:molten_gravitite',
+    'kubejs:molten_sentrite',
+    'kubejs:molten_phoenix',
+    'kubejs:molten_valkyrie',
+    'kubejs:molten_refined_sentrite'
+  ]
+  for (let i of metalToolTip) {
+    event.add('tconstruct:tooltips/metal', `${i}`)
   }
   
 })

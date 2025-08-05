@@ -8,8 +8,8 @@
       ],
       "difficulty": {
         "apply_chance": 1.0,
-        "base": 25,
-        "min": 50,
+        "base": 1000,
+        "min": 1500,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0
@@ -28,6 +28,16 @@
           "free": 2,
           "min": 3,
           "trait": "l2hostility:soul_burner"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:temporary_armor"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:second_phase"
         }
       ]
     }

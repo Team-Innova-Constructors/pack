@@ -10,6 +10,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer([Item.of('minecraft:diamond').withChance(1.2), Item.of('powah:uraninite_raw').withChance(1.7), Item.of('minecraft:lapis_lazuli').withChance(2.5), Item.of('minecraft:emerald').withChance(1.4)], 'kubejs:crystal_slag').energy(8000)
   event.recipes.thermal.pulverizer([Item.of('thermal:raw_tin').withChance(2.45), Item.of('thermal:raw_lead').withChance(2.55), Item.of('minecraft:raw_iron').withChance(2.75), Item.of('minecraft:raw_copper').withChance(2.85)], 'kubejs:metal_slag').energy(8000)
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(1.05), Item.of('thermal:cinnabar').withChance(2.65), Item.of('thermal:niter').withChance(2.3), Item.of('thermal:apatite').withChance(3.48)], 'kubejs:mineral_slag').energy(8000)
+  event.recipes.thermal.pulverizer('ae2:fluix_dust', 'ae2:fluix_crystal').energy(800)
+  event.recipes.thermal.pulverizer('ae2:certus_quartz_dust', 'ae2:certus_quartz_crystal').energy(800)
   //冲压机
   event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(2000)
   event.recipes.thermal.press('kubejs:universal_press', ['#forge:storage_blocks/iron', 'kubejs:universal_press']).energy(2000)

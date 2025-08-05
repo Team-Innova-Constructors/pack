@@ -1,0 +1,47 @@
+{
+  "_class": "dev.xkmc.l2hostility.content.config.EntityConfig",
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 3000,
+        "min": 4000,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "cataclysm:maledictus"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:temporary_armor"
+        },
+        {
+          "free": 0,
+          "min": 3,
+          "trait": "l2hostility:cursed"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:extreme_damage_reduce"
+        }
+      ]
+    }
+  ]
+}

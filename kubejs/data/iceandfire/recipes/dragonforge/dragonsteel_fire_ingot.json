@@ -3,7 +3,7 @@
   "dragon_type": "fire",
   "cook_time": 100,
   "input": {
-    "tag": "forge:ingots/steel"
+    "item": "twilightforest:fiery_ingot"
   },
   "blood": {
     "item": "iceandfire:fire_dragon_blood"

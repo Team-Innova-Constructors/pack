@@ -1,0 +1,13 @@
+{
+  "type":"tconstruct:melting",
+  "ingredient":{
+    "item":"twilightforest:armor_shard_cluster"
+  },
+  "temperature": 1250,
+  "time": 40,
+  "result":
+  {
+    "fluid": "cloudertinker:molten_knightmetal",
+    "amount": 180
+  }
+}

@@ -113,6 +113,11 @@
           "type": "minecraft:item",
           "name": "pneumaticcraft:assembly_program_drill_laser",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:amadron_tablet",
+          "weight": 1
         }
       ],
       "rolls": {

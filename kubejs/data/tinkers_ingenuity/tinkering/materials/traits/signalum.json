@@ -1,0 +1,28 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+      "name": "etshtinker:sidechannelattack",
+      "level": 1
+    }
+    ],
+    "tconstruct:ranged": [
+      {
+      "name": "etshtinker:sidechannelattack",
+      "level": 1
+    }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkers_ingenuity:wound_heal",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+      "name": "etshtinker:sidechannelattack",
+      "level": 1
+    }
+    ]
+  }
+}

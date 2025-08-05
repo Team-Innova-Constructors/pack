@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "block",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:witherite_block",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_the_harbinger",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

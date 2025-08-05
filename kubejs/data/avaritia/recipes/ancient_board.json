@@ -2,69 +2,57 @@
     "type": "avaritia:shaped_extreme_craft",
     "category": "misc",
     "pattern": [
-    " ABABABA ",
-    "ACBCBCBCA",
-    "CDBDBDBDC",
-    "DEDFGHDED",
-    "EIJKLKMIE",
-    "DEDNKODED",
-    "CDPDPDPDC",
-    "ACPCPCPCA",
-    " APAPAPA "
+    "  A A A  ",
+    "  ABABA  ",
+    "BCACACACB",
+    "DCEFGHECD",
+    "BCEDIDECB",
+    "DCEJGKECD",
+    "BCLCLCLCB",
+    "  LBLBL  ",
+    "  L L L  "
   ],
   "key": {
     "A": {
-      "item": "cataclysm:void_stone"
+      "item": "kubejs:pyrocrystal"
     },
     "B": {
-      "item": "kubejs:pyrocrystal"
+      "item": "obscure_api:astral_dust"
     },
     "C": {
       "item": "kubejs:ultra_dense_hydride_crystal"
     },
     "D": {
-      "item": "cti:unipolar_magnet"
-    },
-    "E": {
       "item": "etshtinker:energized_sculk_alloy"
     },
-    "F": {
-      "item": "cataclysm:gauntlet_of_guard"
-    },
-    "G": {
-      "item": "cataclysm:monstrous_horn"
-    },
-    "H": {
-      "item": "cataclysm:tidal_claws"
-    },
-    "I": {
+    "E": {
       "item": "aquaculture:neptunium_ingot"
     },
+    "F": {
+      "item": "meetyourfight:phantoplasm"
+    },
+    "G": {
+      "item": "aether:golden_amber"
+    },
+    "H": {
+      "item": "meetyourfight:mossy_tooth"
+    },
+    "I": {
+      "item": "tinkers_ingenuity:shine_alloy_ingot"
+    },
     "J": {
-      "item": "kubejs:aetherium_core"
+      "item": "meetyourfight:violet_bloom"
     },
     "K": {
-      "item": "obscure_api:astral_dust"
+      "item": "meetyourfight:fortunes_favor"
     },
     "L": {
-      "item": "cataclysm:witherite_ingot"
-    },
-    "M": {
-      "item": "kubejs:violium_core"
-    },
-    "N": {
-      "item": "cataclysm:the_incinerator"
-    },
-    "O": {
-      "item": "cataclysm:kobolediator_skull"
-    },
-    "P": {
       "item": "kubejs:electrocrystal"
     }
   },
     "result": {
       "item": "kubejs:ancient_circuitboard",
-      "count": 16
+      "count": 8
     },
     "show_notification": false
   }

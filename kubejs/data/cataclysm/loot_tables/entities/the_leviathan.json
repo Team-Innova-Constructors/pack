@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "hammer",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:tidal_claws"
+
+        }
+      ]
+    },
+    {
+      "name": "horn",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:abyssal_egg"
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_the_leviathan",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

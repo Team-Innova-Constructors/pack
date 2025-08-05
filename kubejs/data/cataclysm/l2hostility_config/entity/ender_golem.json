@@ -24,6 +24,11 @@
         {
           "free": 0,
           "min": 1,
+          "trait": "l2hostility:temporary_armor"
+        },
+        {
+          "free": 0,
+          "min": 1,
           "trait": "l2hostility:weakness"
         }
       ]

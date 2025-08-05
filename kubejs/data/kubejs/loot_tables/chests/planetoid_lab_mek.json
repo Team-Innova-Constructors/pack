@@ -90,7 +90,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mekanism:quantum_entangloporter",
+          "name": "mekanism:electrolytic_core",
           "weight": 2
         },
         {

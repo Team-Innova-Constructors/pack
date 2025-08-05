@@ -13,7 +13,7 @@
       "durability": 0.30,
       "mining_speed": 0.80,
       "melee_speed": 0.4,
-      "melee_damage": 0.75
+      "melee_damage": 1.15
     },
     "tconstruct:head": {
       "durability": 1787,
@@ -24,7 +24,7 @@
     "tconstruct:limb": {
       "durability": 1676,
       "draw_speed": 0.15,
-      "velocity": 0.25,
+      "velocity": 2.25,
       "accuracy": -0.025
     },
     "tconstruct:grip": {

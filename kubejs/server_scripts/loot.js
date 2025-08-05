@@ -9,11 +9,6 @@ LootJS.modifiers(event => {
             { item: 'lightmanscurrency:coin_gold', count: 1, chance: 1 },
             { item: 'lightmanscurrency:coin_gold', count: 3, chance: 0.25 },
         ],
-        //黄金地牢
-        gold_dungeon: [
-            { item: "kubejs:violium_core", count: 12, chance: 1 },
-            { item: "aether:life_shard", count: 12, chance: 1 },
-        ],
         //下僻巢穴
         catacombs: [
             { item: "kubejs:aetherium_core", count: 9, chance: 1 },
@@ -74,7 +69,6 @@ LootJS.modifiers(event => {
     }
 
     addLootToStructure('#minecraft:village', StructurelootTables.village);
-    addLootToStructure('aether:gold_dungeon', StructurelootTables.gold_dungeon);
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
     addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
@@ -112,6 +106,7 @@ LootJS.modifiers(event => {
         //迷阵冰封箱子
         frozenChest:[
             { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
+            { item: 'obscure_api:astral_dust', count: 1, chance: 1 },//保底星体尘尘
             { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
         ],
         //亡灵海盗船普通宝藏
@@ -162,12 +157,13 @@ LootJS.modifiers(event => {
         slider:[
             {item: 'aether_redux:sentry_chip', count: 8, chance: 1 },
         ],
-        //白银地牢奖励箱
+        //天镜地牢奖励箱
         silver_dungeon_reward:[
             {item: 'cti:strange_ice_crystal', count: 1, chance: 1 },
         ],
         golden_dungeon_reward:[
             {item: 'kubejs:violium_core', count: 24, chance: 1 },
+            { item: "aether:life_shard", count: 12, chance: 1 },
         ],
         simple_dungeon:[
         {item: 'pneumaticcraft:spawner_agitator', count: 1, chance: 1 },
@@ -202,7 +198,7 @@ LootJS.modifiers(event => {
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);
     addLootToTable("aether:entities/slider", LootToLootTables.slider);
     addLootToTable("aether:chests/dungeon/silver/silver_dungeon_reward", LootToLootTables.silver_dungeon_reward);
-    addLootToTable("aether:chests/dungeon/gold/golden_dungeon_reward", LootToLootTables.golden_dungeon_reward);
+    addLootToTable("aether:chests/dungeon/gold/gold_dungeon_reward", LootToLootTables.golden_dungeon_reward);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)

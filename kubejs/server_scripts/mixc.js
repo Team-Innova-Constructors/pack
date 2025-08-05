@@ -182,23 +182,7 @@ ServerEvents.recipes(event => {
          B: '#forge:onion/sliced',
       }
    )
-   event.shaped(Item.of('tinkersinnovation:polychrome_mix', 1), [
-      'ABC',
-      'DEF',
-      'GHI'
-   ],
-      {
-         A: 'tinkers_ingenuity:blood_binding_ingot',
-         B: 'tconstruct:rose_gold_ingot',
-         C: 'minecraft:gold_ingot',
-         D: 'tinkers_thinking:chlorophyte_ingot',
-         E: 'tinkers_reforged:duralumin_ingot',
-         F: 'tconstruct:slimesteel_ingot',
-         G: 'tconstruct:cobalt_ingot',
-         H: 'tconstruct:manyullyn_ingot',
-         I: 'tconstruct:hepatizon_ingot',
-      }
-   )
+
    //插件
    event.shaped(Item.of('cti:upgrade_electronium', 1), [
       'A A',
@@ -219,7 +203,7 @@ ServerEvents.recipes(event => {
       {
          A: 'etshtinker:trinity_intereactive_alloy',
          C: 'kubejs:aetherium_core',
-         B: 'mekanism:supercharged_coil',
+         B: 'mekanismgenerators:electromagnetic_coil',
       }
    )
    event.shaped(Item.of('cti:upgrade_violium', 1), [
@@ -587,6 +571,48 @@ event.custom({
          C: 'pneumaticcraft:printed_circuit_board',
          B: 'kubejs:carbon_plate',
          A: 'pneumaticcraft:reinforced_air_canister'
+      }
+   )
+
+   event.replaceInput({id: 'botania:invisibility_cloak' }, 'botania:mana_pearl','etshtinker:lightless_alloy')
+
+   event.shaped(Item.of('mekanism:quantum_entangloporter', 4), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         C: 'ae2:quantum_link',
+         B: 'ae2:singularity',
+         A: 'thermal:invar_block'
+      }
+   )
+
+   event.shaped(Item.of('extendedcrafting:advanced_table', 1), [
+      'ABA',
+      ' C ',
+      'DEF'
+   ],
+      {
+         C: 'cloudertinker:orescore',
+         B: '#forge:workbenches',
+         A: 'twilightforest:fiery_ingot',
+         D: 'cloudertinker:timering',
+         E: 'cloudertinker:changeheart',
+         F: 'cloudertinker:sorteye'
+      }
+   )
+   event.shapeless('aether:life_shard', '2x kubejs:life_crystal')
+   event.shapeless('2x kubejs:life_crystal', 'aether:life_shard')
+   event.shaped(Item.of('cti:orb_of_curse', 1), [
+      'ABA',
+      'BCB',
+      'ABA'
+   ],
+      {
+         C: 'kubejs:evil_mechanism',
+         B: 'l2hostility:hostility_essence',
+         A: 'undergarden:forgotten_nugget'
       }
    )
 })

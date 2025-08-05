@@ -189,11 +189,22 @@ ServerEvents.recipes(event => {
 		'tconstruct:smeltery/melting/metal/iron/ingot_1',
 		'tconstruct:smeltery/alloys/molten_pewter',
 		'tconstruct:smeltery/melting/metal/signalum/ingot',
+		'tconstruct:smeltery/alloys/molten_brass',
 		//其他
 		'lightmanscurrency:coinmint',
 		'twilightforest:uncrafting_table',
 		'entangled:block',
 		'megacells:inscriber/bulk_cell_component',
+		'cataclysm:smithing/cursium_chestplate',
+		//多彩合金锭前置锭的部分配方删除
+		'tinkers_reforged:crafting/duralumin_ingot_from_smelting_duralumin_dust',
+		'tinkers_reforged:smeltery/alloy/duralumin',
+		'tinkers_ingenuity:alloys/blood_binding',
+		'tconstruct:smeltery/alloys/molten_slimesteel',
+		'tinkers_thinking:common/chlorophyte/ingot_blasting2',
+		'tinkers_thinking:common/chlorophyte/ingot_blasting',
+		'tinkers_thinking:common/chlorophyte/compound_melting',
+		'kubejs:thermal/smelter/chloro',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -206,8 +217,7 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:item_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:fluid_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:world_transporter_type' })
-	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
-
+	event.remove({id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
 	event.remove({ id: 'drinkbeer:trade_box_normal' })

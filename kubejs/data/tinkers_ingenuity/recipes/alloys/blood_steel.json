@@ -2,21 +2,21 @@
   "type": "tconstruct:alloy",
   "inputs": [
     {
-      "name": "tconstruct:liquid_soul",
-      "amount": 500
+      "name": "tinkerscalibration:moltensoulgold",
+      "amount": 360
     },
     {
       "name": "tconstruct:molten_obsidian",
       "amount": 250
     },
     {
-      "name": "tconstruct:molten_iron",
-      "amount": 450
+      "name": "tconstruct:molten_invar",
+      "amount": 360
     }
   ],
   "result": {
     "fluid": "tinkers_ingenuity:molten_blood_steel",
-    "amount": 90
+    "amount": 180
   },
-  "temperature": 3200
+  "temperature": 2000
 }

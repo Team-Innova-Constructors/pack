@@ -6,7 +6,10 @@
       "item": "avaritia:neutron_gear"
     },
     "C": {
-      "item": "avaritia:crystal_matrix_ingot"
+      "item": "avaritia:crystal_matrix"
+    },
+    "D": {
+      "item": "kubejs:evil_processor"
     },
     "N": {
       "item": "kubejs:cosmic_mechanism"
@@ -17,9 +20,9 @@
   },
   "pattern": [
     "NNNNNNNNN",
-    "NCXXCXXCN",
-    "NXCCBCCXN",
-    "NCXXCXXCN",
+    "NCXXDXXCN",
+    "NXCBXBCXN",
+    "NCXXDXXCN",
     "NNNNNNNNN"
   ],
   "result": {

@@ -34,7 +34,7 @@ ServerEvents.recipes(
                     {item: 'thermal:tin_gear'}
                 ]
             },
-            result: {item: 'avaritia:neutron_gear'}
+            result: Item.of('avaritia:neutron_gear',2)
         })
         event.custom({
             type: 'avaritia:shaped_extreme_craft',
@@ -69,7 +69,7 @@ ServerEvents.recipes(
                     {item: 'kubejs:ancient_circuitboard'}
                 ]
             },
-            result: Item.of('avaritia:neutron_gear',8)
+            result: Item.of('avaritia:neutron_gear',16)
         })
         event.custom({
                     type: 'avaritia:shaped_extreme_craft',
@@ -104,7 +104,7 @@ ServerEvents.recipes(
                             {item: 'avaritia:star_fuel'}
                         ]
                     },
-                    result: Item.of('avaritia:neutron_gear',3)
+                    result: Item.of('avaritia:neutron_gear',12)
                 })
         //中子压印板
         event.custom({
@@ -139,6 +139,200 @@ ServerEvents.recipes(
             },
             result: {item: 'kubejs:neutronium_singularity_press'}
         })
+//恶念板
+        event.custom(
+            {
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "         ",
+    "    A    ",
+    "  AABAA  ",
+    "AACDEDFAA",
+    "GHIJKJIHG",
+    "AALDEDMAA",
+    "  AANAA  ",
+    "    A    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "B": {
+      "item": "cataclysm:music_disc_netherite_monstrosity"
+    },
+    "C": {
+      "item": "cataclysm:music_disc_ancient_remnant"
+    },
+    "D": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "E": {
+      "item": "cataclysm:lava_power_cell"
+    },
+    "F": {
+      "item": "cataclysm:music_disc_the_harbinger"
+    },
+    "G": {
+      "item": "avaritia:star_fuel"
+    },
+    "H": {
+      "item": "cataclysm:ancient_metal_block"
+    },
+    "I": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "J": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "K": {
+      "item": "cataclysm:music_disc_maledictus"
+    },
+    "L": {
+      "item": "cataclysm:music_disc_the_leviathan"
+    },
+    "M": {
+      "item": "cataclysm:music_disc_ender_guardian"
+    },
+    "N": {
+      "item": "cataclysm:music_disc_ignis"
+    }
+  },
+  "result": {
+    "item": "kubejs:evil_processor",
+    "count":20
+  }
+}
+        )
+        event.custom(
+            {
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "         ",
+    "    A    ",
+    "  AABAA  ",
+    "AACDEDFAA",
+    "GHIJKJIHG",
+    "AALDEDMAA",
+    "  AANAA  ",
+    "    A    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "B": {
+      "item": "cataclysm:music_disc_netherite_monstrosity"
+    },
+    "C": {
+      "item": "cataclysm:music_disc_ancient_remnant"
+    },
+    "D": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "E": {
+      "item": "cataclysm:lava_power_cell"
+    },
+    "F": {
+      "item": "cataclysm:music_disc_the_harbinger"
+    },
+    "G": {
+      "item": "cataclysm:void_stone"
+    },
+    "H": {
+      "item": "cataclysm:ancient_metal_block"
+    },
+    "I": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "J": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "K": {
+      "item": "cataclysm:music_disc_maledictus"
+    },
+    "L": {
+      "item": "cataclysm:music_disc_the_leviathan"
+    },
+    "M": {
+      "item": "cataclysm:music_disc_ender_guardian"
+    },
+    "N": {
+      "item": "cataclysm:music_disc_ignis"
+    }
+  },
+  "result": {
+    "item": "kubejs:evil_processor",
+    "count":4
+  }
+}
+        )
+        event.custom(
+            {
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "         ",
+    "    A    ",
+    "  AABAA  ",
+    "AACDEDFAA",
+    "GHIJKJIHG",
+    "AALDEDMAA",
+    "  AANAA  ",
+    "    A    ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "B": {
+      "item": "cataclysm:music_disc_netherite_monstrosity"
+    },
+    "C": {
+      "item": "cataclysm:music_disc_ancient_remnant"
+    },
+    "D": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "E": {
+      "item": "cataclysm:lava_power_cell"
+    },
+    "F": {
+      "item": "cataclysm:music_disc_the_harbinger"
+    },
+    "G": {
+      "item": "kubejs:ancient_circuitboard"
+    },
+    "H": {
+      "item": "cataclysm:ancient_metal_block"
+    },
+    "I": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "J": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "K": {
+      "item": "cataclysm:music_disc_maledictus"
+    },
+    "L": {
+      "item": "cataclysm:music_disc_the_leviathan"
+    },
+    "M": {
+      "item": "cataclysm:music_disc_ender_guardian"
+    },
+    "N": {
+      "item": "cataclysm:music_disc_ignis"
+    }
+  },
+  "result": {
+    "item": "kubejs:evil_processor",
+    "count":24
+  }
+}
+        )
+
         event.remove({id:'avaritia:diamond_lattice'})
         event.shaped('avaritia:diamond_lattice', [
       'BCB',
