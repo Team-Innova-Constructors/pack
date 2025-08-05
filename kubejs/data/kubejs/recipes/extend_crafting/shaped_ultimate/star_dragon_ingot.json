@@ -1,0 +1,46 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "   AAB   ",
+    "  CDEEB  ",
+    "  CEFEG  ",
+    "  BEEDH  ",
+    "   BII   ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    },
+    "B": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "C": {
+      "item": "iceandfire:dragonsteel_ice_ingot"
+    },
+    "D": {
+      "item": "tconstruct:dragon_scale"
+    },
+    "E": {
+      "item": "botania:dragonstone"
+    },
+    "F": {
+      "item": "obscure_api:astral_dust"
+    },
+    "G": {
+      "item": "minecraft:dragon_head"
+    },
+    "H": {
+      "item": "minecraft:dragon_egg"
+    },
+    "I": {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    }
+  },
+  "result": {
+    "item": "cti:star_dragon_ingot"
+  }
+}
