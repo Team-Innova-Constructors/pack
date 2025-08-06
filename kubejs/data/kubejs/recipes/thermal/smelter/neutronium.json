@@ -1,0 +1,21 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": [
+    {
+      "item": "kubejs:overdense_neutronium_ore",
+      "count":1
+    }
+  ],
+  "result": [
+    {
+      "item": "avaritia:neutron_nugget",
+      "count": 4
+    },
+    {
+      "item": "avaritia:neutron_nugget",
+      "chance": 2
+    }
+  ],
+  "experience": 2,
+  "energy": 100000
+}

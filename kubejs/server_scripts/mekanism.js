@@ -1242,11 +1242,11 @@ event.custom({
     "result": [
       {
         "item": "kubejs:atherium_alloy",
-        "count": 2
+        "count": 1
       },
       {
         "item": "kubejs:atherium_alloy",
-        "chance": 2
+        "chance": 1
       }
     ],
     "experience": 2

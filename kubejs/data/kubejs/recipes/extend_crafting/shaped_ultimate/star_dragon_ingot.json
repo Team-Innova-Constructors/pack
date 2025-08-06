@@ -41,6 +41,7 @@
     }
   },
   "result": {
-    "item": "cti:star_dragon_ingot"
+    "item": "cti:star_dragon_ingot",
+    "count":3
   }
 }

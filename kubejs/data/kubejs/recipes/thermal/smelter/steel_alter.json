@@ -3,21 +3,21 @@
     "ingredient": [
       {
         "item": "minecraft:iron_ingot",
-        "count":2
+        "count":4
       },
       {
         "item": "mekanism:dust_coal",
-        "count":4
+        "count":6
       }
     ],
     "result": [
       {
         "item": "thermal:steel_ingot",
-        "count": 1
+        "count": 2
       },
       {
         "item": "thermal:steel_ingot",
-        "chance": 0.25
+        "chance": 1.75
       }
     ],
     "energy": 9600,

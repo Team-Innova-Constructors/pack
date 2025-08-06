@@ -16,19 +16,19 @@
       "item": "enigmaticlegacy:etherium_ingot"
     },
     {
-      "item": "aether:silver_dungeon_key"
+      "item": "aether_redux:veridium_ingot"
     },
     {
       "item": "tinkerscalibration:oraclium_ingot"
     },
     {
-      "item": "aether:gold_dungeon_key"
+      "item": "aether_redux:gravitite_ingot"
     },
     {
-      "item": "undergarden:forgotten_nugget"
+      "item": "iceandfire:dragonsteel_ice_ingot"
     },
     {
-      "item": "undergarden:utherium_crystal"
+      "item": "iceandfire:dragonsteel_fire_ingot"
     },
     {
       "item": "iceandfire:dragonsteel_lightning_ingot"
@@ -45,6 +45,6 @@
   ],
   "result": {
     "item": "etshtinker:exo_alloy",
-    "count": 4
+    "count": 8
   }
 }

@@ -377,10 +377,113 @@ ServerEvents.recipes(event => {
         "count": 1
       },
       {
+         "item": "kubejs:disintegrate_crystal",
+         "count": 1
+      },
+      {
         "item": "kubejs:disintegrate_crystal",
         "chance": 1
       }
     ],
     "experience": 10
+  })
+
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "iceandfire:dragonsteel_fire_block",
+          "count":1
+        },
+        {
+          "item": "iceandfire:fire_dragon_blood",
+          "count":1
+        },
+        
+        {
+          "item": "twilightforest:fiery_ingot",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "iceandfire:dragonsteel_fire_block",
+        "count": 1
+      },
+      {
+         "item": "iceandfire:dragonsteel_fire_ingot",
+         "chance": 0.5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "iceandfire:dragonsteel_ice_block",
+          "count":1
+        },
+        {
+          "item": "iceandfire:ice_dragon_blood",
+          "count":1
+        },
+        {
+          "item": "undergarden:froststeel_ingot",
+          "count":1
+        }
+        
+    ],
+    "result": [
+      {
+        "item": "iceandfire:dragonsteel_ice_block",
+        "count": 1
+      },
+      {
+         "item": "iceandfire:dragonsteel_ice_ingot",
+         "chance": 0.5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "iceandfire:dragonsteel_lightning_block",
+          "count":1
+        },
+        {
+          "item": "iceandfire:lightning_dragon_blood",
+          "count":1
+        },
+        {
+          "item": "kubejs:valkyrie_ingot",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "iceandfire:dragonsteel_lightning_block",
+        "count": 1
+      },
+      {
+         "item": "iceandfire:dragonsteel_lightning_ingot",
+         "chance": 0.5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "experience": 100
   })
 })

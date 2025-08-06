@@ -32,10 +32,10 @@ ServerEvents.recipes(event => {
 
     addSevering("aether:valkyrie","kubejs:broken_victory_medal",2)
 
-    addMelting("aether:valkyrie_boots","kubejs:molten_valkyrie",1800,3250,100)
-    addMelting("aether:valkyrie_helmet","kubejs:molten_valkyrie",2700,3250,125)
-    addMelting("aether:valkyrie_chestplate","kubejs:molten_valkyrie",3600,3250,200)
-    addMelting("aether:valkyrie_leggings","kubejs:molten_valkyrie",3600,3250,175)
+    addMelting("aether:valkyrie_boots","kubejs:molten_valkyrie",3600,3250,100)
+    addMelting("aether:valkyrie_helmet","kubejs:molten_valkyrie",4500,3250,125)
+    addMelting("aether:valkyrie_chestplate","kubejs:molten_valkyrie",7200,3250,200)
+    addMelting("aether:valkyrie_leggings","kubejs:molten_valkyrie",1800,3250,175)
 
     addMelting("aether:phoenix_boots","kubejs:molten_phoenix",360,3475,100)
     addMelting("aether:phoenix_helmet","kubejs:molten_phoenix",450,3475,125)
@@ -50,11 +50,11 @@ ServerEvents.recipes(event => {
     addMelting("aether:gravitite_leggings","kubejs:molten_gravitite",630,2500,100)
     addMelting("aether:gravitite_gloves","kubejs:molten_gravitite",180,2500,100)
 
-    addMelting("aether:valkyrie_hoe","kubejs:molten_valkyrie",900,3250,100)
-    addMelting("aether:valkyrie_axe","kubejs:molten_valkyrie",1800,3250,100)
-    addMelting("aether:valkyrie_shovel","kubejs:molten_valkyrie",450,3250,100)
-    addMelting("aether:valkyrie_pickaxe","kubejs:molten_valkyrie",1800,3250,100)
-    addMelting("aether:valkyrie_gloves","kubejs:molten_valkyrie",900,3250,100)
+    addMelting("aether:valkyrie_hoe","kubejs:molten_valkyrie",1800,3250,100)
+    addMelting("aether:valkyrie_axe","kubejs:molten_valkyrie",2700,3250,100)
+    addMelting("aether:valkyrie_shovel","kubejs:molten_valkyrie",900,3250,100)
+    addMelting("aether:valkyrie_pickaxe","kubejs:molten_valkyrie",2700,3250,100)
+    addMelting("aether:valkyrie_gloves","kubejs:molten_valkyrie",1800,3250,100)
 
     event.custom(
             {

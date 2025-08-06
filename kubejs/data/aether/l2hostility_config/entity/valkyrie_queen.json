@@ -3,7 +3,6 @@
   "list": [
     {
       "blacklist": [
-        "l2hostility:adaptive"
       ],
       "difficulty": {
         "apply_chance": 1.0,

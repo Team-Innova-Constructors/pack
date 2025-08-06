@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:entity_melting",
+  "damage": 10,
+  "entity": {
+    "type":
+      "twilightforest:hydra"
+  },
+  "result": {
+    "amount": 400,
+    "fluid": "cloudertinker:fire_blood"
+  }
+}

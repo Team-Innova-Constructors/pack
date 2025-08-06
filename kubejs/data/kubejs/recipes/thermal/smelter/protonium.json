@@ -9,9 +9,13 @@
   "result": [
     {
       "item": "kubejs:protonium_nugget",
-      "chance": 2.75
+      "count": 2
+    },
+    {
+      "item": "kubejs:protonium_nugget",
+      "chance": 0.75
     }
   ],
   "experience": 2,
-  "energy": 360000
+  "energy": 200000
 }

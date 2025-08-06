@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
     metalMaterial("kubejs:refined_sentrite","kubejs:molten_refined_sentrite","aether_redux:refined_sentrite",2000)
     metalMaterial("kubejs:gravitite","kubejs:molten_gravitite","aether_redux:gravitite_ingot",3000)
     metalMaterial("kubejs:phoenix","kubejs:molten_phoenix","kubejs:phoenix_ingot",3350)
-    customMaterial("kubejs:valkyrie","kubejs:molten_valkyrie","kubejs:valkyrie_ingot",450,90,5,3200)
+    customMaterial("kubejs:valkyrie","kubejs:molten_valkyrie","kubejs:valkyrie_ingot",900,90,10,3200)
     craftableMaterial("kubejs:life_crystal","kubejs:life_crystal")
     metalMaterialNoIngotMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_ingot",4950)
     craftableMaterial("kubejs:carbon_plate","kubejs:carbon_plate")

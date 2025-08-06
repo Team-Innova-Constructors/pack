@@ -183,7 +183,7 @@ ServerEvents.recipes(
       "item": "cataclysm:cursium_ingot"
     },
     "J": {
-      "item": "kubejs:evil_mechanism"
+      "item": "l2hostility:miracle_powder"
     },
     "K": {
       "item": "cataclysm:music_disc_maledictus"
@@ -247,7 +247,7 @@ ServerEvents.recipes(
       "item": "cataclysm:cursium_ingot"
     },
     "J": {
-      "item": "kubejs:evil_mechanism"
+      "item": "l2hostility:miracle_powder"
     },
     "K": {
       "item": "cataclysm:music_disc_maledictus"
@@ -311,7 +311,7 @@ ServerEvents.recipes(
       "item": "cataclysm:cursium_ingot"
     },
     "J": {
-      "item": "kubejs:evil_mechanism"
+      "item": "l2hostility:miracle_powder"
     },
     "K": {
       "item": "cataclysm:music_disc_maledictus"
