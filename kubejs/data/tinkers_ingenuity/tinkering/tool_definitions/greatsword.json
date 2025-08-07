@@ -4,16 +4,10 @@
       "type": "tconstruct:part_stats",
       "parts": [
         "tconstruct:broad_blade",
-        {
-          "item": "tconstruct:broad_blade",
-          "scale": 0.75
-        },
+        "tconstruct:broad_blade",
         "tinkers_ingenuity:gscore",
         "tconstruct:large_plate",
-        {
-          "item": "tconstruct:tough_handle",
-          "scale": 0.5
-        }
+        "tconstruct:tough_handle"
       ]
     },
     {
@@ -44,7 +38,7 @@
     {
       "type": "tconstruct:base_stats",
       "stats": {
-        "tconstruct:attack_damage": 2.2,
+        "tconstruct:attack_damage": 3,
         "tconstruct:attack_speed": 1.1
       }
     },
@@ -52,7 +46,6 @@
       "type": "tconstruct:multiply_stats",
       "multipliers": {
         "tconstruct:attack_speed": 0.9,
-        "tconstruct:attack_damage": 0.9,
         "tconstruct:durability": 2.3
       }
     },
@@ -64,13 +57,8 @@
       }
     },
     {
-      "type": "tconstruct:traits",
-      "traits": [
-        {
-          "level": 1,
-          "name": "cti:sharpblade"
-        }
-      ]
+      "type": "tconstruct:sweep_melee",
+      "range": 2.0
     },
     {
       "type": "tconstruct:tool_actions",
