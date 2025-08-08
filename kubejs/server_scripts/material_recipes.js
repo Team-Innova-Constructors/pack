@@ -207,4 +207,5 @@ ServerEvents.recipes(event => {
     craftableMaterial("kubejs:life_crystal","kubejs:life_crystal")
     metalMaterialNoIngotMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_ingot",4950)
     craftableMaterial("kubejs:carbon_plate","kubejs:carbon_plate")
+    metalMaterial("kubejs:star_dragon","cti:molten_star_dragon","cti:star_dragon_ingot",9273)
 })

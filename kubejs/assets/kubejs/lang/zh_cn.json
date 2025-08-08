@@ -362,6 +362,10 @@
     "material.kubejs.carbon_plate.flavor": "轻便且坚韧的材料",
     "material.kubejs.carbon_plate.encyclopedia": "由碳纤维与坚固的树脂结合形成的复合材料，难以被生命体代谢。",
 
+    "material.kubejs.star_dragon": "星界龙",
+    "material.kubejs.star_dragon.flavor": "游荡于星界之龙",
+    "material.kubejs.star_dragon.encyclopedia": "",
+
 
 
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
