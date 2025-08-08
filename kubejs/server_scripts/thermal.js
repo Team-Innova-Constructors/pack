@@ -104,9 +104,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(4.2), Item.of('minecraft:glowstone_dust').withChance(3.1), Item.of('thermal:quartz_dust').withChance(2.9), Item.of('2x minecraft:clay_ball').withChance(1.8)], 'kubejs:powdered_slag').energy(12000)
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
-  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.1).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.7)
-  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(4.8).secondaryMod(4.8).energyMod(0.72).minChance(0.05).useChance(0.70)
-  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(4.8).secondaryMod(4.8).energyMod(0.72).minChance(0.05).useChance(0.70)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.5).secondaryMod(2.0).energyMod(0.9).minChance(0.05).useChance(0.25)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(5.6).secondaryMod(5.6).energyMod(0.72).minChance(0.05).useChance(0.50)
+  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(5.6).secondaryMod(5.6).energyMod(0.72).minChance(0.05).useChance(0.75)
   //锯木机
   event.recipes.thermal.sawmill('6x create:shaft','create:andesite_alloy')
   //次级能源炉燃烧组件

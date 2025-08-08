@@ -14,7 +14,7 @@
     "tag": "minecraft:water"
   },
   "secondary_result": {
-    "chance": "0.5",
+    "chance": "0.75",
     "item": "immersivepetroleum:paraffin_wax"
   },
   "time": 10
