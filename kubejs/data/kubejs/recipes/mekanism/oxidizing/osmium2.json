@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "output": {
+    "amount": 1800,
+    "gas": "mekanism:osmium"
+  }
+}
