@@ -1,61 +1,40 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "AABCDCBAA",
-    "AEEEEEEEA",
-    "FGGGHGGGF",
-    "IJKJILMLI",
-    "IKNKIMOMI",
-    "IJKJILMLI",
-    "FGGGHGGGF",
-    "AEEEEEEEA",
-    "AABHHHBAA"
+    "   ABA   ",
+    "   CDC   ",
+    "  CDEDC  ",
+    " CDFEFDC ",
+    "CDEEGEEDC",
+    " CDFEFDC ",
+    "  CDEDC  ",
+    "   CDC   ",
+    "   HHH   "
   ],
   "key": {
     "A": {
-      "item": "l2complements:life_essence"
-    },
-    "B": {
-      "item": "cataclysm:ancient_metal_ingot"
-    },
-    "C": {
-      "item": "l2hostility:killer_aura"
-    },
-    "D": {
       "item": "l2complements:void_eye"
     },
-    "E": {
-      "item": "solidarytinker:violane"
+    "B": {
+      "item": "l2hostility:killer_aura"
     },
-    "F": {
+    "C": {
       "item": "industrialforegoing:pink_slime_ingot"
     },
-    "G": {
-      "item": "tconstruct:amethyst_bronze_ingot"
+    "D": {
+      "item": "solidarytinker:violane"
     },
-    "H": {
+    "E": {
+      "item": "l2complements:life_essence"
+    },
+    "F": {
       "item": "minecraft:nether_star"
     },
-    "I": {
-      "item": "industrialforegoing:pink_slime"
-    },
-    "J": {
-      "item": "mekanism:ingot_refined_glowstone"
-    },
-    "K": {
-      "item": "l2complements:totemic_gold_ingot"
-    },
-    "L": {
-      "item": "enigmaticlegacy:etherium_ingot"
-    },
-    "M": {
-      "item": "tinkerscalibration:moonsteel_ingot"
-    },
-    "N": {
-      "item": "kubejs:core_blaze"
-    },
-    "O": {
+    "G": {
       "item": "kubejs:core_diamond"
+    },
+    "H": {
+      "item": "cataclysm:ancient_metal_block"
     }
   },
   "result": {
