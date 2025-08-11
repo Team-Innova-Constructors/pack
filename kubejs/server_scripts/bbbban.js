@@ -183,6 +183,7 @@ ServerEvents.recipes(event => {
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_1',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_2',
+		'cloudertinker:alloy/glavenus1',
 		//匠魂
 		'tconstruct:smeltery/melting/metal/gold/powered_rail',
 		'tconstruct:smeltery/melting/metal/iron/nugget_3',
