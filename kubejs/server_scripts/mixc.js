@@ -404,7 +404,7 @@ ServerEvents.recipes(event => {
       ],
       "result": [
          {
-            "count": 16,
+            "count": 24,
             "item": "thermal:steel_plate"
          }
       ],
@@ -421,7 +421,7 @@ ServerEvents.recipes(event => {
       ],
       "result": [
          {
-            "count": 16,
+            "count": 24,
             "item": "thermal:steel_plate"
          }
       ],
@@ -561,6 +561,8 @@ event.custom({
 })
    event.smithing('extendedcrafting:elite_table','extendedcrafting:advanced_table','mekanism:alloy_reinforced')
    event.smithing('extendedcrafting:ultimate_table','extendedcrafting:elite_table','mekanism:alloy_atomic')
+   event.smithing('extendedcrafting:elite_table','extendedcrafting:advanced_table','twilightforest:blue_castle_rune_brick')
+   event.smithing('extendedcrafting:ultimate_table','extendedcrafting:elite_table','aether_redux:sentry_chip')
 
    event.shaped(Item.of('kubejs:pneumatic_shield', 1), [
       ' C ',
@@ -591,20 +593,18 @@ event.custom({
    event.shaped(Item.of('extendedcrafting:advanced_table', 1), [
       'ABA',
       ' C ',
-      'DEF'
+      'DDD'
    ],
       {
-         C: 'cloudertinker:orescore',
+         C: '#kubejs:tree_treasure_eq',
          B: '#forge:workbenches',
          A: 'twilightforest:fiery_ingot',
-         D: 'cloudertinker:timering',
-         E: 'cloudertinker:changeheart',
-         F: 'cloudertinker:sorteye'
+         D: 'cloudertinker:questiron_ingot'
       }
    )
    event.shapeless('aether:life_shard', '2x kubejs:life_crystal')
    event.shapeless('2x kubejs:life_crystal', 'aether:life_shard')
-   event.shaped(Item.of('cti:orb_of_curse', 1), [
+   event.shaped(Item.of('cti:orb_of_curse', 4), [
       'ABA',
       'BCB',
       'ABA'

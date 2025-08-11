@@ -2,7 +2,9 @@
   "entries": [
     "cti:oracle_drop_oraclum_ingots",
     "cti:oracle_drop_oraclum_nuggets",
-    "cti:lightless_alloy_drop"
+    "cti:lightless_alloy_drop",
+    "cti:extreme_damage_reduce_drops",
+    "cti:temporary_armor_drops"
   ],
   "replace": false
 }

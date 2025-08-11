@@ -298,7 +298,7 @@ ServerEvents.recipes(event => {
   },
   "result": {
     "item": "thermal:machine_frame",
-    "count":4
+    "count":8
   }
 })
 

@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
   },
   "rate": "metal",
   "result": {
-    "amount": 2000,
+    "amount": 1500,
     "fluid": "tconstruct:seared_stone"
   },
   "temperature": 1500,
