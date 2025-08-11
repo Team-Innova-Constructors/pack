@@ -1,6 +1,6 @@
 PlayerEvents.loggedIn(event => {
     var player = event.player;
-    var text = Text.green("工匠：技艺革新[版本0.35d]").hover("感谢游玩，觉得好玩请给个红票，谢谢喵");
+    var text = Text.green("工匠：技艺革新[版本:0.4-rc1]").hover("内部测试版本，禁止流出");
     player.tell(text);
 });
 PlayerEvents.loggedIn(event => {
