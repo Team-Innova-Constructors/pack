@@ -10,6 +10,9 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
     event.recipes.create.mixing(Item.of('create:brass_ingot',2), [Fluid.of('tconstruct:molten_copper').withAmount(90),'create:zinc_ingot'])
 
+    event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x minecraft:redstone']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x thermal:diamond_dust']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x create:powdered_obsidian']).superheated()
 
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
