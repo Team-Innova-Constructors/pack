@@ -12,7 +12,7 @@
         "item": "minecraft:magma_cream"
       },
       "B": {
-        "item": "l2complements:totemic_gold_nugget"
+        "item": "kubejs:broken_victory_medal"
       },
       "C": {
         "item": "kubejs:evil_mechanism"
@@ -21,7 +21,7 @@
         "item": "l2complements:life_essence"
       },
       "E": {
-        "item": "l2complements:totemic_gold_ingot"
+        "item": "aether:victory_medal"
       },
       "F": {
         "item": "l2hostility:witch_droplet"

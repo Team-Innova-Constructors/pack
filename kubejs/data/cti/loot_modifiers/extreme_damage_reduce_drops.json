@@ -16,10 +16,10 @@
       "item": "l2hostility:charm_of_looting_4"
     }
   ],
-  "rankBonus": 0.01,
+  "rankBonus": 0.4,
   "result": {
-    "Count": 1,
-    "id": "kubejs:overchargedultradense"
+    "Count": 2,
+    "id": "etshtinker:activated_chroma_plate"
   },
   "trait": "l2hostility:extreme_damage_reduce"
 }
