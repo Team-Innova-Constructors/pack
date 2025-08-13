@@ -3,9 +3,9 @@
       "tconstruct:binding": {},
       "tconstruct:handle": {
         "durability": 0.25,
-        "melee_damage": 0.75,
-        "melee_speed": 0.5,
-        "mining_speed": -0.2
+        "melee_damage": 0.8,
+        "melee_speed": 0.8,
+        "mining_speed": 0.25
       },
       "tconstruct:head": {
         "durability": 1250,
@@ -20,7 +20,7 @@
       },
       "tconstruct:limb": {
         "accuracy": 0.2,
-        "draw_speed": 0.2,
+        "draw_speed": 0.7,
         "durability": 1250,
         "velocity": 1.25
       },
@@ -30,10 +30,10 @@
     "etshtinker:ionizer": {
       "cooldown": 20,
       "plasmarange": 16,
-      "damagemultiplier": 6
+      "damagemultiplier": 7
     },
     "etshtinker:plasma_generator": {
-      "damagemultiplier": 1.1,
+      "damagemultiplier": 1.2,
       "criticalrate": 0.5,
       "fluidefficiency": 5.0,
       "slash_color": 6
