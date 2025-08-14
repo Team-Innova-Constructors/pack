@@ -56,6 +56,8 @@ ServerEvents.recipes(event => {
     addMelting("aether:valkyrie_pickaxe","kubejs:molten_valkyrie",2700,3250,100)
     addMelting("aether:valkyrie_gloves","kubejs:molten_valkyrie",1800,3250,100)
 
+    addSevering("undergarden:forgotten_guardian","undergarden:forgotten_ingot",2)
+
     event.custom(
             {
                 "type":"tconstruct:casting_table",

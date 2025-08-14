@@ -16,7 +16,7 @@
       "item": "l2hostility:charm_of_looting_3"
     }
   ],
-  "rankBonus": 0.02,
+  "rankBonus": 0.2,
   "result": {
     "Count": 1,
     "id": "etshtinker:lightless_alloy"

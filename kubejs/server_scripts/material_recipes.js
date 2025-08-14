@@ -184,6 +184,42 @@ ServerEvents.recipes(event => {
             }
         )
     }
+
+    function metalMaterialNoNuggetMelt(materialId,fluid,ingot,temp){
+        event.custom(
+            {
+                "type": "tconstruct:material_fluid",
+                "fluid": {
+                    "name": fluid,
+                    "amount": 10
+                },
+                "temperature": temp,
+                "output": materialId
+            }
+        )
+        event.custom(
+            {
+                "type": "tconstruct:material_melting",
+                "temperature": temp,
+                "input": materialId,
+                "result": {
+                    "fluid": fluid,
+                    "amount": 10
+                }
+            }
+        )
+        event.custom(
+            {
+                "type": "tconstruct:material",
+                "ingredient": {
+                    "item": ingot
+                },
+                "value": 1,
+                "needed": 1,
+                "material": materialId
+            }
+        )
+    }
     function craftableMaterial(materialId,ingred_item){
         event.custom(
             {
@@ -205,7 +241,7 @@ ServerEvents.recipes(event => {
     metalMaterial("kubejs:phoenix","kubejs:molten_phoenix","kubejs:phoenix_ingot",3350)
     customMaterial("kubejs:valkyrie","kubejs:molten_valkyrie","kubejs:valkyrie_ingot",900,90,10,3200)
     craftableMaterial("kubejs:life_crystal","kubejs:life_crystal")
-    metalMaterialNoIngotMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_ingot",4950)
+    metalMaterialNoNuggetMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_nugget",4950)
     craftableMaterial("kubejs:carbon_plate","kubejs:carbon_plate")
     metalMaterial("kubejs:star_dragon","cti:molten_star_dragon","cti:star_dragon_ingot",9273)
 })
