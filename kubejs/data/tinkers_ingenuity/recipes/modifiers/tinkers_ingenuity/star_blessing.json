@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+    {
+      "item": "tinkers_ingenuity:splendid_ingot"
+    },
+    {
+      "item": "tinkers_ingenuity:gleiter_ingot"
+    },
+    {
+      "item": "tinkers_ingenuity:knight_crystal_ingot"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "abilities": 2
+  },
+  "level": {
+    "max": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkers_ingenuity:star_blessing"
+}

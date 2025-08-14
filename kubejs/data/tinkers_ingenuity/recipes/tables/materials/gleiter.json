@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "tinkers_ingenuity:glasya_ingot"
+    },
+    {
+      "item": "undergarden:forgotten_ingot"
+    },
+    {
+      "item": "tinkers_ingenuity:ender_residual_interest"
+    },
+    {
+      "item": "undergarden:utherium_crystal"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "tinkers_ingenuity:gleiter_ingot",
+    "count": 1
+  }
+}
