@@ -617,4 +617,43 @@ event.custom({
    )
 
    event.recipes.industrialforegoing.fluid_extractor('thermal:rubberwood_log','thermal:stripped_rubberwood_log',0.5,Fluid.of('industrialforegoing:latex',50))
+   event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ABCBA",
+    "BDEDB",
+    "BFGFB",
+    "AHHHA"
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:life_essence"
+    },
+    "B": {
+      "item": "tconstruct:dragon_scale"
+    },
+    "C": {
+      "item": "minecraft:dragon_breath"
+    },
+    "D": {
+      "item": "l2hostility:hostility_essence"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "F": {
+      "item": "cloudertinker:bloodlust_power"
+    },
+    "G": {
+      "item": "l2complements:shulkerate_ingot"
+    },
+    "H": {
+      "item": "ends_delight:raw_dragon_meat"
+    }
+  },
+  "result": {
+    "item": "minecraft:dragon_egg"
+  }
+})
 })
