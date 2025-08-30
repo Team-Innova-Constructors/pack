@@ -1,0 +1,55 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "mekanism",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "mekanismgenerators",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "etshtinker",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "mekanism:alloy_atomic",
+      "amount_needed": 8
+    },
+    {
+      "item": "mekanism:teleportation_core"
+    },
+    {
+      "item": "mekanism:alloy_atomic",
+      "amount_needed": 8
+    },
+    {
+      "item": "kubejs:dielectric_paste_4",
+      "amount_needed": 8
+    },
+    {
+      "item": "kubejs:dielectric_paste_4",
+      "amount_needed": 8
+    }
+  ],
+  "level": {
+    "max": 100
+  },
+  "result": "solidarytinker:energymultiple",
+  "slots": {
+    "flux": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

@@ -14,56 +14,56 @@
       {
         "chance": 0.95,
         "output": {
-            "count": 6,
+            "count": 8,
           "item": "thermal:sulfur_dust"
         }
       },
       {
         "chance": 0.75,
         "output": {
-            "count": 5,
+            "count": 7,
           "item": "minecraft:raw_iron"
         }
       },
       {
         "chance": 0.78,
         "output": {
-            "count": 4,
+            "count": 6,
           "item": "minecraft:raw_gold"
         }
       },
       {
         "chance": 0.52,
         "output": {
-            "count": 5,
+            "count": 7,
           "item": "createoreexcavation:raw_emerald"
         }
       },
       {
         "chance": 0.62,
         "output": {
-            "count": 4,
+            "count": 6,
           "item": "ae2:certus_quartz_crystal"
         }
       },
       {
         "chance": 0.52,
         "output": {
-            "count": 5,
+            "count": 7,
           "item": "minecraft:amethyst_shard"
         }
       },
       {
         "chance": 0.72,
         "output": {
-            "count": 5,
+            "count": 7,
           "item": "ae2:silicon"
         }
       },
       {
         "chance": 0.62,
         "output": {
-          "count": 18,
+          "count": 20,
           "item": "mekanism:raw_uranium"
         }
       }

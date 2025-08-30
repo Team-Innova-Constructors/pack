@@ -212,6 +212,52 @@ ServerEvents.recipes(event => {
         "time": 40
     })
 
+    event.custom({
+        "type": "pneumaticcraft:fluid_mixer",
+        "fluid_output": {
+            "amount": 4000,
+            "fluid": "cti:lava_overheated"
+        },
+        "input1": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 500,
+            "fluid": "industrialforegoing:biofuel"
+        },
+        "input2": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 4000,
+            "fluid": "cti:lava_heated"
+        },
+        "item_output": {
+            "item": "mekanism:dust_charcoal"
+        },
+        "pressure": 3.0,
+        "time": 40
+    })
+
+    event.custom({
+        "type": "pneumaticcraft:fluid_mixer",
+        "fluid_output": {
+            "amount": 4000,
+            "fluid": "cti:lava_heated"
+        },
+        "input1": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 100,
+            "fluid": "industrialforegoing:latex"
+        },
+        "input2": {
+            "type": "pneumaticcraft:fluid",
+            "amount": 4000,
+            "fluid": "minecraft:lava"
+        },
+        "item_output": {
+            "item": "immersiveengineering:dust_hop_graphite"
+        },
+        "pressure": 3.0,
+        "time": 40
+    })
+
     function ieRefineryNoCat(input1,i1Count,input2,i2count,output,oCount,energy){
         event.custom({
             "type": "immersiveengineering:refinery",
@@ -253,6 +299,7 @@ ServerEvents.recipes(event => {
     }
 
     ieRefineryNoCat("minecraft:lava",10,"tconstruct:blazing_blood",1,"cti:lava_heated",10,100)
+    ieRefineryNoCat("minecraft:lava",10,"forge:hydrogen",10,"cti:lava_heated",10,100)
     ieRefineryWithCat("cti:lava_heated",10,"cti:fuel/diesel_eq",10,"cti:lava_overheated",10,"etshtinker:activated_chroma_plate",480)
 
 })

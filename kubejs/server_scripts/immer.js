@@ -5,68 +5,6 @@ ServerEvents.recipes(event => {
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo_end').time(48000)
   event.recipes.immersiveengineeringBlastFurnace('thermal:steel_ingot','minecraft:iron_ingot','immersiveengineering:slag').time(600)
   event.recipes.immersiveengineeringBlastFurnace('immersiveengineering:storage_steel','minecraft:iron_block','9x immersiveengineering:slag').time(5000)
-  event.custom({
-  "type": "immersiveengineering:mixer",
-  "energy": 3200,
-  "fluid": {
-    "amount": 250,
-    "tag": "forge:phenolic_resin"
-  },
-  "inputs": [
-    {
-      "base_ingredient": {
-        "tag": "forge:dusts/redstone"
-      },
-      "count": 64
-    }
-  ],
-  "result": {
-    "amount": 4000,
-    "fluid": "kubejs:redstone_additive"
-  }
-})
-
-event.custom({
-  "type": "immersiveengineering:mixer",
-  "energy": 3200,
-  "fluid": {
-    "amount": 250,
-    "tag": "forge:phenolic_resin"
-  },
-  "inputs": [
-    {
-      "base_ingredient": {
-        "tag": "forge:dusts/diamond"
-      },
-      "count": 64
-    }
-  ],
-  "result": {
-    "amount": 4000,
-    "fluid": "kubejs:diamond_additive"
-  }
-})
-
-event.custom({
-  "type": "immersiveengineering:mixer",
-  "energy": 3200,
-  "fluid": {
-    "amount": 250,
-    "tag": "forge:phenolic_resin"
-  },
-  "inputs": [
-    {
-      "base_ingredient": {
-        "tag": "forge:dusts/obsidian"
-      },
-      "count": 64
-    }
-  ],
-  "result": {
-    "amount": 4000,
-    "fluid": "kubejs:obsidian_additive"
-  }
-})
 
 event.custom({
   "type": "immersiveengineering:refinery",

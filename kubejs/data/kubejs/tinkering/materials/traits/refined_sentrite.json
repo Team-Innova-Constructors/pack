@@ -13,7 +13,7 @@
     "tconstruct:maille": [
       {
           "name": "etshtinker:solidified",
-          "level": 1
+          "level": 2
         },
       {
         "name": "cti:secondary_armor",
@@ -23,7 +23,7 @@
     "tconstruct:shield_core": [
       {
           "name": "etshtinker:solidified",
-          "level": 1
+          "level": 2
         },
       {
         "name": "cti:secondary_armor",

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "thermal:potion_quiver"
+    },
+    {
+      "item": "l2complements:cursed_droplet"
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "cti:cursed_arrow",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged"
+  }
+}

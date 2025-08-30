@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "cloudertinker:molten_fiery",
+      "amount": 90
+    },
+    {
+      "name": "cloudertinker:molten_dectird",
+      "amount": 90
+    },
+    {
+      "name": "tinkers_ingenuity:molten_knight_crystal",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "cloudertinker:molten_chimera",
+    "amount": 90
+  },
+  "temperature": 2000
+}

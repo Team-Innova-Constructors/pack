@@ -1,0 +1,25 @@
+{
+  "type": "l2hostility:trait_scaled",
+  "chance": 0.0,
+  "conditions": [
+    {
+      "condition": "minecraft:killed_by_player"
+    },
+    {
+      "condition": "l2hostility:trait_and_level",
+      "maxLevel": 1,
+      "minLevel": 1,
+      "trait": "l2hostility:extreme_damage_reduce"
+    },
+    {
+      "condition": "l2hostility:player_has_item",
+      "item": "l2hostility:charm_of_looting_4"
+    }
+  ],
+  "rankBonus": 0.4,
+  "result": {
+    "Count": 2,
+    "id": "etshtinker:activated_chroma_plate"
+  },
+  "trait": "l2hostility:extreme_damage_reduce"
+}
