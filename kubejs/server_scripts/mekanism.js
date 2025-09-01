@@ -1274,4 +1274,8 @@ event.custom({
   electrolysis("ad_astra:cryo_fuel",10,"cti:methane",4,"mekanism:oxygen",6)
   event.replaceInput({id:'mekanism:modification_station'},'mekanism:steel_casing','kubejs:reactor_casing')
   event.replaceInput({id:'mekanism:antiprotonic_nucleosynthesizer'},'mekanism:steel_casing','kubejs:reactor_casing')
+
+  rotary("mekanismgenerators:tritium","mekanismgenerators:tritium")
+  rotary("mekanismgenerators:deuterium","mekanismgenerators:deuterium")
+  electrolysis("mekanism:heavy_water",10,"mekanismgenerators:deuterium",10,"mekanism:oxygen",5)
 })

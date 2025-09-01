@@ -9,6 +9,10 @@
       "level": 1
     },
     {
+      "name": "cti:refined",
+      "level": 2
+    },
+    {
       "name": "cti:auto_shooting",
       "level": 1
     },
@@ -27,6 +31,10 @@
         "name": "etshtinker:electricarmor",
         "level": 1
       },
+      {
+      "name": "cti:refined",
+      "level": 3
+    },
       {
         "name": "etshtinker:extralight",
         "level": 1
