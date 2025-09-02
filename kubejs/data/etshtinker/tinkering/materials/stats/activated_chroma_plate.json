@@ -1,0 +1,10 @@
+{  
+    "stats": {
+        "solidarytinker:soulge_heart": {
+      "detection_range": 20,
+      "exert_times": 20,
+      "attack_frequency": 6,
+      "kill_threshold": 0.25
+    }
+    }
+}
