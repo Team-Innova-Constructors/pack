@@ -1,0 +1,56 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:self_regulate",
+        "level": 1
+      },
+      {
+        "name": "cti:neutron_collect_plus",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:self_regulate",
+        "level": 1
+      },
+      {
+        "name": "cti:neutron_collect_plus",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:crystallizing_armor",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 2
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:self_regulate",
+        "level": 1
+      },
+      {
+        "name": "cti:neutron_collect_plus",
+        "level": 1
+      },
+      {
+        "name": "cti:refined",
+        "level": 1
+      }
+    ]
+  }
+}

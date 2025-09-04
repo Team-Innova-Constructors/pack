@@ -656,4 +656,6 @@ event.custom({
     "item": "minecraft:dragon_egg"
   }
 })
+   event.shapeless('aether:enchanted_gravitite', '9x aether_redux:gravitite_ingot')
+   event.shapeless('9x aether_redux:gravitite_ingot', 'aether:enchanted_gravitite')
 })
