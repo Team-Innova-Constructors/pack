@@ -1201,6 +1201,7 @@ event.custom({
   })
 
   oxidize("aether:ambrosium_shard","cti:concentrated_carbon",250)
+  oxidize("aether:ambrosium_block","cti:concentrated_carbon",2500)
   event.custom({
   "type": "mekanism:reaction",
   "duration": 50,
