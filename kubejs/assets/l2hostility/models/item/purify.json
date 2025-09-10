@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "l2hostility:item/bg",
-    "layer1": "cti:item/trait/purify"
-  }
-}
