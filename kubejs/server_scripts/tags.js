@@ -229,8 +229,11 @@ ServerEvents.tags('item', event => {
   }
   let traits=[
     'l2hostility:oracle',
-  ]
-  for (let i of traits) {
+    'l2hostility:second_phase',
+    'l2hostility:temporary_armor',
+    'l2hostility:extreme_damage_reduce',
+   ]
+for (let i of traits) {
     event.add('l2hostility:trait_item', `${i}`)
   }
   //塑料相关
