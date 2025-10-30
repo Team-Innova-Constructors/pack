@@ -80,7 +80,7 @@ event.recipes.create.sequenced_assembly([
 
 event.recipes.create.sequenced_assembly([
     Item.of('createutilities:void_steel_ingot')
-]  ,Item.of('thermal:steel_ingot'), [
+]  ,Item.of('powah:steel_energized'), [
     event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'minecraft:ender_pearl']),
     event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'create:sturdy_sheet']),
     event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('tconstruct:blazing_blood').withAmount(1000)]),

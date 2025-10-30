@@ -1,14 +1,40 @@
 {
-  "tconstruct:melee_harvest": [
+  "default": [
     {
-      "name": "tinkers_thinking:duritae",
-      "level": 1
+      "level": 1,
+      "name": "tinkers_thinking:duritae"
     }
   ],
-  "tconstruct:armor": [
-    {
-      "name": "cti:wearproof",
-      "level": 1
-    }
-  ]
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "cti:wearproof"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 1,
+        "name": "cti:wearproof"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 1,
+        "name": "cti:wearproof"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 1,
+        "name": "cti:wearproof"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 1,
+        "name": "cti:wearproof"
+      }
+    ]
+  }
 }
